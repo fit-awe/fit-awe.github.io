@@ -1,0 +1,62 @@
+[
+  {
+    "id": "experience",
+    "labels": {
+      "en": "Realism and user experience",
+      "zh": "真实感与用户体验",
+      "fr": "Réalisme et expérience utilisateur",
+      "ar": "الواقعية وتجربة المستخدم",
+      "ja": "リアリティとユーザー体験"
+    }
+  },
+  {
+    "id": "accessibility",
+    "labels": {
+      "en": "Accessibility",
+      "zh": "可访问性",
+      "fr": "Accessibilité",
+      "ar": "إمكانية الوصول",
+      "ja": "アクセシビリティ"
+    }
+  },
+  {
+    "id": "web3d",
+    "labels": {
+      "en": "Web-based 3D",
+      "zh": "基于 Web 的 3D",
+      "fr": "3D sur le Web",
+      "ar": "ثلاثي الأبعاد عبر الويب",
+      "ja": "Web ベースの 3D"
+    }
+  },
+  {
+    "id": "eye-tracking",
+    "labels": {
+      "en": "Eye tracking",
+      "zh": "眼动追踪",
+      "fr": "Suivi oculaire",
+      "ar": "تتبع العين",
+      "ja": "視線追跡"
+    }
+  },
+  {
+    "id": "applications",
+    "labels": {
+      "en": "Critical applications",
+      "zh": "关键领域应用",
+      "fr": "Applications critiques",
+      "ar": "التطبيقات الحيوية",
+      "ja": "重要分野への応用"
+    }
+  },
+  {
+    "id": "games",
+    "labels": {
+      "en": "Immersive games",
+      "zh": "沉浸式游戏",
+      "fr": "Jeux immersifs",
+      "ar": "الألعاب الغامرة",
+      "ja": "没入型ゲーム"
+    }
+  }
+]

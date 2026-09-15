@@ -1,0 +1,288 @@
+{
+  "updated": "2026-09-15",
+  "note": "Original unmatched records retained here for review, with incorrect DOI matches identified. No original research source files were deleted.",
+  "excluded": [
+    {
+      "title": "IntentGaze Dataset: Official Data for \"IntentGaze: Task-Aligned Gaze Correction for Stable and Responsive Gaze Interaction in XR\"",
+      "reason": "not a paper",
+      "source": "https://openalex.org/W7203455170"
+    },
+    {
+      "title": "IntentGaze Dataset: Official Data for \"IntentGaze: Task-Aligned Gaze Correction for Stable and Responsive Gaze Interaction in XR\"",
+      "reason": "not a paper",
+      "source": "https://openalex.org/W7203481224"
+    },
+    {
+      "title": "A method for detecting users' cybersickness levels in virtual reality environments",
+      "reason": "non-paper",
+      "previous_url": "https://doi.org/10.1007/978-3-030-14799-0_55",
+      "resolved_title": "Software Techniques to Reduce Cybersickness Among Users of Immersive Virtual Reality Environments",
+      "resolved_authors": [
+        "Kazimierz Choroś",
+        "Piotr Nippe"
+      ]
+    },
+    {
+      "title": "JITRI-competition video for 长三角集萃创新杯大赛: 比赛视频/脑机元宇宙",
+      "reason": "non-paper",
+      "previous_url": "https://doi.org/10.61189/443129uoysjn",
+      "resolved_title": "元宇宙技术的探索与创新：元宇宙医学",
+      "resolved_authors": [
+        "仕薪 郭",
+        "大伟 孙"
+      ]
+    },
+    {
+      "title": "Belmir Jose De Jesus Junior1*, Léa Perreault1, 2, Marilia KS Lopes1, Marie-Claude Roberge2, Alcyr A. Oliveira3 and Tiago H. Falk1",
+      "reason": "non-paper",
+      "previous_url": "https://doi.org/10.1016/s0002-9394(34)90910-7",
+      "resolved_title": "Jose De Jesus Gonzalez",
+      "resolved_authors": [
+        "Manuel Uribe Troncoso"
+      ]
+    },
+    {
+      "title": "Equipment and method for simulating weight and gravity center in virtual reality environments",
+      "reason": "non-paper",
+      "previous_url": "https://doi.org/10.1109/haptics52432.2022.9765609",
+      "resolved_title": "",
+      "resolved_authors": []
+    },
+    {
+      "title": "IEEE ISMAR 2022-Workshops",
+      "reason": "non-paper",
+      "previous_url": "https://doi.org/10.1109/ismar-adjunct57072.2022.00008",
+      "resolved_title": "IEEE ISMAR 2022 - Workshops",
+      "resolved_authors": []
+    },
+    {
+      "title": "A method for reducing vertigo feeling in virtual reality environments",
+      "reason": "non-paper",
+      "previous_url": "https://doi.org/10.1007/978-3-030-91272-7_3",
+      "resolved_title": "",
+      "resolved_authors": []
+    },
+    {
+      "title": "13th Augmented Human International Conference",
+      "reason": "non-paper",
+      "previous_url": "https://doi.org/10.1145/3532525",
+      "resolved_title": "13th Augmented Human International Conference",
+      "resolved_authors": []
+    },
+    {
+      "title": "Method and system for visualization of three-dimensional geometry in a virtual reality environment",
+      "reason": "non-paper",
+      "previous_url": "https://doi.org/10.1016/s0966-6923(96)00062-2",
+      "resolved_title": "Virtual reality and three-dimensional visualization",
+      "resolved_authors": [
+        "William R Black"
+      ]
+    },
+    {
+      "title": "Textile-based low-cost bending sensor structure design for motion detection with extensive applicability",
+      "reason": "unverified-metadata",
+      "previous_url": "https://doi.org/10.1002/eem2.12041",
+      "resolved_title": "Textile‐Based Strain Sensor for Human Motion Detection",
+      "resolved_authors": [
+        "Jilong Wang",
+        "Chunhong Lu",
+        "Kun Zhang"
+      ]
+    },
+    {
+      "title": "Exploratory 3D Virtual Classrooms for Online Learning and Teaching",
+      "reason": "unverified-metadata",
+      "previous_url": "https://doi.org/10.1007/978-1-4020-6262-9_22",
+      "resolved_title": "An online 3d virtual learning environment for teaching children Mathematics",
+      "resolved_authors": [
+        "H. Mpouta",
+        "F. Paraskeva",
+        "S. Retalis"
+      ]
+    },
+    {
+      "title": "Real-Time Environmental Sensing",
+      "reason": "unverified-metadata",
+      "previous_url": "https://doi.org/10.1038/s41586-022-05356-y",
+      "resolved_title": "Real-time bioelectronic sensing of environmental contaminants",
+      "resolved_authors": [
+        "Joshua T. Atkinson",
+        "Lin Su",
+        "Xu Zhang",
+        "George N. Bennett",
+        "Jonathan J. Silberg",
+        "Caroline M. Ajo-Franklin"
+      ]
+    },
+    {
+      "title": "A visual method of visual field goals in a virtual environment",
+      "reason": "non-paper",
+      "previous_url": "https://doi.org/10.1049/cp:19980322",
+      "resolved_title": "A visual/tactual virtual environment",
+      "resolved_authors": [
+        "P.M. Taylor"
+      ]
+    },
+    {
+      "title": "A control method and control system for interactive behavior in virtual environments",
+      "reason": "non-paper",
+      "previous_url": "https://doi.org/10.1080/1206212x.2015.1079955",
+      "resolved_title": "Interactive scenario control in virtual environments",
+      "resolved_authors": [
+        "Željka Mihajlović",
+        "Siniša Popović",
+        "Krešimir Ćosić"
+      ]
+    },
+    {
+      "title": "The Smart  Speaker Blocker: An Open-Source Privacy Filter for Connected Home Speakers",
+      "reason": "unverified-metadata",
+      "previous_url": "https://doi.org/10.1109/carpathiancc.2016.7501110",
+      "resolved_title": "Open-source smart home modules",
+      "resolved_authors": [
+        "Martin Jurek",
+        "Jaromir Skuta"
+      ]
+    },
+    {
+      "title": "An Investigation of Micro-and Macro-Interaction for 3D Manipulation using Dual-Hand Controller in Virtual Reality Environments.",
+      "reason": "unverified-metadata",
+      "previous_url": "https://doi.org/10.1109/ocit56763.2022.00108",
+      "resolved_title": "Controller free hand interaction in Virtual Reality",
+      "resolved_authors": [
+        "Gaurish Garg",
+        "Shivendra Shivani"
+      ]
+    },
+    {
+      "title": "Towards a Characterization of Complex Visualizations",
+      "reason": "unverified-metadata",
+      "previous_url": "https://doi.org/10.1007/978-3-540-70569-7_26",
+      "resolved_title": "Towards Characterizing Visualizations",
+      "resolved_authors": [
+        "Christophe Hurter",
+        "Stéphane Conversy"
+      ]
+    },
+    {
+      "title": "Beast to Beauty Transition: Design Process for Complex Visual Analytics",
+      "reason": "unverified-metadata",
+      "previous_url": "https://doi.org/10.1109/icgciot.2018.8753051",
+      "resolved_title": "Beast to Beauty data in Virtual Analytics",
+      "resolved_authors": [
+        "Deepa Gupta",
+        "Vaibhav Sharma",
+        "Praveen Kumar"
+      ]
+    },
+    {
+      "title": "A Novel Edge Detection Algorithm for Mobile Robot Path Planning",
+      "reason": "unverified-metadata",
+      "previous_url": "https://doi.org/10.1155/2018/1969834",
+      "resolved_title": "A Novel Edge Detection Algorithm for Mobile Robot Path Planning",
+      "resolved_authors": [
+        "Rami Al-Jarrah",
+        "Mohammad Al-Jarrah",
+        "Hubert Roth"
+      ]
+    },
+    {
+      "title": "Big Data: A Classification of Acquisition and Generation Methods",
+      "reason": "unverified-metadata",
+      "previous_url": "https://doi.org/10.1007/978-3-319-06245-7_3",
+      "resolved_title": "Big Data Generation and Acquisition",
+      "resolved_authors": [
+        "Min Chen",
+        "Shiwen Mao",
+        "Yin Zhang",
+        "Victor C. M. Leung"
+      ]
+    },
+    {
+      "title": "The Potentiality of Blandness: A Journey via the East to Rethinking Interaction",
+      "reason": "unverified-metadata",
+      "previous_url": "https://doi.org/10.1093/oed/8063663219",
+      "resolved_title": "blandness, n.",
+      "resolved_authors": []
+    },
+    {
+      "title": "Message from the WUMS 2014 Workshop Chairs",
+      "reason": "non-paper",
+      "previous_url": "https://doi.org/10.1109/cse.2014.10",
+      "resolved_title": "",
+      "resolved_authors": []
+    },
+    {
+      "title": "Real-time vibration reduction in UAV'S image sensors using efficient Hough transform",
+      "reason": "unverified-metadata",
+      "previous_url": "https://doi.org/10.1299/kikaic.70.1971",
+      "resolved_title": "A Real-Time Image Recognition Method for Downward Stairways Using Hough Transform",
+      "resolved_authors": [
+        "Kakuzi OGAWARA",
+        "Toshiyuki FUKUDA",
+        "Takuya NAKA"
+      ]
+    },
+    {
+      "title": "Real-time environmental sensing-adaptive surfaces for architecture",
+      "reason": "unverified-metadata",
+      "previous_url": "https://doi.org/10.1016/0263-2241(89)90012-2",
+      "resolved_title": "An adaptive real-time spectrum analysis architecture",
+      "resolved_authors": [
+        "C. Narduzzi",
+        "C. Offelli",
+        "D. Petri"
+      ]
+    },
+    {
+      "title": "Responsive, dynamic architectural surfaces: From conceptualization to implementation",
+      "reason": "unverified-metadata",
+      "previous_url": "https://doi.org/10.4324/9780429028366-5",
+      "resolved_title": "From Conceptualization to Implementation",
+      "resolved_authors": [
+        "Amit S Ray",
+        "Manmohan Agarwal",
+        "M Parameswaran"
+      ]
+    },
+    {
+      "title": "Scanning Three-dimensional Objects: a Case Study",
+      "reason": "unverified-metadata",
+      "previous_url": "https://doi.org/10.17116/sudmed20196201143",
+      "resolved_title": "Three-dimensional scanning of the objects of forensic medical expertise",
+      "resolved_authors": [
+        "A. S. Fedorova"
+      ]
+    },
+    {
+      "title": "Design Group Report",
+      "reason": "unverified-metadata",
+      "previous_url": "https://doi.org/10.1142/9789812811707_0006",
+      "resolved_title": "WORKING GROUP REPORT: CODE DESIGN VERSUS PERFORMANCE DESIGN",
+      "resolved_authors": [
+        "A. DEL GROSSO",
+        "Y. KITAGAWA",
+        "T. T. SOONG",
+        "U. DORKA"
+      ]
+    },
+    {
+      "title": "2023 the 3rd International Conference on Educational Technology (ICET 2023)",
+      "reason": "non-paper",
+      "previous_url": "https://doi.org/10.1109/icet59358.2023",
+      "resolved_title": "2023 3rd International Conference on Educational Technology (ICET)",
+      "resolved_authors": []
+    },
+    {
+      "title": "Correction to: Extended Reality",
+      "reason": "correction or front matter",
+      "source": "https://doi.org/10.1007/978-981-95-7195-6_42"
+    },
+    {
+      "title": "Foreword to the special section on Extended Reality Technologies: Innovations and Applications (ICXR 2025)",
+      "reason": "correction or front matter",
+      "source": "https://doi.org/10.1016/j.cag.2026.104745"
+    }
+  ],
+  "merged_same_doi": []
+}
