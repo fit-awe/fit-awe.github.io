@@ -22,7 +22,7 @@ python3 -m http.server 8000
 | --- | --- |
 | 首页简介、照片与区块 | `templates/home.html` |
 | 新闻与首页最新 3 条动态 | `data/news.json`，保留日期的原始精度 |
-| 奖项与首页最新 3 项 | `data/awards.json`，关联论文 ID 并提供官方来源 |
+| 奖项与首页最新 3 项 | `data/awards.json`，关联论文 ID 并提供来源；核查记录见 `data/AWARDS.md` |
 | 全部论文与首页最新 6 篇 | `data/publications.json` |
 | 成员、头像、身份与校友 | 英文 `members/index.html` |
 | 招募介绍与申请材料 | `templates/join.html` |
@@ -51,7 +51,7 @@ python3 scripts/check_content.py
 - About：两张合影轮播、简短介绍、最新动态与奖项、最新论文、产学研合作及招募。首页不展示 Members 区块或独立导师侧栏。
 - Members：Faculty、PhD、MPhil、Alumni；占位头像使用姓名首字母。所有现有名单与个人信息保留。
 - Publications：直接点击研究方向、年份和类型按钮；可组合搜索。`q`、`year`、`type`、`topic` 分享参数兼容刷新、浏览器历史和语言切换；支持 BibTeX。
-- Awards：只维护论文相关奖项或提名，包含成员早期成果；明确展示官方奖项名称、年份、论文及来源。
+- Awards：维护论文相关奖项、提名和学生游戏竞赛决赛入围，包含成员早期成果；明确展示奖项名称、状态、年份、论文及来源。
 - News、Industry–Academia Collaboration、Join Us：与首页、页头和页脚使用共享入口。
 - Teams、Projects 已退出导航；旧链接跳转至 Members 或 Publications。校友旧入口转到 Members 的 Alumni 分区。
 

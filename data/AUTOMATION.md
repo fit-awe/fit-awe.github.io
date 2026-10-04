@@ -44,7 +44,7 @@ python3 scripts/check_content.py
 
 确认新论文后执行不带 `--dry-run` 的更新，再生成与检查。首页与招募模板、共享 JSON 及英文成员页面是正文来源，具体路径见根目录 README；翻译词条在 `data/locales/{zh,fr,ar,ja}.json`。不要只编辑已生成的译文 HTML，否则下次生成会被覆盖。保留人名的拉丁字母拼写，校友名单中的 now、summer、Remote co-supervision 等身份附注会本地化。
 
-首页摘要与完整新闻、奖项页来自同一 JSON。奖项用 `paper_id` 关联目录，`status` 区分 `award` 和 `nomination`；提名会在首页和完整页明确标记。
+首页摘要与完整新闻、奖项页来自同一 JSON。奖项用 `paper_id` 关联目录，`status` 区分 `award`、`nomination` 和 `finalist`；提名、竞赛决赛入围会在首页和完整页明确标记。奖项日期为授奖或提名年份，可与原论文发表年份不同。逐篇核查范围、证据与待核实线索见 [AWARDS.md](AWARDS.md)。月度书目抓取不会仅凭搜索关键词自动宣称论文获奖。
 
 新增页面时同步 `scripts/build_locales.py` 的页面目录；新增语言时同步语言目录、论文界面词条和研究方向名称。漏译检查不会静默回退到英文。
 

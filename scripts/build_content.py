@@ -31,11 +31,15 @@ def news_list(records, page='index.html'):
     return '<ul class="news-list">' + ''.join(rows) + '</ul>'
 
 
+def award_status(award):
+    label = {'nomination': 'Nomination', 'finalist': 'Finalist'}.get(award['status'])
+    return f'<span class="award-nomination">{label}</span>' if label else ''
+
+
 def award_summary(records, papers):
     rows=[]
     for award in records[:3]:
-        nomination='<span class="award-nomination">Nomination</span>' if award['status']=='nomination' else ''
-        rows.append(f'<li data-award-id="{award["id"]}"><p class="award-meta"><span data-bibliographic>{award["date"][:4]} · {esc(award["venue"])}</span><span class="award-label">{esc(award["name"])}</span></p>{nomination}{paper_title(papers[award["paper_id"]])}</li>')
+        rows.append(f'<li data-award-id="{award["id"]}"><p class="award-meta"><span data-bibliographic>{award["date"][:4]} · {esc(award["venue"])}</span><span class="award-label">{esc(award["name"])}</span></p>{award_status(award)}{paper_title(papers[award["paper_id"]])}</li>')
     return '<ul class="award-summary">' + ''.join(rows) + '</ul>'
 
 
@@ -70,9 +74,9 @@ def build():
     cards = []
     for award in awards:
         p = papers[award['paper_id']]
-        note = '<span class="award-nomination">Nomination</span>' if award['status'] == 'nomination' else ''
+        note = award_status(award)
         cards.append(f'<article class="award-card{(" no-figure" if not p.get("image") else "")}" id="award-{award["id"]}" data-award-id="{award["id"]}" data-paper-id="{p["id"]}">{figure(p,"awards/index.html")}<div class="paper-content"><p class="award-meta"><span data-bibliographic>{esc(award["venue"])}</span>{time_tag(award["date"])}</p><h2 class="award-label">{esc(award["name"])}</h2>{note}{paper_title(p)}<p class="paper-authors" dir="auto" data-bibliographic>{authors_html(p)}</p><div class="paper-actions"><a href="{esc(p["url"])}" target="_blank" rel="noopener noreferrer">View publication ↗</a><a href="{esc(award["source"])}" target="_blank" rel="noopener noreferrer">Award source ↗</a></div></div></article>')
-    body = '<main id="main-content" class="page-shell awards-page"><header class="page-heading"><p class="eyebrow">FIT-AWE Lab</p><h1>Awards</h1><p>Paper awards and nominations, including our members’ earlier research.</p></header><div class="award-list">' + ''.join(cards) + '</div></main>'
+    body = '<main id="main-content" class="page-shell awards-page"><header class="page-heading"><p class="eyebrow">FIT-AWE Lab</p><h1>Awards</h1><p>Paper awards, nominations, and student game competition finalists, including our members’ earlier research.</p></header><div class="award-list">' + ''.join(cards) + '</div></main>'
     (ROOT / 'awards').mkdir(exist_ok=True)
     (ROOT / 'awards/index.html').write_text(english_page('awards/index.html', 'Awards', body))
     body = '<main id="main-content" class="page-shell collaboration-page"><header class="page-heading"><p class="eyebrow">FIT-AWE Lab</p><h1>Industry–Academia Collaboration</h1><p>We welcome collaboration in XR, eye tracking, and interactive technologies, from joint research to technology transfer.</p></header>' + industry_cards() + '<div class="collaboration-contact"><h2>Get in touch</h2><p><a href="mailto:hainingliang@hkust-gz.edu.cn">hainingliang@hkust-gz.edu.cn</a></p></div></main>'

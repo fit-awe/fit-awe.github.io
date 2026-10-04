@@ -1,27 +1,272 @@
 [
   {
-    "id":"chi-2026","paper_id":"23bbf1fac2b1","date":"2026-04","venue":"ACM CHI 2026",
-    "name":"Best Paper Honorable Mention Award","status":"award",
-    "source":"https://researchportal.hkust.edu.hk/en/publications/investigating-how-physical-surfaces-can-serve-as-common-region-cu/prizes/",
-    "period":"lab","affiliation_sources":["https://researchportal.hkust.edu.hk/en/publications/investigating-how-physical-surfaces-can-serve-as-common-region-cu/"]
+    "id": "chi-2026",
+    "paper_id": "23bbf1fac2b1",
+    "date": "2026-04",
+    "venue": "ACM CHI 2026",
+    "name": "Best Paper Honorable Mention Award",
+    "status": "award",
+    "source": "https://researchportal.hkust.edu.hk/en/publications/investigating-how-physical-surfaces-can-serve-as-common-region-cu/prizes/",
+    "period": "lab",
+    "affiliation_sources": [
+      "https://researchportal.hkust.edu.hk/en/publications/investigating-how-physical-surfaces-can-serve-as-common-region-cu/"
+    ],
+    "verified_on": "2026-10-05"
   },
   {
-    "id":"ismar-2025","paper_id":"a1e35859ba8b","date":"2025-10","venue":"IEEE ISMAR 2025",
-    "name":"Honorable Mention — Best Paper Award","status":"award",
-    "source":"https://www.ieeeismar.net/2025/program/awards/",
-    "period":"lab","affiliation_sources":["https://www.ieeeismar.net/2025/program/awards/"]
+    "id": "vr-2026-dodgeui",
+    "paper_id": "af2c265a9793",
+    "date": "2026-03",
+    "venue": "IEEE VR 2026",
+    "name": "Best Poster Award",
+    "status": "award",
+    "source": "https://ieeevr.org/2026/awards/conference-awards/",
+    "period": "lab",
+    "affiliation_sources": [
+      "https://yizou-joey.github.io/index.html"
+    ],
+    "evidence_sources": [
+      "https://yizou-joey.github.io/index.html"
+    ],
+    "source_type": "conference",
+    "verified_on": "2026-10-05"
   },
   {
-    "id":"iss-2024","paper_id":"b95cfdd87e6f","date":"2024-10","venue":"ACM ISS 2024",
-    "name":"Honourable Mention","status":"award",
-    "source":"https://iss2024.acm.org/info/awards",
-    "period":"lab","affiliation_sources":["https://rongkaishi.github.io/assets/papers/rk-ISSmos24.pdf"],
-    "provenance_note":"The published paper lists HKUST(GZ) and Xi’an Jiaotong-Liverpool University affiliations. Part of the work was conducted at XJTLU. The award conference took place 27–30 October 2024, after the lab’s September 2024 establishment."
+    "id": "vrst-2025-tunnels",
+    "paper_id": "df50d9bd1d49",
+    "date": "2025-11",
+    "venue": "ACM VRST 2025",
+    "name": "Best Paper Award Nomination",
+    "status": "nomination",
+    "source": "https://vvise.iat.sfu.ca/pubs/amini2025tunnelsvswires",
+    "period": "lab",
+    "affiliation_sources": [
+      "https://vvise.iat.sfu.ca/pubs/amini2025tunnelsvswires"
+    ],
+    "evidence_sources": [
+      "https://vvise.iat.sfu.ca/people/wolfgang-stuerzlinger/ws-cv"
+    ],
+    "source_type": "coauthor-lab",
+    "verified_on": "2026-10-05"
   },
   {
-    "id":"vrcai-2022","paper_id":"1504f86e91dd","date":"2022","venue":"ACM VRCAI 2022",
-    "name":"Best Paper Award","status":"award",
-    "source":"https://kclpure.kcl.ac.uk/portal/en/publications/teleoperation-of-a-fast-omnidirectional-unmanned-ground-vehicle-i/",
-    "period":"earlier-member-work","affiliation_sources":["https://kclpure.kcl.ac.uk/portal/en/publications/teleoperation-of-a-fast-omnidirectional-unmanned-ground-vehicle-i/"]
+    "id": "ismar-2025",
+    "paper_id": "a1e35859ba8b",
+    "date": "2025-10",
+    "venue": "IEEE ISMAR 2025",
+    "name": "Honorable Mention — Best Paper Award",
+    "status": "award",
+    "source": "https://www.ieeeismar.net/2025/program/awards/",
+    "period": "lab",
+    "affiliation_sources": [
+      "https://www.ieeeismar.net/2025/program/awards/"
+    ],
+    "verified_on": "2026-10-05"
+  },
+  {
+    "id": "tog-2025-sickness",
+    "paper_id": "b98c2e32123d",
+    "date": "2025-05",
+    "venue": "IEEE Transactions on Games 2025",
+    "name": "Outstanding Paper Award Nomination",
+    "status": "nomination",
+    "source": "https://xuwenge.github.io/",
+    "period": "earlier-member-work",
+    "affiliation_sources": [
+      "https://doi.org/10.1109/TG.2022.3178539"
+    ],
+    "evidence_sources": [
+      "https://jimmux.com/index.php/imue/deputy_editor_profile",
+      "https://transactions.games/awards/paper-awards"
+    ],
+    "source_type": "coauthor",
+    "provenance_note": "The coauthor announcement is dated May 2025. The paper was published online in 2022 and in the 2023 journal volume. The journal award list does not name this paper as a winner or honorable mention; it is displayed only as a nomination.",
+    "verified_on": "2026-10-05"
+  },
+  {
+    "id": "icdm-2024-impact",
+    "paper_id": "824f92e12d36",
+    "date": "2024-12-11",
+    "venue": "IEEE ICDM 2024",
+    "name": "10-Year Highest-Impact Paper Award",
+    "status": "award",
+    "source": "https://icdm.zhonghuapu.com/Awards/Impact.shtml",
+    "period": "earlier-member-work",
+    "affiliation_sources": [
+      "https://doi.org/10.1109/ICDM.2015.84"
+    ],
+    "evidence_sources": [
+      "https://icdm.zhonghuapu.com/PPT/ICDM2024-Awards.pdf"
+    ],
+    "source_type": "conference",
+    "provenance_note": "The 2024 award recognizes the 2015 paper. The award ceremony slides identify 11 December 2024; the award date is not the publication year.",
+    "verified_on": "2026-10-05"
+  },
+  {
+    "id": "iss-2024",
+    "paper_id": "b95cfdd87e6f",
+    "date": "2024-10",
+    "venue": "ACM ISS 2024",
+    "name": "Honourable Mention",
+    "status": "award",
+    "source": "https://iss2024.acm.org/info/awards",
+    "period": "lab",
+    "affiliation_sources": [
+      "https://rongkaishi.github.io/assets/papers/rk-ISSmos24.pdf"
+    ],
+    "provenance_note": "The published paper lists HKUST(GZ) and Xi’an Jiaotong-Liverpool University affiliations. Part of the work was conducted at XJTLU. The award conference took place 27–30 October 2024, after the lab’s September 2024 establishment.",
+    "verified_on": "2026-10-05"
+  },
+  {
+    "id": "ismar-2024-authentication",
+    "paper_id": "d9b9f745081c",
+    "date": "2024-10",
+    "venue": "IEEE ISMAR 2024",
+    "name": "Best Paper Award Nomination",
+    "status": "nomination",
+    "source": "https://www.ieeeismar.net/2024/index.html%3Fp=995.html",
+    "period": "lab",
+    "affiliation_sources": [
+      "https://pubmed.ncbi.nlm.nih.gov/39255157/"
+    ],
+    "evidence_sources": [
+      "https://www.ieeeismar.net/2024/",
+      "https://hai-ning-liang.github.io/publications/"
+    ],
+    "source_type": "conference",
+    "provenance_note": "The official Wednesday program marks paper J1043 with a star and defines this marker as a Best Paper Award nominee. ISMAR ran 21–25 October 2024. This is a nomination, not a claim that the paper won.",
+    "verified_on": "2026-10-05"
+  },
+  {
+    "id": "vr-2024-isolation",
+    "paper_id": "65ae45d86f04",
+    "date": "2024-03",
+    "venue": "IEEE VR 2024",
+    "name": "Best Paper Honorable Mention Award",
+    "status": "award",
+    "source": "https://ieeevr.org/2024/awards/conference-awards/",
+    "period": "earlier-member-work",
+    "affiliation_sources": [
+      "https://ieeevr.org/2024/awards/conference-awards/"
+    ],
+    "evidence_sources": [
+      "https://www.bcu.ac.uk/research/computing/digital-media-technology/members-and-partners/research-staff/wenge-xu"
+    ],
+    "source_type": "conference",
+    "verified_on": "2026-10-05"
+  },
+  {
+    "id": "vrcai-2022",
+    "paper_id": "1504f86e91dd",
+    "date": "2022",
+    "venue": "ACM VRCAI 2022",
+    "name": "Best Paper Award",
+    "status": "award",
+    "source": "https://kclpure.kcl.ac.uk/portal/en/publications/teleoperation-of-a-fast-omnidirectional-unmanned-ground-vehicle-i/",
+    "period": "earlier-member-work",
+    "affiliation_sources": [
+      "https://kclpure.kcl.ac.uk/portal/en/publications/teleoperation-of-a-fast-omnidirectional-unmanned-ground-vehicle-i/"
+    ],
+    "verified_on": "2026-10-05"
+  },
+  {
+    "id": "chiplay-2021-myopic",
+    "paper_id": "1bd56ba7cf7d",
+    "date": "2021-10",
+    "venue": "ACM CHI PLAY 2021",
+    "name": "Student Game Design Competition",
+    "status": "finalist",
+    "source": "https://xiaohang-tang.github.io/",
+    "period": "earlier-member-work",
+    "affiliation_sources": [
+      "https://arxiv.org/abs/2109.05292"
+    ],
+    "evidence_sources": [
+      "https://xiaohang-tang.github.io/assets/css/xiaohang_cv.pdf",
+      "https://www.xiang-li.phd/research"
+    ],
+    "source_type": "coauthor",
+    "provenance_note": "The coauthor publication page and CV explicitly mark this exact paper as SGDC Finalist. Finalist is a competition result, not a Best Paper Award.",
+    "verified_on": "2026-10-05"
+  },
+  {
+    "id": "chiplay-2021-relicvr",
+    "paper_id": "16a941d67c9b",
+    "date": "2021",
+    "venue": "ACM CHI PLAY 2021",
+    "name": "Student Game Design Competition",
+    "status": "finalist",
+    "source": "https://cn.linkedin.com/in/rongkai-shi-aa64862a0",
+    "period": "earlier-member-work",
+    "affiliation_sources": [
+      "https://arxiv.org/abs/2109.14185"
+    ],
+    "evidence_sources": [
+      "https://rongkaishi.github.io/assets/CV.pdf",
+      "https://dblp1.uni-trier.de/db/conf/chiplay/chiplay2021.html"
+    ],
+    "source_type": "coauthor",
+    "provenance_note": "Matched from coauthor Rongkai Shi’s 2021 SGDC Finalist honor and his CV, which identifies RelicVR as the 2021 competition project [P1] mentored with Yilin Liu and Yiming Lin. This is a cross-source match rather than an exact-title award-list entry. The CV is search-indexed but currently returns 404, so the public award source links to his author profile. Only the year is retained because the conference and profile report different months.",
+    "verified_on": "2026-10-05"
+  },
+  {
+    "id": "chiplay-2020-virusboxing",
+    "paper_id": "4a4d55e8ba85",
+    "date": "2020-11",
+    "venue": "ACM CHI PLAY 2020",
+    "name": "Student Game Design Competition",
+    "status": "finalist",
+    "source": "https://uk.linkedin.com/in/wenge-xu",
+    "period": "earlier-member-work",
+    "affiliation_sources": [
+      "https://arxiv.org/abs/2010.03781"
+    ],
+    "evidence_sources": [
+      "https://www.bcu.ac.uk/research/computing/digital-media-technology/members-and-partners/research-staff/wenge-xu",
+      "https://www.xiang-li.phd/research",
+      "https://xuwenge.github.io/publications.html"
+    ],
+    "source_type": "coauthor",
+    "provenance_note": "Matched from Wenge Xu’s November 2020 CHI PLAY competition finalist honor and the same-year VirusBoxing entry, identified as Student Game Design Competition by coauthor Xiang Li. This is the matching coauthored competition paper, not a paper-prize win.",
+    "verified_on": "2026-10-05"
+  },
+  {
+    "id": "vr-2020-boundary",
+    "paper_id": "cfe6e133df1a",
+    "date": "2020-03",
+    "venue": "IEEE VR 2020",
+    "name": "Best Conference Paper Award Nomination",
+    "status": "nomination",
+    "source": "https://ieeevr.org/2020/awards/conference.html",
+    "period": "earlier-member-work",
+    "affiliation_sources": [
+      "https://www.bcu.ac.uk/research/computing/digital-media-technology/members-and-partners/research-staff/wenge-xu"
+    ],
+    "evidence_sources": [
+      "https://www.xiang-li.phd/research"
+    ],
+    "source_type": "conference",
+    "provenance_note": "The official conference list places this title under Best Conference Paper Nominees. A generic biography calls the 2020 result an honorable mention; the official nomination classification takes precedence.",
+    "verified_on": "2026-10-05"
+  },
+  {
+    "id": "tale-2013-merit",
+    "paper_id": "eff25cb642b7",
+    "date": "2013-08",
+    "venue": "IEEE TALE 2013",
+    "name": "Merit Paper Award",
+    "status": "award",
+    "source": "https://web.engg.hku.hk/home/e-news/201309/1.htm",
+    "period": "earlier-member-work",
+    "affiliation_sources": [
+      "https://hub.hku.hk/handle/10722/198772"
+    ],
+    "evidence_sources": [
+      "https://tale-conference.org/awards",
+      "https://www.eee.hku.hk/~culei/curriculum_vitae.pdf"
+    ],
+    "source_type": "university",
+    "provenance_note": "HKU Engineering names the exact catalog title and identifies the prize as Merit Paper Award. The conference archive lists a shorter title variant with the same three authors; both refer to the TALE 2013 paper DOI 10.1109/TALE.2013.6654499.",
+    "verified_on": "2026-10-05"
   }
 ]

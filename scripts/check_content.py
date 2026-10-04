@@ -17,8 +17,21 @@ alumni_count=len(source_members.select('.members-alumni .alumni-list li'))
 assert len({a['id'] for a in awards})==len(awards)
 for award in awards:
  assert award['paper_id'] in by_id
- assert award['status'] in ['award','nomination']
+ assert award['status'] in ['award','nomination','finalist']
  assert award['source'].startswith('https://') and award['affiliation_sources']
+
+badge_text={
+ 'en':{'nomination':'Nomination','finalist':'Finalist'},
+ 'zh':{'nomination':'提名','finalist':'决赛入围'},
+ 'fr':{'nomination':'Nomination','finalist':'Finaliste'},
+ 'ar':{'nomination':'ترشيح','finalist':'متأهل للنهائيات'},
+ 'ja':{'nomination':'ノミネート','finalist':'ファイナリスト'},
+}
+
+def check_award_status(card,award,lang):
+ badge=card.select_one('.award-nomination')
+ if award['status']=='award':assert badge is None
+ else:assert badge and badge.text==badge_text[lang][award['status']],(award['id'],lang,'incorrect award status')
 
 for lang in LANGUAGES:
  base=ROOT/('' if lang=='en' else lang)
@@ -27,6 +40,7 @@ for lang in LANGUAGES:
  assert [c['data-paper-id'] for c in latest]==[p['id'] for p in latest_publications(papers)]
  assert [c['data-news-id'] for c in home.select('[data-news-id]')]==[n['id'] for n in news[:3]]
  assert [c['data-award-id'] for c in home.select('[data-award-id]')]==[a['id'] for a in awards[:3]]
+ for card,award in zip(home.select('[data-award-id]'),awards[:3]):check_award_status(card,award,lang)
  fullnews=BeautifulSoup((base/'allnews.html').read_text(),'html.parser')
  assert [c['data-news-id'] for c in fullnews.select('[data-news-id]')]==[n['id'] for n in news]
  assert [c.text for c in fullnews.select('time')]==[format_date(n['date'],lang) for n in news]
@@ -37,6 +51,7 @@ for lang in LANGUAGES:
   assert card['data-paper-id']==award['paper_id']
   assert award['source'] in [a['href'] for a in card.select('a')]
   assert card.select_one('time').text==format_date(award['date'],lang)
+  check_award_status(card,award,lang)
  for card in latest+cards:
   p=by_id[card['data-paper-id']]
   assert card.select_one('.paper-title a').text==p['title']

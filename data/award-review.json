@@ -1,0 +1,3078 @@
+{
+  "checked_on": "2026-10-05",
+  "catalog_size": 393,
+  "queried_papers": 393,
+  "confirmed_records": 15,
+  "counts": {
+    "award": 8,
+    "nomination": 4,
+    "finalist": 3
+  },
+  "scope": "All 393 publications present in the official website catalog. Later alumni publications outside this catalog are not automatically imported.",
+  "method": "Individual exact-title searches with award, nomination, finalist, honourable, honorable and prize keywords; cross-check positive matches against conference lists, university reports, and original author/lab records.",
+  "limitations": [
+    "No-confirmed-record means no reliable award record was established in this review, not proof that the paper has never received recognition.",
+    "Search indexes can conflate an award heading with another paper on the same page. Search snippets alone are not treated as exact-title prize evidence.",
+    "Google Scholar and several ACM/conference/profile pages block automated reads. Indexed original author statements are identified as such.",
+    "RelicVR and VirusBoxing are cross-matched from coauthor competition honors and the corresponding competition entries; Myopic Bike has an explicit exact-title finalist label."
+  ],
+  "papers": [
+    {
+      "paper_id": "74b22478e4fe",
+      "title": "3D-PV: Enhancing PV power prediction by modeling spatial uncertainty under dynamic shading conditions",
+      "query": "\"3D-PV: Enhancing PV power prediction by modeling spatial uncertainty under dynamic shading conditions\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "2565e392e0fb",
+      "title": "A study on attention guidance in AR for target localization",
+      "query": "\"A study on attention guidance in AR for target localization\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "e13602bf8f5b",
+      "title": "Affective Diary: A Longitudinal Study of a Virtual Reality Diary System for Emotion Expression and Reflection",
+      "query": "\"Affective Diary: A Longitudinal Study of a Virtual Reality Diary System for Emotion Expression and Reflection\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "f385bb674a4c",
+      "title": "An exploration of collaboration strategies across levels of co-presence in VR exergames",
+      "query": "\"An exploration of collaboration strategies across levels of co-presence in VR exergames\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "629c91ae7e82",
+      "title": "AppLooper: An Agentic Application Engineering Loop for Accountable Release with Virtual-User Feedback",
+      "query": "\"AppLooper: An Agentic Application Engineering Loop for Accountable Release with Virtual-User Feedback\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "c2b2b2cd148d",
+      "title": "Bridging human perception and virtual reality: Toward a vision-oriented framework for immersive displays",
+      "query": "\"Bridging human perception and virtual reality: Toward a vision-oriented framework for immersive displays\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "55ca9f509b10",
+      "title": "Can My Robot Relax Me? Comparing Robotic and Human Self-Touch for Stress Reduction",
+      "query": "\"Can My Robot Relax Me? Comparing Robotic and Human Self-Touch for Stress Reduction\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "4c7cebd64fdf",
+      "title": "Conflict Resolution Strategies for Co-Manipulation of Virtual Objects Under Non-Disjoint Conditions",
+      "query": "\"Conflict Resolution Strategies for Co-Manipulation of Virtual Objects Under Non-Disjoint Conditions\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "5ba1a3f67cd6",
+      "title": "Contextual Recovery: Guiding Hand Tracking Failures Recovery in Mixed Reality via VLM Reasoning",
+      "query": "\"Contextual Recovery: Guiding Hand Tracking Failures Recovery in Mixed Reality via VLM Reasoning\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": [],
+      "search_lead_urls": [
+        "https://yizou-joey.github.io/index.html"
+      ]
+    },
+    {
+      "paper_id": "1d9ed0ec5045",
+      "title": "D-Model: Understanding the Effect of Expected Delays in Moving Target Selection in VR",
+      "query": "\"D-Model: Understanding the Effect of Expected Delays in Moving Target Selection in VR\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "af2c265a9793",
+      "title": "DodgeUI: An Adaptive Interface for Mitigating Attentional Conflict via Implicit Motion Cues in Mobile AR",
+      "query": "\"DodgeUI: An Adaptive Interface for Mitigating Attentional Conflict via Implicit Motion Cues in Mobile AR\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "confirmed-recognition",
+      "award_ids": [
+        "vr-2026-dodgeui"
+      ],
+      "search_lead_urls": [
+        "https://yizou-joey.github.io/index.html",
+        "https://ieeevr.org/2026/awards/conference-awards/"
+      ]
+    },
+    {
+      "paper_id": "23eb6f1f3334",
+      "title": "Editorial: New frontiers in immersive technologies: expanding the scope of telepresence, monitoring, and intervention",
+      "query": "\"Editorial: New frontiers in immersive technologies: expanding the scope of telepresence, monitoring, and intervention\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "400581758cdf",
+      "title": "Evaluating Aesthetic Experiences via Immersive Virtual Environments and EEG: Toward the Integration of Neuroscience Tools in Design Assessment",
+      "query": "\"Evaluating Aesthetic Experiences via Immersive Virtual Environments and EEG: Toward the Integration of Neuroscience Tools in Design Assessment\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "159277f7d9a2",
+      "title": "Exploring Freehand Selection Techniques of Polyhedron Faces in VR Environments",
+      "query": "\"Exploring Freehand Selection Techniques of Polyhedron Faces in VR Environments\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": [],
+      "search_lead_urls": [
+        "https://xuning-hu.github.io/assets/pdfs/Xuning%27cv25.pdf"
+      ]
+    },
+    {
+      "paper_id": "f54dd5cfc9cc",
+      "title": "FlexiCamAR: Enhancing Everyday Camera Interactions on AR Glasses with a Flexible Additional Viewpoint",
+      "query": "\"FlexiCamAR: Enhancing Everyday Camera Interactions on AR Glasses with a Flexible Additional Viewpoint\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "c2345e1d5dd2",
+      "title": "From Adaptation to Intelligence: A Systematic Review of Data, Strategies, and Impact in Personalized VR",
+      "query": "\"From Adaptation to Intelligence: A Systematic Review of Data, Strategies, and Impact in Personalized VR\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "935a6c0da3fe",
+      "title": "Grand Challenges in Cross Reality",
+      "query": "\"Grand Challenges in Cross Reality\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "6805d1fd6af4",
+      "title": "Human-Inspired Perspectives: A Survey on AI Long-Term Memory",
+      "query": "\"Human-Inspired Perspectives: A Survey on AI Long-Term Memory\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "923a05e236a1",
+      "title": "Improving the Steering Law Throughput Calculation by Defining Effective Parameters for 3D Virtual Environments",
+      "query": "\"Improving the Steering Law Throughput Calculation by Defining Effective Parameters for 3D Virtual Environments\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "eea1024cfaad",
+      "title": "IntentionAR: An Intention-Driven Camera-Projector System for AR Assembly Guidance",
+      "query": "\"IntentionAR: An Intention-Driven Camera-Projector System for AR Assembly Guidance\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "23bbf1fac2b1",
+      "title": "Investigating How Physical Surfaces Can Serve as Common-Region Cues for Perceptual Grouping of Virtual Elements in Augmented Reality",
+      "query": "\"Investigating How Physical Surfaces Can Serve as Common-Region Cues for Perceptual Grouping of Virtual Elements in Augmented Reality\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "confirmed-recognition",
+      "award_ids": [
+        "chi-2026"
+      ],
+      "search_lead_urls": [
+        "https://researchportal.hkust.edu.hk/en/publications/investigating-how-physical-surfaces-can-serve-as-common-region-cu/prizes/",
+        "https://hci.top/en/papers/chi/223202/2026",
+        "https://researchportal.hkust.edu.hk/en/prizes/best-paper-honorable-mention-award-11/",
+        "https://xuning-hu.github.io/publications",
+        "https://xuning-hu.github.io/assets/pdfs/Xuning%27cv25.pdf"
+      ]
+    },
+    {
+      "paper_id": "facfee715450",
+      "title": "Is Seeing Believing and Hearing Trusting? Exploring the Role of Visual and Vocal Cues in Shaping User Trust in VR News Anchors",
+      "query": "\"Is Seeing Believing and Hearing Trusting? Exploring the Role of Visual and Vocal Cues in Shaping User Trust in VR News Anchors\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "7c4a6cf32044",
+      "title": "Mu-nopoly : Design and Evaluation of a Board Game for Museum Edutainment",
+      "query": "\"Mu-nopoly : Design and Evaluation of a Board Game for Museum Edutainment\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "7f9ac43feb87",
+      "title": "NoctuaXR: Enhancing Video See-Through Perception for XR in Low-Light Environments with Real-Time Ambient-Aware Adaptation",
+      "query": "\"NoctuaXR: Enhancing Video See-Through Perception for XR in Low-Light Environments with Real-Time Ambient-Aware Adaptation\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "a7588d264e6d",
+      "title": "Observable Social Life Spaces: Exploring User Interpretations of agent-side life context in human-agent interaction",
+      "query": "\"Observable Social Life Spaces: Exploring User Interpretations of agent-side life context in human-agent interaction\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "b76ef8a5fab4",
+      "title": "Optimal Raycast Selection Feedback in VR for Older Adults: A Design and Analysis Study",
+      "query": "\"Optimal Raycast Selection Feedback in VR for Older Adults: A Design and Analysis Study\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "7b0d3806d6ea",
+      "title": "Overcoming Translation Delays: Towards Better Subtitle Design for Foreign Language Conversations in Extended Reality",
+      "query": "\"Overcoming Translation Delays: Towards Better Subtitle Design for Foreign Language Conversations in Extended Reality\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "0c1527f5109f",
+      "title": "Pluskin: Interactive Machine-Embroidered Plush Skin for Creative and Affective Robot-Human Interaction",
+      "query": "\"Pluskin: Interactive Machine-Embroidered Plush Skin for Creative and Affective Robot-Human Interaction\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "826f5976baba",
+      "title": "PointerHalo: Hands-Free XR App Navigation Using Subtle Head Movements",
+      "query": "\"PointerHalo: Hands-Free XR App Navigation Using Subtle Head Movements\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "bb341e9961e2",
+      "title": "RayFlex: Inducing Weight Perception Through Raycast Pseudo-Haptics in Virtual Reality",
+      "query": "\"RayFlex: Inducing Weight Perception Through Raycast Pseudo-Haptics in Virtual Reality\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "95d7dab9080c",
+      "title": "Reevaluating the Gaze Cursor in Virtual Reality: A Comparative Analysis of Cursor Visibility, Confirmation Mechanisms, and Task Paradigms",
+      "query": "\"Reevaluating the Gaze Cursor in Virtual Reality: A Comparative Analysis of Cursor Visibility, Confirmation Mechanisms, and Task Paradigms\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "abfa0b7e926c",
+      "title": "Reorienting with the Bare Hand: Gesture-Based Techniques for Orientation-Enabled Teleportation in Virtual Reality",
+      "query": "\"Reorienting with the Bare Hand: Gesture-Based Techniques for Orientation-Enabled Teleportation in Virtual Reality\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "5e866d331fef",
+      "title": "Resolution deficits drive simulator sickness and compromise reading performance in virtual environments",
+      "query": "\"Resolution deficits drive simulator sickness and compromise reading performance in virtual environments\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "6987ffd4d1f2",
+      "title": "Rubbing Interaction With Two-Handed Virtual Reality Controllers",
+      "query": "\"Rubbing Interaction With Two-Handed Virtual Reality Controllers\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "07bd4504d87b",
+      "title": "ScaleFree: Dynamic KDE for Multiscale Point Cloud Exploration in VR",
+      "query": "\"ScaleFree: Dynamic KDE for Multiscale Point Cloud Exploration in VR\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": [],
+      "search_lead_urls": [
+        "https://yulingyun.com/"
+      ]
+    },
+    {
+      "paper_id": "98e5400c67d6",
+      "title": "Tap-to-Adapt: Learning User-Aligned Response Timing for Speech Agents",
+      "query": "\"Tap-to-Adapt: Learning User-Aligned Response Timing for Speech Agents\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "93957c6e68b8",
+      "title": "The perceptual gap between video see-through displays and natural human vision",
+      "query": "\"The perceptual gap between video see-through displays and natural human vision\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "9edf39b2bb3c",
+      "title": "Understanding the Effect of Latency on User Performance of Target Selection in Virtual Reality",
+      "query": "\"Understanding the Effect of Latency on User Performance of Target Selection in Virtual Reality\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "2ecb07ef7106",
+      "title": "Virtual reality applications in computer science education: scoping review",
+      "query": "\"Virtual reality applications in computer science education: scoping review\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "f8533ad92a6b",
+      "title": "Would You Like to Visit My World? Cultivating Perceived Equality in Human-Agent Interaction via Observable Social Life Spaces",
+      "query": "\"Would You Like to Visit My World? Cultivating Perceived Equality in Human-Agent Interaction via Observable Social Life Spaces\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "4728d6bdd9d6",
+      "title": "XR Intergenerational Exergaming: Exploring the Complementary Roles of VR, MR, and Environmental Context",
+      "query": "\"XR Intergenerational Exergaming: Exploring the Complementary Roles of VR, MR, and Environmental Context\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "9ae483e22108",
+      "title": "\"One Body, But Four Hands\": Exploring the Role of Virtual Hands in Virtual Co-embodiment",
+      "query": "\"One Body, But Four Hands: Exploring the Role of Virtual Hands in Virtual Co-embodiment\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "11f0a006c1c8",
+      "title": "3DStoryline: immersive visual storytelling",
+      "query": "\"3DStoryline: immersive visual storytelling\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "9527a1168a92",
+      "title": "A comprehensive survey of specularity detection: state-of-the-art techniques and breakthroughs",
+      "query": "\"A comprehensive survey of specularity detection: state-of-the-art techniques and breakthroughs\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "5823f86f1254",
+      "title": "Adapting to the User: A Systematic Review of Personalized Interaction in VR",
+      "query": "\"Adapting to the User: A Systematic Review of Personalized Interaction in VR\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "37a351e07e2f",
+      "title": "AirWhisper: enhancing virtual reality experience via visual-airflow multimodal feedback",
+      "query": "\"AirWhisper: enhancing virtual reality experience via visual-airflow multimodal feedback\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "bffb776102d4",
+      "title": "ArtifactVM: Exploring Culturally Meaningful Presentations and User Interactions in Virtual Museums",
+      "query": "\"ArtifactVM: Exploring Culturally Meaningful Presentations and User Interactions in Virtual Museums\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "9b75c1f4364c",
+      "title": "AutoMR: A Universal Time Series Motion Recognition Pipeline",
+      "query": "\"AutoMR: A Universal Time Series Motion Recognition Pipeline\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "629944d075ee",
+      "title": "CaneXR: Building a Cane-Based XR Controller for Knowledge Work",
+      "query": "\"CaneXR: Building a Cane-Based XR Controller for Knowledge Work\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "13c73c8675c1",
+      "title": "CD-UDepth: Complementary dual-source information fusion for underwater monocular depth estimation",
+      "query": "\"CD-UDepth: Complementary dual-source information fusion for underwater monocular depth estimation\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "8cc52c82e54c",
+      "title": "CountingFruit: Real-Time 3D Fruit Counting with Language-Guided Semantic Gaussian Splatting",
+      "query": "\"CountingFruit: Real-Time 3D Fruit Counting with Language-Guided Semantic Gaussian Splatting\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "c424092a6fee",
+      "title": "Design Considerations for Virtual Self-Representation in Educational Games",
+      "query": "\"Design Considerations for Virtual Self-Representation in Educational Games\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "2b6add2dfee6",
+      "title": "Design for emotional well-being: A body-centred interactive textile design approach",
+      "query": "\"Design for emotional well-being: A body-centred interactive textile design approach\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "1f63b00db51e",
+      "title": "Duo Streamers: A Streaming Gesture Recognition Framework",
+      "query": "\"Duo Streamers: A Streaming Gesture Recognition Framework\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "4e9a4d51cea6",
+      "title": "Effective Use of Digital Textbooks: A Hybrid Framework of Acceptance and Self-Determination in Higher Education Programming Courses",
+      "query": "\"Effective Use of Digital Textbooks: A Hybrid Framework of Acceptance and Self-Determination in Higher Education Programming Courses\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "e6ee75b8e966",
+      "title": "Evaluating and Modeling the Effect of Frame Rate on Steering Performance in Virtual Reality",
+      "query": "\"Evaluating and Modeling the Effect of Frame Rate on Steering Performance in Virtual Reality\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "f93adb8c6c8e",
+      "title": "Examining the Use of DanMu for Crowdsourcing Control in Virtual Gatherings",
+      "query": "\"Examining the Use of DanMu for Crowdsourcing Control in Virtual Gatherings\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "2a9cedd6788d",
+      "title": "Experience of Control in Loaded Lower Limb Exergaming Through Movement Augmentation in Virtual Reality",
+      "query": "\"Experience of Control in Loaded Lower Limb Exergaming Through Movement Augmentation in Virtual Reality\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "80565b7985d8",
+      "title": "Experimental and numerical investigation on near-field temperature and surface CO2 concentrations of buried dense phase CO2 pipeline leakage",
+      "query": "\"Experimental and numerical investigation on near-field temperature and surface CO2 concentrations of buried dense phase CO2 pipeline leakage\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "346e49e43007",
+      "title": "Exploring and Modeling Gaze-Based Steering Behavior in Virtual Reality",
+      "query": "\"Exploring and Modeling Gaze-Based Steering Behavior in Virtual Reality\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": [],
+      "search_lead_urls": [
+        "https://xuning-hu.github.io/assets/pdfs/Xuning%27cv25.pdf"
+      ]
+    },
+    {
+      "paper_id": "a1e35859ba8b",
+      "title": "Exploring and Modeling the Effects of Eye-Tracking Accuracy and Precision on Gaze-Based Steering in Virtual Environments",
+      "query": "\"Exploring and Modeling the Effects of Eye-Tracking Accuracy and Precision on Gaze-Based Steering in Virtual Environments\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "confirmed-recognition",
+      "award_ids": [
+        "ismar-2025"
+      ],
+      "search_lead_urls": [
+        "https://rcg-vvise.dcr.sfu.ca/people/wolfgang-stuerzlinger/ws-cv",
+        "https://xuning-hu.github.io/publications",
+        "https://xuning-hu.github.io/assets/pdfs/Xuning%27cv25.pdf"
+      ]
+    },
+    {
+      "paper_id": "6956baee02f4",
+      "title": "Exploring the Feasibility of Gaze-Based Navigation Across Path Types",
+      "query": "\"Exploring the Feasibility of Gaze-Based Navigation Across Path Types\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "d1b39c59f953",
+      "title": "FootPorting: Exploring Foot-Based Teleportation Techniques for Seated Users in Confined Spaces",
+      "query": "\"FootPorting: Exploring Foot-Based Teleportation Techniques for Seated Users in Confined Spaces\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "17074894feb2",
+      "title": "HeyThere: Design and Evaluation of an Augmented Reality Multiplayer Social Game",
+      "query": "\"HeyThere: Design and Evaluation of an Augmented Reality Multiplayer Social Game\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "fba17610e7e7",
+      "title": "Impact of Visual Embellishments on Player Experience in Virtual Reality Exergames",
+      "query": "\"Impact of Visual Embellishments on Player Experience in Virtual Reality Exergames\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "08c7e0fee5d7",
+      "title": "iPillowPal: Exploring affective gesture-based interactive textile design for long-distance relationship couples",
+      "query": "\"iPillowPal: Exploring affective gesture-based interactive textile design for long-distance relationship couples\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "c63e29894db9",
+      "title": "Learning from neuroscience: integrating users in design processes using brain imaging tools and virtual reality",
+      "query": "\"Learning from neuroscience: integrating users in design processes using brain imaging tools and virtual reality\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "da687f06a27e",
+      "title": "No More Head-Turning: Exploring Passthrough Techniques for Addressing Rear Interruptions from the Front in VR",
+      "query": "\"No More Head-Turning: Exploring Passthrough Techniques for Addressing Rear Interruptions from the Front in VR\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "19766240bd5c",
+      "title": "Optimizing Moving Target Selection in VR by Integrating Proximity-Based Feedback Types and Modalities",
+      "query": "\"Optimizing Moving Target Selection in VR by Integrating Proximity-Based Feedback Types and Modalities\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": [],
+      "search_lead_urls": [
+        "https://xuning-hu.github.io/assets/pdfs/Xuning%27cv25.pdf"
+      ]
+    },
+    {
+      "paper_id": "5772e99ee1d6",
+      "title": "Predicting Ray Pointer Landing Poses in VR Using Multimodal LSTM-Based Neural Networks",
+      "query": "\"Predicting Ray Pointer Landing Poses in VR Using Multimodal LSTM-Based Neural Networks\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "02832f6ff028",
+      "title": "ResponsiveView: Enhancing 3D Artifact Viewing Experience in VR Museums",
+      "query": "\"ResponsiveView: Enhancing 3D Artifact Viewing Experience in VR Museums\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "2ed52df86ecb",
+      "title": "Say it or AI it: Evaluating Hands-Free Text Correction in Virtual Reality",
+      "query": "\"Say it or AI it: Evaluating Hands-Free Text Correction in Virtual Reality\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "8a830890be69",
+      "title": "SpatialTouch: Exploring Spatial Data Visualizations in Cross-Reality",
+      "query": "\"SpatialTouch: Exploring Spatial Data Visualizations in Cross-Reality\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": [],
+      "search_lead_urls": [
+        "https://lixiangzhao98.github.io/assets/Publications/CV/CV_Lixiang_Zhao.pdf"
+      ]
+    },
+    {
+      "paper_id": "4da91e706179",
+      "title": "Special issue editorial: Recent advances in spatial user interaction",
+      "query": "\"Special issue editorial: Recent advances in spatial user interaction\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "9c1c8505f788",
+      "title": "The Exhausted Brain Theory: An Energy-Based Framework for Understanding Visually Induced Motion Sickness",
+      "query": "\"The Exhausted Brain Theory: An Energy-Based Framework for Understanding Visually Induced Motion Sickness\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "df50d9bd1d49",
+      "title": "Tunnels vs. Wires: A Comparative Analysis of Two 3D Steering Tasks in Virtual Environments",
+      "query": "\"Tunnels vs. Wires: A Comparative Analysis of Two 3D Steering Tasks in Virtual Environments\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "confirmed-recognition",
+      "award_ids": [
+        "vrst-2025-tunnels"
+      ],
+      "search_lead_urls": [
+        "https://vvise.iat.sfu.ca/pubs/amini2025tunnelsvswires",
+        "https://rcg-vvise.dcr.sfu.ca/people/wolfgang-stuerzlinger/ws-cv",
+        "https://www.linkedin.com/posts/mohammadreza-amini-15b49719a_happy-to-present-my-paper-tunnels-vs-wires-activity-7397472938582716417-lemw"
+      ]
+    },
+    {
+      "paper_id": "45f54368c8f2",
+      "title": "User Acceptance of 720° Virtual Tour Systems for Online Museum Experiences: Effects of Immersion, Interaction, and Personal Innovativeness",
+      "query": "\"User Acceptance of 720° Virtual Tour Systems for Online Museum Experiences: Effects of Immersion, Interaction, and Personal Innovativeness\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": [],
+      "search_lead_urls": [
+        "https://link.springer.com/book/10.1007/978-3-031-61018-9"
+      ]
+    },
+    {
+      "paper_id": "ad505dc670d4",
+      "title": "VisualCodeMOOC: A course platform for algorithms and data structures integrating a conversational agent for enhanced learning through dynamic visualizations",
+      "query": "\"VisualCodeMOOC: A course platform for algorithms and data structures integrating a conversational agent for enhanced learning through dynamic visualizations\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "887682ec7169",
+      "title": "VRFlipAuth: Usable and Secure Authentication based on Flip Game in Virtual Reality",
+      "query": "\"VRFlipAuth: Usable and Secure Authentication based on Flip Game in Virtual Reality\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "a0ed0a6ff08b",
+      "title": "AdaptiveVoice: Cognitively Adaptive Voice Interface for Driving Assistance",
+      "query": "\"AdaptiveVoice: Cognitively Adaptive Voice Interface for Driving Assistance\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "d9b9f745081c",
+      "title": "Analysis and Design of Efficient Authentication Techniques for Password Entry with the Qwerty Keyboard for VR Environments",
+      "query": "\"Analysis and Design of Efficient Authentication Techniques for Password Entry with the Qwerty Keyboard for VR Environments\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "confirmed-recognition",
+      "award_ids": [
+        "ismar-2024-authentication"
+      ],
+      "search_lead_urls": [
+        "https://www.ieeeismar.net/2024/index.html%3Fp%3D995.html"
+      ]
+    },
+    {
+      "paper_id": "65ae45d86f04",
+      "title": "Breaking the Isolation: Exploring the Impact of Passthrough in Shared Spaces on Player Performance and Experience in VR Exergames",
+      "query": "\"Breaking the Isolation: Exploring the Impact of Passthrough in Shared Spaces on Player Performance and Experience in VR Exergames\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "confirmed-recognition",
+      "award_ids": [
+        "vr-2024-isolation"
+      ]
+    },
+    {
+      "paper_id": "4e397222290c",
+      "title": "ChemistryVR: Enhancing Educational Experiences through Virtual Chemistry Lab Simulations",
+      "query": "\"ChemistryVR: Enhancing Educational Experiences through Virtual Chemistry Lab Simulations\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "bf056aa20dcc",
+      "title": "Correction to: Feasibility and performance enhancement of collaborative control of unmanned ground vehicles via virtual reality",
+      "query": "\"Correction to: Feasibility and performance enhancement of collaborative control of unmanned ground vehicles via virtual reality\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "63717bd5c6ab",
+      "title": "CovisitVM: Cross-Reality Virtual Museum Visiting",
+      "query": "\"CovisitVM: Cross-Reality Virtual Museum Visiting\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "b79744cce433",
+      "title": "Cross-cultural factors influencing the adoption of virtual reality for practical learning",
+      "query": "\"Cross-cultural factors influencing the adoption of virtual reality for practical learning\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "798e2b0498e6",
+      "title": "CubeMuseum AR: A Tangible Augmented Reality Interface for Cultural Heritage Learning and Museum Gifting",
+      "query": "\"CubeMuseum AR: A Tangible Augmented Reality Interface for Cultural Heritage Learning and Museum Gifting\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "b610760fd1b9",
+      "title": "Data Cubes in Hand: A Design Space of Tangible Cubes for Visualizing 3D Spatio-Temporal Data in Mixed Reality",
+      "query": "\"Data Cubes in Hand: A Design Space of Tangible Cubes for Visualizing 3D Spatio-Temporal Data in Mixed Reality\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "7207f29f8dd3",
+      "title": "Data-Driven Recommendation in Brain-Metaverse Interaction",
+      "query": "\"Data-Driven Recommendation in Brain-Metaverse Interaction\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "6e71ab300f9d",
+      "title": "Design and Evaluation of Controller-Based Raycasting Methods for Efficient Alphanumeric and Special Character Entry in Virtual Reality",
+      "query": "\"Design and Evaluation of Controller-Based Raycasting Methods for Efficient Alphanumeric and Special Character Entry in Virtual Reality\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "30ef007e7d81",
+      "title": "Design and Evaluation of Controller-based Raycasting Methods for Secure and Efficient Text Entry in Virtual Reality",
+      "query": "\"Design and Evaluation of Controller-based Raycasting Methods for Secure and Efficient Text Entry in Virtual Reality\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "ab798449e7c3",
+      "title": "Designing an AR-Based Materials Library for Higher Education: Offering a Four-Know Learning Structure for Design and Engineering Students",
+      "query": "\"Designing an AR-Based Materials Library for Higher Education: Offering a Four-Know Learning Structure for Design and Engineering Students\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "2e6369f0ef67",
+      "title": "Designing Stick-Based Extended Reality Controllers: A Participatory Approach",
+      "query": "\"Designing Stick-Based Extended Reality Controllers: A Participatory Approach\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "0c18bd17cc1c",
+      "title": "Diffusion of Surface CO2 in Coalfield Fire Areas by Surface Temperature and Wind",
+      "query": "\"Diffusion of Surface CO2 in Coalfield Fire Areas by Surface Temperature and Wind\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "e053cfccfeab",
+      "title": "E-textiles for emotion interaction: a scoping review of trends and opportunities",
+      "query": "\"E-textiles for emotion interaction: a scoping review of trends and opportunities\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "c9e86635a1fe",
+      "title": "Effect of Reaching Movement Modulation on Experience of Control in Virtual Reality",
+      "query": "\"Effect of Reaching Movement Modulation on Experience of Control in Virtual Reality\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "9cba61c47c19",
+      "title": "Effects of audience familiarity on anxiety in a virtual reality public speaking training tool",
+      "query": "\"Effects of audience familiarity on anxiety in a virtual reality public speaking training tool\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": [],
+      "search_lead_urls": [
+        "https://m.xingguanglianmeng.com/scholar/en/persons/AirongWang"
+      ]
+    },
+    {
+      "paper_id": "3aa8cbb09945",
+      "title": "Enhancement of Co-located Shared VR Experiences: Representing Non-HMD Observers on Both HMD and 2D Screens",
+      "query": "\"Enhancement of Co-located Shared VR Experiences: Representing Non-HMD Observers on Both HMD and 2D Screens\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "b95cfdd87e6f",
+      "title": "Experimental Analysis of Freehand Multi-object Selection Techniques in Virtual Reality Head-Mounted Displays",
+      "query": "\"Experimental Analysis of Freehand Multi-object Selection Techniques in Virtual Reality Head-Mounted Displays\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "confirmed-recognition",
+      "award_ids": [
+        "iss-2024"
+      ],
+      "search_lead_urls": [
+        "https://iss2024.acm.org/details/iss-2024-papers/5/Experimental-Analysis-of-Freehand-Multi-object-Selection-Techniques-in-Virtual-Realit",
+        "https://yulingyun.com/category/uncategorized/"
+      ]
+    },
+    {
+      "paper_id": "4c278ca57f6f",
+      "title": "Exploration of exocentric perspective interfaces for virtual reality collaborative tasks",
+      "query": "\"Exploration of exocentric perspective interfaces for virtual reality collaborative tasks\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "fab788a7fd53",
+      "title": "Exploration of Foot-based Text Entry Techniques for Virtual Reality Environments",
+      "query": "\"Exploration of Foot-based Text Entry Techniques for Virtual Reality Environments\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "ca1b382e8e40",
+      "title": "Exploring and Modeling Directional Effects on Steering Behavior in Virtual Reality",
+      "query": "\"Exploring and Modeling Directional Effects on Steering Behavior in Virtual Reality\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "a867c12d3f89",
+      "title": "Exploring Controller-based Techniques for Precise and Rapid Text Selection in Virtual Reality",
+      "query": "\"Exploring Controller-based Techniques for Precise and Rapid Text Selection in Virtual Reality\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "9478e2d34101",
+      "title": "Exploring Embodied Asymmetric Two-Handed Interactions for Immersive Data Exploration",
+      "query": "\"Exploring Embodied Asymmetric Two-Handed Interactions for Immersive Data Exploration\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "d205d1391d89",
+      "title": "Exploring how gender-anonymous voice avatars influence women's performance in online computing group work",
+      "query": "\"Exploring how gender-anonymous voice avatars influence women's performance in online computing group work\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": [],
+      "search_lead_urls": [
+        "https://people.csail.mit.edu/dkao/",
+        "https://web.ics.purdue.edu/~cmousas/papers/jour24-IJHCS-GenderAnonymousVoices.pdf"
+      ]
+    },
+    {
+      "paper_id": "ab3e09a5d2f5",
+      "title": "Exploring the Effect of Display Type on Co-Located Multiple Player Gameplay Performance, Immersion, Social Presence, and Behavior Patterns",
+      "query": "\"Exploring the Effect of Display Type on Co-Located Multiple Player Gameplay Performance, Immersion, Social Presence, and Behavior Patterns\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "needs-review",
+      "award_ids": []
+    },
+    {
+      "paper_id": "d1e89256c958",
+      "title": "Exploring the Effects of Spatial Constraints and Curvature for 3D Piloting in Virtual Environments",
+      "query": "\"Exploring the Effects of Spatial Constraints and Curvature for 3D Piloting in Virtual Environments\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "8e34c8243a3f",
+      "title": "Exploring the Impact of Passthrough on VR Exergaming in Public Environments: A Field Study",
+      "query": "\"Exploring the Impact of Passthrough on VR Exergaming in Public Environments: A Field Study\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "8ce28f01e0ce",
+      "title": "Exploring the influence of audience familiarity on speaker anxiety and performance in virtual reality and real-life presentation contexts",
+      "query": "\"Exploring the influence of audience familiarity on speaker anxiety and performance in virtual reality and real-life presentation contexts\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "bbe73837c815",
+      "title": "Feasibility and performance enhancement of collaborative control of unmanned ground vehicles via virtual reality",
+      "query": "\"Feasibility and performance enhancement of collaborative control of unmanned ground vehicles via virtual reality\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "d5dfba639b67",
+      "title": "From reader to experiencer: Design and evaluation of a VR data story for promoting the situation awareness of public health threats",
+      "query": "\"From reader to experiencer: Design and evaluation of a VR data story for promoting the situation awareness of public health threats\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "1638ffee6dab",
+      "title": "Hands-free multi-type character text entry in virtual reality",
+      "query": "\"Hands-free multi-type character text entry in virtual reality\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "8baaf27af1b6",
+      "title": "HI-Net: A novel histopathologic image segmentation model for metastatic breast cancer via lightweight dataset construction",
+      "query": "\"HI-Net: A novel histopathologic image segmentation model for metastatic breast cancer via lightweight dataset construction\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "324c1c37ecf0",
+      "title": "Impact of Tutorial Modes with Different Time Flow Rates in Virtual Reality Games",
+      "query": "\"Impact of Tutorial Modes with Different Time Flow Rates in Virtual Reality Games\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "504fc61af1ed",
+      "title": "In-Situ exploration of emotion regulation via smart clothing: an empirical study of healthcare workers in their work environment",
+      "query": "\"In-Situ exploration of emotion regulation via smart clothing: an empirical study of healthcare workers in their work environment\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "be2b6ffaeccb",
+      "title": "Investigating Creation Perspectives and Icon Placement Preferences for On-Body Menus in Virtual Reality",
+      "query": "\"Investigating Creation Perspectives and Icon Placement Preferences for On-Body Menus in Virtual Reality\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "db41cf97441a",
+      "title": "MagicMap: Enhancing Indoor Navigation Experience in VR Museums",
+      "query": "\"MagicMap: Enhancing Indoor Navigation Experience in VR Museums\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "9384913c1a8e",
+      "title": "MemoryVR: Collecting and Sharing Memories in Personal Virtual Museums",
+      "query": "\"MemoryVR: Collecting and Sharing Memories in Personal Virtual Museums\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "needs-review",
+      "award_ids": [],
+      "search_lead_urls": [
+        "https://hiherlab.github.io/docs/projects/MemoryVR"
+      ]
+    },
+    {
+      "paper_id": "ed5bcc48597e",
+      "title": "MeTACAST: Target- and Context-Aware Spatial Selection in VR",
+      "query": "\"MeTACAST: Target- and Context-Aware Spatial Selection in VR\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "3ff582ec245b",
+      "title": "Omnidirectional Virtual Visual Acuity: A User-Centric Visual Clarity Metric for Virtual Reality Head-Mounted Displays and Environments",
+      "query": "\"Omnidirectional Virtual Visual Acuity: A User-Centric Visual Clarity Metric for Virtual Reality Head-Mounted Displays and Environments\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "ed0fbca459b0",
+      "title": "OnArmQWERTY: An Empirical Evaluation of On-Arm Tap Typing for AR HMDs",
+      "query": "\"OnArmQWERTY: An Empirical Evaluation of On-Arm Tap Typing for AR HMDs\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "6ce7e94260c3",
+      "title": "Rethinking Defaults: Examining the Effects of Default Camera Height and Angle on Embodied Presence in Cinematic Virtual Reality",
+      "query": "\"Rethinking Defaults: Examining the Effects of Default Camera Height and Angle on Embodied Presence in Cinematic Virtual Reality\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "2178dc37d9de",
+      "title": "Secure and Memorable Authentication Using Dynamic Combinations of 3D Objects in Virtual Reality",
+      "query": "\"Secure and Memorable Authentication Using Dynamic Combinations of 3D Objects in Virtual Reality\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "dd33e38b96b3",
+      "title": "Special issue on technologies and applications for ubiquitous interactive media",
+      "query": "\"Special issue on technologies and applications for ubiquitous interactive media\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "72f5e5d543d4",
+      "title": "Stick-To-XR: Understanding Stick-Based User Interface Design for Extended Reality",
+      "query": "\"Stick-To-XR: Understanding Stick-Based User Interface Design for Extended Reality\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "5bb47180d54a",
+      "title": "Tangible Progress: Employing Visual Metaphors and Physical Interfaces in AI-based English Language Learning",
+      "query": "\"Tangible Progress: Employing Visual Metaphors and Physical Interfaces in AI-based English Language Learning\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "ccdf83541d31",
+      "title": "TouchMark: Partial Tactile Feedback Design for Upper Limb Rehabilitation in Virtual Reality",
+      "query": "\"TouchMark: Partial Tactile Feedback Design for Upper Limb Rehabilitation in Virtual Reality\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "fc99d24da6c6",
+      "title": "Understanding the Relationship Between User Game Preferences and Depressive Symptoms: A Pilot Study",
+      "query": "\"Understanding the Relationship Between User Game Preferences and Depressive Symptoms: A Pilot Study\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "19ca8e69c057",
+      "title": "User-Defined Gesture Interactions for VR Museums: An Elicitation Study",
+      "query": "\"User-Defined Gesture Interactions for VR Museums: An Elicitation Study\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "392e4ebb96fb",
+      "title": "Virtual reality analytics map (VRAM): A conceptual framework for detecting mental disorders using virtual reality data",
+      "query": "\"Virtual reality analytics map (VRAM): A conceptual framework for detecting mental disorders using virtual reality data\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "964208cc23c5",
+      "title": "Virtual reality and electroencephalography in architectural design: A systematic review of empirical studies",
+      "query": "\"Virtual reality and electroencephalography in architectural design: A systematic review of empirical studies\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "1ce0924948bb",
+      "title": "Visual augmentation of live-streaming images in virtual reality to enhance teleoperation of unmanned ground vehicles",
+      "query": "\"Visual augmentation of live-streaming images in virtual reality to enhance teleoperation of unmanned ground vehicles\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "7b881fcb124a",
+      "title": "Visual harmony: text-visual interplay in circular infographics",
+      "query": "\"Visual harmony: text-visual interplay in circular infographics\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "4775b55ae124",
+      "title": "A mixed reality framework for microsurgery simulation with visual-tactile perception",
+      "query": "\"A mixed reality framework for microsurgery simulation with visual-tactile perception\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "3b18572bda9b",
+      "title": "A study of the effect of star glyph parameters on value estimation and comparison",
+      "query": "\"A study of the effect of star glyph parameters on value estimation and comparison\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": [],
+      "search_lead_urls": [
+        "https://typora-1304458321.cos.ap-guangzhou.myqcloud.com/YihanHou-CV.pdf"
+      ]
+    },
+    {
+      "paper_id": "ad846de2cd1d",
+      "title": "A Study of Zooming, Interactive Lenses and Overview+Detail Techniques in Collaborative Map-based Tasks",
+      "query": "\"A Study of Zooming, Interactive Lenses and Overview+Detail Techniques in Collaborative Map-based Tasks\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": [],
+      "search_lead_urls": [
+        "https://pvis2023.github.io/pvis2023/pages/program"
+      ]
+    },
+    {
+      "paper_id": "fe87a081baef",
+      "title": "A survey on image enhancement for Low-light images",
+      "query": "\"A survey on image enhancement for Low-light images\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "e6339c4d0746",
+      "title": "Acceptance of Virtual Reality Exergames Among Chinese Older Adults",
+      "query": "\"Acceptance of Virtual Reality Exergames Among Chinese Older Adults\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "d55f3e76dadd",
+      "title": "AR.S.Space: An AR Casual Game for Social Engagement in Work Environments",
+      "query": "\"AR.S.Space: An AR Casual Game for Social Engagement in Work Environments\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "f1073c01dd38",
+      "title": "Avatar Type, Self-Congruence, and Presence in Virtual Reality",
+      "query": "\"Avatar Type, Self-Congruence, and Presence in Virtual Reality\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "b0fa12644f64",
+      "title": "Brain-Metaverse Interaction for Anxiety Regulation",
+      "query": "\"Brain-Metaverse Interaction for Anxiety Regulation\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "c0123e22b50c",
+      "title": "Cheer for me: effect of non-player character audience feedback on older adult users of virtual reality exergames",
+      "query": "\"Cheer for me: effect of non-player character audience feedback on older adult users of virtual reality exergames\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "a5fa265c1597",
+      "title": "Comparative Analysis of Artefact Interaction and Manipulation Techniques in VR Museums: A Study of Performance and User Experience",
+      "query": "\"Comparative Analysis of Artefact Interaction and Manipulation Techniques in VR Museums: A Study of Performance and User Experience\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "d113c3e6ba85",
+      "title": "Comparing Cinematic Conventions through Emotional Responses in Cinematic VR and Traditional Mediums",
+      "query": "\"Comparing Cinematic Conventions through Emotional Responses in Cinematic VR and Traditional Mediums\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": [],
+      "search_lead_urls": [
+        "https://www.xjtlu.edu.cn/en/news/2024/01/how-can-vr-change-the-film-watching-experience"
+      ]
+    },
+    {
+      "paper_id": "efa94d9987bc",
+      "title": "Cross-Reality Interaction and Collaboration in Museums, Education, and Rehabilitation",
+      "query": "\"Cross-Reality Interaction and Collaboration in Museums, Education, and Rehabilitation\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "4e1c470cbd4f",
+      "title": "Easy Induction: A Serious Game Using Participatory Design",
+      "query": "\"Easy Induction: A Serious Game Using Participatory Design\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "eee67d337dbb",
+      "title": "Effect of display platforms on spatial knowledge acquisition and engagement: an evaluation with 3D geometry visualizations",
+      "query": "\"Effect of display platforms on spatial knowledge acquisition and engagement: an evaluation with 3D geometry visualizations\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": [],
+      "search_lead_urls": [
+        "https://yulingyun.com/sample-page/old-news/"
+      ]
+    },
+    {
+      "paper_id": "6c95c5365a2a",
+      "title": "Effect of Frame Rate on User Experience, Performance, and Simulator Sickness in Virtual Reality",
+      "query": "\"Effect of Frame Rate on User Experience, Performance, and Simulator Sickness in Virtual Reality\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "c057f25a5967",
+      "title": "Effects of Object Complexity in Occlusion, Structure, and Texture on 3D Virtual Object Observation in Virtual Reality",
+      "query": "\"Effects of Object Complexity in Occlusion, Structure, and Texture on 3D Virtual Object Observation in Virtual Reality\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": [],
+      "search_lead_urls": [
+        "https://shuaikx.github.io/"
+      ]
+    },
+    {
+      "paper_id": "322ff083724b",
+      "title": "Expanding Targets in Virtual Reality Environments: A Fitts' Law Study",
+      "query": "\"Expanding Targets in Virtual Reality Environments: A Fitts' Law Study\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "f9761157aeab",
+      "title": "Exploration of Bare-Hand Mid-Air Pointing Selection Techniques for Dense Virtual Reality Environments",
+      "query": "\"Exploration of Bare-Hand Mid-Air Pointing Selection Techniques for Dense Virtual Reality Environments\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "9ed31e06cf74",
+      "title": "Exploring Gaze-assisted and Hand-based Region Selection in Augmented Reality",
+      "query": "\"Exploring Gaze-assisted and Hand-based Region Selection in Augmented Reality\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "926c56856348",
+      "title": "Exploring the Design Space for Hands-Free Robot Dog Interaction via Augmented Reality",
+      "query": "\"Exploring the Design Space for Hands-Free Robot Dog Interaction via Augmented Reality\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "5bf07784082a",
+      "title": "Exploring the effect of the Group Size and Feedback of non-player character spectators in virtual reality exergames",
+      "query": "\"Exploring the effect of the Group Size and Feedback of non-player character spectators in virtual reality exergames\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "4c83ecf08a05",
+      "title": "Exploring the Transformative Potential of Virtual Reality in History Education: A Scoping Review",
+      "query": "\"Exploring the Transformative Potential of Virtual Reality in History Education: A Scoping Review\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "ca1ed0c975b5",
+      "title": "From Reader to Experiencer: Design and Evaluation of an Interactive Vr Story for Promoting the Situation Awareness of Public Health Threats",
+      "query": "\"From Reader to Experiencer: Design and Evaluation of an Interactive Vr Story for Promoting the Situation Awareness of Public Health Threats\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "60b86509fd61",
+      "title": "HapticBox: Designing Hand-Held Thermal, Wetness, and Wind Stimuli for Virtual Reality",
+      "query": "\"HapticBox: Designing Hand-Held Thermal, Wetness, and Wind Stimuli for Virtual Reality\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "8bcf053a53fe",
+      "title": "ImmerView: Adaptive Multi-View Layout for Immersive Situated Visualizations",
+      "query": "\"ImmerView: Adaptive Multi-View Layout for Immersive Situated Visualizations\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "71f0aa15f07e",
+      "title": "Individualized Virtual Reality for Increasing Self-Compassion: Evaluation Study",
+      "query": "\"Individualized Virtual Reality for Increasing Self-Compassion: Evaluation Study\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "2e1c0b8ea47f",
+      "title": "Individualized Virtual Reality for Increasing Self-Compassion: Evaluation Study (Preprint)",
+      "query": "\"Individualized Virtual Reality for Increasing Self-Compassion: Evaluation Study (Preprint)\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "ed9ae5d7d52d",
+      "title": "LeanOn: Simulating Balance Vehicle Locomotion in Virtual Reality",
+      "query": "\"LeanOn: Simulating Balance Vehicle Locomotion in Virtual Reality\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "e6c23f4c0ea5",
+      "title": "LVDIF: a framework for real-time interaction with large volume data",
+      "query": "\"LVDIF: a framework for real-time interaction with large volume data\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "eeafd05c8652",
+      "title": "MRMSim: A Framework for Mixed Reality based Microsurgery Simulation",
+      "query": "\"MRMSim: A Framework for Mixed Reality based Microsurgery Simulation\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "a795ff39d2c9",
+      "title": "Predicting Gaze-based Target Selection in Augmented Reality Headsets based on Eye and Head Endpoint Distributions",
+      "query": "\"Predicting Gaze-based Target Selection in Augmented Reality Headsets based on Eye and Head Endpoint Distributions\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "b98c2e32123d",
+      "title": "Real-Time Prediction of Simulator Sickness in Virtual Reality Games",
+      "query": "\"Real-Time Prediction of Simulator Sickness in Virtual Reality Games\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "confirmed-recognition",
+      "award_ids": [
+        "tog-2025-sickness"
+      ]
+    },
+    {
+      "paper_id": "3f9ca45355ce",
+      "title": "Story-based authentication for mobile devices using semantically-linked images",
+      "query": "\"Story-based authentication for mobile devices using semantically-linked images\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "034178539899",
+      "title": "Survey of Movement Reproduction in Immersive Virtual Rehabilitation",
+      "query": "\"Survey of Movement Reproduction in Immersive Virtual Rehabilitation\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "754810bc2a15",
+      "title": "Tasks of a Different Color: How Crowdsourcing Practices Differ per Complex Task Type and Why This Matters",
+      "query": "\"Tasks of a Different Color: How Crowdsourcing Practices Differ per Complex Task Type and Why This Matters\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "candidate-not-confirmed",
+      "award_ids": []
+    },
+    {
+      "paper_id": "0daa53b84261",
+      "title": "TeleSteer: Combining Discrete and Continuous Locomotion Techniques in Virtual Reality",
+      "query": "\"TeleSteer: Combining Discrete and Continuous Locomotion Techniques in Virtual Reality\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "a2a8595e20ab",
+      "title": "Understanding the effects of hand design on embodiment in virtual reality",
+      "query": "\"Understanding the effects of hand design on embodiment in virtual reality\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": [],
+      "search_lead_urls": [
+        "https://xiaohang-tang.github.io/assets/css/xiaohang_cv.pdf"
+      ]
+    },
+    {
+      "paper_id": "2643854bec59",
+      "title": "Understanding the Needs of Virtual Reality for Learning and Teaching: A User-Centered Approach",
+      "query": "\"Understanding the Needs of Virtual Reality for Learning and Teaching: A User-Centered Approach\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "d2d71ccdddf1",
+      "title": "Virtual reality in academic English writing: exploring factors influencing abstract knowledge learning",
+      "query": "\"Virtual reality in academic English writing: exploring factors influencing abstract knowledge learning\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "f9d5802d97ae",
+      "title": "Who's Watching Me?: Exploring the Impact of Audience Familiarity on Player Performance, Experience, and Exertion in Virtual Reality Exergames",
+      "query": "\"Who's Watching Me?: Exploring the Impact of Audience Familiarity on Player Performance, Experience, and Exertion in Virtual Reality Exergames\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "99c80b869891",
+      "title": "Workshop: Mixing Realities: Cross-Reality Visualization, Interaction, and Collaboration",
+      "query": "\"Workshop: Mixing Realities: Cross-Reality Visualization, Interaction, and Collaboration\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "77858aeb54c0",
+      "title": "A Low-cost Efficient Approach to Synchronize Real-world and Virtual-world Objects in VR via In-built Cameras",
+      "query": "\"A Low-cost Efficient Approach to Synchronize Real-world and Virtual-world Objects in VR via In-built Cameras\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "9487876c8baf",
+      "title": "An Exploration of Hands-free Text Selection for Virtual Reality Head-Mounted Displays",
+      "query": "\"An Exploration of Hands-free Text Selection for Virtual Reality Head-Mounted Displays\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "4cc8828b913a",
+      "title": "Collaborative Remote Control of Unmanned Ground Vehicles in Virtual Reality",
+      "query": "\"Collaborative Remote Control of Unmanned Ground Vehicles in Virtual Reality\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "a9d64c19ed3b",
+      "title": "DARC: A Visual Analytics System for Multivariate Applicant Data Aggregation, Reasoning and Comparison",
+      "query": "\"DARC: A Visual Analytics System for Multivariate Applicant Data Aggregation, Reasoning and Comparison\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": [],
+      "search_lead_urls": [
+        "https://typora-1304458321.cos.ap-guangzhou.myqcloud.com/YihanHou-CV.pdf"
+      ]
+    },
+    {
+      "paper_id": "f11532190c9c",
+      "title": "EdgeSelect: Smartwatch Data Interaction with Minimal Screen Occlusion",
+      "query": "\"EdgeSelect: Smartwatch Data Interaction with Minimal Screen Occlusion\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "c95ffca2dde6",
+      "title": "Editorial: Cybersickness in VR applications",
+      "query": "\"Editorial: Cybersickness in VR applications\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "3a915a9251cf",
+      "title": "Editorial: Virtual Reality and Mental Health: Opportunities to Advance Research and Practice",
+      "query": "\"Editorial: Virtual Reality and Mental Health: Opportunities to Advance Research and Practice\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "3d0053ef37cc",
+      "title": "Effect of Render Resolution on Gameplay Experience, Performance, and Simulator Sickness in Virtual Reality Games",
+      "query": "\"Effect of Render Resolution on Gameplay Experience, Performance, and Simulator Sickness in Virtual Reality Games\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "f9fab994a0bd",
+      "title": "Evaluation of Text Selection Techniques in Virtual Reality Head-Mounted Displays",
+      "query": "\"Evaluation of Text Selection Techniques in Virtual Reality Head-Mounted Displays\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "83099d5c2b37",
+      "title": "Examining cross-modal correspondence between ambient color and taste perception in virtual reality",
+      "query": "\"Examining cross-modal correspondence between ambient color and taste perception in virtual reality\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "f24dc861f04b",
+      "title": "Exploring Text Selection in Augmented Reality Systems",
+      "query": "\"Exploring Text Selection in Augmented Reality Systems\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "caada2316680",
+      "title": "Games for Mental Health",
+      "query": "\"Games for Mental Health\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "109135845a41",
+      "title": "GesFabri: Exploring Affordances and Experience of Textile Interfaces for Gesture-based Interaction",
+      "query": "\"GesFabri: Exploring Affordances and Experience of Textile Interfaces for Gesture-based Interaction\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "b05ad292dc7a",
+      "title": "Group-based Object Alignment in Virtual Reality Environments",
+      "query": "\"Group-based Object Alignment in Virtual Reality Environments\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "59e135c00b62",
+      "title": "Improving Effective Throughput Performance using Auditory Feedback in Virtual Reality",
+      "query": "\"Improving Effective Throughput Performance using Auditory Feedback in Virtual Reality\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "f40add804d4a",
+      "title": "In-Device Feedback in Immersive Head-Mounted Displays for Distance Perception During Teleoperation of Unmanned Ground Vehicles",
+      "query": "\"In-Device Feedback in Immersive Head-Mounted Displays for Distance Perception During Teleoperation of Unmanned Ground Vehicles\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "09c545f05254",
+      "title": "L-WiM: Collaborative Exploration in Immersive Environments",
+      "query": "\"L-WiM: Collaborative Exploration in Immersive Environments\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "candidate-not-confirmed",
+      "award_ids": [],
+      "search_lead_urls": [
+        "https://lixiangzhao98.github.io/assets/Publications/CV/CV_Lixiang_Zhao.pdf",
+        "https://lixiangzhao98.github.io/cv/"
+      ]
+    },
+    {
+      "paper_id": "9ce5101cb7bf",
+      "title": "Mirror-Yolo: A Novel Attention Focus, Instance Segmentation and Mirror Detection Model",
+      "query": "\"Mirror-Yolo: A Novel Attention Focus, Instance Segmentation and Mirror Detection Model\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "ba4c680b1df6",
+      "title": "Mirror-Yolo: An attention-based instance segmentation and detection model for mirrors",
+      "query": "\"Mirror-Yolo: An attention-based instance segmentation and detection model for mirrors\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "e7c850d98f41",
+      "title": "Resolution Tradeoff in Gameplay Experience, Performance, and Simulator Sickness in Virtual Reality Games",
+      "query": "\"Resolution Tradeoff in Gameplay Experience, Performance, and Simulator Sickness in Virtual Reality Games\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "0af45d452c69",
+      "title": "Scale Invariant Privacy Preserving Video via Wavelet Decomposition",
+      "query": "\"Scale Invariant Privacy Preserving Video via Wavelet Decomposition\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "1504f86e91dd",
+      "title": "Teleoperation of a Fast Omnidirectional Unmanned Ground Vehicle in the Cyber-Physical World via a VR Interface",
+      "query": "\"Teleoperation of a Fast Omnidirectional Unmanned Ground Vehicle in the Cyber-Physical World via a VR Interface\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "confirmed-recognition",
+      "award_ids": [
+        "vrcai-2022"
+      ],
+      "search_lead_urls": [
+        "https://kclpure.kcl.ac.uk/portal/en/publications/teleoperation-of-a-fast-omnidirectional-unmanned-ground-vehicle-i",
+        "https://yimingluo.com/",
+        "https://shanluo.github.io/"
+      ]
+    },
+    {
+      "paper_id": "bf5fe198267c",
+      "title": "The Use of Videogames and Virtual Reality for the Assessment of Anxiety and Depression: A Scoping Review",
+      "query": "\"The Use of Videogames and Virtual Reality for the Assessment of Anxiety and Depression: A Scoping Review\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "f92aa03cd0a7",
+      "title": "Towards an Emotionally Augmented Metaverse: a Framework for Recording and Analysing Physiological Data and User Behaviour",
+      "query": "\"Towards an Emotionally Augmented Metaverse: a Framework for Recording and Analysing Physiological Data and User Behaviour\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "7b666aad7d94",
+      "title": "User Retention of Mobile Augmented Reality for Cultural Heritage Learning",
+      "query": "\"User Retention of Mobile Augmented Reality for Cultural Heritage Learning\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "1db113e23876",
+      "title": "VibroWeight: Simulating Weight and Center of Gravity Changes of Objects in Virtual Reality for Enhanced Realism",
+      "query": "\"VibroWeight: Simulating Weight and Center of Gravity Changes of Objects in Virtual Reality for Enhanced Realism\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "4ec4a908cbd3",
+      "title": "Virtual Reality Data for Predicting Mental Health Conditions",
+      "query": "\"Virtual Reality Data for Predicting Mental Health Conditions\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "2bca414db0d2",
+      "title": "VRCockpit: Mitigating Simulator Sickness in VR Games Using Multiple Egocentric 2D View Frames",
+      "query": "\"VRCockpit: Mitigating Simulator Sickness in VR Games Using Multiple Egocentric 2D View Frames\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": [],
+      "search_lead_urls": [
+        "https://ieee-cog.org/2022/CoG2022-DetailedProgramme.pdf"
+      ]
+    },
+    {
+      "paper_id": "c9f14052cdc4",
+      "title": "Work-in-Progress - Towards an AR Materials Library for Design and Engineering Education",
+      "query": "\"Work-in-Progress - Towards an AR Materials Library for Design and Engineering Education\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "4b214e04a2e5",
+      "title": "CubeMuseum: An Augmented Reality Prototype of Embodied Virtual Museum",
+      "query": "\"CubeMuseum: An Augmented Reality Prototype of Embodied Virtual Museum\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "613f0a10b775",
+      "title": "Design and Development of a Low-cost Device for Weight and Center of Gravity Simulation in Virtual Reality",
+      "query": "\"Design and Development of a Low-cost Device for Weight and Center of Gravity Simulation in Virtual Reality\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "candidate-not-confirmed",
+      "award_ids": []
+    },
+    {
+      "paper_id": "6c5f10887340",
+      "title": "Design of an Interactive Classroom with Bullet Screen Function in University Teaching",
+      "query": "\"Design of an Interactive Classroom with Bullet Screen Function in University Teaching\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "9c77fb80901d",
+      "title": "Designing Individualised Virtual Reality Applications for Supporting Depression: A Feasibility Study",
+      "query": "\"Designing Individualised Virtual Reality Applications for Supporting Depression: A Feasibility Study\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "e55800612bb8",
+      "title": "Distractor Effects on Crossing-Based Interaction",
+      "query": "\"Distractor Effects on Crossing-Based Interaction\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "e09b2143dc30",
+      "title": "Effect of Collaboration Mode and Position Arrangement on Immersive Analytics Tasks in Virtual Reality: A Pilot Study",
+      "query": "\"Effect of Collaboration Mode and Position Arrangement on Immersive Analytics Tasks in Virtual Reality: A Pilot Study\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "8a9864480e53",
+      "title": "Effect of Gameplay Uncertainty, Display Type, and Age on Virtual Reality Exergames",
+      "query": "\"Effect of Gameplay Uncertainty, Display Type, and Age on Virtual Reality Exergames\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "57969e666621",
+      "title": "Effect of Input-output Randomness on Gameplay Satisfaction in Collectable Card Games",
+      "query": "\"Effect of Input-output Randomness on Gameplay Satisfaction in Collectable Card Games\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "93cb1f81c0d7",
+      "title": "Effect of Visual Cues on Pointing Tasks in Co-located Augmented Reality Collaboration",
+      "query": "\"Effect of Visual Cues on Pointing Tasks in Co-located Augmented Reality Collaboration\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": [],
+      "search_lead_urls": [
+        "https://www.xjtlu-ttc.com/expert/49"
+      ]
+    },
+    {
+      "paper_id": "d4fe50139c30",
+      "title": "Effects of an Immersive Virtual Reality Exergame on University Students’ Anxiety, Depression, and Perceived Stress: Pilot Feasibility and Usability Study",
+      "query": "\"Effects of an Immersive Virtual Reality Exergame on University Students’ Anxiety, Depression, and Perceived Stress: Pilot Feasibility and Usability Study\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "abde3ce4c5c0",
+      "title": "Evaluating Performance and Gameplay of Virtual Reality Sickness Techniques in a First-Person Shooter Game",
+      "query": "\"Evaluating Performance and Gameplay of Virtual Reality Sickness Techniques in a First-Person Shooter Game\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "85c94bce24bb",
+      "title": "Exploring Head-based Mode-Switching in Virtual Reality",
+      "query": "\"Exploring Head-based Mode-Switching in Virtual Reality\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "943ae277d068",
+      "title": "Gaze-Supported 3D Object Manipulation in Virtual Reality",
+      "query": "\"Gaze-Supported 3D Object Manipulation in Virtual Reality\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "candidate-not-confirmed",
+      "award_ids": [],
+      "search_lead_urls": [
+        "https://cis.unimelb.edu.au/research/hci/news/2021/chi-2021-papers"
+      ]
+    },
+    {
+      "paper_id": "6a7e4a888302",
+      "title": "Individualised Virtual Reality for Supporting Depression: Feedback from Mental Health Professionals",
+      "query": "\"Individualised Virtual Reality for Supporting Depression: Feedback from Mental Health Professionals\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "b5838b0e21e8",
+      "title": "iText: Hands-free Text Entry on an Imaginary Keyboard for Augmented Reality Systems",
+      "query": "\"iText: Hands-free Text Entry on an Imaginary Keyboard for Augmented Reality Systems\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": [],
+      "search_lead_urls": [
+        "https://www.difeng.me/publications.html"
+      ]
+    },
+    {
+      "paper_id": "8a7cfb262c9d",
+      "title": "Monoscopic vs. Stereoscopic Views and Display Types in the Teleoperation of Unmanned Ground Vehicles for Object Avoidance",
+      "query": "\"Monoscopic vs. Stereoscopic Views and Display Types in the Teleoperation of Unmanned Ground Vehicles for Object Avoidance\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": [],
+      "search_lead_urls": [
+        "https://shanluo.github.io/publication/"
+      ]
+    },
+    {
+      "paper_id": "1bd56ba7cf7d",
+      "title": "Myopic Bike and Say Hi: Games for Empathizing with The Myopic",
+      "query": "\"Myopic Bike and Say Hi: Games for Empathizing with The Myopic\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "confirmed-recognition",
+      "award_ids": [
+        "chiplay-2021-myopic"
+      ]
+    },
+    {
+      "paper_id": "da55c6960a5c",
+      "title": "On the Use of Large Interactive Displays to Support Collaborative Engagement and Visual Exploratory Tasks",
+      "query": "\"On the Use of Large Interactive Displays to Support Collaborative Engagement and Visual Exploratory Tasks\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "c291f3d81146",
+      "title": "On the Use of Movement-Based Interaction with Smart Textiles for Emotion Regulation",
+      "query": "\"On the Use of Movement-Based Interaction with Smart Textiles for Emotion Regulation\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "a2bb0e14687d",
+      "title": "Real-Time Maximum Power Point Estimation of Photovoltaic Systems Using Shading Information",
+      "query": "\"Real-Time Maximum Power Point Estimation of Photovoltaic Systems Using Shading Information\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "16a941d67c9b",
+      "title": "RelicVR: A Virtual Reality Game for Active Exploration of Archaeological Relics",
+      "query": "\"RelicVR: A Virtual Reality Game for Active Exploration of Archaeological Relics\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "confirmed-recognition",
+      "award_ids": [
+        "chiplay-2021-relicvr"
+      ]
+    },
+    {
+      "paper_id": "4b501f942482",
+      "title": "Spatial Knowledge Acquisition in Virtual and Physical Reality: A Comparative Evaluation",
+      "query": "\"Spatial Knowledge Acquisition in Virtual and Physical Reality: A Comparative Evaluation\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "dbb5c1d4f8ba",
+      "title": "Using Trajectory Compression Rate to Predict Changes in Cybersickness in Virtual Reality Games",
+      "query": "\"Using Trajectory Compression Rate to Predict Changes in Cybersickness in Virtual Reality Games\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "3b790bc1954b",
+      "title": "Virtual Reality for Supporting the Treatment of Depression and Anxiety: Scoping Review",
+      "query": "\"Virtual Reality for Supporting the Treatment of Depression and Anxiety: Scoping Review\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "460361551894",
+      "title": "Virtual Reality for Supporting the Treatment of Depression and Anxiety: Scoping Review (Preprint)",
+      "query": "\"Virtual Reality for Supporting the Treatment of Depression and Anxiety: Scoping Review (Preprint)\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "2e2257ed1008",
+      "title": "Virtual Reality Sickness Mitigation Methods: A Comparative Study in a Racing Game",
+      "query": "\"Virtual Reality Sickness Mitigation Methods: A Comparative Study in a Racing Game\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "a2fe2153231b",
+      "title": "A Hybrid Hierarchical Model for Accessing Physical Activity Recognition towards Free-living Environments",
+      "query": "\"A Hybrid Hierarchical Model for Accessing Physical Activity Recognition towards Free-living Environments\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "54b32d33b5e9",
+      "title": "An Analytical Model for a Photovoltaic Module Under Partial Shading Conditions",
+      "query": "\"An Analytical Model for a Photovoltaic Module Under Partial Shading Conditions\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "f1c14ef3ce4e",
+      "title": "An In-Depth Exploration of the Effect of 2D/3D Views and Controller Types on First Person Shooter Games in Virtual Reality",
+      "query": "\"An In-Depth Exploration of the Effect of 2D/3D Views and Controller Types on First Person Shooter Games in Virtual Reality\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "d4addad8c312",
+      "title": "Attention-based Recurrent Neural Network for Traffic Flow Prediction",
+      "query": "\"Attention-based Recurrent Neural Network for Traffic Flow Prediction\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "1ca027384cb5",
+      "title": "BioMove: Biometric User Identification from Human Kinesiological Movements for Virtual Reality Systems",
+      "query": "\"BioMove: Biometric User Identification from Human Kinesiological Movements for Virtual Reality Systems\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "630a73479252",
+      "title": "Collaborative behavior, performance and engagement with visual analytics tasks using mobile devices",
+      "query": "\"Collaborative behavior, performance and engagement with visual analytics tasks using mobile devices\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "2dc8bd7fe2a4",
+      "title": "Design and Evaluation of Visualization Techniques of Off-Screen and Occluded Targets in Virtual Reality Environments",
+      "query": "\"Design and Evaluation of Visualization Techniques of Off-Screen and Occluded Targets in Virtual Reality Environments\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "988a63598a7f",
+      "title": "Editorial: Designing Technologies for Youth Mental Health",
+      "query": "\"Editorial: Designing Technologies for Youth Mental Health\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "9138b37544e5",
+      "title": "Evaluating the Effect of Audience in a Virtual Reality Presentation Training Tool",
+      "query": "\"Evaluating the Effect of Audience in a Virtual Reality Presentation Training Tool\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "5bb5aa711074",
+      "title": "Evaluating the Need and Effect of an Audience in a Virtual Reality Presentation Training Tool",
+      "query": "\"Evaluating the Need and Effect of an Audience in a Virtual Reality Presentation Training Tool\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "49450cb83fa8",
+      "title": "Exploration of Hands-free Text Entry Techniques For Virtual Reality",
+      "query": "\"Exploration of Hands-free Text Entry Techniques For Virtual Reality\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": [],
+      "search_lead_urls": [
+        "https://yuzheng-chen.github.io/files/CV_YuzhengChen.pdf"
+      ]
+    },
+    {
+      "paper_id": "952a123cc635",
+      "title": "Exploring Haptic Feedback for Common Message Notification Between Intimate Couples with Smartwatches",
+      "query": "\"Exploring Haptic Feedback for Common Message Notification Between Intimate Couples with Smartwatches\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "16a7cba5cf62",
+      "title": "Exploring the Design of Interactive Smart Textiles for Emotion Regulation",
+      "query": "\"Exploring the Design of Interactive Smart Textiles for Emotion Regulation\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "94ed4bf2c5e8",
+      "title": "Exploring the Vulnerabilities and Advantages of SWIPE or Pattern authentication in Virtual Reality (VR)",
+      "query": "\"Exploring the Vulnerabilities and Advantages of SWIPE or Pattern authentication in Virtual Reality (VR)\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "cfe6e133df1a",
+      "title": "Exploring Visual Techniques for Boundary Awareness During Interaction in Augmented Reality Head-Mounted Displays",
+      "query": "\"Exploring Visual Techniques for Boundary Awareness During Interaction in Augmented Reality Head-Mounted Displays\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "confirmed-recognition",
+      "award_ids": [
+        "vr-2020-boundary"
+      ]
+    },
+    {
+      "paper_id": "9d0e80719d33",
+      "title": "Fine-Grained Image Classification with Object-Part Model",
+      "query": "\"Fine-Grained Image Classification with Object-Part Model\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "cecef07236bc",
+      "title": "Health Benefits of Digital Videogames for the Aging Population: A Systematic Review",
+      "query": "\"Health Benefits of Digital Videogames for the Aging Population: A Systematic Review\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "b6ed00c56832",
+      "title": "In Their Shoes: A Structured Analysis of Job Demands, Resources, Work Experiences, and Platform Commitment of Crowdworkers in China",
+      "query": "\"In Their Shoes: A Structured Analysis of Job Demands, Resources, Work Experiences, and Platform Commitment of Crowdworkers in China\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "65adbc42c1a3",
+      "title": "Influence of Hand Representation Design on Presence and Embodiment in Virtual Environment",
+      "query": "\"Influence of Hand Representation Design on Presence and Embodiment in Virtual Environment\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": [],
+      "search_lead_urls": [
+        "https://lixiangzhao98.github.io/assets/Publications/CV/CV_Lixiang_Zhao.pdf"
+      ]
+    },
+    {
+      "paper_id": "463a639eaa64",
+      "title": "Performing the Digital Self: Understanding Location-Based Social Networking, Territory, Space, and Identity in the City",
+      "query": "\"Performing the Digital Self: Understanding Location-Based Social Networking, Territory, Space, and Identity in the City\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "8dc9f2150d71",
+      "title": "Personal Mobile devices at work: factors affecting the adoption of security mechanisms",
+      "query": "\"Personal Mobile devices at work: factors affecting the adoption of security mechanisms\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "3532bed7e8c5",
+      "title": "Real-Time Detection of Simulator Sickness in Virtual Reality Games Based on Players' Psychophysiological Data during Gameplay",
+      "query": "\"Real-Time Detection of Simulator Sickness in Virtual Reality Games Based on Players' Psychophysiological Data during Gameplay\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "6d1697269193",
+      "title": "Results and Guidelines From a Repeated-Measures Design Experiment Comparing Standing and Seated Full-Body Gesture-Based Immersive Virtual Reality Exergames: Within-Subjects Evaluation",
+      "query": "\"Results and Guidelines From a Repeated-Measures Design Experiment Comparing Standing and Seated Full-Body Gesture-Based Immersive Virtual Reality Exergames: Within-Subjects Evaluat\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": [],
+      "search_lead_urls": [
+        "https://yuzheng-chen.github.io/files/CV_YuzhengChen.pdf"
+      ]
+    },
+    {
+      "paper_id": "59fcf392e149",
+      "title": "Studying the Effect of Display Type and Viewing Perspective on User Experience in Virtual Reality Exergames",
+      "query": "\"Studying the Effect of Display Type and Viewing Perspective on User Experience in Virtual Reality Exergames\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "a5c099f8ae49",
+      "title": "Time to Get Personal: Individualised Virtual Reality for Mental Health",
+      "query": "\"Time to Get Personal: Individualised Virtual Reality for Mental Health\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "4a4d55e8ba85",
+      "title": "VirusBoxing: A HIIT-based VR Boxing Game",
+      "query": "\"VirusBoxing: A HIIT-based VR Boxing Game\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "confirmed-recognition",
+      "award_ids": [
+        "chiplay-2020-virusboxing"
+      ],
+      "search_lead_urls": [
+        "https://www.linkedin.com/in/xiaoyue-ma"
+      ]
+    },
+    {
+      "paper_id": "f66678e4a965",
+      "title": "バーチャルリアリティ(VR)におけるSWIPEまたはパターン認証の脆弱性と利点の調査【JST・京大機械翻訳】",
+      "query": "\"バーチャルリアリティ(VR)におけるSWIPEまたはパターン認証の脆弱性と利点の調査【JST・京大機械翻訳】\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "a73edcd5a2ce",
+      "title": "A Comparison of Competitive and Collaborative Play for Co-located Computer Supported English Vocabulary Learning",
+      "query": "\"A Comparison of Competitive and Collaborative Play for Co-located Computer Supported English Vocabulary Learning\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "80358a4b27b3",
+      "title": "A Hybrid Data Security System of Internet of Things",
+      "query": "\"A Hybrid Data Security System of Internet of Things\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "b3b0099dd0af",
+      "title": "Annotation vs. Virtual Tutor: Comparative Analysis on the Effectiveness of Visual Instructions in Immersive Virtual Reality",
+      "query": "\"Annotation vs. Virtual Tutor: Comparative Analysis on the Effectiveness of Visual Instructions in Immersive Virtual Reality\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "2b72c9e17fbb",
+      "title": "Assessing the effects of a full-body motion-based exergame in virtual reality",
+      "query": "\"Assessing the effects of a full-body motion-based exergame in virtual reality\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "befea794f172",
+      "title": "DepthMove: Hands-free Interaction in Virtual Reality Using Head Motions in the Depth Dimension",
+      "query": "\"DepthMove: Hands-free Interaction in Virtual Reality Using Head Motions in the Depth Dimension\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "6ba1e9684ad6",
+      "title": "DepthMove: Leveraging Head Motions in the Depth Dimension to Interact with Virtual Reality Head-Worn Displays",
+      "query": "\"DepthMove: Leveraging Head Motions in the Depth Dimension to Interact with Virtual Reality Head-Worn Displays\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": [],
+      "search_lead_urls": [
+        "https://www.difeng.me/publications.html"
+      ]
+    },
+    {
+      "paper_id": "66d0393e512a",
+      "title": "DepthText: Leveraging Head Movements towards the Depth Dimension for Hands-free Text Entry in Mobile Virtual Reality Systems",
+      "query": "\"DepthText: Leveraging Head Movements towards the Depth Dimension for Hands-free Text Entry in Mobile Virtual Reality Systems\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "8433db99ded1",
+      "title": "Design of Interactions for Handheld Augmented Reality Devices Using Wearable Smart Textiles: Findings from a User Elicitation Study",
+      "query": "\"Design of Interactions for Handheld Augmented Reality Devices Using Wearable Smart Textiles: Findings from a User Elicitation Study\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "f26180fe99cf",
+      "title": "Designing Predictive Tools for Personalized Functionalities in Knitted Performance Wear",
+      "query": "\"Designing Predictive Tools for Personalized Functionalities in Knitted Performance Wear\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "candidate-not-confirmed",
+      "award_ids": [],
+      "search_lead_urls": [
+        "https://www.mtbhomer.com/assets/pdf/publications/designing-predictive-tools.pdf"
+      ]
+    },
+    {
+      "paper_id": "a1b64d9f1a3b",
+      "title": "Disseny d'eines predictives per obtenir funcions personalitzades en peces de roba esportiva de punt",
+      "query": "\"Disseny d'eines predictives per obtenir funcions personalitzades en peces de roba esportiva de punt\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "4c9e67f1fb85",
+      "title": "DMove: Directional Motion-based Interaction for Augmented Reality Head-Mounted Displays",
+      "query": "\"DMove: Directional Motion-based Interaction for Augmented Reality Head-Mounted Displays\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "41fcf9ddb4c0",
+      "title": "Engaging children with educational content via Gamification",
+      "query": "\"Engaging children with educational content via Gamification\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "candidate-not-confirmed",
+      "award_ids": [],
+      "search_lead_urls": [
+        "https://www.apu.edu.my/news/triple-awards-iucel-2021-virtual-competition",
+        "https://link.springer.com/article/10.1186/s40561-019-0085-2"
+      ]
+    },
+    {
+      "paper_id": "444da5d21a05",
+      "title": "Enhancing Students’ Blended Learning Experience through Embedding Metaliteracy",
+      "query": "\"Enhancing Students’ Blended Learning Experience through Embedding Metaliteracy\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "dc4a44f9c084",
+      "title": "Errata to \"RingText: Dwell-Free and Hands-Free Text Entry for Mobile Head-Mounted Displays Using Head Motions\"",
+      "query": "\"Errata to RingText: Dwell-Free and Hands-Free Text Entry for Mobile Head-Mounted Displays Using Head Motions\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "535f64a6f628",
+      "title": "Evaluating the effects of collaboration and competition in navigation tasks and spatial knowledge acquisition within virtual reality environments",
+      "query": "\"Evaluating the effects of collaboration and competition in navigation tasks and spatial knowledge acquisition within virtual reality environments\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "6b964bdfba13",
+      "title": "Increasing Self-Compassion in Young People through Virtual Reality",
+      "query": "\"Increasing Self-Compassion in Young People through Virtual Reality\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "0e9c15e52cc9",
+      "title": "Lessons Learned from Developing a Microservice Based Mobile Location-Based Crowdsourcing Platform",
+      "query": "\"Lessons Learned from Developing a Microservice Based Mobile Location-Based Crowdsourcing Platform\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "d07eb35e8f99",
+      "title": "Machine Learning Enhanced User Interfaces for Designing Advanced Knitwear",
+      "query": "\"Machine Learning Enhanced User Interfaces for Designing Advanced Knitwear\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "db6f4808c45e",
+      "title": "Medical Diagnosis by Complaints of Patients and Machine Learning",
+      "query": "\"Medical Diagnosis by Complaints of Patients and Machine Learning\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "57a5b588476a",
+      "title": "Modeling endpoint distribution of pointing selection tasks in virtual reality environments",
+      "query": "\"Modeling endpoint distribution of pointing selection tasks in virtual reality environments\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "70d1c42be965",
+      "title": "MoodJumper: An Exploration of Game Interface Preferences in Users With/Out Mood Disorder",
+      "query": "\"MoodJumper: An Exploration of Game Interface Preferences in Users With/Out Mood Disorder\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "0c31033aa268",
+      "title": "Pointing and Selection Methods for Text Entry in Augmented Reality Head Mounted Displays",
+      "query": "\"Pointing and Selection Methods for Text Entry in Augmented Reality Head Mounted Displays\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "46f0c0d833f3",
+      "title": "Predicting the Global Maximum Power Point Locus using Shading Information",
+      "query": "\"Predicting the Global Maximum Power Point Locus using Shading Information\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "84a489e16eba",
+      "title": "Protein Image Classification based on Convolutional Neural Network and Recurrent Neural Network",
+      "query": "\"Protein Image Classification based on Convolutional Neural Network and Recurrent Neural Network\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "5655044d72cf",
+      "title": "RingText: Dwell-free and hands-free Text Entry for Mobile Head-Mounted Displays using Head Motions",
+      "query": "\"RingText: Dwell-free and hands-free Text Entry for Mobile Head-Mounted Displays using Head Motions\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": [],
+      "search_lead_urls": [
+        "https://www.bcu.ac.uk/research/computing/digital-media-technology/members-and-partners/research-staff/wenge-xu"
+      ]
+    },
+    {
+      "paper_id": "91ff213f609c",
+      "title": "Student's Access Pattems of a Moodle-based Course Management System: A Case Study of a Large Entry Level Programming Class",
+      "query": "\"Student's Access Pattems of a Moodle-based Course Management System: A Case Study of a Large Entry Level Programming Class\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "6e1b4f8c264a",
+      "title": "SwarMotion: A 3D Point Cloud Video Recording Tool for Classification Purposes",
+      "query": "\"SwarMotion: A 3D Point Cloud Video Recording Tool for Classification Purposes\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "157720c128e7",
+      "title": "The Smart2 Speaker Blocker: An Open-Source Privacy Filter for Connected Home Speakers",
+      "query": "\"The Smart2 Speaker Blocker: An Open-Source Privacy Filter for Connected Home Speakers\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": [],
+      "search_lead_urls": [
+        "https://livrepository.liverpool.ac.uk/3102299/1/200981046_OLADE_2020_Usable_Secure_Interfaces_for_Mobile_Devices.pdf"
+      ]
+    },
+    {
+      "paper_id": "58bc90f7b958",
+      "title": "Towards a Taxonomy for In-Vehicle Interactions Using Wearable Smart Textiles: Insights from a User-Elicitation Study",
+      "query": "\"Towards a Taxonomy for In-Vehicle Interactions Using Wearable Smart Textiles: Insights from a User-Elicitation Study\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "d7d6f20d08a6",
+      "title": "Translate and Summarize Complaints of Patient to Electronic Health Record by BiLSTM-CNN Attention model",
+      "query": "\"Translate and Summarize Complaints of Patient to Electronic Health Record by BiLSTM-CNN Attention model\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "d16d050b19f8",
+      "title": "University EAP Students' Perceptions of Using a Prototype Virtual Reality Learning Environment to Learn Writing Structure",
+      "query": "\"University EAP Students' Perceptions of Using a Prototype Virtual Reality Learning Environment to Learn Writing Structure\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "978687470657",
+      "title": "VISUAL ANALYTICS EVALUATION PROCESS: PRACTICE GUIDELINES FOR COMPLEX DOMAIN",
+      "query": "\"VISUAL ANALYTICS EVALUATION PROCESS: PRACTICE GUIDELINES FOR COMPLEX DOMAIN\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "cecf5e1a67f9",
+      "title": "A Review of Multimodal Facial Biometric Authentication Methods in Mobile Devices and Their Application in Head Mounted Displays",
+      "query": "\"A Review of Multimodal Facial Biometric Authentication Methods in Mobile Devices and Their Application in Head Mounted Displays\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "f73050c10d2e",
+      "title": "BlockTower: A Multi-player Cross-Platform Competitive Social Game",
+      "query": "\"BlockTower: A Multi-player Cross-Platform Competitive Social Game\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "3beb677cff2f",
+      "title": "Comparing Event Related Arousal-Valence and Focus Among Different Viewing Perspectives in VR Gaming",
+      "query": "\"Comparing Event Related Arousal-Valence and Focus Among Different Viewing Perspectives in VR Gaming\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "55c9146e4d73",
+      "title": "Correlating gamers' brainwaves to their subjective feelings in virtual reality games under different viewing perspectives",
+      "query": "\"Correlating gamers' brainwaves to their subjective feelings in virtual reality games under different viewing perspectives\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "eafb0bbb28c2",
+      "title": "Directional Motion-based Interfaces for Virtual and Augmented Reality Head-mounted Displays",
+      "query": "\"Directional Motion-based Interfaces for Virtual and Augmented Reality Head-mounted Displays\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "9e41a39a7fc8",
+      "title": "Evaluating Engagement Level and Analytical Support of Interactive Visualizations in Virtual Reality Environments",
+      "query": "\"Evaluating Engagement Level and Analytical Support of Interactive Visualizations in Virtual Reality Environments\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "dfe4c46b20bd",
+      "title": "Evaluating Engagement of Virtual Reality Games Based on First and Third Person Perspective Using EEG and Subjective Metrics",
+      "query": "\"Evaluating Engagement of Virtual Reality Games Based on First and Third Person Perspective Using EEG and Subjective Metrics\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "70331c51adf7",
+      "title": "Evaluating enjoyment, presence, and emulator sickness in VR games based on first- and third- person viewing perspectives",
+      "query": "\"Evaluating enjoyment, presence, and emulator sickness in VR games based on first- and third- person viewing perspectives\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "4339f35fee83",
+      "title": "Evaluating the Effects of a Cartoon-Like Character with Emotions on Users' Behaviour within Virtual Reality Environments",
+      "query": "\"Evaluating the Effects of a Cartoon-Like Character with Emotions on Users' Behaviour within Virtual Reality Environments\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "16ae65bfd266",
+      "title": "GIVING THE BOSS THE BIG PICTURE: DEMONSTRATING CONVERGENCE VISUALIZATION DESIGN PRINCIPLES USING BUSINESS INTELLIGENCE AND ANALYTICS TOOLS",
+      "query": "\"GIVING THE BOSS THE BIG PICTURE: DEMONSTRATING CONVERGENCE VISUALIZATION DESIGN PRINCIPLES USING BUSINESS INTELLIGENCE AND ANALYTICS TOOLS\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "0d6f113b3787",
+      "title": "Infrared motion detection and electromyographic gesture recognition for navigating 3D environments",
+      "query": "\"Infrared motion detection and electromyographic gesture recognition for navigating 3D environments\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "d48d64656b55",
+      "title": "PizzaText: Text Entry for Virtual Reality Systems Using Dual Thumbsticks",
+      "query": "\"PizzaText: Text Entry for Virtual Reality Systems Using Dual Thumbsticks\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "acd451ba9e1e",
+      "title": "SemanticLock: An authentication method for mobile devices using semantically-linked images",
+      "query": "\"SemanticLock: An authentication method for mobile devices using semantically-linked images\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": [],
+      "search_lead_urls": [
+        "https://livrepository.liverpool.ac.uk/3102299/1/200981046_OLADE_2020_Usable_Secure_Interfaces_for_Mobile_Devices.pdf"
+      ]
+    },
+    {
+      "paper_id": "9d1964dc90aa",
+      "title": "Target Selection in Head-Mounted Display Virtual Reality Environments",
+      "query": "\"Target Selection in Head-Mounted Display Virtual Reality Environments\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "bc95a337a35a",
+      "title": "User-elicited dual-hand interactions for manipulating 3D objects in virtual reality environments",
+      "query": "\"User-elicited dual-hand interactions for manipulating 3D objects in virtual reality environments\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "570ecaf43184",
+      "title": "仮想現実環境内でのユーザの行動に対する感情によるcar画様文字の効果の評価【JST・京大機械翻訳】",
+      "query": "\"仮想現実環境内でのユーザの行動に対する感情によるcar画様文字の効果の評価【JST・京大機械翻訳】\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "617c45bc3041",
+      "title": "第一および第三者視聴展望に基づくVRゲームにおけるenjoyment,存在およびエミュレータ病の評価【JST・京大機械翻訳】",
+      "query": "\"第一および第三者視聴展望に基づくVRゲームにおけるenjoyment,存在およびエミュレータ病の評価【JST・京大機械翻訳】\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "6c5d38da098c",
+      "title": "\"Get Off My Lawn!\": Starting to Understand Territoriality in Location Based Mobile Games",
+      "query": "\"Get Off My Lawn!: Starting to Understand Territoriality in Location Based Mobile Games\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "fc811de4c92f",
+      "title": "Big Data",
+      "query": "\"Big Data\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": [],
+      "search_lead_urls": [
+        "https://www.cloud-conf.net/datasec/2026/award.html",
+        "https://www.agi.org.uk/agi-awards/",
+        "https://www.bdi.ox.ac.uk/news/oxford-population-health-researcher-wins-prize-for-work-on-alcohol-and-brain-health",
+        "https://bigdataieee.org/BigData2026/calls/women-award/",
+        "https://www.bcs.org/qualifications-and-certifications/certifications-for-professionals/artificial-intelligence-ai-certifications/artificial-intelligence-foundation-pathway/bcs-foundation-award-big-data",
+        "https://en.wikipedia.org/wiki/Carole_Cadwalladr",
+        "https://en.wikipedia.org/wiki/Millennium_Technology_Prize",
+        "https://arxiv.org/abs/1902.04337",
+        "https://www.reddit.com/r/artificial/comments/cutm56",
+        "https://en.wikipedia.org/wiki/ACM_Doctoral_Dissertation_Award"
+      ]
+    },
+    {
+      "paper_id": "819705274cb5",
+      "title": "Business Intelligence Design: Consideration of Convergence Challenges",
+      "query": "\"Business Intelligence Design: Consideration of Convergence Challenges\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "2fafced346d5",
+      "title": "Clothing-based wearable sensors for unobtrusive interactions with mobile devices",
+      "query": "\"Clothing-based wearable sensors for unobtrusive interactions with mobile devices\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "f5ce73bad253",
+      "title": "Conquering the City: Understanding perceptions of Mobility and Human Territoriality in Location-based Mobile Games",
+      "query": "\"Conquering the City: Understanding perceptions of Mobility and Human Territoriality in Location-based Mobile Games\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "1a9501ea8cba",
+      "title": "List of Contributors",
+      "query": "\"List of Contributors\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": [],
+      "search_lead_urls": [
+        "https://api.pageplace.de/preview/DT0400.9780192570697_A43259072/preview-9780192570697_A43259072.pdf",
+        "https://api.pageplace.de/preview/DT0400.9781137368409_A29486632/preview-9781137368409_A29486632.pdf",
+        "https://www.target.com/p/-/A-92336282",
+        "https://form.jotform.com/251534234566962",
+        "https://www.asce.org/career-growth/awards-and-honors/roebling-award",
+        "https://rep.club/products/how-we-do-it"
+      ]
+    },
+    {
+      "paper_id": "e7b3186abfe1",
+      "title": "Unfolding the interplay of self-identity and expressions of territoriality in location-based social networks",
+      "query": "\"Unfolding the interplay of self-identity and expressions of territoriality in location-based social networks\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "fd7260ccc572",
+      "title": "Visualization Principles for Facilitating Strategy Development Process in the Organization",
+      "query": "\"Visualization Principles for Facilitating Strategy Development Process in the Organization\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "55856d990ebf",
+      "title": "モバイルデバイスとの非信頼性相互作用のための衣服に基づく有効ブルセンサ【JST・京大機械翻訳】",
+      "query": "\"モバイルデバイスとの非信頼性相互作用のための衣服に基づく有効ブルセンサ【JST・京大機械翻訳】\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "a0eb9339c294",
+      "title": "An exploration of usable authentication mechanisms for virtual reality systems",
+      "query": "\"An exploration of usable authentication mechanisms for virtual reality systems\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "2a843b696d1e",
+      "title": "Co-Design for Harm Reduction Systems with Online Communities of Bodybuilding Steroid Users",
+      "query": "\"Co-Design for Harm Reduction Systems with Online Communities of Bodybuilding Steroid Users\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "8d6a24a3cb95",
+      "title": "Modeling the Noise in NarrowBand Power Line Communication",
+      "query": "\"Modeling the Noise in NarrowBand Power Line Communication\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "242029f1bd04",
+      "title": "New directions for preserving intangible cultural heritage through the use of mobile technologies",
+      "query": "\"New directions for preserving intangible cultural heritage through the use of mobile technologies\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "37cac986ef6e",
+      "title": "Supporting Sensemaking of Complex Objects with Visualizations: Visibility and Complementarity of Interactions",
+      "query": "\"Supporting Sensemaking of Complex Objects with Visualizations: Visibility and Complementarity of Interactions\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "f46d9933dd70",
+      "title": "Usable Authentication Mechanisms for Mobile Devices: An Exploration of 3D Graphical Passwords",
+      "query": "\"Usable Authentication Mechanisms for Mobile Devices: An Exploration of 3D Graphical Passwords\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "91675850c55c",
+      "title": "VRMController: an input device for navigation activities in virtual reality environments",
+      "query": "\"VRMController: an input device for navigation activities in virtual reality environments\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "a55eb8dc193b",
+      "title": "仮想現実感システムのための使用可能な認証機構の探査【Powered by NICT】",
+      "query": "\"仮想現実感システムのための使用可能な認証機構の探査【Powered by NICT】\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "824f92e12d36",
+      "title": "A Unified Gradient Regularization Family for Adversarial Examples",
+      "query": "\"A Unified Gradient Regularization Family for Adversarial Examples\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "confirmed-recognition",
+      "award_ids": [
+        "icdm-2024-impact"
+      ],
+      "search_lead_urls": [
+        "https://icdm.zhonghuapu.com/Awards/Impact.shtml",
+        "https://icdm.zhonghuapu.com/PPT/ICDM2024-Awards.pdf"
+      ]
+    },
+    {
+      "paper_id": "852f7373137d",
+      "title": "An Exploration of Techniques for Off-Screen Content Interaction in Mobile Devices",
+      "query": "\"An Exploration of Techniques for Off-Screen Content Interaction in Mobile Devices\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "89846911b9a7",
+      "title": "An Investigation of the Use of Maps in Mobile Learning Contexts: Possibilities and Challenges",
+      "query": "\"An Investigation of the Use of Maps in Mobile Learning Contexts: Possibilities and Challenges\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "2f48642c707d",
+      "title": "An investigation of the use of robots in public spaces",
+      "query": "\"An investigation of the use of robots in public spaces\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": [],
+      "search_lead_urls": [
+        "https://www.proceedings.com/content/027/027939webtoc.pdf"
+      ]
+    },
+    {
+      "paper_id": "4c6fca440ad1",
+      "title": "Biomedical applications of capsule and rehabilitation robots",
+      "query": "\"Biomedical applications of capsule and rehabilitation robots\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "7654cd2a0310",
+      "title": "Body sensor networks: Overview of hardware framework and design challenges",
+      "query": "\"Body sensor networks: Overview of hardware framework and design challenges\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "79b912953f70",
+      "title": "Design and Development of Intelligent Algorithms for Multi Mobile Robot Systems",
+      "query": "\"Design and Development of Intelligent Algorithms for Multi Mobile Robot Systems\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "89e007076094",
+      "title": "Design of intelligent algorithms for multi-mobile robot systems",
+      "query": "\"Design of intelligent algorithms for multi-mobile robot systems\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "6e05ca52ccb5",
+      "title": "Designing Mobile Games for Improving Self-esteem in Children with ADHD",
+      "query": "\"Designing Mobile Games for Improving Self-esteem in Children with ADHD\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": [],
+      "search_lead_urls": [
+        "https://www.researchgate.net/publication/300331873_Designing_Mobile_Games_for_Improving_Self-esteem_in_Children_with_ADHD"
+      ]
+    },
+    {
+      "paper_id": "22613b3908b1",
+      "title": "Interaction and game engagement based on players' background and preferences",
+      "query": "\"Interaction and game engagement based on players' background and preferences\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "ff27e06d83f2",
+      "title": "Learning Structured Knowledge from Social Tagging Data: A Critical Review of Methods and Techniques",
+      "query": "\"Learning Structured Knowledge from Social Tagging Data: A Critical Review of Methods and Techniques\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "0046d2b67bbf",
+      "title": "Mobile devices as support systems for health behaviour change",
+      "query": "\"Mobile devices as support systems for health behaviour change\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "922df451c0d8",
+      "title": "Monocular line tracking for the reduction of vibration induced during image acquisition",
+      "query": "\"Monocular line tracking for the reduction of vibration induced during image acquisition\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "6511d455e55e",
+      "title": "Wi-Fi Access Point Roaming: Challenges and Potential Solutions",
+      "query": "\"Wi-Fi Access Point Roaming: Challenges and Potential Solutions\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "4bd5f7b69bc2",
+      "title": "A Mobile Sensing Kit for Urban Analysis - For more legible, quantifiable intangible and temporary data",
+      "query": "\"A Mobile Sensing Kit for Urban Analysis - For more legible, quantifiable intangible and temporary data\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "72079d0a7561",
+      "title": "An Examination of the Internet of Things through the Data Management Perspective",
+      "query": "\"An Examination of the Internet of Things through the Data Management Perspective\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "82a0fb3233d7",
+      "title": "An exploration of using the backside of a mobile device to support map navigation activities",
+      "query": "\"An exploration of using the backside of a mobile device to support map navigation activities\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "88858f765a85",
+      "title": "Attacking Random Keypads through Click Timing Analysis",
+      "query": "\"Attacking Random Keypads through Click Timing Analysis\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "21feffe531b4",
+      "title": "DiffuseNet: A random walk based anonymity network",
+      "query": "\"DiffuseNet: A random walk based anonymity network\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "81e7c50256b5",
+      "title": "IRIS2: A Semantic Search Engine That Does Rational Research",
+      "query": "\"IRIS2: A Semantic Search Engine That Does Rational Research\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "d7f3726787ad",
+      "title": "Media Façades in the Wild: Some Lessons",
+      "query": "\"Media Façades in the Wild: Some Lessons\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "1654ed57d383",
+      "title": "Mobistore: Secure Cloud-like Storage on Mobile Devices",
+      "query": "\"Mobistore: Secure Cloud-like Storage on Mobile Devices\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "b3314432dc14",
+      "title": "User Authentication Interfaces in Mobile Devices: Some Design Considerations",
+      "query": "\"User Authentication Interfaces in Mobile Devices: Some Design Considerations\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "d556f231dcf5",
+      "title": "A first introduction to programming for first-year students at a Chinese university using LEGO MindStorms",
+      "query": "\"A first introduction to programming for first-year students at a Chinese university using LEGO MindStorms\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "04ea877de640",
+      "title": "A Light Mobile Web Service Framework Based on Axis2",
+      "query": "\"A Light Mobile Web Service Framework Based on Axis2\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "855b4eb9534e",
+      "title": "A WSN approach to unmanned aerial surveillance of traffic anomalies: Some challenges and potential solutions",
+      "query": "\"A WSN approach to unmanned aerial surveillance of traffic anomalies: Some challenges and potential solutions\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "eff25cb642b7",
+      "title": "Advancements in using a machine design project for teaching introductory electrical engineering",
+      "query": "\"Advancements in using a machine design project for teaching introductory electrical engineering\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "confirmed-recognition",
+      "award_ids": [
+        "tale-2013-merit"
+      ],
+      "search_lead_urls": [
+        "https://www.eee.hku.hk/~culei/curriculum_vitae.pdf",
+        "https://web.engg.hku.hk/home/e-news/201309/1.htm"
+      ]
+    },
+    {
+      "paper_id": "0e1f1a5d9e5d",
+      "title": "Application of hough transform feature extraction to reduce angular vibration in images captured from moving objects",
+      "query": "\"Application of hough transform feature extraction to reduce angular vibration in images captured from moving objects\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "b12dd829bf43",
+      "title": "Building a smart laboratory environment at a university via a cyber-physical system",
+      "query": "\"Building a smart laboratory environment at a university via a cyber-physical system\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "2fe4ae74241e",
+      "title": "Building an Intelligent Laboratory Environment via a Cyber-Physical System",
+      "query": "\"Building an Intelligent Laboratory Environment via a Cyber-Physical System\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "ede6d651d723",
+      "title": "Experimental and modeling studies on phase stability of nanocrystalline magnetic Sm2Co7",
+      "query": "\"Experimental and modeling studies on phase stability of nanocrystalline magnetic Sm2Co7\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": [],
+      "search_lead_urls": [
+        "https://mmm.sdsu.edu/publications/"
+      ]
+    },
+    {
+      "paper_id": "180b48da71c3",
+      "title": "Improving the teaching of Computer Networks through the incorporation of industry based training courses",
+      "query": "\"Improving the teaching of Computer Networks through the incorporation of industry based training courses\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "7a3703feac4d",
+      "title": "Internet of Things: A practical implementation based on a Wireless Sensor Network approach",
+      "query": "\"Internet of Things: A practical implementation based on a Wireless Sensor Network approach\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "f9428604e38c",
+      "title": "Porting LooCI Components into Zigduino",
+      "query": "\"Porting LooCI Components into Zigduino\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "90e664b81459",
+      "title": "Porting LooCI from the Contiki Platform to the Zigduino Platform: An Working Approach",
+      "query": "\"Porting LooCI from the Contiki Platform to the Zigduino Platform: An Working Approach\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "77d764607c60",
+      "title": "Students' perception on the use of visual tilings to support their learning of programming concepts",
+      "query": "\"Students' perception on the use of visual tilings to support their learning of programming concepts\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "7e8a3f7c2e9f",
+      "title": "Vibration and Reflection Reduction in Images Captured from Moving Objects Connected Through a Wireless Sensor Network",
+      "query": "\"Vibration and Reflection Reduction in Images Captured from Moving Objects Connected Through a Wireless Sensor Network\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "eb289f062f46",
+      "title": "Wireless spectrum allocation by simulated annealing",
+      "query": "\"Wireless spectrum allocation by simulated annealing\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "1b908de7b625",
+      "title": "A review of information communication technology applied on common tasks during times of emergency",
+      "query": "\"A review of information communication technology applied on common tasks during times of emergency\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "241b312a9c1c",
+      "title": "An exploration of interaction styles in mobile devices for navigating 3d environments",
+      "query": "\"An exploration of interaction styles in mobile devices for navigating 3d environments\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "aa36fea5db1d",
+      "title": "Crystal structures and magnetic performance of nanocrystalline Sm-Co compounds",
+      "query": "\"Crystal structures and magnetic performance of nanocrystalline Sm-Co compounds\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "2eee2119e2a9",
+      "title": "EdgeSplit: facilitating the selection of off-screen objects",
+      "query": "\"EdgeSplit: facilitating the selection of off-screen objects\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "fef51ed39c13",
+      "title": "How to position the cursor?: an exploration of absolute and relative cursor positioning for back-of-device input",
+      "query": "\"How to position the cursor?: an exploration of absolute and relative cursor positioning for back-of-device input\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "5f267846ae87",
+      "title": "Mapping the Experience of Space",
+      "query": "\"Mapping the Experience of Space\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "c83632462d8a",
+      "title": "See me, see you",
+      "query": "\"See me, see you\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": [],
+      "search_lead_urls": [
+        "https://www.nationalgallery.sg/content/dam/media-releases/discover-history-southeast-asian-video-art-national-gallery-singapores-see-me-see-you/Media%20Release%20See%20Me%20See%20You.pdf"
+      ]
+    },
+    {
+      "paper_id": "6d47d43788d3",
+      "title": "See me, see you: a lightweight method for discriminating user touches on tabletop displays",
+      "query": "\"See me, see you: a lightweight method for discriminating user touches on tabletop displays\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "97f0377c3219",
+      "title": "User-defined surface+motion gestures for 3d manipulation of objects at a distance through a mobile device",
+      "query": "\"User-defined surface+motion gestures for 3d manipulation of objects at a distance through a mobile device\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "d1b9981182b3",
+      "title": "Using visual tiling patterns to support the teaching of programming concepts",
+      "query": "\"Using visual tiling patterns to support the teaching of programming concepts\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "6d463451ce1e",
+      "title": "An Exploratory Study of Interactivity in Visualization Tools: ‘Flow’ of Interaction",
+      "query": "\"An Exploratory Study of Interactivity in Visualization Tools: ‘Flow’ of Interaction\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "290530946d76",
+      "title": "Can interactive visualization tools engage and support pre-university students in exploring non-trivial mathematical concepts?",
+      "query": "\"Can interactive visualization tools engage and support pre-university students in exploring non-trivial mathematical concepts?\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "3cc5414cd928",
+      "title": "Overview of the Health Informatics Research Field: A Bibliometric Approach",
+      "query": "\"Overview of the Health Informatics Research Field: A Bibliometric Approach\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "bde7013c7480",
+      "title": "PREPARATION AND CHARACTERIZATION OF SmCo2 NANOCRYSTALLINE ALLOY WITH PERMANENT MAGNETIC PROPERTIES",
+      "query": "\"PREPARATION AND CHARACTERIZATION OF SmCo2 NANOCRYSTALLINE ALLOY WITH PERMANENT MAGNETIC PROPERTIES\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "0fd3a5b24410",
+      "title": "Role of externalization and composite interactions in the exploration of complex visualization spaces: a usability study",
+      "query": "\"Role of externalization and composite interactions in the exploration of complex visualization spaces: a usability study\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "32e528b851e3",
+      "title": "Role of Interaction in Enhancing the Epistemic Utility of 3D Mathematical Visualizations",
+      "query": "\"Role of Interaction in Enhancing the Epistemic Utility of 3D Mathematical Visualizations\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "e719e5d1bfd6",
+      "title": "Application of Frameworks in the Analysis and (Re)design of Interactive Visual Learning Tools",
+      "query": "\"Application of Frameworks in the Analysis and (Re)design of Interactive Visual Learning Tools\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "fb4b1bd702d6",
+      "title": "Characterizing navigation in interactive learning environments",
+      "query": "\"Characterizing navigation in interactive learning environments\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "d3946117e887",
+      "title": "Enhancing the Usability of Complex Visualizations by Making them Interactive: A Study",
+      "query": "\"Enhancing the Usability of Complex Visualizations by Making them Interactive: A Study\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "bc2ac940dd0d",
+      "title": "INFLUENCE OF THE MULTIPLES LIFE CYCLES ON THE ENVIRONMENTAL IMPACT OF A PRODUCT",
+      "query": "\"INFLUENCE OF THE MULTIPLES LIFE CYCLES ON THE ENVIRONMENTAL IMPACT OF A PRODUCT\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "130791d78cf0",
+      "title": "Interaction design and visual cognitive tools: enabling effective human-information interaction",
+      "query": "\"Interaction design and visual cognitive tools: enabling effective human-information interaction\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "7ff5871c1b10",
+      "title": "Interaction flow in educational visualization tools: A study",
+      "query": "\"Interaction flow in educational visualization tools: A study\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "74193ec029d7",
+      "title": "Learner-Information Interaction: A Macro-Level Framework Characterizing Visual Cognitive Tools",
+      "query": "\"Learner-Information Interaction: A Macro-Level Framework Characterizing Visual Cognitive Tools\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "c22ec0ea9c56",
+      "title": "On the design of interactive visual representations: Fitness of interaction",
+      "query": "\"On the design of interactive visual representations: Fitness of interaction\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "e996590bc6b1",
+      "title": "Presentation of feedback in interactive learning environments: Some dimensions",
+      "query": "\"Presentation of feedback in interactive learning environments: Some dimensions\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "d7c5c4dfb914",
+      "title": "Scaffolding as a Strategy to Make Tools More Accessible to Young Children",
+      "query": "\"Scaffolding as a Strategy to Make Tools More Accessible to Young Children\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "450ce44e48af",
+      "title": "A survey of navigation interaction in computer-based learning environments",
+      "query": "\"A survey of navigation interaction in computer-based learning environments\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "f50a0d7f0bd8",
+      "title": "Interactivity of Visual Mathematical Representations: Factors Affecting Learning and Cognitive Processes",
+      "query": "\"Interactivity of Visual Mathematical Representations: Factors Affecting Learning and Cognitive Processes\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "67b20576c283",
+      "title": "Macro-level characterization of mathematical cognitive tools",
+      "query": "\"Macro-level characterization of mathematical cognitive tools\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "b7b3ff5e38a5",
+      "title": "Designing interfaces that support formation of cognitive maps of transitional processes: an empirical study",
+      "query": "\"Designing interfaces that support formation of cognitive maps of transitional processes: an empirical study\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "161babf64c7a",
+      "title": "Interaction and Interactivity in Online Mathematical Applets: Two Sides of the Same Coin",
+      "query": "\"Interaction and Interactivity in Online Mathematical Applets: Two Sides of the Same Coin\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "ff2e3a9655c0",
+      "title": "Designing online mathematical investigation",
+      "query": "\"Designing online mathematical investigation\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    },
+    {
+      "paper_id": "64cb4d1c36fe",
+      "title": "Application of information visualization techniques to the design of a mathematical mindtool: a usability study",
+      "query": "\"Application of information visualization techniques to the design of a mathematical mindtool: a usability study\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
+      "result": "no-confirmed-record",
+      "award_ids": []
+    }
+  ],
+  "pending": [
+    {
+      "paper_id": "ab3e09a5d2f5",
+      "title": "Exploring the Effect of Display Type on Co-Located Multiple Player Gameplay Performance, Immersion, Social Presence, and Behavior Patterns",
+      "claimed_result": "VISIGRAPP / GRAPP 2024 Best Paper Award shortlist",
+      "status": "needs-title-specific-evidence",
+      "sources": [
+        "https://xuwenge.github.io/",
+        "https://xuwenge.github.io/publications.html",
+        "https://visigrapp.scitevents.org/PreviousAwards.aspx"
+      ],
+      "reason": "A January 2024 coauthor news item reports a shortlisted VISIGRAPP paper without naming it. His publication list contains this GRAPP 2024 paper, but the official program is not readable in this review. The title-specific award association remains unconfirmed. It is not among the official 2024 winners."
+    },
+    {
+      "paper_id": null,
+      "title": "Towards an analytical framework of interactions in mobile devices",
+      "claimed_result": "PLATCON 2014 Best Paper Award",
+      "status": "award-reported-outside-catalog",
+      "sources": [
+        "https://www.arch.rpi.edu/wp-content/uploads/APR-2015.pdf"
+      ],
+      "reason": "A coauthor CV in RPI’s institutional report identifies this paper as Best Paper Award, page 146. The work is outside the 393-record bibliography. Full author names, the published title, and a publisher/library record have not been resolved; no arbitrary existing paper ID is assigned."
+    },
+    {
+      "paper_id": null,
+      "title": "Digital Campus with Virtual Reality: from Immersive Visualization to Interactive Experience",
+      "claimed_result": "CCSAT 2020 Outstanding Paper Prize",
+      "status": "award-reported-outside-catalog",
+      "sources": [
+        "https://www.xjtlu-ttc.com/expert/49"
+      ],
+      "reason": "The university technology-transfer profile for coauthor Yue Li explicitly names this 2020 paper and Outstanding Paper Prize. It is outside the current bibliography; complete bibliographic metadata and an institutional/publisher publication destination remain unresolved."
+    },
+    {
+      "paper_id": "9384913c1a8e",
+      "title": "MemoryVR: Collecting and Sharing Memories in Personal Virtual Museums",
+      "claimed_result": "CCVR 2022 Third Prize",
+      "status": "project-award-not-paper-prize",
+      "sources": [
+        "https://hiherlab.github.io/docs/projects/MemoryVR"
+      ],
+      "reason": "The primary lab project page reports CCVR 2022 Third Prize for the Memory VR project and separately lists the 2024 IEEE VRW paper. This is not evidence of a 2024 paper-prize win. Retained as a project-award lead outside the paper-award list."
+    }
+  ],
+  "excluded_candidates": [
+    {
+      "paper_id": "754810bc2a15",
+      "sources": [
+        "https://ir.cwi.nl/pub/33686/33686.pdf"
+      ],
+      "reason": "The CHI 2023 institutional compilation has an award legend, but the target paper has no award marker. Other papers on the same page carry the markers."
+    },
+    {
+      "paper_id": "943ae277d068",
+      "sources": [
+        "https://cis.unimelb.edu.au/research/hci/news/2021/chi-2021-papers"
+      ],
+      "reason": "The university lists this title as an accepted full paper; its award section names different papers."
+    },
+    {
+      "paper_id": "09c545f05254",
+      "sources": [
+        "https://lixiangzhao98.github.io/cv/",
+        "https://yulingyun.com/"
+      ],
+      "reason": "The similarly named ChinaVis 2023 Best Poster has different authors from the 2022 ISMAR paper. The prize is not assigned to the 2022 article."
+    },
+    {
+      "paper_id": "613f0a10b775",
+      "sources": [
+        "https://icmi.acm.org/2021/docs/ICMI_2021_Booklet_Final.pdf"
+      ],
+      "reason": "The source contains a general best-paper-candidate legend. A marker for this exact title was not verified; the legend alone is insufficient."
+    },
+    {
+      "paper_id": "41fcf9ddb4c0",
+      "sources": [],
+      "reason": "Searches found an education competition project with a similar title and different authors. It was not matched to this article."
+    },
+    {
+      "paper_id": "f26180fe99cf",
+      "sources": [],
+      "reason": "Search hits refer to a designer’s product competition nomination, without establishing an award for this article."
+    },
+    {
+      "paper_id": null,
+      "title": "CFlow: Supporting Semantic Flow Analysis of Students’ Code in Programming Problems at Scale",
+      "sources": [
+        "https://xiaohang-tang.github.io/"
+      ],
+      "reason": "A verified L@S 2024 Best Paper coauthored by an alumnus, outside this bibliography and without Hai-Ning Liang. The review covers the current website catalog rather than adding every later alumni publication."
+    },
+    {
+      "paper_id": null,
+      "title": "Towards Inclusive External Human-Machine Interface: Exploring the Effects of Visual and Auditory eHMI for Deaf and Hard-of-Hearing People",
+      "sources": [
+        "https://xuwenge.github.io/"
+      ],
+      "reason": "A verified CHI 2026 honorable mention coauthored by an alumnus, outside this bibliography. It is not silently assigned to another lab paper."
+    }
+  ]
+}

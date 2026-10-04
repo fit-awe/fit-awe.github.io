@@ -9500,24 +9500,32 @@
       "year": 2020,
       "venue": "VR",
       "kind": "conference",
-      "doi": "10.1109/vr46266.2020.1581268453415",
-      "url": "https://doi.org/10.1109/VR46266.2020.1581268453415",
+      "doi": "10.1109/vr46266.2020.00039",
+      "url": "https://doi.org/10.1109/VR46266.2020.00039",
       "sources": [
         "https://dblp.org/rec/conf/vr/XuLCLY20",
         "https://openalex.org/W4232565950",
         "https://openalex.org/W3025368071",
-        "existing-site"
+        "existing-site",
+        "https://www.bcu.ac.uk/research/computing/digital-media-technology/members-and-partners/research-staff/wenge-xu"
       ],
       "urls": [
-        "https://doi.org/10.1109/VR46266.2020.1581268453415",
-        "https://doi.org/10.1109/vr46266.2020.00039",
-        "https://doi.org/10.1109/vr46266.2020.1581268453415"
+        "https://doi.org/10.1109/VR46266.2020.00039"
       ],
       "image": null,
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
         "experience"
+      ],
+      "metadata_corrections": [
+        {
+          "field": "doi",
+          "previous": "10.1109/vr46266.2020.1581268453415",
+          "value": "10.1109/vr46266.2020.00039",
+          "source": "https://www.bcu.ac.uk/research/computing/digital-media-technology/members-and-partners/research-staff/wenge-xu",
+          "verified_on": "2026-10-05"
+        }
       ]
     },
     {
