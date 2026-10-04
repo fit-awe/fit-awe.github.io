@@ -9,6 +9,10 @@ def visible(soup):
  return [str(n).strip() for n in soup.find_all(string=True) if str(n).strip() and not isinstance(n,(Comment,Doctype)) and n.parent.name not in ['script','style']]
 def main():
  count=0
+ members=BeautifulSoup((ROOT/'members/index.html').read_text(),'html.parser')
+ alumni_names=[li.get_text(' ',strip=True).split(',')[0] for li in members.select('.members-alumni .alumni-list li')]
+ assert alumni_names,'Members must include the alumni roster'
+ retired={'teams/index.html':('members/index.html',''),'projects/index.html':('publications/index.html',''),'alumni/index.html':('members/index.html','alumni')}
  for lang in LANGUAGES:
   for page in PAGES+['publications/index.html']:
    path=ROOT/('' if lang=='en' else lang)/page;s=BeautifulSoup(path.read_text(),'html.parser')
@@ -30,7 +34,20 @@ def main():
     for a in s.select('.navbar-nav > li > a[href],.site-footer a[href]'):
      if a['href']=='#':continue
      target=(path.parent/urlsplit(a['href']).path).resolve()
+     assert target not in [(ROOT/('' if lang=='en' else lang)/p).resolve() for p in retired],(path,'retired navigation entry')
      assert BeautifulSoup(target.read_text(),'html.parser').html['lang']==lang,(path,'cross-language navigation')
+   if page=='members/index.html':
+    assert s.select_one('h2#faculty') and not s.select_one('h2#staff'),(path,'Faculty section missing')
+    assert [li.get_text(' ',strip=True).split(',')[0] for li in s.select('.members-alumni .alumni-list li')]==alumni_names,(path,'alumni roster changed')
+    assert s.select_one('.members-section-nav a[href="#alumni"]'),(path,'Alumni entry missing')
+   if page=='index.html':
+    assert len(s.select('.home-card'))==2,(path,'outdated homepage entries')
+   if page in retired:
+    redirect=s.select_one('meta[http-equiv="refresh"]');assert redirect,(path,'legacy redirect missing')
+    url=urlsplit(redirect['content'].split('url=',1)[1])
+    target,fragment=retired[page]
+    assert (path.parent/url.path).resolve()==(ROOT/('' if lang=='en' else lang)/target).resolve(),(path,'wrong redirect destination')
+    assert url.fragment==fragment,(path,'wrong redirect section')
    for tag in s.select('[src],[href]'):
     url=urlsplit(tag.get('src',tag.get('href')))
     if url.scheme or url.netloc or not url.path:continue

@@ -8,7 +8,7 @@ from build_publications import author_key, lab_author_keys
 ROOT=Path(__file__).resolve().parents[1]
 LANGUAGES={'en':'English','zh':'中文','fr':'Français','ar':'العربية','ja':'日本語'}
 PAGES=['index.html','allnews.html','members/index.html','alumni/index.html','teams/index.html','projects/index.html','entrepreneurship/index.html','vacancies/index.html','aboutwebsite.html','404.html','vacancies.html','instrumente.html','pictures/index.html','team/index.html']
-TITLES=dict(zip(PAGES,['About','News','Members','Alumni','Teams','Projects','Entrepreneurship','Open Positions','About this site','Sorry, but the page you were trying to view does not exist.','Redirecting...','Projects','Projects','Members']))
+TITLES=dict(zip(PAGES,['About','News','Members','Alumni','Members','Publications','Entrepreneurship','Open Positions','About this site','Sorry, but the page you were trying to view does not exist.','Redirecting...','Publications','Publications','Members']))
 INVARIANTS={'FIT-AWE Lab','FIT-AWE','FIT-AWE / HKUST(GZ)','FIT-AWE Lab · HKUST(GZ)','HCI','XR','E1 · 507','Allan Lab','· Bootstrap · Bootswatch'}
 TERMS={'zh':{'now':'至今','summer':'暑期','Remote co-supervision':'远程联合指导'},'fr':{'now':'présent','summer':'été','Remote co-supervision':'Codirection à distance'},'ar':{'now':'الآن','summer':'الصيف','Remote co-supervision':'إشراف مشترك عن بُعد'},'ja':{'now':'現在','summer':'夏季','Remote co-supervision':'遠隔共同指導'}}
 

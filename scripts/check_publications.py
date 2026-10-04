@@ -2,7 +2,7 @@
 """Check publication data, generated pages, and local assets before upload."""
 import json
 from pathlib import Path
-from urllib.parse import unquote, urlsplit, parse_qs
+from urllib.parse import unquote, urlsplit
 from bs4 import BeautifulSoup
 from build_publications import author_key, lab_author_keys
 roster=lab_author_keys()
@@ -37,14 +37,11 @@ for lang in ['', 'zh', 'fr', 'ar', 'ja']:
   assert [a.text for a in authors.select('strong')]==[a for a in paper['authors'] if author_key(a) in roster], 'Member/alumni highlighting mismatch'
   image=card.select_one('.paper-figure')
   if image:assert image['href']==paper['url']
- project=BeautifulSoup((ROOT/lang/'projects/index.html').read_text(),'html.parser')
- links=project.select('.project-topic-link')
- assert len(links)==6
- for link,topic in zip(links,topics):
-  assert parse_qs(urlsplit(link['href']).query)['topic']==[topic['id']]
-  expected=sum(topic['id'] in paper['topics'] for paper in papers)
-  assert str(expected) in link.select_one('.project-topic-count').text
-  assert (ROOT/lang/'projects'/urlsplit(link['href']).path).resolve()==path.resolve()
+ options=soup.select('#publication-topic option[value]:not([value=""])')
+ assert len(options)==6
+ for option,topic in zip(options,topics):
+  assert option['value']==topic['id']
+  assert option.text==topic['labels'][lang or 'en']
  for tag in soup.select('[src], [href]'):
   url=tag.get('src',tag.get('href'));parsed=urlsplit(url)
   if parsed.scheme or parsed.netloc or not parsed.path:continue

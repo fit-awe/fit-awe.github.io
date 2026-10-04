@@ -32,7 +32,7 @@
 
 ## 作者加粗
 
-生成脚本读取英文成员页 `members/index.html` 的姓名和校友页 `alumni/index.html` 的全部名单，在五种语言论文页中加粗匹配作者。匹配忽略大小写、空格、连字符和括号昵称，保留论文原始姓名拼写与顺序，不进行模糊匹配。更新成员或校友名单后，重新运行 `python3 scripts/build_publications.py` 即可同步。
+生成脚本读取英文成员页 `members/index.html` 的成员卡片和 Alumni 分区中的全部名单，在五种语言论文页中加粗匹配作者。匹配忽略大小写、空格、连字符和括号昵称，保留论文原始姓名拼写与顺序，不进行模糊匹配。更新成员或校友名单后，重新运行 `python3 scripts/build_publications.py` 即可同步。旧 `alumni/index.html` 仅跳转至 Members 的 Alumni 分区。
 
 ## 研究方向分类
 

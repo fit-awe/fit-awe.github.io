@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Render the shared publication catalog into four ready-to-host HTML pages.
+"""Render the shared publication catalog into five ready-to-host HTML pages.
 Requires beautifulsoup4 for preserving the existing site navigation.
 """
 import html
@@ -27,9 +27,8 @@ def author_key(name):
  return ''.join(c for c in unicodedata.normalize('NFKD',name).casefold() if c.isalpha())
 def lab_author_keys():
  members=BeautifulSoup((ROOT/'members/index.html').read_text(),'html.parser')
- alumni=BeautifulSoup((ROOT/'alumni/index.html').read_text(),'html.parser')
- names=[tag.get_text(' ',strip=True) for tag in members.select('#gridid h4')]
- names.extend(tag.get_text(' ',strip=True).split(',')[0] for tag in alumni.select('.alumni-list li'))
+ names=[tag.get_text(' ',strip=True) for tag in members.select('.member-card h4')]
+ names.extend(tag.get_text(' ',strip=True).split(',')[0] for tag in members.select('.members-alumni .alumni-list li'))
  return {author_key(name) for name in names if name.strip()}
 def bibtex(p):
  typ='inproceedings' if p['kind']=='conference' else ('misc' if p['kind']=='preprint' else 'article')
@@ -78,7 +77,7 @@ def build():
    sections.append(f'<section class="publication-year-group" aria-labelledby="year-{year}"><h2 id="year-{year}" class="publication-year-title">{year}</h2>'+''.join(cards)+'</section>')
   document=f'''<!DOCTYPE html>
 <html lang="{lang}"{' dir="rtl"' if lang=='ar' else ''}>
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{c['title']} | FIT-AWE Lab</title><meta name="description" content="{esc(c['description'])}"><link rel="stylesheet" href="{asset('css/main.css')}"><link rel="stylesheet" href="{asset('css/refinements.css')}?v=20260915-nav2"><link rel="stylesheet" href="{asset('css/publications.css')}">{alternates}</head>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{c['title']} | FIT-AWE Lab</title><meta name="description" content="{esc(c['description'])}"><link rel="stylesheet" href="{asset('css/main.css')}"><link rel="stylesheet" href="{asset('css/refinements.css')}?v=20261004-members"><link rel="stylesheet" href="{asset('css/publications.css')}">{alternates}</head>
 <body>{navbar}
 <main class="publication-catalog" data-publication-catalog data-default-title="{esc(c['title'])}" data-count-template="{esc(c['count'])}">
 <header class="catalog-header"><div><p class="catalog-eyebrow">FIT-AWE / {research_label}</p><h1 id="catalog-title">{c['title']}</h1><p class="catalog-description">{c['description']}</p></div><nav class="catalog-sources" aria-label="{profile_label}"><a href="https://scholar.google.com/citations?user=UJPH5ioAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar ↗</a><a href="https://dblp.org/pid/55/1198.html" target="_blank" rel="noopener noreferrer">DBLP ↗</a></nav></header>
@@ -88,20 +87,7 @@ def build():
 <p class="catalog-footnote">{c['updated']} {payload['updated']}</p></main>
 {footer}
 <dialog id="citation-dialog" aria-labelledby="citation-heading"><h2 id="citation-heading">BibTeX</h2><pre tabindex="0"></pre><div class="citation-actions"><button type="button" data-copy data-success="{esc(c['copied'])}" data-failure="{esc(c['failed'])}">{c['copy']}</button><button type="button" data-close autofocus>{c['close']}</button></div><p role="status"></p></dialog>
-<script src="{asset('js/jquery.min.js')}"></script><script src="{asset('js/bootstrap.min.js')}"></script><script src="{asset('js/publications.js')}" defer></script><script src="{asset('js/navigation.js')}?v=20260915-nav2" defer></script></body></html>'''
+<script src="{asset('js/jquery.min.js')}"></script><script src="{asset('js/bootstrap.min.js')}"></script><script src="{asset('js/publications.js')}" defer></script><script src="{asset('js/navigation.js')}?v=20261004-members" defer></script></body></html>'''
   dest.write_text(document+'\n')
-  project_path=dest.parent.parent/'projects/index.html'
-  project=BeautifulSoup(project_path.read_text(),'html.parser')
-  topic_list=project.select_one('.project-topics')
-  topic_list.clear()
-  for topic in topics:
-   total=sum(topic['id'] in paper.get('topics',[]) for paper in papers)
-   item=project.new_tag('li')
-   link=project.new_tag('a',href='../publications/index.html?topic='+topic['id'])
-   link['class']='project-topic-link'
-   title=project.new_tag('strong');title.string=topic['labels'][lang];link.append(title)
-   count=project.new_tag('span');count['class']='project-topic-count';count.string=c['topic_count'].replace('{count}',str(total))+' →';link.append(count)
-   item.append(link);topic_list.append(item)
-  project_path.write_text(str(project).rstrip()+'\n')
  print(f'Rendered {len(papers)} publications in {len(LABELS)} languages.')
 if __name__=='__main__':build()
