@@ -20,37 +20,28 @@ LABELS = {
  'fr': dict(topic='Axe de recherche',all_topics='Tous les axes',topic_count='{count} publications',title='Publications',description='Les travaux du laboratoire FIT-AWE, au fil des années.',search='Rechercher',placeholder='Titre, auteur, revue ou mot-clé',year='Année',all='Toutes les années',kind='Type',all_types='Tous les types',journal='Articles de revue',conference='Articles de conférence',preprint='Prépublications',other='Autres travaux',count='{shown} publications sur {total}',reset='Effacer les filtres',empty='Aucune publication trouvée. Essayez un autre mot-clé.',library='Voir la publication',pdf='PDF',close='Fermer',copy='Copier le BibTeX',copied='Copié.',failed='Copie indisponible. Copiez manuellement le texte sélectionné.',updated='Mise à jour',figure='Figure de'),
  'ar': dict(topic='مجال البحث',all_topics='جميع المجالات',topic_count='{count} منشورًا',title='جميع المنشورات',description='أبحاث مختبر FIT-AWE عبر السنوات.',search='البحث في المنشورات',placeholder='العنوان أو المؤلف أو المجلة أو كلمة مفتاحية',year='السنة',all='جميع السنوات',kind='النوع',all_types='جميع الأنواع',journal='مقالات المجلات',conference='أوراق المؤتمرات',preprint='المطبوعات الأولية',other='أبحاث أخرى',count='عرض {shown} من {total} منشورًا',reset='مسح الفلاتر',empty='لا توجد نتائج مطابقة. جرّب كلمة أخرى أو امسح الفلاتر.',library='عرض المنشور',pdf='PDF',close='إغلاق',copy='نسخ BibTeX',copied='تم النسخ.',failed='النسخ غير متاح. انسخ النص المحدد يدويًا.',updated='آخر تحديث',figure='شكل من'),
 }
-def esc(value): return html.escape(str(value), quote=True)
-def author_key(name):
- # Ignore typographic differences and parenthetical nicknames, not name order.
- name=re.sub(r'\([^)]*\)', '', name)
- return ''.join(c for c in unicodedata.normalize('NFKD',name).casefold() if c.isalpha())
-def lab_author_keys():
- members=BeautifulSoup((ROOT/'members/index.html').read_text(),'html.parser')
- names=[tag.get_text(' ',strip=True) for tag in members.select('.member-card h4')]
- names.extend(tag.get_text(' ',strip=True).split(',')[0] for tag in members.select('.members-alumni .alumni-list li'))
- return {author_key(name) for name in names if name.strip()}
-def bibtex(p):
- typ='inproceedings' if p['kind']=='conference' else ('misc' if p['kind']=='preprint' else 'article')
- def safe(t):return str(t).replace('\\','\\textbackslash{}').replace('&',r'\&').replace('%',r'\%').replace('_',r'\_')
- fields=[('title',p['title']),('author',' and '.join(p['authors'])),('year',p['year'])]
- if p['venue']:fields.append(('booktitle' if typ=='inproceedings' else 'journal',p['venue']))
- if p.get('doi'):fields.append(('doi',p['doi']))
- fields.append(('url',p['url']))
- return '@'+typ+'{fitawe'+p['id']+',\n'+',\n'.join('  '+k+' = {'+(str(v) if k in ['doi','url'] else safe(v))+'}' for k,v in fields)+'\n}'
+from publication_common import esc, author_key, lab_author_keys, bibtex
+from publication_dates import format_date
+from site_shell import header, footer, VERSION
+
 def build():
+ from build_locales import build as build_pages
+ build_pages()
  payload=json.loads(DATA.read_text());papers=payload['publications']
  lab_authors=lab_author_keys()
  years=sorted({p['year'] for p in papers},reverse=True)
  topics=json.loads((ROOT/'data/research-topics.json').read_text())
  for lang,c in LABELS.items():
   dest=ROOT/('' if lang=='en' else lang)/'publications/index.html'
-  old=BeautifulSoup(dest.read_text(),'html.parser')
-  navbar=str(old.select_one('.navbar'));footer=str(old.select_one('.site-footer'))
+  dest.parent.mkdir(parents=True,exist_ok=True)
+  navbar=header('publications/index.html',lang);site_footer=footer('publications/index.html',lang)
   def asset(path):return quote(os.path.relpath(ROOT/path,dest.parent),safe='/')
-  options=''.join(f'<option value="{year}">{year}</option>' for year in years)
-  kinds=''.join(f'<option value="{kind}">{c[kind]}</option>' for kind in ['journal','conference','preprint','other'])
-  topic_options=''.join(f'<option value="{t["id"]}">{esc(t["labels"][lang])}</option>' for t in topics)
+  def filter_group(key,legend,entries):
+   buttons=''.join(f'<button type="button" data-filter="{key}" data-value="{esc(value)}" aria-pressed="{str(not value).lower()}">{esc(label)}</button>' for value,label in entries)
+   return f'<fieldset class="filter-group" id="publication-{key}"><legend>{esc(legend)}</legend><div class="filter-options">{buttons}</div></fieldset>'
+  filters=filter_group('topic',c['topic'],[('',c['all_topics'])]+[(t['id'],t['labels'][lang]) for t in topics])
+  filters+=filter_group('year',c['year'],[('',c['all'])]+[(str(y),str(y)) for y in years])
+  filters+=filter_group('type',c['kind'],[('',c['all_types'])]+[(k,c[k]) for k in ['journal','conference','preprint','other']])
   profile_label={'en':'Publication profiles','zh':'学术资料页','fr':'Profils de recherche','ar':'الملفات البحثية','ja':'学術プロフィール'}[lang]
   research_label={'en':'RESEARCH','zh':'研究成果','fr':'RECHERCHE','ar':'الأبحاث','ja':'研究成果'}[lang]
   alternates=''.join('<link rel="alternate" hreflang="'+code+'" href="'+asset(('' if code=='en' else code+'/')+'publications/index.html')+'">' for code in LABELS)
@@ -69,25 +60,28 @@ def build():
     pdf=f'<a href="{asset(p["pdf"])}" target="_blank" rel="noopener noreferrer">PDF ↓</a>' if p.get('pdf') else ''
     search=esc(' '.join([p['title'],' '.join(p['authors']),p['venue'],str(year)]))
     kindlabel=c.get(p['kind'],c['other'])
+    publication_date=''
+    if p.get('published_date'):
+     publication_date=f'<span class="catalog-paper-date"><time datetime="{p["published_date"]}">{esc(format_date(p["published_date"],lang))}</time></span>'
     cards.append(f'''<article class="paper-card{' no-figure' if not figure else ''}" id="paper-{p['id']}" data-year="{year}" data-kind="{p['kind']}" data-topics="{esc(' '.join(p.get('topics',[])))}" data-search="{search}">
-{figure}<div class="paper-content"><p class="paper-meta">{esc(kindlabel)} · <bdi>{esc(p['venue'])}</bdi></p>
+{figure}<div class="paper-content"><p class="paper-meta">{esc(kindlabel)} · <bdi>{esc(p['venue'])}</bdi>{publication_date}</p>
 <h3 class="paper-title" dir="auto"><a href="{url}" target="_blank" rel="noopener noreferrer">{title}</a></h3>
 <p class="paper-authors" dir="auto">{', '.join(authors)}</p>
 <div class="paper-actions"><a href="{url}" target="_blank" rel="noopener noreferrer">{esc(c['library'])} ↗</a>{pdf}<button type="button" data-citation="{esc(bibtex(p))}">BibTeX</button></div></div></article>''')
    sections.append(f'<section class="publication-year-group" aria-labelledby="year-{year}"><h2 id="year-{year}" class="publication-year-title">{year}</h2>'+''.join(cards)+'</section>')
   document=f'''<!DOCTYPE html>
 <html lang="{lang}"{' dir="rtl"' if lang=='ar' else ''}>
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{c['title']} | FIT-AWE Lab</title><meta name="description" content="{esc(c['description'])}"><link rel="stylesheet" href="{asset('css/main.css')}"><link rel="stylesheet" href="{asset('css/refinements.css')}?v=20261004-members"><link rel="stylesheet" href="{asset('css/publications.css')}">{alternates}</head>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{c['title']} | FIT-AWE Lab</title><meta name="description" content="{esc(c['description'])}"><link rel="stylesheet" href="{asset('css/refinements.css')}?v={VERSION}"><link rel="stylesheet" href="{asset('css/publications.css')}">{alternates}</head>
 <body>{navbar}
-<main class="publication-catalog" data-publication-catalog data-default-title="{esc(c['title'])}" data-count-template="{esc(c['count'])}">
+<main id="main-content" class="publication-catalog page-shell" data-publication-catalog data-default-title="{esc(c['title'])}" data-count-template="{esc(c['count'])}">
 <header class="catalog-header"><div><p class="catalog-eyebrow">FIT-AWE / {research_label}</p><h1 id="catalog-title">{c['title']}</h1><p class="catalog-description">{c['description']}</p></div><nav class="catalog-sources" aria-label="{profile_label}"><a href="https://scholar.google.com/citations?user=UJPH5ioAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar ↗</a><a href="https://dblp.org/pid/55/1198.html" target="_blank" rel="noopener noreferrer">DBLP ↗</a></nav></header>
-<div class="catalog-controls"><div class="catalog-search"><label for="publication-search">{c['search']}</label><input id="publication-search" type="search" placeholder="{esc(c['placeholder'])}" autocomplete="off"></div><div class="catalog-topic"><label for="publication-topic">{c['topic']}</label><select id="publication-topic"><option value="">{c['all_topics']}</option>{topic_options}</select></div><div><label for="publication-year">{c['year']}</label><select id="publication-year"><option value="">{c['all']}</option>{options}</select></div><div><label for="publication-kind">{c['kind']}</label><select id="publication-kind"><option value="">{c['all_types']}</option>{kinds}</select></div></div>
+<div class="catalog-controls"><div class="catalog-search"><label for="publication-search">{c['search']}</label><input id="publication-search" type="search" placeholder="{esc(c['placeholder'])}" autocomplete="off"></div>{filters}</div>
 <div class="catalog-status"><p id="publication-count" role="status" aria-live="polite">{c['count'].replace('{shown}',str(len(papers))).replace('{total}',str(len(papers)))}</p><button id="publication-reset" type="button" hidden>{c['reset']}</button></div>
 <p id="publication-empty" hidden>{c['empty']}</p>{''.join(sections)}
-<p class="catalog-footnote">{c['updated']} {payload['updated']}</p></main>
-{footer}
+<p class="catalog-footnote">{c['updated']} {format_date(payload['updated'],lang)}</p></main>
+{site_footer}
 <dialog id="citation-dialog" aria-labelledby="citation-heading"><h2 id="citation-heading">BibTeX</h2><pre tabindex="0"></pre><div class="citation-actions"><button type="button" data-copy data-success="{esc(c['copied'])}" data-failure="{esc(c['failed'])}">{c['copy']}</button><button type="button" data-close autofocus>{c['close']}</button></div><p role="status"></p></dialog>
-<script src="{asset('js/jquery.min.js')}"></script><script src="{asset('js/bootstrap.min.js')}"></script><script src="{asset('js/publications.js')}" defer></script><script src="{asset('js/navigation.js')}?v=20261004-members" defer></script></body></html>'''
+<script src="{asset('js/publications.js')}?v={VERSION}" defer></script><script src="{asset('js/navigation.js')}?v={VERSION}" defer></script></body></html>'''
   dest.write_text(document+'\n')
  print(f'Rendered {len(papers)} publications in {len(LABELS)} languages.')
 if __name__=='__main__':build()

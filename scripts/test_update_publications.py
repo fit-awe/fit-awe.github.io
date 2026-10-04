@@ -18,8 +18,18 @@ class PublicationUpdates(unittest.TestCase):
   self.assertEqual(merge(records,[new]),[new['id']]);self.assertEqual(len(records),2)
  def test_publisher_version_promotes_preprint_without_changing_id(self):
   old=self.paper();old['kind']='preprint';old['image']={'path':'existing.png'};key=old['id']
+  old.update(published_date='2025-11-01',published_date_source='https://arxiv.org/abs/example',published_date_basis='first-submission')
   merge([old],[self.paper(source='https://dblp.org/rec/final')])
   self.assertEqual(old['kind'],'journal');self.assertEqual(old['id'],key);self.assertEqual(old['image']['path'],'existing.png')
+  self.assertNotIn('published_date',old)
+ def test_date_sources_are_preserved_on_repeated_imports(self):
+  old=self.paper();old.update(published_date='2026-03',published_date_source='https://api.crossref.org/example',published_date_basis='published-online')
+  new=self.paper();new.update(published_date='2026-04-01',published_date_source='https://api.crossref.org/later',published_date_basis='published-print')
+  merge([old],[new]);self.assertEqual(old['published_date'],'2026-03');self.assertEqual(old['published_date_basis'],'published-online')
+ def test_publisher_promotion_uses_new_version_date(self):
+  old=self.paper();old['kind']='preprint';old.update(published_date='2025-11-01',published_date_source='https://arxiv.org/abs/example')
+  new=self.paper();new.update(published_date='2026-02',published_date_source='https://api.crossref.org/example',published_date_basis='published-online')
+  merge([old],[new]);self.assertEqual(old['published_date'],'2026-02');self.assertEqual(old['published_date_basis'],'published-online')
  def test_blocked_scholar_is_not_empty_success(self):
   with self.assertRaises(ValueError):scholar_rows('<html>Verify you are human</html>')
  def test_scholar_requires_scholarly_type_and_correct_author(self):

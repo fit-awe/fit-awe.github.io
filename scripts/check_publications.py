@@ -5,6 +5,7 @@ from pathlib import Path
 from urllib.parse import unquote, urlsplit
 from bs4 import BeautifulSoup
 from build_publications import author_key, lab_author_keys
+from publication_dates import valid_date, format_date
 roster=lab_author_keys()
 ROOT=Path(__file__).resolve().parents[1]
 data=json.loads((ROOT/'data/publications.json').read_text())
@@ -18,6 +19,9 @@ assert len(dois)==len(set(dois)), 'Duplicate DOIs'
 dblp={s for p in papers for s in p['sources'] if s.startswith('https://dblp.org/rec/')}
 assert len(dblp)==data['sources']['dblp']['records'], 'Incomplete DBLP import'
 for paper in papers:
+ if paper.get('published_date'):
+  assert valid_date(paper['published_date']),paper['title']
+  assert urlsplit(paper['published_date_source']).scheme=='https',paper['title']
  assert isinstance(paper['topics'],list) and set(paper['topics'])<=topic_ids
  assert len(paper['topics'])==len(set(paper['topics']))
  assert paper['title'] and paper['authors'] and 1900<paper['year']<2100
@@ -37,11 +41,20 @@ for lang in ['', 'zh', 'fr', 'ar', 'ja']:
   assert [a.text for a in authors.select('strong')]==[a for a in paper['authors'] if author_key(a) in roster], 'Member/alumni highlighting mismatch'
   image=card.select_one('.paper-figure')
   if image:assert image['href']==paper['url']
- options=soup.select('#publication-topic option[value]:not([value=""])')
+ assert not soup.select('select'), 'Filters must be directly clickable'
+ options=soup.select('button[data-filter="topic"]:not([data-value=""])')
  assert len(options)==6
  for option,topic in zip(options,topics):
-  assert option['value']==topic['id']
+  assert option['data-value']==topic['id']
   assert option.text==topic['labels'][lang or 'en']
+ assert [b['data-value'] for b in soup.select('button[data-filter="year"]')]==['']+[str(y) for y in sorted({p['year'] for p in papers},reverse=True)]
+ assert [b['data-value'] for b in soup.select('button[data-filter="type"]')]==['','journal','conference','preprint','other']
+ for key in ['topic','year','type']:
+  assert len(soup.select(f'button[data-filter="{key}"][aria-pressed="true"]'))==1
+ for card,paper in zip(cards,papers):
+  if paper.get('published_date'):
+   time=card.select_one('time');assert time['datetime']==paper['published_date']
+   assert time.text==format_date(paper['published_date'],lang or 'en')
  for tag in soup.select('[src], [href]'):
   url=tag.get('src',tag.get('href'));parsed=urlsplit(url)
   if parsed.scheme or parsed.netloc or not parsed.path:continue

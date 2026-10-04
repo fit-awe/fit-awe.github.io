@@ -1,33 +1,25 @@
-# 给 Kimi 的部署说明
+# 给 Kimi 的部署与更新说明
 
-可将以下说明连同仓库链接或 ZIP 一起交给 Kimi：
+## 可直接交给 Kimi 的说明
 
-> 请部署这个 FIT-AWE 实验室官网。这是已经可以运行的纯静态多页面网站，默认入口为根目录的英文 index.html，中文入口为 zh/index.html，仅在用户主动切换语言时进入；不要按浏览器语言自动跳转中文。无需重新生成网站，无需 npm install 或构建步骤；将仓库根目录作为静态发布目录。完整保留所有子目录、图片、字体、JavaScript 和 downloads/publication 下的 PDF。确保 /zh/、/fr/、/ar/、/ja/ 及各子页面可以直接打开，论文下载可用，手机导航及语言切换正常。不要将所有路径回退到首页，也不要使用旧模板的 allanlab.org 域名。部署完成后返回访问地址。
-
-## 部署参数
+> 请部署 FIT-AWE 实验室官网，源仓库是 https://github.com/fit-awe/fit-awe.github.io ，使用 main。现有网站已经是可运行的纯静态多页面网站，英文入口为根目录 index.html。请直接部署，不要重新生成设计或按浏览器语言自动跳转。发布目录为仓库根目录，无需 npm install。保留 /zh/、/fr/、/ar/、/ja/、各语言的 awards/publications/members 等子页面、图片、字体、JavaScript 和 downloads/publication 下的 PDF。按实际路径提供文件，不要将所有路径回退到首页。请检查手机导航、语言切换、论文按钮组合筛选及 BibTeX。部署完成后返回访问地址。
 
 | 参数 | 值 |
 | --- | --- |
 | 项目类型 | Static / Other |
-| 根目录 | `.` |
-| 安装命令 | 留空 |
-| 构建命令 | 留空 |
+| 分支 / 根目录 | `main` / `.` |
+| 安装命令 / 构建命令 | 留空 |
 | 发布目录 | `.` |
-| 环境变量 | 无 |
-| 服务端 / 数据库 | 无 |
+| 网页运行环境变量 / 数据库 | 无 |
 
-若平台强制要求构建命令，可填写 `echo "Static site ready"`，发布目录仍为 `.`。
+## 保持定期更新
 
-仓库为私有：先授予部署工具仓库读取权限，或下载 ZIP 上传；无需为了部署而改成公开仓库。
+官网仓库包含 `.github/workflows/monthly-site-update.yml`，每月 1 日北京时间 09:17 检查论文来源，并从共享数据重新生成首页最新论文、新闻摘要、奖项和五种语言页面。说明见 `data/AUTOMATION.md`。
 
-## 还要配置月度自动更新
+1. 绑定 GitHub `main` 的更新以重新部署，或配置托管平台实际提供的 `KIMI_DEPLOY_HOOK_URL`。一次性 ZIP 上传需要后续手动重新部署，不能自动获得新论文。
+2. 新英文简介、新闻或其他文案的自动翻译与校对使用仓库 Secret `MOONSHOT_API_KEY`；不要将密钥放进网页或源码。只更新论文题目、作者、刊名时保留原文，无需翻译 API。
+3. 内容修改请遵循 `README.md` 的来源表：首页和招募改模板；新闻、奖项和论文改共享 JSON；成员及校友在英文 Members 页面维护。译文和首页摘要由生成脚本同步。
+4. 如需重新生成，安装 `scripts/requirements.txt`，运行 `python3 scripts/translate_locales.py`、`python3 scripts/build_site.py` 和三个 `check_*.py` 内容检查。部署现有静态文件不需要 Python。
+5. 将一个新提交部署后，核对实际线上内容与该提交一致，再确认持续部署已生效。
 
-请继续阅读 `data/AUTOMATION.md` 并完成以下配置：
-
-1. 保留 `.github/workflows/monthly-site-update.yml`，确认 GitHub Actions 已启用。定时为每月 1 日北京时间 09:17。
-2. 让用户在仓库 Secret 中填写 `MOONSHOT_API_KEY`，供新正文的翻译和独立校对使用。不要把密钥写进前端、源码、部署日志或聊天记录。
-3. 将部署绑定到 GitHub main 的提交变化，或在平台确实提供部署钩子的情况下配置 `KIMI_DEPLOY_HOOK_URL`。一次性上传 ZIP 不能实现线上自动更新；若当前托管方式不支持联动，应明确告知用户并选择支持持续部署的托管方式。
-4. 手动运行一次 Monthly publications and translations，查看运行摘要和报告，确认五种语言、日语入口、研究方向跳转、作者加粗均正常。
-5. 验证一次新的 main 提交确实触发线上重新部署，再交付网站地址。不要仅凭 GitHub 更新成功就声称线上自动部署成功。
-
-正文以英文页面为源，翻译字典在 `data/locales/`；所有作者姓名、论文题目和期刊名保留原文。维护脚本会先翻译新正文再校对，任何漏译或链接检查失败都会停止发布。
+现有 GitHub Pages 网站由官方仓库 `main` 发布。工作流自动提交后会显式请求 Pages 构建，以适配自动提交不会再次触发普通 push 工作流的情况；Kimi 平台仍需自己的 GitHub 联动或部署钩子。

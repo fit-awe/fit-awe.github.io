@@ -4,12 +4,18 @@ import json, os, re
 from pathlib import Path
 from urllib.parse import urlsplit, urlunsplit
 from bs4 import BeautifulSoup, Comment, Doctype
-from build_publications import author_key, lab_author_keys
+from publication_common import author_key, lab_author_keys
+from publication_dates import format_date
+from site_shell import header, footer, VERSION
 ROOT=Path(__file__).resolve().parents[1]
 LANGUAGES={'en':'English','zh':'中文','fr':'Français','ar':'العربية','ja':'日本語'}
 PAGES=['index.html','allnews.html','members/index.html','alumni/index.html','teams/index.html','projects/index.html','entrepreneurship/index.html','vacancies/index.html','aboutwebsite.html','404.html','vacancies.html','instrumente.html','pictures/index.html','team/index.html']
 TITLES=dict(zip(PAGES,['About','News','Members','Alumni','Members','Publications','Entrepreneurship','Open Positions','About this site','Sorry, but the page you were trying to view does not exist.','Redirecting...','Publications','Publications','Members']))
-INVARIANTS={'FIT-AWE Lab','FIT-AWE','FIT-AWE / HKUST(GZ)','FIT-AWE Lab · HKUST(GZ)','HCI','XR','E1 · 507','Allan Lab','· Bootstrap · Bootswatch'}
+PAGES.append('awards/index.html')
+TITLES['awards/index.html']='Awards'
+TITLES['vacancies/index.html']='Join Us'
+TITLES['entrepreneurship/index.html']='Industry–Academia Collaboration'
+INVARIANTS={'FIT-AWE Lab','FIT-AWE','FIT','AWE','HKUST(GZ) ↗','FIT-AWE / HKUST(GZ)','FIT-AWE Lab · HKUST(GZ)','HCI','XR','E1 · 507','Allan Lab','· Bootstrap · Bootswatch'}
 TERMS={'zh':{'now':'至今','summer':'暑期','Remote co-supervision':'远程联合指导'},'fr':{'now':'présent','summer':'été','Remote co-supervision':'Codirection à distance'},'ar':{'now':'الآن','summer':'الصيف','Remote co-supervision':'إشراف مشترك عن بُعد'},'ja':{'now':'現在','summer':'夏季','Remote co-supervision':'遠隔共同指導'}}
 
 def translate(text,lang,dictionary,roster):
@@ -34,11 +40,28 @@ def render(page,lang,missing=None):
   except ValueError:
    if missing is None:raise
    missing.add(text.strip());return text
- dropdown=s.select_one('.navbar .dropdown')
- if dropdown:dropdown.clear()
+ # Shared chrome is rendered once, with page-specific destinations.
+ for part in s.select('.navbar,.site-footer'):part.clear()
+ for old in s.select('.skip-link'):old.decompose()
+ for old in s.select('script[src*="jquery"],script[src*="bootstrap"],link[href*="css/main.css"]'):old.decompose()
+ for style in s.select('link[href*="refinements.css"],link[href*="publications.css"],script[src*="navigation.js"]'):
+  attr='src' if style.name=='script' else 'href'
+  style[attr]=style[attr].split('?')[0]+'?v='+VERSION
+ if not s.find(id='main-content'):
+  main=s.new_tag('main',id='main-content',attrs={'class':'page-shell'})
+  for child in list(s.body.children):
+   if getattr(child,'name',None)=='script' or ('navbar' in getattr(child,'attrs',{}).get('class',[])) or ('site-footer' in getattr(child,'attrs',{}).get('class',[])):continue
+   main.append(child.extract())
+  navbar=s.select_one('.navbar')
+  if navbar:navbar.insert_after(main)
+  else:s.body.insert(0,main)
+ for t in s.select('time[datetime]'):t.string=format_date(t['datetime'],lang)
+ def bibliographic(tag):
+  return tag.has_attr('data-bibliographic') or tag.find_parent(attrs={'data-bibliographic':True}) is not None
  # Bibliographic author names and company names remain as supplied.
  for n in list(s.find_all(string=True)):
   if isinstance(n,(Comment,Doctype)) or n.parent.name in ['script','style','title'] or not n.strip():continue
+  if bibliographic(n.parent) or n.find_parent('time'):continue
   if n.find_parent(class_='alumni-list'):
    text=str(n)
    for a,b in TERMS.get(lang,{}).items():text=re.sub(r'\b'+re.escape(a)+r'\b',b,text)
@@ -46,6 +69,7 @@ def render(page,lang,missing=None):
   original=str(n);new=tr(original)
   n.replace_with(original[:len(original)-len(original.lstrip())]+new+original[len(original.rstrip()):])
  for tag in s.find_all():
+  if bibliographic(tag):continue
   for attr in ['alt','title','aria-label','placeholder']:
    if tag.get(attr):tag[attr]=tr(tag[attr])
  s.title.string=tr(TITLES[page])+' | FIT-AWE Lab'
@@ -65,16 +89,19 @@ def render(page,lang,missing=None):
    if tag.get(attr):tag[attr]=local_url(tag[attr])
  for tag in s.select('meta[http-equiv="refresh"]'):
   a,b=tag['content'].split('url=',1);tag['content']=a+'url='+local_url(b.strip())
- if dropdown:
-  toggle=s.new_tag('a',href='#',attrs={'class':'dropdown-toggle','data-toggle':'dropdown','role':'button','aria-haspopup':'true','aria-expanded':'false'})
-  toggle.append(LANGUAGES[lang]+' ');toggle.append(s.new_tag('span',attrs={'class':'caret'}));dropdown.append(toggle)
-  menu=s.new_tag('ul',attrs={'class':'dropdown-menu'})
-  for code,label in LANGUAGES.items():
-   path=ROOT/('' if code=='en' else code)/page
-   li=s.new_tag('li');a=s.new_tag('a',href=os.path.relpath(path,dest.parent),hreflang=code,lang=code);a.string=label
-   if code==lang:a['aria-current']='page'
-   li.append(a);menu.append(li)
-  dropdown.append(menu)
+ for selector,markup in [('.navbar',header(page,lang)),('.site-footer',footer(page,lang))]:
+  part=s.select_one(selector)
+  rendered=BeautifulSoup(markup,'html.parser')
+  if selector=='.navbar':
+   if part:part.decompose()
+   s.body.insert(0,rendered.select_one(selector))
+   s.body.insert(0,rendered.select_one('.skip-link'))
+   continue
+  replacement=rendered.select_one(selector)
+  if part:part.replace_with(replacement)
+  else:s.body.append(replacement)
+ for carousel in s.select('[data-carousel]'):
+  for key in ('data-pause-label','data-play-label'):carousel[key]=tr(carousel[key])
  # Language alternatives are page-specific, never an unrelated page.
  for old in s.select('link[hreflang]'):old.decompose()
  for code in LANGUAGES:
@@ -83,29 +110,11 @@ def render(page,lang,missing=None):
  return str(s).rstrip()+'\n'
 
 def build():
+ from build_content import build as build_content
+ build_content()
  # Validate every page before writing any translated file.
  outputs={(page,lang):render(page,lang) for lang in LANGUAGES for page in PAGES}
  for (page,lang),text in outputs.items():
   dest=ROOT/('' if lang=='en' else lang)/page;dest.parent.mkdir(parents=True,exist_ok=True);dest.write_text(text)
- for lang in LANGUAGES:
-  home=ROOT/('' if lang=='en' else lang)/'index.html'
-  dest=home.parent/'publications/index.html'
-  doc=BeautifulSoup((dest if dest.exists() else ROOT/'publications/index.html').read_text(),'html.parser')
-  template=BeautifulSoup(outputs[('index.html',lang)],'html.parser')
-  for selector in ['.navbar','.site-footer']:
-   part=template.select_one(selector)
-   for a in part.select('a[href]'):
-    if a['href']=='#':continue
-    if a.get('hreflang'):
-     target=ROOT/('' if a['hreflang']=='en' else a['hreflang'])/'publications/index.html'
-    else:
-     parsed=urlsplit(a['href']);target=(home.parent/parsed.path).resolve()
-    fragment=urlsplit(a['href']).fragment
-    a['href']=os.path.relpath(target,dest.parent)+('#'+fragment if fragment else '')
-    if not a.get('hreflang'):
-     a.attrs.pop('aria-current',None)
-     if target==dest:a['aria-current']='page'
-   doc.select_one(selector).replace_with(part)
-  dest.parent.mkdir(parents=True,exist_ok=True);dest.write_text(str(doc)+'\n')
  print(f'Rendered {len(outputs)} pages in {len(LANGUAGES)} languages.')
 if __name__=='__main__':build()

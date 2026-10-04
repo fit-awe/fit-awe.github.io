@@ -24,6 +24,8 @@ def validate(source,result):
  return result
 
 def main():
+ from build_content import build as build_content
+ build_content()
  pending={}
  for lang in LANGUAGES:
   if lang=='en':continue

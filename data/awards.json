@@ -1,0 +1,27 @@
+[
+  {
+    "id":"chi-2026","paper_id":"23bbf1fac2b1","date":"2026-04","venue":"ACM CHI 2026",
+    "name":"Best Paper Honorable Mention Award","status":"award",
+    "source":"https://researchportal.hkust.edu.hk/en/publications/investigating-how-physical-surfaces-can-serve-as-common-region-cu/prizes/",
+    "period":"lab","affiliation_sources":["https://researchportal.hkust.edu.hk/en/publications/investigating-how-physical-surfaces-can-serve-as-common-region-cu/"]
+  },
+  {
+    "id":"ismar-2025","paper_id":"a1e35859ba8b","date":"2025-10","venue":"IEEE ISMAR 2025",
+    "name":"Honorable Mention — Best Paper Award","status":"award",
+    "source":"https://www.ieeeismar.net/2025/program/awards/",
+    "period":"lab","affiliation_sources":["https://www.ieeeismar.net/2025/program/awards/"]
+  },
+  {
+    "id":"iss-2024","paper_id":"b95cfdd87e6f","date":"2024-10","venue":"ACM ISS 2024",
+    "name":"Honourable Mention","status":"award",
+    "source":"https://iss2024.acm.org/info/awards",
+    "period":"lab","affiliation_sources":["https://rongkaishi.github.io/assets/papers/rk-ISSmos24.pdf"],
+    "provenance_note":"The published paper lists HKUST(GZ) and Xi’an Jiaotong-Liverpool University affiliations. Part of the work was conducted at XJTLU. The award conference took place 27–30 October 2024, after the lab’s September 2024 establishment."
+  },
+  {
+    "id":"vrcai-2022","paper_id":"1504f86e91dd","date":"2022","venue":"ACM VRCAI 2022",
+    "name":"Best Paper Award","status":"award",
+    "source":"https://kclpure.kcl.ac.uk/portal/en/publications/teleoperation-of-a-fast-omnidirectional-unmanned-ground-vehicle-i/",
+    "period":"earlier-member-work","affiliation_sources":["https://kclpure.kcl.ac.uk/portal/en/publications/teleoperation-of-a-fast-omnidirectional-unmanned-ground-vehicle-i/"]
+  }
+]

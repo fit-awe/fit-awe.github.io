@@ -1,60 +1,64 @@
 # FIT-AWE Lab website
 
-香港科技大学（广州）FIT-AWE 实验室官网。默认入口为英文首页，用户可从语言菜单切换中文、法文、阿拉伯文或日文。纯静态 HTML / CSS / JavaScript，可直接部署仓库根目录。
+香港科技大学（广州）FIT-AWE 实验室官网：[fit-awe.github.io](https://fit-awe.github.io/)。官方仓库为 [fit-awe/fit-awe.github.io](https://github.com/fit-awe/fit-awe.github.io)，GitHub Pages 从 `main` 根目录发布。纯静态 HTML / CSS / JavaScript，默认英文，保留中文、法文、阿拉伯文和日文。
 
-## 预览
+**FIT = Future Interaction Technology**
+
+**AWE = Autonomy + Well-being + Entertainment**
+
+## 预览与部署
 
 ```sh
 python3 -m http.server 8000
 ```
 
-打开 `http://localhost:8000`；中文首页为 `http://localhost:8000/zh/`。
+打开 `http://localhost:8000/`。其他语言入口为 `/zh/`、`/fr/`、`/ar/`、`/ja/`。
 
-## 部署
+部署现成页面无需安装或构建，发布目录为仓库根目录 `.`。保留目录结构、文件名大小写、图片、字体与 PDF。按真实路径提供各页面，不将所有请求回退到首页。`.nojekyll` 支持直接托管静态文件。Kimi 交接见 [KIMI_DEPLOY.md](KIMI_DEPLOY.md)。
 
-- 类型：静态网站，无需安装依赖、构建或环境变量。
-- 发布目录：仓库根目录 `.`。
-- 首页：`index.html`；中文、法文、阿拉伯文、日文在 `zh/`、`fr/`、`ar/`、`ja/`。
-- 保留目录结构、文件名大小写和含空格的文件名。
-- 按真实路径提供 HTML、图片、字体和 PDF；支持目录的 `index.html`。
-- 不要把所有请求重写到首页：这是多页面网站。
-- `404.html` 可作为静态 404 页面。
-- 已删除原模板的 Allan Lab 域名配置。新域名按实际部署平台配置。
-- `.nojekyll` 用于支持直接托管已有静态文件。
+## 修改内容
 
-给 Kimi 的部署说明见 [KIMI_DEPLOY.md](KIMI_DEPLOY.md)。私有仓库需要授权访问，也可以下载仓库 ZIP 交给 Kimi。
-
-## 内容维护
-
-| 内容 | 路径 |
+| 内容 | 编辑来源 |
 | --- | --- |
-| 英文首页 | `index.html` |
-| 中文首页 | `zh/index.html` |
-| 团队 / 成员 / 校友 | `teams/` / `members/` / `alumni/` |
-| 项目 / 论文 | `projects/` / `publications/` |
-| 共享论文数据 / 维护说明 | `data/publications.json` / `data/PUBLICATIONS.md` |
-| 动态 / 招募 / 合作 | `allnews.html` / `vacancies/` / `entrepreneurship/` |
-| 共享基础样式 / 调整样式 | `css/main.css` / `css/refinements.css` |
-| 图片 / 论文 PDF | `images/` / `downloads/publication/` |
+| 首页简介、照片与区块 | `templates/home.html` |
+| 新闻与首页最新 3 条动态 | `data/news.json`，保留日期的原始精度 |
+| 奖项与首页最新 3 项 | `data/awards.json`，关联论文 ID 并提供官方来源 |
+| 全部论文与首页最新 6 篇 | `data/publications.json` |
+| 成员、头像、身份与校友 | 英文 `members/index.html` |
+| 招募介绍与申请材料 | `templates/join.html` |
+| 产学研合作记录 | `scripts/build_content.py` 的 `industry_cards()` |
+| 页头、页脚与导航 | `scripts/site_shell.py` |
+| 四种译文 | `data/locales/{zh,fr,ar,ja}.json` |
+| 全站样式 / 论文样式 | `css/refinements.css` / `css/publications.css` |
+| 照片、论文配图 / PDF | `images/` / `downloads/publication/` |
 
-英文页面是正文来源；其他语言由 `scripts/build_locales.py` 和 `data/locales/` 的翻译字典生成。论文由共享 JSON 生成。修改英文后运行翻译、生成与检查脚本，不能只改译文 HTML。部署仍可直接使用仓库里的静态 HTML。
+`index.html`、`allnews.html`、`awards/`、`vacancies/`、`entrepreneurship/` 与各语言页面为生成结果；直接修改这些页面会在下次生成时被覆盖。新正文先增加翻译词条，再生成所有页面。月度流程可调用 Kimi API 翻译并独立校对新文案；论文题目、作者与刊名保持原文。
 
-## 本次精简
+```sh
+python3 -m pip install -r scripts/requirements.txt
+python3 scripts/translate_locales.py
+python3 scripts/build_site.py
+python3 -m unittest discover -s scripts -p 'test_*.py'
+python3 scripts/check_publications.py
+python3 scripts/check_locales.py
+python3 scripts/check_content.py
+```
 
-- 四种语言首页正文减少约 83–84%，保留简介、入口、两条动态、联系方式和招募入口。
-- 移除 Teams 和 Projects 导航及独立内容；Members 页按 Faculty、PhD Students、MPhil Students、Alumni 展示完整名单。
-- 校友名单统一在英文 `members/index.html` 的 Alumni 分区维护，译文和论文作者加粗由生成脚本同步。
-- 移除原模板物理实验室照片、仪器与相册内容、过时附件和隐藏页脚；旧项目、仪器与相册地址转到论文目录，旧团队和校友地址转到 Members 对应内容。
-- 修正本地论文 PDF 路径、成员页脚本路径和旧团队页语言链接。
-- 导航适配手机和平板；卡片使用可键盘访问的链接；移除外部字体请求。
-- 修复论文页响应式断点；合并重复的 BibTeX 弹窗，支持按 Escape 关闭。
+`build_site.py` 会从共享记录生成首页与完整页面，并重算最新 6 篇论文。原 `build_publications.py` 入口也执行同一整站生成流程。
 
-论文目录已按 DBLP、OpenAlex 和 Crossref 元数据重新核对，默认列出全部论文，支持搜索、年份与类型筛选。论文图片和标题链接到出版页面。数据覆盖范围、Google Scholar 访问限制及未确认条目见 [论文维护说明](data/PUBLICATIONS.md)。新闻仍保留原有内容。
+## 页面与交互
 
-## 模板来源
+- About：两张合影轮播、简短介绍、最新动态与奖项、最新论文、产学研合作及招募。首页不展示 Members 区块或独立导师侧栏。
+- Members：Faculty、PhD、MPhil、Alumni；占位头像使用姓名首字母。所有现有名单与个人信息保留。
+- Publications：直接点击研究方向、年份和类型按钮；可组合搜索。`q`、`year`、`type`、`topic` 分享参数兼容刷新、浏览器历史和语言切换；支持 BibTeX。
+- Awards：只维护论文相关奖项或提名，包含成员早期成果；明确展示官方奖项名称、年份、论文及来源。
+- News、Industry–Academia Collaboration、Join Us：与首页、页头和页脚使用共享入口。
+- Teams、Projects 已退出导航；旧链接跳转至 Members 或 Publications。校友旧入口转到 Members 的 Alumni 分区。
 
-网站沿用 Allan Lab 学术网站模板及 Bootstrap / Bootswatch 样式。原模板页面标注代码采用 MIT License；第三方库头部保留其原有版权和许可声明。论文、照片和机构标识不因代码模板许可而重新授权。
+## 论文与定期维护
 
-## 月度自动更新
+论文数据、配图、日期精度与作者加粗见 [data/PUBLICATIONS.md](data/PUBLICATIONS.md)。月度工作流为 `.github/workflows/monthly-site-update.yml`，每月 1 日北京时间 09:17 检查 DBLP / Google Scholar、生成并核验五种语言与共享摘要，通过后提交并请求 GitHub Pages 发布。新英文文案的 API 翻译设置和 Kimi 部署联动见 [data/AUTOMATION.md](data/AUTOMATION.md)。
 
-每月 1 日北京时间 09:17，GitHub Actions 检查 DBLP / Google Scholar、同步五种语言并核验成员与校友作者加粗。Kimi 部署需连接 main 的持续部署或平台部署钩子。API 密钥、运行步骤和限制见 [自动更新交接说明](data/AUTOMATION.md)。
+## 许可
+
+旧网站基于 Allan Lab 学术网站模板，原模板采用 MIT License；保留第三方库原有声明。新版页面采用自托管 Source Sans 3 字体，字体许可在 `fonts/OFL.txt`。论文、照片和机构标识不因代码或字体许可而重新授权。

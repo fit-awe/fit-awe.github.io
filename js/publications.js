@@ -3,9 +3,10 @@
   const root = document.querySelector('[data-publication-catalog]');
   if (!root) return;
   const search = root.querySelector('#publication-search');
-  const year = root.querySelector('#publication-year');
-  const kind = root.querySelector('#publication-kind');
-  const topic = root.querySelector('#publication-topic');
+  const state = { year: '', type: '', topic: '' };
+  const buttons = [...root.querySelectorAll('[data-filter][data-value]')];
+  const values = Object.fromEntries(Object.keys(state).map(key =>
+    [key, new Set(buttons.filter(button => button.dataset.filter === key).map(button => button.dataset.value))]));
   const heading = root.querySelector('#catalog-title');
   const count = root.querySelector('#publication-count');
   const empty = root.querySelector('#publication-empty');
@@ -14,27 +15,28 @@
   const groups = [...root.querySelectorAll('.publication-year-group')];
   const normalize = value => value.normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLocaleLowerCase();
   const corpus = new Map(cards.map(card => [card, normalize(card.dataset.search)]));
-  const controls = { q: search, year, type: kind, topic };
   const languages = [...document.querySelectorAll('.navbar .dropdown-menu a')]
     .map(link => ({ link, href: link.getAttribute('href') }));
   function readLocation() {
     const params = new URLSearchParams(location.search);
-    for (const [key, control] of Object.entries(controls)) {
+    search.value = params.get('q') || '';
+    for (const key of Object.keys(state)) {
       const value = params.get(key) || '';
-      control.value = control === search || [...control.options].some(option => option.value === value) ? value : '';
+      state[key] = values[key].has(value) ? value : '';
     }
   }
   function syncLocation(mode) {
     const url = new URL(location.href);
-    for (const [key, control] of Object.entries(controls)) {
-      if (control.value) url.searchParams.set(key, control.value);
+    const filters = { q: search.value, ...state };
+    for (const [key, value] of Object.entries(filters)) {
+      if (value) url.searchParams.set(key, value);
       else url.searchParams.delete(key);
     }
     if (mode && url.href !== location.href) history[mode + 'State'](null, '', url);
     for (const { link, href } of languages) {
       const destination = new URL(href, location.href);
-      for (const [key, control] of Object.entries(controls)) {
-        if (control.value) destination.searchParams.set(key, control.value);
+      for (const [key, value] of Object.entries(filters)) {
+        if (value) destination.searchParams.set(key, value);
         else destination.searchParams.delete(key);
       }
       link.href = destination.href;
@@ -44,9 +46,9 @@
     const terms = normalize(search.value).trim().split(/\s+/).filter(Boolean);
     let visible = 0;
     for (const card of cards) {
-      const show = (!year.value || card.dataset.year === year.value)
-        && (!kind.value || card.dataset.kind === kind.value)
-        && (!topic.value || card.dataset.topics.split(' ').includes(topic.value))
+      const show = (!state.year || card.dataset.year === state.year)
+        && (!state.type || card.dataset.kind === state.type)
+        && (!state.topic || card.dataset.topics.split(' ').includes(state.topic))
         && terms.every(term => corpus.get(card).includes(term));
       card.hidden = !show;
       visible += Number(show);
@@ -54,14 +56,15 @@
     for (const group of groups) group.hidden = !group.querySelector('.paper-card:not([hidden])');
     count.textContent = root.dataset.countTemplate.replace('{shown}', visible).replace('{total}', cards.length);
     empty.hidden = visible !== 0;
-    reset.hidden = !search.value && !year.value && !kind.value && !topic.value;
-    heading.textContent = topic.value ? topic.selectedOptions[0].textContent : root.dataset.defaultTitle;
+    reset.hidden = !search.value && !Object.values(state).some(Boolean);
+    for (const button of buttons) button.setAttribute('aria-pressed', String(state[button.dataset.filter] === button.dataset.value));
+    heading.textContent = state.topic ? buttons.find(button => button.dataset.filter === 'topic' && button.dataset.value === state.topic).textContent : root.dataset.defaultTitle;
     document.title = heading.textContent + ' | FIT-AWE Lab';
     syncLocation(historyMode);
   }
   search.addEventListener('input', () => filter());
-  for (const select of [year, kind, topic]) select.addEventListener('change', () => filter('push'));
-  reset.addEventListener('click', () => { search.value = ''; year.value = ''; kind.value = ''; topic.value = ''; filter('push'); search.focus(); });
+  for (const button of buttons) button.addEventListener('click', () => { state[button.dataset.filter] = button.dataset.value; filter('push'); });
+  reset.addEventListener('click', () => { search.value = ''; for (const key of Object.keys(state)) state[key] = ''; filter('push'); search.focus(); });
   window.addEventListener('popstate', () => { readLocation(); filter(null); });
   readLocation();
   filter();

@@ -6,6 +6,7 @@ from pathlib import Path
 from urllib.parse import urljoin, urlsplit, quote
 import requests
 from bs4 import BeautifulSoup
+from publication_dates import crossref_date, fetch_date
 ROOT=Path(__file__).resolve().parents[1]
 PROFILE='https://scholar.google.com/citations?hl=en&user=UJPH5ioAAAAJ'
 QUERY='''PREFIX dblp: <https://dblp.org/rdf/schema#>
@@ -72,6 +73,7 @@ def verify_scholar_record(session,paper):
   if not any(normalized(a)=='hainingliang' for a in authors):continue
   canonical=base_record(title,authors,item['published']['date-parts'][0][0],(item.get('container-title') or [''])[0],types[item['type']],'https://doi.org/'+item['DOI'],paper['sources'][0],item['DOI'])
   canonical['sources'].append('https://api.crossref.org/works/'+quote(item['DOI'],safe=''))
+  canonical.update(crossref_date(item,canonical['sources'][-1]))
   canonical['topics']=topic_tags(title)
   return canonical
  return None
@@ -124,6 +126,12 @@ def merge(existing,incoming):
    # Promote a known preprint to its publisher record, keeping images and curated tags.
    if match['kind']=='preprint' and new['kind'] in ['journal','conference']:
     for field in ['title','authors','year','venue','kind','doi','url']:match[field]=new[field]
+    # The first preprint date is not the publisher version's publication date.
+    for field in ['published_date','published_date_source','published_date_basis']:
+     match.pop(field,None)
+   if new.get('published_date') and not match.get('published_date'):
+    for field in ['published_date','published_date_source','published_date_basis']:
+     if field in new:match[field]=new[field]
   else:existing.append(new);added.append(new['id'])
  return added
 
@@ -145,6 +153,14 @@ def main():
  (reportdir/'publication-update.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
  print(json.dumps(report['sources'],ensure_ascii=False))
  if not valid:raise SystemExit('Both sources unavailable. No catalog update was written.')
+ date_count=0
+ for paper in papers:
+  if paper.get('published_date') or (paper['id'] not in report['added'] and paper['year']<date.today().year-1):continue
+  try:
+   fields=fetch_date(paper,session)
+   if fields:paper.update(fields);date_count+=1
+  except (requests.RequestException,ValueError,KeyError,TypeError):pass
+ print(f'{date_count} publication dates verified; other records keep their original year.')
  payload['sources']['dblp']['records']=len({s for p in papers for s in p['sources'] if s.startswith('https://dblp.org/rec/')})
  if json.dumps(payload,sort_keys=True)!=before:
   papers.sort(key=lambda p:(-p['year'],p['title'].casefold()));payload['updated']=date.today().isoformat()

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-15",
+  "updated": "2026-10-04",
   "sources": {
     "dblp": {
       "profile": "https://dblp.org/pid/55/1198.html",
@@ -181,7 +181,10 @@
       "topics": [
         "experience",
         "applications"
-      ]
+      ],
+      "published_date": "2026-08-14",
+      "published_date_source": "https://arxiv.org/abs/2608.14093",
+      "published_date_basis": "first-submission"
     },
     {
       "id": "c2b2b2cd148d",
@@ -208,7 +211,10 @@
       "oa_pdfs": [],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2026-08",
+      "published_date_source": "https://api.crossref.org/works/10.1016%2Fj.visinf.2026.100352",
+      "published_date_basis": "published"
     },
     {
       "id": "55ca9f509b10",
@@ -237,7 +243,10 @@
       "oa_pdfs": [],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2026-04-13",
+      "published_date_source": "https://api.crossref.org/works/10.1145%2F3772363.3798620",
+      "published_date_basis": "published-online"
     },
     {
       "id": "4c7cebd64fdf",
@@ -287,7 +296,10 @@
       ],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2026-07",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Ftvcg.2026.3677429",
+      "published_date_basis": "published"
     },
     {
       "id": "5ba1a3f67cd6",
@@ -314,7 +326,10 @@
       "oa_pdfs": [],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2026-03-21",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fvrw70859.2026.00072",
+      "published_date_basis": "published"
     },
     {
       "id": "1d9ed0ec5045",
@@ -345,7 +360,10 @@
       "oa_pdfs": [],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2026-02-18",
+      "published_date_source": "https://api.crossref.org/works/10.1080%2F10447318.2026.2623221",
+      "published_date_basis": "published-online"
     },
     {
       "id": "af2c265a9793",
@@ -373,7 +391,10 @@
       "oa_pdfs": [],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2026-03-21",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fvrw70859.2026.00233",
+      "published_date_basis": "published"
     },
     {
       "id": "23eb6f1f3334",
@@ -399,7 +420,10 @@
       "oa_pdfs": [],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2026-03-16",
+      "published_date_source": "https://api.crossref.org/works/10.3389%2Ffrvir.2026.1819537",
+      "published_date_basis": "published-online"
     },
     {
       "id": "400581758cdf",
@@ -436,7 +460,10 @@
       "topics": [
         "experience",
         "applications"
-      ]
+      ],
+      "published_date": "2026",
+      "published_date_source": "https://api.crossref.org/works/10.1016%2Fj.sheji.2026.02.002",
+      "published_date_basis": "published"
     },
     {
       "id": "159277f7d9a2",
@@ -469,7 +496,10 @@
       "oa_pdfs": [],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2026-05",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Ftvcg.2026.3680697",
+      "published_date_basis": "published"
     },
     {
       "id": "f54dd5cfc9cc",
@@ -513,7 +543,10 @@
       ],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2026-03-21",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fvr67842.2026.00083",
+      "published_date_basis": "published"
     },
     {
       "id": "c2345e1d5dd2",
@@ -556,7 +589,10 @@
       ],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2026-08-12",
+      "published_date_source": "https://api.crossref.org/works/10.1080%2F10447318.2026.2712140",
+      "published_date_basis": "published-online"
     },
     {
       "id": "935a6c0da3fe",
@@ -602,7 +638,10 @@
       "oa_pdfs": [],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2026-09",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Ftvcg.2026.3695303",
+      "published_date_basis": "published"
     },
     {
       "id": "6805d1fd6af4",
@@ -652,7 +691,10 @@
       "oa_pdfs": [
         "https://arxiv.org/pdf/2411.00489"
       ],
-      "topics": []
+      "topics": [],
+      "published_date": "2026-03",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fjproc.2026.3713201",
+      "published_date_basis": "published"
     },
     {
       "id": "923a05e236a1",
@@ -681,7 +723,10 @@
       "oa_pdfs": [],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2026-04-13",
+      "published_date_source": "https://api.crossref.org/works/10.1145%2F3772318.3790579",
+      "published_date_basis": "published-online"
     },
     {
       "id": "eea1024cfaad",
@@ -713,7 +758,10 @@
       "oa_pdfs": [],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2026-05",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Ftvcg.2026.3679885",
+      "published_date_basis": "published"
     },
     {
       "id": "23bbf1fac2b1",
@@ -742,7 +790,10 @@
       "oa_pdfs": [],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2026-04-13",
+      "published_date_source": "https://api.crossref.org/works/10.1145%2F3772318.3790315",
+      "published_date_basis": "published-online"
     },
     {
       "id": "facfee715450",
@@ -768,7 +819,10 @@
       "oa_pdfs": [],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2026-05",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Ftvcg.2026.3680672",
+      "published_date_basis": "published"
     },
     {
       "id": "7c4a6cf32044",
@@ -797,7 +851,10 @@
       "oa_pdfs": [],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2026",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Ftcss.2025.3641787",
+      "published_date_basis": "published"
     },
     {
       "id": "7f9ac43feb87",
@@ -825,7 +882,10 @@
       "oa_pdfs": [],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2026-05",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Ftvcg.2026.3680737",
+      "published_date_basis": "published"
     },
     {
       "id": "a7588d264e6d",
@@ -869,7 +929,10 @@
       ],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2026-03-23",
+      "published_date_source": "https://arxiv.org/abs/2603.21505",
+      "published_date_basis": "first-submission"
     },
     {
       "id": "b76ef8a5fab4",
@@ -903,7 +966,10 @@
       "topics": [
         "experience",
         "accessibility"
-      ]
+      ],
+      "published_date": "2026-07",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Ftvcg.2026.3683105",
+      "published_date_basis": "published"
     },
     {
       "id": "7b0d3806d6ea",
@@ -935,7 +1001,10 @@
         "experience",
         "accessibility",
         "applications"
-      ]
+      ],
+      "published_date": "2026-04-13",
+      "published_date_source": "https://api.crossref.org/works/10.1145%2F3772318.3791389",
+      "published_date_basis": "published-online"
     },
     {
       "id": "0c1527f5109f",
@@ -966,7 +1035,10 @@
       "topics": [
         "experience",
         "applications"
-      ]
+      ],
+      "published_date": "2026-07-13",
+      "published_date_source": "https://api.crossref.org/works/10.1145%2F3803784.3816872",
+      "published_date_basis": "published-online"
     },
     {
       "id": "826f5976baba",
@@ -996,7 +1068,10 @@
       "image": null,
       "pdf": null,
       "oa_pdfs": [],
-      "topics": []
+      "topics": [],
+      "published_date": "2026-06-05",
+      "published_date_source": "https://api.crossref.org/works/10.1080%2F10447318.2026.2670532",
+      "published_date_basis": "published-online"
     },
     {
       "id": "bb341e9961e2",
@@ -1025,7 +1100,10 @@
       "oa_pdfs": [],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2026-05",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Ftvcg.2026.3679883",
+      "published_date_basis": "published"
     },
     {
       "id": "95d7dab9080c",
@@ -1058,7 +1136,10 @@
       "topics": [
         "experience",
         "eye-tracking"
-      ]
+      ],
+      "published_date": "2026-02",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Ftvcg.2025.3622042",
+      "published_date_basis": "published"
     },
     {
       "id": "abfa0b7e926c",
@@ -1088,7 +1169,10 @@
       "oa_pdfs": [],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2026-05",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Ftvcg.2026.3679138",
+      "published_date_basis": "published"
     },
     {
       "id": "5e866d331fef",
@@ -1130,7 +1214,10 @@
       "topics": [
         "experience",
         "accessibility"
-      ]
+      ],
+      "published_date": "2026-01-06",
+      "published_date_source": "https://arxiv.org/abs/2601.02829",
+      "published_date_basis": "first-submission"
     },
     {
       "id": "6987ffd4d1f2",
@@ -1159,7 +1246,10 @@
       "oa_pdfs": [],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2026-10",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Ftvcg.2026.3703476",
+      "published_date_basis": "published"
     },
     {
       "id": "07bd4504d87b",
@@ -1204,7 +1294,10 @@
       "topics": [
         "experience",
         "applications"
-      ]
+      ],
+      "published_date": "2026-03-21",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fvr67842.2026.00057",
+      "published_date_basis": "published"
     },
     {
       "id": "98e5400c67d6",
@@ -1248,7 +1341,10 @@
       ],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2026-03-15",
+      "published_date_source": "https://arxiv.org/abs/2603.14449",
+      "published_date_basis": "first-submission"
     },
     {
       "id": "93957c6e68b8",
@@ -1290,7 +1386,10 @@
       ],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2026-01-06",
+      "published_date_source": "https://arxiv.org/abs/2601.02805",
+      "published_date_basis": "first-submission"
     },
     {
       "id": "9edf39b2bb3c",
@@ -1324,7 +1423,10 @@
       "oa_pdfs": [],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2026-02",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Ftvcg.2025.3634367",
+      "published_date_basis": "published"
     },
     {
       "id": "2ecb07ef7106",
@@ -1352,7 +1454,10 @@
       "oa_pdfs": [],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2026-06",
+      "published_date_source": "https://api.crossref.org/works/10.1016%2Fj.cexr.2026.100159",
+      "published_date_basis": "published"
     },
     {
       "id": "f8533ad92a6b",
@@ -1396,7 +1501,10 @@
       ],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2026-03-23",
+      "published_date_source": "https://arxiv.org/abs/2603.21505",
+      "published_date_basis": "first-submission"
     },
     {
       "id": "4728d6bdd9d6",
@@ -1426,7 +1534,10 @@
         "experience",
         "accessibility",
         "games"
-      ]
+      ],
+      "published_date": "2026-05",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Ftvcg.2026.3680711",
+      "published_date_basis": "published"
     },
     {
       "id": "9ae483e22108",
@@ -1463,7 +1574,10 @@
       "oa_pdfs": [],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2025-05",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Ftvcg.2025.3549883",
+      "published_date_basis": "published"
     },
     {
       "id": "11f0a006c1c8",
@@ -1507,7 +1621,10 @@
       "topics": [
         "experience",
         "applications"
-      ]
+      ],
+      "published_date": "2025-03-10",
+      "published_date_source": "https://api.crossref.org/works/10.1007%2Fs12650-025-01058-5",
+      "published_date_basis": "published-online"
     },
     {
       "id": "9527a1168a92",
@@ -1546,7 +1663,10 @@
       },
       "pdf": null,
       "oa_pdfs": [],
-      "topics": []
+      "topics": [],
+      "published_date": "2025-04-23",
+      "published_date_source": "https://api.crossref.org/works/10.1007%2Fs10462-025-11233-7",
+      "published_date_basis": "published-online"
     },
     {
       "id": "5823f86f1254",
@@ -1587,7 +1707,10 @@
       ],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2025-10-15",
+      "published_date_source": "https://arxiv.org/abs/2510.13123",
+      "published_date_basis": "first-submission"
     },
     {
       "id": "37a351e07e2f",
@@ -1623,7 +1746,10 @@
       "oa_pdfs": [],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2024-08-20",
+      "published_date_source": "https://api.crossref.org/works/10.1007%2Fs12193-024-00438-9",
+      "published_date_basis": "published-online"
     },
     {
       "id": "bffb776102d4",
@@ -1688,7 +1814,10 @@
       ],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2025-02-21",
+      "published_date_source": "https://arxiv.org/abs/2502.15228",
+      "published_date_basis": "first-submission"
     },
     {
       "id": "629944d075ee",
@@ -1718,7 +1847,10 @@
       "topics": [
         "experience",
         "applications"
-      ]
+      ],
+      "published_date": "2025-04-25",
+      "published_date_source": "https://api.crossref.org/works/10.1145%2F3706599.3720121",
+      "published_date_basis": "published-online"
     },
     {
       "id": "13c73c8675c1",
@@ -1756,7 +1888,10 @@
       "oa_pdfs": [],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2025-06",
+      "published_date_source": "https://api.crossref.org/works/10.1016%2Fj.inffus.2025.102961",
+      "published_date_basis": "published"
     },
     {
       "id": "8cc52c82e54c",
@@ -1800,7 +1935,10 @@
       ],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2025-06-01",
+      "published_date_source": "https://arxiv.org/abs/2506.01109",
+      "published_date_basis": "first-submission"
     },
     {
       "id": "c424092a6fee",
@@ -1832,7 +1970,10 @@
         "experience",
         "applications",
         "games"
-      ]
+      ],
+      "published_date": "2025-07",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fmcg.2025.3553207",
+      "published_date_basis": "published"
     },
     {
       "id": "2b6add2dfee6",
@@ -1860,7 +2001,10 @@
       "topics": [
         "experience",
         "applications"
-      ]
+      ],
+      "published_date": "2025-11-10",
+      "published_date_source": "https://api.crossref.org/works/10.1080%2F14606925.2025.2577951",
+      "published_date_basis": "published-online"
     },
     {
       "id": "1f63b00db51e",
@@ -1898,7 +2042,10 @@
       ],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2025-02-17",
+      "published_date_source": "https://arxiv.org/abs/2502.12297",
+      "published_date_basis": "first-submission"
     },
     {
       "id": "4e9a4d51cea6",
@@ -1929,7 +2076,10 @@
       "oa_pdfs": [],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2025-06",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fte.2025.3569558",
+      "published_date_basis": "published"
     },
     {
       "id": "e6ee75b8e966",
@@ -1968,7 +2118,10 @@
       "oa_pdfs": [],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2025-09",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Ftvcg.2024.3451491",
+      "published_date_basis": "published"
     },
     {
       "id": "f93adb8c6c8e",
@@ -2004,7 +2157,10 @@
         "experience",
         "web3d",
         "games"
-      ]
+      ],
+      "published_date": "2024-07-18",
+      "published_date_source": "https://api.crossref.org/works/10.1080%2F10447318.2024.2375700",
+      "published_date_basis": "published-online"
     },
     {
       "id": "2a9cedd6788d",
@@ -2035,7 +2191,10 @@
       "topics": [
         "experience",
         "games"
-      ]
+      ],
+      "published_date": "2025-04-28",
+      "published_date_source": "https://api.crossref.org/works/10.1080%2F10447318.2025.2490873",
+      "published_date_basis": "published-online"
     },
     {
       "id": "80565b7985d8",
@@ -2067,7 +2226,10 @@
       "image": null,
       "pdf": null,
       "oa_pdfs": [],
-      "topics": []
+      "topics": [],
+      "published_date": "2025-05",
+      "published_date_source": "https://api.crossref.org/works/10.1016%2Fj.ijggc.2025.104360",
+      "published_date_basis": "published"
     },
     {
       "id": "346e49e43007",
@@ -2098,7 +2260,10 @@
       "topics": [
         "experience",
         "eye-tracking"
-      ]
+      ],
+      "published_date": "2025-04-25",
+      "published_date_source": "https://api.crossref.org/works/10.1145%2F3706599.3720273",
+      "published_date_basis": "published-online"
     },
     {
       "id": "a1e35859ba8b",
@@ -2132,7 +2297,10 @@
       "topics": [
         "experience",
         "eye-tracking"
-      ]
+      ],
+      "published_date": "2025-11",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Ftvcg.2025.3616824",
+      "published_date_basis": "published"
     },
     {
       "id": "6956baee02f4",
@@ -2182,7 +2350,10 @@
       "topics": [
         "experience",
         "eye-tracking"
-      ]
+      ],
+      "published_date": "2025-10-08",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fismar-adjunct68609.2025.00018",
+      "published_date_basis": "published"
     },
     {
       "id": "d1b39c59f953",
@@ -2244,7 +2415,10 @@
       "topics": [
         "experience",
         "games"
-      ]
+      ],
+      "published_date": "2025",
+      "published_date_source": "https://api.crossref.org/works/10.5220%2F0013142700003912",
+      "published_date_basis": "published"
     },
     {
       "id": "fba17610e7e7",
@@ -2275,7 +2449,10 @@
       "topics": [
         "experience",
         "games"
-      ]
+      ],
+      "published_date": "2025-04-25",
+      "published_date_source": "https://api.crossref.org/works/10.1145%2F3706599.3721252",
+      "published_date_basis": "published-online"
     },
     {
       "id": "08c7e0fee5d7",
@@ -2313,7 +2490,10 @@
       "topics": [
         "experience",
         "applications"
-      ]
+      ],
+      "published_date": "2025-05",
+      "published_date_source": "https://api.crossref.org/works/10.1016%2Fj.ijhcs.2025.103466",
+      "published_date_basis": "published"
     },
     {
       "id": "c63e29894db9",
@@ -2346,7 +2526,10 @@
       "topics": [
         "experience",
         "applications"
-      ]
+      ],
+      "published_date": "2025-03-24",
+      "published_date_source": "https://api.crossref.org/works/10.1080%2F17508975.2025.2479095",
+      "published_date_basis": "published-online"
     },
     {
       "id": "da687f06a27e",
@@ -2388,7 +2571,10 @@
       ],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2025-03-08",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fvr59515.2025.00048",
+      "published_date_basis": "published"
     },
     {
       "id": "19766240bd5c",
@@ -2424,7 +2610,10 @@
       "oa_pdfs": [],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2025-03-08",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fvr59515.2025.00030",
+      "published_date_basis": "published"
     },
     {
       "id": "5772e99ee1d6",
@@ -2460,7 +2649,10 @@
       "oa_pdfs": [],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2025-03-08",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fvr59515.2025.00034",
+      "published_date_basis": "published"
     },
     {
       "id": "02832f6ff028",
@@ -2497,7 +2689,10 @@
       "topics": [
         "experience",
         "applications"
-      ]
+      ],
+      "published_date": "2025-05",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Ftvcg.2025.3549872",
+      "published_date_basis": "published"
     },
     {
       "id": "2ed52df86ecb",
@@ -2542,7 +2737,10 @@
       "topics": [
         "experience",
         "accessibility"
-      ]
+      ],
+      "published_date": "2026-02-05",
+      "published_date_source": "https://api.crossref.org/works/10.1145%2F3779232.3779288",
+      "published_date_basis": "published-online"
     },
     {
       "id": "8a830890be69",
@@ -2586,7 +2784,10 @@
       "topics": [
         "experience",
         "applications"
-      ]
+      ],
+      "published_date": "2025-01",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Ftvcg.2024.3456368",
+      "published_date_basis": "published"
     },
     {
       "id": "4da91e706179",
@@ -2617,7 +2818,10 @@
       "oa_pdfs": [],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2025-08",
+      "published_date_source": "https://api.crossref.org/works/10.1016%2Fj.cag.2025.104265",
+      "published_date_basis": "published"
     },
     {
       "id": "9c1c8505f788",
@@ -2644,7 +2848,10 @@
       "topics": [
         "experience",
         "accessibility"
-      ]
+      ],
+      "published_date": "2025",
+      "published_date_source": "https://api.crossref.org/works/10.5220%2F0013317000003912",
+      "published_date_basis": "published"
     },
     {
       "id": "df50d9bd1d49",
@@ -2675,7 +2882,10 @@
       ],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2025-12-04",
+      "published_date_source": "https://api.crossref.org/works/10.1145%2F3756884.3766023",
+      "published_date_basis": "published-online"
     },
     {
       "id": "45f54368c8f2",
@@ -2704,7 +2914,10 @@
         "experience",
         "web3d",
         "applications"
-      ]
+      ],
+      "published_date": "2025-07-02",
+      "published_date_source": "https://api.crossref.org/works/10.1007%2F978-3-031-61018-9_6",
+      "published_date_basis": "published-online"
     },
     {
       "id": "ad505dc670d4",
@@ -2775,7 +2988,10 @@
         "experience",
         "applications",
         "games"
-      ]
+      ],
+      "published_date": "2025-10-08",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fismar-adjunct68609.2025.00134",
+      "published_date_basis": "published"
     },
     {
       "id": "a0ed0a6ff08b",
@@ -2811,7 +3027,10 @@
       "topics": [
         "experience",
         "applications"
-      ]
+      ],
+      "published_date": "2024-05-11",
+      "published_date_source": "https://api.crossref.org/works/10.1145%2F3613904.3642876",
+      "published_date_basis": "published-online"
     },
     {
       "id": "d9b9f745081c",
@@ -2850,7 +3069,10 @@
       "topics": [
         "experience",
         "applications"
-      ]
+      ],
+      "published_date": "2024-11",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Ftvcg.2024.3456195",
+      "published_date_basis": "published"
     },
     {
       "id": "65ae45d86f04",
@@ -2890,7 +3112,10 @@
       "topics": [
         "experience",
         "games"
-      ]
+      ],
+      "published_date": "2024-05",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Ftvcg.2024.3372114",
+      "published_date_basis": "published"
     },
     {
       "id": "4e397222290c",
@@ -2927,7 +3152,10 @@
       ],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2024-11-22",
+      "published_date_source": "https://api.crossref.org/works/10.1145%2F3680533.3697068",
+      "published_date_basis": "published-online"
     },
     {
       "id": "bf056aa20dcc",
@@ -2965,7 +3193,10 @@
       ],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2024-05-21",
+      "published_date_source": "https://api.crossref.org/works/10.1007%2Fs00779-024-01813-9",
+      "published_date_basis": "published-online"
     },
     {
       "id": "63717bd5c6ab",
@@ -2999,7 +3230,10 @@
       "topics": [
         "experience",
         "applications"
-      ]
+      ],
+      "published_date": "2024-03-16",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fvrw62533.2024.00333",
+      "published_date_basis": "published"
     },
     {
       "id": "b79744cce433",
@@ -3034,7 +3268,10 @@
       ],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2022-11-15",
+      "published_date_source": "https://api.crossref.org/works/10.1007%2Fs10209-022-00947-y",
+      "published_date_basis": "published-online"
     },
     {
       "id": "798e2b0498e6",
@@ -3108,7 +3345,10 @@
       "topics": [
         "experience",
         "applications"
-      ]
+      ],
+      "published_date": "2024-05-11",
+      "published_date_source": "https://api.crossref.org/works/10.1145%2F3613904.3642740",
+      "published_date_basis": "published-online"
     },
     {
       "id": "7207f29f8dd3",
@@ -3143,7 +3383,10 @@
       "oa_pdfs": [],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2024-07-25",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Ficscc62041.2024.10690613",
+      "published_date_basis": "published"
     },
     {
       "id": "6e71ab300f9d",
@@ -3181,7 +3424,10 @@
       "oa_pdfs": [],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2024-09",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Ftvcg.2024.3349428",
+      "published_date_basis": "published"
     },
     {
       "id": "30ef007e7d81",
@@ -3217,7 +3463,10 @@
       "oa_pdfs": [],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2024-10-21",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fismar62088.2024.00049",
+      "published_date_basis": "published"
     },
     {
       "id": "ab798449e7c3",
@@ -3248,7 +3497,10 @@
       "oa_pdfs": [],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2023-10-31",
+      "published_date_source": "https://api.crossref.org/works/10.1007%2F978-3-031-47328-9_19",
+      "published_date_basis": "published-online"
     },
     {
       "id": "2e6369f0ef67",
@@ -3282,7 +3534,10 @@
       ],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2024-05-11",
+      "published_date_source": "https://api.crossref.org/works/10.1145%2F3613905.3650925",
+      "published_date_basis": "published-online"
     },
     {
       "id": "0c18bd17cc1c",
@@ -3309,7 +3564,10 @@
       "image": null,
       "pdf": null,
       "oa_pdfs": [],
-      "topics": []
+      "topics": [],
+      "published_date": "2024-09-20",
+      "published_date_source": "https://api.crossref.org/works/10.1007%2Fs11053-024-10401-w",
+      "published_date_basis": "published-online"
     },
     {
       "id": "e053cfccfeab",
@@ -3345,7 +3603,10 @@
       "topics": [
         "experience",
         "applications"
-      ]
+      ],
+      "published_date": "2024-04-11",
+      "published_date_source": "https://api.crossref.org/works/10.1007%2Fs00779-024-01793-w",
+      "published_date_basis": "published-online"
     },
     {
       "id": "c9e86635a1fe",
@@ -3382,7 +3643,10 @@
       "oa_pdfs": [],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2023-12-11",
+      "published_date_source": "https://api.crossref.org/works/10.1080%2F10447318.2023.2290382",
+      "published_date_basis": "published-online"
     },
     {
       "id": "9cba61c47c19",
@@ -3416,7 +3680,10 @@
       "topics": [
         "experience",
         "applications"
-      ]
+      ],
+      "published_date": "2023-03-08",
+      "published_date_source": "https://api.crossref.org/works/10.1007%2Fs10209-023-00985-0",
+      "published_date_basis": "published-online"
     },
     {
       "id": "3aa8cbb09945",
@@ -3461,7 +3728,10 @@
       ],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2024-10-21",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fismar62088.2024.00038",
+      "published_date_basis": "published"
     },
     {
       "id": "b95cfdd87e6f",
@@ -3502,7 +3772,10 @@
       ],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2024-10-24",
+      "published_date_source": "https://api.crossref.org/works/10.1145%2F3698129",
+      "published_date_basis": "published-online"
     },
     {
       "id": "4c278ca57f6f",
@@ -3541,7 +3814,10 @@
       "topics": [
         "experience",
         "applications"
-      ]
+      ],
+      "published_date": "2024-09",
+      "published_date_source": "https://api.crossref.org/works/10.1016%2Fj.displa.2024.102781",
+      "published_date_basis": "published"
     },
     {
       "id": "fab788a7fd53",
@@ -3613,7 +3889,10 @@
       "oa_pdfs": [],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2024-11",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Ftvcg.2024.3456166",
+      "published_date_basis": "published"
     },
     {
       "id": "a867c12d3f89",
@@ -3648,7 +3927,10 @@
       "oa_pdfs": [],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2024-03-16",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fvr58804.2024.00047",
+      "published_date_basis": "published"
     },
     {
       "id": "9478e2d34101",
@@ -3684,7 +3966,10 @@
       "topics": [
         "experience",
         "applications"
-      ]
+      ],
+      "published_date": "2024-05-11",
+      "published_date_source": "https://api.crossref.org/works/10.1145%2F3613905.3650777",
+      "published_date_basis": "published-online"
     },
     {
       "id": "d205d1391d89",
@@ -3725,7 +4010,10 @@
         "experience",
         "accessibility",
         "applications"
-      ]
+      ],
+      "published_date": "2024-01",
+      "published_date_source": "https://api.crossref.org/works/10.1016%2Fj.ijhcs.2023.103146",
+      "published_date_basis": "published"
     },
     {
       "id": "ab3e09a5d2f5",
@@ -3764,7 +4052,10 @@
       "topics": [
         "experience",
         "games"
-      ]
+      ],
+      "published_date": "2024",
+      "published_date_source": "https://api.crossref.org/works/10.5220%2F0012469000003660",
+      "published_date_basis": "published"
     },
     {
       "id": "d1e89256c958",
@@ -3801,7 +4092,10 @@
       "oa_pdfs": [],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2024-10-21",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fismar62088.2024.00065",
+      "published_date_basis": "published"
     },
     {
       "id": "8e34c8243a3f",
@@ -3846,7 +4140,10 @@
       "topics": [
         "experience",
         "games"
-      ]
+      ],
+      "published_date": "2024-10-21",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fismar62088.2024.00037",
+      "published_date_basis": "published"
     },
     {
       "id": "8ce28f01e0ce",
@@ -3878,7 +4175,10 @@
       "topics": [
         "experience",
         "applications"
-      ]
+      ],
+      "published_date": "2023-03-07",
+      "published_date_source": "https://api.crossref.org/works/10.1080%2F0144929x.2023.2186145",
+      "published_date_basis": "published-online"
     },
     {
       "id": "bbe73837c815",
@@ -3914,7 +4214,10 @@
       "oa_pdfs": [],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2024-05-09",
+      "published_date_source": "https://api.crossref.org/works/10.1007%2Fs00779-024-01799-4",
+      "published_date_basis": "published-online"
     },
     {
       "id": "d5dfba639b67",
@@ -3948,7 +4251,10 @@
       "oa_pdfs": [],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2024-01",
+      "published_date_source": "https://api.crossref.org/works/10.1016%2Fj.ijhcs.2023.103137",
+      "published_date_basis": "published"
     },
     {
       "id": "1638ffee6dab",
@@ -3990,7 +4296,10 @@
       "topics": [
         "experience",
         "accessibility"
-      ]
+      ],
+      "published_date": "2024-01-03",
+      "published_date_source": "https://api.crossref.org/works/10.1007%2Fs10055-023-00902-z",
+      "published_date_basis": "published-online"
     },
     {
       "id": "8baaf27af1b6",
@@ -4028,7 +4337,10 @@
       ],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2024-10",
+      "published_date_source": "https://api.crossref.org/works/10.1016%2Fj.heliyon.2024.e38410",
+      "published_date_basis": "published"
     },
     {
       "id": "324c1c37ecf0",
@@ -4065,7 +4377,10 @@
       "topics": [
         "experience",
         "games"
-      ]
+      ],
+      "published_date": "2024-05-13",
+      "published_date_source": "https://api.crossref.org/works/10.1145%2F3651296",
+      "published_date_basis": "published-online"
     },
     {
       "id": "504fc61af1ed",
@@ -4096,7 +4411,10 @@
       "oa_pdfs": [],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2021-09-11",
+      "published_date_source": "https://api.crossref.org/works/10.1080%2F0144929x.2021.1975821",
+      "published_date_basis": "published-online"
     },
     {
       "id": "be2b6ffaeccb",
@@ -4139,7 +4457,10 @@
       ],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2024-10-24",
+      "published_date_source": "https://api.crossref.org/works/10.1145%2F3698136",
+      "published_date_basis": "published-online"
     },
     {
       "id": "db41cf97441a",
@@ -4173,7 +4494,10 @@
       "topics": [
         "experience",
         "applications"
-      ]
+      ],
+      "published_date": "2024-03-16",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fvr58804.2024.00107",
+      "published_date_basis": "published"
     },
     {
       "id": "9384913c1a8e",
@@ -4212,7 +4536,10 @@
       "topics": [
         "experience",
         "applications"
-      ]
+      ],
+      "published_date": "2024-03-16",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fvrw62533.2024.00307",
+      "published_date_basis": "published"
     },
     {
       "id": "ed5bcc48597e",
@@ -4252,7 +4579,10 @@
       ],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2023",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Ftvcg.2023.3326517",
+      "published_date_basis": "published"
     },
     {
       "id": "3ff582ec245b",
@@ -4289,7 +4619,10 @@
       "topics": [
         "experience",
         "accessibility"
-      ]
+      ],
+      "published_date": "2024-05",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Ftvcg.2024.3372127",
+      "published_date_basis": "published"
     },
     {
       "id": "ed0fbca459b0",
@@ -4325,7 +4658,10 @@
       "oa_pdfs": [],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2024-10-07",
+      "published_date_source": "https://api.crossref.org/works/10.1145%2F3677386.3682084",
+      "published_date_basis": "published-online"
     },
     {
       "id": "6ce7e94260c3",
@@ -4358,7 +4694,10 @@
       "oa_pdfs": [],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2024-06-01",
+      "published_date_source": "https://api.crossref.org/works/10.1007%2F978-3-031-60913-8_7",
+      "published_date_basis": "published-online"
     },
     {
       "id": "2178dc37d9de",
@@ -4395,7 +4734,10 @@
       "topics": [
         "experience",
         "applications"
-      ]
+      ],
+      "published_date": "2023-06-12",
+      "published_date_source": "https://api.crossref.org/works/10.1080%2F10447318.2023.2217608",
+      "published_date_basis": "published-online"
     },
     {
       "id": "dd33e38b96b3",
@@ -4425,7 +4767,10 @@
       ],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2024-08-13",
+      "published_date_source": "https://api.crossref.org/works/10.1007%2Fs00779-024-01828-2",
+      "published_date_basis": "published-online"
     },
     {
       "id": "72f5e5d543d4",
@@ -4457,7 +4802,10 @@
       "oa_pdfs": [],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2024-07",
+      "published_date_source": "https://api.crossref.org/works/10.1145%2F3643834.3661627",
+      "published_date_basis": "published-online"
     },
     {
       "id": "5bb47180d54a",
@@ -4494,7 +4842,10 @@
       "oa_pdfs": [],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2025-11",
+      "published_date_source": "https://api.crossref.org/works/10.1016%2Fj.bdr.2025.100570",
+      "published_date_basis": "published"
     },
     {
       "id": "ccdf83541d31",
@@ -4534,7 +4885,10 @@
         "experience",
         "accessibility",
         "applications"
-      ]
+      ],
+      "published_date": "2024-11",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Ftvcg.2024.3456173",
+      "published_date_basis": "published"
     },
     {
       "id": "fc99d24da6c6",
@@ -4570,7 +4924,10 @@
         "experience",
         "applications",
         "games"
-      ]
+      ],
+      "published_date": "2024-08-01",
+      "published_date_source": "https://api.crossref.org/works/10.1089%2Fg4h.2023.0174",
+      "published_date_basis": "published"
     },
     {
       "id": "19ca8e69c057",
@@ -4606,7 +4963,10 @@
       "topics": [
         "experience",
         "applications"
-      ]
+      ],
+      "published_date": "2024-10-21",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fismar62088.2024.00078",
+      "published_date_basis": "published"
     },
     {
       "id": "392e4ebb96fb",
@@ -4640,7 +5000,10 @@
       "oa_pdfs": [],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2025-01",
+      "published_date_source": "https://api.crossref.org/works/10.1016%2Fj.newideapsych.2024.101127",
+      "published_date_basis": "published"
     },
     {
       "id": "964208cc23c5",
@@ -4712,7 +5075,10 @@
       ],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2024-10-07",
+      "published_date_source": "https://api.crossref.org/works/10.3389%2Ffrvir.2024.1230885",
+      "published_date_basis": "published-online"
     },
     {
       "id": "7b881fcb124a",
@@ -4802,7 +5168,10 @@
       ],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2023-06-30",
+      "published_date_source": "https://api.crossref.org/works/10.1007%2Fs00371-023-02964-1",
+      "published_date_basis": "published-online"
     },
     {
       "id": "3b18572bda9b",
@@ -4833,7 +5202,10 @@
       "oa_pdfs": [],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2022-11-03",
+      "published_date_source": "https://api.crossref.org/works/10.1007%2Fs12650-022-00888-x",
+      "published_date_basis": "published-online"
     },
     {
       "id": "ad846de2cd1d",
@@ -4867,7 +5239,10 @@
       "topics": [
         "experience",
         "applications"
-      ]
+      ],
+      "published_date": "2023-04",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fpacificvis56936.2023.00009",
+      "published_date_basis": "published"
     },
     {
       "id": "fe87a081baef",
@@ -4899,7 +5274,10 @@
       "oa_pdfs": [
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC10070385/pdf/main.pdf"
       ],
-      "topics": []
+      "topics": [],
+      "published_date": "2023-04",
+      "published_date_source": "https://api.crossref.org/works/10.1016%2Fj.heliyon.2023.e14558",
+      "published_date_basis": "published"
     },
     {
       "id": "e6339c4d0746",
@@ -4934,7 +5312,10 @@
         "accessibility",
         "applications",
         "games"
-      ]
+      ],
+      "published_date": "2022-07-27",
+      "published_date_source": "https://api.crossref.org/works/10.1080%2F10447318.2022.2098559",
+      "published_date_basis": "published-online"
     },
     {
       "id": "d55f3e76dadd",
@@ -4987,7 +5368,10 @@
       "topics": [
         "experience",
         "games"
-      ]
+      ],
+      "published_date": "2023-10-16",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fismar-adjunct60411.2023.00185",
+      "published_date_basis": "published"
     },
     {
       "id": "f1073c01dd38",
@@ -5017,7 +5401,10 @@
       ],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2024-02-27",
+      "published_date_source": "https://api.crossref.org/works/10.1145%2F3629606.3629614",
+      "published_date_basis": "published-online"
     },
     {
       "id": "b0fa12644f64",
@@ -5046,7 +5433,10 @@
       "oa_pdfs": [],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2023-05-12",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Ficvr57957.2023.10169785",
+      "published_date_basis": "published"
     },
     {
       "id": "c0123e22b50c",
@@ -5088,7 +5478,10 @@
         "accessibility",
         "applications",
         "games"
-      ]
+      ],
+      "published_date": "2023-03-13",
+      "published_date_source": "https://api.crossref.org/works/10.1007%2Fs10055-023-00780-5",
+      "published_date_basis": "published-online"
     },
     {
       "id": "a5fa265c1597",
@@ -5117,7 +5510,10 @@
       "oa_pdfs": [],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2023-10-16",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fismar59233.2023.00091",
+      "published_date_basis": "published"
     },
     {
       "id": "d113c3e6ba85",
@@ -5148,7 +5544,10 @@
       ],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2023-11-28",
+      "published_date_source": "https://api.crossref.org/works/10.1145%2F3610543.3626175",
+      "published_date_basis": "published-online"
     },
     {
       "id": "efa94d9987bc",
@@ -5182,7 +5581,10 @@
       "topics": [
         "experience",
         "applications"
-      ]
+      ],
+      "published_date": "2023-10-16",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fismar-adjunct60411.2023.00180",
+      "published_date_basis": "published"
     },
     {
       "id": "4e1c470cbd4f",
@@ -5212,7 +5614,10 @@
       "topics": [
         "applications",
         "games"
-      ]
+      ],
+      "published_date": "2023-12-23",
+      "published_date_source": "https://api.crossref.org/works/10.1007%2F978-3-031-49368-3_12",
+      "published_date_basis": "published-online"
     },
     {
       "id": "eee67d337dbb",
@@ -5244,7 +5649,10 @@
       "topics": [
         "experience",
         "applications"
-      ]
+      ],
+      "published_date": "2022-10-13",
+      "published_date_source": "https://api.crossref.org/works/10.1007%2Fs12650-022-00889-w",
+      "published_date_basis": "published-online"
     },
     {
       "id": "6c95c5365a2a",
@@ -5278,7 +5686,10 @@
       "topics": [
         "experience",
         "accessibility"
-      ]
+      ],
+      "published_date": "2023-05",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Ftvcg.2023.3247057",
+      "published_date_basis": "published"
     },
     {
       "id": "c057f25a5967",
@@ -5305,7 +5716,10 @@
       "oa_pdfs": [],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2023-12-15",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fceii60565.2023.00013",
+      "published_date_basis": "published"
     },
     {
       "id": "322ff083724b",
@@ -5355,7 +5769,10 @@
       ],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2023-10-16",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fismar-adjunct60411.2023.00132",
+      "published_date_basis": "published"
     },
     {
       "id": "f9761157aeab",
@@ -5387,7 +5804,10 @@
       ],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2023-04-19",
+      "published_date_source": "https://api.crossref.org/works/10.1145%2F3544549.3585615",
+      "published_date_basis": "published-online"
     },
     {
       "id": "9ed31e06cf74",
@@ -5420,7 +5840,10 @@
       "topics": [
         "experience",
         "eye-tracking"
-      ]
+      ],
+      "published_date": "2023-05-18",
+      "published_date_source": "https://api.crossref.org/works/10.1145%2F3591129",
+      "published_date_basis": "published-online"
     },
     {
       "id": "926c56856348",
@@ -5517,7 +5940,10 @@
       "oa_pdfs": [],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2023-11-24",
+      "published_date_source": "https://api.crossref.org/works/10.1007%2F978-981-99-8385-8_9",
+      "published_date_basis": "published-online"
     },
     {
       "id": "ca1ed0c975b5",
@@ -5553,7 +5979,10 @@
       "oa_pdfs": [],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2023",
+      "published_date_source": "https://api.crossref.org/works/10.2139%2Fssrn.4361223",
+      "published_date_basis": "published"
     },
     {
       "id": "60b86509fd61",
@@ -5583,7 +6012,10 @@
       "oa_pdfs": [],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2023-03",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fvrw58643.2023.00279",
+      "published_date_basis": "published"
     },
     {
       "id": "8bcf053a53fe",
@@ -5614,7 +6046,10 @@
       "topics": [
         "experience",
         "applications"
-      ]
+      ],
+      "published_date": "2023-10-16",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fismar-adjunct60411.2023.00030",
+      "published_date_basis": "published"
     },
     {
       "id": "71f0aa15f07e",
@@ -5652,7 +6087,10 @@
       "topics": [
         "experience",
         "applications"
-      ]
+      ],
+      "published_date": "2023-10-02",
+      "published_date_source": "https://api.crossref.org/works/10.2196%2F47617",
+      "published_date_basis": "published-online"
     },
     {
       "id": "2e1c0b8ea47f",
@@ -5684,7 +6122,10 @@
       "topics": [
         "experience",
         "applications"
-      ]
+      ],
+      "published_date": "2023-03-27",
+      "published_date_source": "https://api.crossref.org/works/10.2196%2Fpreprints.47617",
+      "published_date_basis": "published"
     },
     {
       "id": "ed9ae5d7d52d",
@@ -5713,7 +6154,10 @@
       "oa_pdfs": [],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2023-10-16",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fismar59233.2023.00056",
+      "published_date_basis": "published"
     },
     {
       "id": "e6c23f4c0ea5",
@@ -5747,7 +6191,10 @@
       "topics": [
         "experience",
         "applications"
-      ]
+      ],
+      "published_date": "2023-07-11",
+      "published_date_source": "https://api.crossref.org/works/10.1007%2Fs00371-023-02976-x",
+      "published_date_basis": "published-online"
     },
     {
       "id": "eeafd05c8652",
@@ -5793,7 +6240,10 @@
       ],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2023-03",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fvrw58643.2023.00207",
+      "published_date_basis": "published"
     },
     {
       "id": "a795ff39d2c9",
@@ -5828,7 +6278,10 @@
       "topics": [
         "experience",
         "eye-tracking"
-      ]
+      ],
+      "published_date": "2023-04-19",
+      "published_date_source": "https://api.crossref.org/works/10.1145%2F3544548.3581042",
+      "published_date_basis": "published-online"
     },
     {
       "id": "b98c2e32123d",
@@ -5892,7 +6345,10 @@
       "oa_pdfs": [],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2023-03",
+      "published_date_source": "https://api.crossref.org/works/10.1016%2Fj.ijhcs.2022.102967",
+      "published_date_basis": "published"
     },
     {
       "id": "034178539899",
@@ -5924,7 +6380,10 @@
         "experience",
         "accessibility",
         "applications"
-      ]
+      ],
+      "published_date": "2023-04-01",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Ftvcg.2022.3142198",
+      "published_date_basis": "published"
     },
     {
       "id": "754810bc2a15",
@@ -5961,7 +6420,10 @@
         "https://nottingham-repository.worktribe.com/file/19788916/1/CHI%20HCI%20Economics%20CSCW%20Work%20China%20Crowd%20Crowdsourcing%20Tasks%20Design%20Social%20Group%20Alan%20Chamberlain",
         "https://openaccess.city.ac.uk/id/eprint/31009/1/CHI23%20Accepted%20Version.pdf"
       ],
-      "topics": []
+      "topics": [],
+      "published_date": "2023-04-19",
+      "published_date_source": "https://api.crossref.org/works/10.1145%2F3544548.3581418",
+      "published_date_basis": "published-online"
     },
     {
       "id": "0daa53b84261",
@@ -5989,7 +6451,10 @@
       "oa_pdfs": [],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2023-03",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fvrw58643.2023.00220",
+      "published_date_basis": "published"
     },
     {
       "id": "a2a8595e20ab",
@@ -6025,7 +6490,10 @@
       "topics": [
         "experience",
         "eye-tracking"
-      ]
+      ],
+      "published_date": "2023-03-02",
+      "published_date_source": "https://api.crossref.org/works/10.1017%2Fs0890060423000045",
+      "published_date_basis": "published-online"
     },
     {
       "id": "2643854bec59",
@@ -6055,7 +6523,10 @@
       "oa_pdfs": [],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2023-09-15",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Ficet59358.2023.10424148",
+      "published_date_basis": "published"
     },
     {
       "id": "d2d71ccdddf1",
@@ -6085,7 +6556,10 @@
       "oa_pdfs": [],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2023-08-21",
+      "published_date_source": "https://api.crossref.org/works/10.1007%2Fs10055-023-00847-3",
+      "published_date_basis": "published-online"
     },
     {
       "id": "f9d5802d97ae",
@@ -6138,7 +6612,10 @@
       "topics": [
         "experience",
         "games"
-      ]
+      ],
+      "published_date": "2023-10-16",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fismar59233.2023.00077",
+      "published_date_basis": "published"
     },
     {
       "id": "99c80b869891",
@@ -6167,7 +6644,10 @@
       "oa_pdfs": [],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2023-03",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fvrw58643.2023.00069",
+      "published_date_basis": "published"
     },
     {
       "id": "77858aeb54c0",
@@ -6199,7 +6679,10 @@
       ],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2023-01-13",
+      "published_date_source": "https://api.crossref.org/works/10.1145%2F3574131.3574439",
+      "published_date_basis": "published-online"
     },
     {
       "id": "9487876c8baf",
@@ -6300,7 +6783,10 @@
       ],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2022-10-04",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fimet54801.2022.9929783",
+      "published_date_basis": "published"
     },
     {
       "id": "a9d64c19ed3b",
@@ -6363,7 +6849,10 @@
       "oa_pdfs": [],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2022-11-07",
+      "published_date_source": "https://api.crossref.org/works/10.1145%2F3536221.3556586",
+      "published_date_basis": "published-online"
     },
     {
       "id": "c95ffca2dde6",
@@ -6397,7 +6886,10 @@
       "topics": [
         "experience",
         "accessibility"
-      ]
+      ],
+      "published_date": "2022-10-07",
+      "published_date_source": "https://api.crossref.org/works/10.3389%2Ffrvir.2022.1025054",
+      "published_date_basis": "published-online"
     },
     {
       "id": "3a915a9251cf",
@@ -6432,7 +6924,10 @@
       ],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2022-02-03",
+      "published_date_source": "https://api.crossref.org/works/10.3389%2Ffrvir.2022.838036",
+      "published_date_basis": "published-online"
     },
     {
       "id": "3d0053ef37cc",
@@ -6483,7 +6978,10 @@
         "experience",
         "accessibility",
         "games"
-      ]
+      ],
+      "published_date": "2022-05-04",
+      "published_date_source": "https://api.crossref.org/works/10.1145%2F3522610",
+      "published_date_basis": "published-online"
     },
     {
       "id": "f9fab994a0bd",
@@ -6534,7 +7032,10 @@
       ],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2022-10",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fismar55827.2022.00027",
+      "published_date_basis": "published"
     },
     {
       "id": "83099d5c2b37",
@@ -6623,7 +7124,10 @@
       ],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2023-01-13",
+      "published_date_source": "https://api.crossref.org/works/10.1145%2F3574131.3574459",
+      "published_date_basis": "published-online"
     },
     {
       "id": "caada2316680",
@@ -6652,7 +7156,10 @@
       "topics": [
         "applications",
         "games"
-      ]
+      ],
+      "published_date": "2022-11-03",
+      "published_date_source": "https://api.crossref.org/works/10.1089%2Fg4h.2022.0199",
+      "published_date_basis": "published-online"
     },
     {
       "id": "109135845a41",
@@ -6681,7 +7188,10 @@
       "oa_pdfs": [],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2022-06-17",
+      "published_date_source": "https://api.crossref.org/works/10.1145%2F3534522",
+      "published_date_basis": "published-online"
     },
     {
       "id": "b05ad292dc7a",
@@ -6710,7 +7220,10 @@
       "oa_pdfs": [],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2022-12",
+      "published_date_source": "https://api.crossref.org/works/10.1145%2F3565970.3567682",
+      "published_date_basis": "published-online"
     },
     {
       "id": "59e135c00b62",
@@ -6739,7 +7252,10 @@
       "oa_pdfs": [],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2022-12",
+      "published_date_source": "https://api.crossref.org/works/10.1145%2F3565970.3567702",
+      "published_date_basis": "published-online"
     },
     {
       "id": "f40add804d4a",
@@ -6791,7 +7307,10 @@
       "topics": [
         "experience",
         "applications"
-      ]
+      ],
+      "published_date": "2022-01-01",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Ftoh.2021.3138590",
+      "published_date_basis": "published"
     },
     {
       "id": "09c545f05254",
@@ -6822,7 +7341,10 @@
       "oa_pdfs": [],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2022-10",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fismar-adjunct57072.2022.00031",
+      "published_date_basis": "published"
     },
     {
       "id": "9ce5101cb7bf",
@@ -6871,7 +7393,10 @@
       "oa_pdfs": [
         "https://arxiv.org/pdf/2202.08498"
       ],
-      "topics": []
+      "topics": [],
+      "published_date": "2022-09-07",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Ficfsp55781.2022.9925001",
+      "published_date_basis": "published"
     },
     {
       "id": "ba4c680b1df6",
@@ -6913,7 +7438,10 @@
       "oa_pdfs": [
         "https://arxiv.org/pdf/2202.08498"
       ],
-      "topics": []
+      "topics": [],
+      "published_date": "2022-02-17",
+      "published_date_source": "https://arxiv.org/abs/2202.08498",
+      "published_date_basis": "first-submission"
     },
     {
       "id": "e7c850d98f41",
@@ -6946,7 +7474,10 @@
         "experience",
         "accessibility",
         "games"
-      ]
+      ],
+      "published_date": "2022-03",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fvrw55335.2022.00122",
+      "published_date_basis": "published"
     },
     {
       "id": "0af45d452c69",
@@ -6990,7 +7521,10 @@
       ],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2022-11-07",
+      "published_date_source": "https://arxiv.org/abs/2211.03690",
+      "published_date_basis": "first-submission"
     },
     {
       "id": "1504f86e91dd",
@@ -7021,7 +7555,10 @@
       "oa_pdfs": [],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2023-01-13",
+      "published_date_source": "https://api.crossref.org/works/10.1145%2F3574131.3574432",
+      "published_date_basis": "published-online"
     },
     {
       "id": "bf5fe198267c",
@@ -7054,7 +7591,10 @@
       "topics": [
         "applications",
         "games"
-      ]
+      ],
+      "published_date": "2022-12-01",
+      "published_date_source": "https://api.crossref.org/works/10.1089%2Fg4h.2021.0227",
+      "published_date_basis": "published"
     },
     {
       "id": "f92aa03cd0a7",
@@ -7088,7 +7628,10 @@
       "topics": [
         "experience",
         "applications"
-      ]
+      ],
+      "published_date": "2022-05-26",
+      "published_date_source": "https://api.crossref.org/works/10.1145%2F3532530.3532546",
+      "published_date_basis": "published-online"
     },
     {
       "id": "7b666aad7d94",
@@ -7120,7 +7663,10 @@
       "topics": [
         "experience",
         "applications"
-      ]
+      ],
+      "published_date": "2022-10",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fismar-adjunct57072.2022.00095",
+      "published_date_basis": "published"
     },
     {
       "id": "1db113e23876",
@@ -7172,7 +7718,10 @@
       ],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2022-03-21",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fhaptics52432.2022.9765609",
+      "published_date_basis": "published"
     },
     {
       "id": "4ec4a908cbd3",
@@ -7202,7 +7751,10 @@
       "oa_pdfs": [],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2022-10",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fismar-adjunct57072.2022.00011",
+      "published_date_basis": "published"
     },
     {
       "id": "2bca414db0d2",
@@ -7254,7 +7806,10 @@
         "experience",
         "accessibility",
         "games"
-      ]
+      ],
+      "published_date": "2022-08-21",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fcog51982.2022.9893678",
+      "published_date_basis": "published"
     },
     {
       "id": "c9f14052cdc4",
@@ -7285,7 +7840,10 @@
       "oa_pdfs": [],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2022-05-30",
+      "published_date_source": "https://api.crossref.org/works/10.23919%2Filrn55037.2022.9815917",
+      "published_date_basis": "published"
     },
     {
       "id": "4b214e04a2e5",
@@ -7314,7 +7872,10 @@
       "oa_pdfs": [],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2021-10",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fismar-adjunct54149.2021.00014",
+      "published_date_basis": "published"
     },
     {
       "id": "613f0a10b775",
@@ -7344,7 +7905,10 @@
       "oa_pdfs": [],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2021-10-18",
+      "published_date_source": "https://api.crossref.org/works/10.1145%2F3462244.3479907",
+      "published_date_basis": "published-online"
     },
     {
       "id": "6c5f10887340",
@@ -7373,7 +7937,10 @@
       "oa_pdfs": [],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2021-03-27",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Ficiet51873.2021.9419627",
+      "published_date_basis": "published"
     },
     {
       "id": "9c77fb80901d",
@@ -7407,7 +7974,10 @@
       "oa_pdfs": [],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2021-06-08",
+      "published_date_source": "https://api.crossref.org/works/10.1145%2F3459926.3464761",
+      "published_date_basis": "published-online"
     },
     {
       "id": "e55800612bb8",
@@ -7438,7 +8008,10 @@
       "oa_pdfs": [],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2021-05-07",
+      "published_date_source": "https://api.crossref.org/works/10.1145%2F3411764.3445340",
+      "published_date_basis": "published-online"
     },
     {
       "id": "e09b2143dc30",
@@ -7473,7 +8046,10 @@
       "topics": [
         "experience",
         "applications"
-      ]
+      ],
+      "published_date": "2021-11-08",
+      "published_date_source": "https://api.crossref.org/works/10.3390%2Fapp112110473",
+      "published_date_basis": "published-online"
     },
     {
       "id": "8a9864480e53",
@@ -7521,7 +8097,10 @@
         "experience",
         "accessibility",
         "games"
-      ]
+      ],
+      "published_date": "2021-05-07",
+      "published_date_source": "https://api.crossref.org/works/10.1145%2F3411764.3445801",
+      "published_date_basis": "published-online"
     },
     {
       "id": "57969e666621",
@@ -7560,7 +8139,10 @@
       "topics": [
         "experience",
         "games"
-      ]
+      ],
+      "published_date": "2021-08-17",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fcog52621.2021.9619020",
+      "published_date_basis": "published"
     },
     {
       "id": "93cb1f81c0d7",
@@ -7614,7 +8196,10 @@
       ],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2021-11-09",
+      "published_date_source": "https://api.crossref.org/works/10.1145%2F3485279.3485297",
+      "published_date_basis": "published-online"
     },
     {
       "id": "d4fe50139c30",
@@ -7653,7 +8238,10 @@
       "topics": [
         "applications",
         "games"
-      ]
+      ],
+      "published_date": "2021-11-22",
+      "published_date_source": "https://api.crossref.org/works/10.2196%2F29330",
+      "published_date_basis": "published-online"
     },
     {
       "id": "abde3ce4c5c0",
@@ -7705,7 +8293,10 @@
         "experience",
         "accessibility",
         "games"
-      ]
+      ],
+      "published_date": "2021-08-17",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fcog52621.2021.9619145",
+      "published_date_basis": "published"
     },
     {
       "id": "85c94bce24bb",
@@ -7754,7 +8345,10 @@
       ],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2021-10",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fismar52148.2021.00026",
+      "published_date_basis": "published"
     },
     {
       "id": "943ae277d068",
@@ -7787,7 +8381,10 @@
       "topics": [
         "experience",
         "eye-tracking"
-      ]
+      ],
+      "published_date": "2021-05-07",
+      "published_date_source": "https://api.crossref.org/works/10.1145%2F3411764.3445343",
+      "published_date_basis": "published-online"
     },
     {
       "id": "6a7e4a888302",
@@ -7817,7 +8414,10 @@
       "oa_pdfs": [],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2021-10",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fismar-adjunct54149.2021.00022",
+      "published_date_basis": "published"
     },
     {
       "id": "b5838b0e21e8",
@@ -7847,7 +8447,10 @@
       "topics": [
         "experience",
         "accessibility"
-      ]
+      ],
+      "published_date": "2021-10-12",
+      "published_date_source": "https://api.crossref.org/works/10.1145%2F3472749.3474788",
+      "published_date_basis": "published-online"
     },
     {
       "id": "8a7cfb262c9d",
@@ -7898,7 +8501,10 @@
       "topics": [
         "experience",
         "applications"
-      ]
+      ],
+      "published_date": "2021-08-08",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fro-man50785.2021.9515455",
+      "published_date_basis": "published"
     },
     {
       "id": "1bd56ba7cf7d",
@@ -7946,7 +8552,10 @@
         "accessibility",
         "applications",
         "games"
-      ]
+      ],
+      "published_date": "2021-10-15",
+      "published_date_source": "https://api.crossref.org/works/10.1145%2F3450337.3483505",
+      "published_date_basis": "published-online"
     },
     {
       "id": "da55c6960a5c",
@@ -7983,7 +8592,10 @@
       "topics": [
         "experience",
         "applications"
-      ]
+      ],
+      "published_date": "2021-12-16",
+      "published_date_source": "https://api.crossref.org/works/10.3390%2Fs21248403",
+      "published_date_basis": "published-online"
     },
     {
       "id": "c291f3d81146",
@@ -8019,7 +8631,10 @@
       "topics": [
         "experience",
         "applications"
-      ]
+      ],
+      "published_date": "2021-02-02",
+      "published_date_source": "https://api.crossref.org/works/10.3390%2Fs21030990",
+      "published_date_basis": "published-online"
     },
     {
       "id": "a2bb0e14687d",
@@ -8047,7 +8662,10 @@
       "image": null,
       "pdf": null,
       "oa_pdfs": [],
-      "topics": []
+      "topics": [],
+      "published_date": "2021-11",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Ftia.2021.3114387",
+      "published_date_basis": "published"
     },
     {
       "id": "16a941d67c9b",
@@ -8097,7 +8715,10 @@
       "topics": [
         "applications",
         "games"
-      ]
+      ],
+      "published_date": "2021-10-15",
+      "published_date_source": "https://api.crossref.org/works/10.1145%2F3450337.3483507",
+      "published_date_basis": "published-online"
     },
     {
       "id": "4b501f942482",
@@ -8184,7 +8805,10 @@
         "experience",
         "accessibility",
         "games"
-      ]
+      ],
+      "published_date": "2021-10",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fismar52148.2021.00028",
+      "published_date_basis": "published"
     },
     {
       "id": "3b790bc1954b",
@@ -8220,7 +8844,10 @@
       ],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2021-09-23",
+      "published_date_source": "https://api.crossref.org/works/10.2196%2F29681",
+      "published_date_basis": "published-online"
     },
     {
       "id": "460361551894",
@@ -8249,7 +8876,10 @@
       "oa_pdfs": [],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2021-04-16",
+      "published_date_source": "https://api.crossref.org/works/10.2196%2Fpreprints.29681",
+      "published_date_basis": "published"
     },
     {
       "id": "2e2257ed1008",
@@ -8300,7 +8930,10 @@
         "experience",
         "accessibility",
         "games"
-      ]
+      ],
+      "published_date": "2021-04-28",
+      "published_date_source": "https://api.crossref.org/works/10.1145%2F3451255",
+      "published_date_basis": "published-online"
     },
     {
       "id": "a2fe2153231b",
@@ -8332,7 +8965,10 @@
       "oa_pdfs": [],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2020-12",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fispa-bdcloud-socialcom-sustaincom51426.2020.00199",
+      "published_date_basis": "published"
     },
     {
       "id": "54b32d33b5e9",
@@ -8359,7 +8995,10 @@
       "image": null,
       "pdf": null,
       "oa_pdfs": [],
-      "topics": []
+      "topics": [],
+      "published_date": "2020-06",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Feeeic%2Ficpseurope49358.2020.9160769",
+      "published_date_basis": "published"
     },
     {
       "id": "f1c14ef3ce4e",
@@ -8411,7 +9050,10 @@
       "topics": [
         "experience",
         "games"
-      ]
+      ],
+      "published_date": "2020-11",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fismar50242.2020.00102",
+      "published_date_basis": "published"
     },
     {
       "id": "d4addad8c312",
@@ -8476,7 +9118,10 @@
         "experience",
         "applications",
         "eye-tracking"
-      ]
+      ],
+      "published_date": "2020-05-22",
+      "published_date_source": "https://api.crossref.org/works/10.3390%2Fs20102944",
+      "published_date_basis": "published-online"
     },
     {
       "id": "630a73479252",
@@ -8526,7 +9171,10 @@
       "topics": [
         "experience",
         "applications"
-      ]
+      ],
+      "published_date": "2020-11-22",
+      "published_date_source": "https://api.crossref.org/works/10.1186%2Fs13673-020-00253-7",
+      "published_date_basis": "published-online"
     },
     {
       "id": "2dc8bd7fe2a4",
@@ -8559,7 +9207,10 @@
       "oa_pdfs": [],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2020-09-01",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Ftvcg.2019.2905580",
+      "published_date_basis": "published"
     },
     {
       "id": "988a63598a7f",
@@ -8592,7 +9243,10 @@
       ],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2020-02-25",
+      "published_date_source": "https://api.crossref.org/works/10.3389%2Ffpubh.2020.00045",
+      "published_date_basis": "published-online"
     },
     {
       "id": "9138b37544e5",
@@ -8638,7 +9292,10 @@
       "topics": [
         "experience",
         "applications"
-      ]
+      ],
+      "published_date": "2020-10-12",
+      "published_date_source": "https://arxiv.org/abs/2010.06077",
+      "published_date_basis": "first-submission"
     },
     {
       "id": "5bb5aa711074",
@@ -8668,7 +9325,10 @@
       "topics": [
         "experience",
         "applications"
-      ]
+      ],
+      "published_date": "2020-11-25",
+      "published_date_source": "https://api.crossref.org/works/10.1007%2F978-3-030-63426-1_7",
+      "published_date_basis": "published-online"
     },
     {
       "id": "49450cb83fa8",
@@ -8721,7 +9381,10 @@
       "topics": [
         "experience",
         "accessibility"
-      ]
+      ],
+      "published_date": "2020-11",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fismar50242.2020.00061",
+      "published_date_basis": "published"
     },
     {
       "id": "952a123cc635",
@@ -8752,7 +9415,10 @@
       "topics": [
         "experience",
         "applications"
-      ]
+      ],
+      "published_date": "2021-02-15",
+      "published_date_source": "https://api.crossref.org/works/10.1145%2F3441000.3441012",
+      "published_date_basis": "published-online"
     },
     {
       "id": "16a7cba5cf62",
@@ -8782,7 +9448,10 @@
       "topics": [
         "experience",
         "applications"
-      ]
+      ],
+      "published_date": "2020-11-04",
+      "published_date_source": "https://api.crossref.org/works/10.1007%2F978-3-030-59987-4_22",
+      "published_date_basis": "published-online"
     },
     {
       "id": "94ed4bf2c5e8",
@@ -8813,7 +9482,10 @@
       "topics": [
         "experience",
         "applications"
-      ]
+      ],
+      "published_date": "2020-05-18",
+      "published_date_source": "https://api.crossref.org/works/10.1145%2F3385378.3385385",
+      "published_date_basis": "published-online"
     },
     {
       "id": "cfe6e133df1a",
@@ -8874,7 +9546,10 @@
       "image": null,
       "pdf": null,
       "oa_pdfs": [],
-      "topics": []
+      "topics": [],
+      "published_date": "2020-02-01",
+      "published_date_source": "https://api.crossref.org/works/10.1007%2F978-3-030-39431-8_22",
+      "published_date_basis": "published-online"
     },
     {
       "id": "cecef07236bc",
@@ -8907,7 +9582,10 @@
         "accessibility",
         "applications",
         "games"
-      ]
+      ],
+      "published_date": "2020-12-01",
+      "published_date_source": "https://api.crossref.org/works/10.1089%2Fg4h.2019.0130",
+      "published_date_basis": "published"
     },
     {
       "id": "b6ed00c56832",
@@ -8937,7 +9615,10 @@
       "image": null,
       "pdf": null,
       "oa_pdfs": [],
-      "topics": []
+      "topics": [],
+      "published_date": "2020-01-04",
+      "published_date_source": "https://api.crossref.org/works/10.1145%2F3375187",
+      "published_date_basis": "published-online"
     },
     {
       "id": "65adbc42c1a3",
@@ -8971,7 +9652,10 @@
       "oa_pdfs": [],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2020-12",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fiscid51228.2020.00088",
+      "published_date_basis": "published"
     },
     {
       "id": "463a639eaa64",
@@ -9009,7 +9693,10 @@
       ],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2020-01-22",
+      "published_date_source": "https://api.crossref.org/works/10.1145%2F3364997",
+      "published_date_basis": "published-online"
     },
     {
       "id": "8dc9f2150d71",
@@ -9038,7 +9725,10 @@
       "oa_pdfs": [],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2019-02-26",
+      "published_date_source": "https://api.crossref.org/works/10.1007%2Fs11042-019-7349-2",
+      "published_date_basis": "published-online"
     },
     {
       "id": "3532bed7e8c5",
@@ -9092,7 +9782,10 @@
         "accessibility",
         "games",
         "eye-tracking"
-      ]
+      ],
+      "published_date": "2020-11",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fismar-adjunct51615.2020.00071",
+      "published_date_basis": "published"
     },
     {
       "id": "6d1697269193",
@@ -9130,7 +9823,10 @@
       "topics": [
         "experience",
         "games"
-      ]
+      ],
+      "published_date": "2020-07-27",
+      "published_date_source": "https://api.crossref.org/works/10.2196%2F17972",
+      "published_date_basis": "published-online"
     },
     {
       "id": "59fcf392e149",
@@ -9160,7 +9856,10 @@
       "topics": [
         "experience",
         "games"
-      ]
+      ],
+      "published_date": "2020-12-01",
+      "published_date_source": "https://api.crossref.org/works/10.1089%2Fg4h.2019.0102",
+      "published_date_basis": "published"
     },
     {
       "id": "a5c099f8ae49",
@@ -9194,7 +9893,10 @@
       "oa_pdfs": [],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2020-04-25",
+      "published_date_source": "https://api.crossref.org/works/10.1145%2F3334480.3382932",
+      "published_date_basis": "published-online"
     },
     {
       "id": "4a4d55e8ba85",
@@ -9242,7 +9944,10 @@
       ],
       "topics": [
         "games"
-      ]
+      ],
+      "published_date": "2020-11-03",
+      "published_date_source": "https://api.crossref.org/works/10.1145%2F3383668.3419958",
+      "published_date_basis": "published-online"
     },
     {
       "id": "f66678e4a965",
@@ -9311,7 +10016,10 @@
       "topics": [
         "applications",
         "games"
-      ]
+      ],
+      "published_date": "2019-12-01",
+      "published_date_source": "https://api.crossref.org/works/10.6025%2Fjcl%2F2019%2F10%2F4%2F134-144",
+      "published_date_basis": "published-online"
     },
     {
       "id": "80358a4b27b3",
@@ -9340,7 +10048,10 @@
       "oa_pdfs": [],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2019-03",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Ficbda.2019.8713221",
+      "published_date_basis": "published"
     },
     {
       "id": "b3b0099dd0af",
@@ -9375,7 +10086,10 @@
       "topics": [
         "experience",
         "applications"
-      ]
+      ],
+      "published_date": "2019-10",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fismar.2019.00030",
+      "published_date_basis": "published"
     },
     {
       "id": "2b72c9e17fbb",
@@ -9407,7 +10121,10 @@
       "topics": [
         "experience",
         "games"
-      ]
+      ],
+      "published_date": "2019-06-27",
+      "published_date_source": "https://api.crossref.org/works/10.1145%2F3332169.3333574",
+      "published_date_basis": "published-online"
     },
     {
       "id": "befea794f172",
@@ -9438,7 +10155,10 @@
       "topics": [
         "experience",
         "accessibility"
-      ]
+      ],
+      "published_date": "2019-03",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fvr.2019.8797916",
+      "published_date_basis": "published"
     },
     {
       "id": "6ba1e9684ad6",
@@ -9470,7 +10190,10 @@
       "topics": [
         "experience",
         "accessibility"
-      ]
+      ],
+      "published_date": "2019-10",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fismar.2019.00-20",
+      "published_date_basis": "published"
     },
     {
       "id": "66d0393e512a",
@@ -9502,7 +10225,10 @@
       "topics": [
         "experience",
         "accessibility"
-      ]
+      ],
+      "published_date": "2019-03",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fvr.2019.8797901",
+      "published_date_basis": "published"
     },
     {
       "id": "8433db99ded1",
@@ -9536,7 +10262,10 @@
       ],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2019-08-05",
+      "published_date_source": "https://api.crossref.org/works/10.3390%2Fapp9153177",
+      "published_date_basis": "published-online"
     },
     {
       "id": "f26180fe99cf",
@@ -9571,7 +10300,10 @@
       ],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2019-07-15",
+      "published_date_source": "https://api.crossref.org/works/10.46467%2Ftdd35.2019.42-75",
+      "published_date_basis": "published-online"
     },
     {
       "id": "a1b64d9f1a3b",
@@ -9631,7 +10363,10 @@
       "oa_pdfs": [],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2019-05-02",
+      "published_date_source": "https://api.crossref.org/works/10.1145%2F3290605.3300674",
+      "published_date_basis": "published-online"
     },
     {
       "id": "41fcf9ddb4c0",
@@ -9680,7 +10415,10 @@
       "topics": [
         "applications",
         "games"
-      ]
+      ],
+      "published_date": "2019-07-18",
+      "published_date_source": "https://api.crossref.org/works/10.1186%2Fs40561-019-0085-2",
+      "published_date_basis": "published-online"
     },
     {
       "id": "444da5d21a05",
@@ -9711,7 +10449,10 @@
       ],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2019-04-28",
+      "published_date_source": "https://api.crossref.org/works/10.1155%2F2019%2F6791058",
+      "published_date_basis": "published"
     },
     {
       "id": "dc4a44f9c084",
@@ -9744,7 +10485,10 @@
       "topics": [
         "experience",
         "accessibility"
-      ]
+      ],
+      "published_date": "2019-07-01",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Ftvcg.2019.2913518",
+      "published_date_basis": "published"
     },
     {
       "id": "535f64a6f628",
@@ -9775,7 +10519,10 @@
       "oa_pdfs": [],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2019-06",
+      "published_date_source": "https://api.crossref.org/works/10.1016%2Fj.future.2018.02.029",
+      "published_date_basis": "published"
     },
     {
       "id": "6b964bdfba13",
@@ -9813,7 +10560,10 @@
       "topics": [
         "experience",
         "applications"
-      ]
+      ],
+      "published_date": "2019-10",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fismar-adjunct.2019.00042",
+      "published_date_basis": "published"
     },
     {
       "id": "0e9c15e52cc9",
@@ -9857,7 +10607,10 @@
       ],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2019-09-09",
+      "published_date_source": "https://arxiv.org/abs/1909.03596",
+      "published_date_basis": "first-submission"
     },
     {
       "id": "d07eb35e8f99",
@@ -9886,7 +10639,10 @@
       "topics": [
         "experience",
         "applications"
-      ]
+      ],
+      "published_date": "2019-07-06",
+      "published_date_source": "https://api.crossref.org/works/10.1007%2F978-3-030-23528-4_30",
+      "published_date_basis": "published-online"
     },
     {
       "id": "db6f4808c45e",
@@ -9918,7 +10674,10 @@
       "oa_pdfs": [],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2019-10",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fcisp-bmei48845.2019.8965949",
+      "published_date_basis": "published"
     },
     {
       "id": "57a5b588476a",
@@ -9948,7 +10707,10 @@
       "oa_pdfs": [],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2019-11-08",
+      "published_date_source": "https://api.crossref.org/works/10.1145%2F3355089.3356544",
+      "published_date_basis": "published-online"
     },
     {
       "id": "70d1c42be965",
@@ -9984,7 +10746,10 @@
         "experience",
         "applications",
         "games"
-      ]
+      ],
+      "published_date": "2019-08-08",
+      "published_date_source": "https://api.crossref.org/works/10.3389%2Ffpubh.2019.00220",
+      "published_date_basis": "published-online"
     },
     {
       "id": "0c31033aa268",
@@ -10015,7 +10780,10 @@
       "topics": [
         "experience",
         "accessibility"
-      ]
+      ],
+      "published_date": "2019-10",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fismar.2019.00026",
+      "published_date_basis": "published"
     },
     {
       "id": "46f0c0d833f3",
@@ -10042,7 +10810,10 @@
       "image": null,
       "pdf": null,
       "oa_pdfs": [],
-      "topics": []
+      "topics": [],
+      "published_date": "2019-06",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Feeeic.2019.8783326",
+      "published_date_basis": "published"
     },
     {
       "id": "84a489e16eba",
@@ -10073,7 +10844,10 @@
       "oa_pdfs": [],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2020-03-04",
+      "published_date_source": "https://api.crossref.org/works/10.1145%2F3374587.3374617",
+      "published_date_basis": "published-online"
     },
     {
       "id": "5655044d72cf",
@@ -10107,7 +10881,10 @@
       "topics": [
         "experience",
         "accessibility"
-      ]
+      ],
+      "published_date": "2019-05",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Ftvcg.2019.2898736",
+      "published_date_basis": "published"
     },
     {
       "id": "91ff213f609c",
@@ -10139,7 +10916,10 @@
       "oa_pdfs": [],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2019-12",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Ftale48000.2019.9225914",
+      "published_date_basis": "published"
     },
     {
       "id": "6e1b4f8c264a",
@@ -10168,7 +10948,10 @@
       "oa_pdfs": [],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2019-08-22",
+      "published_date_source": "https://api.crossref.org/works/10.1007%2F978-981-32-9244-4_27",
+      "published_date_basis": "published-online"
     },
     {
       "id": "157720c128e7",
@@ -10215,7 +10998,10 @@
       "topics": [
         "experience",
         "applications"
-      ]
+      ],
+      "published_date": "2019-01-15",
+      "published_date_source": "https://arxiv.org/abs/1901.04879",
+      "published_date_basis": "first-submission"
     },
     {
       "id": "58bc90f7b958",
@@ -10251,7 +11037,10 @@
       "topics": [
         "experience",
         "applications"
-      ]
+      ],
+      "published_date": "2019-05-09",
+      "published_date_source": "https://api.crossref.org/works/10.3390%2Fmti3020033",
+      "published_date_basis": "published-online"
     },
     {
       "id": "d7d6f20d08a6",
@@ -10283,7 +11072,10 @@
       "oa_pdfs": [],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2019-10",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fcisp-bmei48845.2019.8965711",
+      "published_date_basis": "published"
     },
     {
       "id": "d16d050b19f8",
@@ -10358,7 +11150,10 @@
       "topics": [
         "experience",
         "applications"
-      ]
+      ],
+      "published_date": "2019-11-29",
+      "published_date_source": "https://api.crossref.org/works/10.22452%2Fmjcs.sp2019no1.9",
+      "published_date_basis": "published-online"
     },
     {
       "id": "cecf5e1a67f9",
@@ -10388,7 +11183,10 @@
       "topics": [
         "experience",
         "applications"
-      ]
+      ],
+      "published_date": "2018-10",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fsmartworld.2018.00334",
+      "published_date_basis": "published"
     },
     {
       "id": "f73050c10d2e",
@@ -10420,7 +11218,10 @@
       "topics": [
         "experience",
         "games"
-      ]
+      ],
+      "published_date": "2018-10-11",
+      "published_date_source": "https://api.crossref.org/works/10.1007%2F978-981-13-2844-2_8",
+      "published_date_basis": "published-online"
     },
     {
       "id": "3beb677cff2f",
@@ -10450,7 +11251,10 @@
       "topics": [
         "experience",
         "games"
-      ]
+      ],
+      "published_date": "2018-10-06",
+      "published_date_source": "https://api.crossref.org/works/10.1007%2F978-3-030-00563-4_75",
+      "published_date_basis": "published-online"
     },
     {
       "id": "55c9146e4d73",
@@ -10506,7 +11310,10 @@
       "oa_pdfs": [],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2018-09",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Ficomssc45026.2018.8942021",
+      "published_date_basis": "published"
     },
     {
       "id": "9e41a39a7fc8",
@@ -10540,7 +11347,10 @@
       "topics": [
         "experience",
         "applications"
-      ]
+      ],
+      "published_date": "2018-10",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fismar.2018.00050",
+      "published_date_basis": "published"
     },
     {
       "id": "dfe4c46b20bd",
@@ -10573,7 +11383,10 @@
       "topics": [
         "experience",
         "games"
-      ]
+      ],
+      "published_date": "2018-12",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Faivr.2018.00015",
+      "published_date_basis": "published"
     },
     {
       "id": "70331c51adf7",
@@ -10606,7 +11419,10 @@
       "topics": [
         "experience",
         "games"
-      ]
+      ],
+      "published_date": "2018-05-02",
+      "published_date_source": "https://api.crossref.org/works/10.1002%2Fcav.1830",
+      "published_date_basis": "published-online"
     },
     {
       "id": "4339f35fee83",
@@ -10639,7 +11455,10 @@
       "oa_pdfs": [],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2018-12",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Faivr.2018.00053",
+      "published_date_basis": "published"
     },
     {
       "id": "16ae65bfd266",
@@ -10701,7 +11520,10 @@
       ],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2018-05-21",
+      "published_date_source": "https://api.crossref.org/works/10.1002%2Fcav.1829",
+      "published_date_basis": "published-online"
     },
     {
       "id": "d48d64656b55",
@@ -10735,7 +11557,10 @@
       "oa_pdfs": [],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2018-11",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Ftvcg.2018.2868581",
+      "published_date_basis": "published"
     },
     {
       "id": "acd451ba9e1e",
@@ -10780,7 +11605,10 @@
       "topics": [
         "experience",
         "applications"
-      ]
+      ],
+      "published_date": "2018-06-29",
+      "published_date_source": "https://arxiv.org/abs/1806.11361",
+      "published_date_basis": "first-submission"
     },
     {
       "id": "9d1964dc90aa",
@@ -10863,7 +11691,10 @@
       ],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2018-10-29",
+      "published_date_source": "https://api.crossref.org/works/10.1186%2Fs13673-018-0154-5",
+      "published_date_basis": "published-online"
     },
     {
       "id": "570ecaf43184",
@@ -10959,7 +11790,10 @@
       "topics": [
         "experience",
         "games"
-      ]
+      ],
+      "published_date": "2017-05-06",
+      "published_date_source": "https://api.crossref.org/works/10.1145%2F3027063.3053154",
+      "published_date_basis": "published-online"
     },
     {
       "id": "fc811de4c92f",
@@ -10984,7 +11818,10 @@
       "image": null,
       "pdf": null,
       "oa_pdfs": [],
-      "topics": []
+      "topics": [],
+      "published_date": "2017",
+      "published_date_source": "https://api.crossref.org/works/10.1016%2Fb978-0-12-809393-1.00001-5",
+      "published_date_basis": "published"
     },
     {
       "id": "819705274cb5",
@@ -11080,7 +11917,10 @@
       "topics": [
         "experience",
         "games"
-      ]
+      ],
+      "published_date": "2017-09-11",
+      "published_date_source": "https://api.crossref.org/works/10.1145%2F3130955",
+      "published_date_basis": "published-online"
     },
     {
       "id": "1a9501ea8cba",
@@ -11155,7 +11995,10 @@
       "image": null,
       "pdf": null,
       "oa_pdfs": [],
-      "topics": []
+      "topics": [],
+      "published_date": "2017",
+      "published_date_source": "https://api.crossref.org/works/10.1016%2Fb978-0-12-809393-1.09990-6",
+      "published_date_basis": "published"
     },
     {
       "id": "e7b3186abfe1",
@@ -11194,7 +12037,10 @@
       "oa_pdfs": [],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2017-09-11",
+      "published_date_source": "https://api.crossref.org/works/10.1145%2F3123024.3123081",
+      "published_date_basis": "published-online"
     },
     {
       "id": "fd7260ccc572",
@@ -11225,7 +12071,10 @@
       "oa_pdfs": [],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2017-10-29",
+      "published_date_source": "https://api.crossref.org/works/10.1007%2F978-3-319-70010-6_3",
+      "published_date_basis": "published-online"
     },
     {
       "id": "55856d990ebf",
@@ -11284,7 +12133,10 @@
       "topics": [
         "experience",
         "applications"
-      ]
+      ],
+      "published_date": "2016-10",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fapccas.2016.7804002",
+      "published_date_basis": "published"
     },
     {
       "id": "2a843b696d1e",
@@ -11314,7 +12166,10 @@
       "oa_pdfs": [],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2016-10",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fcts.2016.0026",
+      "published_date_basis": "published"
     },
     {
       "id": "8d6a24a3cb95",
@@ -11342,7 +12197,10 @@
       "image": null,
       "pdf": null,
       "oa_pdfs": [],
-      "topics": []
+      "topics": [],
+      "published_date": "2016-02-28",
+      "published_date_source": "https://api.crossref.org/works/10.14257%2Fijca.2016.9.2.05",
+      "published_date_basis": "published-online"
     },
     {
       "id": "242029f1bd04",
@@ -11372,7 +12230,10 @@
       "oa_pdfs": [],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2016-09-06",
+      "published_date_source": "https://api.crossref.org/works/10.1145%2F2957265.2962643",
+      "published_date_basis": "published-online"
     },
     {
       "id": "37cac986ef6e",
@@ -11408,7 +12269,10 @@
       "topics": [
         "experience",
         "applications"
-      ]
+      ],
+      "published_date": "2016-10-28",
+      "published_date_source": "https://api.crossref.org/works/10.3390%2Finformatics3040020",
+      "published_date_basis": "published-online"
     },
     {
       "id": "f46d9933dd70",
@@ -11467,7 +12331,10 @@
       "oa_pdfs": [],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2016-12-03",
+      "published_date_source": "https://api.crossref.org/works/10.1145%2F3013971.3014005",
+      "published_date_basis": "published-online"
     },
     {
       "id": "a55eb8dc193b",
@@ -11529,7 +12396,10 @@
       "oa_pdfs": [
         "https://arxiv.org/pdf/1511.06385"
       ],
-      "topics": []
+      "topics": [],
+      "published_date": "2015-11",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Ficdm.2015.84",
+      "published_date_basis": "published"
     },
     {
       "id": "852f7373137d",
@@ -11557,7 +12427,10 @@
       "oa_pdfs": [],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2015-01",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fplatcon.2015.28",
+      "published_date_basis": "published"
     },
     {
       "id": "89846911b9a7",
@@ -11585,7 +12458,10 @@
       "oa_pdfs": [],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2015-01",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fplatcon.2015.29",
+      "published_date_basis": "published"
     },
     {
       "id": "2f48642c707d",
@@ -11613,7 +12489,10 @@
       "topics": [
         "experience",
         "applications"
-      ]
+      ],
+      "published_date": "2015-06",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fcyber.2015.7288055",
+      "published_date_basis": "published"
     },
     {
       "id": "4c6fca440ad1",
@@ -11645,7 +12524,10 @@
       "oa_pdfs": [],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2015-10",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2F3m-nano.2015.7425514",
+      "published_date_basis": "published"
     },
     {
       "id": "7654cd2a0310",
@@ -11676,7 +12558,10 @@
       "oa_pdfs": [],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2015-11",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fisocc.2015.7401775",
+      "published_date_basis": "published"
     },
     {
       "id": "79b912953f70",
@@ -11733,7 +12618,10 @@
       "oa_pdfs": [],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2015-11",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fisocc.2015.7401771",
+      "published_date_basis": "published"
     },
     {
       "id": "6e05ca52ccb5",
@@ -11765,7 +12653,10 @@
         "accessibility",
         "applications",
         "games"
-      ]
+      ],
+      "published_date": "2015-10-27",
+      "published_date_source": "https://api.crossref.org/works/10.1007%2F978-981-287-868-7_6",
+      "published_date_basis": "published-online"
     },
     {
       "id": "22613b3908b1",
@@ -11794,7 +12685,10 @@
       "topics": [
         "experience",
         "games"
-      ]
+      ],
+      "published_date": "2015-08",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fgamepec.2015.7331849",
+      "published_date_basis": "published"
     },
     {
       "id": "ff27e06d83f2",
@@ -11824,7 +12718,10 @@
       "oa_pdfs": [],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2015-12",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fsmartcity.2015.89",
+      "published_date_basis": "published"
     },
     {
       "id": "0046d2b67bbf",
@@ -11884,7 +12781,10 @@
       "oa_pdfs": [
         "https://www.extrica.com/article/15677/pdf"
       ],
-      "topics": []
+      "topics": [],
+      "published_date": "2015-03-31",
+      "published_date_source": "https://api.crossref.org/works/10.21595%2Fjve.2015.15677",
+      "published_date_basis": "published-online"
     },
     {
       "id": "6511d455e55e",
@@ -11918,7 +12818,10 @@
       "image": null,
       "pdf": null,
       "oa_pdfs": [],
-      "topics": []
+      "topics": [],
+      "published_date": "2015-09",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fnbis.2015.27",
+      "published_date_basis": "published"
     },
     {
       "id": "4bd5f7b69bc2",
@@ -11948,7 +12851,10 @@
       ],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2014",
+      "published_date_source": "https://api.crossref.org/works/10.52842%2Fconf.ecaade.2014.1.063",
+      "published_date_basis": "published"
     },
     {
       "id": "72079d0a7561",
@@ -12039,7 +12945,10 @@
       "oa_pdfs": [],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2014-10",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fcyberc.2014.28",
+      "published_date_basis": "published"
     },
     {
       "id": "21feffe531b4",
@@ -12067,7 +12976,10 @@
       "oa_pdfs": [],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2014-08",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Ficspcc.2014.6986323",
+      "published_date_basis": "published"
     },
     {
       "id": "81e7c50256b5",
@@ -12096,7 +13008,10 @@
       "oa_pdfs": [],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2014-12",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fcse.2014.62",
+      "published_date_basis": "published"
     },
     {
       "id": "d7f3726787ad",
@@ -12174,7 +13089,10 @@
       "oa_pdfs": [],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2014-12",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fcse.2014.157",
+      "published_date_basis": "published"
     },
     {
       "id": "b3314432dc14",
@@ -12205,7 +13123,10 @@
       "topics": [
         "experience",
         "applications"
-      ]
+      ],
+      "published_date": "2014-12",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fcse.2014.155",
+      "published_date_basis": "published"
     },
     {
       "id": "d556f231dcf5",
@@ -12234,7 +13155,10 @@
       "oa_pdfs": [],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2013-08",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Ftale.2013.6654435",
+      "published_date_basis": "published"
     },
     {
       "id": "04ea877de640",
@@ -12266,7 +13190,10 @@
       "oa_pdfs": [],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2013-05-25",
+      "published_date_source": "https://api.crossref.org/works/10.1007%2F978-94-007-6516-0_107",
+      "published_date_basis": "published-online"
     },
     {
       "id": "855b4eb9534e",
@@ -12305,7 +13232,10 @@
       "oa_pdfs": [],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2013-09",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fewdts.2013.6673163",
+      "published_date_basis": "published"
     },
     {
       "id": "eff25cb642b7",
@@ -12333,7 +13263,10 @@
       "oa_pdfs": [],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2013-08",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Ftale.2013.6654499",
+      "published_date_basis": "published"
     },
     {
       "id": "0e1f1a5d9e5d",
@@ -12361,7 +13294,10 @@
       "image": null,
       "pdf": null,
       "oa_pdfs": [],
-      "topics": []
+      "topics": [],
+      "published_date": "2013-11",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fisocc.2013.6864024",
+      "published_date_basis": "published"
     },
     {
       "id": "b12dd829bf43",
@@ -12389,7 +13325,10 @@
       "oa_pdfs": [],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2013-08",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Ftale.2013.6654439",
+      "published_date_basis": "published"
     },
     {
       "id": "2fe4ae74241e",
@@ -12424,7 +13363,10 @@
       ],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2013-12-31",
+      "published_date_source": "https://api.crossref.org/works/10.1155%2F2013%2F109014",
+      "published_date_basis": "published-online"
     },
     {
       "id": "ede6d651d723",
@@ -12449,7 +13391,10 @@
       "image": null,
       "pdf": null,
       "oa_pdfs": [],
-      "topics": []
+      "topics": [],
+      "published_date": "2013-09",
+      "published_date_source": "https://api.crossref.org/works/10.1016%2Fj.mseb.2013.05.009",
+      "published_date_basis": "published"
     },
     {
       "id": "180b48da71c3",
@@ -12478,7 +13423,10 @@
       "oa_pdfs": [],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2013-08",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Ftale.2013.6654454",
+      "published_date_basis": "published"
     },
     {
       "id": "7a3703feac4d",
@@ -12513,7 +13461,10 @@
       "oa_pdfs": [],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2013-09",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Fewdts.2013.6673161",
+      "published_date_basis": "published"
     },
     {
       "id": "f9428604e38c",
@@ -12548,7 +13499,10 @@
       ],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2013",
+      "published_date_source": "https://api.crossref.org/works/10.1016%2Fj.procs.2013.05.074",
+      "published_date_basis": "published"
     },
     {
       "id": "90e664b81459",
@@ -12614,7 +13568,10 @@
       "oa_pdfs": [],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2013-08",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Ftale.2013.6654412",
+      "published_date_basis": "published"
     },
     {
       "id": "7e8a3f7c2e9f",
@@ -12645,7 +13602,10 @@
       "image": null,
       "pdf": null,
       "oa_pdfs": [],
-      "topics": []
+      "topics": [],
+      "published_date": "2013-12-01",
+      "published_date_source": "https://api.crossref.org/works/10.1007%2F978-94-007-7684-5_6",
+      "published_date_basis": "published-online"
     },
     {
       "id": "eb289f062f46",
@@ -12670,7 +13630,10 @@
       "image": null,
       "pdf": null,
       "oa_pdfs": [],
-      "topics": []
+      "topics": [],
+      "published_date": "2013-07",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Ficufn.2013.6614873",
+      "published_date_basis": "published"
     },
     {
       "id": "1b908de7b625",
@@ -12757,7 +13720,10 @@
       "image": null,
       "pdf": null,
       "oa_pdfs": [],
-      "topics": []
+      "topics": [],
+      "published_date": "2012-06-29",
+      "published_date_source": "https://api.crossref.org/works/10.1007%2Fs11706-012-0171-7",
+      "published_date_basis": "published-online"
     },
     {
       "id": "2eee2119e2a9",
@@ -12786,7 +13752,10 @@
       "oa_pdfs": [],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2012-09-21",
+      "published_date_source": "https://api.crossref.org/works/10.1145%2F2371574.2371588",
+      "published_date_basis": "published-online"
     },
     {
       "id": "fef51ed39c13",
@@ -12815,7 +13784,10 @@
       "oa_pdfs": [],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2012-09-21",
+      "published_date_source": "https://api.crossref.org/works/10.1145%2F2371574.2371591",
+      "published_date_basis": "published-online"
     },
     {
       "id": "5f267846ae87",
@@ -12905,7 +13877,10 @@
       "oa_pdfs": [],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2012-05-05",
+      "published_date_source": "https://api.crossref.org/works/10.1145%2F2207676.2208392",
+      "published_date_basis": "published-online"
     },
     {
       "id": "97f0377c3219",
@@ -12937,7 +13912,10 @@
       "oa_pdfs": [],
       "topics": [
         "experience"
-      ]
+      ],
+      "published_date": "2012-08-28",
+      "published_date_source": "https://api.crossref.org/works/10.1145%2F2350046.2350098",
+      "published_date_basis": "published-online"
     },
     {
       "id": "d1b9981182b3",
@@ -12964,7 +13942,10 @@
       "oa_pdfs": [],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2012-08",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2Ftale.2012.6360400",
+      "published_date_basis": "published"
     },
     {
       "id": "6d463451ce1e",
@@ -13020,7 +14001,10 @@
       "oa_pdfs": [],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2010-05",
+      "published_date_source": "https://api.crossref.org/works/10.1016%2Fj.compedu.2009.10.001",
+      "published_date_basis": "published"
     },
     {
       "id": "3cc5414cd928",
@@ -13061,7 +14045,10 @@
       ],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2010",
+      "published_date_source": "https://api.crossref.org/works/10.1007%2F978-3-642-15515-4_5",
+      "published_date_basis": "published"
     },
     {
       "id": "bde7013c7480",
@@ -13088,7 +14075,10 @@
       "image": null,
       "pdf": null,
       "oa_pdfs": [],
-      "topics": []
+      "topics": [],
+      "published_date": "2010-08-25",
+      "published_date_source": "https://api.crossref.org/works/10.3724%2Fsp.j.1037.2010.00133",
+      "published_date_basis": "published"
     },
     {
       "id": "0fd3a5b24410",
@@ -13142,7 +14132,10 @@
       "topics": [
         "experience",
         "applications"
-      ]
+      ],
+      "published_date": "2010-08-28",
+      "published_date_source": "https://api.crossref.org/works/10.1007%2Fs10758-010-9165-7",
+      "published_date_basis": "published-online"
     },
     {
       "id": "e719e5d1bfd6",
@@ -13195,7 +14188,10 @@
       "oa_pdfs": [],
       "topics": [
         "applications"
-      ]
+      ],
+      "published_date": "2009-03-13",
+      "published_date_source": "https://api.crossref.org/works/10.1080%2F10494820701610605",
+      "published_date_basis": "published-online"
     },
     {
       "id": "d3946117e887",
@@ -13517,7 +14513,10 @@
       "topics": [
         "experience",
         "applications"
-      ]
+      ],
+      "published_date": "2005-07",
+      "published_date_source": "https://api.crossref.org/works/10.1016%2Fj.intcom.2005.02.002",
+      "published_date_basis": "published"
     },
     {
       "id": "161babf64c7a",
@@ -13603,7 +14602,10 @@
       "topics": [
         "experience",
         "applications"
-      ]
+      ],
+      "published_date": "2003-09-01",
+      "published_date_source": "https://api.crossref.org/works/10.1057%2Fpalgrave.ivs.9500047",
+      "published_date_basis": "published-online"
     }
   ]
 }

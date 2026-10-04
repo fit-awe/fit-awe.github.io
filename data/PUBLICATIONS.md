@@ -3,7 +3,7 @@
 ## 数据与生成
 
 - `publications.json` 是五种语言论文页共享的数据源；网站本身不需要构建。
-- 修改数据后，在仓库根目录运行 `python3 scripts/build_publications.py`，然后运行 `python3 scripts/check_publications.py`。
+- 修改数据后，在仓库根目录运行 `python3 scripts/build_site.py`，然后运行 `python3 scripts/check_publications.py`。
 - 维护脚本需要 Python 和 `beautifulsoup4`；部署已生成的网站不需要这些依赖。
 - `publication-review.json` 保留原网站中非论文、标题/DOI 不匹配或无法核验的记录，方便日后人工补充；这些记录没有被静默丢弃。
 
@@ -32,16 +32,26 @@
 
 ## 作者加粗
 
-生成脚本读取英文成员页 `members/index.html` 的成员卡片和 Alumni 分区中的全部名单，在五种语言论文页中加粗匹配作者。匹配忽略大小写、空格、连字符和括号昵称，保留论文原始姓名拼写与顺序，不进行模糊匹配。更新成员或校友名单后，重新运行 `python3 scripts/build_publications.py` 即可同步。旧 `alumni/index.html` 仅跳转至 Members 的 Alumni 分区。
+生成脚本读取英文成员页 `members/index.html` 的成员卡片和 Alumni 分区中的全部名单，在五种语言论文页中加粗匹配作者。匹配忽略大小写、空格、连字符和括号昵称，保留论文原始姓名拼写与顺序，不进行模糊匹配。更新成员或校友名单后，重新运行 `python3 scripts/build_site.py` 即可同步。旧 `alumni/index.html` 仅跳转至 Members 的 Alumni 分区。
 
 ## 研究方向分类
 
-`research-topics.json` 定义项目页六个方向及五种语言名称；每篇论文的 `topics` 字段保存可编辑的分类 ID。同一论文可有多个方向，项目卡片数量因此不能相加作为论文总数。
+`research-topics.json` 定义论文筛选的六个方向及五种语言名称；每篇论文的 `topics` 字段保存可编辑的分类 ID。同一论文可有多个方向，各研究方向的数量因此不能相加作为论文总数。
 
 分类依据论文标题、研究用途及可用摘要作编辑归类，不代表原出版物声明的分类。可访问性涵盖无障碍输入、老年用户、受限场景与晕动症等使用障碍；眼动方向同时涵盖眼动交互与基于眼动数据的研究；Web 3D 仅纳入有明确在线三维场景依据的条目。不明确属于六个方向的历史记录仍保留在全部论文中。
 
-分类链接采用 `publications/index.html?topic=eye-tracking`，可叠加 `year`、`type`、`q` 参数；刷新、前进后退与语言切换会保持筛选条件。生成脚本同时更新五种语言的项目卡片、论文数量和分类选项。
+分类链接采用 `publications/index.html?topic=eye-tracking`，可叠加 `year`、`type`、`q` 参数；刷新、前进后退与语言切换会保持筛选条件。全部方向、全部年份和论文类型使用直接可点的选项按钮，每组单选，各组组合；保留搜索、数量和清除功能。
 
 ## 定期维护
 
 月度来源检查、自动翻译、失败处理和部署联动见 [AUTOMATION.md](AUTOMATION.md)。日语入口为 `ja/publications/index.html`。
+
+## 2026-10-04 日期与首页同步
+
+本次为 334 条记录补充带来源的发表日期元数据，59 条无法获取的记录保留原年份。`published_date` 保存 `YYYY`、`YYYY-MM` 或 `YYYY-MM-DD` 原始精度，`published_date_source` 指向 Crossref 官方 DOI 记录或 arXiv 原始页面，`published_date_basis` 记录元数据字段或首次提交。Crossref 优先使用 `published-online`，没有该字段时才使用其公开出版日期；索引、上传与更新日期不当作发表日期。
+
+首页从目录重算最新 6 篇期刊论文、会议论文和明确标记的预印本，不按是否有配图挑选。按可核实的发表日期降序，只有年份的条目排在该年已知月份/日期之后，相同日期保持目录顺序。可核实的未来发表日期会等到该日期所在期间再进入首页，完整目录保留记录。
+
+已有论文日期补充可运行 `python3 scripts/enrich_publication_dates.py`；来源访问失败不会删除记录。月度脚本为新增和近年的未补充记录查询日期；正式版本替代预印本时，使用正式版本的日期，保留论文 ID、配图和人工分类。所有记录的日期在五种语言中按相同精度显示。
+
+首页、完整论文和 Awards 共用成员及校友作者匹配规则。Awards 只保存关联 ID、奖项类型、年份和来源，完整标题、作者、图片和出版链接复用论文目录。成员早期成果亦纳入 Awards 展示。

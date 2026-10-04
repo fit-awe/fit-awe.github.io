@@ -27,6 +27,7 @@ def main():
    nav=s.select_one('.navbar')
    if nav:
     assert len(nav.select('.industry-nav-link'))==1,path
+    assert len(nav.select('.navbar-nav > li > a'))==7,(path,'incomplete navigation')
     language_links=nav.select('.dropdown-menu a');assert len(language_links)==5,path
     for a in language_links:
      code=a['hreflang'];target=ROOT/('' if code=='en' else code)/page
@@ -41,7 +42,11 @@ def main():
     assert [li.get_text(' ',strip=True).split(',')[0] for li in s.select('.members-alumni .alumni-list li')]==alumni_names,(path,'alumni roster changed')
     assert s.select_one('.members-section-nav a[href="#alumni"]'),(path,'Alumni entry missing')
    if page=='index.html':
-    assert len(s.select('.home-card'))==2,(path,'outdated homepage entries')
+    assert len(s.select('.latest-paper'))==6,(path,'latest publications missing')
+    assert len(s.select('.news-list li'))==3,(path,'news preview missing')
+    assert len(s.select('.award-summary li'))==3,(path,'award preview missing')
+    assert not s.select('.member-card,#newsid'),(path,'retired homepage members/sidebar')
+    assert len(s.select('[data-slide]'))==2 and s.select_one('[data-pause]'),(path,'carousel missing')
    if page in retired:
     redirect=s.select_one('meta[http-equiv="refresh"]');assert redirect,(path,'legacy redirect missing')
     url=urlsplit(redirect['content'].split('url=',1)[1])
