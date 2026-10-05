@@ -8,7 +8,7 @@ from publication_common import esc
 
 ROOT = Path(__file__).resolve().parents[1]
 LANGUAGES = {'en': 'English', 'zh': '中文', 'fr': 'Français', 'ar': 'العربية', 'ja': '日本語'}
-VERSION = '20261005-home-updates'
+VERSION = '20261005-footer'
 NAV = [('About', 'index.html'), ('Members', 'members/index.html'),
        ('Publications', 'publications/index.html'), ('Awards', 'awards/index.html'),
        ('News', 'allnews.html'), ('Industry–Academia Collaboration', 'index.html#industry'),
@@ -58,10 +58,7 @@ def header(page, lang='en'):
 
 
 def footer(page, lang='en'):
-    entries = [('Alumni', 'members/index.html#alumni'), ('Collaboration', 'entrepreneurship/index.html'),
-               ('Join Us', 'vacancies/index.html'), ('About this site', 'aboutwebsite.html')]
-    links = ''.join(f'<a href="{link(page, target, lang)}">{esc(text(label, lang))}</a>' for label, target in entries)
-    return f'<footer class="site-footer"><div class="container-fluid"><span>FIT-AWE Lab · HKUST(GZ)</span><nav aria-label="{esc(text("Footer", lang))}">{links}</nav></div></footer>'
+    return '<footer class="site-footer"><div class="container-fluid"><span>FIT-AWE Lab · HKUST(GZ)</span></div></footer>'
 
 
 def english_page(page, title, body, scripts=()):
