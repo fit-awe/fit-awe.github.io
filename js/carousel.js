@@ -4,7 +4,6 @@
   if (!root) return;
   const slides = [...root.querySelectorAll('[data-slide]')];
   const count = root.querySelector('[data-slide-count]');
-  const pause = root.querySelector('[data-pause]');
   const motion = window.matchMedia('(prefers-reduced-motion: reduce)');
   let index = 0;
   let paused = motion.matches;
@@ -18,13 +17,10 @@
   }
   function schedule() {
     clearTimeout(timer);
-    pause.setAttribute('aria-pressed', String(paused));
-    pause.textContent = paused ? root.dataset.playLabel : root.dataset.pauseLabel;
     if (!paused && !hovered && !focused && !document.hidden) timer = setTimeout(() => { show(index + 1); schedule(); }, 6000);
   }
   root.querySelector('[data-prev]').addEventListener('click', () => { show(index - 1); schedule(); });
   root.querySelector('[data-next]').addEventListener('click', () => { show(index + 1); schedule(); });
-  pause.addEventListener('click', () => { paused = !paused; schedule(); });
   root.addEventListener('mouseenter', () => { hovered = true; schedule(); });
   root.addEventListener('mouseleave', () => { hovered = false; schedule(); });
   root.addEventListener('focusin', () => { focused = true; schedule(); });

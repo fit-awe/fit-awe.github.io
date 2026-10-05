@@ -100,8 +100,6 @@ def render(page,lang,missing=None):
   replacement=rendered.select_one(selector)
   if part:part.replace_with(replacement)
   else:s.body.append(replacement)
- for carousel in s.select('[data-carousel]'):
-  for key in ('data-pause-label','data-play-label'):carousel[key]=tr(carousel[key])
  # Language alternatives are page-specific, never an unrelated page.
  for old in s.select('link[hreflang]'):old.decompose()
  for code in LANGUAGES:

@@ -8,7 +8,7 @@ from publication_common import esc
 
 ROOT = Path(__file__).resolve().parents[1]
 LANGUAGES = {'en': 'English', 'zh': '中文', 'fr': 'Français', 'ar': 'العربية', 'ja': '日本語'}
-VERSION = '20261005-awards-list'
+VERSION = '20261005-home-updates'
 NAV = [('About', 'index.html'), ('Members', 'members/index.html'),
        ('Publications', 'publications/index.html'), ('Awards', 'awards/index.html'),
        ('News', 'allnews.html'), ('Industry–Academia Collaboration', 'index.html#industry'),

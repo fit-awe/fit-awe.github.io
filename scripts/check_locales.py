@@ -46,7 +46,8 @@ def main():
     assert len(s.select('.news-list li'))==3,(path,'news preview missing')
     assert len(s.select('.award-summary li'))==3,(path,'award preview missing')
     assert not s.select('.member-card,#newsid'),(path,'retired homepage members/sidebar')
-    assert len(s.select('[data-slide]'))==2 and s.select_one('[data-pause]'),(path,'carousel missing')
+    assert len(s.select('[data-slide]'))==2 and s.select_one('[data-prev]') and s.select_one('[data-next]'),(path,'carousel missing')
+    assert not s.select('[data-pause],.carousel-caption'),(path,'retired slideshow labels')
    if page in retired:
     redirect=s.select_one('meta[http-equiv="refresh"]');assert redirect,(path,'legacy redirect missing')
     url=urlsplit(redirect['content'].split('url=',1)[1])
