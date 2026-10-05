@@ -72,6 +72,17 @@ def render(page,lang,missing=None):
   if bibliographic(tag):continue
   for attr in ['alt','title','aria-label','placeholder']:
    if tag.get(attr):tag[attr]=tr(tag[attr])
+ # Keep academic year ranges in chronological order within Arabic labels.
+ if lang=='ar':
+  for node in list(s.select('.academic-meta')):
+   for original in list(node.find_all(string=True)):
+    parts=re.split(r'(\d{4}–\d{2,4})',str(original))
+    if len(parts)==1:continue
+    for part in parts:
+     if re.fullmatch(r'\d{4}–\d{2,4}',part):
+      isolated=s.new_tag('bdi',dir='ltr');isolated.string=part;original.insert_before(isolated)
+     elif part:original.insert_before(part)
+    original.extract()
  s.title.string=tr(TITLES[page])+' | FIT-AWE Lab'
  description=s.select_one('meta[name="description"]')
  if description:description['content']=tr(TITLES[page])+' · FIT-AWE Lab · HKUST(GZ)'

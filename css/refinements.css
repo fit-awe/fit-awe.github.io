@@ -70,6 +70,19 @@ button, input { border-radius: 4px; }
 .home-section { padding-block: 36px; border-top: 1px solid var(--line); }
 .section-heading { display: flex; align-items: baseline; justify-content: space-between; flex-wrap: wrap; gap: 8px 18px; margin-bottom: 25px; }
 .section-heading h2 { margin: 0; font-size: 26px; }
+.academic-shortcuts { display: flex; flex-wrap: wrap; gap: 8px 24px; margin: 12px 0 0; font-size: 15px; }
+.academic-overview { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 48px; }
+.academic-overview > section { min-width: 0; }
+.academic-group + .academic-group { margin-top: 28px; }
+.academic-group h3 { font-size: 18px; line-height: 1.45; margin-bottom: 14px; }
+.academic-list { list-style: none; padding: 0; margin: 0; }
+.academic-list li { margin-bottom: 15px; line-height: 1.45; }
+.academic-list li:last-child { margin-bottom: 0; }
+.academic-name { font-size: 16px; font-weight: 600; overflow-wrap: anywhere; }
+.academic-meta, .academic-note { margin: 3px 0 0; font-size: 14px; color: var(--muted); }
+.academic-meta a { color: var(--muted); }
+.course-code { display: block; margin-bottom: 3px; font-size: 12px; color: var(--muted); }
+[dir="rtl"] .course-code { text-align: right; }
 .view-all { font-size: 14px; white-space: nowrap; }
 .hero-updates { padding-top: 12px; border-top: 1px solid var(--line); }
 .hero-updates .section-heading { margin-bottom: 12px; }
@@ -190,6 +203,7 @@ html[dir='rtl'] .navbar-brand { direction: ltr; }
  .about-intro { font-size: 18px; }
  .lab-carousel { width: min(100%, 340px); }
  .home-section { padding-block: 28px; }
+ .academic-overview { grid-template-columns: 1fr; gap: 32px; }
  .section-heading { gap: 8px 12px; margin-bottom: 22px; }
  .section-heading h2 { font-size: 24px; }
  .view-all { font-size: 14px; }

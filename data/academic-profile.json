@@ -1,0 +1,152 @@
+{
+  "person": "Hai-Ning Liang",
+  "checked_at": "2026-10-05",
+  "service": [
+    {
+      "id": "ismar-2026",
+      "group": "conference",
+      "name": "IEEE ISMAR 2026",
+      "role": "Associate Paper Chair",
+      "source": "https://www.ieeeismar.net/2026/committee/organizing/"
+    },
+    {
+      "id": "vinci-2025",
+      "group": "conference",
+      "name": "VINCI 2025",
+      "role": "Program Co-chair",
+      "source": "https://vinci2025.games.cg.jku.at/committee/"
+    },
+    {
+      "id": "icdm-2025",
+      "group": "conference",
+      "name": "IEEE ICDM 2025",
+      "role": "Paper Awards Committee Chair",
+      "source": "https://www3.cs.stonybrook.edu/~icdm2025/organizingcommittee.html"
+    },
+    {
+      "id": "gi-2025",
+      "group": "conference",
+      "name": "Graphics Interface 2025",
+      "role": "Courses and Workshops Co-chair",
+      "source": "https://conferences.graphicsinterface.org/2025/committee/"
+    },
+    {
+      "id": "vr-2023",
+      "group": "conference",
+      "name": "IEEE VR 2023",
+      "role": "Doctoral Consortium Co-chair",
+      "source": "https://ieeevr.org/2023/committees/conference-committee/"
+    },
+    {
+      "id": "visual-computer",
+      "group": "editorial",
+      "name": "The Visual Computer",
+      "role": "Editorial Board Member",
+      "source": "https://link.springer.com/journal/371/editorial-board"
+    },
+    {
+      "id": "frontiers-vr",
+      "group": "editorial",
+      "name": "Frontiers in Virtual Reality",
+      "role": "Associate Editor · Technologies for VR",
+      "source": "https://www.frontiersin.org/journals/virtual-reality/sections/technologies-for-vr/editors"
+    },
+    {
+      "id": "serious-games",
+      "group": "editorial",
+      "name": "International Journal of Serious Games",
+      "role": "Section Editor",
+      "source": "https://journal.seriousgamessociety.org/index.php/IJSG/about/editorialTeam"
+    },
+    {
+      "id": "xjtlu-department-head",
+      "group": "university",
+      "name": "Department of Computing, XJTLU",
+      "role": "Head of Department · 2019–2023",
+      "source": "https://hai-ning-liang.github.io/",
+      "additional_sources": [
+        "https://mfa-ca.hkust-gz.edu.cn/hai-ning-liang/"
+      ]
+    },
+    {
+      "id": "xjtlu-deputy-director",
+      "group": "university",
+      "name": "Suzhou Municipal Key Lab for Intelligent Virtual Engineering and XJTLU Virtual Engineering Centre",
+      "role": "Former Deputy Director",
+      "source": "https://mfa-ca.hkust-gz.edu.cn/hai-ning-liang/"
+    }
+  ],
+  "teaching": [
+    {
+      "id": "cmaa-5031",
+      "institution": "hkust-gz",
+      "code": "CMAA 5031",
+      "name": "Introduction to Game Development",
+      "terms": [
+        {
+          "label": "2026–27 Fall",
+          "source": "https://w5.hkust-gz.edu.cn/wcq/cgi-bin/2610/instructor/LIANG%2C%20Haining"
+        }
+      ]
+    },
+    {
+      "id": "cmaa-5032",
+      "institution": "hkust-gz",
+      "code": "CMAA 5032",
+      "name": "Advanced Game Development",
+      "terms": [
+        {
+          "label": "2025–26 Spring",
+          "source": "https://w5.hkust-gz.edu.cn/wcq/cgi-bin/2530/instructor/LIANG%2C%20Haining"
+        }
+      ]
+    },
+    {
+      "id": "cmaa-6018a",
+      "institution": "hkust-gz",
+      "code": "CMAA 6018A",
+      "name": "Independent Study",
+      "note": "Supervised study in XR gaming and XR + AI.",
+      "terms": [
+        {
+          "label": "2026–27 Fall",
+          "source": "https://w5.hkust-gz.edu.cn/wcq/cgi-bin/2610/instructor/LIANG%2C%20Haining"
+        },
+        {
+          "label": "2025–26 Spring",
+          "source": "https://w5.hkust-gz.edu.cn/wcq/cgi-bin/2530/instructor/LIANG%2C%20Haining"
+        }
+      ]
+    },
+    {
+      "id": "infh-6780",
+      "institution": "hkust-gz",
+      "code": "INFH 6780",
+      "name": "Career Development for Information Hub Students",
+      "note": "Co-taught.",
+      "terms": [
+        {
+          "label": "2026–27 Fall",
+          "source": "https://w5.hkust-gz.edu.cn/wcq/cgi-bin/2610/instructor/LIANG%2C%20Haining"
+        }
+      ]
+    },
+    {
+      "id": "cse-003",
+      "institution": "xjtlu",
+      "code": "CSE003",
+      "name": "Computer Programming",
+      "note": "Module leader; first-year programming through LEGO robot projects.",
+      "terms": [
+        {
+          "label": "2015–2017",
+          "source": "https://www.xjtlu.edu.cn/en/news/2016/09/university-academics-recognised-for-teaching-excellence-by-local-government"
+        }
+      ],
+      "additional_sources": [
+        "https://www.xjtlu.edu.cn/en/news/2015/12/five-hundred-students-take-part-in-lego-mindstorms-test",
+        "https://www.xjtlu.edu.cn/en/news/2017/12/learning-and-applying-programming-skills-in-robot-contest"
+      ]
+    }
+  ]
+}
