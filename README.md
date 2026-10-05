@@ -46,7 +46,7 @@ python3 scripts/check_content.py
 
 `build_site.py` 会从共享记录生成首页与完整页面，并重算最新 6 篇论文。原 `build_publications.py` 入口也执行同一整站生成流程。
 
-媒体报道和演讲使用简短新闻摘要展示，核查来源保存在 `data/news.json` 的 `source` 字段中，不作为页面链接显示。活动日期与来源发布日期分别记录；TEDx 记录使用视频发布日期。
+媒体报道和演讲使用简短新闻摘要展示。`data/news.json` 中的 `source` 会显示为相关链接，`source_label` 可指定“阅读报道”或“观看视频”等文字；省略时显示“相关链接”。链接文字通过 `data/locales/*.json` 同步翻译；外部来源在新标签页打开。活动日期与来源发布日期分别记录；TEDx 记录使用视频发布日期。
 
 ## 页面与交互
 

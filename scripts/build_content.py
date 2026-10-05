@@ -27,6 +27,9 @@ def news_list(records, page='index.html'):
     for entry in records:
         href = asset(page, entry['link']) if entry.get('link') else ''
         link = f' <a href="{href}">{esc(entry["link_label"])}</a>' if href else ''
+        if entry.get('source'):
+            label = entry.get('source_label', 'Related link ↗')
+            link += f' <a class="news-source" href="{esc(entry["source"])}" target="_blank" rel="noopener noreferrer">{esc(label)}</a>'
         rows.append(f'<li id="news-{entry["id"]}" data-news-id="{entry["id"]}">{time_tag(entry["date"])}<p>{esc(entry["text"])}{link}</p></li>')
     return '<ul class="news-list">' + ''.join(rows) + '</ul>'
 
