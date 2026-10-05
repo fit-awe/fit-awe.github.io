@@ -1,6 +1,39 @@
 [
-  {"id":"welcome-jialin-2025","date":"2025-03","text":"Welcome Jialin Wang, joining the lab as a Postdoc!"},
-  {"id":"welcome-mphil-2024","date":"2024-12","text":"Welcome our new MPhil students — Shihua Deng, Huayuan Chen, and Yi Gao!"},
-  {"id":"welcome-rongkai-2024","date":"2024-11","text":"Welcome Rongkai Shi, joining the lab as a Postdoc!"},
-  {"id":"lab-established-2024","date":"2024-09","text":"The FIT-AWE Lab is established at the Computational Media and Arts Thrust, HKUST(GZ). We are recruiting PhD/MPhil students, postdocs, and research assistants.","link":"vacancies/index.html","link_label":"View openings"}
+  {
+    "id": "welcome-jialin-2025",
+    "date": "2025-03",
+    "text": "Welcome Jialin Wang, joining the lab as a Postdoc!"
+  },
+  {
+    "id": "welcome-mphil-2024",
+    "date": "2024-12",
+    "text": "Welcome our new MPhil students — Shihua Deng, Huayuan Chen, and Yi Gao!"
+  },
+  {
+    "id": "welcome-rongkai-2024",
+    "date": "2024-11",
+    "text": "Welcome Rongkai Shi, joining the lab as a Postdoc!"
+  },
+  {
+    "id": "metaverse-art-training-2024",
+    "date": "2024-09-13",
+    "date_basis": "event",
+    "text": "Hai-Ning Liang, joined by postdoctoral researcher Rongkai Shi, lectured on virtual and mixed reality for art creation and immersive experiences in a National Arts Fund-supported training programme in Guangzhou.",
+    "source": "https://mp.weixin.qq.com/s/Uan_60z19Tzx4jBEze9f_Q",
+    "source_published_date": "2024-10-20"
+  },
+  {
+    "id": "lab-established-2024",
+    "date": "2024-09",
+    "text": "The FIT-AWE Lab is established at the Computational Media and Arts Thrust, HKUST(GZ). We are recruiting PhD/MPhil students, postdocs, and research assistants.",
+    "link": "vacancies/index.html",
+    "link_label": "View openings"
+  },
+  {
+    "id": "tedx-creative-learning-2017",
+    "date": "2017-04-11",
+    "date_basis": "video-publication",
+    "text": "Hai-Ning Liang shared how exploration, computational thinking, and programming can inspire creative learning in a TEDxYouth@Suzhou talk.",
+    "source": "https://www.youtube.com/watch?v=EzeHCmNj-UA"
+  }
 ]

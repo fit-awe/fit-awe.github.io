@@ -20,7 +20,7 @@ TERMS={'zh':{'now':'至今','summer':'暑期','Remote co-supervision':'远程联
 
 def translate(text,lang,dictionary,roster):
  text=text.strip()
- if lang=='en' or not text or text in INVARIANTS or '@' in text or author_key(text) in roster or not re.search('[A-Za-z]',text):return text
+ if lang=='en' or not text or text in INVARIANTS or re.fullmatch(r'[^@\s]+@[^@\s]+\.[^@\s]+',text) or author_key(text) in roster or not re.search('[A-Za-z]',text):return text
  if text in dictionary:return dictionary[text]
  if re.fullmatch(r'[\d/ -]+now',text):return text.replace('now',TERMS[lang]['now'])
  m=re.fullmatch(r'(\d+) publications →',text)
