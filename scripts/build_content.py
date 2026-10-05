@@ -74,9 +74,12 @@ def build():
     cards = []
     for award in awards:
         p = papers[award['paper_id']]
-        note = award_status(award)
-        cards.append(f'<article class="award-card{(" no-figure" if not p.get("image") else "")}" id="award-{award["id"]}" data-award-id="{award["id"]}" data-paper-id="{p["id"]}">{figure(p,"awards/index.html")}<div class="paper-content"><p class="award-meta"><span data-bibliographic>{esc(award["venue"])}</span>{time_tag(award["date"])}</p><h2 class="award-label">{esc(award["name"])}</h2>{note}{paper_title(p)}<p class="paper-authors" dir="auto" data-bibliographic>{authors_html(p)}</p><div class="paper-actions"><a href="{esc(p["url"])}" target="_blank" rel="noopener noreferrer">View publication ↗</a><a href="{esc(award["source"])}" target="_blank" rel="noopener noreferrer">Award source ↗</a></div></div></article>')
-    body = '<main id="main-content" class="page-shell awards-page"><header class="page-heading"><h1>Awards</h1><p>Paper awards, nominations and competition finalists.</p></header><div class="award-list">' + ''.join(cards) + '</div></main>'
+        needs_status = award['status'] == 'finalist' or (award['status'] == 'nomination' and 'nomination' not in award['name'].casefold())
+        note = award_status(award) if needs_status else ''
+        date = f'<span class="visually-hidden">{time_tag(award["date"])}</span>'
+        source = f'<a href="{esc(award["source"])}" target="_blank" rel="noopener noreferrer" title="Award source ↗">{esc(award["name"])} <span class="award-source-mark" aria-hidden="true">↗</span></a>'
+        cards.append(f'<article class="award-card" id="award-{award["id"]}" data-award-id="{award["id"]}" data-paper-id="{p["id"]}" data-status="{award["status"]}"><div class="award-venue"><bdi data-bibliographic>{esc(award["venue"])}</bdi>{date}</div><div class="paper-content"><h2 class="award-label">{source}{note}</h2>{paper_title(p)}</div></article>')
+    body = '<main id="main-content" class="page-shell awards-page"><header class="page-heading"><h1>Paper Awards</h1></header><div class="award-list">' + ''.join(cards) + '</div></main>'
     (ROOT / 'awards').mkdir(exist_ok=True)
     (ROOT / 'awards/index.html').write_text(english_page('awards/index.html', 'Awards', body))
     body = '<main id="main-content" class="page-shell collaboration-page"><header class="page-heading"><h1>Industry–Academia Collaboration</h1><p>Joint research and technology transfer in interactive technologies.</p></header>' + industry_cards() + '<div class="collaboration-contact"><h2>Get in touch</h2><p><a href="mailto:hainingliang@hkust-gz.edu.cn">hainingliang@hkust-gz.edu.cn</a></p></div></main>'

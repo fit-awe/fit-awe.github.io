@@ -12,7 +12,7 @@ LANGUAGES={'en':'English','zh':'中文','fr':'Français','ar':'العربية','
 PAGES=['index.html','allnews.html','members/index.html','alumni/index.html','teams/index.html','projects/index.html','entrepreneurship/index.html','vacancies/index.html','aboutwebsite.html','404.html','vacancies.html','instrumente.html','pictures/index.html','team/index.html']
 TITLES=dict(zip(PAGES,['About','News','Members','Alumni','Members','Publications','Entrepreneurship','Open Positions','About this site','Sorry, but the page you were trying to view does not exist.','Redirecting...','Publications','Publications','Members']))
 PAGES.append('awards/index.html')
-TITLES['awards/index.html']='Awards'
+TITLES['awards/index.html']='Paper Awards'
 TITLES['vacancies/index.html']='Join Us'
 TITLES['entrepreneurship/index.html']='Industry–Academia Collaboration'
 INVARIANTS={'FIT-AWE Lab','FIT-AWE','FIT','AWE','HKUST(GZ) ↗','FIT-AWE / HKUST(GZ)','FIT-AWE Lab · HKUST(GZ)','HCI','XR','E1 · 507','Allan Lab','· Bootstrap · Bootswatch'}

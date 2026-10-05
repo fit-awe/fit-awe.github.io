@@ -4,7 +4,7 @@ import json
 from bs4 import BeautifulSoup
 from publication_common import ROOT, author_key, lab_author_keys
 from publication_dates import latest_publications, format_date
-from site_shell import LANGUAGES
+from site_shell import LANGUAGES, text as localized
 
 papers=json.loads((ROOT/'data/publications.json').read_text())['publications']
 by_id={p['id']:p for p in papers}
@@ -28,9 +28,10 @@ badge_text={
  'ja':{'nomination':'ノミネート','finalist':'ファイナリスト'},
 }
 
-def check_award_status(card,award,lang):
+def check_award_status(card,award,lang,compact=False):
  badge=card.select_one('.award-nomination')
- if award['status']=='award':assert badge is None
+ labelled_in_name=compact and award['status']=='nomination' and 'nomination' in award['name'].casefold()
+ if award['status']=='award' or labelled_in_name:assert badge is None
  else:assert badge and badge.text==badge_text[lang][award['status']],(award['id'],lang,'incorrect award status')
 
 for lang in LANGUAGES:
@@ -49,13 +50,21 @@ for lang in LANGUAGES:
  assert [c['data-award-id'] for c in cards]==[a['id'] for a in awards]
  for card,award in zip(cards,awards):
   assert card['data-paper-id']==award['paper_id']
+  assert card['data-status']==award['status']
   assert award['source'] in [a['href'] for a in card.select('a')]
+  source=card.select_one('.award-label > a')
+  assert source['href']==award['source']
+  assert ''.join(source.find_all(string=True,recursive=False)).strip()==localized(award['name'],lang)
+  assert card.select_one('.award-venue bdi').text==award['venue']
+  assert not card.select('.paper-figure,.paper-authors'), 'Awards should prioritize venue, prize and paper'
   assert card.select_one('time').text==format_date(award['date'],lang)
-  check_award_status(card,award,lang)
+  check_award_status(card,award,lang,compact=True)
  for card in latest+cards:
   p=by_id[card['data-paper-id']]
   assert card.select_one('.paper-title a').text==p['title']
   assert card.select_one('.paper-title a')['href']==p['url']
+ for card in latest:
+  p=by_id[card['data-paper-id']]
   authors=card.select_one('.paper-authors')
   assert authors.text==', '.join(p['authors'])
   assert [a.text for a in authors.select('strong')]==[a for a in p['authors'] if author_key(a) in roster]
