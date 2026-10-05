@@ -21,34 +21,58 @@ LABELS = {
  'ar': dict(topic='مجال البحث',all_topics='جميع المجالات',topic_count='{count} منشورًا',title='جميع المنشورات',description='أبحاث مختبر FIT-AWE عبر السنوات.',search='البحث في المنشورات',placeholder='العنوان أو المؤلف أو المجلة أو كلمة مفتاحية',year='السنة',all='جميع السنوات',kind='النوع',all_types='جميع الأنواع',journal='مقالات المجلات',conference='أوراق المؤتمرات',preprint='المطبوعات الأولية',other='أبحاث أخرى',count='عرض {shown} من {total} منشورًا',reset='مسح الفلاتر',empty='لا توجد نتائج مطابقة. جرّب كلمة أخرى أو امسح الفلاتر.',library='عرض المنشور',pdf='PDF',close='إغلاق',copy='نسخ BibTeX',copied='تم النسخ.',failed='النسخ غير متاح. انسخ النص المحدد يدويًا.',updated='آخر تحديث',figure='شكل من'),
 }
 from publication_common import esc, author_key, lab_author_keys, bibtex
-from publication_dates import format_date
-from site_shell import header, footer, VERSION
+from publication_dates import chronological_publications, format_date
+from site_shell import header, footer, text, VERSION
+
+SHORT_VENUES = {
+ 'IEEE Trans. Vis. Comput. Graph.': 'IEEE TVCG',
+ 'IEEE Transactions on Visualization and Computer Graphics': 'IEEE TVCG',
+ 'CHI Extended Abstracts': 'CHI EA',
+ 'Proc. ACM Hum. Comput. Interact.': 'PACM HCI',
+ 'Proc. ACM Comput. Graph. Interact. Tech.': 'PACM CGIT',
+ 'Int. J. Hum. Comput. Interact.': 'IJHCI',
+ 'International Journal of Human-Computer Interaction': 'IJHCI',
+ 'International Journal of Human–Computer Interaction': 'IJHCI',
+ 'Int. J. Hum. Comput. Stud.': 'IJHCS',
+ 'EdMedia: World Conference on Educational Media and Technology': 'EdMedia',
+ 'The Journal of Interactive Learning Research': 'JILR',
+ 'VISIGRAPP (1): GRAPP, HUCAPP, IVAPP': 'VISIGRAPP',
+ 'CoRR': 'arXiv',
+ 'arXiv (Cornell University)': 'arXiv',
+}
+COMPACT_LABELS = {
+ 'en': dict(all_topics='All', more='More filters'),
+ 'zh': dict(all_topics='全部', more='更多筛选'),
+ 'fr': dict(all_topics='Tous', more='Plus de filtres'),
+ 'ar': dict(all_topics='الكل', more='فلاتر إضافية'),
+ 'ja': dict(all_topics='すべて', more='詳細フィルター'),
+}
 
 def build():
  from build_locales import build as build_pages
  build_pages()
- payload=json.loads(DATA.read_text());papers=payload['publications']
+ payload=json.loads(DATA.read_text());papers=chronological_publications(payload['publications'])
  lab_authors=lab_author_keys()
  years=sorted({p['year'] for p in papers},reverse=True)
  topics=json.loads((ROOT/'data/research-topics.json').read_text())
  for lang,c in LABELS.items():
+  compact=COMPACT_LABELS[lang]
   dest=ROOT/('' if lang=='en' else lang)/'publications/index.html'
   dest.parent.mkdir(parents=True,exist_ok=True)
   navbar=header('publications/index.html',lang);site_footer=footer('publications/index.html',lang)
   def asset(path):return quote(os.path.relpath(ROOT/path,dest.parent),safe='/')
-  def filter_group(key,legend,entries):
+  def filter_group(key,legend,entries,compact=False):
    buttons=''.join(f'<button type="button" data-filter="{key}" data-value="{esc(value)}" aria-pressed="{str(not value).lower()}">{esc(label)}</button>' for value,label in entries)
-   return f'<fieldset class="filter-group" id="publication-{key}"><legend>{esc(legend)}</legend><div class="filter-options">{buttons}</div></fieldset>'
-  filters=filter_group('topic',c['topic'],[('',c['all_topics'])]+[(t['id'],t['labels'][lang]) for t in topics])
-  filters+=filter_group('year',c['year'],[('',c['all'])]+[(str(y),str(y)) for y in years])
+   legend_attrs=' class="visually-hidden"' if compact else ''
+   return f'<fieldset class="filter-group" id="publication-{key}"><legend{legend_attrs}>{esc(legend)}</legend><div class="filter-options">{buttons}</div></fieldset>'
+  primary=filter_group('topic',c['topic'],[('',compact['all_topics'])]+[(t['id'],t.get('short_labels',t['labels'])[lang]) for t in topics],compact=True)
+  filters=filter_group('year',c['year'],[('',c['all'])]+[(str(y),str(y)) for y in years])
   filters+=filter_group('type',c['kind'],[('',c['all_types'])]+[(k,c[k]) for k in ['journal','conference','preprint','other']])
   profile_label={'en':'Publication profiles','zh':'学术资料页','fr':'Profils de recherche','ar':'الملفات البحثية','ja':'学術プロフィール'}[lang]
-  research_label={'en':'RESEARCH','zh':'研究成果','fr':'RECHERCHE','ar':'الأبحاث','ja':'研究成果'}[lang]
   alternates=''.join('<link rel="alternate" hreflang="'+code+'" href="'+asset(('' if code=='en' else code+'/')+'publications/index.html')+'">' for code in LABELS)
-  sections=[]
-  for year in years:
-   cards=[]
-   for p in [p for p in papers if p['year']==year]:
+  cards=[]
+  for p in papers:
+    year=p['year']
     url=esc(p['url']);title=esc(p['title']);figure=''
     if p.get('image'):
      figure=f'<a class="paper-figure" href="{url}" target="_blank" rel="noopener noreferrer" aria-label="{title}"><img src="{asset(p["image"]["path"])}" alt="{esc(c["figure"])} {title}" loading="lazy" decoding="async" width="448" height="296"></a>'
@@ -59,25 +83,29 @@ def build():
      authors.append(a)
     pdf=f'<a href="{asset(p["pdf"])}" target="_blank" rel="noopener noreferrer">PDF ↓</a>' if p.get('pdf') else ''
     search=esc(' '.join([p['title'],' '.join(p['authors']),p['venue'],str(year)]))
-    kindlabel=c.get(p['kind'],c['other'])
+    kindkey={'journal':'Journal article','conference':'Conference paper','preprint':'Preprint'}.get(p['kind'])
+    kindlabel=text(kindkey,lang) if kindkey else c['other']
+    short_venue=SHORT_VENUES.get(p['venue'],p['venue']) or kindlabel
     publication_date=''
     if p.get('published_date'):
-     publication_date=f'<span class="catalog-paper-date"><time datetime="{p["published_date"]}">{esc(format_date(p["published_date"],lang))}</time></span>'
+     publication_date=f'<time class="visually-hidden" datetime="{p["published_date"]}">{esc(format_date(p["published_date"],lang))}</time>'
+    venue_detail=f'<bdi>{esc(p["venue"])}</bdi> · ' if p['venue'] and short_venue!=p['venue'] else ''
     cards.append(f'''<article class="paper-card{' no-figure' if not figure else ''}" id="paper-{p['id']}" data-year="{year}" data-kind="{p['kind']}" data-topics="{esc(' '.join(p.get('topics',[])))}" data-search="{search}">
-{figure}<div class="paper-content"><p class="paper-meta">{esc(kindlabel)} · <bdi>{esc(p['venue'])}</bdi>{publication_date}</p>
-<h3 class="paper-title" dir="auto"><a href="{url}" target="_blank" rel="noopener noreferrer">{title}</a></h3>
+<div class="paper-venue"><bdi title="{esc(p['venue'])}">{esc(short_venue)}</bdi> <span class="venue-year">{year}</span>{publication_date}</div>
+{figure}<div class="paper-content">
+<h2 class="paper-title" dir="auto"><a href="{url}" target="_blank" rel="noopener noreferrer">{title}</a></h2>
 <p class="paper-authors" dir="auto">{', '.join(authors)}</p>
+<p class="paper-meta">{venue_detail}{esc(kindlabel)}</p>
 <div class="paper-actions"><a href="{url}" target="_blank" rel="noopener noreferrer">{esc(c['library'])} ↗</a>{pdf}<button type="button" data-citation="{esc(bibtex(p))}">BibTeX</button></div></div></article>''')
-   sections.append(f'<section class="publication-year-group" aria-labelledby="year-{year}"><h2 id="year-{year}" class="publication-year-title">{year}</h2>'+''.join(cards)+'</section>')
   document=f'''<!DOCTYPE html>
 <html lang="{lang}"{' dir="rtl"' if lang=='ar' else ''}>
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{c['title']} | FIT-AWE Lab</title><meta name="description" content="{esc(c['description'])}"><link rel="stylesheet" href="{asset('css/refinements.css')}?v={VERSION}"><link rel="stylesheet" href="{asset('css/publications.css')}">{alternates}</head>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{c['title']} | FIT-AWE Lab</title><meta name="description" content="{esc(c['description'])}"><link rel="stylesheet" href="{asset('css/refinements.css')}?v={VERSION}"><link rel="stylesheet" href="{asset('css/publications.css')}?v={VERSION}">{alternates}</head>
 <body>{navbar}
 <main id="main-content" class="publication-catalog page-shell" data-publication-catalog data-default-title="{esc(c['title'])}" data-count-template="{esc(c['count'])}">
-<header class="catalog-header"><div><p class="catalog-eyebrow">FIT-AWE / {research_label}</p><h1 id="catalog-title">{c['title']}</h1><p class="catalog-description">{c['description']}</p></div><nav class="catalog-sources" aria-label="{profile_label}"><a href="https://scholar.google.com/citations?user=UJPH5ioAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar ↗</a><a href="https://dblp.org/pid/55/1198.html" target="_blank" rel="noopener noreferrer">DBLP ↗</a></nav></header>
-<div class="catalog-controls"><div class="catalog-search"><label for="publication-search">{c['search']}</label><input id="publication-search" type="search" placeholder="{esc(c['placeholder'])}" autocomplete="off"></div>{filters}</div>
+<header class="catalog-header"><h1 id="catalog-title">{c['title']}</h1><nav class="catalog-sources" aria-label="{profile_label}"><a href="https://scholar.google.com/citations?user=UJPH5ioAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar ↗</a><a href="https://dblp.org/pid/55/1198.html" target="_blank" rel="noopener noreferrer">DBLP ↗</a></nav></header>
+<div class="catalog-controls">{primary}<div class="catalog-tools"><div class="catalog-search"><label class="visually-hidden" for="publication-search">{c['search']}</label><input id="publication-search" type="search" placeholder="{esc(c['placeholder'])}" autocomplete="off"></div><details class="catalog-extra-filters"><summary>{compact['more']}</summary><div class="extra-filter-options">{filters}</div></details></div></div>
 <div class="catalog-status"><p id="publication-count" role="status" aria-live="polite">{c['count'].replace('{shown}',str(len(papers))).replace('{total}',str(len(papers)))}</p><button id="publication-reset" type="button" hidden>{c['reset']}</button></div>
-<p id="publication-empty" hidden>{c['empty']}</p>{''.join(sections)}
+<p id="publication-empty" hidden>{c['empty']}</p><div class="publication-list">{''.join(cards)}</div>
 <p class="catalog-footnote">{c['updated']} {format_date(payload['updated'],lang)}</p></main>
 {site_footer}
 <dialog id="citation-dialog" aria-labelledby="citation-heading"><h2 id="citation-heading">BibTeX</h2><pre tabindex="0"></pre><div class="citation-actions"><button type="button" data-copy data-success="{esc(c['copied'])}" data-failure="{esc(c['failed'])}">{c['copy']}</button><button type="button" data-close autofocus>{c['close']}</button></div><p role="status"></p></dialog>

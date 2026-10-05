@@ -1,31 +1,42 @@
-.publication-catalog { padding-top: 44px; }
-.catalog-header { display: flex; justify-content: space-between; align-items: flex-end; gap: 20px; flex-wrap: wrap; padding-bottom: 30px; }
-.catalog-header h1 { margin-bottom: 12px; }
-.catalog-eyebrow { color: var(--green); font-size: 12px; letter-spacing: 1.6px; margin-bottom: 12px; }
-.catalog-description { color: var(--muted); margin: 0; font-size: 17px; }
+.publication-catalog { padding-top: 32px; }
+.visually-hidden { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; border: 0; }
+.catalog-header { display: flex; justify-content: space-between; align-items: baseline; gap: 12px 20px; flex-wrap: wrap; padding-bottom: 22px; }
+.catalog-header h1 { margin: 0; }
 .catalog-sources { display: flex; gap: 20px; font-size: 14px; }
-.catalog-controls { border-block: 1px solid var(--line); padding-block: 24px 8px; }
-.catalog-search { max-width: 620px; margin-bottom: 22px; }
-.catalog-search label { display: block; font-weight: 600; font-size: 15px; margin-bottom: 8px; }
-.catalog-search input { width: 100%; min-height: 46px; padding: 10px 14px; border: 1px solid #b9c9bf; color: var(--ink); background: white; font-size: 16px; }
-.filter-group { border: 0; padding: 0; margin: 0 0 20px; min-width: 0; }
+.catalog-controls { border-bottom: 1px solid var(--line); padding-bottom: 16px; }
+.catalog-tools { display: flex; flex-wrap: wrap; align-items: start; gap: 12px 20px; }
+.catalog-search { flex: 1; min-width: 180px; max-width: 480px; }
+.catalog-search input { width: 100%; min-height: 40px; padding: 7px 12px; border: 1px solid #b9c9bf; color: var(--ink); background: white; font-size: 16px; }
+.catalog-extra-filters { flex: 1; min-width: 150px; font-size: 14px; }
+.catalog-extra-filters summary { padding-block: 9px; color: var(--green); cursor: pointer; width: fit-content; }
+.catalog-extra-filters[open] { flex-basis: 100%; }
+.extra-filter-options { padding-top: 12px; }
+.filter-group { border: 0; padding: 0; margin: 0 0 14px; min-width: 0; }
 .filter-group legend { color: var(--muted); font-size: 14px; font-weight: 600; margin-bottom: 9px; padding: 0; }
 .filter-options { display: flex; flex-wrap: wrap; gap: 8px; }
-.filter-options button { border: 1px solid #d7e1da; padding: 7px 12px; background: #fff; font-size: 14px; line-height: 1.35; min-height: 36px; }
+.filter-options button { border: 1px solid #d7e1da; padding: 7px 12px; background: #f6f8f6; font-size: 14px; line-height: 1.35; min-height: 36px; }
 .filter-options button[aria-pressed='true'] { background: var(--green); border-color: var(--green); color: #fff; font-weight: 600; }
 .filter-options button:hover { border-color: var(--green); }
-.catalog-status { min-height: 70px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px 16px; color: var(--muted); font-size: 15px; }
+.catalog-status { min-height: 48px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px 16px; color: var(--muted); font-size: 14px; }
 .catalog-status p { margin: 0; }
 #publication-reset { border: 0; background: none; padding: 8px 0; font-size: 14px; text-decoration: underline; }
-.publication-year-title { font-size: 30px; margin: 28px 0 0; padding-bottom: 14px; border-bottom: 2px solid #567260; }
-.paper-card, .award-card { display: grid; grid-template-columns: 238px minmax(0, 1fr); gap: 28px; padding-block: 28px; border-bottom: 1px solid var(--line); }
-.paper-card.no-figure, .award-card.no-figure { grid-template-columns: 1fr; }
+.paper-card, .award-card { display: grid; gap: 24px; padding-block: 24px; border-bottom: 1px solid var(--line); }
+.paper-card { grid-template-columns: 112px 280px minmax(0, 1fr); }
+.paper-card.no-figure { grid-template-columns: 112px minmax(0, 1fr); }
+.award-card { grid-template-columns: 238px minmax(0, 1fr); }
+.award-card.no-figure { grid-template-columns: 1fr; }
+.paper-venue { min-width: 0; font-size: 16px; font-weight: 600; line-height: 1.5; overflow-wrap: anywhere; }
+.venue-year { white-space: nowrap; }
+.paper-card .paper-figure { height: 185px; padding: 0; border: 0; border-radius: 0; }
+.paper-card .paper-title { font-size: 20px; line-height: 1.35; margin-bottom: 6px; }
+.paper-card .paper-authors { margin-bottom: 6px; line-height: 1.5; }
+.paper-card .paper-meta { margin-bottom: 6px; }
+.paper-card .paper-actions { gap: 8px 18px; }
 .paper-figure { display: flex; align-items: center; justify-content: center; height: 162px; align-self: start; padding: 4px; border: 1px solid var(--line); background: white; border-radius: 3px; overflow: hidden; }
 .paper-figure img { display: block; width: 100%; height: 100%; object-fit: contain; }
 .paper-figure:hover { border-color: var(--green); }
 .paper-content { min-width: 0; overflow-wrap: anywhere; }
 .paper-meta { color: var(--muted); margin: 0 0 10px; font-size: 13px; line-height: 1.5; }
-.catalog-paper-date { margin-inline-start: 12px; }
 .paper-title { font-size: 21px; line-height: 1.4; margin: 0 0 10px; font-weight: 600; letter-spacing: -.2px; }
 .paper-title a { color: var(--ink); }
 .paper-title a:hover { color: var(--green); }
@@ -46,17 +57,31 @@
 .award-card:first-child { border-top: 1px solid var(--line); }
 .award-card .award-label { font-size: 24px; margin: 8px 0 12px; }
 .award-card .award-meta { justify-content: space-between; }
+@media (min-width: 720px) and (max-width: 999px) {
+ .paper-card { grid-template-columns: 96px 176px minmax(0, 1fr); gap: 18px; }
+ .paper-card.no-figure { grid-template-columns: 96px minmax(0, 1fr); }
+ .paper-card .paper-figure { height: 124px; }
+ .paper-venue { font-size: 14px; }
+ .paper-card .paper-title { font-size: 18px; }
+}
 @media (max-width: 719px) {
- .publication-catalog { padding-top: 30px; }
- .catalog-description { font-size: 16px; }
- .catalog-header { padding-bottom: 24px; }
+ .publication-catalog { padding-top: 26px; }
+ .catalog-header { padding-bottom: 18px; }
+ .catalog-sources { font-size: 13px; }
+ .catalog-tools { gap: 6px; }
+ .catalog-search { max-width: none; }
+ .catalog-extra-filters { flex-basis: 100%; }
  .filter-options { gap: 7px; }
  .filter-options button { min-height: 40px; padding: 8px 11px; }
- .paper-card, .award-card { grid-template-columns: 1fr; gap: 18px; padding-block: 24px; }
- .paper-card .paper-figure, .award-card .paper-figure { width: 100%; height: 210px; }
+ .paper-card, .paper-card.no-figure { grid-template-columns: 1fr; gap: 10px; padding-block: 20px; }
+ .paper-venue { font-size: 15px; }
+ .paper-card .paper-figure { width: 100%; height: auto; max-height: 180px; }
+ .paper-card .paper-figure img { height: auto; max-height: 180px; }
+ .paper-card .paper-title { font-size: 18px; }
+ .award-card { grid-template-columns: 1fr; gap: 18px; padding-block: 24px; }
+ .award-card .paper-figure { width: 100%; height: 210px; }
  .paper-title { font-size: 19px; }
  .paper-authors { font-size: 14px; }
  .paper-actions { font-size: 14px; }
- .publication-year-title { font-size: 28px; }
  .award-card .award-label { font-size: 23px; }
 }

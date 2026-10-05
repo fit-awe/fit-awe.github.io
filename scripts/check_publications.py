@@ -5,7 +5,7 @@ from pathlib import Path
 from urllib.parse import unquote, urlsplit
 from bs4 import BeautifulSoup
 from build_publications import author_key, lab_author_keys
-from publication_dates import valid_date, format_date
+from publication_dates import chronological_publications, valid_date, format_date
 roster=lab_author_keys()
 ROOT=Path(__file__).resolve().parents[1]
 data=json.loads((ROOT/'data/publications.json').read_text())
@@ -13,6 +13,7 @@ topics=json.loads((ROOT/'data/research-topics.json').read_text())
 topic_ids={topic['id'] for topic in topics}
 assert len(topic_ids)==6
 papers=data['publications'];ids=[p['id'] for p in papers]
+ordered=chronological_publications(papers)
 assert len(ids)==len(set(ids)), 'Duplicate publication IDs'
 dois=[p['doi'].lower() for p in papers if p.get('doi')]
 assert len(dois)==len(set(dois)), 'Duplicate DOIs'
@@ -32,10 +33,13 @@ for lang in ['', 'zh', 'fr', 'ar', 'ja']:
  path=ROOT/lang/'publications/index.html';soup=BeautifulSoup(path.read_text(),'html.parser')
  cards=soup.select('.paper-card');assert len(cards)==len(papers)
  assert len(soup.select('#citation-dialog'))==1
- for card,paper in zip(cards,papers):
+ assert not soup.select('.publication-year-title,.catalog-eyebrow,.catalog-description'), 'Catalog should start with compact controls, not repeated introductions or year headings'
+ assert soup.select_one('.catalog-extra-filters'), 'Additional filters missing'
+ for card,paper in zip(cards,ordered):
   assert card['id']=='paper-'+paper['id']
   assert set(card['data-topics'].split())==set(paper['topics'])
   assert card.select_one('.paper-title a')['href']==paper['url']
+  assert card.select_one('.paper-venue .venue-year').text==str(paper['year'])
   authors=card.select_one('.paper-authors')
   assert authors.get_text()==', '.join(paper['authors']), 'Author spelling/order changed'
   assert [a.text for a in authors.select('strong')]==[a for a in paper['authors'] if author_key(a) in roster], 'Member/alumni highlighting mismatch'
@@ -46,12 +50,12 @@ for lang in ['', 'zh', 'fr', 'ar', 'ja']:
  assert len(options)==6
  for option,topic in zip(options,topics):
   assert option['data-value']==topic['id']
-  assert option.text==topic['labels'][lang or 'en']
+  assert option.text==topic.get('short_labels',topic['labels'])[lang or 'en']
  assert [b['data-value'] for b in soup.select('button[data-filter="year"]')]==['']+[str(y) for y in sorted({p['year'] for p in papers},reverse=True)]
  assert [b['data-value'] for b in soup.select('button[data-filter="type"]')]==['','journal','conference','preprint','other']
  for key in ['topic','year','type']:
   assert len(soup.select(f'button[data-filter="{key}"][aria-pressed="true"]'))==1
- for card,paper in zip(cards,papers):
+ for card,paper in zip(cards,ordered):
   if paper.get('published_date'):
    time=card.select_one('time');assert time['datetime']==paper['published_date']
    assert time.text==format_date(paper['published_date'],lang or 'en')

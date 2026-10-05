@@ -60,6 +60,23 @@ def fetch_date(paper, session=None):
     return {}
 
 
+def publication_sort_key(paper):
+    value = paper.get('published_date')
+    if value and valid_date(value):
+        parts = tuple(int(x) for x in value.split('-'))
+        return parts + (0,) * (3 - len(parts))
+    return (paper['year'], 0, 0)
+
+
+def chronological_publications(papers):
+    """Order by catalog year, then known online dates; retain every record and tie."""
+    def catalog_key(paper):
+        value = paper.get('published_date')
+        known = value and valid_date(value) and len(value) > 4
+        return (paper['year'], publication_sort_key(paper) if known else (0, 0, 0))
+    return sorted(papers, key=catalog_key, reverse=True)
+
+
 def latest_publications(papers, count=6, today=None):
     today = today or date.today()
     eligible = []

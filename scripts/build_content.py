@@ -69,17 +69,17 @@ def build():
     for key, value in {'news': news_list(news[:3]), 'awards': award_summary(awards, papers), 'publications': latest_cards(latest_publications(payload['publications'])), 'industry': industry_cards()}.items():
         home = home.replace('{{' + key + '}}', value)
     (ROOT / 'index.html').write_text(english_page('index.html', 'About', home, ('js/carousel.js',)))
-    main = '<main id="main-content" class="page-shell news-page"><header class="page-heading"><p class="eyebrow">FIT-AWE Lab</p><h1>News</h1><p>Updates from our lab.</p></header>' + news_list(news, 'allnews.html') + '</main>'
+    main = '<main id="main-content" class="page-shell news-page"><header class="page-heading"><h1>News</h1></header>' + news_list(news, 'allnews.html') + '</main>'
     (ROOT / 'allnews.html').write_text(english_page('allnews.html', 'News', main))
     cards = []
     for award in awards:
         p = papers[award['paper_id']]
         note = award_status(award)
         cards.append(f'<article class="award-card{(" no-figure" if not p.get("image") else "")}" id="award-{award["id"]}" data-award-id="{award["id"]}" data-paper-id="{p["id"]}">{figure(p,"awards/index.html")}<div class="paper-content"><p class="award-meta"><span data-bibliographic>{esc(award["venue"])}</span>{time_tag(award["date"])}</p><h2 class="award-label">{esc(award["name"])}</h2>{note}{paper_title(p)}<p class="paper-authors" dir="auto" data-bibliographic>{authors_html(p)}</p><div class="paper-actions"><a href="{esc(p["url"])}" target="_blank" rel="noopener noreferrer">View publication ↗</a><a href="{esc(award["source"])}" target="_blank" rel="noopener noreferrer">Award source ↗</a></div></div></article>')
-    body = '<main id="main-content" class="page-shell awards-page"><header class="page-heading"><p class="eyebrow">FIT-AWE Lab</p><h1>Awards</h1><p>Paper awards, nominations, and student game competition finalists, including our members’ earlier research.</p></header><div class="award-list">' + ''.join(cards) + '</div></main>'
+    body = '<main id="main-content" class="page-shell awards-page"><header class="page-heading"><h1>Awards</h1><p>Paper awards, nominations and competition finalists.</p></header><div class="award-list">' + ''.join(cards) + '</div></main>'
     (ROOT / 'awards').mkdir(exist_ok=True)
     (ROOT / 'awards/index.html').write_text(english_page('awards/index.html', 'Awards', body))
-    body = '<main id="main-content" class="page-shell collaboration-page"><header class="page-heading"><p class="eyebrow">FIT-AWE Lab</p><h1>Industry–Academia Collaboration</h1><p>We welcome collaboration in XR, eye tracking, and interactive technologies, from joint research to technology transfer.</p></header>' + industry_cards() + '<div class="collaboration-contact"><h2>Get in touch</h2><p><a href="mailto:hainingliang@hkust-gz.edu.cn">hainingliang@hkust-gz.edu.cn</a></p></div></main>'
+    body = '<main id="main-content" class="page-shell collaboration-page"><header class="page-heading"><h1>Industry–Academia Collaboration</h1><p>Joint research and technology transfer in interactive technologies.</p></header>' + industry_cards() + '<div class="collaboration-contact"><h2>Get in touch</h2><p><a href="mailto:hainingliang@hkust-gz.edu.cn">hainingliang@hkust-gz.edu.cn</a></p></div></main>'
     (ROOT / 'entrepreneurship/index.html').write_text(english_page('entrepreneurship/index.html', 'Industry–Academia Collaboration', body))
     (ROOT / 'vacancies/index.html').write_text(english_page('vacancies/index.html', 'Join Us', (ROOT / 'templates/join.html').read_text()))
 

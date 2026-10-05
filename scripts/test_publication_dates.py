@@ -1,6 +1,6 @@
 import unittest
 from datetime import date
-from publication_dates import crossref_date, latest_publications, format_date, valid_date
+from publication_dates import chronological_publications, crossref_date, latest_publications, format_date, valid_date
 
 
 class PublicationDates(unittest.TestCase):
@@ -23,6 +23,11 @@ class PublicationDates(unittest.TestCase):
     def test_future_dates_excluded_and_preprints_included(self):
         papers=[self.paper('future','2026-11-01'),self.paper('preprint','2026-09-01',kind='preprint'),self.paper('other','2026-10-01',kind='other')]
         self.assertEqual([p['id'] for p in latest_publications(papers,today=date(2026,10,4))],['preprint'])
+
+    def test_full_catalog_retains_all_records_in_chronological_order(self):
+        papers=[self.paper('undated'),self.paper('first','2026-08-14'),self.paper('same-day','2026-08-14'),self.paper('month','2026-08'),self.paper('other','2026-09-01',kind='other'),self.paper('online-before-issue','2025-12-01'),self.paper('older','2025-12-02',year=2025)]
+        self.assertEqual([p['id'] for p in chronological_publications(papers)],['other','first','same-day','month','online-before-issue','undated','older'])
+        self.assertEqual(len(chronological_publications(papers)),len(papers))
 
     def test_dates_never_gain_false_precision_in_any_language(self):
         for lang in ('en','zh','fr','ar','ja'):

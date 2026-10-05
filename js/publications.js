@@ -11,8 +11,8 @@
   const count = root.querySelector('#publication-count');
   const empty = root.querySelector('#publication-empty');
   const reset = root.querySelector('#publication-reset');
+  const advanced = root.querySelector('.catalog-extra-filters');
   const cards = [...root.querySelectorAll('.paper-card')];
-  const groups = [...root.querySelectorAll('.publication-year-group')];
   const normalize = value => value.normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLocaleLowerCase();
   const corpus = new Map(cards.map(card => [card, normalize(card.dataset.search)]));
   const languages = [...document.querySelectorAll('.navbar .dropdown-menu a')]
@@ -24,6 +24,7 @@
       const value = params.get(key) || '';
       state[key] = values[key].has(value) ? value : '';
     }
+    advanced.open = Boolean(state.year || state.type);
   }
   function syncLocation(mode) {
     const url = new URL(location.href);
@@ -53,18 +54,17 @@
       card.hidden = !show;
       visible += Number(show);
     }
-    for (const group of groups) group.hidden = !group.querySelector('.paper-card:not([hidden])');
     count.textContent = root.dataset.countTemplate.replace('{shown}', visible).replace('{total}', cards.length);
     empty.hidden = visible !== 0;
     reset.hidden = !search.value && !Object.values(state).some(Boolean);
     for (const button of buttons) button.setAttribute('aria-pressed', String(state[button.dataset.filter] === button.dataset.value));
-    heading.textContent = state.topic ? buttons.find(button => button.dataset.filter === 'topic' && button.dataset.value === state.topic).textContent : root.dataset.defaultTitle;
+    heading.textContent = root.dataset.defaultTitle;
     document.title = heading.textContent + ' | FIT-AWE Lab';
     syncLocation(historyMode);
   }
   search.addEventListener('input', () => filter());
   for (const button of buttons) button.addEventListener('click', () => { state[button.dataset.filter] = button.dataset.value; filter('push'); });
-  reset.addEventListener('click', () => { search.value = ''; for (const key of Object.keys(state)) state[key] = ''; filter('push'); search.focus(); });
+  reset.addEventListener('click', () => { search.value = ''; for (const key of Object.keys(state)) state[key] = ''; advanced.open = false; filter('push'); search.focus(); });
   window.addEventListener('popstate', () => { readLocation(); filter(null); });
   readLocation();
   filter();

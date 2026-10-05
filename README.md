@@ -48,9 +48,9 @@ python3 scripts/check_content.py
 
 ## 页面与交互
 
-- About：两张合影轮播、简短介绍、最新动态与奖项、最新论文、产学研合作及招募。首页不展示 Members 区块或独立导师侧栏。
+- About：负责人照片与联系信息、两张合影轮播、简短介绍、最新动态与奖项、最新论文、产学研合作及招募。首页不展示 Members 区块或独立导师侧栏。
 - Members：Faculty、PhD、MPhil、Alumni；占位头像使用姓名首字母。所有现有名单与个人信息保留。
-- Publications：直接点击研究方向、年份和类型按钮；可组合搜索。`q`、`year`、`type`、`topic` 分享参数兼容刷新、浏览器历史和语言切换；支持 BibTeX。
+- Publications：按年份及已知发表日期倒序排列，桌面每行依次展示会议／期刊与年份、配图、标题及作者；缺图时文字扩展，手机纵向显示。顶部直接点击研究方向，并可搜索；年份与类型按钮位于“更多筛选”。`q`、`year`、`type`、`topic` 分享参数兼容刷新、浏览器历史和语言切换；支持 BibTeX。
 - Awards：维护论文相关奖项、提名和学生游戏竞赛决赛入围，包含成员早期成果；明确展示奖项名称、状态、年份、论文及来源。
 - News、Industry–Academia Collaboration、Join Us：与首页、页头和页脚使用共享入口。
 - Teams、Projects 已退出导航；旧链接跳转至 Members 或 Publications。校友旧入口转到 Members 的 Alumni 分区。
