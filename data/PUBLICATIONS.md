@@ -19,12 +19,32 @@
 
 ## 配图
 
-- 优先保留原网站已有论文图；新增图来自公开可获取的 PDF Figure 1。
+- 优先保留原网站已有论文图；新增图从对应 PDF 提取，优先头图或 Figure 1，也使用能更好介绍本研究的系统图、界面图和实验图片。
 - 每张新增配图在 JSON 中记录来源 PDF、页码、裁切坐标和图注。
 - `images/papers/` 为新提取的配图；`images/Publication/` 保留已有论文图片。
 - 没有可靠原图的条目使用纯文字排版，不使用生成图或无关封面。
 - 缩略图和标题使用同一个出版社/数字图书馆链接；DOI 链接由 DOI 系统跳转到出版页面。预印本链接到 arXiv 等文献库。
-- PDF 全文仅临时用于提图；本次未将新下载全文上传到仓库。
+
+## PDF 与 2026-10-05 配图补充
+
+本次将本地已保存的 220 条 DBLP PDF 记录匹配到 178 个目录条目，合并正式发表与预印本记录的重复版本。新增 82 张经逐张视觉检查的研究图片，配图总计 198 条；本次涉及的缺图条目中，三篇没有研究图的短篇/社论保留文字展示。
+
+论文目录现在有 180 个 PDF 入口，其中 169 个使用官网本地文件并提供直接下载，11 个出版版使用已经核实可访问的原站 PDF 链接。两份补充材料使用“补充材料 PDF”标识，不能当作论文正文；配图可来自这些与论文对应的研究界面补充材料。
+
+- `pdf` 保存本地文件路径，`pdf_url` 保存原站 PDF 链接；保留出版社/文献库入口。
+- `pdf_metadata` 保存来源、版本、页数、原文件及托管文件 SHA-256、文件大小。`document_kind: supplement` 标识补充材料；未知版本仍保留为 `unknown`。
+- 新文件按内容校验值去重，放在 `downloads/publication/papers/`，不为每种语言重复保存。无损压缩仅优化 PDF 对象和编码，并核对所有页面文字与页数，不降低图片分辨率。
+- `publication-pdf-review.json` 记录补充材料和需要链接原站的出版版本；`publication-figure-review.json` 保留已检查图片的页码、裁切坐标、图注及来源校验值。
+- `publication-media-import.json` 记录本次导入的目录 ID、文件及校验值。论文和图片的原有声明不因网站代码许可而重新授权。
+
+后续可用同一全文库导入新增材料；图片先检查并在图审记录中标记 `approved`。导入依赖只在整理材料时需要，网站部署和普通构建不需要安装。
+
+```sh
+python3 -m pip install -r scripts/requirements-media.txt
+python3 scripts/import_publication_media.py --library /path/to/paper-library --figures data/publication-figure-review.json --apply
+python3 scripts/build_site.py
+python3 scripts/check_publications.py
+```
 
 ## 核验范围
 

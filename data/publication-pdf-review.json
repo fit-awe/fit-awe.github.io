@@ -1,0 +1,80 @@
+[
+  {
+    "paper_id": "159277f7d9a2",
+    "pdf_sha256": "43f185577f8e00af1e450f1f419aa17d51cc285d562d0871c834c829ba202d33",
+    "delivery": "source",
+    "reason": "Publisher copy explicitly limits republication; link to the existing public PDF."
+  },
+  {
+    "paper_id": "9edf39b2bb3c",
+    "pdf_sha256": "c8fb277a8732bd696a8adff7bde5c90ffe8c379b4fe37f1cd1f89778d6dc2809",
+    "delivery": "source",
+    "reason": "Publisher copy explicitly limits republication; link to the existing public PDF."
+  },
+  {
+    "paper_id": "9ae483e22108",
+    "pdf_sha256": "27c2134d7788bf2d950149694575d9c387f349b8445a938dff5c1ff25f8f5900",
+    "delivery": "source",
+    "reason": "Publisher copy explicitly limits republication; link to the existing public PDF."
+  },
+  {
+    "paper_id": "e6ee75b8e966",
+    "pdf_sha256": "2ef801ce6d2ac5ee82cfe651c2b2a8ae5522f2680ba9d2427ce1a52470fc6df4",
+    "delivery": "source",
+    "reason": "Publisher copy explicitly limits republication; link to the existing public PDF."
+  },
+  {
+    "paper_id": "02832f6ff028",
+    "pdf_sha256": "e864e016fea43a1df11e501822ce855d8d71943a6ceda02fb07b6e40197765d8",
+    "delivery": "source",
+    "reason": "Publisher copy explicitly limits republication; link to the existing public PDF."
+  },
+  {
+    "paper_id": "d9b9f745081c",
+    "pdf_sha256": "ee8a662a79264efa37746418cd195a0c9991cbc8938cb0c718f538f09761030c",
+    "delivery": "source",
+    "reason": "Publisher copy explicitly limits republication; link to the existing public PDF."
+  },
+  {
+    "paper_id": "ca1b382e8e40",
+    "pdf_sha256": "1de2ab533b3b78de054ebbaf3d68e10f3c1f147f6b144b602c13fc0b1504bd0c",
+    "delivery": "source",
+    "reason": "Publisher copy explicitly limits republication; link to the existing public PDF."
+  },
+  {
+    "paper_id": "b98c2e32123d",
+    "pdf_sha256": "87757299f3a2231bd5a9395deed4f89583cabbbe5ea2e8543a413ffcbac29afd",
+    "delivery": "source",
+    "reason": "Publisher copy explicitly limits republication; link to the existing public PDF."
+  },
+  {
+    "paper_id": "2dc8bd7fe2a4",
+    "pdf_sha256": "18bda8b564a4f0957e8d68e7a3c95f9ff634a747378128790ff9990d8486efdf",
+    "delivery": "source",
+    "reason": "Publisher copy explicitly limits republication; link to the existing public PDF."
+  },
+  {
+    "paper_id": "5655044d72cf",
+    "pdf_sha256": "40f6703308b27c5231f4c2e9ab3a4079f8a50ac2fa64a8c4926f041c41f4dee6",
+    "delivery": "source",
+    "reason": "Publisher copy explicitly limits republication; link to the existing public PDF."
+  },
+  {
+    "paper_id": "d48d64656b55",
+    "pdf_sha256": "5129a092b68817ee4ac35ce9221883ff2b516e3bc0c08e88bbad426b8df2b574",
+    "delivery": "source",
+    "reason": "Publisher copy explicitly limits republication; link to the existing public PDF."
+  },
+  {
+    "paper_id": "3b18572bda9b",
+    "pdf_sha256": "9b84b77c72075002967b27cdd52a89d87927302436990b000c6c099851b3f70a",
+    "document_kind": "supplement",
+    "reason": "PDF identifies itself as supplementary material rather than the main article."
+  },
+  {
+    "paper_id": "a9d64c19ed3b",
+    "pdf_sha256": "d7048ac23b0095e7ca1b0c9dc790a30ef7ee4840c8d513feaa96ac884085d7d2",
+    "document_kind": "supplement",
+    "reason": "PDF identifies itself as supplementary material rather than the main article."
+  }
+]

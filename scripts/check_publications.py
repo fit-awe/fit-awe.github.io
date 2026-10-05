@@ -45,6 +45,13 @@ for lang in ['', 'zh', 'fr', 'ar', 'ja']:
   assert [a.text for a in authors.select('strong')]==[a for a in paper['authors'] if author_key(a) in roster], 'Member/alumni highlighting mismatch'
   image=card.select_one('.paper-figure')
   if image:assert image['href']==paper['url']
+  pdf=card.select_one('.paper-pdf')
+  assert bool(pdf)==bool(paper.get('pdf') or paper.get('pdf_url')), 'Missing PDF download entry'
+  if paper.get('pdf_url'):
+   assert pdf['href']==paper['pdf_url'] and urlsplit(pdf['href']).scheme=='https', 'PDF source mismatch'
+  elif pdf:
+   assert pdf.get('download','').endswith('.pdf'), 'PDF link must offer a download'
+   assert (path.parent/unquote(pdf['href'])).resolve()==(ROOT/paper['pdf']).resolve(), 'PDF linked to wrong paper'
  assert not soup.select('select'), 'Filters must be directly clickable'
  options=soup.select('button[data-filter="topic"]:not([data-value=""])')
  assert len(options)==6

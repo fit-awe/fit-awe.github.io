@@ -1,0 +1,1314 @@
+[
+  {
+    "paper_id": "e13602bf8f5b",
+    "pdf_sha256": "95b06474f32388518e81230ef3d4faf5e30555b1db4e0d81b24611a8a9312b29",
+    "page": 6,
+    "bbox": [
+      72.0,
+      65.60630798339844,
+      523.2880859375,
+      245.2659912109375
+    ],
+    "caption": "Figure 2: Controller operations in the Affective Diary system. (a) The left controller allows users to switch\nmenus, adjust avatar height, and teleport within the scene (indicated by the red circle). The right controller is\nused to select and place models in the environment by interacting with the menu (Scene, Time, Model); (b) Select\nscene: users browse and choose a base environment from preset scenes; (c) Adjust time (skybox): users modify\nthe scene’s skybox and lighting by sliding a time-of-day control; (d) Select object: users open a categorized object\nmenu (people, social, wildlife, large items) and select a model; (e) Place in scene: users position the selected\nobject in the chosen location of the virtual environment; (f) Illustrations of the controller interactions for object\nselection and manipulation.\n",
+    "kind": "figure-2",
+    "title": "Affective Diary: A Longitudinal Study of a Virtual Reality Diary System for Emotion Expression and Reflection",
+    "approved": true,
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "55ca9f509b10",
+    "pdf_sha256": "3e00e48487877cc47054503847f4a1042d8d331802fb27a5687bfa0727e9ec80",
+    "page": 1,
+    "bbox": [
+      45.79800033569336,
+      294.7375183105469,
+      566.174560546875,
+      455.1004943847656
+    ],
+    "caption": "Figure 1: Overview of the study setup and our forward-looking concept. Left: experimental setup with a chair-side 6-DoF robotic\narm, a 3D-printed hand end-effector with force sensing, wearable physiology sensors (BVP, EDA, respiration), and a button\nfor user-triggered arm engagement. Middle: the robot performs a chin-support “thinking gesture,” illustrating stress-to-relief\nself-regulation via robotic support. Right: concept sketch of future everyday “self-affection” robotic arms enabling gesture\nsupport and comfort interactions across contexts.",
+    "kind": "figure-1",
+    "title": "Can My Robot Relax Me? Comparing Robotic and Human Self-Touch for Stress Reduction",
+    "approved": true,
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "23eb6f1f3334",
+    "pdf_sha256": "fff8506f2a959c070d09a5df04f93d2993b9fcbeb588d8ade6beb78e35e8dda1",
+    "page": 2,
+    "bbox": [
+      127.32600402832031,
+      82.24099731445312,
+      467.90203857421875,
+      318.1945495605469
+    ],
+    "caption": "FIGURE 1 \nConceptual illustration of XR-enabled telepresence and teleoperation, where a VR user remotely interacts with and controls an industrial robotic \nsystem through immersive interfaces.",
+    "kind": "figure-1",
+    "title": "Editorial: New frontiers in immersive technologies: expanding the scope of telepresence, monitoring, and intervention",
+    "approved": true,
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "159277f7d9a2",
+    "pdf_sha256": "43f185577f8e00af1e450f1f419aa17d51cc285d562d0871c834c829ba202d33",
+    "page": 1,
+    "bbox": [
+      64.6379623413086,
+      263.52685546875,
+      508.8200988769531,
+      376.2170104980469
+    ],
+    "caption": "Fig. 1. Overall workflow with four stages for designing and evaluating polyhedral face selection techniques: (a) identifying the key steps \ninvolved in polyhedral face selection(see Sec. 3), (b) constructing a three-dimensional design space based on key steps(see Sec. 3),\n(c) designing interaction techniques for selected regions of the design space and evaluating their performance across different sce-\nnarios(see Sec. 4), and (d) building complex application cases to assess the practical applicability of the techniques(see Sec. 7).",
+    "kind": "figure-1",
+    "title": "Exploring Freehand Selection Techniques of Polyhedron Faces in VR Environments",
+    "approved": true,
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "935a6c0da3fe",
+    "pdf_sha256": "8ba08f6bd353699a215a9dae5a8427625f228b6583f6a94b4d37241faa4048aa",
+    "page": 2,
+    "bbox": [
+      35.433998107910156,
+      54.035987854003906,
+      291.4339904785156,
+      156.3708953857422
+    ],
+    "caption": "Fig. 1.\nMR display technologies along the RVC. CR applications interconnect\nindividual stages or allow transition between stages like OSTs with 2D and AR\nor VSTs covering the full range from 2D to VR.",
+    "kind": "figure-1",
+    "title": "Grand Challenges in Cross Reality",
+    "approved": true,
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "923a05e236a1",
+    "pdf_sha256": "c8d161944dea6c9fef0153e179289197e2ccb59c1a69fa96ae85802edb0b1740",
+    "page": 4,
+    "bbox": [
+      45.79800033569336,
+      71.68608093261719,
+      566.2067260742188,
+      279.7979736328125
+    ],
+    "caption": "Figure 1: (a) Latitude–longitude mapping of path endpoints used to define 18 unique 3D orientations in the study, including\nmain axial and diagonal orientations that lie on the Cartesian planes. (b) Definition of path width (𝑊Path), derived from the ring\nand wire geometry (𝑊Ring, 𝑊Wire), representing the available movement space orthogonal to the path direction. Also, different\nring and wire positional states are indicated: inside-boundary movement (green), boundary contact (yellow), and going out\nof boundary, i.e., a task error (red). (c) Illustration of the experimental task. (d) Illustration of effective parameters in 3D\nsteering. The task is conceptualized as an infinite series of goal-crossings, with 𝑧as the path direction and 𝑥–𝑦forming the two\northogonal axes (𝜎𝑥and 𝜎𝑦denote the trajectory spread along these axes, respectively). The green dots show the trajectory\npoints of the ring in an example movement.",
+    "kind": "figure-1",
+    "title": "Improving the Steering Law Throughput Calculation by Defining Effective Parameters for 3D Virtual Environments",
+    "approved": true,
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "23bbf1fac2b1",
+    "pdf_sha256": "c42d4c980e01dc61f77fcf406c1fbae4cafbe0437e6b8d5f62bde2ed6d42f271",
+    "page": 1,
+    "bbox": [
+      45.57171630859375,
+      294.7313232421875,
+      566.193603515625,
+      474.80780029296875
+    ],
+    "caption": "Figure 1: We conduct two user studies to investigate: (A) How can the surfaces serve as common-region cues that influence the \nperceptual grouping of the objects in 3D? (B) How do different grouping cues, such as common region and proximity, interact \nand affect users’ perceptual grouping of virtual content in AR? Differences in users’ physical environments and preferences for \ngrouping principles can result in inconsistent perceptions and potential misinterpretations of the grouping information. For \nexample, one user can group virtual elements based on the physical layout, using separated physical regions as grouping cues, \nwhile another user may not consider the use of physical context, leading to a different interpretation. ",
+    "kind": "figure-1",
+    "title": "Investigating How Physical Surfaces Can Serve as Common-Region Cues for Perceptual Grouping of Virtual Elements in Augmented Reality",
+    "approved": true,
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "0c1527f5109f",
+    "pdf_sha256": "6d2d9559cfb70552e977ca81d16c5503e82478cc562f208df08c2f4e2bb0fef8",
+    "page": 1,
+    "bbox": [
+      100.8270034790039,
+      148.46104431152344,
+      474.4523010253906,
+      259.513916015625
+    ],
+    "caption": "Fig. 1. The soft and fluffy texture of Pluskin naturally invites users to touch and interact with the robot dog.",
+    "kind": "figure-1",
+    "title": "Pluskin: Interactive Machine-Embroidered Plush Skin for Creative and Affective Robot-Human Interaction",
+    "approved": true,
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "9edf39b2bb3c",
+    "pdf_sha256": "c8fb277a8732bd696a8adff7bde5c90ffe8c379b4fe37f1cd1f89778d6dc2809",
+    "page": 5,
+    "bbox": [
+      40.65399932861328,
+      54.680999755859375,
+      293.0,
+      196.3669891357422
+    ],
+    "caption": "Fig. 1.\nAn example of the experimental task in the user study. LEFT: partic-\nipants use the controller-based raycasting (in red) to select the target (the blue\nsphere). RIGHT: participants use the bare-hand touch to select the target. The\nyellow arrows indicate the selection sequence in each condition. They are only\nfor illustration and were not shown to participants.",
+    "kind": "figure-1",
+    "title": "Understanding the Effect of Latency on User Performance of Target Selection in Virtual Reality",
+    "approved": true,
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "bffb776102d4",
+    "pdf_sha256": "c0ea335e5ab127fd2bff026c832e3d9e68c9fa2e80b674899351134f160325a1",
+    "page": 1,
+    "bbox": [
+      64.02274322509766,
+      291.46051025390625,
+      531.9304809570312,
+      413.8117980957031
+    ],
+    "caption": "Figure 1: Illustrations of artifact interactions in a virtual museum: (a) a 3D model of the Kneeling Archer, (b) example presentation ap-\nproaches: information board, tooltips, hand-held guide, DanMu, and virtual guide, and (c) an illustration of users’ perceived affordances\nwith the 3D artifact: brush and restore the original color.",
+    "kind": "figure-1",
+    "title": "ArtifactVM: Exploring Culturally Meaningful Presentations and User Interactions in Virtual Museums",
+    "approved": true,
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "629944d075ee",
+    "pdf_sha256": "3e9012081e0dcc9d28757ccc0877d838cbb260975abcb06eca2e946739099159",
+    "page": 1,
+    "bbox": [
+      45.79800033569336,
+      282.7865905761719,
+      566.1902465820312,
+      498.30694580078125
+    ],
+    "caption": "Figure 1: CaneXR: Cane-based XR controller with five degree-of-freedom (DOF) control designed for precision operations and\nfatigue mitigation. (A) The structure of the three-axis gimbal system with a spring solution to counterbalance gravity. (B) The\ncane supports 2-DOF movements. (C) The three-axis gimbal system supports 3-DOF movements with the wrist joint as the\nrotational center.",
+    "kind": "figure-1",
+    "title": "CaneXR: Building a Cane-Based XR Controller for Knowledge Work",
+    "approved": true,
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "c424092a6fee",
+    "pdf_sha256": "ee20f0bdda16076477cf17d585e99d08718e63fc3eeab8c4996558a837ca2f6e",
+    "page": 2,
+    "bbox": [
+      296.1570129394531,
+      77.68898010253906,
+      523.3560180664062,
+      232.52957153320312
+    ],
+    "caption": "FIGURE 1. Scenario from CodeBreakers. The player (blue)",
+    "kind": "figure-1",
+    "title": "Design Considerations for Virtual Self-Representation in Educational Games",
+    "approved": true,
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "346e49e43007",
+    "pdf_sha256": "609f91ca4d1a51fb1651cf9642fdb37a3ec8c07ab51937fe47f334d78dcf3bdf",
+    "page": 4,
+    "bbox": [
+      58.40899658203125,
+      71.68569946289062,
+      553.5792236328125,
+      182.72547912597656
+    ],
+    "caption": "Figure 1: The path width is defined by the diameter of the target ball. Participants operate the Gaze Cursor along the designated\nmovement direction to push the target ball from the starting area to the end area.",
+    "kind": "figure-1",
+    "title": "Exploring and Modeling Gaze-Based Steering Behavior in Virtual Reality",
+    "approved": true,
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "a1e35859ba8b",
+    "pdf_sha256": "1556d949db523c832e6fa464956573597e4c2e727d9bcb2c4b2fabf38f2e1b70",
+    "page": 1,
+    "bbox": [
+      88.39800262451172,
+      142.4849090576172,
+      532.6007080078125,
+      321.54901123046875
+    ],
+    "caption": "Fig. 1: The left side demonstrates our experimental setup, where participants complete a steering task using a gaze-based cursor\nin a VR environment. (a–b) illustrate simulated spatial inaccuracy by introducing a fixed offset between the user’s actual gaze point\nand the displayed gaze cursor, representing systematic calibration errors (see Sec. 2.3 for formulas and details). (c–d) depict spatial\nimprecision, modeled by adding Gaussian noise to the gaze cursor position to reflect reduced stability in gaze estimation (see Sec. 2.3\nfor formulas and details).",
+    "kind": "figure-1",
+    "title": "Exploring and Modeling the Effects of Eye-Tracking Accuracy and Precision on Gaze-Based Steering in Virtual Environments",
+    "approved": true,
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "17074894feb2",
+    "pdf_sha256": "dc034960862aab7b5a015c407408abeeacd9c16612d61f909c4ff5909909271c",
+    "page": 3,
+    "bbox": [
+      317.7295227050781,
+      86.89006805419922,
+      512.911376953125,
+      201.99440002441406
+    ],
+    "caption": "Figure 1: The flowchart of the initial design of HeyThere.",
+    "kind": "figure-1",
+    "title": "HeyThere: Design and Evaluation of an Augmented Reality Multiplayer Social Game",
+    "approved": true,
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "fba17610e7e7",
+    "pdf_sha256": "b5c4e3668c437ca42a58779def5439df832ddac688fafff3d9d889dc592d3057",
+    "page": 2,
+    "bbox": [
+      45.79800033569336,
+      462.9100646972656,
+      302.0,
+      583.529296875
+    ],
+    "caption": "Figure 1: Gesture moves and corresponding in-game skills:\n(a) PSI (b) Push (c) Kick (d) Squat",
+    "kind": "figure-1",
+    "title": "Impact of Visual Embellishments on Player Experience in Virtual Reality Exergames",
+    "approved": true,
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "9c1c8505f788",
+    "pdf_sha256": "c3f2d54899dabcaf280238e4306cf0b52f6a528feda5e0bba7a7079d762af857",
+    "page": 4,
+    "bbox": [
+      306,
+      390,
+      524,
+      613
+    ],
+    "caption": "Figure 1: A visual representation of the EBT. The user in-\nteracts with an unnatural environment, such as a VR head-\nset, leading to changes in the activation patterns of neurons.\nThis disruption requires reconnections and neural recalibra-\ntion to achieve a ’new normal.’ If this recalibration occurs\nefficiently, symptoms of Visually Induced Motion Sickness\n(VIMS) are avoided. However, when the neural readjust-\nment is excessive or prolonged, the resulting energy deple-\ntion manifests as VIMS. Neuron activations are represented\nby differently colored circles.",
+    "kind": "figure-1",
+    "title": "The Exhausted Brain Theory: An Energy-Based Framework for Understanding Visually Induced Motion Sickness",
+    "approved": true,
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "df50d9bd1d49",
+    "pdf_sha256": "512e52aebda3a95ed29e275d0f6456a91dd1bb66e613bd077681cbe703dffd76",
+    "page": 1,
+    "bbox": [
+      58.40899658203125,
+      247.2926025390625,
+      553.5860595703125,
+      444.2383728027344
+    ],
+    "caption": "Figure 1: (a) Visual representation of 2D steering through a path with constant width, and the two 3D steering tasks investigated\nin this study, i.e., Ball-and-Tunnel and Ring-and-Wire. (b) Heatmaps showing the 2D density of track point spread in each path\nwidth condition for both 3D steering tasks. Dashed circles outline the smaller path width inside the larger one as a reference.",
+    "kind": "figure-1",
+    "title": "Tunnels vs. Wires: A Comparative Analysis of Two 3D Steering Tasks in Virtual Environments",
+    "approved": true,
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "b79744cce433",
+    "pdf_sha256": "67915c76b5ad12b0483a00d329339320490419c5459eefaf9736f313b92ef443",
+    "title": "Cross-cultural factors influencing the adoption of virtual reality for practical learning",
+    "page": 3,
+    "bbox": [
+      181,
+      490,
+      547,
+      720
+    ],
+    "kind": "figure-1",
+    "approved": true,
+    "caption": "",
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "798e2b0498e6",
+    "pdf_sha256": "4c4c10e3d8246ba33f16efbcfde1ffd6d649414f48fd5cd16508cd921df7b6c3",
+    "page": 3,
+    "bbox": [
+      58.86800003051758,
+      51.666969299316406,
+      552.8489990234375,
+      162.1209716796875
+    ],
+    "caption": "Figure 1. (a) Overview of two tangible AR interfaces (Postcard AR and CubeMuseum AR) and the baseline condition (Leaflet). (b) Initial CubeMuseum AR showing\nthe 3D model an artifact, its size information, and (c) a rotated and zoomed-in view with text descriptions. (d) Optimized CubeMuseum AR showing the 3D model\nof an artifact, its size information, favorite collections, (e) information hotkeys, (f) timeline hall, and (g) map view.",
+    "kind": "figure-1",
+    "title": "CubeMuseum AR: A Tangible Augmented Reality Interface for Cultural Heritage Learning and Museum Gifting",
+    "approved": true,
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "8ce28f01e0ce",
+    "pdf_sha256": "84fa130fa301144c9df27111960aee4b9069ff2b8130dcc724d3d55314bf6cbf",
+    "page": 6,
+    "bbox": [
+      88.83100128173828,
+      41.29197692871094,
+      300.7244873046875,
+      212.55735778808594
+    ],
+    "caption": "Figure 1. VR-F audience condition (left) and VR-U audience condition (right).",
+    "kind": "figure-1",
+    "title": "Exploring the influence of audience familiarity on speaker anxiety and performance in virtual reality and real-life presentation contexts",
+    "approved": true,
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "d5dfba639b67",
+    "pdf_sha256": "9a80ce6ae35eb2c2147105dfd195ce2eabacf1ed73d9f27049849de50b97c6ae",
+    "page": 4,
+    "bbox": [
+      96.89533233642578,
+      43.780967712402344,
+      498.9419860839844,
+      141.2508544921875
+    ],
+    "caption": "Fig. 1. The design process of the immersive data story. In Step 1, we transformed the data story into an initial VR version, which contains: (1) the 3D scene, (2) simulated data\nvisualization, (3) a textual menu, and (4) basic interactions. In Step 2, we conducted the first study with seven participants and qualitatively analyzed their feedback with three\nexperts. We summarized the five design considerations and then improved the story based on them. In Step 3, we conducted the second study to verify the revised data story\nand improved several details.",
+    "kind": "figure-1",
+    "title": "From reader to experiencer: Design and evaluation of a VR data story for promoting the situation awareness of public health threats",
+    "approved": true,
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "504fc61af1ed",
+    "pdf_sha256": "42a4373f32e7524defc2bd11a790d47344be2c5ea69eac1fb086a2f3506870fc",
+    "page": 5,
+    "bbox": [
+      131.3509979248047,
+      548.5789794921875,
+      474.97900390625,
+      724.7777099609375
+    ],
+    "caption": "Figure 1. (a) a picture of the smart round neck t-shirt prototype, and (b) a diagram of the electronic components.",
+    "kind": "figure-1",
+    "title": "In-Situ exploration of emotion regulation via smart clothing: an empirical study of healthcare workers in their work environment",
+    "approved": true,
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "ed5bcc48597e",
+    "pdf_sha256": "9079d9e1b44bf2f48b300ef7463a82ced414c81f56d8a6ab1e7d33baea2fd88d",
+    "page": 1,
+    "bbox": [
+      123.15200805664062,
+      108.62582397460938,
+      497.84954833984375,
+      209.2949981689453
+    ],
+    "caption": "Fig. 1: MeTACAST: a family of Target- and Context-aware spatial selection techniques for 3D point cloud data in VR.",
+    "kind": "figure-1",
+    "title": "MeTACAST: Target- and Context-Aware Spatial Selection in VR",
+    "approved": true,
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "3b18572bda9b",
+    "pdf_sha256": "9b84b77c72075002967b27cdd52a89d87927302436990b000c6c099851b3f70a",
+    "page": 2,
+    "bbox": [
+      90,
+      104.399,
+      505.3,
+      320.299
+    ],
+    "caption": "",
+    "kind": "figure-2",
+    "title": "A study of the effect of star glyph parameters on value estimation and comparison",
+    "approved": true,
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "ad846de2cd1d",
+    "pdf_sha256": "0cb11d7633b110848672a7cbc093fd821933bd41acf2cfca2379c10c070145a4",
+    "page": 2,
+    "bbox": [
+      317.7979431152344,
+      62.24812316894531,
+      541.2962036132812,
+      121.1676025390625
+    ],
+    "caption": "Figure 1: Merge: (1) long-distance views, (2) close-distance views,\n(3) overlap views.",
+    "kind": "figure-1",
+    "title": "A Study of Zooming, Interactive Lenses and Overview+Detail Techniques in Collaborative Map-based Tasks",
+    "approved": true,
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "e6339c4d0746",
+    "pdf_sha256": "7139ad93eb362b65837e8b203773e3efefba3c7c04c7ca875d46dd9a99110ee4",
+    "title": "Acceptance of Virtual Reality Exergames Among Chinese Older Adults",
+    "page": 16,
+    "bbox": [
+      72,
+      430.69,
+      523.83,
+      543.24
+    ],
+    "kind": "figure-2",
+    "approved": true,
+    "caption": "",
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "f1073c01dd38",
+    "pdf_sha256": "07e77554183310f6bc8d2c7652661e9030acbd2bc23e6991e41e610ffad66d36",
+    "page": 1,
+    "bbox": [
+      45.79800033569336,
+      184.54122924804688,
+      566.1942749023438,
+      279.5011291503906
+    ],
+    "caption": "Fig. 1. Real-life environments populated with different avatar types. (a) Classroom scene with anime avatars; (b) Gallery scene\nwith human avatars; (c) Café scene with human and anime avatars; (d) Street scene with human, anime, animal, and item\navatars; (e) Forest scene with animal avatars.",
+    "kind": "figure-1",
+    "title": "Avatar Type, Self-Congruence, and Presence in Virtual Reality",
+    "approved": true,
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "c0123e22b50c",
+    "pdf_sha256": "90c1eefb42a379a0a6a20c6275009018b0ce59b947e47f9fe4ab54b40f1dcd45",
+    "page": 7,
+    "bbox": [
+      76.75499725341797,
+      43.274742126464844,
+      362.6119079589844,
+      167.91915893554688
+    ],
+    "caption": "Fig. 1 Two pictures of avatar characters of the VR exergame: (a) the player’s character\nand (b) the opponent’s character, a monster-looking character.",
+    "kind": "figure-1",
+    "title": "Cheer for me: effect of non-player character audience feedback on older adult users of virtual reality exergames",
+    "approved": true,
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "a5fa265c1597",
+    "pdf_sha256": "a937c3058d48b1cc51cac5eac136d1fd4a4222e94becc3f641b726ca7921cb15",
+    "page": 1,
+    "bbox": [
+      83.37382507324219,
+      182.28369140625,
+      523.8970336914062,
+      253.7723388671875
+    ],
+    "caption": "Figure 1: Illustrations of the (a) controller-based direct manipulation, (b) controller-based indirect manipulation, (c) hand-tracking\ndirect manipulation, and (d) hand-tracking indirect manipulation. (e) The experimental scene for the manipulation tasks.",
+    "kind": "figure-1",
+    "title": "Comparative Analysis of Artefact Interaction and Manipulation Techniques in VR Museums: A Study of Performance and User Experience",
+    "approved": true,
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "efa94d9987bc",
+    "pdf_sha256": "e25a399d799942ea030febaaf9a94a9b5e65f6bd4be715c63ad2c2c642a3480d",
+    "page": 1,
+    "bbox": [
+      82.06619262695312,
+      177.87965393066406,
+      523.116455078125,
+      290.8403015136719
+    ],
+    "caption": "Figure 1: Demonstration of cross-reality collaboration between (a) a VR user and a PC user in (b) museum visiting, (c) chemistry\neducation, and (d) assisted rehabilitation. The top ones are the VR views and the bottom ones are the desktop views.",
+    "kind": "figure-1",
+    "title": "Cross-Reality Interaction and Collaboration in Museums, Education, and Rehabilitation",
+    "approved": true,
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "4e1c470cbd4f",
+    "pdf_sha256": "e9e61e61cba5e9f3ddbb7ae76ed46c01acc46b4afe60524cad4951e2116f3564",
+    "page": 8,
+    "bbox": [
+      49.47700119018555,
+      41.809059143066406,
+      402.7129821777344,
+      115.22042083740234
+    ],
+    "caption": "Fig. 1. Second participatory design workshop. Participants (a) drawing routes on the university\nmap, (b) discussing their daily lives based on the routes and locations, (c) routes drawn by partic-\nipants, (d) notes of questions, events, and tips about the physical environment, academic affairs,\nand (e) exploration on various forms of game solutions.",
+    "kind": "figure-1",
+    "title": "Easy Induction: A Serious Game Using Participatory Design",
+    "approved": true,
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "eee67d337dbb",
+    "pdf_sha256": "3827bd148b4db47705c05687fa57a4f6a924aa0790287fd68441abb8867cb7c9",
+    "page": 4,
+    "bbox": [
+      176.08200073242188,
+      586.1099853515625,
+      419.35198974609375,
+      715.45166015625
+    ],
+    "caption": "Fig. 1 (Top to bottom rows) Octahedron, Cube (or Hexahedron), and Tetrahedron (LEFT) and all their derivable Archimedean\nsolids (the octahedron, which is derivable from the tetrahedron, is not an Archimedean solid) (RIGHT)",
+    "kind": "figure-1",
+    "title": "Effect of display platforms on spatial knowledge acquisition and engagement: an evaluation with 3D geometry visualizations",
+    "approved": true,
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "f9761157aeab",
+    "pdf_sha256": "fab7823702fd8a93795ce54b1ac5a08caccc95827af37fc2ca0cd0bf14780e37",
+    "page": 1,
+    "bbox": [
+      45.79800033569336,
+      241.38021850585938,
+      566.2046508789062,
+      496.116455078125
+    ],
+    "caption": "Figure 1: Screenshots of the two new bare-hand mid-air pointing/selection techniques for dense VR environments: (a) Hand-\nDepthCursor, and (b) HandConeGrid. We compare them with (c) MultiFingerBubble [9], an existing hand gesture-based technique,\nin a controlled target selection task with (d-e) two levels of density. Note: black lines, arrows, texts, and avatars are for illustra-\ntions only and are not shown to users.",
+    "kind": "figure-1",
+    "title": "Exploration of Bare-Hand Mid-Air Pointing Selection Techniques for Dense Virtual Reality Environments",
+    "approved": true,
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "60b86509fd61",
+    "pdf_sha256": "62fa6a422483512761c223e00e247049ab3fa39a6ce352bfa73187618093d6e7",
+    "page": 1,
+    "bbox": [
+      79.03279113769531,
+      205.22471618652344,
+      528.7116088867188,
+      308.1328430175781
+    ],
+    "caption": "Figure 1: (a) HapticBox, the experimental device. (b) A user wearing the VIVE Pro HMD, holding the HapticBox in the left\nhand, and a VR controller in the right hand. (c) System architecture of HapticBox.",
+    "kind": "figure-1",
+    "title": "HapticBox: Designing Hand-Held Thermal, Wetness, and Wind Stimuli for Virtual Reality",
+    "approved": true,
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "8bcf053a53fe",
+    "pdf_sha256": "416a81982831b7af2890b98a8ffa29bf14f9fb1529f7bf0d8578bf52f8e94ee8",
+    "page": 1,
+    "bbox": [
+      120.76310729980469,
+      162.25901794433594,
+      488.37774658203125,
+      360.5554504394531
+    ],
+    "caption": "Figure 1: The adaptive multi-view layout approach for situated visualizations in the immersive environment: the views are\ndisplayed in close proximity to the objects, with relative positions reﬂecting the spatial orientation of users.",
+    "kind": "figure-1",
+    "title": "ImmerView: Adaptive Multi-View Layout for Immersive Situated Visualizations",
+    "approved": true,
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "ed9ae5d7d52d",
+    "pdf_sha256": "eba457b37d043f3160e2f373bd4868f61d7404dc249ce53c795a6b40455cd2a2",
+    "page": 1,
+    "bbox": [
+      85.5541763305664,
+      162.20040893554688,
+      531.18408203125,
+      272.97491455078125
+    ],
+    "caption": "Figure 1: Illustrations of the (a) leaning-based locomotion and (b) feet-controlled orientation. (c) The prototype of the LeanOn\nlocomotion device. (d) A user controlling the LeanOn to travel in (e) the experimental scene.",
+    "kind": "figure-1",
+    "title": "LeanOn: Simulating Balance Vehicle Locomotion in Virtual Reality",
+    "approved": true,
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "e6c23f4c0ea5",
+    "pdf_sha256": "343dae7f9df9d4fdd08bc8e0a24463611257d46aa116fdf3e155c61ce123e4cd",
+    "page": 5,
+    "bbox": [
+      45.5620002746582,
+      44.35801696777344,
+      293.63800048828125,
+      158.07711791992188
+    ],
+    "caption": "Fig. 1 Comparison of an original Stanford bunny mesh and a mesh of\n10243 SDF volume generated by marching cubes. a, b front views of\nSDF mesh and Stanford bunny mesh; c, d bottom views of SDF mesh\nand Stanford bunny mesh. e Normal (ﬁrst row) and overlapping (second\nrow) octree data structures. Each cube has up to eight children and one\nparent box",
+    "kind": "figure-1",
+    "title": "LVDIF: a framework for real-time interaction with large volume data",
+    "approved": true,
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "a795ff39d2c9",
+    "pdf_sha256": "6f98f2484cf18e9f92d5f1170ca7de77757efa4f25d41d8120b7432b9d0c19c1",
+    "title": "Predicting Gaze-based Target Selection in Augmented Reality Headsets based on Eye and Head Endpoint Distributions",
+    "page": 1,
+    "bbox": [
+      91.627,
+      309.267,
+      520.372,
+      497.626
+    ],
+    "kind": "figure-1",
+    "approved": true,
+    "caption": "",
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "b98c2e32123d",
+    "pdf_sha256": "87757299f3a2231bd5a9395deed4f89583cabbbe5ea2e8543a413ffcbac29afd",
+    "page": 3,
+    "bbox": [
+      40.9640007019043,
+      44.069602966308594,
+      302.0,
+      125.48747253417969
+    ],
+    "caption": "Fig. 1.\nScreenshots of the three VR games used in our experiment for\ndata collection. (A) Racing Car: driving around along the track. (B) Parkour:\ncollecting all gold coins by jumping from building to building. (C) Space\nMiner: mining gold asteroids in space.",
+    "kind": "figure-1",
+    "title": "Real-Time Prediction of Simulator Sickness in Virtual Reality Games",
+    "approved": true,
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "754810bc2a15",
+    "pdf_sha256": "008c42147bc21363e55bce6da20f9b874e8ad7a3685243ccac5a5c5f49bbe1f9",
+    "title": "Tasks of a Different Color: How Crowdsourcing Practices Differ per Complex Task Type and Why This Matters",
+    "page": 9,
+    "bbox": [
+      148.819,
+      128.216,
+      482.174,
+      379.57
+    ],
+    "kind": "figure-1",
+    "approved": true,
+    "caption": "",
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "0daa53b84261",
+    "pdf_sha256": "fa6b8fd00abee0f1b27da8e0f725c5d7a69c412f9807c4bc5c578b28c8cc8a31",
+    "page": 1,
+    "bbox": [
+      129.0064697265625,
+      215.79400634765625,
+      478.501220703125,
+      279.71881103515625
+    ],
+    "caption": "Figure 1: Illustrations of the (a) joystick steering, (b) AngleSelect teleport [3], and (c) TeleSteer locomotion techniques.",
+    "kind": "figure-1",
+    "title": "TeleSteer: Combining Discrete and Continuous Locomotion Techniques in Virtual Reality",
+    "approved": true,
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "a9d64c19ed3b",
+    "pdf_sha256": "d7048ac23b0095e7ca1b0c9dc790a30ef7ee4840c8d513feaa96ac884085d7d2",
+    "page": 2,
+    "bbox": [
+      48.69300079345703,
+      193.49606323242188,
+      302.0,
+      491.146728515625
+    ],
+    "caption": "Figure 1. Step-by-step screen captures of the user decision",
+    "kind": "figure-1",
+    "title": "DARC: A Visual Analytics System for Multivariate Applicant Data Aggregation, Reasoning and Comparison",
+    "approved": true,
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "83099d5c2b37",
+    "pdf_sha256": "5f2c9fb415d488006010e9cd75249efc072e3d2bf16b789e0924cd30a2016ba1",
+    "page": 7,
+    "bbox": [
+      58.654396057128906,
+      331.7294921875,
+      536.617919921875,
+      508.7144775390625
+    ],
+    "caption": "FIGURE 1\nAmbient color stimuli that were utilized in this study, with their RGB values, ambient light effects in VR, and the suitable light intensities obtained\nfrom Experiment 1. The ﬁrst row with an arrow represents the colors tested in Experiment 1. The second row indicates the colors in Experiment 2,\nwith white as a baseline color.",
+    "kind": "figure-1",
+    "title": "Examining cross-modal correspondence between ambient color and taste perception in virtual reality",
+    "approved": true,
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "b05ad292dc7a",
+    "pdf_sha256": "9a401278f0e86f2152d0dc6ebf93b39a1bd11206251e87c37422f598268db90f",
+    "page": 1,
+    "bbox": [
+      316.9549865722656,
+      222.71649169921875,
+      559.1956787109375,
+      294.6340026855469
+    ],
+    "caption": "Figure 1: Two example group-based alignment scenarios.\nThey are positioned based on the intrinsic alignments of\nthe object group: (a) middle and back of the decorations, and\n(b) left, back, and bottom of the boxes.",
+    "kind": "figure-1",
+    "title": "Group-based Object Alignment in Virtual Reality Environments",
+    "approved": true,
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "59e135c00b62",
+    "pdf_sha256": "b2e16a18f79b2a3b812d987b04d1733f509a9f3d46ca4e6d75121f160829f2a1",
+    "page": 5,
+    "bbox": [
+      49.34299850463867,
+      121.6685791015625,
+      296.24444580078125,
+      268.9653625488281
+    ],
+    "caption": "Figure 1: The user study environment and selection tech-\nniques: (a) virtual hand/controller and (b) ray casting",
+    "kind": "figure-1",
+    "title": "Improving Effective Throughput Performance using Auditory Feedback in Virtual Reality",
+    "approved": true,
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "09c545f05254",
+    "pdf_sha256": "83fe7358700f98bd16cad76729c8768b4493987db6c1f59a3db4b271c5fc8de6",
+    "page": 1,
+    "bbox": [
+      69.75399780273438,
+      126.68400573730469,
+      542.2459716796875,
+      323.9678039550781
+    ],
+    "caption": "Figure 1: Seven users are exploring a large-scale simulation of astronomical data in the immersive virtual reality environment.\nHere we take two users (indicated by blue and red) as an example. The blue user possesses a larger scale, viewing the cosmic\nweb while the red user is observing the galaxy in a relatively small scale. Each user is assigned a “World-in-Miniature” (WiM,\nhighlighted by blue or red color) which shows a miniature of the virtual environment at the level of the scale. All the WiMs are\nconnected in the L-WiM tree demonstrating the contextual information, relative position and scale relation among collaborators.",
+    "kind": "figure-1",
+    "title": "L-WiM: Collaborative Exploration in Immersive Environments",
+    "approved": true,
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "1504f86e91dd",
+    "pdf_sha256": "bca190c643af1565c44026ca2c16d4c49a1935df36288c0d2fecb965783b58c1",
+    "page": 2,
+    "bbox": [
+      52.43199920654297,
+      71.68415069580078,
+      295.40716552734375,
+      219.83145141601562
+    ],
+    "caption": "Figure 1: (a) An aerial camera shoots from above to provide\na drone’s view; (b) A UGV with Mecanum wheels with five\ntracking spots; and (c) A teleoperator is viewing the image\nof (a) on a 2D screen and teleoperate the UGV using an Xbox\ncontroller.",
+    "kind": "figure-1",
+    "title": "Teleoperation of a Fast Omnidirectional Unmanned Ground Vehicle in the Cyber-Physical World via a VR Interface",
+    "approved": true,
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "7b666aad7d94",
+    "pdf_sha256": "a5497f1a87661f753ba7ec9b601750c43d1279dc40e0488d1369031ec1c0ef75",
+    "page": 1,
+    "bbox": [
+      69.75999450683594,
+      119.04866027832031,
+      542.2333374023438,
+      229.35362243652344
+    ],
+    "caption": "Figure 1: Cultural heritage learning with mobile AR: (a) a user viewing an artifact’s actual size; (b) ten artifacts used in the\nmobile AR application; (c) a screenshot of the mobile AR application deployed on an iPad.",
+    "kind": "figure-1",
+    "title": "User Retention of Mobile Augmented Reality for Cultural Heritage Learning",
+    "approved": true,
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "4b214e04a2e5",
+    "pdf_sha256": "56de5f8a7e55f0e62901b81adcce78a8e2ded2afcf432ec8d754625886da7229",
+    "page": 1,
+    "bbox": [
+      80.07270812988281,
+      165.73794555664062,
+      534.9601440429688,
+      292.2634582519531
+    ],
+    "caption": "Figure 1: CubeMuseum. (a) The physical cube with 2D image targets; (b) Sample 3D virtual museum objects that can be augmented\non the physical cube; (c) A screenshot of what users can see from their smartphones using CubeMuseum AR, including the physical\ncube in the real scene and the virtual objects and labels augmented on top of it.",
+    "kind": "figure-1",
+    "title": "CubeMuseum: An Augmented Reality Prototype of Embodied Virtual Museum",
+    "approved": true,
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "613f0a10b775",
+    "pdf_sha256": "ead3f5588d49a63077325383c552465e6cf181c775824959815f75d5b5a6d437",
+    "page": 1,
+    "bbox": [
+      45.79800033569336,
+      226.55422973632812,
+      566.211181640625,
+      331.3663635253906
+    ],
+    "caption": "Figure 1: From left to right: (a) all the components of the FluidWeight prototype: 1) syringes, 2) bottles, 3) pumps, 4) threaded\nroad, 5) balloons, 6) 3D printed holder, 7) transmission cables, and 8) Arduino controller; (b) bag open with the parts of the\ndevice; (c) FluidWeight as presented to the participants; (d) a user operating the prototype; and (e) another user with the\nprototype (foreground) and the virtual fishing environment (background).",
+    "kind": "figure-1",
+    "title": "Design and Development of a Low-cost Device for Weight and Center of Gravity Simulation in Virtual Reality",
+    "approved": true,
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "9c77fb80901d",
+    "pdf_sha256": "91a420cc673da52d67f5549e5f59010f5730e4963cd0b22e1c8a50760c83cf38",
+    "page": 4,
+    "bbox": [
+      108.16000366210938,
+      122.39999389648438,
+      464.7200012207031,
+      253.805419921875
+    ],
+    "caption": "Figure 1: iVR prototype allowing participants to choose the characteristics of the avatar, behaviour and the environment \n ",
+    "kind": "figure-1",
+    "title": "Designing Individualised Virtual Reality Applications for Supporting Depression: A Feasibility Study",
+    "approved": true,
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "57969e666621",
+    "pdf_sha256": "5db450c0ad3395f5a878f1ec0e1c4df47f9dc44b7297d8fcce58287264f6bac5",
+    "page": 1,
+    "bbox": [
+      310.0,
+      386.3213806152344,
+      576.7000122070312,
+      452.0263671875
+    ],
+    "caption": "Fig. 1. An illustration of the continuous input-output randomness feedback \nloop in turn-based games. ",
+    "kind": "figure-1",
+    "title": "Effect of Input-output Randomness on Gameplay Satisfaction in Collectable Card Games",
+    "approved": true,
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "943ae277d068",
+    "pdf_sha256": "5da0b13cdea01699974613e22877947d39188682ed25949a53ef560de6d70068",
+    "title": "Gaze-Supported 3D Object Manipulation in Virtual Reality",
+    "page": 3,
+    "bbox": [
+      53,
+      84,
+      294,
+      215
+    ],
+    "kind": "figure-1",
+    "approved": true,
+    "caption": "",
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "b5838b0e21e8",
+    "pdf_sha256": "565c2fbaa65934df0d38d10b4974a648abb56254f306095f7abaddf6adc2adbd",
+    "page": 1,
+    "bbox": [
+      45.79800033569336,
+      243.05287170410156,
+      566.1978149414062,
+      423.9523620605469
+    ],
+    "caption": "Figure 1: Left: a user is typing on iText in an AR HMD. It uses an imaginary (invisible) keyboard and allows efficient text entry\nin a hands-free and occlusion-free manner. Right: iText accepts user input through eye blinks, dwell, or head swipe gestures\nand predicts the intended words from a statistical decoder.",
+    "kind": "figure-1",
+    "title": "iText: Hands-free Text Entry on an Imaginary Keyboard for Augmented Reality Systems",
+    "approved": true,
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "da55c6960a5c",
+    "pdf_sha256": "f88c283528690ddd16e9c10137800b537a32e45f647f5f8291e1e21687d82b3d",
+    "title": "On the Use of Large Interactive Displays to Support Collaborative Engagement and Visual Exploratory Tasks",
+    "page": 2,
+    "bbox": [
+      167.265,
+      282.623,
+      549.943,
+      601.962
+    ],
+    "kind": "figure-1",
+    "approved": true,
+    "caption": "",
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "c291f3d81146",
+    "pdf_sha256": "1e87012e77396e363eee54045f9ccb8ccb8cf3971da27081df64a26982571d23",
+    "page": 5,
+    "bbox": [
+      52.30099868774414,
+      413.1371154785156,
+      542.9730224609375,
+      674.038330078125
+    ],
+    "caption": "Figure 1. The body movements detected using our prototype: (a) neck ﬂexion/extension; (b) elbow ﬂexion/extension;\n(c) shoulder ﬂexion/extension; and (d) open and closed arms. Green dots indicate the sensors’ position.",
+    "kind": "figure-1",
+    "title": "On the Use of Movement-Based Interaction with Smart Textiles for Emotion Regulation",
+    "approved": true,
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "4b501f942482",
+    "pdf_sha256": "9a59d8245accc593b3489c7edbc28e30ace563337f7cd921d7e711e11fb2bd1d",
+    "page": 3,
+    "bbox": [
+      96.8499984741211,
+      41.99998474121094,
+      245.5,
+      256.8863525390625
+    ],
+    "caption": "Fig 1. Picture of our maze material. The ease to assemble was vital to an indoor \nmaze. ",
+    "kind": "figure-1",
+    "title": "Spatial Knowledge Acquisition in Virtual and Physical Reality: A Comparative Evaluation",
+    "approved": true,
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "2dc8bd7fe2a4",
+    "pdf_sha256": "18bda8b564a4f0957e8d68e7a3c95f9ff634a747378128790ff9990d8486efdf",
+    "page": 1,
+    "bbox": [
+      310.0,
+      436.6557922363281,
+      567.8939819335938,
+      675.7579956054688
+    ],
+    "caption": "Fig. 1. A common scenario in a multi-user 3D virtual reality world: To \nlocate all nearby targets (e.g., avatars of people or friends). (a) From a \nuser’s point of view, targets of interest may be located off-screen, be \noccluded by other objects, or placed inside buildings. (b) An example of \nembedding a visualization (in this case 3DWedge) into the user VR in-\nterface to convey targets’ information. (c) 3DWedge is designed to pro-\nvide accurate direction and distance information of targets through the \npyramid and other visual elements. ",
+    "kind": "figure-1",
+    "title": "Design and Evaluation of Visualization Techniques of Off-Screen and Occluded Targets in Virtual Reality Environments",
+    "approved": true,
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "16a7cba5cf62",
+    "pdf_sha256": "14c782baa5301188a87867f9cf4a9e9ef77acfc64f271a60b653e979910dd82e",
+    "page": 7,
+    "bbox": [
+      173.1699981689453,
+      135.39996337890625,
+      421.9100036621094,
+      268.5109558105469
+    ],
+    "caption": "Fig. 1. User scenarios: The smart shawl aims to help people to self-regulate emotions in their \ndaily lives, like social activities or outdoor activities. ",
+    "kind": "figure-1",
+    "title": "Exploring the Design of Interactive Smart Textiles for Emotion Regulation",
+    "approved": true,
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "cfe6e133df1a",
+    "pdf_sha256": "f1381776d6c19f66290026d3055a947ace59c9e40382d4d41c5c020472bd9a26",
+    "page": 1,
+    "bbox": [
+      310.0,
+      153.43624877929688,
+      565.9922485351562,
+      255.43115234375
+    ],
+    "caption": "Figure 1: (a; left) (1) The user is trying to drag the object closer to\nhimself. (2) The object partially disappears once the user’s hand is\noutside the AR HMD’s interaction boundary. Because the user cannot\nsee the interaction boundary, it can lead to confusion and errors. (b;\nright) By showing the interaction boundary, the user can interact with\nthe virtual object in AR HMDs and know when to stop his movement\nto avoid going outside of the tracked interaction area.",
+    "kind": "figure-1",
+    "title": "Exploring Visual Techniques for Boundary Awareness During Interaction in Augmented Reality Head-Mounted Displays",
+    "approved": true,
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "65adbc42c1a3",
+    "pdf_sha256": "6409c56ba3877a9ff2e1250c92079ca271e722fc55989531191525e9a5d6d4f4",
+    "title": "Influence of Hand Representation Design on Presence and Embodiment in Virtual Environment",
+    "page": 2,
+    "bbox": [
+      51,
+      626,
+      299,
+      687.5
+    ],
+    "kind": "figure-1",
+    "approved": true,
+    "caption": "",
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "463a639eaa64",
+    "pdf_sha256": "4b82233ad6459777443d1910a8e970f341ebf81c77a28275132f1dc8f639306d",
+    "page": 8,
+    "bbox": [
+      83.94400024414062,
+      71.33999633789062,
+      401.6239929199219,
+      266.4768371582031
+    ],
+    "caption": "Fig. 1. The GeoMoments app interface allows users to add “moments” and interact with other users. The\ndesign of the app draws from popular social networks to lower the app’s learning curve.",
+    "kind": "figure-1",
+    "title": "Performing the Digital Self: Understanding Location-Based Social Networking, Territory, Space, and Identity in the City",
+    "approved": true,
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "2b72c9e17fbb",
+    "pdf_sha256": "f9f057e55e4789670e0dab1b046df1343b08feabb6dd2f44a88886eac542ec6b",
+    "page": 2,
+    "bbox": [
+      46.2400016784668,
+      579.447998046875,
+      302.0,
+      671.6165161132812
+    ],
+    "caption": "Figure 1. A user is trying to kill the arm object (apple) by \nusing the left hand. (a) In a virtual view. (b) In a real-life view. \nFruits are passing in front (x-direction) the user during the \ngame. ",
+    "kind": "figure-1",
+    "title": "Assessing the effects of a full-body motion-based exergame in virtual reality",
+    "approved": true,
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "befea794f172",
+    "pdf_sha256": "5fece92ed3bc28125c2711f1bc567d400bf787339ffef3a8fe266d1893e84a95",
+    "page": 1,
+    "bbox": [
+      310.0,
+      310.97125244140625,
+      567.6593017578125,
+      387.7524108886719
+    ],
+    "caption": "Figure 1: An illustration of the depth cursor movement relative to \nthe user’s movement. (a) When a user performs forward \nDepthMove (b) when the user turns, the cursor also follows the \nuser’s rotation but does not go further into (or away from) the virtual \nenvironment.  ",
+    "kind": "figure-1",
+    "title": "DepthMove: Hands-free Interaction in Virtual Reality Using Head Motions in the Depth Dimension",
+    "approved": true,
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "66d0393e512a",
+    "pdf_sha256": "735748778731eb4af9a205fb486f19a0db9c20183febb5106288af685c4f898b",
+    "page": 1,
+    "bbox": [
+      56.5,
+      135.90768432617188,
+      555.296142578125,
+      240.81707763671875
+    ],
+    "caption": "Figure 1: A user is entering some text using DepthText using a mobile virtual reality (VR) system. The user has entered the word “excellent” \nby performing short forward movements towards the depth dimension (z-axis) with an acceleration speed larger than a0.",
+    "kind": "figure-1",
+    "title": "DepthText: Leveraging Head Movements towards the Depth Dimension for Hands-free Text Entry in Mobile Virtual Reality Systems",
+    "approved": true,
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "4c9e67f1fb85",
+    "pdf_sha256": "29c782e61ce6e138c5437b5da6968bbcb144bfcd8a2271775d2e13d581627239",
+    "title": "DMove: Directional Motion-based Interaction for Augmented Reality Head-Mounted Displays",
+    "page": 3,
+    "bbox": [
+      329.97198486328125,
+      92.6468276977539,
+      546.1836547851562,
+      191.86602783203125
+    ],
+    "kind": "figure-2",
+    "approved": true,
+    "caption": "Figure 2: An example of a movement. (a) Starting State—A\nuser is ready to move toward the North-East direction. The\nblue dot is the starting position tracked by the system. (b)\nPrediction State—The state used to predict the moving direc-\ntion where the user has nearly finished the movement. The\ngreen dot is the end position tracked by the system. The sys-\ntem calculatesvxj, j−1,vzj,j−1, ∆Pxi,0, ∆Pzi,0 and then sends the\nresults to the algorithm. (c) End State—A movement is fin-\nished.\n",
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "57a5b588476a",
+    "pdf_sha256": "52d632cc278ea8af869b07f513fab5ef9792b997253a4f40ea580882f4e20833",
+    "title": "Modeling endpoint distribution of pointing selection tasks in virtual reality environments",
+    "page": 1,
+    "bbox": [
+      330.068,
+      201.979,
+      548.081,
+      319.277
+    ],
+    "kind": "figure-1",
+    "approved": true,
+    "caption": "",
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "0c31033aa268",
+    "pdf_sha256": "0b41ab33d76fad3b216a114d2390b8a1606e89212b7838da69a70abbcb282cd1",
+    "page": 1,
+    "bbox": [
+      80.9069595336914,
+      170.56166076660156,
+      535.6095581054688,
+      322.1744689941406
+    ],
+    "caption": "Figure 1: This ﬁgure shows how to Tap a letter by using the four pointing methods for AR HMDs. (a) Controller—the user uses\na controller to move the cursor on the letter ’H’, and then presses the trigger button to conﬁrm the selection; (b) Head—the user\npositions the cursor on the letter ’Y’, waits for 500ms for the popup button to appear, then (1) moves the cursor to the popup button,\nand (2) returns to the letter ’Y’ to select it; (c) Hand—the user moves the hand to the letter ’K’ and makes a close palm gesture to\nselects it; (d) Hybrid (Head+Hand)—the user uses the head to move the cursor to the letter ’Y’ and makes a close palm gesture to\nmake the selection.",
+    "kind": "figure-1",
+    "title": "Pointing and Selection Methods for Text Entry in Augmented Reality Head Mounted Displays",
+    "approved": true,
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "5655044d72cf",
+    "pdf_sha256": "40f6703308b27c5231f4c2e9ab3a4079f8a50ac2fa64a8c4926f041c41f4dee6",
+    "page": 1,
+    "bbox": [
+      28.19403076171875,
+      125.19283294677734,
+      533.7139892578125,
+      259.67279052734375
+    ],
+    "caption": "Fig. 1. (a) Text entry on a mobile head-mounted display through head motions; (b) To finish typing ‘ring’ after a user has already entered the \nletters ‘r’ and ‘i’, the user selects the letter ‘n’. The entered text is shown in the center of the screen; two candidate words are shown in the \nregions below and on each side of the last letter ‘N’. Then the user goes to select the recommended word ‘ring’ by moving the head down. The \ndesign rationale of the technique is to minimize eye and head movements (or distance traveled), but still maintain a reasonably low error rate, \nof users of mobile virtual reality head-mounted displays.",
+    "kind": "figure-1",
+    "title": "RingText: Dwell-free and hands-free Text Entry for Mobile Head-Mounted Displays using Head Motions",
+    "approved": true,
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "58bc90f7b958",
+    "pdf_sha256": "e80ddab6cad07248f7753881be325040a57b32281eccb13b3fa6d1cd34ef1552",
+    "page": 5,
+    "bbox": [
+      115.61685180664062,
+      265.7760925292969,
+      473.41888427734375,
+      426.2833557128906
+    ],
+    "caption": "Figure 1. (a) The clothing-based prototype used in our study for right-handed participants. Two foam\nbuttons (one on the bottom under the wrist and one on the posterior side of the forearm) were glued\nto a palm wrist-band with a thumb-hole design. (b–d) Sample wrist movements supported by our\nprototype: (b) Flexion and Extension (vertical movements) (c) Radial and Ulnar Deviation (horizontal\nmovements) (d) Circumduction: clockwise (right) and anti-clockwise (left).",
+    "kind": "figure-1",
+    "title": "Towards a Taxonomy for In-Vehicle Interactions Using Wearable Smart Textiles: Insights from a User-Elicitation Study",
+    "approved": true,
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "70331c51adf7",
+    "pdf_sha256": "782fea28d09ee40c95fe452b4aeec1ba44f95f680c68968b7936fa4989d29438",
+    "page": 4,
+    "bbox": [
+      175.61300659179688,
+      46.07398986816406,
+      418.81298828125,
+      184.03399658203125
+    ],
+    "caption": "FIGURE 1\nThe Oculus Rift CV1 and Betop gamepad controller used in the experiment",
+    "kind": "figure-1",
+    "title": "Evaluating enjoyment, presence, and emulator sickness in VR games based on first- and third- person viewing perspectives",
+    "approved": true,
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "d48d64656b55",
+    "pdf_sha256": "5129a092b68817ee4ac35ce9221883ff2b516e3bc0c08e88bbad426b8df2b574",
+    "page": 1,
+    "bbox": [
+      50.397789001464844,
+      118.82716369628906,
+      517.8864135742188,
+      249.4151611328125
+    ],
+    "caption": "Fig. 1. (a) A user is entering some text using PizzaText in the virtual reality environment; (b) to enter “hello”, the user performs a series\nof gestures using the two thumbsticks of the game controller.",
+    "kind": "figure-1",
+    "title": "PizzaText: Text Entry for Virtual Reality Systems Using Dual Thumbsticks",
+    "approved": true,
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "9d1964dc90aa",
+    "pdf_sha256": "49a5eab22ed1d0cd143f8b66131b19212cf61e56f191e871ce1eac731c2d037f",
+    "page": 6,
+    "bbox": [
+      134.6790008544922,
+      383.66632080078125,
+      471.31903076171875,
+      611.2003784179688
+    ],
+    "caption": "Figure 1: The software engineering process overview and the outline of our three \nexperiments. ",
+    "kind": "figure-1",
+    "title": "Target Selection in Head-Mounted Display Virtual Reality Environments",
+    "approved": true,
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "fd7260ccc572",
+    "pdf_sha256": "4a894387416b3b1a1303d97728c32d4478b97f8bee0b55bd4a49ee19dfd7cfa1",
+    "page": 5,
+    "bbox": [
+      123.80000305175781,
+      226.8999786376953,
+      377.20001220703125,
+      443.0999755859375
+    ],
+    "caption": "Fig. 1   Iceberg Model as Metaphor for General System Thinking (source: [19]) ",
+    "kind": "figure-1",
+    "title": "Visualization Principles for Facilitating Strategy Development Process in the Organization",
+    "approved": true,
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "37cac986ef6e",
+    "pdf_sha256": "a28d60d2840b3eb2856ce3990c0ddf993fd73b326feb09830cbbb4cb930e4fc8",
+    "page": 6,
+    "bbox": [
+      101.75520324707031,
+      400.8701171875,
+      506.1231689453125,
+      638.5113525390625
+    ],
+    "caption": "Figure 1. A generic complex cognitive activity. Top-down view: Activity comprises sub-activities,\ntasks, sub-tasks, and individual interactions. Bottom-up view: Activity emerges over time, through\nperformance of interactions and tasks. Adapted from [39].",
+    "kind": "figure-1",
+    "title": "Supporting Sensemaking of Complex Objects with Visualizations: Visibility and Complementarity of Interactions",
+    "approved": true,
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "824f92e12d36",
+    "pdf_sha256": "aa6479ce6c661cbabe96b634a4a49341a9ab25e69c325b30e52b6f07b5a084e2",
+    "page": 3,
+    "bbox": [
+      332.8000183105469,
+      56.440185546875,
+      557.3829956054688,
+      98.04747772216797
+    ],
+    "caption": "Fig. 1.\nOriginal input images from MNIST dataset",
+    "kind": "figure-1",
+    "title": "A Unified Gradient Regularization Family for Adversarial Examples",
+    "approved": true,
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "1b908de7b625",
+    "pdf_sha256": "9eb5abc06ffbc7cb1ecc748fc22b26df7a0ff14e9ce06811a7a4b61a72226418",
+    "page": 2,
+    "bbox": [
+      152.10000610351562,
+      497.1013488769531,
+      442.8999938964844,
+      662.760986328125
+    ],
+    "caption": "Figure 1. Classification of the corpus based on the eight identified tasks in our review. ",
+    "kind": "figure-1",
+    "title": "A review of information communication technology applied on common tasks during times of emergency",
+    "approved": true,
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "2eee2119e2a9",
+    "pdf_sha256": "deb0741bfe366a1fd9734399a35ddee0a9715b00573dece6eec8901d55d461b5",
+    "title": "EdgeSplit: facilitating the selection of off-screen objects",
+    "page": 1,
+    "bbox": [
+      323.18,
+      329.88,
+      551.62,
+      439.52
+    ],
+    "kind": "figure-1",
+    "approved": true,
+    "caption": "",
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "fef51ed39c13",
+    "pdf_sha256": "06294babc0b8677a3bd2976268a20db5555f4850d43bc40502d7775369f1414f",
+    "page": 1,
+    "bbox": [
+      310.29998779296875,
+      286.1213684082031,
+      567.0499877929688,
+      483.45098876953125
+    ],
+    "caption": "Figure 1. One-handed back-of-device input using the index \nfinger (actual device used in our studies). In this case a touch \npad senses input, allowing for both absolute (top) and relative \n(bottom) input, each of which present different affordances \nand limitations. ",
+    "kind": "figure-1",
+    "title": "How to position the cursor?: an exploration of absolute and relative cursor positioning for back-of-device input",
+    "approved": true,
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "6d47d43788d3",
+    "pdf_sha256": "65f5c508ba9de497d910f1b64b83aaa5371268007a46bf448b24310cabc43f5a",
+    "title": "See me, see you: a lightweight method for discriminating user touches on tabletop displays",
+    "page": 1,
+    "bbox": [
+      311.46,
+      361.38,
+      557.16,
+      533.34
+    ],
+    "kind": "figure-1",
+    "approved": true,
+    "caption": "",
+    "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "97f0377c3219",
+    "pdf_sha256": "d7c5e7cf0863b206d3e4e915229377b95ef579dce28bc294634ffde2467e8240",
+    "page": 1,
+    "bbox": [
+      313.5,
+      318.905517578125,
+      556.5400390625,
+      615.1079711914062
+    ],
+    "caption": "Figure 1. The dual-surface bimanual touch- and motion-\nenabled concept device (a); different ways of making gestures ",
+    "kind": "figure-1",
+    "title": "User-defined surface+motion gestures for 3d manipulation of objects at a distance through a mobile device",
+    "approved": true,
+    "reviewed_at": "2026-10-05"
+  }
+]

@@ -47,6 +47,18 @@ COMPACT_LABELS = {
  'ar': dict(all_topics='الكل', more='فلاتر إضافية'),
  'ja': dict(all_topics='すべて', more='詳細フィルター'),
 }
+DOWNLOAD_LABELS = {
+ 'en': 'Download PDF', 'zh': '下载 PDF', 'fr': 'Télécharger le PDF',
+ 'ar': 'تنزيل PDF', 'ja': 'PDF をダウンロード',
+}
+OPEN_PDF_LABELS = {
+ 'en': 'Open PDF', 'zh': '打开 PDF', 'fr': 'Ouvrir le PDF',
+ 'ar': 'فتح PDF', 'ja': 'PDF を開く',
+}
+SUPPLEMENT_LABELS = {
+ 'en': 'Supplementary PDF', 'zh': '补充材料 PDF', 'fr': 'PDF complémentaire',
+ 'ar': 'PDF تكميلي', 'ja': '補足資料 PDF',
+}
 
 def build():
  from build_locales import build as build_pages
@@ -81,7 +93,13 @@ def build():
      a=esc(author)
      if author_key(author) in lab_authors:a=f'<strong>{a}</strong>'
      authors.append(a)
-    pdf=f'<a href="{asset(p["pdf"])}" target="_blank" rel="noopener noreferrer">PDF ↓</a>' if p.get('pdf') else ''
+    pdf=''
+    pdf_label=SUPPLEMENT_LABELS[lang] if p.get('pdf_metadata',{}).get('document_kind')=='supplement' else 'PDF'
+    if p.get('pdf_url'):
+     pdf=f'<a class="paper-pdf" href="{esc(p["pdf_url"])}" target="_blank" rel="noopener noreferrer" aria-label="{esc(OPEN_PDF_LABELS[lang])}: {title}">{esc(pdf_label)} ↗</a>'
+    elif p.get('pdf'):
+     filename=f'{year}-'+re.sub(r'[^a-zA-Z0-9]+','-',p['title']).strip('-')[:100]+'.pdf'
+     pdf=f'<a class="paper-pdf" href="{asset(p["pdf"])}" download="{esc(filename)}" aria-label="{esc(DOWNLOAD_LABELS[lang])}: {title}">{esc(pdf_label)} ↓</a>'
     search=esc(' '.join([p['title'],' '.join(p['authors']),p['venue'],str(year)]))
     kindkey={'journal':'Journal article','conference':'Conference paper','preprint':'Preprint'}.get(p['kind'])
     kindlabel=text(kindkey,lang) if kindkey else c['other']
