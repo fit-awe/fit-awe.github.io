@@ -60,7 +60,7 @@ def latest_cards(records):
 
 
 def industry_cards():
-    return '<div class="industry-grid"><a class="industry-card" href="https://intentreach.ok.kimi.link" target="_blank" rel="noopener noreferrer"><h3 lang="zh-CN">意想触达</h3><span>Visit website ↗</span></a><div class="industry-card"><h3 lang="zh-CN">南曦控股</h3></div><div class="industry-card"><h3 lang="zh-CN">炽枢智域</h3></div></div>'
+    return '<div class="industry-grid"><a class="industry-card" href="https://intendreach.com" target="_blank" rel="noopener noreferrer"><h3 lang="zh-CN">意想触达</h3><span>Visit website ↗</span></a><div class="industry-card"><h3 lang="zh-CN">南曦控股</h3></div><div class="industry-card"><h3 lang="zh-CN">炽枢智域</h3></div></div>'
 
 
 def academic_lists(profile):
