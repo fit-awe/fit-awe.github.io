@@ -54,6 +54,7 @@ button, input { border-radius: 4px; }
 .lead-label { margin-bottom: 3px; color: var(--muted); font-size: 12px; line-height: 1.4; }
 .lead-identity h2 { margin-bottom: 4px; font-size: 23px; letter-spacing: -.3px; }
 .lead-role { margin-bottom: 8px; color: var(--muted); font-size: 15px; line-height: 1.4; }
+.lead-affiliation { margin: -4px 0 8px; color: var(--muted); font-size: 14px; line-height: 1.4; }
 .lead-contact { min-width: 0; font-size: 14px; line-height: 1.5; }
 .lead-email { display: inline-block; overflow-wrap: anywhere; }
 .lead-office { color: var(--muted); font-size: 13px; margin: 3px 0 5px; }
@@ -73,6 +74,7 @@ button, input { border-radius: 4px; }
 .academic-shortcuts { display: flex; flex-wrap: wrap; gap: 8px 24px; margin: 12px 0 0; font-size: 15px; }
 .academic-overview { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 48px; }
 .academic-overview > section { min-width: 0; }
+.academic-intro { margin: -10px 0 22px; font-size: 16px; line-height: 1.55; color: var(--muted); }
 .academic-group + .academic-group { margin-top: 28px; }
 .academic-group h3 { font-size: 18px; line-height: 1.45; margin-bottom: 14px; }
 .academic-list { list-style: none; padding: 0; margin: 0; }
