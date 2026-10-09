@@ -15,6 +15,8 @@
   const cards = [...root.querySelectorAll('.paper-card')];
   const normalize = value => value.normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLocaleLowerCase();
   const corpus = new Map(cards.map(card => [card, normalize(card.dataset.search)]));
+  const collaboratorQueries = new Map(Object.entries(JSON.parse(root.dataset.collaboratorQueries || '{}'))
+    .map(([name, id]) => [normalize(name).trim(), id]));
   const languages = [...document.querySelectorAll('.navbar .dropdown-menu a')]
     .map(link => ({ link, href: link.getAttribute('href') }));
   function readLocation() {
@@ -45,12 +47,15 @@
   }
   function filter(historyMode = 'replace') {
     const terms = normalize(search.value).trim().split(/\s+/).filter(Boolean);
+    const collaborator = collaboratorQueries.get(normalize(search.value).trim());
     let visible = 0;
     for (const card of cards) {
       const show = (!state.year || card.dataset.year === state.year)
         && (!state.type || card.dataset.kind === state.type)
         && (!state.topic || card.dataset.topics.split(' ').includes(state.topic))
-        && terms.every(term => corpus.get(card).includes(term));
+        && (collaborator
+          ? card.dataset.collaborators.split(' ').includes(collaborator)
+          : terms.every(term => corpus.get(card).includes(term)));
       card.hidden = !show;
       visible += Number(show);
     }

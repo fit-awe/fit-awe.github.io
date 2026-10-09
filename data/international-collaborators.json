@@ -1,0 +1,1976 @@
+{
+  "checked_on": "2026-10-09",
+  "collaborators": [
+    {
+      "id": "nilufar-baghaei",
+      "name": "Nilufar Baghaei",
+      "author_names": [
+        "Nilufar Baghaei"
+      ],
+      "role": "Associate Professor",
+      "institution": "The University of Queensland",
+      "country": "Australia",
+      "profile_url": "https://about.uq.edu.au/experts/34011",
+      "appointment_source": "https://about.uq.edu.au/experts/34011",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "2ecb07ef7106",
+        "4728d6bdd9d6",
+        "d1b39c59f953"
+      ],
+      "portrait": {
+        "path": "images/collaborators/nilufar-baghaei.jpg",
+        "source_url": "https://about.uq.edu.au/sites/default/files/profiles/34011.png",
+        "source_page": "https://about.uq.edu.au/experts/34011",
+        "width": 222,
+        "height": 222
+      },
+      "featured": false
+    },
+    {
+      "id": "wenge-xu",
+      "name": "Wenge Xu",
+      "author_names": [
+        "Wenge Xu"
+      ],
+      "role": "Senior Lecturer",
+      "institution": "Birmingham City University",
+      "country": "United Kingdom",
+      "profile_url": "https://www.bcu.ac.uk/subject-areas/computing/staff/wenge-xu",
+      "appointment_source": "https://www.bcu.ac.uk/subject-areas/computing/staff/wenge-xu",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "fba17610e7e7",
+        "65ae45d86f04",
+        "3aa8cbb09945"
+      ],
+      "portrait": {
+        "path": "images/collaborators/wenge-xu.png",
+        "source_url": "https://img.bcu.ac.uk/_bcuimages/wengexusmall-1-132882754625646895.png",
+        "source_page": "https://www.bcu.ac.uk/subject-areas/computing/staff/wenge-xu",
+        "width": 100,
+        "height": 150
+      },
+      "featured": false
+    },
+    {
+      "id": "kamran-sedig",
+      "name": "Kamran Sedig",
+      "author_names": [
+        "Kamran Sedig"
+      ],
+      "role": "Professor",
+      "institution": "Western University",
+      "country": "Canada",
+      "profile_url": "https://www.csd.uwo.ca/people/faculty/index.html",
+      "appointment_source": "https://www.csd.uwo.ca/people/faculty/index.html",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "37cac986ef6e",
+        "77d764607c60",
+        "d1b9981182b3"
+      ],
+      "portrait": {
+        "path": "images/collaborators/kamran-sedig.jpg",
+        "source_url": "https://www.csd.uwo.ca/img/people_images/faculty/sedig-120x150.jpg",
+        "source_page": "https://www.csd.uwo.ca/people/faculty/index.html",
+        "width": 120,
+        "height": 150
+      },
+      "featured": true,
+      "priority_source": "https://www.csd.uwo.ca/people/faculty/index.html"
+    },
+    {
+      "id": "vijayakumar-nanjappan",
+      "name": "Vijayakumar Nanjappan",
+      "author_names": [
+        "Vijayakumar Nanjappan",
+        "Nanjappan Vijayakumar"
+      ],
+      "role": "Lecturer / Assistant Professor",
+      "institution": "University College Cork",
+      "country": "Ireland",
+      "profile_url": "https://www.ucc.ie/en/compsci/people/",
+      "appointment_source": "https://www.ucc.ie/en/compsci/people/",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "2b6add2dfee6",
+        "08c7e0fee5d7",
+        "e053cfccfeab"
+      ],
+      "portrait": null,
+      "featured": false
+    },
+    {
+      "id": "konstantinos-papangelis",
+      "name": "Konstantinos Papangelis",
+      "author_names": [
+        "Konstantinos Papangelis"
+      ],
+      "role": "Associate Professor",
+      "institution": "Rochester Institute of Technology",
+      "country": "United States",
+      "profile_url": "https://www.rit.edu/directory/kxpigm-konstantinos-papangelis",
+      "appointment_source": "https://www.rit.edu/directory/kxpigm-konstantinos-papangelis",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "754810bc2a15",
+        "630a73479252",
+        "2dc8bd7fe2a4"
+      ],
+      "portrait": {
+        "path": "images/collaborators/konstantinos-papangelis.jpg",
+        "source_url": "https://claws.rit.edu/photos/getphotoid.php?Client=Marketing&UN=kxpigm&HASH=ece0101deffe18a142c04d28890d3990989147ca&T=1791534402",
+        "source_page": "https://www.rit.edu/directory/kxpigm-konstantinos-papangelis",
+        "width": 600,
+        "height": 600
+      },
+      "featured": false
+    },
+    {
+      "id": "pourang-irani",
+      "name": "Pourang Irani",
+      "author_names": [
+        "Pourang Irani"
+      ],
+      "role": "Professor",
+      "institution": "University of British Columbia (Okanagan)",
+      "country": "Canada",
+      "profile_url": "https://cmps.ok.ubc.ca/about/contact/pourang-irani/",
+      "appointment_source": "https://cmps.ok.ubc.ca/about/contact/pourang-irani/",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "fab788a7fd53",
+        "1ce0924948bb",
+        "f11532190c9c"
+      ],
+      "portrait": {
+        "path": "images/collaborators/pourang-irani.jpg",
+        "source_url": "https://cmps.ok.ubc.ca/wp-content/uploads/sites/118/2022/10/Pourang-Irani_400x600.jpg",
+        "source_page": "https://cmps.ok.ubc.ca/about/contact/pourang-irani/",
+        "width": 400,
+        "height": 600
+      },
+      "featured": true,
+      "priority_source": "https://cmps.ok.ubc.ca/about/contact/pourang-irani/"
+    },
+    {
+      "id": "huawei-tu",
+      "name": "Huawei Tu",
+      "author_names": [
+        "Huawei Tu"
+      ],
+      "role": "Senior Lecturer",
+      "institution": "La Trobe University",
+      "country": "Australia",
+      "profile_url": "https://scholars.latrobe.edu.au/htu",
+      "appointment_source": "https://scholars.latrobe.edu.au/htu",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "1d9ed0ec5045",
+        "6987ffd4d1f2",
+        "887682ec7169"
+      ],
+      "portrait": {
+        "path": "images/collaborators/huawei-tu.jpg",
+        "source_url": "https://scholars.latrobe.edu.au/htu/thumbnail",
+        "source_page": "https://scholars.latrobe.edu.au/htu",
+        "width": 180,
+        "height": 180
+      },
+      "featured": false
+    },
+    {
+      "id": "wolfgang-stuerzlinger",
+      "name": "Wolfgang Stuerzlinger",
+      "author_names": [
+        "Wolfgang Stuerzlinger"
+      ],
+      "role": "Professor",
+      "institution": "Simon Fraser University",
+      "country": "Canada",
+      "profile_url": "https://www.sfu.ca/siat/people/research-faculty/wolfgang-stuerzlinger.html",
+      "appointment_source": "https://www.sfu.ca/siat/people/research-faculty/wolfgang-stuerzlinger.html",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "923a05e236a1",
+        "346e49e43007",
+        "a1e35859ba8b"
+      ],
+      "portrait": {
+        "path": "images/collaborators/wolfgang-stuerzlinger.webp",
+        "source_url": "https://www.sfu.ca/content/dam/sfu/siat/People/Research_Faculty/Stuerzlinger_Wolfgang1.jpg",
+        "source_page": "https://www.sfu.ca/siat/people/research-faculty/wolfgang-stuerzlinger.html",
+        "width": 640,
+        "height": 427
+      },
+      "featured": true,
+      "priority_source": "https://www.sfu.ca/siat/people/research-faculty/wolfgang-stuerzlinger.html"
+    },
+    {
+      "id": "khalad-hasan",
+      "name": "Khalad Hasan",
+      "author_names": [
+        "Khalad Hasan"
+      ],
+      "role": "Associate Professor",
+      "institution": "University of British Columbia (Okanagan)",
+      "country": "Canada",
+      "profile_url": "https://gradstudies.ok.ubc.ca/about/contact/mohammad-khalad-hasan/",
+      "appointment_source": "https://gradstudies.ok.ubc.ca/about/contact/mohammad-khalad-hasan/",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "49450cb83fa8",
+        "952a123cc635",
+        "2b72c9e17fbb"
+      ],
+      "portrait": {
+        "path": "images/collaborators/khalad-hasan.jpg",
+        "source_url": "https://gradstudies.ok.ubc.ca/wp-content/uploads/sites/118/2024/04/Khalad-Hassan-400x600px.jpg",
+        "source_page": "https://gradstudies.ok.ubc.ca/about/contact/mohammad-khalad-hasan/",
+        "width": 400,
+        "height": 600
+      },
+      "featured": false
+    },
+    {
+      "id": "nazlena-mohamad-ali",
+      "name": "Nazlena Mohamad Ali",
+      "author_names": [
+        "Nazlena Mohamad Ali"
+      ],
+      "role": "Associate Professor",
+      "institution": "Universiti Kebangsaan Malaysia",
+      "country": "Malaysia",
+      "profile_url": "https://ivi.ukm.my/staff-directory/associate-prof-dr-nazlena-mohamad-ali/",
+      "appointment_source": "https://ivi.ukm.my/staff-directory/associate-prof-dr-nazlena-mohamad-ali/",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "978687470657",
+        "9e41a39a7fc8",
+        "16ae65bfd266"
+      ],
+      "portrait": {
+        "path": "images/collaborators/nazlena-mohamad-ali.jpg",
+        "source_url": "https://ivi.ukm.my/wp-content/uploads/Gambar-1.jpg",
+        "source_page": "https://ivi.ukm.my/staff-directory/associate-prof-dr-nazlena-mohamad-ali/",
+        "width": 500,
+        "height": 717
+      },
+      "featured": false
+    },
+    {
+      "id": "anil-ufuk-batmaz",
+      "name": "Anil Ufuk Batmaz",
+      "author_names": [
+        "Anil Ufuk Batmaz"
+      ],
+      "role": "Assistant Professor",
+      "institution": "Concordia University",
+      "country": "Canada",
+      "profile_url": "https://www.concordia.ca/faculty/anilufuk-batmaz.html",
+      "appointment_source": "https://www.concordia.ca/faculty/anilufuk-batmaz.html",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "923a05e236a1",
+        "95d7dab9080c",
+        "e6ee75b8e966"
+      ],
+      "portrait": {
+        "path": "images/collaborators/anil-ufuk-batmaz.png",
+        "source_url": "https://vvise.iat.sfu.ca/user/pages/02.people/15.old/02.anil-ufuk-batmaz/main.png",
+        "source_page": "https://vvise.iat.sfu.ca/people/old/anil-ufuk-batmaz",
+        "width": 129,
+        "height": 129
+      },
+      "featured": false
+    },
+    {
+      "id": "dominic-kao",
+      "name": "Dominic Kao",
+      "author_names": [
+        "Dominic Kao"
+      ],
+      "role": "Assistant Professor",
+      "institution": "University of Illinois Urbana-Champaign",
+      "country": "United States",
+      "profile_url": "https://siebelschool.illinois.edu/about/people/all-faculty/kalikao",
+      "appointment_source": "https://siebelschool.illinois.edu/about/people/all-faculty/kalikao",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "c424092a6fee",
+        "d205d1391d89",
+        "324c1c37ecf0"
+      ],
+      "portrait": {
+        "path": "images/collaborators/dominic-kao.jpg",
+        "source_url": "https://ws.engr.illinois.edu/directory/viewphoto/kalikao/1200",
+        "source_page": "https://siebelschool.illinois.edu/about/people/all-faculty/kalikao",
+        "width": 1200,
+        "height": 1600
+      },
+      "featured": false
+    },
+    {
+      "id": "ji-han",
+      "name": "Ji Han",
+      "author_names": [
+        "Ji Han"
+      ],
+      "role": "Associate Professor",
+      "institution": "University of Exeter",
+      "country": "United Kingdom",
+      "profile_url": "https://exeterindex.org/author/han/",
+      "appointment_source": "https://exeterindex.org/author/han/",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "2a9cedd6788d",
+        "c9e86635a1fe",
+        "034178539899"
+      ],
+      "portrait": {
+        "path": "images/collaborators/ji-han.png",
+        "source_url": "https://exeterindex.org/wp-content/uploads/2022/06/Ji-Han.png",
+        "source_page": "https://exeterindex.org/author/han/",
+        "width": 300,
+        "height": 300
+      },
+      "featured": false
+    },
+    {
+      "id": "john-naslund",
+      "name": "John A. Naslund",
+      "author_names": [
+        "John A. Naslund",
+        "John Naslund"
+      ],
+      "role": "Instructor",
+      "institution": "Harvard Medical School",
+      "country": "United States",
+      "profile_url": "https://ghsm.hms.harvard.edu/faculty-staff/john-naslund",
+      "appointment_source": "https://ghsm.hms.harvard.edu/faculty-staff/john-naslund",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "3a915a9251cf",
+        "caada2316680",
+        "988a63598a7f"
+      ],
+      "portrait": {
+        "path": "images/collaborators/john-naslund.webp",
+        "source_url": "https://ghsm.hms.harvard.edu/sites/default/files/profile-photos/Naslund%2C%20John.jpg",
+        "source_page": "https://ghsm.hms.harvard.edu/faculty-staff/john-naslund",
+        "width": 636,
+        "height": 640
+      },
+      "featured": false
+    },
+    {
+      "id": "per-ola-kristensson",
+      "name": "Per Ola Kristensson",
+      "author_names": [
+        "Per Ola Kristensson"
+      ],
+      "role": "Professor",
+      "institution": "University of Cambridge",
+      "country": "United Kingdom",
+      "profile_url": "https://www-edc.eng.cam.ac.uk/people/ola-kristensson",
+      "appointment_source": "https://www-edc.eng.cam.ac.uk/people/ola-kristensson",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "f385bb674a4c",
+        "6805d1fd6af4",
+        "6e71ab300f9d"
+      ],
+      "portrait": {
+        "path": "images/collaborators/per-ola-kristensson.jpg",
+        "source_url": "https://www-edc.eng.cam.ac.uk/sites/default/files/styles/3_4_sm/public/media/per_ola_kristensson_teaser.jpg?h=038a9462&itok=J8k-f6CH",
+        "source_page": "https://www-edc.eng.cam.ac.uk/people/ola-kristensson",
+        "width": 600,
+        "height": 800
+      },
+      "featured": true,
+      "priority_source": "https://www-edc.eng.cam.ac.uk/people/ola-kristensson"
+    },
+    {
+      "id": "mark-billinghurst",
+      "name": "Mark Billinghurst",
+      "author_names": [
+        "Mark Billinghurst"
+      ],
+      "role": "Professor",
+      "institution": "Adelaide University",
+      "country": "Australia",
+      "profile_url": "https://researchers.adelaide.edu.au/profile/mark.billinghurst",
+      "appointment_source": "https://researchers.adelaide.edu.au/profile/mark.billinghurst",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "935a6c0da3fe",
+        "3a915a9251cf",
+        "9c77fb80901d"
+      ],
+      "portrait": {
+        "path": "images/collaborators/mark-billinghurst.jpg",
+        "source_url": "https://researchers.adelaide.edu.au/sites/default/files/styles/profile_large/public/profile-images/37481.jpeg?itok=kJGpdXnv",
+        "source_page": "https://researchers.adelaide.edu.au/profile/mark.billinghurst",
+        "width": 860,
+        "height": 860
+      },
+      "featured": true,
+      "priority_source": "https://researchers.adelaide.edu.au/profile/mark.billinghurst"
+    },
+    {
+      "id": "katie-atkinson",
+      "name": "Katie Atkinson",
+      "author_names": [
+        "Katie Atkinson"
+      ],
+      "role": "Professor",
+      "institution": "University of Liverpool",
+      "country": "United Kingdom",
+      "profile_url": "https://www.liverpool.ac.uk/people/katie-marie-atkinson",
+      "appointment_source": "https://www.liverpool.ac.uk/people/katie-marie-atkinson",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "6e71ab300f9d",
+        "30ef007e7d81",
+        "1638ffee6dab"
+      ],
+      "portrait": {
+        "path": "images/collaborators/katie-atkinson.webp",
+        "source_url": "https://www.liverpool.ac.uk/people/katie-marie-atkinson/photo",
+        "source_page": "https://www.liverpool.ac.uk/people/katie-marie-atkinson",
+        "width": 720,
+        "height": 720
+      },
+      "featured": false
+    },
+    {
+      "id": "shan-luo",
+      "name": "Shan Luo",
+      "author_names": [
+        "Shan Luo"
+      ],
+      "role": "Professor",
+      "institution": "King’s College London",
+      "country": "United Kingdom",
+      "profile_url": "https://www.kcl.ac.uk/people/shan-luo",
+      "appointment_source": "https://www.kcl.ac.uk/people/shan-luo",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "1ce0924948bb",
+        "f40add804d4a",
+        "1504f86e91dd"
+      ],
+      "portrait": {
+        "path": "images/collaborators/shan-luo.webp",
+        "source_url": "https://www.kcl.ac.uk/newimages/nmes/person-profile-160x160/shan-luo.xfc7d04d4.JPG?w=160&h=195&crop=160,160,0,18&f=webp",
+        "source_page": "https://www.kcl.ac.uk/people/shan-luo",
+        "width": 160,
+        "height": 160
+      },
+      "featured": false
+    },
+    {
+      "id": "paul-parsons",
+      "name": "Paul Parsons",
+      "author_names": [
+        "Paul Parsons"
+      ],
+      "role": "Associate Professor",
+      "institution": "Purdue University",
+      "country": "United States",
+      "profile_url": "https://polytechnic.purdue.edu/profile/parsonsp",
+      "appointment_source": "https://polytechnic.purdue.edu/profile/parsonsp",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "eee67d337dbb",
+        "37cac986ef6e",
+        "6d463451ce1e"
+      ],
+      "portrait": {
+        "path": "images/collaborators/paul-parsons.png",
+        "source_url": "https://polytechnic.purdue.edu/sites/default/files/styles/headshot_500px_square/public/pictures/2024-09/PaulCParsons.png?itok=bLrz_7_f",
+        "source_page": "https://polytechnic.purdue.edu/profile/parsonsp",
+        "width": 500,
+        "height": 500
+      },
+      "featured": false
+    },
+    {
+      "id": "ioanna-lykourentzou",
+      "name": "Ioanna Lykourentzou",
+      "author_names": [
+        "Ioanna Lykourentzou"
+      ],
+      "role": "Associate Professor",
+      "institution": "Utrecht University",
+      "country": "Netherlands",
+      "profile_url": "https://www.uu.nl/staff/ILykourentzou",
+      "appointment_source": "https://www.uu.nl/staff/ILykourentzou",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "754810bc2a15",
+        "b6ed00c56832",
+        "463a639eaa64"
+      ],
+      "portrait": {
+        "path": "images/collaborators/ioanna-lykourentzou.jpg",
+        "source_url": "https://www.uu.nl/medewerkers/RestApi/Public/GetImage?Employee=37352&t=",
+        "source_page": "https://www.uu.nl/staff/ILykourentzou",
+        "width": 175,
+        "height": 212
+      },
+      "featured": false
+    },
+    {
+      "id": "barrett-ens",
+      "name": "Barrett Ens",
+      "author_names": [
+        "Barrett Ens"
+      ],
+      "role": "Associate Professor",
+      "institution": "University of British Columbia (Okanagan)",
+      "country": "Canada",
+      "profile_url": "https://cmps.ok.ubc.ca/about/contact/barrett-ens/",
+      "appointment_source": "https://cmps.ok.ubc.ca/about/contact/barrett-ens/",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "57a5b588476a",
+        "c83632462d8a",
+        "6d47d43788d3"
+      ],
+      "portrait": {
+        "path": "images/collaborators/barrett-ens.jpg",
+        "source_url": "https://cmps.ok.ubc.ca/wp-content/uploads/sites/118/2024/04/Barrett-Ens-400x600px.jpg",
+        "source_page": "https://cmps.ok.ubc.ca/about/contact/barrett-ens/",
+        "width": 400,
+        "height": 600
+      },
+      "featured": false
+    },
+    {
+      "id": "boyuan-chen",
+      "name": "Boyuan Chen",
+      "author_names": [
+        "Boyuan Chen"
+      ],
+      "role": "Assistant Professor",
+      "institution": "Duke University",
+      "country": "United States",
+      "profile_url": "https://robotics.duke.edu/faculty/boyuan-chen",
+      "appointment_source": "https://robotics.duke.edu/faculty/boyuan-chen",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "11f0a006c1c8",
+        "324c1c37ecf0",
+        "d55f3e76dadd"
+      ],
+      "portrait": {
+        "path": "images/collaborators/boyuan-chen.jpg",
+        "source_url": "https://robotics.duke.edu/sites/robotics.duke.edu/files/images/members/1239537.jpg",
+        "source_page": "https://robotics.duke.edu/faculty/boyuan-chen",
+        "width": 200,
+        "height": 200
+      },
+      "featured": false
+    },
+    {
+      "id": "julie-henry",
+      "name": "Julie D. Henry",
+      "author_names": [
+        "Julie D. Henry",
+        "Julie Henry"
+      ],
+      "role": "Professor",
+      "institution": "The University of Queensland",
+      "country": "Australia",
+      "profile_url": "https://about.uq.edu.au/experts/2589",
+      "appointment_source": "https://about.uq.edu.au/experts/2589",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "392e4ebb96fb",
+        "71f0aa15f07e",
+        "2e1c0b8ea47f"
+      ],
+      "portrait": {
+        "path": "images/collaborators/julie-henry.jpg",
+        "source_url": "https://about.uq.edu.au/sites/default/files/profiles/2589.jpeg",
+        "source_page": "https://about.uq.edu.au/experts/2589",
+        "width": 222,
+        "height": 222
+      },
+      "featured": false
+    },
+    {
+      "id": "xing-dong-yang",
+      "name": "Xing-Dong Yang",
+      "author_names": [
+        "Xing-Dong Yang"
+      ],
+      "role": "Associate Professor",
+      "institution": "Simon Fraser University",
+      "country": "Canada",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/xingdong_yang.html",
+      "appointment_source": "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/xingdong_yang.html",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "fef51ed39c13",
+        "c83632462d8a",
+        "6d47d43788d3"
+      ],
+      "portrait": {
+        "path": "images/collaborators/xing-dong-yang.jpg",
+        "source_url": "https://www.sfu.ca/content/dam/sfu/fas/schools/computing-science/faculty/XING-DONG YANG.jpg",
+        "source_page": "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/xingdong_yang.html",
+        "width": 275,
+        "height": 412
+      },
+      "featured": false
+    },
+    {
+      "id": "christos-mousas",
+      "name": "Christos Mousas",
+      "author_names": [
+        "Christos Mousas"
+      ],
+      "role": "Associate Professor",
+      "institution": "Purdue University",
+      "country": "United States",
+      "profile_url": "https://web.ics.purdue.edu/~cmousas/",
+      "appointment_source": "https://web.ics.purdue.edu/~cmousas/",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "c424092a6fee",
+        "d205d1391d89"
+      ],
+      "portrait": {
+        "path": "images/collaborators/christos-mousas.jpg",
+        "source_url": "https://web.ics.purdue.edu/~cmousas/images/christosMJT.jpg",
+        "source_page": "https://web.ics.purdue.edu/~cmousas/",
+        "width": 2048,
+        "height": 1450
+      },
+      "featured": false
+    },
+    {
+      "id": "jorge-goncalves",
+      "name": "Jorge Gonçalves",
+      "author_names": [
+        "Jorge Gonçalves"
+      ],
+      "role": "Associate Professor",
+      "institution": "The University of Melbourne",
+      "country": "Australia",
+      "profile_url": "https://www.jorgegoncalves.com/",
+      "appointment_source": "https://www.jorgegoncalves.com/",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "943ae277d068",
+        "b5838b0e21e8"
+      ],
+      "portrait": null,
+      "featured": false
+    },
+    {
+      "id": "meng-xia",
+      "name": "Meng Xia",
+      "author_names": [
+        "Meng Xia"
+      ],
+      "role": "Assistant Professor",
+      "institution": "Texas A&M University",
+      "country": "United States",
+      "profile_url": "https://engineering.tamu.edu/cse/profiles/xia-meng.html",
+      "appointment_source": "https://engineering.tamu.edu/cse/profiles/xia-meng.html",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "d5dfba639b67",
+        "ca1ed0c975b5"
+      ],
+      "portrait": {
+        "path": "images/collaborators/meng-xia.jpg",
+        "source_url": "https://engineering.tamu.edu/cse/_files/_images/_profile-images/xia-meng-profilepic-26jan2024.jpg",
+        "source_page": "https://engineering.tamu.edu/cse/profiles/xia-meng.html",
+        "width": 300,
+        "height": 400
+      },
+      "featured": false
+    },
+    {
+      "id": "xuhai-xu",
+      "name": "Xuhai Xu",
+      "author_names": [
+        "Xuhai Xu"
+      ],
+      "role": "Assistant Professor",
+      "institution": "Columbia University",
+      "country": "United States",
+      "profile_url": "https://www.vagelos.columbia.edu/profile/xuhai-o-xu-phd",
+      "appointment_source": "https://www.vagelos.columbia.edu/profile/xuhai-o-xu-phd",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "6805d1fd6af4",
+        "a0ed0a6ff08b"
+      ],
+      "portrait": {
+        "path": "images/collaborators/xuhai-xu.jpg",
+        "source_url": "https://www.vagelos.columbia.edu/sites/default/files/styles/cola_media_320/public/cups-profile/headshot/59ae4e40-9b3a-11f1-a02e-f9977b92a00f.jpg?itok=U_bqEvZX",
+        "source_page": "https://www.vagelos.columbia.edu/profile/xuhai-o-xu-phd",
+        "width": 320,
+        "height": 320
+      },
+      "featured": false
+    },
+    {
+      "id": "shengdong-zhao",
+      "name": "Shengdong Zhao",
+      "author_names": [
+        "Shengdong Zhao"
+      ],
+      "role": "Professor",
+      "institution": "City University of Hong Kong",
+      "country": "Hong Kong SAR, China",
+      "profile_url": "https://www.scm.cityu.edu.hk/people/zhao-shengdong",
+      "appointment_source": "https://www.scm.cityu.edu.hk/people/zhao-shengdong",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "826f5976baba",
+        "85c94bce24bb"
+      ],
+      "portrait": {
+        "path": "images/collaborators/shengdong-zhao.png",
+        "source_url": "https://www.scm.cityu.edu.hk/-/media/project/cityuhk/academic/scm/people/profile/shencityuprofile.png?rev=1f032415e57f40779ee1be82f86514ea&hash=9D51A331AB5EB5983B332285BA580FC5",
+        "source_page": "https://www.scm.cityu.edu.hk/people/zhao-shengdong",
+        "width": 315,
+        "height": 460
+      },
+      "featured": false
+    },
+    {
+      "id": "xiaojuan-ma",
+      "name": "Xiaojuan Ma",
+      "author_names": [
+        "Xiaojuan Ma"
+      ],
+      "role": "Associate Professor",
+      "institution": "The Hong Kong University of Science and Technology",
+      "country": "Hong Kong SAR, China",
+      "profile_url": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=xiaojuan-ma-mxj",
+      "appointment_source": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=xiaojuan-ma-mxj",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "23bbf1fac2b1",
+        "826f5976baba",
+        "d5dfba639b67"
+      ],
+      "portrait": {
+        "path": "images/collaborators/xiaojuan-ma.jpg",
+        "source_url": "https://facultyprofiles.hkust.edu.hk/profiles/images/P000001174.jpg",
+        "source_page": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=xiaojuan-ma-mxj",
+        "width": 260,
+        "height": 354
+      },
+      "featured": false
+    },
+    {
+      "id": "lu-liu",
+      "name": "Lu Liu",
+      "author_names": [
+        "Lu Liu"
+      ],
+      "role": "Honorary Professor",
+      "institution": "University of Leicester",
+      "country": "United Kingdom",
+      "profile_url": "https://le.ac.uk/people/lu-liu",
+      "appointment_source": "https://le.ac.uk/people/lu-liu",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "80358a4b27b3",
+        "db6f4808c45e"
+      ],
+      "portrait": null,
+      "featured": false
+    },
+    {
+      "id": "xiaosong-yang",
+      "name": "Xiaosong Yang",
+      "author_names": [
+        "Xiaosong Yang"
+      ],
+      "role": "Professor",
+      "institution": "Bournemouth University",
+      "country": "United Kingdom",
+      "profile_url": "https://staffprofiles.bournemouth.ac.uk/display/xyang",
+      "appointment_source": "https://staffprofiles.bournemouth.ac.uk/display/xyang",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "4775b55ae124",
+        "eeafd05c8652"
+      ],
+      "portrait": {
+        "path": "images/collaborators/xiaosong-yang.jpg",
+        "source_url": "https://staffprofiles.bournemouth.ac.uk/display/xyang/photo.png",
+        "source_page": "https://staffprofiles.bournemouth.ac.uk/display/xyang",
+        "width": 400,
+        "height": 490
+      },
+      "featured": false
+    },
+    {
+      "id": "jian-j-zhang",
+      "name": "Jian J. Zhang",
+      "author_names": [
+        "Jian J. Zhang",
+        "Jian Jun Zhang"
+      ],
+      "role": "Professor",
+      "institution": "Bournemouth University",
+      "country": "United Kingdom",
+      "profile_url": "https://staffprofiles.bournemouth.ac.uk/display/jjunzhang",
+      "appointment_source": "https://staffprofiles.bournemouth.ac.uk/display/jjunzhang",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "4775b55ae124",
+        "eeafd05c8652"
+      ],
+      "portrait": {
+        "path": "images/collaborators/jian-j-zhang.jpg",
+        "source_url": "https://staffprofiles.bournemouth.ac.uk/display/jjunzhang/photo.png",
+        "source_page": "https://staffprofiles.bournemouth.ac.uk/display/jjunzhang",
+        "width": 200,
+        "height": 216
+      },
+      "featured": false
+    },
+    {
+      "id": "richard-koeck",
+      "name": "Richard Koeck",
+      "author_names": [
+        "Richard Koeck"
+      ],
+      "role": "Professor",
+      "institution": "University of Liverpool",
+      "country": "United Kingdom",
+      "profile_url": "https://www.liverpool.ac.uk/people/richard-koeck",
+      "appointment_source": "https://www.liverpool.ac.uk/people/richard-koeck",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "7c4a6cf32044",
+        "bffb776102d4"
+      ],
+      "portrait": {
+        "path": "images/collaborators/richard-koeck.webp",
+        "source_url": "https://www.liverpool.ac.uk/people/richard-koeck/photo",
+        "source_page": "https://www.liverpool.ac.uk/people/richard-koeck",
+        "width": 720,
+        "height": 720
+      },
+      "featured": false
+    },
+    {
+      "id": "michael-saker",
+      "name": "Michael Saker",
+      "author_names": [
+        "Michael Saker"
+      ],
+      "role": "Reader",
+      "institution": "City St George’s, University of London",
+      "country": "United Kingdom",
+      "profile_url": "https://www.citystgeorges.ac.uk/about/people/academics/michael-saker",
+      "appointment_source": "https://www.citystgeorges.ac.uk/about/people/academics/michael-saker",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "754810bc2a15",
+        "463a639eaa64"
+      ],
+      "portrait": null,
+      "featured": false
+    },
+    {
+      "id": "sayan-sarcar",
+      "name": "Sayan Sarcar",
+      "author_names": [
+        "Sayan Sarcar"
+      ],
+      "role": "Lecturer",
+      "institution": "Birmingham City University",
+      "country": "United Kingdom",
+      "profile_url": "https://www.bcu.ac.uk/subject-areas/computing/staff/sayan-sarcar",
+      "appointment_source": "https://www.bcu.ac.uk/subject-areas/computing/staff/sayan-sarcar",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "ed0fbca459b0",
+        "f9fab994a0bd"
+      ],
+      "portrait": {
+        "path": "images/collaborators/sayan-sarcar.jpg",
+        "source_url": "https://img.bcu.ac.uk/_bcuimages/sayan-sarcar-profile-photo-133044296741325539.jpg?w=100",
+        "source_page": "https://www.bcu.ac.uk/subject-areas/computing/staff/sayan-sarcar",
+        "width": 100,
+        "height": 150
+      },
+      "featured": false
+    },
+    {
+      "id": "craig-anslow",
+      "name": "Craig Anslow",
+      "author_names": [
+        "Craig Anslow"
+      ],
+      "role": "Senior Lecturer",
+      "institution": "Victoria University of Wellington",
+      "country": "New Zealand",
+      "profile_url": "https://homepages.ecs.vuw.ac.nz/~craig/",
+      "appointment_source": "https://homepages.ecs.vuw.ac.nz/~craig/",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "935a6c0da3fe"
+      ],
+      "portrait": {
+        "path": "images/collaborators/craig-anslow.png",
+        "source_url": "https://homepages.ecs.vuw.ac.nz/~craig/craig-anslow-xr.png",
+        "source_page": "https://homepages.ecs.vuw.ac.nz/~craig/",
+        "width": 300,
+        "height": 369
+      },
+      "featured": false
+    },
+    {
+      "id": "frank-maurer",
+      "name": "Frank Maurer",
+      "author_names": [
+        "Frank Maurer"
+      ],
+      "role": "Professor",
+      "institution": "University of Calgary",
+      "country": "Canada",
+      "profile_url": "https://profiles.ucalgary.ca/frank-maurer",
+      "appointment_source": "https://profiles.ucalgary.ca/frank-maurer",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "935a6c0da3fe"
+      ],
+      "portrait": {
+        "path": "images/collaborators/frank-maurer.jpg",
+        "source_url": "https://profiles.ucalgary.ca/sites/default/files/styles/ucws_profile_picture/public/2021-09/Frank-Maurer-bio.jpg?itok=Ee4zFC98",
+        "source_page": "https://profiles.ucalgary.ca/frank-maurer",
+        "width": 260,
+        "height": 320
+      },
+      "featured": false
+    },
+    {
+      "id": "hans-christian-jetter",
+      "name": "Hans-Christian Jetter",
+      "author_names": [
+        "Hans-Christian Jetter"
+      ],
+      "role": "Professor",
+      "institution": "University of Lübeck",
+      "country": "Germany",
+      "profile_url": "https://www.imis.uni-luebeck.de/en/institut/team/hans-christian-jetter",
+      "appointment_source": "https://www.imis.uni-luebeck.de/en/institut/team/hans-christian-jetter",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "935a6c0da3fe"
+      ],
+      "portrait": {
+        "path": "images/collaborators/hans-christian-jetter.jpg",
+        "source_url": "https://www.imis.uni-luebeck.de/sites/default/files/styles/big_square/public/2020-09/Hans-Christian_Jetter_P1044498_0.jpg?itok=n2rE0LzL",
+        "source_page": "https://www.imis.uni-luebeck.de/en/institut/team/hans-christian-jetter",
+        "width": 200,
+        "height": 200
+      },
+      "featured": false
+    },
+    {
+      "id": "daniel-roth",
+      "name": "Daniel Roth",
+      "author_names": [
+        "Daniel Roth"
+      ],
+      "role": "Professor",
+      "institution": "Technical University of Munich",
+      "country": "Germany",
+      "profile_url": "https://www.professoren.tum.de/en/roth-daniel",
+      "appointment_source": "https://www.professoren.tum.de/en/roth-daniel",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "935a6c0da3fe"
+      ],
+      "portrait": {
+        "path": "images/collaborators/daniel-roth.jpg",
+        "source_url": "https://www.professoren.tum.de/fileadmin/w00bgr/www/pics/Roth_Daniel.jpg",
+        "source_page": "https://www.professoren.tum.de/en/roth-daniel",
+        "width": 140,
+        "height": 180
+      },
+      "featured": false
+    },
+    {
+      "id": "christoph-anthes",
+      "name": "Christoph Anthes",
+      "author_names": [
+        "Christoph Anthes"
+      ],
+      "role": "Professor",
+      "institution": "University of Applied Sciences Upper Austria",
+      "country": "Austria",
+      "profile_url": "https://pure.fh-ooe.at/en/persons/christoph-anthes/",
+      "appointment_source": "https://pure.fh-ooe.at/en/persons/christoph-anthes/",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "935a6c0da3fe"
+      ],
+      "portrait": {
+        "path": "images/collaborators/christoph-anthes.jpg",
+        "source_url": "https://pure.fh-ooe.at/files-asset/28110809/canthes_webpage.jpg?w=160&f=jpg",
+        "source_page": "https://pure.fh-ooe.at/en/persons/christoph-anthes/",
+        "width": 160,
+        "height": 191
+      },
+      "featured": false
+    },
+    {
+      "id": "jan-gugenheimer",
+      "name": "Jan Gugenheimer",
+      "author_names": [
+        "Jan Gugenheimer"
+      ],
+      "role": "Assistant Professor",
+      "institution": "Technical University of Darmstadt",
+      "country": "Germany",
+      "profile_url": "https://gugenheimer.com/",
+      "appointment_source": "https://gugenheimer.com/",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "be2b6ffaeccb"
+      ],
+      "portrait": {
+        "path": "images/collaborators/jan-gugenheimer.webp",
+        "source_url": "https://www.informatik.tu-darmstadt.de/media/hci/people_3/Screenshot_2025-04-12_at_10.40.06PM_0x415.png",
+        "source_page": "https://www.informatik.tu-darmstadt.de/hci/hci_tuda/team_hci/details_122048.en.jsp",
+        "width": 608,
+        "height": 415
+      },
+      "featured": false
+    },
+    {
+      "id": "florian-mueller",
+      "name": "Florian 'Floyd' Mueller",
+      "author_names": [
+        "Florian 'Floyd' Mueller",
+        "Florian'Floyd' Mueller",
+        "Florian Mueller"
+      ],
+      "role": "Professor",
+      "institution": "Monash University",
+      "country": "Australia",
+      "profile_url": "https://research.monash.edu/en/persons/floyd-mueller/",
+      "appointment_source": "https://research.monash.edu/en/persons/floyd-mueller/",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "1bd56ba7cf7d"
+      ],
+      "portrait": {
+        "path": "images/collaborators/florian-mueller.jpg",
+        "source_url": "https://research.monash.edu/files-asset/330276719/florian_floyd_mueller.png?w=160&f=jpg",
+        "source_page": "https://research.monash.edu/en/persons/floyd-mueller/",
+        "width": 160,
+        "height": 190
+      },
+      "featured": false
+    },
+    {
+      "id": "tilman-dingler",
+      "name": "Tilman Dingler",
+      "author_names": [
+        "Tilman Dingler"
+      ],
+      "role": "Associate Professor",
+      "institution": "Delft University of Technology",
+      "country": "Netherlands",
+      "profile_url": "https://research.tudelft.nl/en/persons/tilman-dingler/",
+      "appointment_source": "https://research.tudelft.nl/en/persons/tilman-dingler/",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "943ae277d068"
+      ],
+      "portrait": {
+        "path": "images/collaborators/tilman-dingler.jpg",
+        "source_url": "https://research.tudelft.nl/files-asset/176411523/tilman.jpg?w=160&f=jpg",
+        "source_page": "https://research.tudelft.nl/en/persons/tilman-dingler/",
+        "width": 160,
+        "height": 141
+      },
+      "featured": false
+    },
+    {
+      "id": "richard-skarbez",
+      "name": "Richard Skarbez",
+      "author_names": [
+        "Richard Skarbez"
+      ],
+      "role": "Senior Lecturer",
+      "institution": "La Trobe University",
+      "country": "Australia",
+      "profile_url": "https://scholars.latrobe.edu.au/rskarbez",
+      "appointment_source": "https://scholars.latrobe.edu.au/rskarbez",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "e55800612bb8"
+      ],
+      "portrait": {
+        "path": "images/collaborators/richard-skarbez.jpg",
+        "source_url": "https://scholars.latrobe.edu.au/rskarbez/thumbnail",
+        "source_page": "https://scholars.latrobe.edu.au/rskarbez",
+        "width": 180,
+        "height": 180
+      },
+      "featured": false
+    },
+    {
+      "id": "pan-hui",
+      "name": "Pan Hui",
+      "author_names": [
+        "Pan Hui"
+      ],
+      "role": "Chair Professor",
+      "institution": "The Hong Kong University of Science and Technology / HKUST(GZ)",
+      "country": "Hong Kong SAR, China",
+      "profile_url": "https://panhui.people.ust.hk/",
+      "appointment_source": "https://panhui.people.ust.hk/",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "1d9ed0ec5045",
+        "af2c265a9793",
+        "f54dd5cfc9cc"
+      ],
+      "portrait": {
+        "path": "images/collaborators/pan-hui.jpg",
+        "source_url": "https://panhui.people.ust.hk/images/ben3.jpg",
+        "source_page": "https://panhui.people.ust.hk/",
+        "width": 187,
+        "height": 230
+      },
+      "featured": true,
+      "priority_source": "https://panhui.people.ust.hk/"
+    },
+    {
+      "id": "pierre-boulanger",
+      "name": "Pierre Boulanger",
+      "author_names": [
+        "Pierre Boulanger"
+      ],
+      "role": "Professor Emeritus",
+      "institution": "University of Alberta",
+      "country": "Canada",
+      "profile_url": "https://webdocs.cs.ualberta.ca/~pierreb/",
+      "appointment_source": "https://webdocs.cs.ualberta.ca/~pierreb/",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "c83632462d8a",
+        "6d47d43788d3"
+      ],
+      "portrait": {
+        "path": "images/collaborators/pierre-boulanger.jpg",
+        "source_url": "https://webdocs.cs.ualberta.ca/~pierreb/index_files/image003.jpg",
+        "source_page": "https://webdocs.cs.ualberta.ca/~pierreb/",
+        "width": 348,
+        "height": 387
+      },
+      "featured": false
+    },
+    {
+      "id": "massimo-mecella",
+      "name": "Massimo Mecella",
+      "author_names": [
+        "Massimo Mecella"
+      ],
+      "role": "Professor",
+      "institution": "Sapienza University of Rome",
+      "country": "Italy",
+      "profile_url": "https://www.diag.uniroma1.it/users/massimo_mecella",
+      "appointment_source": "https://www.diag.uniroma1.it/users/massimo_mecella",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "f92aa03cd0a7"
+      ],
+      "portrait": {
+        "path": "images/collaborators/massimo-mecella.jpg",
+        "source_url": "https://www.diag.uniroma1.it/sites/default/files/styles/ridimensiona_hpport/public/pictures/picture-1201-1568898690.jpg?itok=Qj5Bro8R",
+        "source_page": "https://www.diag.uniroma1.it/users/massimo_mecella",
+        "width": 320,
+        "height": 214
+      },
+      "featured": false
+    },
+    {
+      "id": "george-gadanidis",
+      "name": "George Gadanidis",
+      "author_names": [
+        "George Gadanidis"
+      ],
+      "role": "Professor",
+      "institution": "Western University",
+      "country": "Canada",
+      "profile_url": "https://www.edu.uwo.ca/about/faculty-profiles/george-gadanidis.html",
+      "appointment_source": "https://www.edu.uwo.ca/about/faculty-profiles/george-gadanidis.html",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "ff2e3a9655c0"
+      ],
+      "portrait": {
+        "path": "images/collaborators/george-gadanidis.jpg",
+        "source_url": "https://www.edu.uwo.ca/about/faculty-profiles/george-gadanidis/george-gadanidis_200x200.jpg",
+        "source_page": "https://www.edu.uwo.ca/about/faculty-profiles/index.html",
+        "width": 200,
+        "height": 200
+      },
+      "featured": false
+    },
+    {
+      "id": "maurizio-caon",
+      "name": "Maurizio Caon",
+      "author_names": [
+        "Maurizio Caon"
+      ],
+      "role": "Professor",
+      "institution": "School of Management Fribourg, HES-SO",
+      "country": "Switzerland",
+      "profile_url": "https://www.heg-fr.ch/fr/la-heg-fr/personnes/maurizio-caon/",
+      "appointment_source": "https://www.heg-fr.ch/fr/la-heg-fr/personnes/maurizio-caon/",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "c0123e22b50c",
+        "f92aa03cd0a7",
+        "93cb1f81c0d7"
+      ],
+      "portrait": {
+        "path": "images/collaborators/maurizio-caon.png",
+        "source_url": "https://www.heg-fr.ch/media/g4opghyu/caonmaurizio.png?rxy=0.47323816470424784,0.45731883806282053&width=438&height=545&v=1dd13823baca7b0",
+        "source_page": "https://www.heg-fr.ch/fr/la-heg-fr/personnes/maurizio-caon/",
+        "width": 438,
+        "height": 545
+      },
+      "featured": false
+    },
+    {
+      "id": "celine-latulipe",
+      "name": "Celine Latulipe",
+      "author_names": [
+        "Celine Latulipe"
+      ],
+      "role": "Professor",
+      "institution": "University of Manitoba",
+      "country": "Canada",
+      "profile_url": "https://hci.cs.umanitoba.ca/people/bio/celine-latulipe",
+      "appointment_source": "https://hci.cs.umanitoba.ca/people/bio/celine-latulipe",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "f11532190c9c"
+      ],
+      "portrait": {
+        "path": "images/collaborators/celine-latulipe.jpg",
+        "source_url": "https://hci.cs.umanitoba.ca/assets/images/people/_bio/Celine_Latulipe_profile.jpg",
+        "source_page": "https://hci.cs.umanitoba.ca/people/bio/celine-latulipe",
+        "width": 200,
+        "height": 218
+      },
+      "featured": false
+    },
+    {
+      "id": "rabindra-ratan",
+      "name": "Rabindra A. Ratan",
+      "author_names": [
+        "Rabindra A. Ratan"
+      ],
+      "role": "Professor",
+      "institution": "Michigan State University",
+      "country": "United States",
+      "profile_url": "https://comartsci.msu.edu/our-people/rabindra-ratan",
+      "appointment_source": "https://comartsci.msu.edu/our-people/rabindra-ratan",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "d205d1391d89"
+      ],
+      "portrait": {
+        "path": "images/collaborators/rabindra-ratan.png",
+        "source_url": "https://comartsci.msu.edu/sites/default/files/2025-08/%2B%20Robby%20VR%20MP%20280.png",
+        "source_page": "https://comartsci.msu.edu/our-people/rabindra-ratan",
+        "width": 280,
+        "height": 280
+      },
+      "featured": false
+    },
+    {
+      "id": "ben-matthews",
+      "name": "Ben Matthews",
+      "author_names": [
+        "Ben Matthews"
+      ],
+      "role": "Associate Professor",
+      "institution": "The University of Queensland",
+      "country": "Australia",
+      "profile_url": "https://about.uq.edu.au/experts/646",
+      "appointment_source": "https://about.uq.edu.au/experts/646",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "392e4ebb96fb"
+      ],
+      "portrait": {
+        "path": "images/collaborators/ben-matthews.jpg",
+        "source_url": "https://about.uq.edu.au/sites/default/files/profiles/646.jpeg",
+        "source_page": "https://about.uq.edu.au/experts/646",
+        "width": 222,
+        "height": 222
+      },
+      "featured": false
+    },
+    {
+      "id": "tomas-krilavicius",
+      "name": "Tomas Krilavičius",
+      "author_names": [
+        "Tomas Krilavičius"
+      ],
+      "role": "Professor",
+      "institution": "Vytautas Magnus University",
+      "country": "Lithuania",
+      "profile_url": "https://www.vdu.lt/cris/entities/person/0176b3b8-f1b3-4e48-9fff-c0e8d5318b79",
+      "appointment_source": "https://www.vdu.lt/cris/entities/person/0176b3b8-f1b3-4e48-9fff-c0e8d5318b79",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "922df451c0d8",
+        "855b4eb9534e",
+        "180b48da71c3"
+      ],
+      "portrait": null,
+      "featured": false
+    },
+    {
+      "id": "oyewole-oyekoya",
+      "name": "Oyewole Oyekoya",
+      "author_names": [
+        "Oyewole Oyekoya"
+      ],
+      "role": "Associate Professor",
+      "institution": "City University of New York",
+      "country": "United States",
+      "profile_url": "https://www.gc.cuny.edu/people/oyewole-oyekoya",
+      "appointment_source": "https://www.gc.cuny.edu/people/oyewole-oyekoya",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "3a915a9251cf"
+      ],
+      "portrait": {
+        "path": "images/collaborators/oyewole-oyekoya.jpg",
+        "source_url": "https://www.gc.cuny.edu/sites/default/files/styles/300x370/public/profile_migration/Oyewole-Oyekoya.jpg?h=dba754c1&itok=6fg008Ah",
+        "source_page": "https://www.gc.cuny.edu/sites/default/files/styles/300x370/public/profile_migration/Oyewole-Oyekoya.jpg?h=dba754c1&itok=6fg008Ah",
+        "width": 300,
+        "height": 370
+      },
+      "featured": false
+    },
+    {
+      "id": "sebastian-von-mammen",
+      "name": "Sebastian von Mammen",
+      "author_names": [
+        "Sebastian von Mammen"
+      ],
+      "role": "Associate Professor",
+      "institution": "University of Würzburg",
+      "country": "Germany",
+      "profile_url": "https://hci.uni-wuerzburg.de/people/sebastian-von-mammen/",
+      "appointment_source": "https://hci.uni-wuerzburg.de/people/sebastian-von-mammen/",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "dd33e38b96b3"
+      ],
+      "portrait": {
+        "path": "images/collaborators/sebastian-von-mammen.webp",
+        "source_url": "https://hci.uni-wuerzburg.de/assets/images/1688/people/sebastian_von_mammen.jpg",
+        "source_page": "https://hci.uni-wuerzburg.de/people/sebastian-von-mammen/",
+        "width": 427,
+        "height": 640
+      },
+      "featured": false
+    },
+    {
+      "id": "adam-wojciechowski",
+      "name": "Adam Wojciechowski",
+      "author_names": [
+        "Adam Wojciechowski"
+      ],
+      "role": "Professor",
+      "institution": "Lodz University of Technology",
+      "country": "Poland",
+      "profile_url": "https://ftims.edu.p.lodz.pl/user/profile.php?id=324&lang=en",
+      "appointment_source": "https://ftims.edu.p.lodz.pl/user/profile.php?id=324&lang=en",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "23eb6f1f3334"
+      ],
+      "portrait": null,
+      "featured": false
+    },
+    {
+      "id": "salvatore-livatino",
+      "name": "Salvatore Livatino",
+      "author_names": [
+        "Salvatore Livatino"
+      ],
+      "role": "Professor",
+      "institution": "University of Hertfordshire",
+      "country": "United Kingdom",
+      "profile_url": "https://researchprofiles.herts.ac.uk/en/persons/salvatore-livatino/",
+      "appointment_source": "https://researchprofiles.herts.ac.uk/en/persons/salvatore-livatino/",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "23eb6f1f3334"
+      ],
+      "portrait": {
+        "path": "images/collaborators/salvatore-livatino.jpg",
+        "source_url": "https://researchprofiles.herts.ac.uk/files-asset/74097945/SL_portrait_2025-2-cut35.png?w=160&f=jpg",
+        "source_page": "https://researchprofiles.herts.ac.uk/en/persons/salvatore-livatino/",
+        "width": 160,
+        "height": 213
+      },
+      "featured": false
+    },
+    {
+      "id": "carsten-maple",
+      "name": "Carsten Maple",
+      "author_names": [
+        "Carsten Maple"
+      ],
+      "role": "Professor",
+      "institution": "University of Warwick",
+      "country": "United Kingdom",
+      "profile_url": "https://warwick.ac.uk/fac/cross_fac/copr/people/",
+      "appointment_source": "https://warwick.ac.uk/fac/cross_fac/copr/people/",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "4c6fca440ad1"
+      ],
+      "portrait": {
+        "path": "images/collaborators/carsten-maple.jpg",
+        "source_url": "https://warwick.ac.uk/fac/cross_fac/copr/people/carsten_maple.jpg",
+        "source_page": "https://warwick.ac.uk/fac/cross_fac/copr/people/",
+        "width": 200,
+        "height": 200
+      },
+      "featured": false
+    },
+    {
+      "id": "evangelia-demerouti",
+      "name": "Evangelia Demerouti",
+      "author_names": [
+        "Evangelia Demerouti"
+      ],
+      "role": "Professor",
+      "institution": "Eindhoven University of Technology",
+      "country": "Netherlands",
+      "profile_url": "https://research.tue.nl/en/persons/evangelia-demerouti/",
+      "appointment_source": "https://research.tue.nl/en/persons/evangelia-demerouti/",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "b6ed00c56832"
+      ],
+      "portrait": {
+        "path": "images/collaborators/evangelia-demerouti.jpg",
+        "source_url": "https://research.tue.nl/files-asset/295827538/Demerouti_Evangelia_IEIS_HGL_PO_AS_4859.jpg?w=160&f=jpg",
+        "source_page": "https://research.tue.nl/en/persons/evangelia-demerouti/",
+        "width": 160,
+        "height": 200
+      },
+      "featured": false
+    },
+    {
+      "id": "weidong-huang",
+      "name": "Weidong Huang",
+      "author_names": [
+        "Weidong Huang"
+      ],
+      "role": "Associate Professor",
+      "institution": "University of Technology Sydney",
+      "country": "Australia",
+      "profile_url": "https://www.weidonghuang.info/",
+      "appointment_source": "https://www.weidonghuang.info/",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "4da91e706179"
+      ],
+      "portrait": {
+        "path": "images/collaborators/weidong-huang.png",
+        "source_url": "https://www.polyu.edu.hk/rccat/-/media/department/rccat/people/weidong-huan.png?bc=ffffff&h=430&w=280&rev=6e74f884ebb9448ba2cba2c1d29a3232&hash=AC09131122ACE16EA7CEDB7BF513D7D9",
+        "source_page": "https://www.polyu.edu.hk/rccat/People/People/People-Listing-Page/Weidong-Huang",
+        "width": 280,
+        "height": 430
+      },
+      "featured": false
+    },
+    {
+      "id": "xiaodong-li",
+      "name": "Xiaodong Li",
+      "author_names": [
+        "Xiaodong Li"
+      ],
+      "role": "Professor",
+      "institution": "RMIT University",
+      "country": "Australia",
+      "profile_url": "https://academics.rmit.edu.au/xiaodong-li",
+      "appointment_source": "https://academics.rmit.edu.au/xiaodong-li",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "3ff582ec245b"
+      ],
+      "portrait": {
+        "path": "images/collaborators/xiaodong-li.webp",
+        "source_url": "https://academics.rmit.edu.au/xiaodong-li/thumbnail",
+        "source_page": "https://academics.rmit.edu.au/xiaodong-li",
+        "width": 180,
+        "height": 180
+      },
+      "featured": false
+    },
+    {
+      "id": "elena-mugellini",
+      "name": "Elena Mugellini",
+      "author_names": [
+        "Elena Mugellini"
+      ],
+      "role": "Professor",
+      "institution": "School of Engineering and Architecture Fribourg, HES-SO",
+      "country": "Switzerland",
+      "profile_url": "https://www.heia-fr.ch/fr/recherche-appliquee/instituts/humantech/actualite/portrait-de-chercheuse-elena-mugellini/",
+      "appointment_source": "https://www.heia-fr.ch/fr/recherche-appliquee/instituts/humantech/actualite/portrait-de-chercheuse-elena-mugellini/",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "f92aa03cd0a7"
+      ],
+      "portrait": {
+        "path": "images/collaborators/elena-mugellini.jpg",
+        "source_url": "https://www.heia-fr.ch/media/5ltnfsgx/elena-mugellini.jpg",
+        "source_page": "https://www.heia-fr.ch/fr/recherche-appliquee/instituts/humantech/actualite/portrait-de-chercheuse-elena-mugellini/",
+        "width": 2000,
+        "height": 2000
+      },
+      "featured": false
+    },
+    {
+      "id": "omar-abou-khaled",
+      "name": "Omar Abou Khaled",
+      "author_names": [
+        "Omar Abou Khaled"
+      ],
+      "role": "Professor",
+      "institution": "School of Engineering and Architecture Fribourg, HES-SO",
+      "country": "Switzerland",
+      "profile_url": "https://people.hes-so.ch/fr/profile/4041406-omar-abou-khaled",
+      "appointment_source": "https://people.hes-so.ch/fr/profile/4041406-omar-abou-khaled",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "f92aa03cd0a7"
+      ],
+      "portrait": {
+        "path": "images/collaborators/omar-abou-khaled.jpg",
+        "source_url": "https://people.hes-so.ch/profile/4041406-omar-abou-khaled/image/?1791536508",
+        "source_page": "https://people.hes-so.ch/fr/profile/4041406-omar-abou-khaled",
+        "width": 715,
+        "height": 1024
+      },
+      "featured": false
+    },
+    {
+      "id": "imran-khaliq",
+      "name": "Imran Khaliq",
+      "author_names": [
+        "Imran Khaliq"
+      ],
+      "role": "Senior Lecturer",
+      "institution": "University of Waikato",
+      "country": "New Zealand",
+      "profile_url": "https://profiles.waikato.ac.nz/imran.khaliq",
+      "appointment_source": "https://profiles.waikato.ac.nz/imran.khaliq",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "9c77fb80901d",
+        "6a7e4a888302",
+        "a5c099f8ae49"
+      ],
+      "portrait": {
+        "path": "images/collaborators/imran-khaliq.png",
+        "source_url": "https://profiles.waikato.ac.nz/imran.khaliq/thumbnail",
+        "source_page": "https://profiles.waikato.ac.nz/imran.khaliq",
+        "width": 180,
+        "height": 180
+      },
+      "featured": false
+    },
+    {
+      "id": "abraham-campbell",
+      "name": "Abraham G. Campbell",
+      "author_names": [
+        "Abraham G. Campbell"
+      ],
+      "role": "Assistant Professor",
+      "institution": "University College Dublin",
+      "country": "Ireland",
+      "profile_url": "https://people.ucd.ie/abey.campbell",
+      "appointment_source": "https://fh-ooe.at/en/campus-hagenberg/events/summer-school-on-cross-reality",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "935a6c0da3fe"
+      ],
+      "portrait": null,
+      "featured": false
+    },
+    {
+      "id": "pedro-lopes",
+      "name": "Pedro Lopes",
+      "author_names": [
+        "Pedro Lopes"
+      ],
+      "role": "Associate Professor",
+      "institution": "University of Chicago",
+      "country": "United States",
+      "profile_url": "https://cs.uchicago.edu/people/pedro-lopes/",
+      "appointment_source": "https://cs.uchicago.edu/people/pedro-lopes/",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "4da91e706179"
+      ],
+      "portrait": {
+        "path": "images/collaborators/pedro-lopes.webp",
+        "source_url": "https://cs.uchicago.edu/wp-content/uploads/2023/03/PLopes-1.png",
+        "source_page": "https://cs.uchicago.edu/people/pedro-lopes/",
+        "width": 481,
+        "height": 514
+      },
+      "featured": false
+    },
+    {
+      "id": "lik-hang-lee",
+      "name": "Lik-Hang Lee",
+      "author_names": [
+        "Lik-Hang Lee"
+      ],
+      "role": "Assistant Professor",
+      "institution": "The Hong Kong Polytechnic University",
+      "country": "Hong Kong SAR, China",
+      "profile_url": "https://www.lhlee.com/",
+      "appointment_source": "https://www.lhlee.com/",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "4c7cebd64fdf",
+        "1db113e23876"
+      ],
+      "portrait": {
+        "path": "images/collaborators/lik-hang-lee.jpg",
+        "source_url": "https://static.wixstatic.com/media/9fdea4_a42dd9650af4431ca4190ed77a71d8d6~mv2.jpg",
+        "source_page": "https://www.lhlee.com/",
+        "width": 600,
+        "height": 600
+      },
+      "featured": false
+    },
+    {
+      "id": "nancy-diniz",
+      "name": "Nancy Diniz",
+      "author_names": [
+        "Nancy Diniz"
+      ],
+      "role": "Course Leader",
+      "institution": "University of the Arts London",
+      "country": "United Kingdom",
+      "profile_url": "https://www.arts.ac.uk/colleges/central-saint-martins/people/nancy-diniz",
+      "appointment_source": "https://www.arts.ac.uk/colleges/central-saint-martins/people/nancy-diniz",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "4bd5f7b69bc2",
+        "82a0fb3233d7",
+        "d7f3726787ad"
+      ],
+      "portrait": null,
+      "featured": false
+    },
+    {
+      "id": "ilesanmi-olade",
+      "name": "Ilesanmi Olade",
+      "author_names": [
+        "Ilesanmi Olade",
+        "Olade Ilesanmi"
+      ],
+      "role": "Lecturer",
+      "institution": "Queen’s University Belfast",
+      "country": "United Kingdom",
+      "profile_url": "https://www.qub.ac.uk/research-centres/ces/WhoWeAre/",
+      "appointment_source": "https://www.qub.ac.uk/research-centres/ces/WhoWeAre/",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "3f9ca45355ce",
+        "1ca027384cb5",
+        "94ed4bf2c5e8"
+      ],
+      "portrait": null,
+      "featured": false
+    },
+    {
+      "id": "richard-porter",
+      "name": "Richard Porter",
+      "author_names": [
+        "Richard Porter"
+      ],
+      "role": "Professor",
+      "institution": "University of Otago",
+      "country": "New Zealand",
+      "profile_url": "https://www.otago.ac.nz/healthsciences/expertise/profile?id=111",
+      "appointment_source": "https://www.otago.ac.nz/healthsciences/expertise/profile?id=111",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "71f0aa15f07e",
+        "2e1c0b8ea47f",
+        "caada2316680"
+      ],
+      "portrait": null,
+      "featured": false
+    },
+    {
+      "id": "eduardo-velloso",
+      "name": "Eduardo Velloso",
+      "author_names": [
+        "Eduardo Velloso"
+      ],
+      "role": "Professor",
+      "institution": "The University of Sydney",
+      "country": "Australia",
+      "profile_url": "https://www.eduardovelloso.com/bio.html",
+      "appointment_source": "https://www.eduardovelloso.com/bio.html",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "943ae277d068"
+      ],
+      "portrait": {
+        "path": "images/collaborators/eduardo-velloso.webp",
+        "source_url": "https://www.eduardovelloso.com/assets/img/eduardo_profile.png",
+        "source_page": "https://www.eduardovelloso.com/bio.html",
+        "width": 427,
+        "height": 640
+      },
+      "featured": false
+    },
+    {
+      "id": "henry-duh",
+      "name": "Henry Duh",
+      "author_names": [
+        "Henry Duh",
+        "Henry Been-Lirn Duh",
+        "Been-Lirn Duh"
+      ],
+      "role": "Professor",
+      "institution": "The Hong Kong Polytechnic University",
+      "country": "Hong Kong SAR, China",
+      "profile_url": "https://www.polyu.edu.hk/sd/people/academic-staff/duh-henry/",
+      "appointment_source": "https://www.polyu.edu.hk/sd/people/academic-staff/duh-henry/",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "e55800612bb8"
+      ],
+      "portrait": {
+        "path": "images/collaborators/henry-duh.jpg",
+        "source_url": "https://www.polyu.edu.hk/sd/-/media/department/sd/content/people/acad-staff-pic/acad_staff_pic_duhhenry02.jpg?bc=ffffff&h=430&w=280&rev=319a5d4f57644e4b88187a713a48d96d&hash=FBD2F17D64F85D270C1416B8C7D65435",
+        "source_page": "https://www.polyu.edu.hk/sd/people/academic-staff/duh-henry/",
+        "width": 280,
+        "height": 430
+      },
+      "featured": false
+    },
+    {
+      "id": "yiyu-cai",
+      "name": "Yiyu Cai",
+      "author_names": [
+        "Yiyu Cai"
+      ],
+      "role": "Associate Professor",
+      "institution": "Nanyang Technological University",
+      "country": "Singapore",
+      "profile_url": "https://www.ntu.edu.sg/sj-ntu/our-people/principal-investigators",
+      "appointment_source": "https://www.ntu.edu.sg/sj-ntu/our-people/principal-investigators",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "4b501f942482"
+      ],
+      "portrait": {
+        "path": "images/collaborators/yiyu-cai.png",
+        "source_url": "https://www.ntu.edu.sg/media/images/default-source/research/surbana-jurong-ntu-corporate-laboratory/cai-yiyu065e6fcb32ff490f963e452f4f6e4ac4.png?sfvrsn=71a12600_0",
+        "source_page": "https://www.ntu.edu.sg/sj-ntu/our-people/principal-investigators",
+        "width": 155,
+        "height": 200
+      },
+      "featured": false
+    },
+    {
+      "id": "jeremy-smith",
+      "name": "Jeremy S. Smith",
+      "author_names": [
+        "Jeremy S. Smith"
+      ],
+      "role": "Professor",
+      "institution": "University of Liverpool",
+      "country": "United Kingdom",
+      "profile_url": "https://www.liverpool.ac.uk/people/jeremy-smith",
+      "appointment_source": "https://www.liverpool.ac.uk/people/jeremy-smith",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "a2bb0e14687d",
+        "46f0c0d833f3"
+      ],
+      "portrait": {
+        "path": "images/collaborators/jeremy-smith.webp",
+        "source_url": "https://www.liverpool.ac.uk/people/jeremy-smith/photo",
+        "source_page": "https://www.liverpool.ac.uk/people/jeremy-smith",
+        "width": 720,
+        "height": 720
+      },
+      "featured": false
+    },
+    {
+      "id": "suraya-yaacob",
+      "name": "Suraya Yaacob",
+      "author_names": [
+        "Suraya Yaacob"
+      ],
+      "role": "Senior Lecturer",
+      "institution": "Universiti Teknologi Malaysia",
+      "country": "Malaysia",
+      "profile_url": "https://people.utm.my/suraya/biography/",
+      "appointment_source": "https://people.utm.my/suraya/biography/",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "978687470657",
+        "16ae65bfd266",
+        "819705274cb5"
+      ],
+      "portrait": {
+        "path": "images/collaborators/suraya-yaacob.webp",
+        "source_url": "https://fai.utm.my/wp-content/uploads/2024/05/SURAYA-BINTI-YAACOB-1024x819.png",
+        "source_page": "https://fai.utm.my/department-of-business-intelligent-humanities-and-governance/",
+        "width": 640,
+        "height": 512
+      },
+      "featured": false
+    },
+    {
+      "id": "nurazean-maarop",
+      "name": "Nurazean Maarop",
+      "author_names": [
+        "Nurazean Maarop"
+      ],
+      "role": "Senior Lecturer",
+      "institution": "Universiti Teknologi Malaysia",
+      "country": "Malaysia",
+      "profile_url": "https://www.utm.my/directory/staff/nurazean.kl",
+      "appointment_source": "https://www.utm.my/directory/staff/nurazean.kl",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "16ae65bfd266",
+        "819705274cb5"
+      ],
+      "portrait": {
+        "path": "images/collaborators/nurazean-maarop.jpg",
+        "source_url": "https://www.utm.my/directory/images/profilephotos/9230.jpg",
+        "source_page": "https://www.utm.my/directory/staff/nurazean.kl",
+        "width": 480,
+        "height": 640
+      },
+      "featured": false
+    },
+    {
+      "id": "norshita-mat-nayan",
+      "name": "Norshita Mat Nayan",
+      "author_names": [
+        "Norshita Mat Nayan"
+      ],
+      "role": "Lecturer",
+      "institution": "Universiti Kebangsaan Malaysia",
+      "country": "Malaysia",
+      "profile_url": "https://ukmsarjana.ukm.my/main/lihat_profil/SzAyMDA5Mw%3D%3D",
+      "appointment_source": "https://ukmsarjana.ukm.my/main/lihat_profil/SzAyMDA5Mw%3D%3D",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "978687470657",
+        "fd7260ccc572"
+      ],
+      "portrait": {
+        "path": "images/collaborators/norshita-mat-nayan.jpg",
+        "source_url": "https://ivi.ukm.my/wp-content/uploads/Shita-1.jpg",
+        "source_page": "https://ivi.ukm.my/research-fellows/",
+        "width": 209,
+        "height": 300
+      },
+      "featured": false
+    },
+    {
+      "id": "mayra-barrera-machuca",
+      "name": "Mayra Donaji Barrera Machuca",
+      "author_names": [
+        "Mayra Donaji Barrera Machuca"
+      ],
+      "role": "Assistant Professor",
+      "institution": "University of Calgary",
+      "country": "Canada",
+      "profile_url": "https://mayradonaji.net/",
+      "appointment_source": "https://mayradonaji.net/",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "4da91e706179"
+      ],
+      "portrait": null,
+      "featured": false
+    },
+    {
+      "id": "junxiao-shen",
+      "name": "Junxiao Shen",
+      "author_names": [
+        "Junxiao Shen"
+      ],
+      "role": "Assistant Professor",
+      "institution": "University of Bristol",
+      "country": "United Kingdom",
+      "profile_url": "https://shawnshenjx.github.io/",
+      "appointment_source": "https://shawnshenjx.github.io/",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "6805d1fd6af4",
+        "9b75c1f4364c",
+        "1f63b00db51e"
+      ],
+      "portrait": {
+        "path": "images/collaborators/junxiao-shen.webp",
+        "source_url": "https://shawnshenjx.github.io/images/img.png",
+        "source_page": "https://shawnshenjx.github.io/",
+        "width": 512,
+        "height": 640
+      },
+      "featured": false
+    },
+    {
+      "id": "laurence-aitchison",
+      "name": "Laurence Aitchison",
+      "author_names": [
+        "Laurence Aitchison"
+      ],
+      "role": "Senior Lecturer",
+      "institution": "University of Bristol",
+      "country": "United Kingdom",
+      "profile_url": "https://www.bristol.ac.uk/people/person/Laurence-Aitchison-1319af7b-b9c3-4060-af73-e6dbf81496cb/",
+      "appointment_source": "https://www.bristol.ac.uk/people/person/Laurence-Aitchison-1319af7b-b9c3-4060-af73-e6dbf81496cb/",
+      "checked_on": "2026-10-09",
+      "evidence_paper_ids": [
+        "6805d1fd6af4"
+      ],
+      "portrait": null,
+      "featured": false
+    }
+  ]
+}

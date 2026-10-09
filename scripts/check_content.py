@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 """Verify shared summaries, award links and highlighted authors in all five languages."""
 import json
+from urllib.parse import parse_qs, urlsplit, unquote
 from bs4 import BeautifulSoup
 from publication_common import ROOT, author_key, lab_author_keys
+from build_collaborators import joint_publications, ordered_collaborators
 from publication_dates import latest_publications, format_date
 from site_shell import LANGUAGES, text as localized
 
@@ -14,6 +16,20 @@ roster=lab_author_keys()
 source_members=BeautifulSoup((ROOT/'members/index.html').read_text(),'html.parser')
 member_names=[c.h4.text for c in source_members.select('.member-card')]
 alumni_count=len(source_members.select('.members-alumni .alumni-list li'))
+collaborators=json.loads((ROOT/'data/international-collaborators.json').read_text())['collaborators']
+assert len({c['id'] for c in collaborators})==len(collaborators)
+assert len({author_key(c['name']) for c in collaborators})==len(collaborators)
+ordered_people=ordered_collaborators(collaborators,papers)
+for person in collaborators:
+ assert person['profile_url'].startswith('https://') and person['appointment_source'].startswith('https://')
+ assert person['checked_on'] and person['author_names'] and person['evidence_paper_ids']
+ matches=joint_publications(person,papers)
+ assert matches,(person['id'],'missing coauthor evidence')
+ assert set(person['evidence_paper_ids']).issubset(p['id'] for p in matches)
+ photo=person['portrait']
+ if photo:
+  assert (ROOT/photo['path']).is_file() and (ROOT/photo['path']).stat().st_size>0
+  assert photo['width']>0 and photo['height']>0 and photo['source_url'] and photo['source_page']
 assert len({a['id'] for a in awards})==len(awards)
 for award in awards:
  assert award['paper_id'] in by_id
@@ -75,4 +91,28 @@ for lang in LANGUAGES:
  assert not members.select('img[src$="rock.jpg"]')
  assert [c.h4.text for c in members.select('.member-card')]==member_names
  assert len(members.select('.members-alumni .alumni-list li'))==alumni_count
-print(f'PASS: shared news, {len(awards)} sourced awards, latest 6 papers and member/alumni highlighting in 5 languages; {len(member_names)} members and {alumni_count} alumni entries.')
+ assert members.select_one('.members-section-nav a[href="#international-collaborators"]')
+ collaborators_cards=members.select('.collaborator-card')
+ assert [c['data-collaborator-id'] for c in collaborators_cards]==[p['id'] for p in ordered_people]
+ catalog=BeautifulSoup((base/'publications/index.html').read_text(),'html.parser')
+ query_map=json.loads(catalog.select_one('[data-publication-catalog]')['data-collaborator-queries'])
+ for card,person in zip(collaborators_cards,ordered_people):
+  assert card.h3.get_text(' ',strip=True).replace(' ↗','')==person['name']
+  assert card.select_one('.collaborator-role').text==localized(person['role'],lang)
+  assert card.select_one('.collaborator-country').text==localized(person['country'],lang)
+  assert card.select_one('.collaborator-institution').text==person['institution']
+  assert card.h3.a['href']==person['profile_url'] and card.h3.a.get('target')=='_blank'
+  assert {'noopener','noreferrer'}.issubset(card.h3.a['rel'])
+  assert bool(card.select_one('img'))==bool(person['portrait'])
+  if person['portrait']:
+   src=card.img['src'];assert (base/'members'/unquote(urlsplit(src).path)).resolve()==(ROOT/person['portrait']['path']).resolve()
+   assert card.img['alt']==person['name']
+  action=card.select_one('.collaborator-papers')
+  assert int(action.bdi.text)==len(joint_publications(person,papers))
+  url=urlsplit(action['href'])
+  assert (base/'members'/url.path).resolve()==(base/'publications/index.html').resolve()
+  assert parse_qs(url.query)['q']==[person['author_names'][0]]
+  for name in person['author_names']:assert query_map[name]==person['id']
+  actual={c['id'].removeprefix('paper-') for c in catalog.select('.paper-card') if person['id'] in c['data-collaborators'].split()}
+  assert actual=={p['id'] for p in joint_publications(person,papers)},(person['id'],lang,'author filter or count mismatch')
+print(f'PASS: shared news, {len(awards)} sourced awards, latest 6 papers and member/alumni highlighting in 5 languages; {len(member_names)} members, {alumni_count} alumni entries and {len(collaborators)} sourced faculty collaborators with exact author filters.')

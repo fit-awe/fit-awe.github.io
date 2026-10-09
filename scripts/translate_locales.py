@@ -24,6 +24,8 @@ def validate(source,result):
  return result
 
 def main():
+ from build_collaborators import build as build_collaborators
+ build_collaborators()
  from build_content import build as build_content
  build_content()
  pending={}

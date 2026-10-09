@@ -20,7 +20,7 @@ LABELS = {
  'fr': dict(topic='Axe de recherche',all_topics='Tous les axes',topic_count='{count} publications',title='Publications',description='Les travaux du laboratoire FIT-AWE, au fil des années.',search='Rechercher',placeholder='Titre, auteur, revue ou mot-clé',year='Année',all='Toutes les années',kind='Type',all_types='Tous les types',journal='Articles de revue',conference='Articles de conférence',preprint='Prépublications',other='Autres travaux',count='{shown} publications sur {total}',reset='Effacer les filtres',empty='Aucune publication trouvée. Essayez un autre mot-clé.',library='Voir la publication',pdf='PDF',close='Fermer',copy='Copier le BibTeX',copied='Copié.',failed='Copie indisponible. Copiez manuellement le texte sélectionné.',updated='Mise à jour',figure='Figure de'),
  'ar': dict(topic='مجال البحث',all_topics='جميع المجالات',topic_count='{count} منشورًا',title='جميع المنشورات',description='أبحاث مختبر FIT-AWE عبر السنوات.',search='البحث في المنشورات',placeholder='العنوان أو المؤلف أو المجلة أو كلمة مفتاحية',year='السنة',all='جميع السنوات',kind='النوع',all_types='جميع الأنواع',journal='مقالات المجلات',conference='أوراق المؤتمرات',preprint='المطبوعات الأولية',other='أبحاث أخرى',count='عرض {shown} من {total} منشورًا',reset='مسح الفلاتر',empty='لا توجد نتائج مطابقة. جرّب كلمة أخرى أو امسح الفلاتر.',library='عرض المنشور',pdf='PDF',close='إغلاق',copy='نسخ BibTeX',copied='تم النسخ.',failed='النسخ غير متاح. انسخ النص المحدد يدويًا.',updated='آخر تحديث',figure='شكل من'),
 }
-from publication_common import esc, author_key, lab_author_keys, bibtex
+from publication_common import esc, author_key, lab_author_keys, bibtex, collaborator_search_names, collaborator_queries, paper_collaborators
 from publication_dates import chronological_publications, format_date
 from site_shell import header, footer, favicon, text, VERSION
 
@@ -83,6 +83,7 @@ def build():
   profile_label={'en':'Publication profiles','zh':'学术资料页','fr':'Profils de recherche','ar':'الملفات البحثية','ja':'学術プロフィール'}[lang]
   alternates=''.join('<link rel="alternate" hreflang="'+code+'" href="'+asset(('' if code=='en' else code+'/')+'publications/index.html')+'">' for code in LABELS)
   cards=[]
+  queries=esc(json.dumps(collaborator_queries(),ensure_ascii=False,separators=(',',':')))
   for p in papers:
     year=p['year']
     url=esc(p['url']);title=esc(p['title']);figure=''
@@ -100,7 +101,7 @@ def build():
     elif p.get('pdf'):
      filename=f'{year}-'+re.sub(r'[^a-zA-Z0-9]+','-',p['title']).strip('-')[:100]+'.pdf'
      pdf=f'<a class="paper-pdf" href="{asset(p["pdf"])}" download="{esc(filename)}" aria-label="{esc(DOWNLOAD_LABELS[lang])}: {title}">{esc(pdf_label)} ↓</a>'
-    search=esc(' '.join([p['title'],' '.join(p['authors']),p['venue'],str(year)]))
+    search=esc(' '.join([p['title'],' '.join(p['authors']),p['venue'],str(year),*collaborator_search_names(p)]))
     kindkey={'journal':'Journal article','conference':'Conference paper','preprint':'Preprint'}.get(p['kind'])
     kindlabel=text(kindkey,lang) if kindkey else c['other']
     short_venue=SHORT_VENUES.get(p['venue'],p['venue']) or kindlabel
@@ -108,7 +109,8 @@ def build():
     if p.get('published_date'):
      publication_date=f'<time class="visually-hidden" datetime="{p["published_date"]}">{esc(format_date(p["published_date"],lang))}</time>'
     venue_detail=f'<bdi>{esc(p["venue"])}</bdi> · ' if p['venue'] and short_venue!=p['venue'] else ''
-    cards.append(f'''<article class="paper-card{' no-figure' if not figure else ''}" id="paper-{p['id']}" data-year="{year}" data-kind="{p['kind']}" data-topics="{esc(' '.join(p.get('topics',[])))}" data-search="{search}">
+    collaborators=esc(' '.join(person['id'] for person in paper_collaborators(p)))
+    cards.append(f'''<article class="paper-card{' no-figure' if not figure else ''}" id="paper-{p['id']}" data-year="{year}" data-kind="{p['kind']}" data-topics="{esc(' '.join(p.get('topics',[])))}" data-search="{search}" data-collaborators="{collaborators}">
 <div class="paper-venue"><bdi title="{esc(p['venue'])}">{esc(short_venue)}</bdi> <span class="venue-year">{year}</span>{publication_date}</div>
 {figure}<div class="paper-content">
 <h2 class="paper-title" dir="auto"><a href="{url}" target="_blank" rel="noopener noreferrer">{title}</a></h2>
@@ -119,7 +121,7 @@ def build():
 <html lang="{lang}"{' dir="rtl"' if lang=='ar' else ''}>
 <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{c['title']} | FIT-AWE Lab</title><meta name="description" content="{esc(c['description'])}">{favicon('publications/index.html',lang)}<link rel="stylesheet" href="{asset('css/refinements.css')}?v={VERSION}"><link rel="stylesheet" href="{asset('css/publications.css')}?v={VERSION}">{alternates}</head>
 <body>{navbar}
-<main id="main-content" class="publication-catalog page-shell" data-publication-catalog data-default-title="{esc(c['title'])}" data-count-template="{esc(c['count'])}">
+<main id="main-content" class="publication-catalog page-shell" data-publication-catalog data-default-title="{esc(c['title'])}" data-count-template="{esc(c['count'])}" data-collaborator-queries="{queries}">
 <header class="catalog-header"><h1 id="catalog-title">{c['title']}</h1><nav class="catalog-sources" aria-label="{profile_label}"><a href="https://scholar.google.com/citations?user=UJPH5ioAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar ↗</a><a href="https://dblp.org/pid/55/1198.html" target="_blank" rel="noopener noreferrer">DBLP ↗</a></nav></header>
 <div class="catalog-controls">{primary}<div class="catalog-tools"><div class="catalog-search"><label class="visually-hidden" for="publication-search">{c['search']}</label><input id="publication-search" type="search" placeholder="{esc(c['placeholder'])}" autocomplete="off"></div><details class="catalog-extra-filters"><summary>{compact['more']}</summary><div class="extra-filter-options">{filters}</div></details></div></div>
 <div class="catalog-status"><p id="publication-count" role="status" aria-live="polite">{c['count'].replace('{shown}',str(len(papers))).replace('{total}',str(len(papers)))}</p><button id="publication-reset" type="button" hidden>{c['reset']}</button></div>

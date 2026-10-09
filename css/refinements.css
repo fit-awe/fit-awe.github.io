@@ -181,6 +181,18 @@ a.industry-card:hover { background: var(--wash); border-color: var(--accent); te
 .member-initials { width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; background: var(--wash); color: var(--accent); font-size: 38px; font-weight: 500; letter-spacing: 2px; border-radius: 4px; }
 .member-card h4 { font-size: 1.375rem; margin-bottom: 7px; }
 .member-info, .member-since { font-size: var(--text-small); line-height: 1.6; margin-bottom: 5px; color: var(--muted); }
+.members-collaborators { border-top: 1px solid var(--line); margin-top: 50px; padding-top: 32px; }
+.members-collaborators > h2 { font-size: var(--text-section); margin-bottom: 26px; }
+.collaborator-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 36px 32px; }
+.collaborator-card { display: flex; flex-direction: column; align-items: flex-start; min-width: 0; overflow-wrap: anywhere; }
+.collaborator-photo { display: block; width: 132px; height: 132px; margin-bottom: 16px; }
+.collaborator-photo img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: center 25%; border-radius: 4px; }
+.collaborator-initials { display: flex; align-items: center; justify-content: center; width: 100%; height: 100%; border-radius: 4px; background: var(--wash); color: var(--muted); font-size: 2.5rem; }
+.collaborator-card h3 { font-size: 1.375rem; margin: 0 0 7px; line-height: 1.3; }
+.profile-arrow { color: var(--muted); font-size: var(--text-small); white-space: nowrap; }
+.collaborator-role, .collaborator-institution, .collaborator-country { font-size: var(--text-small); line-height: 1.6; margin: 0 0 5px; }
+.collaborator-role, .collaborator-country { color: var(--muted); }
+.collaborator-papers { display: inline-flex; align-items: center; flex-wrap: wrap; gap: 0.3em; min-height: 44px; margin-top: auto; padding-top: 8px; font-size: var(--text-small); }
 .members-alumni { border-top: 1px solid var(--line); margin-top: 50px; padding-top: 32px; }
 .members-alumni > h2 { font-size: var(--text-section); margin-bottom: 26px; }
 .members-alumni h3 { font-size: 1.625rem; margin: 34px 0 26px; }
@@ -221,6 +233,7 @@ html[dir='rtl'] .navbar-brand { direction: ltr; }
  .home-awards .award-summary { grid-template-columns: repeat(2, minmax(0, 1fr)); }
  .latest-publications { grid-template-columns: repeat(2, minmax(0, 1fr)); }
  .member-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+ .collaborator-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 }
 @media (max-width: 719px) {
  body { font-size: var(--text-body); }
@@ -254,6 +267,9 @@ html[dir='rtl'] .navbar-brand { direction: ltr; }
  .news-page .news-list p { font-size: var(--text-body); }
  .member-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px 20px; }
  .member-photo { width: 112px; height: 112px; }
+ .collaborator-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px 20px; }
+ .collaborator-photo { width: 112px; height: 112px; }
+ .collaborator-card h3 { font-size: 1.25rem; }
  .member-card h4 { font-size: 1.25rem; }
  .members-alumni > .row, .members-alumni > .row:first-of-type .alumni-list { grid-template-columns: 1fr; }
  .alumni-list { font-size: var(--text-small); }
@@ -262,6 +278,8 @@ html[dir='rtl'] .navbar-brand { direction: ltr; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 @media (max-width: 399px) {
+ .collaborator-grid { grid-template-columns: 1fr; }
+ .collaborator-photo { width: 132px; height: 132px; }
  .lead-profile { grid-template-columns: 80px minmax(0, 1fr); column-gap: 16px; }
  .lead-portrait { width: 80px; height: 96px; }
  .lead-identity h2 { font-size: 1.5rem; }
