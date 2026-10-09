@@ -47,7 +47,7 @@
 #publication-empty { text-align: center; padding: 44px 16px; background: var(--wash); color: var(--muted); }
 .catalog-footnote { color: var(--muted); font-size: 13px; margin-top: 30px; }
 #citation-dialog { color: var(--ink); background: #fff; border: 1px solid var(--line); border-radius: 6px; width: min(680px, calc(100% - 36px)); max-height: 85dvh; padding: 28px; }
-#citation-dialog::backdrop { background: #12334a66; }
+#citation-dialog::backdrop { background: #00000066; }
 #citation-dialog h2 { font-size: 26px; margin-bottom: 20px; }
 #citation-dialog pre { white-space: pre-wrap; overflow-wrap: anywhere; overflow: auto; max-height: 50dvh; direction: ltr; text-align: left; background: var(--wash); padding: 18px; border: 1px solid var(--line); font-size: 13px; line-height: 1.5; }
 .citation-actions { display: flex; flex-wrap: wrap; gap: 12px; }

@@ -1,13 +1,13 @@
 @import url('../fonts/source-sans-3.css');
 :root {
- --ink: #24313a;
- --muted: #627481;
- --accent: #0077b3;
- --accent-fill: #38bdf8;
- --on-accent: #12334a;
- --accent-line: #bad7e6;
- --line: #dce8ef;
- --wash: #f3f9fc;
+ --ink: #222222;
+ --muted: #666666;
+ --accent: #333333;
+ --accent-fill: #333333;
+ --on-accent: #ffffff;
+ --accent-line: #cccccc;
+ --line: #e5e5e5;
+ --wash: #f7f7f7;
 }
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; scroll-padding-top: 100px; }
@@ -41,16 +41,16 @@ button, input { border-radius: 4px; }
 .navbar-brand:hover { text-decoration: none; }
 .navbar-brand span { font-weight: 500; }
 .navbar-brand .brand-wordmark { font-weight: 700; }
-.brand-mark { display: block; width: 70px; height: auto; flex: 0 0 auto; }
+.brand-mark { display: block; width: 54px; height: auto; flex: 0 0 auto; }
 .navbar-toggle { display: none; padding: 10px 8px; border: 1px solid var(--line); background: white; width: 42px; min-height: 42px; }
 .navbar-toggle span { display: block; width: 22px; height: 2px; background: var(--ink); margin: 4px auto; }
 .navbar-nav { display: flex; align-items: center; justify-content: flex-end; gap: 19px; margin: 0; padding: 0; list-style: none; }
-.navbar-nav > li > a, .language-toggle { display: block; color: #53636f; font-size: 15px; line-height: 1.25; padding-block: 12px; }
+.navbar-nav > li > a, .language-toggle { display: block; color: #555555; font-size: 15px; line-height: 1.25; padding-block: 12px; }
 .navbar-nav > li > a { max-width: 175px; }
 .navbar-nav > li > a[aria-current='page'] { color: var(--accent); font-weight: 700; }
 .language-toggle { border: 0; padding-inline: 0; background: none; white-space: nowrap; }
 .dropdown { position: relative; }
-.dropdown-menu { position: absolute; inset-inline-end: 0; top: 100%; min-width: 150px; background: #fff; padding: 6px; margin: 4px 0 0; list-style: none; border: 1px solid var(--line); border-radius: 4px; box-shadow: 0 5px 18px #24313a10; }
+.dropdown-menu { position: absolute; inset-inline-end: 0; top: 100%; min-width: 150px; background: #fff; padding: 6px; margin: 4px 0 0; list-style: none; border: 1px solid var(--line); border-radius: 4px; box-shadow: 0 5px 18px #00000010; }
 .dropdown-menu a { display: block; padding: 8px 14px; font-size: 16px; }
 .dropdown-menu a[aria-current='page'], .dropdown-menu a:hover { background: var(--wash); text-decoration: none; }
 .site-footer { border-top: 1px solid var(--line); margin-top: 20px; padding-block: 26px; color: var(--muted); font-size: 14px; }
@@ -218,7 +218,7 @@ html[dir='rtl'] .navbar-brand { direction: ltr; }
  .page-shell { padding-block: 32px 24px; }
  .container-fluid, .page-shell { padding-inline: 20px; }
  .navbar-brand { font-size: 25px; }
- .brand-mark { width: 56px; }
+ .brand-mark { width: 44px; }
  .institution-logos { gap: 18px; }
  .about-hero { grid-template-columns: 1fr; gap: 24px; padding-top: 0; padding-bottom: 24px; }
  .about-copy h1 { margin-bottom: 18px; }
