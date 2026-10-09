@@ -1,0 +1,29 @@
+{
+  "name": "Hai-Ning Liang",
+  "chinese_name": "梁海宁",
+  "email": "hainingliang@hkust-gz.edu.cn",
+  "portrait": "images/Profile.jpg",
+  "faculty_profile": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=437",
+  "cma_profile": "https://cma.hkust-gz.edu.cn/faculty-regular/hai-ning-liang/",
+  "scholar": "https://scholar.google.com/citations?user=UJPH5ioAAAAJ",
+  "dblp": "https://dblp.org/pid/55/1198.html",
+  "selected_publication_ids": [
+    "4c7cebd64fdf", "923a05e236a1", "f54dd5cfc9cc",
+    "a1e35859ba8b", "02832f6ff028", "8a830890be69"
+  ],
+  "biography": {
+    "en": [
+      "I am an Associate Professor and Deputy Thrust Head of Computational Media and Arts at the Hong Kong University of Science and Technology (Guangzhou), where I lead the FIT-AWE Lab.",
+      "I received my PhD in Computer Science from Western University, Canada. Before joining HKUST(GZ) in 2024, I was a Professor of Computing at Xi’an Jiaotong-Liverpool University, where I served as Head of the Department of Computing from 2019 to 2023."
+    ],
+    "zh": [
+      "我是香港科技大学（广州）计算媒体与艺术学域副教授、学域副主任，负责 FIT-AWE 实验室。",
+      "我在加拿大西安大略大学获得计算机科学博士学位。2024 年加入香港科技大学（广州）之前，我曾任西交利物浦大学计算学教授，并于 2019 至 2023 年担任计算系系主任。"
+    ]
+  },
+  "sources": [
+    "https://cma.hkust-gz.edu.cn/faculty-regular/hai-ning-liang/",
+    "https://hai-ning-liang.github.io/"
+  ],
+  "role_record": "data/academic-profile.json#hkust-gz-deputy-thrust-head"
+}

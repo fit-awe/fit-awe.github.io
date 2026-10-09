@@ -90,11 +90,15 @@ def render(page,lang,missing=None):
   parsed=urlsplit(url)
   if parsed.scheme or parsed.netloc or not parsed.path:return url
   target=(src.parent/parsed.path).resolve();relative=target.relative_to(ROOT)
-  if target.suffix=='.html':
+  if relative.as_posix()=='members/haining-liang':
+   target=ROOT/('zh' if lang=='zh' else '')/relative
+  elif target.suffix=='.html':
    parts=relative.parts
    if parts[0] in LANGUAGES and parts[0]!='en':relative=Path(*parts[1:])
    target=ROOT/('' if lang=='en' else lang)/relative
-  return urlunsplit(('','',os.path.relpath(target,dest.parent),parsed.query,parsed.fragment))
+  path=os.path.relpath(target,dest.parent)
+  if parsed.path.endswith('/'):path+='/'
+  return urlunsplit(('','',path,parsed.query,parsed.fragment))
  for tag in s.select('[href],[src]'):
   for attr in ['href','src']:
    if tag.get(attr):tag[attr]=local_url(tag[attr])

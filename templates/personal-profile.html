@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="{{lang}}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{page_title}}</title>
+  <meta name="description" content="{{description}}">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="canonical" href="{{canonical}}">
+  <link rel="alternate" hreflang="en" href="https://fit-awe.github.io/members/haining-liang/">
+  <link rel="alternate" hreflang="zh" href="https://fit-awe.github.io/zh/members/haining-liang/">
+  <link rel="alternate" hreflang="x-default" href="https://fit-awe.github.io/members/haining-liang/">
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="{{page_title}}">
+  <meta property="og:description" content="{{description}}">
+  <meta property="og:url" content="{{canonical}}">
+  <meta property="og:image" content="https://fit-awe.github.io/images/Profile.jpg">
+  <link rel="icon" type="image/svg+xml" href="{{favicon}}">
+  <link rel="stylesheet" href="{{stylesheet}}">
+  <script src="{{script}}" defer></script>
+  <script type="application/ld+json">{{person_schema}}</script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">{{skip}}</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="site-name" href="#about">Hai-Ning Liang<span class="name-dot" aria-hidden="true">.</span></a>
+      <div class="header-controls">
+        <a class="language-link" href="{{language_url}}" lang="{{other_lang}}" hreflang="{{other_lang}}">{{language_label}}</a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-navigation" aria-label="{{menu}}"><span></span><span></span></button>
+      </div>
+      <nav class="main-navigation" id="main-navigation" aria-label="{{navigation}}">{{navigation_links}}</nav>
+    </div>
+  </header>
+
+  <main id="main-content" class="page-shell">
+    <section class="about-section" id="about" aria-labelledby="about-title">
+      <aside class="profile-sidebar">
+        <img class="portrait" src="{{portrait}}" width="762" height="762" alt="{{portrait_alt}}" fetchpriority="high">
+        <p class="portrait-caption">Hai-Ning Liang <span lang="zh-CN">梁海宁</span></p>
+        <div class="sidebar-contact">
+          <a href="mailto:{{email}}">{{email}}</a>
+          <p>{{office}}<br>{{city}}</p>
+        </div>
+        <a class="lab-link" href="{{lab_url}}"><img src="{{lab_mark}}" alt="" width="1020" height="500"><span>FIT-AWE Lab <span aria-hidden="true">↗</span></span></a>
+      </aside>
+      <div class="about-copy">
+        <p class="eyebrow">{{affiliation_short}}</p>
+        <h1 id="about-title">Hai-Ning Liang <span lang="zh-CN">梁海宁</span></h1>
+        <p class="position">{{position}}</p>
+        <p class="affiliation"><a href="https://cma.hkust-gz.edu.cn/" target="_blank" rel="noopener noreferrer">{{thrust}}</a><br>{{university}}</p>
+        <div class="biography">{{biography}}</div>
+        <div class="profile-links" aria-label="{{profile_links}}">
+          <a href="mailto:{{email}}">{{email_label}} <span aria-hidden="true">↗</span></a>
+          <a href="{{scholar}}" target="_blank" rel="noopener noreferrer">Google Scholar <span aria-hidden="true">↗</span></a>
+          <a href="{{dblp}}" target="_blank" rel="noopener noreferrer">DBLP <span aria-hidden="true">↗</span></a>
+          <a href="{{faculty_profile}}" target="_blank" rel="noopener noreferrer">{{faculty_label}} <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="opportunities"><span class="opportunity-dot" aria-hidden="true"></span><p>{{opportunity_text}} <a href="{{openings_url}}">{{openings_label}} <span aria-hidden="true">→</span></a></p></div>
+      </div>
+    </section>
+
+    <section class="content-section" id="publications" aria-labelledby="publications-title">
+      <div class="section-heading"><div><p class="eyebrow">{{selected_work}}</p><h2 id="publications-title">{{publications}}</h2></div><a class="section-link" href="{{all_publications_url}}">{{all_publications}} <span aria-hidden="true">↗</span></a></div>
+      <div class="publication-controls" hidden>
+        <fieldset class="year-filters"><legend class="visually-hidden">{{filter_year}}</legend>{{year_filters}}</fieldset>
+        <label class="search-box"><svg aria-hidden="true" viewBox="0 0 24 24" width="18" height="18"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="m16 16 4 4"></path></svg><span class="visually-hidden">{{search_label}}</span><input id="publication-search" type="search" placeholder="{{search_placeholder}}" autocomplete="off"></label>
+      </div>
+      <p class="result-count" aria-live="polite" aria-atomic="true" data-template="{{count_template}}" hidden></p>
+      <div class="publication-list">{{publication_cards}}</div>
+      <div class="empty-state" hidden><p>{{empty}}</p><button type="button" data-clear-filters>{{clear}}</button></div>
+      <p class="catalog-note">{{catalog_note}} <a href="{{all_publications_url}}">{{browse_catalog}} <span aria-hidden="true">→</span></a></p>
+    </section>
+
+    <section class="content-section" id="service" aria-labelledby="service-title">
+      <div class="section-heading"><div><p class="eyebrow">{{community}}</p><h2 id="service-title">{{service}}</h2></div></div>
+      <div class="service-grid"><div><h3>{{conference_service}}</h3><ul class="service-list">{{conference_rows}}</ul></div><div><h3>{{editorial_service}}</h3><ul class="service-list">{{editorial_rows}}</ul></div></div>
+    </section>
+
+    <section class="content-section" id="teaching" aria-labelledby="teaching-title">
+      <div class="section-heading"><div><p class="eyebrow">HKUST(GZ)</p><h2 id="teaching-title">{{teaching}}</h2></div><a class="section-link" href="{{course_schedule}}" target="_blank" rel="noopener noreferrer">{{schedule}} <span aria-hidden="true">↗</span></a></div>
+      <ul class="teaching-list">{{teaching_rows}}</ul>
+    </section>
+
+    <section class="content-section contact-section" id="contact" aria-labelledby="contact-title">
+      <div><p class="eyebrow">{{get_in_touch}}</p><h2 id="contact-title">{{contact}}</h2><a class="contact-email" href="mailto:{{email}}">{{email}} <span aria-hidden="true">↗</span></a><p>{{office}} · {{city}}</p></div>
+      <div class="contact-lab"><p>{{lab_description}}</p><a href="{{lab_url}}">{{visit_lab}} <span aria-hidden="true">→</span></a></div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div><span>© Hai-Ning Liang</span><span>HKUST(GZ) · FIT-AWE Lab</span></div><a href="#about">{{back_to_top}} <span aria-hidden="true">↑</span></a></footer>
+
+  <dialog class="citation-dialog" aria-labelledby="citation-title" data-copy-label="{{copy}}" data-copied-label="{{copied}}" data-failed-label="{{copy_failed}}">
+    <div class="dialog-heading"><h2 id="citation-title">BibTeX</h2><button type="button" data-close-citation aria-label="{{close}}">×</button></div>
+    <textarea id="citation-text" readonly aria-label="{{citation_label}}" spellcheck="false"></textarea>
+    <div class="dialog-footer"><p class="copy-status" role="status"></p><button class="copy-button" type="button" data-copy-citation>{{copy}}</button></div>
+  </dialog>
+</body>
+</html>
