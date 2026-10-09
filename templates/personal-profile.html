@@ -60,18 +60,6 @@
       </div>
     </section>
 
-    <section class="content-section" id="publications" aria-labelledby="publications-title">
-      <div class="section-heading"><div><p class="eyebrow">{{selected_work}}</p><h2 id="publications-title">{{publications}}</h2></div><a class="section-link" href="{{all_publications_url}}">{{all_publications}} <span aria-hidden="true">↗</span></a></div>
-      <div class="publication-controls" hidden>
-        <fieldset class="year-filters"><legend class="visually-hidden">{{filter_year}}</legend>{{year_filters}}</fieldset>
-        <label class="search-box"><svg aria-hidden="true" viewBox="0 0 24 24" width="18" height="18"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="m16 16 4 4"></path></svg><span class="visually-hidden">{{search_label}}</span><input id="publication-search" type="search" placeholder="{{search_placeholder}}" autocomplete="off"></label>
-      </div>
-      <p class="result-count" aria-live="polite" aria-atomic="true" data-template="{{count_template}}" hidden></p>
-      <div class="publication-list">{{publication_cards}}</div>
-      <div class="empty-state" hidden><p>{{empty}}</p><button type="button" data-clear-filters>{{clear}}</button></div>
-      <p class="catalog-note">{{catalog_note}} <a href="{{all_publications_url}}">{{browse_catalog}} <span aria-hidden="true">→</span></a></p>
-    </section>
-
     <section class="content-section" id="service" aria-labelledby="service-title">
       <div class="section-heading"><div><p class="eyebrow">{{community}}</p><h2 id="service-title">{{service}}</h2></div></div>
       <div class="service-grid"><div><h3>{{conference_service}}</h3><ul class="service-list">{{conference_rows}}</ul></div><div><h3>{{editorial_service}}</h3><ul class="service-list">{{editorial_rows}}</ul></div></div>
@@ -90,10 +78,5 @@
 
   <footer class="site-footer"><div><span>© Hai-Ning Liang</span><span>HKUST(GZ) · FIT-AWE Lab</span></div><a href="#about">{{back_to_top}} <span aria-hidden="true">↑</span></a></footer>
 
-  <dialog class="citation-dialog" aria-labelledby="citation-title" data-copy-label="{{copy}}" data-copied-label="{{copied}}" data-failed-label="{{copy_failed}}">
-    <div class="dialog-heading"><h2 id="citation-title">BibTeX</h2><button type="button" data-close-citation aria-label="{{close}}">×</button></div>
-    <textarea id="citation-text" readonly aria-label="{{citation_label}}" spellcheck="false"></textarea>
-    <div class="dialog-footer"><p class="copy-status" role="status"></p><button class="copy-button" type="button" data-copy-citation>{{copy}}</button></div>
-  </dialog>
 </body>
 </html>
