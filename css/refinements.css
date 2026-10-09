@@ -83,7 +83,7 @@ button, input { border-radius: 4px; }
 .institution-logo--cma { position: relative; overflow: hidden; aspect-ratio: 2009 / 462; align-self: center; margin-block: auto; }
 .institution-logo--cma img { position: absolute; display: block; width: 212.145%; max-width: none; height: auto; left: -54.107%; top: -218.615%; }
 .institution-logo > span:last-child { align-self: end; }
-.home-institutions { display: flex; justify-content: center; padding-block: 8px 28px; }
+.home-institutions { display: flex; justify-content: center; border-top: 1px solid var(--line); padding-block: 28px 0; }
 .home-institutions .institution-logos { width: min(100%, 420px); margin-top: 0; gap: 36px; }
 .lab-carousel { min-width: 0; width: min(100%, 480px); margin-inline: auto; }
 .carousel-slides { aspect-ratio: 4 / 3; background: var(--wash); overflow: hidden; }
@@ -222,7 +222,7 @@ html[dir='rtl'] .navbar-brand { direction: ltr; }
  .navbar-brand { font-size: 25px; }
  .brand-mark { width: 44px; }
  .institution-logos { gap: 18px; }
- .home-institutions { padding-block: 0 24px; }
+ .home-institutions { padding-block: 24px 0; }
  .home-institutions .institution-logos { gap: 24px; }
  .about-hero { grid-template-columns: 1fr; gap: 24px; padding-top: 0; padding-bottom: 24px; }
  .about-copy h1 { margin-bottom: 18px; }
