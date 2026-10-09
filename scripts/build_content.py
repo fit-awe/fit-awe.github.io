@@ -72,42 +72,13 @@ def industry_cards():
     return '<div class="industry-grid"><a class="industry-card" href="https://intendreach.com" target="_blank" rel="noopener noreferrer"><h3 lang="zh-CN">意想触达</h3><span>Visit website ↗</span></a><div class="industry-card"><h3 lang="zh-CN">南曦控股</h3></div><div class="industry-card"><h3 lang="zh-CN">炽枢智域</h3></div></div>'
 
 
-def academic_lists(profile):
-    service = []
-    for group, heading in [('conference', 'Conference committees'),
-                           ('editorial', 'Editorial boards'),
-                           ('university', 'University service')]:
-        rows = []
-        for entry in profile['service']:
-            if entry['group'] != group:
-                continue
-            name = esc(entry['name'])
-            if group != 'university':
-                name = f'<bdi data-bibliographic>{name}</bdi>'
-            rows.append(f'<li data-service-id="{entry["id"]}"><a class="academic-name" href="{esc(entry["source"])}" target="_blank" rel="noopener noreferrer">{name} <span aria-hidden="true">↗</span></a><p class="academic-meta">{esc(entry["role"])}</p></li>')
-        service.append(f'<div class="academic-group"><h3>{heading}</h3><ul class="academic-list">{"".join(rows)}</ul></div>')
-    teaching = []
-    for institution, heading in [('hkust-gz', 'Hong Kong University of Science and Technology (Guangzhou)'),
-                                 ('xjtlu', 'Xi’an Jiaotong-Liverpool University')]:
-        rows = []
-        for entry in profile['teaching']:
-            if entry['institution'] != institution:
-                continue
-            terms = ' · '.join(f'<a href="{esc(term["source"])}" target="_blank" rel="noopener noreferrer">{esc(term["label"])}</a>' for term in entry['terms'])
-            note = f'<p class="academic-note">{esc(entry["note"])}</p>' if entry.get('note') else ''
-            rows.append(f'<li data-course-id="{entry["id"]}"><bdi class="course-code" data-bibliographic>{esc(entry["code"])}</bdi><a class="academic-name" href="{esc(entry["terms"][0]["source"])}" target="_blank" rel="noopener noreferrer">{esc(entry["name"])} <span aria-hidden="true">↗</span></a><p class="academic-meta">{terms}</p>{note}</li>')
-        teaching.append(f'<div class="academic-group"><h3>{heading}</h3><ul class="academic-list">{"".join(rows)}</ul></div>')
-    return ''.join(service), ''.join(teaching)
-
-
 def build():
     payload = json.loads((ROOT / 'data/publications.json').read_text())
     papers = {p['id']: p for p in payload['publications']}
     news = sorted(json.loads((ROOT / 'data/news.json').read_text()), key=lambda a: a['date'], reverse=True)
     awards = sorted(json.loads((ROOT / 'data/awards.json').read_text()), key=lambda a: a['date'], reverse=True)
-    service, teaching = academic_lists(json.loads((ROOT / 'data/academic-profile.json').read_text()))
     home = (ROOT / 'templates/home.html').read_text()
-    for key, value in {'news': news_list(news[:3]), 'awards': award_summary(awards, papers), 'publications': latest_cards(latest_publications(payload['publications'])), 'industry': industry_cards(), 'service': service, 'teaching': teaching, 'institutions': institution_logos('index.html')}.items():
+    for key, value in {'news': news_list(news[:3]), 'awards': award_summary(awards, papers), 'publications': latest_cards(latest_publications(payload['publications'])), 'industry': industry_cards(), 'institutions': institution_logos('index.html')}.items():
         home = home.replace('{{' + key + '}}', value)
     (ROOT / 'index.html').write_text(english_page('index.html', 'About', home, ('js/carousel.js',)))
     main = '<main id="main-content" class="page-shell news-page"><header class="page-heading"><h1>News</h1></header>' + news_list(news, 'allnews.html') + '</main>'

@@ -1,6 +1,6 @@
 # About：Service 与 Teaching
 
-`academic-profile.json` 保存梁海宁教授的学术服务与教学记录。修改后运行 `python3 scripts/build_site.py`，同步生成五种语言的 About 页面。课程代码、会议和期刊原名保持原文，职务、课程名称、说明和学期通过 `locales/*.json` 翻译。
+`academic-profile.json` 保存梁海宁教授的学术服务与教学来源记录，作为历史资料留存。自 2026-10-09 起，About 页面不再展示教授介绍、Service 或 Teaching，整站生成流程也不再读取这些资料来生成首页。
 
 ## 2026-10-05 核验
 

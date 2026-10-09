@@ -27,7 +27,7 @@ def main():
    nav=s.select_one('.navbar')
    if nav:
     assert len(nav.select('.industry-nav-link'))==1,path
-    assert len(nav.select('.navbar-nav > li > a'))==7,(path,'incomplete navigation')
+    assert len(nav.select('.navbar-nav > li > a'))==6,(path,'incomplete navigation')
     language_links=nav.select('.dropdown-menu a');assert len(language_links)==5,path
     for a in language_links:
      code=a['hreflang'];target=ROOT/('' if code=='en' else code)/page

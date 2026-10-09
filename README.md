@@ -4,7 +4,7 @@
 
 **FIT = Future Interaction Technology**
 
-**AWE = Autonomy + Well-being + Entertainment**
+**AWE = Arts, Work, Entertainment**
 
 ## 预览与部署
 
@@ -50,12 +50,11 @@ python3 scripts/check_content.py
 
 ## 页面与交互
 
-- About：负责人照片与联系信息、两张合影轮播及其下方最新动态、简短介绍；随后依次展示独立的论文奖项与最新论文区块、产学研合作及招募。照片自动切换，悬停或键盘聚焦时暂停，也可聚焦后使用方向键切换；不显示箭头和页码。首页不展示 Members 区块或独立导师侧栏。
-- About 的 Service 与 Teaching：在最新论文之后展示会议任职、期刊编辑工作、校内职务，以及按学校分组的课程；首屏提供直达链接。共享记录及核验范围见 `data/academic-profile.json` 和 `data/ABOUT.md`。
+- About：实验室简介、FIT/AWE 释义、两张合影轮播及其下方最新动态；随后依次展示论文奖项、最新论文、产学研合作及招募，学校与 CMA Logo 位于首页底部。照片自动切换，悬停或键盘聚焦时暂停，也可聚焦后使用方向键切换；不显示箭头和页码。
 - Members：Faculty、PhD、MPhil、Alumni；占位头像使用姓名首字母。所有现有名单与个人信息保留。
 - Publications：按年份及已知发表日期倒序排列，桌面每行依次展示会议／期刊与年份、配图、标题及作者；缺图时文字扩展，手机纵向显示。顶部直接点击研究方向，并可搜索；年份与类型按钮位于“更多筛选”。`q`、`year`、`type`、`topic` 分享参数兼容刷新、浏览器历史和语言切换；支持 BibTeX 和 PDF 下载。补充材料单独标注，部分出版版链接到原站 PDF。
 - Paper Awards：紧凑的两列列表，左侧会议／期刊及年份，右侧奖项或提名与论文标题。奖项名称链接到核实来源，论文标题链接到出版页面；提名与学生游戏竞赛决赛入围明确标注，包含成员早期成果。
-- News、Industry–Academia Collaboration、Join Us：与首页、页头和页脚使用共享入口。
+- 页头导航：About、Members、Awards、Publications、Industry–Academia Collaboration、Join Us，以及语言切换。News 通过首页 Lab updates 的“查看更多”入口访问。
 - Teams、Projects 已退出导航；旧链接跳转至 Members 或 Publications。校友旧入口转到 Members 的 Alumni 分区。
 
 ## 论文与定期维护
