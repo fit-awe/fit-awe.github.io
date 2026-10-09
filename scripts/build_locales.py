@@ -6,7 +6,7 @@ from urllib.parse import urlsplit, urlunsplit
 from bs4 import BeautifulSoup, Comment, Doctype
 from publication_common import author_key, lab_author_keys
 from publication_dates import format_date
-from site_shell import header, footer, VERSION
+from site_shell import header, footer, favicon, VERSION
 ROOT=Path(__file__).resolve().parents[1]
 LANGUAGES={'en':'English','zh':'中文','fr':'Français','ar':'العربية','ja':'日本語'}
 PAGES=['index.html','allnews.html','members/index.html','alumni/index.html','teams/index.html','projects/index.html','entrepreneurship/index.html','vacancies/index.html','aboutwebsite.html','404.html','vacancies.html','instrumente.html','pictures/index.html','team/index.html']
@@ -111,6 +111,9 @@ def render(page,lang,missing=None):
   replacement=rendered.select_one(selector)
   if part:part.replace_with(replacement)
   else:s.body.append(replacement)
+ # Every page uses the same supplied lab mark, including legacy redirects.
+ for old in s.select('link[rel="icon"],link[rel="shortcut icon"]'):old.decompose()
+ s.head.append(BeautifulSoup(favicon(page,lang),'html.parser').link)
  # Language alternatives are page-specific, never an unrelated page.
  for old in s.select('link[hreflang]'):old.decompose()
  for code in LANGUAGES:

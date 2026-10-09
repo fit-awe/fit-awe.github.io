@@ -59,6 +59,15 @@ def latest_cards(records):
     return ''.join(cards)
 
 
+def institution_logos(page):
+    university = asset(page, 'images/brand/hkust-gz.jpg')
+    cma = asset(page, 'images/brand/cma-school.png')
+    return f'''<div class="institution-logos">
+<a class="institution-logo" href="https://www.hkust-gz.edu.cn/about/" target="_blank" rel="noopener noreferrer"><span class="institution-logo-frame institution-logo--university"><img src="{university}" alt="" width="461" height="139" decoding="sync"></span><span>HKUST(GZ) ↗</span></a>
+<a class="institution-logo" href="https://cma.hkust-gz.edu.cn/" target="_blank" rel="noopener noreferrer"><span class="institution-logo-frame institution-logo--cma"><img src="{cma}" alt="" width="4262" height="2363" decoding="sync"></span><span>CMA Thrust ↗</span></a>
+</div>'''
+
+
 def industry_cards():
     return '<div class="industry-grid"><a class="industry-card" href="https://intendreach.com" target="_blank" rel="noopener noreferrer"><h3 lang="zh-CN">意想触达</h3><span>Visit website ↗</span></a><div class="industry-card"><h3 lang="zh-CN">南曦控股</h3></div><div class="industry-card"><h3 lang="zh-CN">炽枢智域</h3></div></div>'
 
@@ -98,7 +107,7 @@ def build():
     awards = sorted(json.loads((ROOT / 'data/awards.json').read_text()), key=lambda a: a['date'], reverse=True)
     service, teaching = academic_lists(json.loads((ROOT / 'data/academic-profile.json').read_text()))
     home = (ROOT / 'templates/home.html').read_text()
-    for key, value in {'news': news_list(news[:3]), 'awards': award_summary(awards, papers), 'publications': latest_cards(latest_publications(payload['publications'])), 'industry': industry_cards(), 'service': service, 'teaching': teaching}.items():
+    for key, value in {'news': news_list(news[:3]), 'awards': award_summary(awards, papers), 'publications': latest_cards(latest_publications(payload['publications'])), 'industry': industry_cards(), 'service': service, 'teaching': teaching, 'institutions': institution_logos('index.html')}.items():
         home = home.replace('{{' + key + '}}', value)
     (ROOT / 'index.html').write_text(english_page('index.html', 'About', home, ('js/carousel.js',)))
     main = '<main id="main-content" class="page-shell news-page"><header class="page-heading"><h1>News</h1></header>' + news_list(news, 'allnews.html') + '</main>'
@@ -116,7 +125,7 @@ def build():
     (ROOT / 'awards/index.html').write_text(english_page('awards/index.html', 'Awards', body))
     body = '<main id="main-content" class="page-shell collaboration-page"><header class="page-heading"><h1>Industry–Academia Collaboration</h1><p>Joint research and technology transfer in interactive technologies.</p></header>' + industry_cards() + '<div class="collaboration-contact"><h2>Get in touch</h2><p><a href="mailto:hainingliang@hkust-gz.edu.cn">hainingliang@hkust-gz.edu.cn</a></p></div></main>'
     (ROOT / 'entrepreneurship/index.html').write_text(english_page('entrepreneurship/index.html', 'Industry–Academia Collaboration', body))
-    (ROOT / 'vacancies/index.html').write_text(english_page('vacancies/index.html', 'Join Us', (ROOT / 'templates/join.html').read_text()))
+    (ROOT / 'vacancies/index.html').write_text(english_page('vacancies/index.html', 'Join Us', (ROOT / 'templates/join.html').read_text().replace('{{institutions}}', institution_logos('vacancies/index.html'))))
 
 
 if __name__ == '__main__':

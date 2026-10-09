@@ -37,9 +37,11 @@ button, input { border-radius: 4px; }
 .site-header { position: sticky; top: 0; z-index: 20; border-bottom: 1px solid var(--line); background: #fff; }
 .header-inner { display: flex; align-items: center; justify-content: space-between; gap: 26px; min-height: 78px; }
 .navbar-header { display: flex; align-items: center; justify-content: space-between; gap: 24px; flex-shrink: 0; }
-.navbar-brand { font-size: 27px; letter-spacing: -.8px; line-height: 1; color: var(--ink); font-weight: 700; white-space: nowrap; }
+.navbar-brand { display: inline-flex; align-items: center; gap: 10px; font-size: 27px; letter-spacing: -.8px; line-height: 1; color: var(--ink); font-weight: 700; white-space: nowrap; }
 .navbar-brand:hover { text-decoration: none; }
 .navbar-brand span { font-weight: 500; }
+.navbar-brand .brand-wordmark { font-weight: 700; }
+.brand-mark { display: block; width: 70px; height: auto; flex: 0 0 auto; }
 .navbar-toggle { display: none; padding: 10px 8px; border: 1px solid var(--line); background: white; width: 42px; min-height: 42px; }
 .navbar-toggle span { display: block; width: 22px; height: 2px; background: var(--ink); margin: 4px auto; }
 .navbar-nav { display: flex; align-items: center; justify-content: flex-end; gap: 19px; margin: 0; padding: 0; list-style: none; }
@@ -73,6 +75,14 @@ button, input { border-radius: 4px; }
 .lab-name strong { flex: 0 0 38px; color: var(--accent); }
 .affiliation { color: var(--muted); font-size: 16px; }
 .institution-links { display: flex; flex-wrap: wrap; gap: 6px 20px; margin: 20px 0 0; font-size: 14px; }
+.institution-logos { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: stretch; gap: 24px; width: min(100%, 484px); margin-top: 20px; }
+.institution-logo { display: grid; grid-template-rows: minmax(0, 1fr) auto; gap: 8px; min-width: 0; font-size: 13px; }
+.institution-logo-frame { display: flex; align-items: center; align-self: center; width: 100%; aspect-ratio: 461 / 139; }
+.institution-logo--university img { display: block; width: 100%; height: auto; }
+/* Frame the original CMA PNG's transparent margins; keep the supplied pixels intact. */
+.institution-logo--cma { position: relative; overflow: hidden; aspect-ratio: 2009 / 462; align-self: center; margin-block: auto; }
+.institution-logo--cma img { position: absolute; display: block; width: 212.145%; max-width: none; height: auto; left: -54.107%; top: -218.615%; }
+.institution-logo > span:last-child { align-self: end; }
 .lab-carousel { min-width: 0; width: min(100%, 480px); margin-inline: auto; }
 .carousel-slides { aspect-ratio: 4 / 3; background: var(--wash); overflow: hidden; }
 .carousel-slides figure { margin: 0; height: 100%; }
@@ -208,6 +218,8 @@ html[dir='rtl'] .navbar-brand { direction: ltr; }
  .page-shell { padding-block: 32px 24px; }
  .container-fluid, .page-shell { padding-inline: 20px; }
  .navbar-brand { font-size: 25px; }
+ .brand-mark { width: 56px; }
+ .institution-logos { gap: 18px; }
  .about-hero { grid-template-columns: 1fr; gap: 24px; padding-top: 0; padding-bottom: 24px; }
  .about-copy h1 { margin-bottom: 18px; }
  .lab-name { margin-block: 20px; }

@@ -22,7 +22,7 @@ LABELS = {
 }
 from publication_common import esc, author_key, lab_author_keys, bibtex
 from publication_dates import chronological_publications, format_date
-from site_shell import header, footer, text, VERSION
+from site_shell import header, footer, favicon, text, VERSION
 
 SHORT_VENUES = {
  'IEEE Trans. Vis. Comput. Graph.': 'IEEE TVCG',
@@ -117,7 +117,7 @@ def build():
 <div class="paper-actions"><a href="{url}" target="_blank" rel="noopener noreferrer">{esc(c['library'])} ↗</a>{pdf}<button type="button" data-citation="{esc(bibtex(p))}">BibTeX</button></div></div></article>''')
   document=f'''<!DOCTYPE html>
 <html lang="{lang}"{' dir="rtl"' if lang=='ar' else ''}>
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{c['title']} | FIT-AWE Lab</title><meta name="description" content="{esc(c['description'])}"><link rel="stylesheet" href="{asset('css/refinements.css')}?v={VERSION}"><link rel="stylesheet" href="{asset('css/publications.css')}?v={VERSION}">{alternates}</head>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{c['title']} | FIT-AWE Lab</title><meta name="description" content="{esc(c['description'])}">{favicon('publications/index.html',lang)}<link rel="stylesheet" href="{asset('css/refinements.css')}?v={VERSION}"><link rel="stylesheet" href="{asset('css/publications.css')}?v={VERSION}">{alternates}</head>
 <body>{navbar}
 <main id="main-content" class="publication-catalog page-shell" data-publication-catalog data-default-title="{esc(c['title'])}" data-count-template="{esc(c['count'])}">
 <header class="catalog-header"><h1 id="catalog-title">{c['title']}</h1><nav class="catalog-sources" aria-label="{profile_label}"><a href="https://scholar.google.com/citations?user=UJPH5ioAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar ↗</a><a href="https://dblp.org/pid/55/1198.html" target="_blank" rel="noopener noreferrer">DBLP ↗</a></nav></header>
