@@ -44,6 +44,10 @@ def main():
    if page=='index.html':
     assert len(s.select('.latest-paper'))==6,(path,'latest publications missing')
     assert len(s.select('.news-list li'))==3,(path,'news preview missing')
+    updates=s.select_one('main.home-page > aside.home-updates')
+    assert updates and len(updates.select('[data-news-id]'))==3,(path,'updates sidebar missing')
+    assert updates.find_previous_sibling().get('class')==['about-hero'] and 'home-awards' in updates.find_next_sibling().get('class',[]),(path,'updates must follow photos before awards on narrow screens')
+    assert not s.select('.about-media .news-list'),(path,'updates still nested beneath the photo')
     assert len(s.select('.award-summary li'))==3,(path,'award preview missing')
     assert not s.select('.member-card,#newsid'),(path,'retired homepage members/sidebar')
     assert len(s.select('[data-slide]'))==2 and s.select_one('[data-carousel]'),(path,'carousel missing')

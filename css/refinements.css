@@ -62,7 +62,12 @@ button, input { border-radius: 4px; }
 .site-footer { border-top: 1px solid var(--line); margin-top: 20px; padding-block: 26px; color: var(--muted); font-size: var(--text-small); }
 .site-footer > div { display: flex; justify-content: space-between; align-items: center; gap: 24px; flex-wrap: wrap; }
 .eyebrow { margin-bottom: 14px; font-size: var(--text-caption); text-transform: uppercase; letter-spacing: 1.7px; color: var(--accent); font-weight: 600; }
-.about-hero { display: grid; grid-template-columns: 1fr 1.07fr; align-items: start; gap: 52px; padding-block: 12px 24px; }
+.home-page { display: grid; grid-template-columns: minmax(0, 1fr) 288px; column-gap: 36px; grid-template-areas: "about updates" "awards updates" "papers updates" "industry updates" "join updates" "institutions institutions"; align-items: start; }
+.about-hero { grid-area: about; display: grid; grid-template-columns: 1fr 1.07fr; align-items: start; gap: 28px; padding-block: 12px 24px; }
+.home-awards { grid-area: awards; }
+.latest-research { grid-area: papers; }
+.industry-section { grid-area: industry; }
+.home-page .join-contact { grid-area: join; }
 .about-copy { min-width: 0; align-self: center; }
 .about-media { min-width: 0; display: grid; gap: 12px; }
 .about-copy h1 { font-size: clamp(38px, 4vw, 54px); margin-bottom: 22px; }
@@ -89,7 +94,7 @@ button, input { border-radius: 4px; }
 .institution-logo--cma { position: relative; overflow: hidden; aspect-ratio: 2009 / 462; align-self: center; margin-block: auto; }
 .institution-logo--cma img { position: absolute; display: block; width: 212.145%; max-width: none; height: auto; left: -54.107%; top: -218.615%; }
 .institution-logo > span:last-child { align-self: end; }
-.home-institutions { display: flex; justify-content: center; border-top: 1px solid var(--line); padding-block: 28px 0; }
+.home-institutions { grid-area: institutions; display: flex; justify-content: center; border-top: 1px solid var(--line); padding-block: 28px 0; }
 .home-institutions .institution-logos { width: min(100%, 420px); margin-top: 0; gap: 36px; }
 .lab-carousel { min-width: 0; width: min(100%, 480px); margin-inline: auto; }
 .carousel-slides { aspect-ratio: 4 / 3; background: var(--wash); overflow: hidden; }
@@ -113,13 +118,13 @@ button, input { border-radius: 4px; }
 .course-code { display: block; margin-bottom: 3px; font-size: var(--text-caption); color: var(--muted); }
 [dir="rtl"] .course-code { text-align: right; }
 .view-all { font-size: var(--text-small); white-space: nowrap; }
-.hero-updates { padding-top: 12px; border-top: 1px solid var(--line); }
-.hero-updates .section-heading { margin-bottom: 12px; }
-.hero-updates .section-heading h2 { font-size: 1.375rem; }
-.hero-updates .news-list li { display: grid; grid-template-columns: 110px minmax(0, 1fr); gap: 12px; margin-bottom: 10px; }
-.hero-updates .news-list li:last-child { margin-bottom: 0; }
-.hero-updates .news-list time { font-size: var(--text-caption); line-height: 1.55; }
-.hero-updates .news-list p { margin: 0; font-size: var(--text-label); line-height: 1.65; }
+.home-updates { grid-area: updates; position: sticky; top: 102px; min-width: 0; max-height: calc(100dvh - 126px); overflow-y: auto; scrollbar-width: thin; padding: 12px 0 0 24px; border-left: 1px solid var(--line); }
+.home-updates .section-heading { gap: 6px 12px; margin-bottom: 18px; }
+.home-updates .section-heading h2 { font-size: 1.375rem; }
+.home-updates .news-list li { margin-bottom: 18px; }
+.home-updates .news-list li:last-child { margin-bottom: 0; }
+.home-updates .news-list time { font-size: var(--text-caption); line-height: 1.55; }
+.home-updates .news-list p { margin: 3px 0 0; font-size: var(--text-label); line-height: 1.6; }
 .home-awards .award-summary { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 28px; }
 .home-awards .award-summary li { margin: 0; }
 .news-list, .award-summary { padding: 0; margin: 0; list-style: none; }
@@ -134,7 +139,7 @@ button, input { border-radius: 4px; }
 .award-label { color: var(--accent); font-weight: 600; }
 .award-summary .paper-title { font-size: var(--text-body); line-height: 1.45; margin: 0; }
 .award-nomination { font-size: var(--text-caption); border: 1px solid var(--line); padding: 2px 8px; margin-bottom: 12px; display: inline-block; }
-.latest-publications { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 34px 28px; }
+.latest-publications { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 34px 28px; }
 .latest-paper { min-width: 0; display: flex; flex-direction: column; border-bottom: 1px solid var(--line); padding-bottom: 18px; }
 .latest-paper .paper-figure { height: 178px; margin-bottom: 16px; }
 .latest-paper.no-figure { padding-top: 16px; border-top: 1px solid var(--line); }
@@ -216,6 +221,8 @@ a.industry-card:hover { background: var(--wash); border-color: var(--accent); te
 html[dir='rtl'] h1, html[dir='rtl'] h2, html[dir='rtl'] h3 { letter-spacing: 0; }
 html[dir='rtl'] .eyebrow { letter-spacing: 0; }
 html[dir='rtl'] .navbar-brand { direction: ltr; }
+/* Keep the updates sidebar on the physical right in every language. */
+html[dir='rtl'] .home-page { grid-template-columns: 288px minmax(0, 1fr); grid-template-areas: "updates about" "updates awards" "updates papers" "updates industry" "updates join" "institutions institutions"; }
 @media (max-width: 1099px) {
  .header-inner { display: block; min-height: 72px; }
  .navbar-header { width: 100%; min-height: 72px; }
@@ -226,6 +233,10 @@ html[dir='rtl'] .navbar-brand { direction: ltr; }
  .navbar-nav > li > a { max-width: none; font-size: var(--text-body); padding: 11px 0; }
  .language-toggle { font-size: var(--text-body); padding: 11px 0; }
  .dropdown-menu { position: static; box-shadow: none; width: 100%; display: flex; flex-wrap: wrap; gap: 4px; }
+ .home-page, html[dir='rtl'] .home-page { display: block; }
+ .home-updates { position: static; max-height: none; overflow: visible; border-left: 0; border-top: 1px solid var(--line); padding: 18px 0 24px; }
+ .home-updates .news-list li { display: grid; grid-template-columns: 110px minmax(0, 1fr); gap: 12px; margin-bottom: 12px; }
+ .home-updates .news-list p { margin: 0; }
  .about-hero { gap: 32px; }
  .lab-carousel { width: min(100%, 410px); }
  .about-intro { font-size: 1.25rem; }
@@ -256,7 +267,7 @@ html[dir='rtl'] .navbar-brand { direction: ltr; }
  .view-all { font-size: var(--text-small); }
  .join-contact, .latest-publications, .industry-grid, .position-grid { grid-template-columns: 1fr; gap: 0; }
  .home-awards .award-summary { grid-template-columns: 1fr; gap: 22px; }
- .hero-updates .news-list li { grid-template-columns: 96px minmax(0, 1fr); gap: 12px; }
+ .home-updates .news-list li { grid-template-columns: 96px minmax(0, 1fr); gap: 12px; }
  .latest-publications { gap: 28px; }
  .latest-paper .paper-figure { height: 200px; }
  .industry-grid { gap: 12px; }
