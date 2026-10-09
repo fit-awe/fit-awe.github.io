@@ -50,11 +50,13 @@ python3 scripts/check_content.py
 
 ## 页面与交互
 
+- 字体：正文约 18px，辅助信息约 15–16px，论文作者约 16–17px；字号使用 `rem`，跟随浏览器默认字号，按钮点击区域至少 44px。
+
 - About：实验室简介、FIT/AWE 释义、两张合影轮播及其下方最新动态；随后依次展示论文奖项、最新论文、产学研合作及招募，学校与 CMA Logo 位于首页底部。照片自动切换，悬停或键盘聚焦时暂停，也可聚焦后使用方向键切换；不显示箭头和页码。
 - Members：Faculty、PhD、MPhil、Alumni；占位头像使用姓名首字母。所有现有名单与个人信息保留。
 - Publications：按年份及已知发表日期倒序排列，桌面每行依次展示会议／期刊与年份、配图、标题及作者；缺图时文字扩展，手机纵向显示。顶部直接点击研究方向，并可搜索；年份与类型按钮位于“更多筛选”。`q`、`year`、`type`、`topic` 分享参数兼容刷新、浏览器历史和语言切换；支持 BibTeX 和 PDF 下载。补充材料单独标注，部分出版版链接到原站 PDF。
 - Paper Awards：紧凑的两列列表，左侧会议／期刊及年份，右侧奖项或提名与论文标题。奖项名称链接到核实来源，论文标题链接到出版页面；提名与学生游戏竞赛决赛入围明确标注，包含成员早期成果。
-- 页头导航：About、Members、Awards、Publications、Industry–Academia Collaboration、Join Us，以及语言切换。News 通过首页 Lab updates 的“查看更多”入口访问。
+- 页头导航：About、Members、Awards、Publications、Collaboration、Join Us，以及语言切换。News 通过首页 Lab updates 的“查看更多”入口访问。
 - Teams、Projects 已退出导航；旧链接跳转至 Members 或 Publications。校友旧入口转到 Members 的 Alumni 分区。
 
 ## 论文与定期维护

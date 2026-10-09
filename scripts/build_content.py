@@ -94,8 +94,8 @@ def build():
     body = '<main id="main-content" class="page-shell awards-page"><header class="page-heading"><h1>Paper Awards</h1></header><div class="award-list">' + ''.join(cards) + '</div></main>'
     (ROOT / 'awards').mkdir(exist_ok=True)
     (ROOT / 'awards/index.html').write_text(english_page('awards/index.html', 'Awards', body))
-    body = '<main id="main-content" class="page-shell collaboration-page"><header class="page-heading"><h1>Industry–Academia Collaboration</h1><p>Joint research and technology transfer in interactive technologies.</p></header>' + industry_cards() + '<div class="collaboration-contact"><h2>Get in touch</h2><p><a href="mailto:hainingliang@hkust-gz.edu.cn">hainingliang@hkust-gz.edu.cn</a></p></div></main>'
-    (ROOT / 'entrepreneurship/index.html').write_text(english_page('entrepreneurship/index.html', 'Industry–Academia Collaboration', body))
+    body = '<main id="main-content" class="page-shell collaboration-page"><header class="page-heading"><h1>Collaboration</h1><p>Joint research and technology transfer in interactive technologies.</p></header>' + industry_cards() + '<div class="collaboration-contact"><h2>Get in touch</h2><p><a href="mailto:hainingliang@hkust-gz.edu.cn">hainingliang@hkust-gz.edu.cn</a></p></div></main>'
+    (ROOT / 'entrepreneurship/index.html').write_text(english_page('entrepreneurship/index.html', 'Collaboration', body))
     (ROOT / 'vacancies/index.html').write_text(english_page('vacancies/index.html', 'Join Us', (ROOT / 'templates/join.html').read_text().replace('{{institutions}}', institution_logos('vacancies/index.html'))))
 
 

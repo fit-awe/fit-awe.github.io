@@ -14,7 +14,7 @@ TITLES=dict(zip(PAGES,['About','News','Members','Alumni','Members','Publications
 PAGES.append('awards/index.html')
 TITLES['awards/index.html']='Paper Awards'
 TITLES['vacancies/index.html']='Join Us'
-TITLES['entrepreneurship/index.html']='Industry–Academia Collaboration'
+TITLES['entrepreneurship/index.html']='Collaboration'
 INVARIANTS={'FIT-AWE Lab','FIT-AWE','FIT','AWE','HKUST(GZ) ↗','FIT-AWE / HKUST(GZ)','FIT-AWE Lab · HKUST(GZ)','HCI','XR','E1 · 507','Allan Lab','· Bootstrap · Bootswatch'}
 TERMS={'zh':{'now':'至今','summer':'暑期','Remote co-supervision':'远程联合指导'},'fr':{'now':'présent','summer':'été','Remote co-supervision':'Codirection à distance'},'ar':{'now':'الآن','summer':'الصيف','Remote co-supervision':'إشراف مشترك عن بُعد'},'ja':{'now':'現在','summer':'夏季','Remote co-supervision':'遠隔共同指導'}}
 

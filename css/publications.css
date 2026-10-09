@@ -2,95 +2,96 @@
 .visually-hidden { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; border: 0; }
 .catalog-header { display: flex; justify-content: space-between; align-items: baseline; gap: 12px 20px; flex-wrap: wrap; padding-bottom: 22px; }
 .catalog-header h1 { margin: 0; }
-.catalog-sources { display: flex; gap: 20px; font-size: 14px; }
+.catalog-sources { display: flex; gap: 20px; font-size: var(--text-small); }
 .catalog-controls { border-bottom: 1px solid var(--line); padding-bottom: 16px; }
 .catalog-tools { display: flex; flex-wrap: wrap; align-items: start; gap: 12px 20px; }
 .catalog-search { flex: 1; min-width: 180px; max-width: 480px; }
-.catalog-search input { width: 100%; min-height: 40px; padding: 7px 12px; border: 1px solid var(--accent-line); color: var(--ink); background: white; font-size: 16px; }
-.catalog-extra-filters { flex: 1; min-width: 150px; font-size: 14px; }
-.catalog-extra-filters summary { padding-block: 9px; color: var(--accent); cursor: pointer; width: fit-content; }
+.catalog-search input { width: 100%; min-height: 44px; padding: 7px 12px; border: 1px solid var(--accent-line); color: var(--ink); background: white; font-size: var(--text-body); }
+.catalog-extra-filters { flex: 1; min-width: 150px; font-size: var(--text-small); }
+.catalog-extra-filters summary { min-height: 44px; padding-block: 9px; color: var(--accent); cursor: pointer; width: fit-content; }
 .catalog-extra-filters[open] { flex-basis: 100%; }
 .extra-filter-options { padding-top: 12px; }
 .filter-group { border: 0; padding: 0; margin: 0 0 14px; min-width: 0; }
-.filter-group legend { color: var(--muted); font-size: 14px; font-weight: 600; margin-bottom: 9px; padding: 0; }
+.filter-group legend { color: var(--muted); font-size: var(--text-small); font-weight: 600; margin-bottom: 9px; padding: 0; }
 .filter-options { display: flex; flex-wrap: wrap; gap: 8px; }
-.filter-options button { border: 1px solid var(--line); padding: 7px 12px; background: var(--wash); font-size: 14px; line-height: 1.35; min-height: 36px; }
+.filter-options button { border: 1px solid var(--line); padding: 7px 12px; background: var(--wash); font-size: var(--text-small); line-height: 1.35; min-height: 44px; }
 .filter-options button[aria-pressed='true'] { background: var(--accent-fill); border-color: var(--accent); color: var(--on-accent); font-weight: 600; }
 .filter-options button:hover { border-color: var(--accent); }
-.catalog-status { min-height: 48px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px 16px; color: var(--muted); font-size: 14px; }
+.catalog-status { min-height: 48px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px 16px; color: var(--muted); font-size: var(--text-small); }
 .catalog-status p { margin: 0; }
-#publication-reset { border: 0; background: none; padding: 8px 0; font-size: 14px; text-decoration: underline; }
+#publication-reset { border: 0; background: none; padding: 8px 0; font-size: var(--text-small); text-decoration: underline; }
 .paper-card, .award-card { display: grid; gap: 24px; padding-block: 24px; border-bottom: 1px solid var(--line); }
 .paper-card { grid-template-columns: 112px 280px minmax(0, 1fr); }
 .paper-card.no-figure { grid-template-columns: 112px minmax(0, 1fr); }
 .award-card { grid-template-columns: 216px minmax(0, 1fr); gap: 32px; padding-block: 12px; border: 0; align-items: start; }
-.paper-venue { min-width: 0; font-size: 16px; font-weight: 600; line-height: 1.5; overflow-wrap: anywhere; }
+.paper-venue { min-width: 0; font-size: var(--text-body); font-weight: 600; line-height: 1.5; overflow-wrap: anywhere; }
 .venue-year { white-space: nowrap; }
 .paper-card .paper-figure { height: 185px; padding: 0; border: 0; border-radius: 0; }
-.paper-card .paper-title { font-size: 20px; line-height: 1.35; margin-bottom: 6px; }
-.paper-card .paper-authors { margin-bottom: 6px; line-height: 1.5; }
+.paper-card .paper-title { font-size: 1.375rem; line-height: 1.45; margin-bottom: 6px; }
+.paper-card .paper-authors { margin-bottom: 8px; line-height: 1.65; }
 .paper-card .paper-meta { margin-bottom: 6px; }
 .paper-card .paper-actions { gap: 8px 18px; }
 .paper-figure { display: flex; align-items: center; justify-content: center; height: 162px; align-self: start; padding: 4px; border: 1px solid var(--line); background: white; border-radius: 3px; overflow: hidden; }
 .paper-figure img { display: block; width: 100%; height: 100%; object-fit: contain; }
 .paper-figure:hover { border-color: var(--accent); }
 .paper-content { min-width: 0; overflow-wrap: anywhere; }
-.paper-meta { color: var(--muted); margin: 0 0 10px; font-size: 13px; line-height: 1.5; }
-.paper-title { font-size: 21px; line-height: 1.4; margin: 0 0 10px; font-weight: 600; letter-spacing: -.2px; }
+.paper-meta { color: var(--muted); margin: 0 0 10px; font-size: var(--text-caption); line-height: 1.5; }
+.paper-title { font-size: 1.4375rem; text-wrap: pretty; line-height: 1.45; margin: 0 0 10px; font-weight: 600; letter-spacing: -.2px; }
 .paper-title a { color: var(--ink); }
 .paper-title a:hover { color: var(--accent); }
-.paper-authors { color: var(--muted); font-size: 15px; line-height: 1.65; margin: 0 0 12px; }
+.paper-authors { color: var(--muted); font-size: var(--text-label); line-height: 1.65; margin: 0 0 12px; }
 .paper-authors strong { color: var(--accent); font-weight: 700; }
-.paper-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 12px 20px; font-size: 14px; }
+.paper-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 12px 20px; font-size: var(--text-small); }
+.paper-actions a, .paper-actions button { display: inline-flex; align-items: center; min-height: 44px; }
 .paper-actions button { color: var(--accent); background: none; border: 0; padding: 4px 0; font: inherit; }
 .paper-actions button:hover { text-decoration: underline; }
 #publication-empty { text-align: center; padding: 44px 16px; background: var(--wash); color: var(--muted); }
-.catalog-footnote { color: var(--muted); font-size: 13px; margin-top: 30px; }
+.catalog-footnote { color: var(--muted); font-size: var(--text-caption); margin-top: 30px; }
 #citation-dialog { color: var(--ink); background: #fff; border: 1px solid var(--line); border-radius: 6px; width: min(680px, calc(100% - 36px)); max-height: 85dvh; padding: 28px; }
 #citation-dialog::backdrop { background: #00000066; }
-#citation-dialog h2 { font-size: 26px; margin-bottom: 20px; }
-#citation-dialog pre { white-space: pre-wrap; overflow-wrap: anywhere; overflow: auto; max-height: 50dvh; direction: ltr; text-align: left; background: var(--wash); padding: 18px; border: 1px solid var(--line); font-size: 13px; line-height: 1.5; }
+#citation-dialog h2 { font-size: var(--text-section); margin-bottom: 20px; }
+#citation-dialog pre { white-space: pre-wrap; overflow-wrap: anywhere; overflow: auto; max-height: 50dvh; direction: ltr; text-align: left; background: var(--wash); padding: 18px; border: 1px solid var(--line); font-size: var(--text-caption); line-height: 1.5; }
 .citation-actions { display: flex; flex-wrap: wrap; gap: 12px; }
-.citation-actions button { border: 1px solid var(--accent-line); padding: 9px 16px; background: white; font-size: 15px; }
-#citation-dialog [role='status'] { font-size: 14px; margin: 16px 0 0; }
+.citation-actions button { min-height: 44px; border: 1px solid var(--accent-line); padding: 9px 16px; background: white; font-size: var(--text-label); }
+#citation-dialog [role='status'] { font-size: var(--text-small); margin: 16px 0 0; }
 .awards-page { padding-top: 32px; }
 .awards-page .page-heading { margin-bottom: 24px; }
-.award-venue { min-width: 0; color: var(--ink); font-size: 17px; line-height: 1.5; font-weight: 600; overflow-wrap: anywhere; }
-.award-card .award-label { font-size: 18px; line-height: 1.45; letter-spacing: 0; margin: 0 0 3px; }
+.award-venue { min-width: 0; color: var(--ink); font-size: 1.1875rem; line-height: 1.5; font-weight: 600; overflow-wrap: anywhere; }
+.award-card .award-label { font-size: 1.25rem; line-height: 1.45; letter-spacing: 0; margin: 0 0 3px; }
 .award-card .award-label a { color: var(--ink); }
 .award-card .award-label a:hover { color: var(--accent); }
-.award-source-mark { color: var(--muted); font-size: 12px; font-weight: 400; }
-.award-card .paper-title { font-size: 17px; line-height: 1.5; font-weight: 400; font-style: italic; letter-spacing: 0; margin: 0; }
+.award-source-mark { color: var(--muted); font-size: var(--text-caption); font-weight: 400; }
+.award-card .paper-title { font-size: 1.1875rem; line-height: 1.5; font-weight: 400; font-style: italic; letter-spacing: 0; margin: 0; }
 .award-card .paper-title a { color: var(--muted); }
 .award-card .paper-title a:hover { color: var(--accent); }
-.award-card .award-nomination { border: 0; padding: 0; margin: 0; margin-inline-start: 8px; color: var(--muted); font-size: 14px; font-weight: 500; }
+.award-card .award-nomination { border: 0; padding: 0; margin: 0; margin-inline-start: 8px; color: var(--muted); font-size: var(--text-small); font-weight: 500; }
 @media (min-width: 720px) and (max-width: 999px) {
  .paper-card { grid-template-columns: 96px 176px minmax(0, 1fr); gap: 18px; }
  .paper-card.no-figure { grid-template-columns: 96px minmax(0, 1fr); }
  .paper-card .paper-figure { height: 124px; }
- .paper-venue { font-size: 14px; }
- .paper-card .paper-title { font-size: 18px; }
+ .paper-venue { font-size: var(--text-small); }
+ .paper-card .paper-title { font-size: 1.25rem; }
 }
 @media (max-width: 719px) {
  .publication-catalog { padding-top: 26px; }
  .catalog-header { padding-bottom: 18px; }
- .catalog-sources { font-size: 13px; }
+ .catalog-sources { font-size: var(--text-caption); }
  .catalog-tools { gap: 6px; }
  .catalog-search { max-width: none; }
  .catalog-extra-filters { flex-basis: 100%; }
  .filter-options { gap: 7px; }
- .filter-options button { min-height: 40px; padding: 8px 11px; }
+ .filter-options button { min-height: 44px; padding: 8px 11px; }
  .paper-card, .paper-card.no-figure { grid-template-columns: 1fr; gap: 10px; padding-block: 20px; }
- .paper-venue { font-size: 15px; }
+ .paper-venue { font-size: var(--text-label); }
  .paper-card .paper-figure { width: 100%; height: auto; max-height: 180px; }
  .paper-card .paper-figure img { height: auto; max-height: 180px; }
- .paper-card .paper-title { font-size: 18px; }
+ .paper-card .paper-title { font-size: 1.25rem; }
  .awards-page { padding-top: 26px; }
  .award-card { grid-template-columns: 1fr; gap: 4px; padding-block: 14px; }
- .award-venue { font-size: 16px; }
- .paper-title { font-size: 19px; }
- .paper-authors { font-size: 14px; }
- .paper-actions { font-size: 14px; }
- .award-card .award-label { font-size: 17px; }
- .award-card .paper-title { font-size: 16px; }
+ .award-venue { font-size: var(--text-body); }
+ .paper-title { font-size: 1.3125rem; }
+ .paper-authors { font-size: var(--text-small); }
+ .paper-actions { font-size: var(--text-small); }
+ .award-card .award-label { font-size: 1.1875rem; }
+ .award-card .paper-title { font-size: var(--text-body); }
 }
