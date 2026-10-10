@@ -44,9 +44,10 @@ badge_text={
  'ja':{'nomination':'ノミネート','finalist':'ファイナリスト'},
 }
 
-def check_award_status(card,award,lang,compact=False):
+def check_award_status(card,award,lang):
  badge=card.select_one('.award-nomination')
- labelled_in_name=compact and award['status']=='nomination' and 'nomination' in award['name'].casefold()
+ labelled_in_name=award['status']=='nomination' and 'nomination' in award['name'].casefold()
+ if labelled_in_name:assert localized(award['name'],lang) in card.select_one('.award-label').get_text(' ',strip=True),(award['id'],lang,'nomination label missing')
  if award['status']=='award' or labelled_in_name:assert badge is None
  else:assert badge and badge.text==badge_text[lang][award['status']],(award['id'],lang,'incorrect award status')
 
@@ -74,7 +75,7 @@ for lang in LANGUAGES:
   assert card.select_one('.award-venue bdi').text==award['venue']
   assert not card.select('.paper-figure,.paper-authors'), 'Awards should prioritize venue, prize and paper'
   assert card.select_one('time').text==format_date(award['date'],lang)
-  check_award_status(card,award,lang,compact=True)
+  check_award_status(card,award,lang)
  for card in latest+cards:
   p=by_id[card['data-paper-id']]
   assert card.select_one('.paper-title a').text==p['title']

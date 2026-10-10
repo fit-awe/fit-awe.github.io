@@ -35,6 +35,8 @@ def news_list(records, page='index.html'):
 
 
 def award_status(award):
+    if award['status'] == 'nomination' and 'nomination' in award['name'].casefold():
+        return ''
     label = {'nomination': 'Nomination', 'finalist': 'Finalist'}.get(award['status'])
     return f'<span class="award-nomination">{label}</span>' if label else ''
 
@@ -86,8 +88,7 @@ def build():
     cards = []
     for award in awards:
         p = papers[award['paper_id']]
-        needs_status = award['status'] == 'finalist' or (award['status'] == 'nomination' and 'nomination' not in award['name'].casefold())
-        note = award_status(award) if needs_status else ''
+        note = award_status(award)
         date = f'<span class="visually-hidden">{time_tag(award["date"])}</span>'
         source = f'<a href="{esc(award["source"])}" target="_blank" rel="noopener noreferrer" title="Award source ↗">{esc(award["name"])} <span class="award-source-mark" aria-hidden="true">↗</span></a>'
         cards.append(f'<article class="award-card" id="award-{award["id"]}" data-award-id="{award["id"]}" data-paper-id="{p["id"]}" data-status="{award["status"]}"><div class="award-venue"><bdi data-bibliographic>{esc(award["venue"])}</bdi>{date}</div><div class="paper-content"><h2 class="award-label">{source}{note}</h2>{paper_title(p)}</div></article>')

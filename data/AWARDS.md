@@ -4,6 +4,8 @@
 
 本轮由原 4 条扩充为 **15 条：8 项获奖、4 项论文奖提名、3 项学生游戏竞赛决赛入围**。每条记录关联现有论文 ID，不重复复制标题、作者或图片；首页最新 3 项与五种语言的完整 Awards 页面均来自同一份记录。
 
+**2026-10-10 复核现有 15 条记录**：13 条有直接对应题名的证据（11 条会议／大学、2 条共同作者），RelicVR 与 VirusBoxing 两条仍为跨来源匹配，尚缺题名对应的直接入围结果页。完整来源、核查方法及证据限制见 [逐项校对清单](AWARD-AUDIT-2026-10-10.md)。保留记录的数量与逐题名确认的数量分别记录，不能将 15 条全部称为已直接核实。
+
 完整页面采用紧凑的两列列表：左侧会议／期刊与年份，右侧奖项或提名及论文原始标题。点击奖项名称查看来源，点击论文标题进入出版页面。提名名称中已写明 Nomination 时不重复显示标签；竞赛决赛入围始终注明 Finalist。手机采用纵向排列。
 
 ## 已收录
@@ -12,7 +14,7 @@
 | --- | --- | --- | --- | --- |
 | 2026-04 | ACM CHI 2026 | Best Paper Honorable Mention Award（获奖） | [Investigating How Physical Surfaces Can Serve as Common-Region Cues for Perceptual Grouping of Virtual Elements in Augmented Reality](https://doi.org/10.1145/3772318.3790315) | [来源](https://researchportal.hkust.edu.hk/en/publications/investigating-how-physical-surfaces-can-serve-as-common-region-cu/prizes/) |
 | 2026-03 | IEEE VR 2026 | Best Poster Award（获奖） | [DodgeUI: An Adaptive Interface for Mitigating Attentional Conflict via Implicit Motion Cues in Mobile AR](https://doi.org/10.1109/VRW70859.2026.00233) | [来源](https://ieeevr.org/2026/awards/conference-awards/) |
-| 2025-11 | ACM VRST 2025 | Best Paper Award Nomination（提名） | [Tunnels vs. Wires: A Comparative Analysis of Two 3D Steering Tasks in Virtual Environments](https://doi.org/10.1145/3756884.3766023) | [来源](https://vvise.iat.sfu.ca/pubs/amini2025tunnelsvswires) |
+| 2025-11 | ACM VRST 2025 | Best Paper Award Nomination（提名） | [Tunnels vs. Wires: A Comparative Analysis of Two 3D Steering Tasks in Virtual Environments](https://doi.org/10.1145/3756884.3766023) | [会议官方来源](https://vrst.acm.org/vrst2025/index.php/papers/) |
 | 2025-10 | IEEE ISMAR 2025 | Honorable Mention — Best Paper Award（获奖） | [Exploring and Modeling the Effects of Eye-Tracking Accuracy and Precision on Gaze-Based Steering in Virtual Environments](https://doi.org/10.1109/TVCG.2025.3616824) | [来源](https://www.ieeeismar.net/2025/program/awards/) |
 | 2025-05 | IEEE Transactions on Games 2025 | Outstanding Paper Award Nomination（提名） | [Real-Time Prediction of Simulator Sickness in Virtual Reality Games](https://doi.org/10.1109/TG.2022.3178539) | [来源](https://xuwenge.github.io/) |
 | 2024-12-11 | IEEE ICDM 2024 | 10-Year Highest-Impact Paper Award（获奖） | [A Unified Gradient Regularization Family for Adversarial Examples](https://doi.org/10.1109/ICDM.2015.84) | [来源](https://icdm.zhonghuapu.com/Awards/Impact.shtml) |
@@ -28,11 +30,12 @@
 
 ## 匹配与命名说明
 
+- 2026-10-10 重新核实 Tunnels vs. Wires：会议官方 Papers 页面以 `#f78da7` 粉色背景标注该论文，页末图例明确写为 “Paper nominated for best paper”；作者名单包括 Hai-Ning Liang。VVISE 论文页面也直接确认最佳论文奖提名。保留提名记录，主来源改为官方会议程序；首页与完整列表均不再重复显示 Nomination 标签。最终获奖名单未将该文列为获奖论文，不升级为获奖。
 - 同一论文在同一会议从提名升级为获奖时，只保留最终结果。例如 ISMAR 2025 的眼动精度论文，以会议官方 Honorable Mention 结果为准。
 - IEEE VR 2020 的 Boundary Awareness 论文在官方名单中属于最佳会议论文提名；不根据概括性个人简介改称 Honorable Mention。
 - ICDM 十年最高影响力奖是 **2024 年授予 2015 年的论文**，日期按 2024 年颁奖记录保存。
 - TALE 2013 官网奖单采用缩略题名；香港大学工程学院新闻给出与目录一致的完整题名及 Merit Paper Award，因此采用该新闻作为主来源。
-- Myopic Bike 的作者主页与 CV 直接标注该题名为 SGDC Finalist。RelicVR 由 Rongkai Shi 的 2021 年竞赛入围记录、CV 的 [P1] 竞赛项目和论文作者对应确认；VirusBoxing 由 Wenge Xu 的 2020 年入围记录与 Xiang Li 的同年 SGDC 作品条目对应确认。这两条属于跨来源匹配，完整方法保存在 `provenance_note`，并未写成最佳论文获奖。
+- Myopic Bike 的作者主页与 CV 直接标注该题名为 SGDC Finalist。RelicVR 由 Rongkai Shi 的 2021 年竞赛入围记录、CV 的 [P1] 竞赛项目和论文作者间接匹配；VirusBoxing 由 Wenge Xu 的 2020 年入围记录与 Xiang Li 的同年 SGDC 作品条目间接匹配。这两条仍待补充题名对应的直接结果记录，完整方法保存在 `provenance_note`，并未写成最佳论文获奖。
 - Rongkai Shi 的旧 CV 目前返回 404，搜索索引仍有原始记录；页面主来源采用其 LinkedIn 作者档案。LinkedIn 可能需要登录。
 - 此次同时修复 Boundary Awareness 论文的错误 DOI：使用大学作者档案给出的 `10.1109/VR46266.2020.00039`，保留论文 ID、完整作者、配图和分类。
 
@@ -50,7 +53,7 @@
 ## 后续编辑
 
 1. 在 `data/awards.json` 加入唯一 `id`、现有 `paper_id`、日期、会议 / 期刊、准确奖项名称、`status` 和来源。`status` 为 `award`、`nomination` 或 `finalist`；竞赛入围不计作论文获奖。
-2. `date` 是授奖 / 提名日期，保留原始年、月、日精度。`verified_on` 记录复核日期；`evidence_sources` 与 `provenance_note` 保存异名、历史来源及跨页面匹配依据。
+2. `date` 是授奖 / 提名日期，保留原始年、月、日精度。`verified_on` 记录复核日期；`verification_level` 与 `verification_note` 记录证据等级及此次核查结论；`evidence_sources` 与 `provenance_note` 保存异名、历史来源及跨页面匹配依据。
 3. 早期成果仍在实验室 Awards 中展示，`period` 只保存历史归属的内部记录，不将旧机构成果伪写为新实验室当年完成。
 4. 新奖项名称与界面文案加入四份语言词典，然后运行 `scripts/build_site.py`、`scripts/check_publications.py`、`scripts/check_locales.py`、`scripts/check_content.py`。
 5. 月度书目流程会重新生成 Awards 和首页摘要，保留人工核实奖项；不会凭来源检索中出现 award 一词自动新增奖项。

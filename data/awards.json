@@ -11,7 +11,10 @@
     "affiliation_sources": [
       "https://researchportal.hkust.edu.hk/en/publications/investigating-how-physical-surfaces-can-serve-as-common-region-cu/"
     ],
-    "verified_on": "2026-10-05"
+    "verified_on": "2026-10-10",
+    "verification_level": "direct-title-official",
+    "verification_note": "香港科技大学研究门户在该论文的 Prizes 页面列出 Best Paper Honorable Mention Award，授奖时间为 2026 年 4 月。",
+    "source_type": "university"
   },
   {
     "id": "vr-2026-dodgeui",
@@ -29,7 +32,9 @@
       "https://yizou-joey.github.io/index.html"
     ],
     "source_type": "conference",
-    "verified_on": "2026-10-05"
+    "verified_on": "2026-10-10",
+    "verification_level": "direct-title-official",
+    "verification_note": "IEEE VR 2026 官方 Conference Awards 在 Best Poster Award 下列出完整题名及五名作者。属于海报奖。"
   },
   {
     "id": "vrst-2025-tunnels",
@@ -38,16 +43,20 @@
     "venue": "ACM VRST 2025",
     "name": "Best Paper Award Nomination",
     "status": "nomination",
-    "source": "https://vvise.iat.sfu.ca/pubs/amini2025tunnelsvswires",
+    "source": "https://vrst.acm.org/vrst2025/index.php/papers/",
     "period": "lab",
     "affiliation_sources": [
       "https://vvise.iat.sfu.ca/pubs/amini2025tunnelsvswires"
     ],
     "evidence_sources": [
+      "https://vvise.iat.sfu.ca/pubs/amini2025tunnelsvswires",
       "https://vvise.iat.sfu.ca/people/wolfgang-stuerzlinger/ws-cv"
     ],
-    "source_type": "coauthor-lab",
-    "verified_on": "2026-10-05"
+    "source_type": "conference",
+    "provenance_note": "The conference paper program highlights this exact title with background color #f78da7. Its legend defines this color as Paper nominated for best paper. The author list includes Hai-Ning Liang. The VVISE publication page independently states that this work was nominated for a Best Paper Award. The final conference award winners page does not list this paper as a winner; retain nomination status only.",
+    "verified_on": "2026-10-10",
+    "verification_level": "direct-title-official",
+    "verification_note": "会议 Papers 页以粉色标记该论文；页末图例将该颜色定义为最佳论文提名。VVISE 合作者课题组也明确写出提名。仅是提名。"
   },
   {
     "id": "ismar-2025",
@@ -61,7 +70,10 @@
     "affiliation_sources": [
       "https://www.ieeeismar.net/2025/program/awards/"
     ],
-    "verified_on": "2026-10-05"
+    "verified_on": "2026-10-10",
+    "verification_level": "direct-title-official",
+    "verification_note": "会议官方 Awards 页在 Honorable Mention – Best Paper Award 下列出完整题名与作者。属于获奖，取最终结果而非早先提名。",
+    "source_type": "conference"
   },
   {
     "id": "tog-2025-sickness",
@@ -81,7 +93,9 @@
     ],
     "source_type": "coauthor",
     "provenance_note": "The coauthor announcement is dated May 2025. The paper was published online in 2022 and in the 2023 journal volume. The journal award list does not name this paper as a winner or honorable mention; it is displayed only as a nomination.",
-    "verified_on": "2026-10-05"
+    "verified_on": "2026-10-10",
+    "verification_level": "direct-title-coauthor",
+    "verification_note": "共同作者 Wenge Xu 的主页在 05/2025 新闻中明确将该论文称为 Outstanding Paper Award 提名。期刊最终获奖名单没有将它列为获奖论文。"
   },
   {
     "id": "icdm-2024-impact",
@@ -100,7 +114,9 @@
     ],
     "source_type": "conference",
     "provenance_note": "The 2024 award recognizes the 2015 paper. The award ceremony slides identify 11 December 2024; the award date is not the publication year.",
-    "verified_on": "2026-10-05"
+    "verified_on": "2026-10-10",
+    "verification_level": "direct-title-official",
+    "verification_note": "ICDM 官方 10-Year Highest-Impact Paper Award 名单的 2024 条目列出该文和三名作者。2015 是论文年份，2024 是授奖年份。"
   },
   {
     "id": "iss-2024",
@@ -115,7 +131,10 @@
       "https://rongkaishi.github.io/assets/papers/rk-ISSmos24.pdf"
     ],
     "provenance_note": "The published paper lists HKUST(GZ) and Xi’an Jiaotong-Liverpool University affiliations. Part of the work was conducted at XJTLU. The award conference took place 27–30 October 2024, after the lab’s September 2024 establishment.",
-    "verified_on": "2026-10-05"
+    "verified_on": "2026-10-10",
+    "verification_level": "direct-title-official",
+    "verification_note": "ISS 2024 官方 Awards 页在 Honourable Mention 下列出完整题名和作者。",
+    "source_type": "conference"
   },
   {
     "id": "ismar-2024-authentication",
@@ -135,7 +154,9 @@
     ],
     "source_type": "conference",
     "provenance_note": "The official Wednesday program marks paper J1043 with a star and defines this marker as a Best Paper Award nominee. ISMAR ran 21–25 October 2024. This is a nomination, not a claim that the paper won.",
-    "verified_on": "2026-10-05"
+    "verified_on": "2026-10-10",
+    "verification_level": "direct-title-official",
+    "verification_note": "官方 Wednesday 程序在该文 J1043 前标星；页面图例注明星号为 Best Paper Award nominees。仅是提名。"
   },
   {
     "id": "vr-2024-isolation",
@@ -153,7 +174,9 @@
       "https://www.bcu.ac.uk/research/computing/digital-media-technology/members-and-partners/research-staff/wenge-xu"
     ],
     "source_type": "conference",
-    "verified_on": "2026-10-05"
+    "verified_on": "2026-10-10",
+    "verification_level": "direct-title-official",
+    "verification_note": "IEEE VR 2024 官方 Conference Awards 在 Best Paper Honorable Mentions 下列出完整题名和作者。"
   },
   {
     "id": "vrcai-2022",
@@ -167,7 +190,10 @@
     "affiliation_sources": [
       "https://kclpure.kcl.ac.uk/portal/en/publications/teleoperation-of-a-fast-omnidirectional-unmanned-ground-vehicle-i/"
     ],
-    "verified_on": "2026-10-05"
+    "verified_on": "2026-10-10",
+    "verification_level": "direct-title-official",
+    "verification_note": "伦敦国王学院的该论文页面在 Prize 记录中列出 Best Paper Award，年份为 2022。",
+    "source_type": "university"
   },
   {
     "id": "chiplay-2021-myopic",
@@ -187,7 +213,9 @@
     ],
     "source_type": "coauthor",
     "provenance_note": "The coauthor publication page and CV explicitly mark this exact paper as SGDC Finalist. Finalist is a competition result, not a Best Paper Award.",
-    "verified_on": "2026-10-05"
+    "verified_on": "2026-10-10",
+    "verification_level": "direct-title-coauthor",
+    "verification_note": "共同作者 Xiaohang Tang 的论文列表在该题名旁直接标注 SGDC Finalist。属于学生游戏设计竞赛入围，不是最佳论文奖。"
   },
   {
     "id": "chiplay-2021-relicvr",
@@ -207,7 +235,9 @@
     ],
     "source_type": "coauthor",
     "provenance_note": "Matched from coauthor Rongkai Shi’s 2021 SGDC Finalist honor and his CV, which identifies RelicVR as the 2021 competition project [P1] mentored with Yilin Liu and Yiming Lin. This is a cross-source match rather than an exact-title award-list entry. The CV is search-indexed but currently returns 404, so the public award source links to his author profile. Only the year is retained because the conference and profile report different months.",
-    "verified_on": "2026-10-05"
+    "verified_on": "2026-10-10",
+    "verification_level": "cross-source-match",
+    "verification_note": "Rongkai Shi 作者档案记录 2021 年 SGDC Finalist；旧 CV 的搜索索引将 RelicVR 对应为同年竞赛项目 [P1]。但 CV 当前返回 404，尚未找到直接把该题名列为 finalist 的会议结果页。"
   },
   {
     "id": "chiplay-2020-virusboxing",
@@ -228,7 +258,9 @@
     ],
     "source_type": "coauthor",
     "provenance_note": "Matched from Wenge Xu’s November 2020 CHI PLAY competition finalist honor and the same-year VirusBoxing entry, identified as Student Game Design Competition by coauthor Xiang Li. This is the matching coauthored competition paper, not a paper-prize win.",
-    "verified_on": "2026-10-05"
+    "verified_on": "2026-10-10",
+    "verification_level": "cross-source-match",
+    "verification_note": "Wenge Xu 作者档案记录 2020 年竞赛 Finalist，BCU 大学简介也确认其竞赛入围经历；Xiang Li 的作品页将 VirusBoxing 列为同年 SGDC 作品。尚未找到直接把题名与 finalist 连在一起的会议结果页。"
   },
   {
     "id": "vr-2020-boundary",
@@ -247,7 +279,9 @@
     ],
     "source_type": "conference",
     "provenance_note": "The official conference list places this title under Best Conference Paper Nominees. A generic biography calls the 2020 result an honorable mention; the official nomination classification takes precedence.",
-    "verified_on": "2026-10-05"
+    "verified_on": "2026-10-10",
+    "verification_level": "direct-title-official",
+    "verification_note": "IEEE VR 2020 官方 Conference Awards 将该文列在 Best Conference Paper Nominees，而非获奖名单。以官方分类为准，不采用个人简介中泛称的 Honorable Mention。"
   },
   {
     "id": "tale-2013-merit",
@@ -267,6 +301,8 @@
     ],
     "source_type": "university",
     "provenance_note": "HKU Engineering names the exact catalog title and identifies the prize as Merit Paper Award. The conference archive lists a shorter title variant with the same three authors; both refer to the TALE 2013 paper DOI 10.1109/TALE.2013.6654499.",
-    "verified_on": "2026-10-05"
+    "verified_on": "2026-10-10",
+    "verification_level": "direct-title-official",
+    "verification_note": "香港大学工程学院新闻给出完整题名和 Merit Paper Award。IEEE TALE 官方历史奖单给出缩略题名及相同三名作者。保留准确奖名 Merit Paper Award。"
   }
 ]

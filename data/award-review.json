@@ -2,7 +2,7 @@
   "checked_on": "2026-10-05",
   "catalog_size": 393,
   "queried_papers": 393,
-  "confirmed_records": 15,
+  "confirmed_records": 13,
   "counts": {
     "award": 8,
     "nomination": 4,
@@ -99,9 +99,12 @@
         "vr-2026-dodgeui"
       ],
       "search_lead_urls": [
-        "https://yizou-joey.github.io/index.html",
-        "https://ieeevr.org/2026/awards/conference-awards/"
-      ]
+        "https://ieeevr.org/2026/awards/conference-awards/",
+        "https://yizou-joey.github.io/index.html"
+      ],
+      "verified_on": "2026-10-10",
+      "verification_level": "direct-title-official",
+      "verification_note": "IEEE VR 2026 官方 Conference Awards 在 Best Poster Award 下列出完整题名及五名作者。属于海报奖。"
     },
     {
       "paper_id": "23eb6f1f3334",
@@ -183,7 +186,10 @@
         "https://researchportal.hkust.edu.hk/en/prizes/best-paper-honorable-mention-award-11/",
         "https://xuning-hu.github.io/publications",
         "https://xuning-hu.github.io/assets/pdfs/Xuning%27cv25.pdf"
-      ]
+      ],
+      "verified_on": "2026-10-10",
+      "verification_level": "direct-title-official",
+      "verification_note": "香港科技大学研究门户在该论文的 Prizes 页面列出 Best Paper Honorable Mention Award，授奖时间为 2026 年 4 月。"
     },
     {
       "paper_id": "facfee715450",
@@ -473,10 +479,14 @@
         "ismar-2025"
       ],
       "search_lead_urls": [
+        "https://www.ieeeismar.net/2025/program/awards/",
         "https://rcg-vvise.dcr.sfu.ca/people/wolfgang-stuerzlinger/ws-cv",
         "https://xuning-hu.github.io/publications",
         "https://xuning-hu.github.io/assets/pdfs/Xuning%27cv25.pdf"
-      ]
+      ],
+      "verified_on": "2026-10-10",
+      "verification_level": "direct-title-official",
+      "verification_note": "会议官方 Awards 页在 Honorable Mention – Best Paper Award 下列出完整题名与作者。属于获奖，取最终结果而非早先提名。"
     },
     {
       "paper_id": "6956baee02f4",
@@ -590,11 +600,16 @@
       "award_ids": [
         "vrst-2025-tunnels"
       ],
+      "verified_on": "2026-10-10",
+      "provenance_note": "Conference Papers page marks this title in #f78da7; the page legend defines that highlight as Paper nominated for best paper. Keep nomination, not award winner.",
       "search_lead_urls": [
+        "https://vrst.acm.org/vrst2025/index.php/papers/",
         "https://vvise.iat.sfu.ca/pubs/amini2025tunnelsvswires",
         "https://rcg-vvise.dcr.sfu.ca/people/wolfgang-stuerzlinger/ws-cv",
         "https://www.linkedin.com/posts/mohammadreza-amini-15b49719a_happy-to-present-my-paper-tunnels-vs-wires-activity-7397472938582716417-lemw"
-      ]
+      ],
+      "verification_level": "direct-title-official",
+      "verification_note": "会议 Papers 页以粉色标记该论文；页末图例将该颜色定义为最佳论文提名。VVISE 合作者课题组也明确写出提名。仅是提名。"
     },
     {
       "paper_id": "45f54368c8f2",
@@ -636,8 +651,12 @@
         "ismar-2024-authentication"
       ],
       "search_lead_urls": [
+        "https://www.ieeeismar.net/2024/index.html%3Fp=995.html",
         "https://www.ieeeismar.net/2024/index.html%3Fp%3D995.html"
-      ]
+      ],
+      "verified_on": "2026-10-10",
+      "verification_level": "direct-title-official",
+      "verification_note": "官方 Wednesday 程序在该文 J1043 前标星；页面图例注明星号为 Best Paper Award nominees。仅是提名。"
     },
     {
       "paper_id": "65ae45d86f04",
@@ -646,6 +665,12 @@
       "result": "confirmed-recognition",
       "award_ids": [
         "vr-2024-isolation"
+      ],
+      "verified_on": "2026-10-10",
+      "verification_level": "direct-title-official",
+      "verification_note": "IEEE VR 2024 官方 Conference Awards 在 Best Paper Honorable Mentions 下列出完整题名和作者。",
+      "search_lead_urls": [
+        "https://ieeevr.org/2024/awards/conference-awards/"
       ]
     },
     {
@@ -772,9 +797,13 @@
         "iss-2024"
       ],
       "search_lead_urls": [
+        "https://iss2024.acm.org/info/awards",
         "https://iss2024.acm.org/details/iss-2024-papers/5/Experimental-Analysis-of-Freehand-Multi-object-Selection-Techniques-in-Virtual-Realit",
         "https://yulingyun.com/category/uncategorized/"
-      ]
+      ],
+      "verified_on": "2026-10-10",
+      "verification_level": "direct-title-official",
+      "verification_note": "ISS 2024 官方 Awards 页在 Honourable Mention 下列出完整题名和作者。"
     },
     {
       "paper_id": "4c278ca57f6f",
@@ -1260,6 +1289,12 @@
       "result": "confirmed-recognition",
       "award_ids": [
         "tog-2025-sickness"
+      ],
+      "verified_on": "2026-10-10",
+      "verification_level": "direct-title-coauthor",
+      "verification_note": "共同作者 Wenge Xu 的主页在 05/2025 新闻中明确将该论文称为 Outstanding Paper Award 提名。期刊最终获奖名单没有将它列为获奖论文。",
+      "search_lead_urls": [
+        "https://xuwenge.github.io/"
       ]
     },
     {
@@ -1491,10 +1526,14 @@
         "vrcai-2022"
       ],
       "search_lead_urls": [
+        "https://kclpure.kcl.ac.uk/portal/en/publications/teleoperation-of-a-fast-omnidirectional-unmanned-ground-vehicle-i/",
         "https://kclpure.kcl.ac.uk/portal/en/publications/teleoperation-of-a-fast-omnidirectional-unmanned-ground-vehicle-i",
         "https://yimingluo.com/",
         "https://shanluo.github.io/"
-      ]
+      ],
+      "verified_on": "2026-10-10",
+      "verification_level": "direct-title-official",
+      "verification_note": "伦敦国王学院的该论文页面在 Prize 记录中列出 Best Paper Award，年份为 2022。"
     },
     {
       "paper_id": "bf5fe198267c",
@@ -1679,6 +1718,12 @@
       "result": "confirmed-recognition",
       "award_ids": [
         "chiplay-2021-myopic"
+      ],
+      "verified_on": "2026-10-10",
+      "verification_level": "direct-title-coauthor",
+      "verification_note": "共同作者 Xiaohang Tang 的论文列表在该题名旁直接标注 SGDC Finalist。属于学生游戏设计竞赛入围，不是最佳论文奖。",
+      "search_lead_urls": [
+        "https://xiaohang-tang.github.io/"
       ]
     },
     {
@@ -1706,9 +1751,15 @@
       "paper_id": "16a941d67c9b",
       "title": "RelicVR: A Virtual Reality Game for Active Exploration of Archaeological Relics",
       "query": "\"RelicVR: A Virtual Reality Game for Active Exploration of Archaeological Relics\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
-      "result": "confirmed-recognition",
+      "result": "cross-source-recognition",
       "award_ids": [
         "chiplay-2021-relicvr"
+      ],
+      "verified_on": "2026-10-10",
+      "verification_level": "cross-source-match",
+      "verification_note": "Rongkai Shi 作者档案记录 2021 年 SGDC Finalist；旧 CV 的搜索索引将 RelicVR 对应为同年竞赛项目 [P1]。但 CV 当前返回 404，尚未找到直接把该题名列为 finalist 的会议结果页。",
+      "search_lead_urls": [
+        "https://cn.linkedin.com/in/rongkai-shi-aa64862a0"
       ]
     },
     {
@@ -1854,6 +1905,12 @@
       "result": "confirmed-recognition",
       "award_ids": [
         "vr-2020-boundary"
+      ],
+      "verified_on": "2026-10-10",
+      "verification_level": "direct-title-official",
+      "verification_note": "IEEE VR 2020 官方 Conference Awards 将该文列在 Best Conference Paper Nominees，而非获奖名单。以官方分类为准，不采用个人简介中泛称的 Honorable Mention。",
+      "search_lead_urls": [
+        "https://ieeevr.org/2020/awards/conference.html"
       ]
     },
     {
@@ -1936,13 +1993,17 @@
       "paper_id": "4a4d55e8ba85",
       "title": "VirusBoxing: A HIIT-based VR Boxing Game",
       "query": "\"VirusBoxing: A HIIT-based VR Boxing Game\" (award OR nomination OR finalist OR honourable OR honorable OR prize)",
-      "result": "confirmed-recognition",
+      "result": "cross-source-recognition",
       "award_ids": [
         "chiplay-2020-virusboxing"
       ],
       "search_lead_urls": [
+        "https://uk.linkedin.com/in/wenge-xu",
         "https://www.linkedin.com/in/xiaoyue-ma"
-      ]
+      ],
+      "verified_on": "2026-10-10",
+      "verification_level": "cross-source-match",
+      "verification_note": "Wenge Xu 作者档案记录 2020 年竞赛 Finalist，BCU 大学简介也确认其竞赛入围经历；Xiang Li 的作品页将 VirusBoxing 列为同年 SGDC 作品。尚未找到直接把题名与 finalist 连在一起的会议结果页。"
     },
     {
       "paper_id": "f66678e4a965",
@@ -2463,7 +2524,10 @@
       "search_lead_urls": [
         "https://icdm.zhonghuapu.com/Awards/Impact.shtml",
         "https://icdm.zhonghuapu.com/PPT/ICDM2024-Awards.pdf"
-      ]
+      ],
+      "verified_on": "2026-10-10",
+      "verification_level": "direct-title-official",
+      "verification_note": "ICDM 官方 10-Year Highest-Impact Paper Award 名单的 2024 条目列出该文和三名作者。2015 是论文年份，2024 是授奖年份。"
     },
     {
       "paper_id": "852f7373137d",
@@ -2655,9 +2719,12 @@
         "tale-2013-merit"
       ],
       "search_lead_urls": [
-        "https://www.eee.hku.hk/~culei/curriculum_vitae.pdf",
-        "https://web.engg.hku.hk/home/e-news/201309/1.htm"
-      ]
+        "https://web.engg.hku.hk/home/e-news/201309/1.htm",
+        "https://www.eee.hku.hk/~culei/curriculum_vitae.pdf"
+      ],
+      "verified_on": "2026-10-10",
+      "verification_level": "direct-title-official",
+      "verification_note": "香港大学工程学院新闻给出完整题名和 Merit Paper Award。IEEE TALE 官方历史奖单给出缩略题名及相同三名作者。保留准确奖名 Merit Paper Award。"
     },
     {
       "paper_id": "0e1f1a5d9e5d",
@@ -3074,5 +3141,13 @@
       ],
       "reason": "A verified CHI 2026 honorable mention coauthored by an alumnus, outside this bibliography. It is not silently assigned to another lab paper."
     }
-  ]
+  ],
+  "retained_records": 15,
+  "records_rechecked_on": "2026-10-10",
+  "recheck_scope": "The 15 currently listed recognition records, not a new search of all 393 catalog papers.",
+  "verification_counts": {
+    "direct-title-official": 11,
+    "direct-title-coauthor": 2,
+    "cross-source-match": 2
+  }
 }
