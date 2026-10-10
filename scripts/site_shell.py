@@ -8,7 +8,7 @@ from publication_common import esc
 
 ROOT = Path(__file__).resolve().parents[1]
 LANGUAGES = {'en': 'English', 'zh': '中文', 'fr': 'Français', 'ar': 'العربية', 'ja': '日本語'}
-VERSION = '20261010-illustrated-publications'
+VERSION = '20261010-stable-fonts'
 NAV = [('About', 'index.html'), ('Members', 'members/index.html'),
        ('Awards', 'awards/index.html'), ('Publications', 'publications/index.html'),
        ('Collaboration', 'index.html#industry'),
@@ -42,6 +42,13 @@ def favicon(page, lang='en'):
     return f'<link rel="icon" type="image/svg+xml" href="{asset(page, "images/brand/fit-awe-icon.svg", lang)}?v={VERSION}">'
 
 
+def stylesheets(page, lang='en'):
+    # Discover fonts with the document, instead of after a CSS @import round trip.
+    fonts = ''.join(f'<link rel="preload" href="{asset(page, f"fonts/source-sans-3-{weight}.woff2", lang)}" as="font" type="font/woff2" crossorigin="anonymous">' for weight in range(4))
+    styles = ''.join(f'<link rel="stylesheet" href="{asset(page, path, lang)}?v={VERSION}">' for path in ('fonts/source-sans-3.css', 'css/refinements.css', 'css/publications.css'))
+    return fonts + styles
+
+
 def header(page, lang='en'):
     entries = []
     for label, target in NAV:
@@ -66,7 +73,7 @@ def footer(page, lang='en'):
 
 
 def english_page(page, title, body, scripts=()):
-    styles = f'<link rel="stylesheet" href="{asset(page, "css/refinements.css")}?v={VERSION}"><link rel="stylesheet" href="{asset(page, "css/publications.css")}?v={VERSION}">'
+    styles = stylesheets(page)
     # All pages use native navigation, with no dependency on the old Bootstrap scripts.
     js = ''.join(f'<script src="{asset(page, s)}?v={VERSION}" defer></script>' for s in ('js/navigation.js',) + tuple(scripts))
     return f'''<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{esc(title)} | FIT-AWE Lab</title><meta name="description" content="{esc(title)} · FIT-AWE Lab · HKUST(GZ)">{styles}</head><body><header class="navbar"></header>{body}<footer class="site-footer"></footer>{js}</body></html>\n'''

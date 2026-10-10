@@ -9,6 +9,8 @@ def visible(soup):
  return [str(n).strip() for n in soup.find_all(string=True) if str(n).strip() and not isinstance(n,(Comment,Doctype)) and n.parent.name not in ['script','style']]
 def main():
  count=0
+ assert '@import' not in (ROOT/'css/refinements.css').read_text(),'Font CSS must be discovered from the document head'
+ assert (ROOT/'fonts/source-sans-3.css').read_text().count('font-display: optional;')==4,'Late fonts must not replace already rendered text'
  members=BeautifulSoup((ROOT/'members/index.html').read_text(),'html.parser')
  alumni_names=[li.get_text(' ',strip=True).split(',')[0] for li in members.select('.members-alumni .alumni-list li')]
  assert alumni_names,'Members must include the alumni roster'
@@ -18,6 +20,10 @@ def main():
    path=ROOT/('' if lang=='en' else lang)/page;s=BeautifulSoup(path.read_text(),'html.parser')
    assert s.html['lang']==lang,(path,'wrong document language')
    assert (s.html.get('dir')=='rtl')==(lang=='ar'),path
+   fonts=s.select('head link[rel="preload"][as="font"]')
+   assert len(fonts)==4 and all(f.get('type')=='font/woff2' and f.get('crossorigin')=='anonymous' for f in fonts),(path,'font preload missing or incompatible with font fetch')
+   assert {(path.parent/urlsplit(f['href']).path).resolve() for f in fonts}=={ROOT/f'fonts/source-sans-3-{i}.woff2' for i in range(4)},(path,'wrong font preload URLs')
+   assert len(s.select('head link[rel="stylesheet"][href*="source-sans-3.css"]'))==1,(path,'shared font stylesheet missing or duplicated')
    if page in PAGES:
     expected=BeautifulSoup(render(page,lang),'html.parser')
     assert visible(s)==visible(expected),(path,'stale or mixed-language content; rebuild locales')

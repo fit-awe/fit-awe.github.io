@@ -50,6 +50,8 @@ python3 scripts/check_images.py
 
 构建还会自动压缩页面使用的照片、论文图和头像，生成 `images/optimized/` 下的 WebP 版本及 `data/image-variants.json`。原图保留，浏览器通过 `srcset` 按屏幕宽度和像素密度选择图片；正文以下图片延迟加载。替换图片时更新原始来源路径；成员页已有图片可通过 `data-image-source` 指向原图，避免重新压缩已生成的缩略图。压缩结果按内容缓存，月度更新会自动生成并验证新增图片的网页版本。
 
+字体由共享页头直接加载并预加载 WOFF2，避免 CSS `@import` 串行请求。`font-display: optional` 让慢网络下已显示的文字保持系统后备字体，不在字体下载完成后重新换行；缓存命中或及时加载时继续使用 Source Sans 3。`check_locales.py` 会检查五种语言所有页面的字体加载配置。
+
 媒体报道和演讲使用简短新闻摘要展示。`data/news.json` 中的 `source` 会显示为相关链接，`source_label` 可指定“阅读报道”或“观看视频”等文字；省略时显示“相关链接”。链接文字通过 `data/locales/*.json` 同步翻译；外部来源在新标签页打开。活动日期与来源发布日期分别记录；TEDx 记录使用视频发布日期。
 
 ## 页面与交互
