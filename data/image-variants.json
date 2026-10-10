@@ -5161,24 +5161,24 @@
         }
       ]
     },
-    "images/papers/c2345e1d5dd2.png": {
-      "fingerprint": "93669cdfe8e9a49cb939e118701c47e9889876a96eeadbc8c8713de607f768d5",
+    "images/papers/c2345e1d5dd2-figure2.webp": {
+      "fingerprint": "f653c79a80e875b8fe6610dcaeec8bef7def1c40ab47b777db271e306e2eecfe",
       "role": "paper",
-      "original_bytes": 44775,
-      "width": 535,
-      "height": 555,
+      "original_bytes": 93220,
+      "width": 1201,
+      "height": 561,
       "variants": [
         {
-          "path": "images/optimized/93669cdfe8e9a49c-480.webp",
+          "path": "images/optimized/f653c79a80e875b8-480.webp",
           "width": 480,
-          "height": 498,
-          "bytes": 19986
+          "height": 224,
+          "bytes": 26860
         },
         {
-          "path": "images/optimized/93669cdfe8e9a49c-535.webp",
-          "width": 535,
-          "height": 555,
-          "bytes": 22182
+          "path": "images/optimized/f653c79a80e875b8-960.webp",
+          "width": 960,
+          "height": 448,
+          "bytes": 70580
         }
       ]
     },

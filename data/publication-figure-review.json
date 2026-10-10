@@ -1310,5 +1310,22 @@
     "title": "User-defined surface+motion gestures for 3d manipulation of objects at a distance through a mobile device",
     "approved": true,
     "reviewed_at": "2026-10-05"
+  },
+  {
+    "paper_id": "c2345e1d5dd2",
+    "pdf_sha256": "29160fc0e7b2be196ac86dbcc89a7052a04ff7953f152b98fc705a1bff93a9c2",
+    "page": 4,
+    "bbox": [
+      80,
+      80,
+      532,
+      291
+    ],
+    "kind": "figure-2",
+    "caption": "Fig. 2. General pipeline for adaptive VR systems for personalized user experiences, including (1) Input Collection, (2) Data Processing, (3) Adaptive Logic, (4) System Intervention, and (5) Feedback Evaluation.",
+    "approved": true,
+    "reviewed_at": "2026-10-10",
+    "title": "From Adaptation to Intelligence: A Systematic Review of Data, Strategies, and Impact in Personalized VR",
+    "source": "https://arxiv.org/pdf/2510.13123v2"
   }
 ]

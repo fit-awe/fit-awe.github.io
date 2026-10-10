@@ -77,10 +77,12 @@ def chronological_publications(papers):
     return sorted(papers, key=catalog_key, reverse=True)
 
 
-def latest_publications(papers, count=6, today=None):
+def latest_publications(papers, count=6, today=None, *, require_image=False):
     today = today or date.today()
     eligible = []
     for paper in papers:
+        if require_image and not paper.get('image'):
+            continue
         value = paper.get('published_date')
         if value and valid_date(value):
             parts = tuple(int(x) for x in value.split('-'))

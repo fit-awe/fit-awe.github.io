@@ -57,7 +57,9 @@ for lang in LANGUAGES:
  base=ROOT/('' if lang=='en' else lang)
  home=BeautifulSoup((base/'index.html').read_text(),'html.parser')
  latest=home.select('.latest-paper')
- assert [c['data-paper-id'] for c in latest]==[p['id'] for p in latest_publications(papers)]
+ assert [c['data-paper-id'] for c in latest]==[p['id'] for p in latest_publications(papers,require_image=True)]
+ assert all(c.select_one('.paper-figure img') for c in latest),'Homepage publication missing a paper figure'
+ assert not home.select('.latest-paper.no-figure'),'Homepage must not contain text-only publication cards'
  assert [c['data-news-id'] for c in home.select('[data-news-id]')]==[n['id'] for n in news[:3]]
  assert [c['data-award-id'] for c in home.select('[data-award-id]')]==[a['id'] for a in awards[:3]]
  for card,award in zip(home.select('[data-award-id]'),awards[:3]):check_award_status(card,award,lang)

@@ -46,7 +46,7 @@ python3 scripts/check_content.py
 python3 scripts/check_images.py
 ```
 
-`build_site.py` 是整站构建入口，会从共享记录生成首页与完整页面、重算最新 6 篇论文，并生成响应式图片。单独运行 `build_publications.py` 后也应执行整站构建，以更新个人页和压缩图片。
+`build_site.py` 是整站构建入口，会从共享记录生成首页与完整页面、重算最新 6 篇有图论文，并生成响应式图片。首页只选取已有真实论文配图的正式论文和预印本，按发表日期排序；缺图条目自动顺延，完整 Publications 目录保留所有论文。单独运行 `build_publications.py` 后也应执行整站构建，以更新个人页和压缩图片。
 
 构建还会自动压缩页面使用的照片、论文图和头像，生成 `images/optimized/` 下的 WebP 版本及 `data/image-variants.json`。原图保留，浏览器通过 `srcset` 按屏幕宽度和像素密度选择图片；正文以下图片延迟加载。替换图片时更新原始来源路径；成员页已有图片可通过 `data-image-source` 指向原图，避免重新压缩已生成的缩略图。压缩结果按内容缓存，月度更新会自动生成并验证新增图片的网页版本。
 

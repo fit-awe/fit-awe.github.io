@@ -24,6 +24,15 @@ class PublicationDates(unittest.TestCase):
         papers=[self.paper('future','2026-11-01'),self.paper('preprint','2026-09-01',kind='preprint'),self.paper('other','2026-10-01',kind='other')]
         self.assertEqual([p['id'] for p in latest_publications(papers,today=date(2026,10,4))],['preprint'])
 
+    def test_homepage_skips_missing_figures_and_keeps_date_order(self):
+        papers=[self.paper('no-figure','2026-10-01'),
+                self.paper('first','2026-09-02',image={'path':'first.webp'}),
+                self.paper('future','2026-11-01',image={'path':'future.webp'}),
+                self.paper('preprint','2026-09-01',image={'path':'preprint.webp'},kind='preprint'),
+                self.paper('older','2026-08-01',image={'path':'older.webp'})]
+        self.assertEqual([p['id'] for p in latest_publications(papers,count=2,today=date(2026,10,4),require_image=True)],['first','preprint'])
+        self.assertEqual(len(papers),5)
+
     def test_full_catalog_retains_all_records_in_chronological_order(self):
         papers=[self.paper('undated'),self.paper('first','2026-08-14'),self.paper('same-day','2026-08-14'),self.paper('month','2026-08'),self.paper('other','2026-09-01',kind='other'),self.paper('online-before-issue','2025-12-01'),self.paper('older','2025-12-02',year=2025)]
         self.assertEqual([p['id'] for p in chronological_publications(papers)],['other','first','same-day','month','online-before-issue','undated','older'])
