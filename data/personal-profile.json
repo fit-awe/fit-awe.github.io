@@ -10,16 +10,51 @@
   "biography": {
     "en": [
       "I am an Associate Professor and Deputy Thrust Head of Computational Media and Arts at the Hong Kong University of Science and Technology (Guangzhou), where I lead the FIT-AWE Lab.",
-      "I received my PhD in Computer Science from Western University, Canada. Before joining HKUST(GZ) in 2024, I was a Professor of Computing at Xi’an Jiaotong-Liverpool University, where I served as Head of the Department of Computing from 2019 to 2023."
+      "I received my PhD in Computer Science from Western University, Canada. Before joining HKUST(GZ) in 2024, I was a Professor of Computing at Xi’an Jiaotong-Liverpool University, where I served as Head of the Department of Computing (2019–2023) and Deputy Director of the Suzhou Municipal Key Lab for Intelligent Virtual Engineering and the XJTLU Virtual Engineering Centre.",
+      "I serve on the editorial board of The Visual Computer and as an Associate Editor of Frontiers in Virtual Reality. My conference service includes Associate Paper Chair of IEEE ISMAR 2026, Program Co-chair of VINCI 2025, and Paper Awards Committee Chair of IEEE ICDM 2025."
     ],
     "zh": [
       "我是香港科技大学（广州）计算媒体与艺术学域副教授、学域副主任，负责 FIT-AWE 实验室。",
-      "我在加拿大西安大略大学获得计算机科学博士学位。2024 年加入香港科技大学（广州）之前，我曾任西交利物浦大学计算学教授，并于 2019 至 2023 年担任计算系系主任。"
+      "我在加拿大西安大略大学获得计算机科学博士学位。2024 年加入香港科技大学（广州）之前，我曾任西交利物浦大学计算学教授、计算系系主任（2019–2023），以及苏州市智能虚拟工程重点实验室和西交利物浦大学虚拟工程中心副主任。",
+      "我担任 The Visual Computer 编委和 Frontiers in Virtual Reality 副编辑，并曾任 IEEE ISMAR 2026 论文副主席、VINCI 2025 程序委员会联合主席和 IEEE ICDM 2025 论文奖委员会主席。"
     ]
   },
   "sources": [
     "https://cma.hkust-gz.edu.cn/faculty-regular/hai-ning-liang/",
-    "https://hai-ning-liang.github.io/"
+    "https://hai-ning-liang.github.io/",
+    "https://mfa-ca.hkust-gz.edu.cn/hai-ning-liang/",
+    "https://link.springer.com/journal/371/editorial-board",
+    "https://www.frontiersin.org/journals/virtual-reality/sections/technologies-for-vr/editors",
+    "https://www.ieeeismar.net/2026/committee/organizing/",
+    "https://vinci2025.games.cg.jku.at/committee/",
+    "https://www3.cs.stonybrook.edu/~icdm2025/organizingcommittee.html",
+    "https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/9"
   ],
-  "role_record": "data/academic-profile.json#hkust-gz-deputy-thrust-head"
+  "role_record": "data/academic-profile.json#hkust-gz-deputy-thrust-head",
+  "recognition": {
+    "label": {
+      "en": "World’s Top 2% Scientists",
+      "zh": "全球前 2% 科学家"
+    },
+    "detail": {
+      "en": "Stanford–Elsevier · 2026 edition, single-year impact",
+      "zh": "Stanford–Elsevier · 2026 版年度影响力榜单"
+    },
+    "source": "https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/9",
+    "checked_at": "2026-10-10",
+    "source_record": {
+      "edition": 2026,
+      "citation_year": 2025,
+      "category": "single-year",
+      "filename": "Table_1_Authors_singleyr_2025_pubs_since_1788_wopp_extracted_202608.xlsx",
+      "sheet": "Data",
+      "row": 139580,
+      "author_name": "Liang, Hai Ning",
+      "institution": "The Hong Kong University of Science and Technology (Guangzhou)",
+      "primary_subfield": "Artificial Intelligence & Image Processing",
+      "subfield_rank_without_self_citations": 6828,
+      "subfield_author_count": 517648,
+      "sha256": "8bd46b5cbdc4de05ea09afc662623ca3059b4d705d4582045c5244edf94b02f5"
+    }
+  }
 }

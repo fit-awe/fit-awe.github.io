@@ -74,6 +74,9 @@ def build():
 
         values = {k: esc(v) for k, v in labels.items()}
         other = 'zh' if lang == 'en' else 'en'
+        recognition = profile['recognition']
+        biography = ['<p>' + esc(p) + '</p>' for p in profile['biography'][lang]]
+        biography.insert(1, f'<p><a href="{esc(recognition["source"])}" target="_blank" rel="noopener noreferrer">{esc(recognition["label"][lang])} <span aria-hidden="true">↗</span></a><br>{esc(recognition["detail"][lang])}</p>')
         values.update({k: esc(profile[k]) for k in ['email', 'scholar', 'dblp', 'faculty_profile']})
         values.update(
             lang=lang, other_lang=other, language_label='中文' if lang == 'en' else 'English',
@@ -84,7 +87,7 @@ def build():
             script=asset('js/personal-profile.js') + '?v=20261009-profile2',
             lab_url=lab_page('index.html'), openings_url=lab_page('vacancies/index.html'),
             course_schedule=esc(academic['teaching'][0]['terms'][0]['source']),
-            biography=''.join('<p>' + esc(p) + '</p>' for p in profile['biography'][lang]),
+            biography=''.join(biography),
             navigation_links=''.join(f'<a href="#{section}"' + (' aria-current="location"' if section == 'about' else '') + f'>{labels[section]}</a>' for section in ['about', 'service', 'teaching', 'contact']),
         )
 
