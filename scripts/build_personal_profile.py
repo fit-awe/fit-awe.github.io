@@ -80,7 +80,7 @@ def build():
             language_url=asset(('zh/' if other == 'zh' else '') + ROUTE),
             canonical='https://fit-awe.github.io/' + ('zh/' if lang == 'zh' else '') + 'members/haining-liang/',
             portrait=asset(profile['portrait']), favicon=asset('images/brand/fit-awe-icon.svg'),
-            lab_mark=asset('images/brand/fit-awe-icon.svg'), stylesheet=asset('css/personal-profile.css') + '?v=20261009-profile2',
+            lab_mark=asset('images/brand/fit-awe-icon.svg'), stylesheet=asset('css/personal-profile.css') + '?v=20261010-readable1',
             script=asset('js/personal-profile.js') + '?v=20261009-profile2',
             lab_url=lab_page('index.html'), openings_url=lab_page('vacancies/index.html'),
             course_schedule=esc(academic['teaching'][0]['terms'][0]['source']),
