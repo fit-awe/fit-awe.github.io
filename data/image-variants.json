@@ -1,0 +1,5966 @@
+{
+  "version": 1,
+  "images": {
+    "images/Profile.jpg": {
+      "fingerprint": "60754f4e2ef73567ee8132efd4d317a5514ee77f6b085d8749024f08c4775886",
+      "role": "portrait",
+      "original_bytes": 39768,
+      "width": 762,
+      "height": 762,
+      "variants": [
+        {
+          "path": "images/optimized/60754f4e2ef73567-160.webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 2184
+        },
+        {
+          "path": "images/optimized/60754f4e2ef73567-320.webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 7070
+        },
+        {
+          "path": "images/optimized/60754f4e2ef73567-640.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 22804
+        }
+      ]
+    },
+    "images/Publication/3DStoryline Immersive Visual Storytelling.png": {
+      "fingerprint": "b17ab971eb53fff2d7c69c02dd81c3c7f65f3517261f66c3f56490d7bfb32ab6",
+      "role": "paper",
+      "original_bytes": 1210099,
+      "width": 2859,
+      "height": 745,
+      "variants": [
+        {
+          "path": "images/optimized/b17ab971eb53fff2-480.webp",
+          "width": 480,
+          "height": 125,
+          "bytes": 17594
+        },
+        {
+          "path": "images/optimized/b17ab971eb53fff2-960.webp",
+          "width": 960,
+          "height": 250,
+          "bytes": 48524
+        }
+      ]
+    },
+    "images/Publication/A Comprehensive Survey of Specularity Detection.png": {
+      "fingerprint": "c2c4c77b0f7fac215c2835496edc66b7125cab99db38c58b7577c0445b6f4770",
+      "role": "paper",
+      "original_bytes": 439369,
+      "width": 1470,
+      "height": 834,
+      "variants": [
+        {
+          "path": "images/optimized/c2c4c77b0f7fac21-480.webp",
+          "width": 480,
+          "height": 272,
+          "bytes": 28660
+        },
+        {
+          "path": "images/optimized/c2c4c77b0f7fac21-960.webp",
+          "width": 960,
+          "height": 545,
+          "bytes": 70900
+        }
+      ]
+    },
+    "images/Publication/Adaptivevoice Cognitively adaptive voice interface for driving assistance.png": {
+      "fingerprint": "f51fc6da2fbfa454f80cda9a537db79933b798c6af690e832e9090ffa83e738e",
+      "role": "paper",
+      "original_bytes": 215827,
+      "width": 1035,
+      "height": 417,
+      "variants": [
+        {
+          "path": "images/optimized/f51fc6da2fbfa454-480.webp",
+          "width": 480,
+          "height": 193,
+          "bytes": 21952
+        },
+        {
+          "path": "images/optimized/f51fc6da2fbfa454-960.webp",
+          "width": 960,
+          "height": 387,
+          "bytes": 61080
+        }
+      ]
+    },
+    "images/Publication/AirWhisper enhancing virtual reality experience via visual-airflow multimodal feedback.png": {
+      "fingerprint": "73f4ae6d4f5ab058fef9fd59f625c172d88b5cb0b1848d70c314acfdd10e4b9e",
+      "role": "paper",
+      "original_bytes": 585443,
+      "width": 2061,
+      "height": 557,
+      "variants": [
+        {
+          "path": "images/optimized/73f4ae6d4f5ab058-480.webp",
+          "width": 480,
+          "height": 130,
+          "bytes": 11560
+        },
+        {
+          "path": "images/optimized/73f4ae6d4f5ab058-960.webp",
+          "width": 960,
+          "height": 259,
+          "bytes": 27384
+        }
+      ]
+    },
+    "images/Publication/Analysis and Design of Efficient Authentication Techniques for.png": {
+      "fingerprint": "b4bf0f8d3d464a820d248f320a7a0f9a3b94d58ba95dd6d39a580ddda0096d77",
+      "role": "paper",
+      "original_bytes": 950817,
+      "width": 2373,
+      "height": 1169,
+      "variants": [
+        {
+          "path": "images/optimized/b4bf0f8d3d464a82-480.webp",
+          "width": 480,
+          "height": 236,
+          "bytes": 32348
+        },
+        {
+          "path": "images/optimized/b4bf0f8d3d464a82-960.webp",
+          "width": 960,
+          "height": 473,
+          "bytes": 71096
+        }
+      ]
+    },
+    "images/Publication/AutoMRA Universal Time Series Motion Recognition Pipeline.png": {
+      "fingerprint": "6b4751d68e1285bddab61e01c231e873d5f8153d150159a516f463a6b6552d0e",
+      "role": "paper",
+      "original_bytes": 51015,
+      "width": 655,
+      "height": 439,
+      "variants": [
+        {
+          "path": "images/optimized/6b4751d68e1285bd-480.webp",
+          "width": 480,
+          "height": 322,
+          "bytes": 9818
+        },
+        {
+          "path": "images/optimized/6b4751d68e1285bd-655.webp",
+          "width": 655,
+          "height": 439,
+          "bytes": 14328
+        }
+      ]
+    },
+    "images/Publication/Breaking the Isolation Exploring the Impact.png": {
+      "fingerprint": "31e1f7545cb6600ff002352dfe149444fbbc981fd07cf79a0f5e0657f9b7afbb",
+      "role": "paper",
+      "original_bytes": 1273776,
+      "width": 1333,
+      "height": 1083,
+      "variants": [
+        {
+          "path": "images/optimized/31e1f7545cb6600f-480.webp",
+          "width": 480,
+          "height": 390,
+          "bytes": 39316
+        },
+        {
+          "path": "images/optimized/31e1f7545cb6600f-960.webp",
+          "width": 960,
+          "height": 780,
+          "bytes": 102438
+        }
+      ]
+    },
+    "images/Publication/CD-UDepth Complementary dual-source information fusion for underwater monocular depth estimation.png": {
+      "fingerprint": "e0877f5f544cf9dac4bac8e3b6335f23e8f44ebd2b32f191ae3b70e9ca0b857b",
+      "role": "paper",
+      "original_bytes": 728251,
+      "width": 1083,
+      "height": 622,
+      "variants": [
+        {
+          "path": "images/optimized/e0877f5f544cf9da-480.webp",
+          "width": 480,
+          "height": 276,
+          "bytes": 29706
+        },
+        {
+          "path": "images/optimized/e0877f5f544cf9da-960.webp",
+          "width": 960,
+          "height": 551,
+          "bytes": 69514
+        }
+      ]
+    },
+    "images/Publication/ChemistryVR Enhancing Educational Experiences through Virtual Chemistry Lab Simulations.png": {
+      "fingerprint": "df8b38c55c05dc9d61693932490a593061f82f8901f485048b3f8b37efeee101",
+      "role": "paper",
+      "original_bytes": 140290,
+      "width": 1042,
+      "height": 222,
+      "variants": [
+        {
+          "path": "images/optimized/df8b38c55c05dc9d-480.webp",
+          "width": 480,
+          "height": 102,
+          "bytes": 12304
+        },
+        {
+          "path": "images/optimized/df8b38c55c05dc9d-960.webp",
+          "width": 960,
+          "height": 205,
+          "bytes": 33260
+        }
+      ]
+    },
+    "images/Publication/CovisitVMCross-Reality Virtual Museum Visiting.png": {
+      "fingerprint": "a0c806699a3132b1a6de49dded6d655306eb5b0b207ba21723d2ac20dab3965e",
+      "role": "paper",
+      "original_bytes": 927950,
+      "width": 1903,
+      "height": 425,
+      "variants": [
+        {
+          "path": "images/optimized/a0c806699a3132b1-480.webp",
+          "width": 480,
+          "height": 107,
+          "bytes": 15154
+        },
+        {
+          "path": "images/optimized/a0c806699a3132b1-960.webp",
+          "width": 960,
+          "height": 214,
+          "bytes": 43270
+        }
+      ]
+    },
+    "images/Publication/Data Cubes in HandA Design Space of Tangible Cubes for.png": {
+      "fingerprint": "727ad3a1964c34df72aada4eac4e4b223fdf8aaeb72aadb6378fa4c371678d60",
+      "role": "paper",
+      "original_bytes": 703312,
+      "width": 1720,
+      "height": 1250,
+      "variants": [
+        {
+          "path": "images/optimized/727ad3a1964c34df-480.webp",
+          "width": 480,
+          "height": 349,
+          "bytes": 36622
+        },
+        {
+          "path": "images/optimized/727ad3a1964c34df-960.webp",
+          "width": 960,
+          "height": 698,
+          "bytes": 105506
+        }
+      ]
+    },
+    "images/Publication/Data-driven Recommendation in Brain-Metaverse.png": {
+      "fingerprint": "bd4ced7cb1e7f632c4dc98de7bde25e84aeb6c05c52615b07724752d7a19e4fe",
+      "role": "paper",
+      "original_bytes": 481786,
+      "width": 2303,
+      "height": 1077,
+      "variants": [
+        {
+          "path": "images/optimized/bd4ced7cb1e7f632-480.webp",
+          "width": 480,
+          "height": 224,
+          "bytes": 13294
+        },
+        {
+          "path": "images/optimized/bd4ced7cb1e7f632-960.webp",
+          "width": 960,
+          "height": 449,
+          "bytes": 31432
+        }
+      ]
+    },
+    "images/Publication/Design and Evaluation of Controller-Based.png": {
+      "fingerprint": "84a1b75236b71f8ab8f8780d747560ca04ae363a819d8d91bf2906f99c140cc5",
+      "role": "paper",
+      "original_bytes": 204674,
+      "width": 792,
+      "height": 439,
+      "variants": [
+        {
+          "path": "images/optimized/84a1b75236b71f8a-480.webp",
+          "width": 480,
+          "height": 266,
+          "bytes": 31186
+        },
+        {
+          "path": "images/optimized/84a1b75236b71f8a-792.webp",
+          "width": 792,
+          "height": 439,
+          "bytes": 54384
+        }
+      ]
+    },
+    "images/Publication/Design and Evaluation of Controller-based Raycasting Methods for Secure.png": {
+      "fingerprint": "3a2f953fce4ba473863733665458613ae29eb4f32c16436e63266fba29aefd3d",
+      "role": "paper",
+      "original_bytes": 283789,
+      "width": 1308,
+      "height": 393,
+      "variants": [
+        {
+          "path": "images/optimized/3a2f953fce4ba473-480.webp",
+          "width": 480,
+          "height": 144,
+          "bytes": 18370
+        },
+        {
+          "path": "images/optimized/3a2f953fce4ba473-960.webp",
+          "width": 960,
+          "height": 288,
+          "bytes": 46026
+        }
+      ]
+    },
+    "images/Publication/Designing Stick-Based Extended Reality Controllers.png": {
+      "fingerprint": "dda455636635cfb6b7f749ba1a9a2405c9d6e0fd09acee3ae8a75c77cb4d8e49",
+      "role": "paper",
+      "original_bytes": 199929,
+      "width": 1383,
+      "height": 443,
+      "variants": [
+        {
+          "path": "images/optimized/dda455636635cfb6-480.webp",
+          "width": 480,
+          "height": 154,
+          "bytes": 13088
+        },
+        {
+          "path": "images/optimized/dda455636635cfb6-960.webp",
+          "width": 960,
+          "height": 308,
+          "bytes": 31286
+        }
+      ]
+    },
+    "images/Publication/DuoStreamersAStreamingGestureRecognitionFramework.png": {
+      "fingerprint": "78346f9347378c122e2a9ce96cad210a726cfa38769812d1c694565983e3355c",
+      "role": "paper",
+      "original_bytes": 206479,
+      "width": 1598,
+      "height": 624,
+      "variants": [
+        {
+          "path": "images/optimized/78346f9347378c12-480.webp",
+          "width": 480,
+          "height": 187,
+          "bytes": 14930
+        },
+        {
+          "path": "images/optimized/78346f9347378c12-960.webp",
+          "width": 960,
+          "height": 375,
+          "bytes": 39118
+        }
+      ]
+    },
+    "images/Publication/E-textiles for emotion interactiona scoping review of trends and opportunities.png": {
+      "fingerprint": "504abc4ade9bfa07aaf7d020bbc946114b2a408f04b6c2e68a7ff092f72a5dc5",
+      "role": "paper",
+      "original_bytes": 562212,
+      "width": 2061,
+      "height": 1327,
+      "variants": [
+        {
+          "path": "images/optimized/504abc4ade9bfa07-480.webp",
+          "width": 480,
+          "height": 309,
+          "bytes": 15430
+        },
+        {
+          "path": "images/optimized/504abc4ade9bfa07-960.webp",
+          "width": 960,
+          "height": 618,
+          "bytes": 37046
+        }
+      ]
+    },
+    "images/Publication/Effect of Reaching Movement Modulation on Experience of Control in Virtual Reality.png": {
+      "fingerprint": "ba49bb5b3dd40cd06b5a165016d13905959b9cbdcfad553b5e1edb615871a1a8",
+      "role": "paper",
+      "original_bytes": 613324,
+      "width": 1759,
+      "height": 991,
+      "variants": [
+        {
+          "path": "images/optimized/ba49bb5b3dd40cd0-480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 20208
+        },
+        {
+          "path": "images/optimized/ba49bb5b3dd40cd0-960.webp",
+          "width": 960,
+          "height": 541,
+          "bytes": 46220
+        }
+      ]
+    },
+    "images/Publication/Enhancement of Co-located Shared VR Experiences Representing.png": {
+      "fingerprint": "90cc22e93c997b122535370534708094deeb7ce75ad71c23436cad106b6c7cfb",
+      "role": "paper",
+      "original_bytes": 122773,
+      "width": 559,
+      "height": 302,
+      "variants": [
+        {
+          "path": "images/optimized/90cc22e93c997b12-480.webp",
+          "width": 480,
+          "height": 259,
+          "bytes": 27074
+        },
+        {
+          "path": "images/optimized/90cc22e93c997b12-559.webp",
+          "width": 559,
+          "height": 302,
+          "bytes": 33342
+        }
+      ]
+    },
+    "images/Publication/Evaluating and Modeling the Effect of Frame Rate on Steering.png": {
+      "fingerprint": "9f042e6d041b23f8a3ed214864334262701f1eee786093d5b0b28490d697c601",
+      "role": "paper",
+      "original_bytes": 376302,
+      "width": 1254,
+      "height": 714,
+      "variants": [
+        {
+          "path": "images/optimized/9f042e6d041b23f8-480.webp",
+          "width": 480,
+          "height": 273,
+          "bytes": 5536
+        },
+        {
+          "path": "images/optimized/9f042e6d041b23f8-960.webp",
+          "width": 960,
+          "height": 547,
+          "bytes": 14320
+        }
+      ]
+    },
+    "images/Publication/Examining the Use of DanMu for Crowdsourcing Control in Virtual Gatherings.png": {
+      "fingerprint": "a7b5d4d3f6e10a07a49657d5233dcae7647c7435e4e27aad2388810ee9b3ace3",
+      "role": "paper",
+      "original_bytes": 1449984,
+      "width": 1488,
+      "height": 814,
+      "variants": [
+        {
+          "path": "images/optimized/a7b5d4d3f6e10a07-480.webp",
+          "width": 480,
+          "height": 263,
+          "bytes": 38742
+        },
+        {
+          "path": "images/optimized/a7b5d4d3f6e10a07-960.webp",
+          "width": 960,
+          "height": 525,
+          "bytes": 113456
+        }
+      ]
+    },
+    "images/Publication/Experimental Analysis of Freehand Multi-Object Selection Techniques in Virtual Reality Head-Mounted Displays.png": {
+      "fingerprint": "4fc203fdf998d37a15a0b8c0be3ef861d9e40404058d828668f5c4407b21f039",
+      "role": "paper",
+      "original_bytes": 111855,
+      "width": 829,
+      "height": 358,
+      "variants": [
+        {
+          "path": "images/optimized/4fc203fdf998d37a-480.webp",
+          "width": 480,
+          "height": 207,
+          "bytes": 16220
+        },
+        {
+          "path": "images/optimized/4fc203fdf998d37a-829.webp",
+          "width": 829,
+          "height": 358,
+          "bytes": 35736
+        }
+      ]
+    },
+    "images/Publication/Exploration of Foot-based Text Entry Techniques for Virtual.png": {
+      "fingerprint": "beea0242a4f0edffef2302536e50f55840ab6290ae684ff154064eb234ab8316",
+      "role": "paper",
+      "original_bytes": 587130,
+      "width": 2446,
+      "height": 813,
+      "variants": [
+        {
+          "path": "images/optimized/beea0242a4f0edff-480.webp",
+          "width": 480,
+          "height": 160,
+          "bytes": 15892
+        },
+        {
+          "path": "images/optimized/beea0242a4f0edff-960.webp",
+          "width": 960,
+          "height": 319,
+          "bytes": 44204
+        }
+      ]
+    },
+    "images/Publication/Exploration of exocentric perspective interfaces for virtual reality.png": {
+      "fingerprint": "ac7b4ccad5e85cc3515b59c27ce99ca219029165f1cb3bd8c08aa7645975c112",
+      "role": "paper",
+      "original_bytes": 707118,
+      "width": 1502,
+      "height": 783,
+      "variants": [
+        {
+          "path": "images/optimized/ac7b4ccad5e85cc3-480.webp",
+          "width": 480,
+          "height": 250,
+          "bytes": 19348
+        },
+        {
+          "path": "images/optimized/ac7b4ccad5e85cc3-960.webp",
+          "width": 960,
+          "height": 500,
+          "bytes": 43322
+        }
+      ]
+    },
+    "images/Publication/Exploring Controller-based Techniques for Precise and Rapid Text.png": {
+      "fingerprint": "0422f0cede6565c24509a05e33133f0122391bcfee9f1aa243d7a033a9ec753e",
+      "role": "paper",
+      "original_bytes": 467286,
+      "width": 1044,
+      "height": 817,
+      "variants": [
+        {
+          "path": "images/optimized/0422f0cede6565c2-480.webp",
+          "width": 480,
+          "height": 376,
+          "bytes": 33080
+        },
+        {
+          "path": "images/optimized/0422f0cede6565c2-960.webp",
+          "width": 960,
+          "height": 751,
+          "bytes": 79434
+        }
+      ]
+    },
+    "images/Publication/Exploring Embodied Asymmetric Two-Handed Interactions for.png": {
+      "fingerprint": "2364395361adab335505c9c350d64d7870458b60f1c7aa6fe68d1920773b47fc",
+      "role": "paper",
+      "original_bytes": 277515,
+      "width": 1492,
+      "height": 825,
+      "variants": [
+        {
+          "path": "images/optimized/2364395361adab33-480.webp",
+          "width": 480,
+          "height": 265,
+          "bytes": 21118
+        },
+        {
+          "path": "images/optimized/2364395361adab33-960.webp",
+          "width": 960,
+          "height": 531,
+          "bytes": 52042
+        }
+      ]
+    },
+    "images/Publication/Exploring and Modeling Directional Effects on Steering Behavior in.png": {
+      "fingerprint": "dd2ae753968e57198b85e0e293722a412333fd4393768f20e75399549006d234",
+      "role": "paper",
+      "original_bytes": 205732,
+      "width": 1232,
+      "height": 595,
+      "variants": [
+        {
+          "path": "images/optimized/dd2ae753968e5719-480.webp",
+          "width": 480,
+          "height": 232,
+          "bytes": 10560
+        },
+        {
+          "path": "images/optimized/dd2ae753968e5719-960.webp",
+          "width": 960,
+          "height": 464,
+          "bytes": 24020
+        }
+      ]
+    },
+    "images/Publication/Exploring howgender-anonymousvoiceavatarsinfluencewomen’s.png": {
+      "fingerprint": "5571fe7b941ddb26497dbbe08bfd966ab9fed330bec14b92f0bea9b78cd33b8b",
+      "role": "paper",
+      "original_bytes": 642119,
+      "width": 1515,
+      "height": 1063,
+      "variants": [
+        {
+          "path": "images/optimized/5571fe7b941ddb26-480.webp",
+          "width": 480,
+          "height": 337,
+          "bytes": 24858
+        },
+        {
+          "path": "images/optimized/5571fe7b941ddb26-960.webp",
+          "width": 960,
+          "height": 674,
+          "bytes": 61470
+        }
+      ]
+    },
+    "images/Publication/Exploring the Effect of Display Type on Co-Located Multiple Player.png": {
+      "fingerprint": "838cc51bf09241b045df6ac7a235669d3ee47751fc52708312a15cfbdbaf2188",
+      "role": "paper",
+      "original_bytes": 1637951,
+      "width": 2125,
+      "height": 480,
+      "variants": [
+        {
+          "path": "images/optimized/838cc51bf09241b0-480.webp",
+          "width": 480,
+          "height": 108,
+          "bytes": 17426
+        },
+        {
+          "path": "images/optimized/838cc51bf09241b0-960.webp",
+          "width": 960,
+          "height": 217,
+          "bytes": 53014
+        }
+      ]
+    },
+    "images/Publication/Exploring the Effects of Spatial Constraints and Curvature for 3D Piloting.png": {
+      "fingerprint": "fb82a5ce1165dd91e2c0d0e26fa2a9dad9480921a03149a13b6f5cb40336b40d",
+      "role": "paper",
+      "original_bytes": 348938,
+      "width": 1811,
+      "height": 401,
+      "variants": [
+        {
+          "path": "images/optimized/fb82a5ce1165dd91-480.webp",
+          "width": 480,
+          "height": 106,
+          "bytes": 13510
+        },
+        {
+          "path": "images/optimized/fb82a5ce1165dd91-960.webp",
+          "width": 960,
+          "height": 213,
+          "bytes": 30262
+        }
+      ]
+    },
+    "images/Publication/Exploring the Impact of Passthrough on VR Exergaming in Public.png": {
+      "fingerprint": "0e13ef78b74a46931795c5bcb48c354973e7001ae31ddb4e690ce6504716406f",
+      "role": "paper",
+      "original_bytes": 987753,
+      "width": 1095,
+      "height": 491,
+      "variants": [
+        {
+          "path": "images/optimized/0e13ef78b74a4693-480.webp",
+          "width": 480,
+          "height": 215,
+          "bytes": 40764
+        },
+        {
+          "path": "images/optimized/0e13ef78b74a4693-960.webp",
+          "width": 960,
+          "height": 430,
+          "bytes": 132802
+        }
+      ]
+    },
+    "images/Publication/Feasibility and performance enhancement of collaborative control of unmanned ground vehicles via virtual reality.png": {
+      "fingerprint": "fb5f7e4206a3ec8bc942395e45cb2eacfb57b5f0484cb92f68d2af6880aa50bd",
+      "role": "paper",
+      "original_bytes": 225503,
+      "width": 1911,
+      "height": 547,
+      "variants": [
+        {
+          "path": "images/optimized/fb5f7e4206a3ec8b-480.webp",
+          "width": 480,
+          "height": 137,
+          "bytes": 10930
+        },
+        {
+          "path": "images/optimized/fb5f7e4206a3ec8b-960.webp",
+          "width": 960,
+          "height": 275,
+          "bytes": 26082
+        }
+      ]
+    },
+    "images/Publication/Feasibility and performance enhancement of collaborative control.png": {
+      "fingerprint": "3c40d36a3a09ebe355bb8cca20ce5e32d4e69fec074939400f4ac14cb9699ab7",
+      "role": "paper",
+      "original_bytes": 823128,
+      "width": 1676,
+      "height": 903,
+      "variants": [
+        {
+          "path": "images/optimized/3c40d36a3a09ebe3-480.webp",
+          "width": 480,
+          "height": 259,
+          "bytes": 25756
+        },
+        {
+          "path": "images/optimized/3c40d36a3a09ebe3-960.webp",
+          "width": 960,
+          "height": 517,
+          "bytes": 67312
+        }
+      ]
+    },
+    "images/Publication/FromreadertoexperiencerDesignandevaluationofaVRdatastoryfor.png": {
+      "fingerprint": "966b0a7eaf7034c0b4dc96294e195f71b59eae7683881c99c0e737fcb4ec1086",
+      "role": "paper",
+      "original_bytes": 1245563,
+      "width": 1878,
+      "height": 641,
+      "variants": [
+        {
+          "path": "images/optimized/966b0a7eaf7034c0-480.webp",
+          "width": 480,
+          "height": 164,
+          "bytes": 23494
+        },
+        {
+          "path": "images/optimized/966b0a7eaf7034c0-960.webp",
+          "width": 960,
+          "height": 328,
+          "bytes": 74414
+        }
+      ]
+    },
+    "images/Publication/HI-NetAnovel histopathologic image segmentation model for.png": {
+      "fingerprint": "d87320d0b79e692c22fd566067d0f96a2b5fa5cfdcbc2ba7281aa356d6b4130e",
+      "role": "paper",
+      "original_bytes": 254254,
+      "width": 1114,
+      "height": 742,
+      "variants": [
+        {
+          "path": "images/optimized/d87320d0b79e692c-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 20354
+        },
+        {
+          "path": "images/optimized/d87320d0b79e692c-960.webp",
+          "width": 960,
+          "height": 639,
+          "bytes": 63446
+        }
+      ]
+    },
+    "images/Publication/Hands-free multi-type character text entry in virtual reality.png": {
+      "fingerprint": "beb986698c874f72f207dbdd662c6591fb9191e0a674c40d49a4aece663fe1a1",
+      "role": "paper",
+      "original_bytes": 794761,
+      "width": 2351,
+      "height": 807,
+      "variants": [
+        {
+          "path": "images/optimized/beb986698c874f72-480.webp",
+          "width": 480,
+          "height": 165,
+          "bytes": 19474
+        },
+        {
+          "path": "images/optimized/beb986698c874f72-960.webp",
+          "width": 960,
+          "height": 330,
+          "bytes": 47658
+        }
+      ]
+    },
+    "images/Publication/Impact of Tutorial Modes with Different Time Flow Rates in Virtual Reality Games.png": {
+      "fingerprint": "fb4e785536457317e3ab0f3930f9913d7ceba06b5b8d78949feabe47a75f0a46",
+      "role": "paper",
+      "original_bytes": 201818,
+      "width": 1352,
+      "height": 639,
+      "variants": [
+        {
+          "path": "images/optimized/fb4e785536457317-480.webp",
+          "width": 480,
+          "height": 227,
+          "bytes": 17172
+        },
+        {
+          "path": "images/optimized/fb4e785536457317-960.webp",
+          "width": 960,
+          "height": 454,
+          "bytes": 47816
+        }
+      ]
+    },
+    "images/Publication/Investigating Creation Perspectives and Icon Placement.png": {
+      "fingerprint": "b34c0bab6bd953eb3a0c56eec6663686402a6c459a7df872340292ed184999b9",
+      "role": "paper",
+      "original_bytes": 303428,
+      "width": 1885,
+      "height": 481,
+      "variants": [
+        {
+          "path": "images/optimized/b34c0bab6bd953eb-480.webp",
+          "width": 480,
+          "height": 122,
+          "bytes": 8948
+        },
+        {
+          "path": "images/optimized/b34c0bab6bd953eb-960.webp",
+          "width": 960,
+          "height": 245,
+          "bytes": 20824
+        }
+      ]
+    },
+    "images/Publication/Learning from neuroscienceintegrating users in design processes.png": {
+      "fingerprint": "85c0f4a78de36ec8f8d0cdc1149d9e9f0eb73fde51e32504283127e14dc0eb0d",
+      "role": "paper",
+      "original_bytes": 1229971,
+      "width": 1539,
+      "height": 878,
+      "variants": [
+        {
+          "path": "images/optimized/85c0f4a78de36ec8-480.webp",
+          "width": 480,
+          "height": 274,
+          "bytes": 36552
+        },
+        {
+          "path": "images/optimized/85c0f4a78de36ec8-960.webp",
+          "width": 960,
+          "height": 548,
+          "bytes": 95314
+        }
+      ]
+    },
+    "images/Publication/MagicMapEnhancing Indoor Navigation Experience in VR Museums.png": {
+      "fingerprint": "f8406ace75dcf8f38576bbc5fc68bc917caf0c7cb64163188912a826c9a2a4b5",
+      "role": "paper",
+      "original_bytes": 916309,
+      "width": 1952,
+      "height": 469,
+      "variants": [
+        {
+          "path": "images/optimized/f8406ace75dcf8f3-480.webp",
+          "width": 480,
+          "height": 115,
+          "bytes": 14934
+        },
+        {
+          "path": "images/optimized/f8406ace75dcf8f3-960.webp",
+          "width": 960,
+          "height": 231,
+          "bytes": 38786
+        }
+      ]
+    },
+    "images/Publication/MemoryVRCollecting and Sharing Memories in Personal Virtual Museums - 副本.png": {
+      "fingerprint": "ab10da5de0d1330cf7f2ef1337b7adb23e3615f90984b2c340c3ad66a4c9e276",
+      "role": "paper",
+      "original_bytes": 699555,
+      "width": 2035,
+      "height": 268,
+      "variants": [
+        {
+          "path": "images/optimized/ab10da5de0d1330c-480.webp",
+          "width": 480,
+          "height": 63,
+          "bytes": 11334
+        },
+        {
+          "path": "images/optimized/ab10da5de0d1330c-960.webp",
+          "width": 960,
+          "height": 126,
+          "bytes": 31444
+        }
+      ]
+    },
+    "images/Publication/No More Head-Turning Exploring Passthrough Techniques for.png": {
+      "fingerprint": "bdac2ce36016a6b5654cd92f03398f4c1035a3df9487b3a365cf3c6f32160ea5",
+      "role": "paper",
+      "original_bytes": 1384313,
+      "width": 2216,
+      "height": 902,
+      "variants": [
+        {
+          "path": "images/optimized/bdac2ce36016a6b5-480.webp",
+          "width": 480,
+          "height": 195,
+          "bytes": 21728
+        },
+        {
+          "path": "images/optimized/bdac2ce36016a6b5-960.webp",
+          "width": 960,
+          "height": 391,
+          "bytes": 56788
+        }
+      ]
+    },
+    "images/Publication/OmnidirectionalVirtualVisualAcuityAUsercentricVisualClarity.png": {
+      "fingerprint": "9bcbfcd6e3199d9f734c69fd25a825d196294c6fe681d84000d89052e3ccba98",
+      "role": "paper",
+      "original_bytes": 703485,
+      "width": 826,
+      "height": 909,
+      "variants": [
+        {
+          "path": "images/optimized/9bcbfcd6e3199d9f-480.webp",
+          "width": 480,
+          "height": 528,
+          "bytes": 52542
+        },
+        {
+          "path": "images/optimized/9bcbfcd6e3199d9f-826.webp",
+          "width": 826,
+          "height": 909,
+          "bytes": 102654
+        }
+      ]
+    },
+    "images/Publication/OnArmQWERTYAnEmpiricalEvaluation of On-Arm Tap Typing.png": {
+      "fingerprint": "d89ada596455fd7f6a04752933f193daca7572dbd9df7fa40f2b28b6a61d9b2e",
+      "role": "paper",
+      "original_bytes": 428251,
+      "width": 2238,
+      "height": 845,
+      "variants": [
+        {
+          "path": "images/optimized/d89ada596455fd7f-480.webp",
+          "width": 480,
+          "height": 181,
+          "bytes": 14594
+        },
+        {
+          "path": "images/optimized/d89ada596455fd7f-960.webp",
+          "width": 960,
+          "height": 362,
+          "bytes": 34958
+        }
+      ]
+    },
+    "images/Publication/One Body, But Four Hands Exploring the Role of Virtual Hands in.png": {
+      "fingerprint": "f48129efecd4012dbbd3e503e1d940240ddaf761465c347219833af21fe4cda1",
+      "role": "paper",
+      "original_bytes": 777744,
+      "width": 1391,
+      "height": 513,
+      "variants": [
+        {
+          "path": "images/optimized/f48129efecd4012d-480.webp",
+          "width": 480,
+          "height": 177,
+          "bytes": 18576
+        },
+        {
+          "path": "images/optimized/f48129efecd4012d-960.webp",
+          "width": 960,
+          "height": 354,
+          "bytes": 47088
+        }
+      ]
+    },
+    "images/Publication/Optimizing Moving Target Selection in VR by Integrating Proximity-Based.png": {
+      "fingerprint": "b9409d555d2ed16555edbb9eb5a08a4ce2fcd1a98af26687f0a5020f58352b74",
+      "role": "paper",
+      "original_bytes": 521694,
+      "width": 2557,
+      "height": 689,
+      "variants": [
+        {
+          "path": "images/optimized/b9409d555d2ed165-480.webp",
+          "width": 480,
+          "height": 129,
+          "bytes": 14096
+        },
+        {
+          "path": "images/optimized/b9409d555d2ed165-960.webp",
+          "width": 960,
+          "height": 259,
+          "bytes": 40890
+        }
+      ]
+    },
+    "images/Publication/Predicting Ray Pointer Landing Poses in VR Using Multimodal.png": {
+      "fingerprint": "20a4ad27c8b864bca646cb41c00a2b2b7517812953fd47a4a09619ae9219ea96",
+      "role": "paper",
+      "original_bytes": 261977,
+      "width": 1700,
+      "height": 614,
+      "variants": [
+        {
+          "path": "images/optimized/20a4ad27c8b864bc-480.webp",
+          "width": 480,
+          "height": 173,
+          "bytes": 15888
+        },
+        {
+          "path": "images/optimized/20a4ad27c8b864bc-960.webp",
+          "width": 960,
+          "height": 347,
+          "bytes": 38590
+        }
+      ]
+    },
+    "images/Publication/ResponsiveViewEnhancing 3D Artifact Viewing Experience in VR.png": {
+      "fingerprint": "64473957c1041f73d0b45a7e44d2168b73ca19ef4947e71935f6f4b61898e0b1",
+      "role": "paper",
+      "original_bytes": 555579,
+      "width": 1394,
+      "height": 362,
+      "variants": [
+        {
+          "path": "images/optimized/64473957c1041f73-480.webp",
+          "width": 480,
+          "height": 125,
+          "bytes": 15018
+        },
+        {
+          "path": "images/optimized/64473957c1041f73-960.webp",
+          "width": 960,
+          "height": 249,
+          "bytes": 41004
+        }
+      ]
+    },
+    "images/Publication/Rethinking DefaultsExamining the Effects of Default Camera Height and Angle on Embodied Presence in Cinematic Virtual Reality.png": {
+      "fingerprint": "5d9fadf6a2908fee53947886db17d3a7f5e3e1288eec4fd411472717508f78dd",
+      "role": "paper",
+      "original_bytes": 2832347,
+      "width": 2061,
+      "height": 1201,
+      "variants": [
+        {
+          "path": "images/optimized/5d9fadf6a2908fee-480.webp",
+          "width": 480,
+          "height": 280,
+          "bytes": 38604
+        },
+        {
+          "path": "images/optimized/5d9fadf6a2908fee-960.webp",
+          "width": 960,
+          "height": 559,
+          "bytes": 115554
+        }
+      ]
+    },
+    "images/Publication/Secure and Memorable Authentication Using.png": {
+      "fingerprint": "88f13b0d8391830ae903ae8c92c8e26a5f541508c7c3e479a156361397ece380",
+      "role": "paper",
+      "original_bytes": 705384,
+      "width": 1914,
+      "height": 478,
+      "variants": [
+        {
+          "path": "images/optimized/88f13b0d8391830a-480.webp",
+          "width": 480,
+          "height": 120,
+          "bytes": 13674
+        },
+        {
+          "path": "images/optimized/88f13b0d8391830a-960.webp",
+          "width": 960,
+          "height": 240,
+          "bytes": 34546
+        }
+      ]
+    },
+    "images/Publication/SpatialTouchExploring Spatial Data Visualizations in Cross-reality.png": {
+      "fingerprint": "98af264a7c2a056c1b4e788478af30b52bfef527929388b4a09f0aac55f59ee5",
+      "role": "paper",
+      "original_bytes": 1585212,
+      "width": 2531,
+      "height": 563,
+      "variants": [
+        {
+          "path": "images/optimized/98af264a7c2a056c-480.webp",
+          "width": 480,
+          "height": 107,
+          "bytes": 15676
+        },
+        {
+          "path": "images/optimized/98af264a7c2a056c-960.webp",
+          "width": 960,
+          "height": 214,
+          "bytes": 50762
+        }
+      ]
+    },
+    "images/Publication/Stick-To-XRUnderstanding Stick-Based User Interface Design for Extended Reality.png": {
+      "fingerprint": "a4c8683f887ee9b3480cc97bbe29e0e2a22c66b249023bccc0f18f7697ff4d69",
+      "role": "paper",
+      "original_bytes": 621375,
+      "width": 2478,
+      "height": 1053,
+      "variants": [
+        {
+          "path": "images/optimized/a4c8683f887ee9b3-480.webp",
+          "width": 480,
+          "height": 204,
+          "bytes": 17998
+        },
+        {
+          "path": "images/optimized/a4c8683f887ee9b3-960.webp",
+          "width": 960,
+          "height": 408,
+          "bytes": 45956
+        }
+      ]
+    },
+    "images/Publication/Tangible ProgressEmploying Visual Metaphors and Physical.png": {
+      "fingerprint": "86cceb012b7cd5f398e4ec6df28d6118a5000ae4e568d1d51eba2517889e6062",
+      "role": "paper",
+      "original_bytes": 151163,
+      "width": 1131,
+      "height": 375,
+      "variants": [
+        {
+          "path": "images/optimized/86cceb012b7cd5f3-480.webp",
+          "width": 480,
+          "height": 159,
+          "bytes": 13110
+        },
+        {
+          "path": "images/optimized/86cceb012b7cd5f3-960.webp",
+          "width": 960,
+          "height": 318,
+          "bytes": 33408
+        }
+      ]
+    },
+    "images/Publication/TouchMark Partial Tactile Feedback Design for Upper Limb .png": {
+      "fingerprint": "5e5b0f3cb6523c03481212a1fe14f2a2277bbc1591db4dc3fcd0a220efd63c6d",
+      "role": "paper",
+      "original_bytes": 1679233,
+      "width": 2191,
+      "height": 738,
+      "variants": [
+        {
+          "path": "images/optimized/5e5b0f3cb6523c03-480.webp",
+          "width": 480,
+          "height": 162,
+          "bytes": 23032
+        },
+        {
+          "path": "images/optimized/5e5b0f3cb6523c03-960.webp",
+          "width": 960,
+          "height": 323,
+          "bytes": 65678
+        }
+      ]
+    },
+    "images/Publication/Understanding the Relationship Between User Game Preferences and Depressive Symptoms A Pilot Study.png": {
+      "fingerprint": "4360989178ef4e91c520fd78e9f1018d694790833083794beb1c10f3ef733ac3",
+      "role": "paper",
+      "original_bytes": 158645,
+      "width": 1075,
+      "height": 630,
+      "variants": [
+        {
+          "path": "images/optimized/4360989178ef4e91-480.webp",
+          "width": 480,
+          "height": 281,
+          "bytes": 9506
+        },
+        {
+          "path": "images/optimized/4360989178ef4e91-960.webp",
+          "width": 960,
+          "height": 563,
+          "bytes": 21630
+        }
+      ]
+    },
+    "images/Publication/User-Defined Gesture Interactions for VR MuseumsAn Elicitation Study.png": {
+      "fingerprint": "88cb5135c54e49b9cc69d01c3534c44bdc0917723d1f2e8eaa428567a32b96c0",
+      "role": "paper",
+      "original_bytes": 1261634,
+      "width": 2353,
+      "height": 671,
+      "variants": [
+        {
+          "path": "images/optimized/88cb5135c54e49b9-480.webp",
+          "width": 480,
+          "height": 137,
+          "bytes": 17418
+        },
+        {
+          "path": "images/optimized/88cb5135c54e49b9-960.webp",
+          "width": 960,
+          "height": 274,
+          "bytes": 48810
+        }
+      ]
+    },
+    "images/Publication/Virtual reality analytics map (VRAM)A conceptual framework for detecting mental disorders using virtual reality data.png": {
+      "fingerprint": "4428605212c82c32dece9623988d25e86ff095b01696566568c01dddafb6ff9b",
+      "role": "paper",
+      "original_bytes": 616373,
+      "width": 1083,
+      "height": 1169,
+      "variants": [
+        {
+          "path": "images/optimized/4428605212c82c32-480.webp",
+          "width": 480,
+          "height": 518,
+          "bytes": 35288
+        },
+        {
+          "path": "images/optimized/4428605212c82c32-960.webp",
+          "width": 960,
+          "height": 1036,
+          "bytes": 82550
+        }
+      ]
+    },
+    "images/Publication/Virtual reality and electroencephalography in architectural .png": {
+      "fingerprint": "2f0a0dee3485ab183c200be5ac82ccd83ea388bcfd0620f6569be5249e8ddb1e",
+      "role": "paper",
+      "original_bytes": 1464555,
+      "width": 1824,
+      "height": 753,
+      "variants": [
+        {
+          "path": "images/optimized/2f0a0dee3485ab18-480.webp",
+          "width": 480,
+          "height": 198,
+          "bytes": 29916
+        },
+        {
+          "path": "images/optimized/2f0a0dee3485ab18-960.webp",
+          "width": 960,
+          "height": 396,
+          "bytes": 81220
+        }
+      ]
+    },
+    "images/Publication/Visual Harmony.png": {
+      "fingerprint": "00626c453d412757f0ea6c7a8debbf12717ba65159b8c56d5fd6f7f9c7b0ff46",
+      "role": "paper",
+      "original_bytes": 1081847,
+      "width": 2832,
+      "height": 960,
+      "variants": [
+        {
+          "path": "images/optimized/00626c453d412757-480.webp",
+          "width": 480,
+          "height": 163,
+          "bytes": 20678
+        },
+        {
+          "path": "images/optimized/00626c453d412757-960.webp",
+          "width": 960,
+          "height": 325,
+          "bytes": 57412
+        }
+      ]
+    },
+    "images/Publication/Visual augmentation of live-streaming images in virtual reality to enhance teleoperation of unmanned ground vehicles.png": {
+      "fingerprint": "093291aed4120bda0db114d18d19bc3d91c44b7b5451dae28f164d0cbc0c461a",
+      "role": "paper",
+      "original_bytes": 446905,
+      "width": 941,
+      "height": 594,
+      "variants": [
+        {
+          "path": "images/optimized/093291aed4120bda-480.webp",
+          "width": 480,
+          "height": 303,
+          "bytes": 33188
+        },
+        {
+          "path": "images/optimized/093291aed4120bda-941.webp",
+          "width": 941,
+          "height": 594,
+          "bytes": 78056
+        }
+      ]
+    },
+    "images/Publication/VisualCodeMOOC.png": {
+      "fingerprint": "b129e90b19420cf7615d0afdf9d8daee47f3c437c74afcb589d683244045e5c2",
+      "role": "paper",
+      "original_bytes": 226794,
+      "width": 1355,
+      "height": 455,
+      "variants": [
+        {
+          "path": "images/optimized/b129e90b19420cf7-480.webp",
+          "width": 480,
+          "height": 161,
+          "bytes": 10212
+        },
+        {
+          "path": "images/optimized/b129e90b19420cf7-960.webp",
+          "width": 960,
+          "height": 322,
+          "bytes": 20612
+        }
+      ]
+    },
+    "images/Publication/iPillowPalExploring affective gesture-based interactive textile design for long-distance relationship couples.png": {
+      "fingerprint": "28aa78d5f14904d25f8b4f94b153b9364bf3ea322ad9f6e721ad436e21a567e0",
+      "role": "paper",
+      "original_bytes": 746433,
+      "width": 1022,
+      "height": 992,
+      "variants": [
+        {
+          "path": "images/optimized/28aa78d5f14904d2-480.webp",
+          "width": 480,
+          "height": 466,
+          "bytes": 37586
+        },
+        {
+          "path": "images/optimized/28aa78d5f14904d2-960.webp",
+          "width": 960,
+          "height": 932,
+          "bytes": 88258
+        }
+      ]
+    },
+    "images/brand/cma-school.png": {
+      "fingerprint": "d6c5ce7ae88b0971b672f110819bfd9115c922e1d11bb787e501cb7d9561e8c3",
+      "role": "logo",
+      "original_bytes": 76103,
+      "width": 4262,
+      "height": 2363,
+      "variants": [
+        {
+          "path": "images/optimized/d6c5ce7ae88b0971-480.webp",
+          "width": 480,
+          "height": 266,
+          "bytes": 12404
+        },
+        {
+          "path": "images/optimized/d6c5ce7ae88b0971-960.webp",
+          "width": 960,
+          "height": 532,
+          "bytes": 27542
+        }
+      ]
+    },
+    "images/brand/hkust-gz.jpg": {
+      "fingerprint": "92405a0668bb536abe2001fc616fa4e618456e56e1d9a4e4840d2e7421921654",
+      "role": "logo",
+      "original_bytes": 13259,
+      "width": 461,
+      "height": 139,
+      "variants": [
+        {
+          "path": "images/brand/hkust-gz.jpg",
+          "width": 461,
+          "height": 139,
+          "bytes": 13259
+        }
+      ]
+    },
+    "images/collaborators/anil-ufuk-batmaz.png": {
+      "fingerprint": "db1525fce6e7faae510cc4ebd6413714faaa9df00be9d02930fb2a63cb93a6bd",
+      "role": "portrait",
+      "original_bytes": 26592,
+      "width": 129,
+      "height": 129,
+      "variants": [
+        {
+          "path": "images/optimized/db1525fce6e7faae-129.webp",
+          "width": 129,
+          "height": 129,
+          "bytes": 2192
+        }
+      ]
+    },
+    "images/collaborators/barrett-ens.jpg": {
+      "fingerprint": "073335cb5b9ac5714484ff718fdd22cba9ffa516c249093c651b1c3a3fbc3502",
+      "role": "portrait",
+      "original_bytes": 39289,
+      "width": 400,
+      "height": 600,
+      "variants": [
+        {
+          "path": "images/optimized/073335cb5b9ac571-160.webp",
+          "width": 160,
+          "height": 240,
+          "bytes": 5564
+        },
+        {
+          "path": "images/optimized/073335cb5b9ac571-320.webp",
+          "width": 320,
+          "height": 480,
+          "bytes": 17312
+        },
+        {
+          "path": "images/optimized/073335cb5b9ac571-400.webp",
+          "width": 400,
+          "height": 600,
+          "bytes": 25378
+        }
+      ]
+    },
+    "images/collaborators/ben-matthews.jpg": {
+      "fingerprint": "a75f1f91df151513960ac240bd060e8b9454416263c5aa46d705bf11f2b949f3",
+      "role": "portrait",
+      "original_bytes": 11892,
+      "width": 222,
+      "height": 222,
+      "variants": [
+        {
+          "path": "images/optimized/a75f1f91df151513-160.webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 6100
+        },
+        {
+          "path": "images/optimized/a75f1f91df151513-222.webp",
+          "width": 222,
+          "height": 222,
+          "bytes": 11602
+        }
+      ]
+    },
+    "images/collaborators/boyuan-chen.jpg": {
+      "fingerprint": "9a6da64485d064d5d0e9c9556c1e96765e9eea683785015b0f2ac441ecf5800c",
+      "role": "portrait",
+      "original_bytes": 5558,
+      "width": 200,
+      "height": 200,
+      "variants": [
+        {
+          "path": "images/optimized/9a6da64485d064d5-160.webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 3244
+        },
+        {
+          "path": "images/optimized/9a6da64485d064d5-200.webp",
+          "width": 200,
+          "height": 200,
+          "bytes": 4270
+        }
+      ]
+    },
+    "images/collaborators/carsten-maple.jpg": {
+      "fingerprint": "52b58174e54f967603aafd630f59eca415a6bfda9084f53adf0411def1474394",
+      "role": "portrait",
+      "original_bytes": 9845,
+      "width": 200,
+      "height": 200,
+      "variants": [
+        {
+          "path": "images/optimized/52b58174e54f9676-160.webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 3836
+        },
+        {
+          "path": "images/optimized/52b58174e54f9676-200.webp",
+          "width": 200,
+          "height": 200,
+          "bytes": 5496
+        }
+      ]
+    },
+    "images/collaborators/celine-latulipe.jpg": {
+      "fingerprint": "828b70fa84f21188456ade7967d2139989433596fb9e3c5b6e223e83e7ad2a71",
+      "role": "portrait",
+      "original_bytes": 12774,
+      "width": 200,
+      "height": 218,
+      "variants": [
+        {
+          "path": "images/optimized/828b70fa84f21188-160.webp",
+          "width": 160,
+          "height": 174,
+          "bytes": 5118
+        },
+        {
+          "path": "images/optimized/828b70fa84f21188-200.webp",
+          "width": 200,
+          "height": 218,
+          "bytes": 7234
+        }
+      ]
+    },
+    "images/collaborators/christoph-anthes.jpg": {
+      "fingerprint": "14d679f4bbd0fd10599b8a06dd75293f256443de21cffafae1443d82af7cb914",
+      "role": "portrait",
+      "original_bytes": 5155,
+      "width": 160,
+      "height": 191,
+      "variants": [
+        {
+          "path": "images/optimized/14d679f4bbd0fd10-160.webp",
+          "width": 160,
+          "height": 191,
+          "bytes": 3084
+        }
+      ]
+    },
+    "images/collaborators/christos-mousas.jpg": {
+      "fingerprint": "2bc7bf230540f209141b3d2eaf7f0ed34d4d45b96d5e1443f24d7bac0db38a85",
+      "role": "portrait",
+      "original_bytes": 171286,
+      "width": 2048,
+      "height": 1450,
+      "variants": [
+        {
+          "path": "images/optimized/2bc7bf230540f209-160.webp",
+          "width": 160,
+          "height": 113,
+          "bytes": 2782
+        },
+        {
+          "path": "images/optimized/2bc7bf230540f209-320.webp",
+          "width": 320,
+          "height": 227,
+          "bytes": 6800
+        },
+        {
+          "path": "images/optimized/2bc7bf230540f209-640.webp",
+          "width": 640,
+          "height": 453,
+          "bytes": 17310
+        }
+      ]
+    },
+    "images/collaborators/craig-anslow.png": {
+      "fingerprint": "17c7f2f3d1e9237f91d869b06639ae59df744b80013d644ba7e75ad4658836e9",
+      "role": "portrait",
+      "original_bytes": 121567,
+      "width": 300,
+      "height": 369,
+      "variants": [
+        {
+          "path": "images/optimized/17c7f2f3d1e9237f-160.webp",
+          "width": 160,
+          "height": 197,
+          "bytes": 4668
+        },
+        {
+          "path": "images/optimized/17c7f2f3d1e9237f-300.webp",
+          "width": 300,
+          "height": 369,
+          "bytes": 10406
+        }
+      ]
+    },
+    "images/collaborators/daniel-roth.jpg": {
+      "fingerprint": "16d35dad3fd79d224a70d5458b34680a1916b091ca20b44c0ac2a006f50bf60b",
+      "role": "portrait",
+      "original_bytes": 28583,
+      "width": 140,
+      "height": 180,
+      "variants": [
+        {
+          "path": "images/optimized/16d35dad3fd79d22-140.webp",
+          "width": 140,
+          "height": 180,
+          "bytes": 4936
+        }
+      ]
+    },
+    "images/collaborators/dominic-kao.jpg": {
+      "fingerprint": "2cd09b4161306f2357861a30927e988e3bea0a2dd9b60f679942b516ca885f5a",
+      "role": "portrait",
+      "original_bytes": 83134,
+      "width": 1200,
+      "height": 1600,
+      "variants": [
+        {
+          "path": "images/optimized/2cd09b4161306f23-160.webp",
+          "width": 160,
+          "height": 213,
+          "bytes": 3876
+        },
+        {
+          "path": "images/optimized/2cd09b4161306f23-320.webp",
+          "width": 320,
+          "height": 427,
+          "bytes": 9726
+        },
+        {
+          "path": "images/optimized/2cd09b4161306f23-640.webp",
+          "width": 640,
+          "height": 853,
+          "bytes": 23516
+        }
+      ]
+    },
+    "images/collaborators/eduardo-velloso.webp": {
+      "fingerprint": "bd8655bc7a40ae1c51d99a3ab81bd78bba7b00af36d4a157a3804a1cf695939f",
+      "role": "portrait",
+      "original_bytes": 18904,
+      "width": 427,
+      "height": 640,
+      "variants": [
+        {
+          "path": "images/optimized/bd8655bc7a40ae1c-160.webp",
+          "width": 160,
+          "height": 240,
+          "bytes": 3940
+        },
+        {
+          "path": "images/optimized/bd8655bc7a40ae1c-320.webp",
+          "width": 320,
+          "height": 480,
+          "bytes": 9976
+        },
+        {
+          "path": "images/optimized/bd8655bc7a40ae1c-427.webp",
+          "width": 427,
+          "height": 640,
+          "bytes": 15860
+        }
+      ]
+    },
+    "images/collaborators/elena-mugellini.jpg": {
+      "fingerprint": "6615ca74dbd990ae89e300d7377f90e927684ba27a37e9ca34a3dacc4b6697b9",
+      "role": "portrait",
+      "original_bytes": 208974,
+      "width": 2000,
+      "height": 2000,
+      "variants": [
+        {
+          "path": "images/optimized/6615ca74dbd990ae-160.webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 5084
+        },
+        {
+          "path": "images/optimized/6615ca74dbd990ae-320.webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 12478
+        },
+        {
+          "path": "images/optimized/6615ca74dbd990ae-640.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 30276
+        }
+      ]
+    },
+    "images/collaborators/evangelia-demerouti.jpg": {
+      "fingerprint": "7f19d80957aeebfc57074b7815c00668709b33b870fe8a8d75de5a6a669eab3a",
+      "role": "portrait",
+      "original_bytes": 6937,
+      "width": 160,
+      "height": 200,
+      "variants": [
+        {
+          "path": "images/optimized/7f19d80957aeebfc-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 4748
+        }
+      ]
+    },
+    "images/collaborators/florian-mueller.jpg": {
+      "fingerprint": "2f1f2d91c910dc48fdd9c5f11e86231744ce8d8197c436ec201d3980ede5b239",
+      "role": "portrait",
+      "original_bytes": 7889,
+      "width": 160,
+      "height": 190,
+      "variants": [
+        {
+          "path": "images/optimized/2f1f2d91c910dc48-160.webp",
+          "width": 160,
+          "height": 190,
+          "bytes": 5732
+        }
+      ]
+    },
+    "images/collaborators/frank-maurer.jpg": {
+      "fingerprint": "3172ab83b13bdeb4cc9e0dc3d82704a241a15c5131b8be0c474de79af7eb1777",
+      "role": "portrait",
+      "original_bytes": 32383,
+      "width": 260,
+      "height": 320,
+      "variants": [
+        {
+          "path": "images/optimized/3172ab83b13bdeb4-160.webp",
+          "width": 160,
+          "height": 197,
+          "bytes": 6648
+        },
+        {
+          "path": "images/optimized/3172ab83b13bdeb4-260.webp",
+          "width": 260,
+          "height": 320,
+          "bytes": 10000
+        }
+      ]
+    },
+    "images/collaborators/george-gadanidis.jpg": {
+      "fingerprint": "bc5b429e806b13b8dab31ee620fbec19f3799f1ff3fcad2f48973015a5a8bee7",
+      "role": "portrait",
+      "original_bytes": 37700,
+      "width": 200,
+      "height": 200,
+      "variants": [
+        {
+          "path": "images/optimized/bc5b429e806b13b8-160.webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 8360
+        },
+        {
+          "path": "images/optimized/bc5b429e806b13b8-200.webp",
+          "width": 200,
+          "height": 200,
+          "bytes": 13078
+        }
+      ]
+    },
+    "images/collaborators/hans-christian-jetter.jpg": {
+      "fingerprint": "ae6eb6f2f94bc34a40d2215be153d4ce0c9330a9e40af26b70bd9cf64b55f068",
+      "role": "portrait",
+      "original_bytes": 8197,
+      "width": 200,
+      "height": 200,
+      "variants": [
+        {
+          "path": "images/optimized/ae6eb6f2f94bc34a-160.webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 3856
+        },
+        {
+          "path": "images/optimized/ae6eb6f2f94bc34a-200.webp",
+          "width": 200,
+          "height": 200,
+          "bytes": 5580
+        }
+      ]
+    },
+    "images/collaborators/henry-duh.jpg": {
+      "fingerprint": "fda100755ecaaf8a0e6525277c3c9873eaf02db5415c3d6febf15d958e472823",
+      "role": "portrait",
+      "original_bytes": 17655,
+      "width": 280,
+      "height": 430,
+      "variants": [
+        {
+          "path": "images/optimized/fda100755ecaaf8a-160.webp",
+          "width": 160,
+          "height": 246,
+          "bytes": 8346
+        },
+        {
+          "path": "images/optimized/fda100755ecaaf8a-280.webp",
+          "width": 280,
+          "height": 430,
+          "bytes": 14314
+        }
+      ]
+    },
+    "images/collaborators/huawei-tu.jpg": {
+      "fingerprint": "6df3331db9d63313dc0403c8ba7f75ec54f2b1d9a4ea61c2fe1321f4079075a9",
+      "role": "portrait",
+      "original_bytes": 4804,
+      "width": 180,
+      "height": 180,
+      "variants": [
+        {
+          "path": "images/optimized/6df3331db9d63313-160.webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 2972
+        },
+        {
+          "path": "images/optimized/6df3331db9d63313-180.webp",
+          "width": 180,
+          "height": 180,
+          "bytes": 3374
+        }
+      ]
+    },
+    "images/collaborators/imran-khaliq.png": {
+      "fingerprint": "c9e660897f365000fd19875cb2d469f785a71eb54ce4c71bec6e4a691e13b465",
+      "role": "portrait",
+      "original_bytes": 61472,
+      "width": 180,
+      "height": 180,
+      "variants": [
+        {
+          "path": "images/optimized/c9e660897f365000-160.webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 3414
+        },
+        {
+          "path": "images/optimized/c9e660897f365000-180.webp",
+          "width": 180,
+          "height": 180,
+          "bytes": 3814
+        }
+      ]
+    },
+    "images/collaborators/ioanna-lykourentzou.jpg": {
+      "fingerprint": "77a732f3d7882dfb16887878aef088c08231a08c6754ad9562b8e95c3c7653f4",
+      "role": "portrait",
+      "original_bytes": 23812,
+      "width": 175,
+      "height": 212,
+      "variants": [
+        {
+          "path": "images/optimized/77a732f3d7882dfb-160.webp",
+          "width": 160,
+          "height": 194,
+          "bytes": 3754
+        },
+        {
+          "path": "images/optimized/77a732f3d7882dfb-175.webp",
+          "width": 175,
+          "height": 212,
+          "bytes": 4040
+        }
+      ]
+    },
+    "images/collaborators/jan-gugenheimer.webp": {
+      "fingerprint": "fba54dfea68b09b1435e8a11c13dcbbbd6a253ca0f24b67821ec9af31e89681b",
+      "role": "portrait",
+      "original_bytes": 25738,
+      "width": 608,
+      "height": 415,
+      "variants": [
+        {
+          "path": "images/optimized/fba54dfea68b09b1-160.webp",
+          "width": 160,
+          "height": 109,
+          "bytes": 2766
+        },
+        {
+          "path": "images/optimized/fba54dfea68b09b1-320.webp",
+          "width": 320,
+          "height": 218,
+          "bytes": 7692
+        },
+        {
+          "path": "images/optimized/fba54dfea68b09b1-608.webp",
+          "width": 608,
+          "height": 415,
+          "bytes": 23406
+        }
+      ]
+    },
+    "images/collaborators/jeremy-smith.webp": {
+      "fingerprint": "8856951090c578233a5d6279bea5e46fd6127e523f824f69584586ee9c028e60",
+      "role": "portrait",
+      "original_bytes": 17080,
+      "width": 720,
+      "height": 720,
+      "variants": [
+        {
+          "path": "images/optimized/8856951090c57823-160.webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 3838
+        },
+        {
+          "path": "images/optimized/8856951090c57823-320.webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 8242
+        },
+        {
+          "path": "images/collaborators/jeremy-smith.webp",
+          "width": 720,
+          "height": 720,
+          "bytes": 17080
+        }
+      ]
+    },
+    "images/collaborators/ji-han.png": {
+      "fingerprint": "7118efa62f2327a25c7b44fc89efa21c1bd767cebc97cedef93ce4fd2a0ce3eb",
+      "role": "portrait",
+      "original_bytes": 41634,
+      "width": 300,
+      "height": 300,
+      "variants": [
+        {
+          "path": "images/optimized/7118efa62f2327a2-160.webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 7662
+        },
+        {
+          "path": "images/optimized/7118efa62f2327a2-300.webp",
+          "width": 300,
+          "height": 300,
+          "bytes": 14098
+        }
+      ]
+    },
+    "images/collaborators/jian-j-zhang.jpg": {
+      "fingerprint": "0195e8ec29ce56c1f8e53c7a2297507fe0a6e269d7658ac63d2571bc0aa3c0c7",
+      "role": "portrait",
+      "original_bytes": 5121,
+      "width": 200,
+      "height": 216,
+      "variants": [
+        {
+          "path": "images/optimized/0195e8ec29ce56c1-160.webp",
+          "width": 160,
+          "height": 173,
+          "bytes": 2808
+        },
+        {
+          "path": "images/optimized/0195e8ec29ce56c1-200.webp",
+          "width": 200,
+          "height": 216,
+          "bytes": 3710
+        }
+      ]
+    },
+    "images/collaborators/john-naslund.webp": {
+      "fingerprint": "154be860b07947219a65ee188bb9bfdd715e35a4c9dde95ed54ceceed85231da",
+      "role": "portrait",
+      "original_bytes": 36608,
+      "width": 636,
+      "height": 640,
+      "variants": [
+        {
+          "path": "images/optimized/154be860b0794721-160.webp",
+          "width": 160,
+          "height": 161,
+          "bytes": 2920
+        },
+        {
+          "path": "images/optimized/154be860b0794721-320.webp",
+          "width": 320,
+          "height": 322,
+          "bytes": 9320
+        },
+        {
+          "path": "images/optimized/154be860b0794721-636.webp",
+          "width": 636,
+          "height": 640,
+          "bytes": 31562
+        }
+      ]
+    },
+    "images/collaborators/julie-henry.jpg": {
+      "fingerprint": "b128eddb89fbcd960ad44eb93b3c0fa4064558cd70dfd217fe459253b65c1f22",
+      "role": "portrait",
+      "original_bytes": 12286,
+      "width": 222,
+      "height": 222,
+      "variants": [
+        {
+          "path": "images/optimized/b128eddb89fbcd96-160.webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 6448
+        },
+        {
+          "path": "images/optimized/b128eddb89fbcd96-222.webp",
+          "width": 222,
+          "height": 222,
+          "bytes": 10428
+        }
+      ]
+    },
+    "images/collaborators/junxiao-shen.webp": {
+      "fingerprint": "270c4ac6fa575e767e9a5d3e7b4e516721a5cd3c7f49875f1876dbd2a4a01bc1",
+      "role": "portrait",
+      "original_bytes": 16804,
+      "width": 512,
+      "height": 640,
+      "variants": [
+        {
+          "path": "images/optimized/270c4ac6fa575e76-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 3124
+        },
+        {
+          "path": "images/optimized/270c4ac6fa575e76-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 7208
+        },
+        {
+          "path": "images/optimized/270c4ac6fa575e76-512.webp",
+          "width": 512,
+          "height": 640,
+          "bytes": 13860
+        }
+      ]
+    },
+    "images/collaborators/kamran-sedig.jpg": {
+      "fingerprint": "47f6fa3ad6c4104f96bdd95d76fcef1519238de727d9b181c34be485a10a2054",
+      "role": "portrait",
+      "original_bytes": 38902,
+      "width": 120,
+      "height": 150,
+      "variants": [
+        {
+          "path": "images/optimized/47f6fa3ad6c4104f-120.webp",
+          "width": 120,
+          "height": 150,
+          "bytes": 5896
+        }
+      ]
+    },
+    "images/collaborators/katie-atkinson.webp": {
+      "fingerprint": "072e53ab33ef41dabb37d8d130f2e4738b392e93ead09e91c09263ae44666ef6",
+      "role": "portrait",
+      "original_bytes": 40108,
+      "width": 720,
+      "height": 720,
+      "variants": [
+        {
+          "path": "images/optimized/072e53ab33ef41da-160.webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 6870
+        },
+        {
+          "path": "images/optimized/072e53ab33ef41da-320.webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 16066
+        },
+        {
+          "path": "images/optimized/072e53ab33ef41da-640.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 39578
+        }
+      ]
+    },
+    "images/collaborators/khalad-hasan.jpg": {
+      "fingerprint": "58bab99aa541dbca458ab72db5731396e64b5f06ec0b94bb51d99fe05d6e6b21",
+      "role": "portrait",
+      "original_bytes": 54955,
+      "width": 400,
+      "height": 600,
+      "variants": [
+        {
+          "path": "images/optimized/58bab99aa541dbca-160.webp",
+          "width": 160,
+          "height": 240,
+          "bytes": 6944
+        },
+        {
+          "path": "images/optimized/58bab99aa541dbca-320.webp",
+          "width": 320,
+          "height": 480,
+          "bytes": 27982
+        },
+        {
+          "path": "images/optimized/58bab99aa541dbca-400.webp",
+          "width": 400,
+          "height": 600,
+          "bytes": 45352
+        }
+      ]
+    },
+    "images/collaborators/konstantinos-papangelis.jpg": {
+      "fingerprint": "c38fdb1f68f303f7342ab55e20294d57896de3655572d56b4bfa4f8f08fb003b",
+      "role": "portrait",
+      "original_bytes": 80877,
+      "width": 600,
+      "height": 600,
+      "variants": [
+        {
+          "path": "images/optimized/c38fdb1f68f303f7-160.webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 4090
+        },
+        {
+          "path": "images/optimized/c38fdb1f68f303f7-320.webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 13822
+        },
+        {
+          "path": "images/optimized/c38fdb1f68f303f7-600.webp",
+          "width": 600,
+          "height": 600,
+          "bytes": 46256
+        }
+      ]
+    },
+    "images/collaborators/lik-hang-lee.jpg": {
+      "fingerprint": "d4f9a7e93534927989ce768c173631f8f93eef18030b622acc49a089b1fed4b5",
+      "role": "portrait",
+      "original_bytes": 63021,
+      "width": 600,
+      "height": 600,
+      "variants": [
+        {
+          "path": "images/optimized/d4f9a7e935349279-160.webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 2650
+        },
+        {
+          "path": "images/optimized/d4f9a7e935349279-320.webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 6498
+        },
+        {
+          "path": "images/optimized/d4f9a7e935349279-600.webp",
+          "width": 600,
+          "height": 600,
+          "bytes": 17226
+        }
+      ]
+    },
+    "images/collaborators/mark-billinghurst.jpg": {
+      "fingerprint": "21954344746d9e18383832dd2b8518a98588a55605da894b58423fca780cc492",
+      "role": "portrait",
+      "original_bytes": 62627,
+      "width": 860,
+      "height": 860,
+      "variants": [
+        {
+          "path": "images/optimized/21954344746d9e18-160.webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 5888
+        },
+        {
+          "path": "images/optimized/21954344746d9e18-320.webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 14146
+        },
+        {
+          "path": "images/optimized/21954344746d9e18-640.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 32596
+        }
+      ]
+    },
+    "images/collaborators/massimo-mecella.jpg": {
+      "fingerprint": "69ade0130af91fe1b594e2b0c6e409bda70c0b10a72b30c3d02b2807e919d0a5",
+      "role": "portrait",
+      "original_bytes": 43806,
+      "width": 320,
+      "height": 214,
+      "variants": [
+        {
+          "path": "images/optimized/69ade0130af91fe1-160.webp",
+          "width": 160,
+          "height": 107,
+          "bytes": 2912
+        },
+        {
+          "path": "images/optimized/69ade0130af91fe1-320.webp",
+          "width": 320,
+          "height": 214,
+          "bytes": 7162
+        }
+      ]
+    },
+    "images/collaborators/maurizio-caon.png": {
+      "fingerprint": "eb625c9261c9b7dbc9a32c364d6f8aafd590252ad02f7d31b18a22d5c44403e2",
+      "role": "portrait",
+      "original_bytes": 258174,
+      "width": 438,
+      "height": 545,
+      "variants": [
+        {
+          "path": "images/optimized/eb625c9261c9b7db-160.webp",
+          "width": 160,
+          "height": 199,
+          "bytes": 9066
+        },
+        {
+          "path": "images/optimized/eb625c9261c9b7db-320.webp",
+          "width": 320,
+          "height": 398,
+          "bytes": 21512
+        },
+        {
+          "path": "images/optimized/eb625c9261c9b7db-438.webp",
+          "width": 438,
+          "height": 545,
+          "bytes": 38322
+        }
+      ]
+    },
+    "images/collaborators/meng-xia.jpg": {
+      "fingerprint": "023c039f666db692a844040d4c6f2ee5b95324b371ebc40e3ad23d697a66113e",
+      "role": "portrait",
+      "original_bytes": 30215,
+      "width": 300,
+      "height": 400,
+      "variants": [
+        {
+          "path": "images/optimized/023c039f666db692-160.webp",
+          "width": 160,
+          "height": 213,
+          "bytes": 7622
+        },
+        {
+          "path": "images/optimized/023c039f666db692-300.webp",
+          "width": 300,
+          "height": 400,
+          "bytes": 21436
+        }
+      ]
+    },
+    "images/collaborators/nazlena-mohamad-ali.jpg": {
+      "fingerprint": "4b10a0efc27f63f4107f2a9771cccc281dfdbc1b29e694bf5ba5ea1cbd7eeed3",
+      "role": "portrait",
+      "original_bytes": 182392,
+      "width": 500,
+      "height": 717,
+      "variants": [
+        {
+          "path": "images/optimized/4b10a0efc27f63f4-160.webp",
+          "width": 160,
+          "height": 229,
+          "bytes": 7134
+        },
+        {
+          "path": "images/optimized/4b10a0efc27f63f4-320.webp",
+          "width": 320,
+          "height": 459,
+          "bytes": 13008
+        },
+        {
+          "path": "images/optimized/4b10a0efc27f63f4-500.webp",
+          "width": 500,
+          "height": 717,
+          "bytes": 21442
+        }
+      ]
+    },
+    "images/collaborators/nilufar-baghaei.jpg": {
+      "fingerprint": "0969897d100fc173650265f929b6178006714cf7ac98736f1575fbbbe72ca11b",
+      "role": "portrait",
+      "original_bytes": 14760,
+      "width": 222,
+      "height": 222,
+      "variants": [
+        {
+          "path": "images/optimized/0969897d100fc173-160.webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 8446
+        },
+        {
+          "path": "images/optimized/0969897d100fc173-222.webp",
+          "width": 222,
+          "height": 222,
+          "bytes": 13964
+        }
+      ]
+    },
+    "images/collaborators/norshita-mat-nayan.jpg": {
+      "fingerprint": "9314357b6130d91a298b724df661249253c954126563f1bec585752d004e1cfd",
+      "role": "portrait",
+      "original_bytes": 55173,
+      "width": 209,
+      "height": 300,
+      "variants": [
+        {
+          "path": "images/optimized/9314357b6130d91a-160.webp",
+          "width": 160,
+          "height": 230,
+          "bytes": 5444
+        },
+        {
+          "path": "images/optimized/9314357b6130d91a-209.webp",
+          "width": 209,
+          "height": 300,
+          "bytes": 7846
+        }
+      ]
+    },
+    "images/collaborators/nurazean-maarop.jpg": {
+      "fingerprint": "b3b2ad3bf5725186673591b941e6bd7b0194d3abfcb8c9f7eaaaf53abccbe51c",
+      "role": "portrait",
+      "original_bytes": 224600,
+      "width": 480,
+      "height": 640,
+      "variants": [
+        {
+          "path": "images/optimized/b3b2ad3bf5725186-160.webp",
+          "width": 160,
+          "height": 213,
+          "bytes": 7314
+        },
+        {
+          "path": "images/optimized/b3b2ad3bf5725186-320.webp",
+          "width": 320,
+          "height": 427,
+          "bytes": 22124
+        },
+        {
+          "path": "images/optimized/b3b2ad3bf5725186-480.webp",
+          "width": 480,
+          "height": 640,
+          "bytes": 40488
+        }
+      ]
+    },
+    "images/collaborators/omar-abou-khaled.jpg": {
+      "fingerprint": "3b337877788071cf735750a1d9f65d33193cec8ca959bd26e2e07782614b8bf5",
+      "role": "portrait",
+      "original_bytes": 106827,
+      "width": 715,
+      "height": 1024,
+      "variants": [
+        {
+          "path": "images/optimized/3b337877788071cf-160.webp",
+          "width": 160,
+          "height": 229,
+          "bytes": 7034
+        },
+        {
+          "path": "images/optimized/3b337877788071cf-320.webp",
+          "width": 320,
+          "height": 458,
+          "bytes": 22114
+        },
+        {
+          "path": "images/optimized/3b337877788071cf-640.webp",
+          "width": 640,
+          "height": 917,
+          "bytes": 69514
+        }
+      ]
+    },
+    "images/collaborators/oyewole-oyekoya.jpg": {
+      "fingerprint": "5c5279db81f8bb3df9b711ae48e518149c081b673c2c6ea6df6b4e2fe84885e6",
+      "role": "portrait",
+      "original_bytes": 11287,
+      "width": 300,
+      "height": 370,
+      "variants": [
+        {
+          "path": "images/optimized/5c5279db81f8bb3d-160.webp",
+          "width": 160,
+          "height": 197,
+          "bytes": 3902
+        },
+        {
+          "path": "images/optimized/5c5279db81f8bb3d-300.webp",
+          "width": 300,
+          "height": 370,
+          "bytes": 9156
+        }
+      ]
+    },
+    "images/collaborators/pan-hui.jpg": {
+      "fingerprint": "64fdb8d068b69cae2949970529bac161569c4ab961cdb351cf2922b5b2488bfb",
+      "role": "portrait",
+      "original_bytes": 27215,
+      "width": 187,
+      "height": 230,
+      "variants": [
+        {
+          "path": "images/optimized/64fdb8d068b69cae-160.webp",
+          "width": 160,
+          "height": 197,
+          "bytes": 6054
+        },
+        {
+          "path": "images/optimized/64fdb8d068b69cae-187.webp",
+          "width": 187,
+          "height": 230,
+          "bytes": 7626
+        }
+      ]
+    },
+    "images/collaborators/paul-parsons.png": {
+      "fingerprint": "0117d9be6403fcb32e59e54826620e00c6afcbd6e91cf83452fc460ff95b0a8a",
+      "role": "portrait",
+      "original_bytes": 208116,
+      "width": 500,
+      "height": 500,
+      "variants": [
+        {
+          "path": "images/optimized/0117d9be6403fcb3-160.webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 4408
+        },
+        {
+          "path": "images/optimized/0117d9be6403fcb3-320.webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 10258
+        },
+        {
+          "path": "images/optimized/0117d9be6403fcb3-500.webp",
+          "width": 500,
+          "height": 500,
+          "bytes": 19556
+        }
+      ]
+    },
+    "images/collaborators/pedro-lopes.webp": {
+      "fingerprint": "dcd2a72308947c38a87153563212b6cab9562fffb9e12f70b2a042f49ee06bff",
+      "role": "portrait",
+      "original_bytes": 47598,
+      "width": 481,
+      "height": 514,
+      "variants": [
+        {
+          "path": "images/optimized/dcd2a72308947c38-160.webp",
+          "width": 160,
+          "height": 171,
+          "bytes": 6244
+        },
+        {
+          "path": "images/optimized/dcd2a72308947c38-320.webp",
+          "width": 320,
+          "height": 342,
+          "bytes": 20204
+        },
+        {
+          "path": "images/optimized/dcd2a72308947c38-481.webp",
+          "width": 481,
+          "height": 514,
+          "bytes": 43174
+        }
+      ]
+    },
+    "images/collaborators/per-ola-kristensson.jpg": {
+      "fingerprint": "41314af4552ac51a25596b9e5429ea6089268631ee96ce901de92ad1684a04e7",
+      "role": "portrait",
+      "original_bytes": 129542,
+      "width": 600,
+      "height": 800,
+      "variants": [
+        {
+          "path": "images/optimized/41314af4552ac51a-160.webp",
+          "width": 160,
+          "height": 213,
+          "bytes": 7966
+        },
+        {
+          "path": "images/optimized/41314af4552ac51a-320.webp",
+          "width": 320,
+          "height": 427,
+          "bytes": 14106
+        },
+        {
+          "path": "images/optimized/41314af4552ac51a-600.webp",
+          "width": 600,
+          "height": 800,
+          "bytes": 25544
+        }
+      ]
+    },
+    "images/collaborators/pierre-boulanger.jpg": {
+      "fingerprint": "59d4065c35b79afcec0873423c5c1f61dfd3ac32e9c4618c0ffbed5c08fc764a",
+      "role": "portrait",
+      "original_bytes": 20149,
+      "width": 348,
+      "height": 387,
+      "variants": [
+        {
+          "path": "images/optimized/59d4065c35b79afc-160.webp",
+          "width": 160,
+          "height": 178,
+          "bytes": 7256
+        },
+        {
+          "path": "images/collaborators/pierre-boulanger.jpg",
+          "width": 348,
+          "height": 387,
+          "bytes": 20149
+        }
+      ]
+    },
+    "images/collaborators/pourang-irani.jpg": {
+      "fingerprint": "1746ca8400ab1bf11e16ee31b2d0c6042e87a2e09aa91926ecded1b2b4d93214",
+      "role": "portrait",
+      "original_bytes": 109110,
+      "width": 400,
+      "height": 600,
+      "variants": [
+        {
+          "path": "images/optimized/1746ca8400ab1bf1-160.webp",
+          "width": 160,
+          "height": 240,
+          "bytes": 5062
+        },
+        {
+          "path": "images/optimized/1746ca8400ab1bf1-320.webp",
+          "width": 320,
+          "height": 480,
+          "bytes": 11984
+        },
+        {
+          "path": "images/optimized/1746ca8400ab1bf1-400.webp",
+          "width": 400,
+          "height": 600,
+          "bytes": 15716
+        }
+      ]
+    },
+    "images/collaborators/rabindra-ratan.png": {
+      "fingerprint": "5885c137e19029d0dea31c2e37285b699485b22914fc25e2ab7c11d091306642",
+      "role": "portrait",
+      "original_bytes": 146165,
+      "width": 280,
+      "height": 280,
+      "variants": [
+        {
+          "path": "images/optimized/5885c137e19029d0-160.webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 6736
+        },
+        {
+          "path": "images/optimized/5885c137e19029d0-280.webp",
+          "width": 280,
+          "height": 280,
+          "bytes": 14294
+        }
+      ]
+    },
+    "images/collaborators/richard-koeck.webp": {
+      "fingerprint": "0d5c5111753c39710f304546d2f52b97bb406f3783fa11a34fc3f8f76f810a41",
+      "role": "portrait",
+      "original_bytes": 22216,
+      "width": 720,
+      "height": 720,
+      "variants": [
+        {
+          "path": "images/optimized/0d5c5111753c3971-160.webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 4146
+        },
+        {
+          "path": "images/optimized/0d5c5111753c3971-320.webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 9738
+        },
+        {
+          "path": "images/optimized/0d5c5111753c3971-640.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 21780
+        }
+      ]
+    },
+    "images/collaborators/richard-skarbez.jpg": {
+      "fingerprint": "28d36cb71b303872ce264c8007c47519268dca36efdd8867c9d905361179d1e5",
+      "role": "portrait",
+      "original_bytes": 7158,
+      "width": 180,
+      "height": 180,
+      "variants": [
+        {
+          "path": "images/optimized/28d36cb71b303872-160.webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 5830
+        },
+        {
+          "path": "images/optimized/28d36cb71b303872-180.webp",
+          "width": 180,
+          "height": 180,
+          "bytes": 6910
+        }
+      ]
+    },
+    "images/collaborators/salvatore-livatino.jpg": {
+      "fingerprint": "688297244cc1906dcabc0b8723ad1263818abab55a6c4b33d859b8f5b819bcbb",
+      "role": "portrait",
+      "original_bytes": 8385,
+      "width": 160,
+      "height": 213,
+      "variants": [
+        {
+          "path": "images/optimized/688297244cc1906d-160.webp",
+          "width": 160,
+          "height": 213,
+          "bytes": 6362
+        }
+      ]
+    },
+    "images/collaborators/sayan-sarcar.jpg": {
+      "fingerprint": "95d7689e83776e0914a3bd0f4e14fbb64a0b7a7351c619095ab66bc8bf2ec817",
+      "role": "portrait",
+      "original_bytes": 6477,
+      "width": 100,
+      "height": 150,
+      "variants": [
+        {
+          "path": "images/optimized/95d7689e83776e09-100.webp",
+          "width": 100,
+          "height": 150,
+          "bytes": 4688
+        }
+      ]
+    },
+    "images/collaborators/sebastian-von-mammen.webp": {
+      "fingerprint": "eb558e5adaf5082ff69344579d7db22a1d0170a613b635701dac013948f1d50a",
+      "role": "portrait",
+      "original_bytes": 21594,
+      "width": 427,
+      "height": 640,
+      "variants": [
+        {
+          "path": "images/optimized/eb558e5adaf5082f-160.webp",
+          "width": 160,
+          "height": 240,
+          "bytes": 3590
+        },
+        {
+          "path": "images/optimized/eb558e5adaf5082f-320.webp",
+          "width": 320,
+          "height": 480,
+          "bytes": 10062
+        },
+        {
+          "path": "images/optimized/eb558e5adaf5082f-427.webp",
+          "width": 427,
+          "height": 640,
+          "bytes": 18174
+        }
+      ]
+    },
+    "images/collaborators/shan-luo.webp": {
+      "fingerprint": "6e00855e7f3781aec84f5ee8531e1ab1ac336cdb5151a2a5cf903407e9cb57bb",
+      "role": "portrait",
+      "original_bytes": 2460,
+      "width": 160,
+      "height": 160,
+      "variants": [
+        {
+          "path": "images/collaborators/shan-luo.webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 2460
+        }
+      ]
+    },
+    "images/collaborators/shengdong-zhao.png": {
+      "fingerprint": "9e3e908428af2afada06c394041d2db587775b0b2a9f5fedbd1fb1769f1f4b09",
+      "role": "portrait",
+      "original_bytes": 242056,
+      "width": 315,
+      "height": 460,
+      "variants": [
+        {
+          "path": "images/optimized/9e3e908428af2afa-160.webp",
+          "width": 160,
+          "height": 234,
+          "bytes": 5094
+        },
+        {
+          "path": "images/optimized/9e3e908428af2afa-315.webp",
+          "width": 315,
+          "height": 460,
+          "bytes": 12274
+        }
+      ]
+    },
+    "images/collaborators/suraya-yaacob.webp": {
+      "fingerprint": "ca44d56caa104f85f6a6917e6ded2501e57920bcfe90d5e18681c03b2c2b44f6",
+      "role": "portrait",
+      "original_bytes": 22706,
+      "width": 640,
+      "height": 512,
+      "variants": [
+        {
+          "path": "images/optimized/ca44d56caa104f85-160.webp",
+          "width": 160,
+          "height": 128,
+          "bytes": 3722
+        },
+        {
+          "path": "images/optimized/ca44d56caa104f85-320.webp",
+          "width": 320,
+          "height": 256,
+          "bytes": 8922
+        },
+        {
+          "path": "images/optimized/ca44d56caa104f85-640.webp",
+          "width": 640,
+          "height": 512,
+          "bytes": 20464
+        }
+      ]
+    },
+    "images/collaborators/tilman-dingler.jpg": {
+      "fingerprint": "ac9f45623cd334f6725eaa3ee7ab59e4699315e95ae7d56ff2ed301c68821839",
+      "role": "portrait",
+      "original_bytes": 3633,
+      "width": 160,
+      "height": 141,
+      "variants": [
+        {
+          "path": "images/optimized/ac9f45623cd334f6-160.webp",
+          "width": 160,
+          "height": 141,
+          "bytes": 2142
+        }
+      ]
+    },
+    "images/collaborators/weidong-huang.png": {
+      "fingerprint": "0307b36531e13f1b3373a1114b1176be91add9230f7b9261bba8c40ba7318ea5",
+      "role": "portrait",
+      "original_bytes": 209905,
+      "width": 280,
+      "height": 430,
+      "variants": [
+        {
+          "path": "images/optimized/0307b36531e13f1b-160.webp",
+          "width": 160,
+          "height": 246,
+          "bytes": 4408
+        },
+        {
+          "path": "images/optimized/0307b36531e13f1b-280.webp",
+          "width": 280,
+          "height": 430,
+          "bytes": 9460
+        }
+      ]
+    },
+    "images/collaborators/wenge-xu.png": {
+      "fingerprint": "fda162199e3ca5dd727c04b5b530a1ee09d5e0e049560fdf0ba10de93120ad83",
+      "role": "portrait",
+      "original_bytes": 24406,
+      "width": 100,
+      "height": 150,
+      "variants": [
+        {
+          "path": "images/optimized/fda162199e3ca5dd-100.webp",
+          "width": 100,
+          "height": 150,
+          "bytes": 2504
+        }
+      ]
+    },
+    "images/collaborators/wolfgang-stuerzlinger.webp": {
+      "fingerprint": "4fbf40ed158d30d9dd93a9f02c669a02b2039849778aef3cd9e38428388566fc",
+      "role": "portrait",
+      "original_bytes": 15168,
+      "width": 640,
+      "height": 427,
+      "variants": [
+        {
+          "path": "images/optimized/4fbf40ed158d30d9-160.webp",
+          "width": 160,
+          "height": 107,
+          "bytes": 1246
+        },
+        {
+          "path": "images/optimized/4fbf40ed158d30d9-320.webp",
+          "width": 320,
+          "height": 214,
+          "bytes": 3856
+        },
+        {
+          "path": "images/optimized/4fbf40ed158d30d9-640.webp",
+          "width": 640,
+          "height": 427,
+          "bytes": 13844
+        }
+      ]
+    },
+    "images/collaborators/xiaodong-li.webp": {
+      "fingerprint": "3a28c190ead8badf310614ca5a942b96190958ee3c168f4433faf8c607977592",
+      "role": "portrait",
+      "original_bytes": 7758,
+      "width": 180,
+      "height": 180,
+      "variants": [
+        {
+          "path": "images/optimized/3a28c190ead8badf-160.webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 4066
+        },
+        {
+          "path": "images/optimized/3a28c190ead8badf-180.webp",
+          "width": 180,
+          "height": 180,
+          "bytes": 5902
+        }
+      ]
+    },
+    "images/collaborators/xiaojuan-ma.jpg": {
+      "fingerprint": "d67b5db7179ee140a782964cb87aedd43d2884ad2da55270e3d599cb2021529e",
+      "role": "portrait",
+      "original_bytes": 99144,
+      "width": 260,
+      "height": 354,
+      "variants": [
+        {
+          "path": "images/optimized/d67b5db7179ee140-160.webp",
+          "width": 160,
+          "height": 218,
+          "bytes": 8966
+        },
+        {
+          "path": "images/optimized/d67b5db7179ee140-260.webp",
+          "width": 260,
+          "height": 354,
+          "bytes": 16846
+        }
+      ]
+    },
+    "images/collaborators/xiaosong-yang.jpg": {
+      "fingerprint": "2a03a45dc70b29b220cf606583db0913eadf7e0b5a4740a91621fe04f6db0a63",
+      "role": "portrait",
+      "original_bytes": 39551,
+      "width": 400,
+      "height": 490,
+      "variants": [
+        {
+          "path": "images/optimized/2a03a45dc70b29b2-160.webp",
+          "width": 160,
+          "height": 196,
+          "bytes": 11732
+        },
+        {
+          "path": "images/optimized/2a03a45dc70b29b2-320.webp",
+          "width": 320,
+          "height": 392,
+          "bytes": 31832
+        },
+        {
+          "path": "images/collaborators/xiaosong-yang.jpg",
+          "width": 400,
+          "height": 490,
+          "bytes": 39551
+        }
+      ]
+    },
+    "images/collaborators/xing-dong-yang.jpg": {
+      "fingerprint": "639d5fae77cb1c9b70e163877db07d1137cd042ce987e0417c809c1cb8030b40",
+      "role": "portrait",
+      "original_bytes": 79282,
+      "width": 275,
+      "height": 412,
+      "variants": [
+        {
+          "path": "images/optimized/639d5fae77cb1c9b-160.webp",
+          "width": 160,
+          "height": 240,
+          "bytes": 6826
+        },
+        {
+          "path": "images/optimized/639d5fae77cb1c9b-275.webp",
+          "width": 275,
+          "height": 412,
+          "bytes": 14800
+        }
+      ]
+    },
+    "images/collaborators/xuhai-xu.jpg": {
+      "fingerprint": "471695ae5849d4c7d374067846cef556738dea1cefbaacfa78aef843692c9bb7",
+      "role": "portrait",
+      "original_bytes": 12032,
+      "width": 320,
+      "height": 320,
+      "variants": [
+        {
+          "path": "images/optimized/471695ae5849d4c7-160.webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 4276
+        },
+        {
+          "path": "images/optimized/471695ae5849d4c7-320.webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 10490
+        }
+      ]
+    },
+    "images/collaborators/yiyu-cai.png": {
+      "fingerprint": "4d2e12a25959a45dff9f37c9af4450a8ab3cdc0c5d54ec42dfa03738999e7a86",
+      "role": "portrait",
+      "original_bytes": 79411,
+      "width": 155,
+      "height": 200,
+      "variants": [
+        {
+          "path": "images/optimized/4d2e12a25959a45d-155.webp",
+          "width": 155,
+          "height": 200,
+          "bytes": 4708
+        }
+      ]
+    },
+    "images/lab-group-indoor.jpg": {
+      "fingerprint": "d6fa8b1596fce23381100222f9a8db808dfd9b4f11b41b009ec17ec6f95a297c",
+      "role": "hero",
+      "original_bytes": 170035,
+      "width": 1706,
+      "height": 1279,
+      "variants": [
+        {
+          "path": "images/optimized/d6fa8b1596fce233-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 24254
+        },
+        {
+          "path": "images/optimized/d6fa8b1596fce233-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 58938
+        },
+        {
+          "path": "images/optimized/d6fa8b1596fce233-1440.webp",
+          "width": 1440,
+          "height": 1080,
+          "bytes": 98606
+        }
+      ]
+    },
+    "images/lab-group-outdoor.jpg": {
+      "fingerprint": "1556e3b0d1a38ca992b4f422451fefca417bf24155b8aba015bdd11dd42de2b6",
+      "role": "hero",
+      "original_bytes": 9861044,
+      "width": 4096,
+      "height": 3072,
+      "variants": [
+        {
+          "path": "images/optimized/1556e3b0d1a38ca9-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 59506
+        },
+        {
+          "path": "images/optimized/1556e3b0d1a38ca9-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 222982
+        },
+        {
+          "path": "images/optimized/1556e3b0d1a38ca9-1440.webp",
+          "width": 1440,
+          "height": 1080,
+          "bytes": 489772
+        }
+      ]
+    },
+    "images/papers/07bd4504d87b.png": {
+      "fingerprint": "ee9df4c19cdf3a44d98c3817a835f1241490f39825bb18b6790c319c22342de2",
+      "role": "paper",
+      "original_bytes": 172861,
+      "width": 780,
+      "height": 222,
+      "variants": [
+        {
+          "path": "images/optimized/ee9df4c19cdf3a44-480.webp",
+          "width": 480,
+          "height": 137,
+          "bytes": 13188
+        },
+        {
+          "path": "images/optimized/ee9df4c19cdf3a44-780.webp",
+          "width": 780,
+          "height": 222,
+          "bytes": 33310
+        }
+      ]
+    },
+    "images/papers/09c545f05254.webp": {
+      "fingerprint": "d4eba1835e1b76a10ad0518cae4fc3b6d1f28cbead92efe0ffe4f22bf99f5375",
+      "role": "paper",
+      "original_bytes": 161112,
+      "width": 1201,
+      "height": 502,
+      "variants": [
+        {
+          "path": "images/optimized/d4eba1835e1b76a1-480.webp",
+          "width": 480,
+          "height": 201,
+          "bytes": 22630
+        },
+        {
+          "path": "images/optimized/d4eba1835e1b76a1-960.webp",
+          "width": 960,
+          "height": 401,
+          "bytes": 93726
+        }
+      ]
+    },
+    "images/papers/0af45d452c69.png": {
+      "fingerprint": "a321910769fe948af5f8f5f638818620ec38ce4dd536d26c9330a91bb4f91ba2",
+      "role": "paper",
+      "original_bytes": 565431,
+      "width": 769,
+      "height": 612,
+      "variants": [
+        {
+          "path": "images/optimized/a321910769fe948a-480.webp",
+          "width": 480,
+          "height": 382,
+          "bytes": 28058
+        },
+        {
+          "path": "images/optimized/a321910769fe948a-769.webp",
+          "width": 769,
+          "height": 612,
+          "bytes": 50950
+        }
+      ]
+    },
+    "images/papers/0c1527f5109f.webp": {
+      "fingerprint": "1c0d7799616d6c33c192cf70f9fa0f0889665c8fb7cb0e48000d2bcfbc4589be",
+      "role": "paper",
+      "original_bytes": 70860,
+      "width": 1122,
+      "height": 334,
+      "variants": [
+        {
+          "path": "images/optimized/1c0d7799616d6c33-480.webp",
+          "width": 480,
+          "height": 143,
+          "bytes": 21538
+        },
+        {
+          "path": "images/optimized/1c0d7799616d6c33-960.webp",
+          "width": 960,
+          "height": 286,
+          "bytes": 56880
+        }
+      ]
+    },
+    "images/papers/0c31033aa268.webp": {
+      "fingerprint": "d88b4ab3c36d8dca958adde74abb6e259f56bc7ec0aae287134068e842001334",
+      "role": "paper",
+      "original_bytes": 48178,
+      "width": 1201,
+      "height": 401,
+      "variants": [
+        {
+          "path": "images/optimized/d88b4ab3c36d8dca-480.webp",
+          "width": 480,
+          "height": 160,
+          "bytes": 14136
+        },
+        {
+          "path": "images/optimized/d88b4ab3c36d8dca-960.webp",
+          "width": 960,
+          "height": 321,
+          "bytes": 35386
+        }
+      ]
+    },
+    "images/papers/0daa53b84261.webp": {
+      "fingerprint": "a06a9e5cbdc7e6caf825ab59493219275d128fff22b92ac4a1c910de5d34592f",
+      "role": "paper",
+      "original_bytes": 23146,
+      "width": 1049,
+      "height": 193,
+      "variants": [
+        {
+          "path": "images/optimized/a06a9e5cbdc7e6ca-480.webp",
+          "width": 480,
+          "height": 88,
+          "bytes": 8862
+        },
+        {
+          "path": "images/optimized/a06a9e5cbdc7e6ca-960.webp",
+          "width": 960,
+          "height": 177,
+          "bytes": 20154
+        }
+      ]
+    },
+    "images/papers/0e9c15e52cc9.png": {
+      "fingerprint": "aeecfcab44d06db4331e936d7110b6401110ecebb076c17fd81b74bb35f240f7",
+      "role": "paper",
+      "original_bytes": 45185,
+      "width": 535,
+      "height": 379,
+      "variants": [
+        {
+          "path": "images/optimized/aeecfcab44d06db4-480.webp",
+          "width": 480,
+          "height": 340,
+          "bytes": 14110
+        },
+        {
+          "path": "images/optimized/aeecfcab44d06db4-535.webp",
+          "width": 535,
+          "height": 379,
+          "bytes": 16530
+        }
+      ]
+    },
+    "images/papers/1504f86e91dd.webp": {
+      "fingerprint": "a946feac14ea5873c0db2435a792e0e052b4db5a9cae1474a95ba6e9bca4b760",
+      "role": "paper",
+      "original_bytes": 24660,
+      "width": 730,
+      "height": 445,
+      "variants": [
+        {
+          "path": "images/optimized/a946feac14ea5873-480.webp",
+          "width": 480,
+          "height": 293,
+          "bytes": 13990
+        },
+        {
+          "path": "images/optimized/a946feac14ea5873-730.webp",
+          "width": 730,
+          "height": 445,
+          "bytes": 23934
+        }
+      ]
+    },
+    "images/papers/157720c128e7.png": {
+      "fingerprint": "813610e1e0e25704db56a358e32ce21683491fe6ef6b90797c934a7c1c323992",
+      "role": "paper",
+      "original_bytes": 35089,
+      "width": 885,
+      "height": 419,
+      "variants": [
+        {
+          "path": "images/optimized/813610e1e0e25704-480.webp",
+          "width": 480,
+          "height": 227,
+          "bytes": 8484
+        },
+        {
+          "path": "images/optimized/813610e1e0e25704-885.webp",
+          "width": 885,
+          "height": 419,
+          "bytes": 17068
+        }
+      ]
+    },
+    "images/papers/159277f7d9a2.webp": {
+      "fingerprint": "6e49c1717f38d77400fc490861c3e7e78892f8ea828d31d79a1df1510d68ecce",
+      "role": "paper",
+      "original_bytes": 60818,
+      "width": 1201,
+      "height": 306,
+      "variants": [
+        {
+          "path": "images/optimized/6e49c1717f38d774-480.webp",
+          "width": 480,
+          "height": 122,
+          "bytes": 18792
+        },
+        {
+          "path": "images/optimized/6e49c1717f38d774-960.webp",
+          "width": 960,
+          "height": 245,
+          "bytes": 45360
+        }
+      ]
+    },
+    "images/papers/16a7cba5cf62.webp": {
+      "fingerprint": "b05c10dca138cf7d93c05a37268d8a356cf006f202b55cca19203c80dfee9ee6",
+      "role": "paper",
+      "original_bytes": 38132,
+      "width": 747,
+      "height": 400,
+      "variants": [
+        {
+          "path": "images/optimized/b05c10dca138cf7d-480.webp",
+          "width": 480,
+          "height": 257,
+          "bytes": 21008
+        },
+        {
+          "path": "images/optimized/b05c10dca138cf7d-747.webp",
+          "width": 747,
+          "height": 400,
+          "bytes": 37154
+        }
+      ]
+    },
+    "images/papers/16a941d67c9b.png": {
+      "fingerprint": "d9d3b824a06c7415ffaa751cb685cc2629cb50700e276ffc74db4964622b4e43",
+      "role": "paper",
+      "original_bytes": 431303,
+      "width": 1058,
+      "height": 332,
+      "variants": [
+        {
+          "path": "images/optimized/d9d3b824a06c7415-480.webp",
+          "width": 480,
+          "height": 151,
+          "bytes": 12542
+        },
+        {
+          "path": "images/optimized/d9d3b824a06c7415-960.webp",
+          "width": 960,
+          "height": 301,
+          "bytes": 33074
+        }
+      ]
+    },
+    "images/papers/17074894feb2.webp": {
+      "fingerprint": "ef52bff9b01fb10806cfb71b76cc22a2e243ae68b89b3dd5865aee4fb67bb300",
+      "role": "paper",
+      "original_bytes": 21010,
+      "width": 586,
+      "height": 346,
+      "variants": [
+        {
+          "path": "images/optimized/ef52bff9b01fb108-480.webp",
+          "width": 480,
+          "height": 283,
+          "bytes": 17342
+        },
+        {
+          "path": "images/optimized/ef52bff9b01fb108-586.webp",
+          "width": 586,
+          "height": 346,
+          "bytes": 20314
+        }
+      ]
+    },
+    "images/papers/1b908de7b625.webp": {
+      "fingerprint": "7de06756d3a67a8445f070a5663e83f712be7622384f40cbb21a1fb405e69b3e",
+      "role": "paper",
+      "original_bytes": 20972,
+      "width": 873,
+      "height": 498,
+      "variants": [
+        {
+          "path": "images/optimized/7de06756d3a67a84-480.webp",
+          "width": 480,
+          "height": 274,
+          "bytes": 10516
+        },
+        {
+          "path": "images/optimized/7de06756d3a67a84-873.webp",
+          "width": 873,
+          "height": 498,
+          "bytes": 20430
+        }
+      ]
+    },
+    "images/papers/1bd56ba7cf7d.png": {
+      "fingerprint": "b465f6457fae47dad86ecd3b097ca7e59a1f49a1d4f5c69155f07c1121aa3068",
+      "role": "paper",
+      "original_bytes": 683731,
+      "width": 1058,
+      "height": 575,
+      "variants": [
+        {
+          "path": "images/optimized/b465f6457fae47da-480.webp",
+          "width": 480,
+          "height": 261,
+          "bytes": 29764
+        },
+        {
+          "path": "images/optimized/b465f6457fae47da-960.webp",
+          "width": 960,
+          "height": 522,
+          "bytes": 72020
+        }
+      ]
+    },
+    "images/papers/1db113e23876.png": {
+      "fingerprint": "aa3779e5149c4e63ace54d542dfc03fbcda57ce5e29e3fc58a6e6af2df3c2024",
+      "role": "paper",
+      "original_bytes": 92286,
+      "width": 490,
+      "height": 226,
+      "variants": [
+        {
+          "path": "images/optimized/aa3779e5149c4e63-480.webp",
+          "width": 480,
+          "height": 221,
+          "bytes": 15560
+        },
+        {
+          "path": "images/optimized/aa3779e5149c4e63-490.webp",
+          "width": 490,
+          "height": 226,
+          "bytes": 16158
+        }
+      ]
+    },
+    "images/papers/23bbf1fac2b1.webp": {
+      "fingerprint": "6daca8dd95a2c24ce195fc3151228a1f0e632b4bf7837c47ffc45e9340b8b3ed",
+      "role": "paper",
+      "original_bytes": 47708,
+      "width": 1201,
+      "height": 416,
+      "variants": [
+        {
+          "path": "images/optimized/6daca8dd95a2c24c-480.webp",
+          "width": 480,
+          "height": 166,
+          "bytes": 14982
+        },
+        {
+          "path": "images/optimized/6daca8dd95a2c24c-960.webp",
+          "width": 960,
+          "height": 333,
+          "bytes": 37588
+        }
+      ]
+    },
+    "images/papers/23eb6f1f3334.webp": {
+      "fingerprint": "3c7d85b9d3117854622cb6ec973610effdd2529bb2abac76441cd3df7d2bb2dd",
+      "role": "paper",
+      "original_bytes": 70430,
+      "width": 1023,
+      "height": 709,
+      "variants": [
+        {
+          "path": "images/optimized/3c7d85b9d3117854-480.webp",
+          "width": 480,
+          "height": 333,
+          "bytes": 24112
+        },
+        {
+          "path": "images/optimized/3c7d85b9d3117854-960.webp",
+          "width": 960,
+          "height": 665,
+          "bytes": 59942
+        }
+      ]
+    },
+    "images/papers/2b72c9e17fbb.webp": {
+      "fingerprint": "dd6f00ebe142e0bd8e39b6fa5e9eca9a69c8954e9db1e1da9cf36573cb1b4756",
+      "role": "paper",
+      "original_bytes": 15320,
+      "width": 768,
+      "height": 277,
+      "variants": [
+        {
+          "path": "images/optimized/dd6f00ebe142e0bd-480.webp",
+          "width": 480,
+          "height": 173,
+          "bytes": 9088
+        },
+        {
+          "path": "images/optimized/dd6f00ebe142e0bd-768.webp",
+          "width": 768,
+          "height": 277,
+          "bytes": 15006
+        }
+      ]
+    },
+    "images/papers/2bca414db0d2.png": {
+      "fingerprint": "8af33a34387c4757208accdf7e9361acef74c34dd83a106a70daa7806bfe7b45",
+      "role": "paper",
+      "original_bytes": 178032,
+      "width": 552,
+      "height": 546,
+      "variants": [
+        {
+          "path": "images/optimized/8af33a34387c4757-480.webp",
+          "width": 480,
+          "height": 475,
+          "bytes": 25342
+        },
+        {
+          "path": "images/optimized/8af33a34387c4757-552.webp",
+          "width": 552,
+          "height": 546,
+          "bytes": 30122
+        }
+      ]
+    },
+    "images/papers/2dc8bd7fe2a4.webp": {
+      "fingerprint": "06af2ce44eefffddc5f66a8c116f5ce434791b48ebd520be0a976c9b89bf922c",
+      "role": "paper",
+      "original_bytes": 65858,
+      "width": 774,
+      "height": 719,
+      "variants": [
+        {
+          "path": "images/optimized/06af2ce44eefffdd-480.webp",
+          "width": 480,
+          "height": 446,
+          "bytes": 36574
+        },
+        {
+          "path": "images/optimized/06af2ce44eefffdd-774.webp",
+          "width": 774,
+          "height": 719,
+          "bytes": 63700
+        }
+      ]
+    },
+    "images/papers/2e2257ed1008.png": {
+      "fingerprint": "0b498ce8da0f1039269c363e674bd6df3977a708a08a8d07055a48f2442c4273",
+      "role": "paper",
+      "original_bytes": 246011,
+      "width": 838,
+      "height": 222,
+      "variants": [
+        {
+          "path": "images/optimized/0b498ce8da0f1039-480.webp",
+          "width": 480,
+          "height": 127,
+          "bytes": 11310
+        },
+        {
+          "path": "images/optimized/0b498ce8da0f1039-838.webp",
+          "width": 838,
+          "height": 222,
+          "bytes": 24490
+        }
+      ]
+    },
+    "images/papers/2ed52df86ecb.png": {
+      "fingerprint": "700d21a9e6128780bb79d8d747b3d16dc3ea64c32be67c5eb548326f5fe18044",
+      "role": "paper",
+      "original_bytes": 125863,
+      "width": 644,
+      "height": 389,
+      "variants": [
+        {
+          "path": "images/optimized/700d21a9e6128780-480.webp",
+          "width": 480,
+          "height": 290,
+          "bytes": 22466
+        },
+        {
+          "path": "images/optimized/700d21a9e6128780-644.webp",
+          "width": 644,
+          "height": 389,
+          "bytes": 32226
+        }
+      ]
+    },
+    "images/papers/2eee2119e2a9.webp": {
+      "fingerprint": "aa6cf5d773cc6038639a332f7983f47fed9aafbd9bf7f4f09c7cc25a8099dcc5",
+      "role": "paper",
+      "original_bytes": 41286,
+      "width": 686,
+      "height": 330,
+      "variants": [
+        {
+          "path": "images/optimized/aa6cf5d773cc6038-480.webp",
+          "width": 480,
+          "height": 231,
+          "bytes": 25698
+        },
+        {
+          "path": "images/optimized/aa6cf5d773cc6038-686.webp",
+          "width": 686,
+          "height": 330,
+          "bytes": 40082
+        }
+      ]
+    },
+    "images/papers/322ff083724b.png": {
+      "fingerprint": "6c3d5fb6b90002dc79e2b167c64b62f6ec849d401a0002a44a006588dddc3ee2",
+      "role": "paper",
+      "original_bytes": 87859,
+      "width": 529,
+      "height": 285,
+      "variants": [
+        {
+          "path": "images/optimized/6c3d5fb6b90002dc-480.webp",
+          "width": 480,
+          "height": 259,
+          "bytes": 11084
+        },
+        {
+          "path": "images/optimized/6c3d5fb6b90002dc-529.webp",
+          "width": 529,
+          "height": 285,
+          "bytes": 12228
+        }
+      ]
+    },
+    "images/papers/346e49e43007.webp": {
+      "fingerprint": "8bc343b41522c4ad01d0b30bcffb762b5b6263a6fbfac87adb759e0ecaa99b60",
+      "role": "paper",
+      "original_bytes": 30962,
+      "width": 1201,
+      "height": 270,
+      "variants": [
+        {
+          "path": "images/optimized/8bc343b41522c4ad-480.webp",
+          "width": 480,
+          "height": 108,
+          "bytes": 10768
+        },
+        {
+          "path": "images/optimized/8bc343b41522c4ad-960.webp",
+          "width": 960,
+          "height": 216,
+          "bytes": 24346
+        }
+      ]
+    },
+    "images/papers/3532bed7e8c5.png": {
+      "fingerprint": "12bb9d1410d57f8da3c934a3d944fc9a5a0ded358034a3a4e18cf0995d2d49e4",
+      "role": "paper",
+      "original_bytes": 115170,
+      "width": 530,
+      "height": 120,
+      "variants": [
+        {
+          "path": "images/optimized/12bb9d1410d57f8d-480.webp",
+          "width": 480,
+          "height": 109,
+          "bytes": 10106
+        },
+        {
+          "path": "images/optimized/12bb9d1410d57f8d-530.webp",
+          "width": 530,
+          "height": 120,
+          "bytes": 11542
+        }
+      ]
+    },
+    "images/papers/37cac986ef6e.webp": {
+      "fingerprint": "8a72fe35492c8966a4f4484da79ec6503d277277ecc3bf139725aed540745fd5",
+      "role": "paper",
+      "original_bytes": 54766,
+      "width": 1201,
+      "height": 706,
+      "variants": [
+        {
+          "path": "images/optimized/8a72fe35492c8966-480.webp",
+          "width": 480,
+          "height": 282,
+          "bytes": 16506
+        },
+        {
+          "path": "images/optimized/8a72fe35492c8966-960.webp",
+          "width": 960,
+          "height": 564,
+          "bytes": 40210
+        }
+      ]
+    },
+    "images/papers/3b18572bda9b.webp": {
+      "fingerprint": "82c96a8631da27f4a933ffd100f5c8219caf43944416fc937690ea40e5230b74",
+      "role": "paper",
+      "original_bytes": 15350,
+      "width": 1201,
+      "height": 625,
+      "variants": [
+        {
+          "path": "images/optimized/82c96a8631da27f4-480.webp",
+          "width": 480,
+          "height": 250,
+          "bytes": 3612
+        },
+        {
+          "path": "images/optimized/82c96a8631da27f4-960.webp",
+          "width": 960,
+          "height": 500,
+          "bytes": 11158
+        }
+      ]
+    },
+    "images/papers/3cc5414cd928.png": {
+      "fingerprint": "2a8b6c6592e25705fd51e311dff41013a78eddc225677e9a25095386b8e812be",
+      "role": "paper",
+      "original_bytes": 15243,
+      "width": 381,
+      "height": 271,
+      "variants": [
+        {
+          "path": "images/optimized/2a8b6c6592e25705-381.webp",
+          "width": 381,
+          "height": 271,
+          "bytes": 6896
+        }
+      ]
+    },
+    "images/papers/3d0053ef37cc.png": {
+      "fingerprint": "96eb388472a46f096bbfc2fb961c780c8a0ca4392993f3c463583b55f6f35ccc",
+      "role": "paper",
+      "original_bytes": 68657,
+      "width": 444,
+      "height": 300,
+      "variants": [
+        {
+          "path": "images/optimized/96eb388472a46f09-444.webp",
+          "width": 444,
+          "height": 300,
+          "bytes": 12316
+        }
+      ]
+    },
+    "images/papers/41fcf9ddb4c0.png": {
+      "fingerprint": "cd4286e2512d716974f459cc0594571bcc50c47401927dcb00eb29c0bc7f829a",
+      "role": "paper",
+      "original_bytes": 60829,
+      "width": 560,
+      "height": 389,
+      "variants": [
+        {
+          "path": "images/optimized/cd4286e2512d7169-480.webp",
+          "width": 480,
+          "height": 333,
+          "bytes": 7104
+        },
+        {
+          "path": "images/optimized/cd4286e2512d7169-560.webp",
+          "width": 560,
+          "height": 389,
+          "bytes": 8322
+        }
+      ]
+    },
+    "images/papers/463a639eaa64.webp": {
+      "fingerprint": "bbd9c4b905a439c3a58f4e78892d989d899c71efc5d59717cfbeec39cf68e383",
+      "role": "paper",
+      "original_bytes": 56420,
+      "width": 954,
+      "height": 586,
+      "variants": [
+        {
+          "path": "images/optimized/bbd9c4b905a439c3-480.webp",
+          "width": 480,
+          "height": 295,
+          "bytes": 22174
+        },
+        {
+          "path": "images/optimized/bbd9c4b905a439c3-954.webp",
+          "width": 954,
+          "height": 586,
+          "bytes": 54868
+        }
+      ]
+    },
+    "images/papers/4775b55ae124.png": {
+      "fingerprint": "17c3bde4dc66046ed1125f58c0aa73188b4a917f41c504de73d17c01fc7de443",
+      "role": "paper",
+      "original_bytes": 317087,
+      "width": 525,
+      "height": 343,
+      "variants": [
+        {
+          "path": "images/optimized/17c3bde4dc66046e-480.webp",
+          "width": 480,
+          "height": 314,
+          "bytes": 34478
+        },
+        {
+          "path": "images/optimized/17c3bde4dc66046e-525.webp",
+          "width": 525,
+          "height": 343,
+          "bytes": 39182
+        }
+      ]
+    },
+    "images/papers/49450cb83fa8.png": {
+      "fingerprint": "b25354a931fd95b0be1a0c74e53dd6064fae021742a1bc01ba71db14c04d86e9",
+      "role": "paper",
+      "original_bytes": 52772,
+      "width": 529,
+      "height": 265,
+      "variants": [
+        {
+          "path": "images/optimized/b25354a931fd95b0-480.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 13830
+        },
+        {
+          "path": "images/optimized/b25354a931fd95b0-529.webp",
+          "width": 529,
+          "height": 265,
+          "bytes": 15418
+        }
+      ]
+    },
+    "images/papers/4a4d55e8ba85.png": {
+      "fingerprint": "7ff0471b7e82fabd49683c20485ec971026d12ee905b7be26e27d8f19d4a31cf",
+      "role": "paper",
+      "original_bytes": 120947,
+      "width": 1058,
+      "height": 253,
+      "variants": [
+        {
+          "path": "images/optimized/7ff0471b7e82fabd-480.webp",
+          "width": 480,
+          "height": 115,
+          "bytes": 5562
+        },
+        {
+          "path": "images/optimized/7ff0471b7e82fabd-960.webp",
+          "width": 960,
+          "height": 230,
+          "bytes": 13218
+        }
+      ]
+    },
+    "images/papers/4b214e04a2e5.webp": {
+      "fingerprint": "c66817bd089547e37cc9dba0df94c015ead79f87b4e5f879c54e820b2fd65308",
+      "role": "paper",
+      "original_bytes": 45452,
+      "width": 1201,
+      "height": 334,
+      "variants": [
+        {
+          "path": "images/optimized/c66817bd089547e3-480.webp",
+          "width": 480,
+          "height": 133,
+          "bytes": 11960
+        },
+        {
+          "path": "images/optimized/c66817bd089547e3-960.webp",
+          "width": 960,
+          "height": 267,
+          "bytes": 32180
+        }
+      ]
+    },
+    "images/papers/4b501f942482.webp": {
+      "fingerprint": "4b4e838255d531bc61f6db2080476e1e79f1ae87fcee620cd947cdfd92a5625a",
+      "role": "paper",
+      "original_bytes": 19902,
+      "width": 447,
+      "height": 645,
+      "variants": [
+        {
+          "path": "images/optimized/4b4e838255d531bc-447.webp",
+          "width": 447,
+          "height": 645,
+          "bytes": 18674
+        }
+      ]
+    },
+    "images/papers/4c7cebd64fdf.png": {
+      "fingerprint": "0f7be11d65e91ef851e3b3d65fec619e03d40553302af2b9eb0b880296cfc2aa",
+      "role": "paper",
+      "original_bytes": 117095,
+      "width": 1079,
+      "height": 405,
+      "variants": [
+        {
+          "path": "images/optimized/0f7be11d65e91ef8-480.webp",
+          "width": 480,
+          "height": 180,
+          "bytes": 17264
+        },
+        {
+          "path": "images/optimized/0f7be11d65e91ef8-960.webp",
+          "width": 960,
+          "height": 360,
+          "bytes": 48190
+        }
+      ]
+    },
+    "images/papers/4c9e67f1fb85.webp": {
+      "fingerprint": "ed7a275dde0c7c01e8b22ba463a1a0000ee50508c9badb91c08ab788f2617b4c",
+      "role": "paper",
+      "original_bytes": 20410,
+      "width": 650,
+      "height": 299,
+      "variants": [
+        {
+          "path": "images/optimized/ed7a275dde0c7c01-480.webp",
+          "width": 480,
+          "height": 221,
+          "bytes": 14452
+        },
+        {
+          "path": "images/optimized/ed7a275dde0c7c01-650.webp",
+          "width": 650,
+          "height": 299,
+          "bytes": 20194
+        }
+      ]
+    },
+    "images/papers/4cc8828b913a.png": {
+      "fingerprint": "b30669631feaa06121ee33ed020b2f9db22e915628d139a06824528b0288372f",
+      "role": "paper",
+      "original_bytes": 103081,
+      "width": 1104,
+      "height": 363,
+      "variants": [
+        {
+          "path": "images/optimized/b30669631feaa061-480.webp",
+          "width": 480,
+          "height": 158,
+          "bytes": 9884
+        },
+        {
+          "path": "images/optimized/b30669631feaa061-960.webp",
+          "width": 960,
+          "height": 316,
+          "bytes": 22310
+        }
+      ]
+    },
+    "images/papers/4e1c470cbd4f.webp": {
+      "fingerprint": "74ae7287eca4952b073abd257a5fbe13d4e8ad6936df4898951f810ae78730ca",
+      "role": "paper",
+      "original_bytes": 37086,
+      "width": 1061,
+      "height": 221,
+      "variants": [
+        {
+          "path": "images/optimized/74ae7287eca4952b-480.webp",
+          "width": 480,
+          "height": 100,
+          "bytes": 10830
+        },
+        {
+          "path": "images/optimized/74ae7287eca4952b-960.webp",
+          "width": 960,
+          "height": 200,
+          "bytes": 31210
+        }
+      ]
+    },
+    "images/papers/504fc61af1ed.webp": {
+      "fingerprint": "3cbfd522c449bf2cb982f64796e3d6223a5824b3a6121bbf26569ab970050f02",
+      "role": "paper",
+      "original_bytes": 39886,
+      "width": 1031,
+      "height": 530,
+      "variants": [
+        {
+          "path": "images/optimized/3cbfd522c449bf2c-480.webp",
+          "width": 480,
+          "height": 247,
+          "bytes": 14824
+        },
+        {
+          "path": "images/optimized/3cbfd522c449bf2c-960.webp",
+          "width": 960,
+          "height": 494,
+          "bytes": 35184
+        }
+      ]
+    },
+    "images/papers/55ca9f509b10.webp": {
+      "fingerprint": "475817cb98ba2bda032a6e2af4ebffcbb09ea9547c491d2228cbb4918bfa336d",
+      "role": "paper",
+      "original_bytes": 71910,
+      "width": 1201,
+      "height": 371,
+      "variants": [
+        {
+          "path": "images/optimized/475817cb98ba2bda-480.webp",
+          "width": 480,
+          "height": 148,
+          "bytes": 19786
+        },
+        {
+          "path": "images/optimized/475817cb98ba2bda-960.webp",
+          "width": 960,
+          "height": 297,
+          "bytes": 52496
+        }
+      ]
+    },
+    "images/papers/5655044d72cf.webp": {
+      "fingerprint": "c1977d225303285204f600fc733517d95b22c6b8bb8f4f3cd1f72f8866f60bfe",
+      "role": "paper",
+      "original_bytes": 30172,
+      "width": 1201,
+      "height": 320,
+      "variants": [
+        {
+          "path": "images/optimized/c1977d2253032852-480.webp",
+          "width": 480,
+          "height": 128,
+          "bytes": 10360
+        },
+        {
+          "path": "images/optimized/c1977d2253032852-960.webp",
+          "width": 960,
+          "height": 256,
+          "bytes": 23046
+        }
+      ]
+    },
+    "images/papers/57969e666621.webp": {
+      "fingerprint": "47a75531039eb5910184d3c60a47e5db8175a280d7bd63a6b06a9977520d2923",
+      "role": "paper",
+      "original_bytes": 7810,
+      "width": 801,
+      "height": 199,
+      "variants": [
+        {
+          "path": "images/optimized/47a75531039eb591-480.webp",
+          "width": 480,
+          "height": 119,
+          "bytes": 4218
+        },
+        {
+          "path": "images/optimized/47a75531039eb591-801.webp",
+          "width": 801,
+          "height": 199,
+          "bytes": 7760
+        }
+      ]
+    },
+    "images/papers/57a5b588476a.webp": {
+      "fingerprint": "a64b7e427c682478d8b5546887e226f035dfe434c2cb0a145fd528348480aa75",
+      "role": "paper",
+      "original_bytes": 18534,
+      "width": 655,
+      "height": 353,
+      "variants": [
+        {
+          "path": "images/optimized/a64b7e427c682478-480.webp",
+          "width": 480,
+          "height": 259,
+          "bytes": 12690
+        },
+        {
+          "path": "images/optimized/a64b7e427c682478-655.webp",
+          "width": 655,
+          "height": 353,
+          "bytes": 17874
+        }
+      ]
+    },
+    "images/papers/5823f86f1254.png": {
+      "fingerprint": "93669cdfe8e9a49cb939e118701c47e9889876a96eeadbc8c8713de607f768d5",
+      "role": "paper",
+      "original_bytes": 44775,
+      "width": 535,
+      "height": 555,
+      "variants": [
+        {
+          "path": "images/optimized/93669cdfe8e9a49c-480.webp",
+          "width": 480,
+          "height": 498,
+          "bytes": 19986
+        },
+        {
+          "path": "images/optimized/93669cdfe8e9a49c-535.webp",
+          "width": 535,
+          "height": 555,
+          "bytes": 22182
+        }
+      ]
+    },
+    "images/papers/58bc90f7b958.webp": {
+      "fingerprint": "1069693964654bd5dc3181d73b10abfa5647603320e8c250ea510ff0b5909096",
+      "role": "paper",
+      "original_bytes": 34394,
+      "width": 1075,
+      "height": 482,
+      "variants": [
+        {
+          "path": "images/optimized/1069693964654bd5-480.webp",
+          "width": 480,
+          "height": 215,
+          "bytes": 13458
+        },
+        {
+          "path": "images/optimized/1069693964654bd5-960.webp",
+          "width": 960,
+          "height": 430,
+          "bytes": 29476
+        }
+      ]
+    },
+    "images/papers/59e135c00b62.webp": {
+      "fingerprint": "8ffff5d7fac22761726ff1d8102877937e5e69e5a84dea993a1e1ef4d63fa215",
+      "role": "paper",
+      "original_bytes": 13114,
+      "width": 741,
+      "height": 442,
+      "variants": [
+        {
+          "path": "images/optimized/8ffff5d7fac22761-480.webp",
+          "width": 480,
+          "height": 286,
+          "bytes": 7352
+        },
+        {
+          "path": "images/optimized/8ffff5d7fac22761-741.webp",
+          "width": 741,
+          "height": 442,
+          "bytes": 12362
+        }
+      ]
+    },
+    "images/papers/5e866d331fef.png": {
+      "fingerprint": "7368fb4587b53b1dd10639f1ccd9e95e2db8107a2d481ffa07ddf83bf99ccc36",
+      "role": "paper",
+      "original_bytes": 69313,
+      "width": 984,
+      "height": 520,
+      "variants": [
+        {
+          "path": "images/optimized/7368fb4587b53b1d-480.webp",
+          "width": 480,
+          "height": 254,
+          "bytes": 8910
+        },
+        {
+          "path": "images/optimized/7368fb4587b53b1d-960.webp",
+          "width": 960,
+          "height": 507,
+          "bytes": 20874
+        }
+      ]
+    },
+    "images/papers/60b86509fd61.webp": {
+      "fingerprint": "5113fed208e18f63363eac7d1b961829e3717732d0cc5ec085a9722347a7da97",
+      "role": "paper",
+      "original_bytes": 35006,
+      "width": 1201,
+      "height": 276,
+      "variants": [
+        {
+          "path": "images/optimized/5113fed208e18f63-480.webp",
+          "width": 480,
+          "height": 110,
+          "bytes": 9620
+        },
+        {
+          "path": "images/optimized/5113fed208e18f63-960.webp",
+          "width": 960,
+          "height": 221,
+          "bytes": 24852
+        }
+      ]
+    },
+    "images/papers/613f0a10b775.webp": {
+      "fingerprint": "6af4b5d9e083bf2160cdb2558cc04961ac94764531f175426c270eb084496a63",
+      "role": "paper",
+      "original_bytes": 46812,
+      "width": 1201,
+      "height": 243,
+      "variants": [
+        {
+          "path": "images/optimized/6af4b5d9e083bf21-480.webp",
+          "width": 480,
+          "height": 97,
+          "bytes": 12182
+        },
+        {
+          "path": "images/optimized/6af4b5d9e083bf21-960.webp",
+          "width": 960,
+          "height": 194,
+          "bytes": 32568
+        }
+      ]
+    },
+    "images/papers/629944d075ee.webp": {
+      "fingerprint": "a255626bdc6a655a9d2178af0f373add0c5ebee88314312c0967c88d936ddf01",
+      "role": "paper",
+      "original_bytes": 60212,
+      "width": 1201,
+      "height": 498,
+      "variants": [
+        {
+          "path": "images/optimized/a255626bdc6a655a-480.webp",
+          "width": 480,
+          "height": 199,
+          "bytes": 18110
+        },
+        {
+          "path": "images/optimized/a255626bdc6a655a-960.webp",
+          "width": 960,
+          "height": 398,
+          "bytes": 44512
+        }
+      ]
+    },
+    "images/papers/629c91ae7e82.png": {
+      "fingerprint": "5abeb9e84b342cab612a835ae6204b0503655ec76df59366bd1a521ba7c9344d",
+      "role": "paper",
+      "original_bytes": 316659,
+      "width": 1058,
+      "height": 702,
+      "variants": [
+        {
+          "path": "images/optimized/5abeb9e84b342cab-480.webp",
+          "width": 480,
+          "height": 318,
+          "bytes": 22000
+        },
+        {
+          "path": "images/optimized/5abeb9e84b342cab-960.webp",
+          "width": 960,
+          "height": 637,
+          "bytes": 56312
+        }
+      ]
+    },
+    "images/papers/630a73479252.png": {
+      "fingerprint": "e4cef19737c8d7e7e5c35a3d7ac41773e1fd98f2d103b4ecde535e2b5cbd355e",
+      "role": "paper",
+      "original_bytes": 221827,
+      "width": 769,
+      "height": 334,
+      "variants": [
+        {
+          "path": "images/optimized/e4cef19737c8d7e7-480.webp",
+          "width": 480,
+          "height": 208,
+          "bytes": 19052
+        },
+        {
+          "path": "images/optimized/e4cef19737c8d7e7-769.webp",
+          "width": 769,
+          "height": 334,
+          "bytes": 33234
+        }
+      ]
+    },
+    "images/papers/65adbc42c1a3.webp": {
+      "fingerprint": "ff231b6cf2fd751e63fcf3b36e87f6c61b908468d7b5529593e02a2246f59544",
+      "role": "paper",
+      "original_bytes": 9802,
+      "width": 744,
+      "height": 185,
+      "variants": [
+        {
+          "path": "images/optimized/ff231b6cf2fd751e-480.webp",
+          "width": 480,
+          "height": 119,
+          "bytes": 6060
+        },
+        {
+          "path": "images/optimized/ff231b6cf2fd751e-744.webp",
+          "width": 744,
+          "height": 185,
+          "bytes": 9628
+        }
+      ]
+    },
+    "images/papers/66d0393e512a.webp": {
+      "fingerprint": "afc61c638fb456ff97b28d557d4bb9bf2cb26284d0278b2a648a3c2d2618bc00",
+      "role": "paper",
+      "original_bytes": 34580,
+      "width": 1201,
+      "height": 254,
+      "variants": [
+        {
+          "path": "images/optimized/afc61c638fb456ff-480.webp",
+          "width": 480,
+          "height": 102,
+          "bytes": 11104
+        },
+        {
+          "path": "images/optimized/afc61c638fb456ff-960.webp",
+          "width": 960,
+          "height": 203,
+          "bytes": 26068
+        }
+      ]
+    },
+    "images/papers/6805d1fd6af4.png": {
+      "fingerprint": "14c2d0ce278d2d3404b95e49d12eb0ec86ed9afaed492db6ce4dc9e510092881",
+      "role": "paper",
+      "original_bytes": 52718,
+      "width": 905,
+      "height": 374,
+      "variants": [
+        {
+          "path": "images/optimized/14c2d0ce278d2d34-480.webp",
+          "width": 480,
+          "height": 198,
+          "bytes": 16236
+        },
+        {
+          "path": "images/optimized/14c2d0ce278d2d34-905.webp",
+          "width": 905,
+          "height": 374,
+          "bytes": 34958
+        }
+      ]
+    },
+    "images/papers/6956baee02f4.png": {
+      "fingerprint": "4f7a510322543ea7a5d66bf875380b95f0cf58d3b193e35133367239bc2ec6e3",
+      "role": "paper",
+      "original_bytes": 55578,
+      "width": 1057,
+      "height": 216,
+      "variants": [
+        {
+          "path": "images/optimized/4f7a510322543ea7-480.webp",
+          "width": 480,
+          "height": 98,
+          "bytes": 8958
+        },
+        {
+          "path": "images/optimized/4f7a510322543ea7-960.webp",
+          "width": 960,
+          "height": 196,
+          "bytes": 21896
+        }
+      ]
+    },
+    "images/papers/6d47d43788d3.webp": {
+      "fingerprint": "1be2600a48bb512d1bae13ab0671b05ce725000c9868ab92472126456c0a6f03",
+      "role": "paper",
+      "original_bytes": 30874,
+      "width": 738,
+      "height": 517,
+      "variants": [
+        {
+          "path": "images/optimized/1be2600a48bb512d-480.webp",
+          "width": 480,
+          "height": 336,
+          "bytes": 17794
+        },
+        {
+          "path": "images/optimized/1be2600a48bb512d-738.webp",
+          "width": 738,
+          "height": 517,
+          "bytes": 29798
+        }
+      ]
+    },
+    "images/papers/70331c51adf7.webp": {
+      "fingerprint": "78d0d2ace5912f6d4e26d181e06dab448257c29292934db5d67183634c568ecc",
+      "role": "paper",
+      "original_bytes": 20550,
+      "width": 731,
+      "height": 415,
+      "variants": [
+        {
+          "path": "images/optimized/78d0d2ace5912f6d-480.webp",
+          "width": 480,
+          "height": 273,
+          "bytes": 12208
+        },
+        {
+          "path": "images/optimized/78d0d2ace5912f6d-731.webp",
+          "width": 731,
+          "height": 415,
+          "bytes": 20052
+        }
+      ]
+    },
+    "images/papers/754810bc2a15.webp": {
+      "fingerprint": "399cda7c7113665b5ac0ef574caaa0d82b0447b700cae22d7975a099b14f8784",
+      "role": "paper",
+      "original_bytes": 9944,
+      "width": 1001,
+      "height": 755,
+      "variants": [
+        {
+          "path": "images/optimized/399cda7c7113665b-480.webp",
+          "width": 480,
+          "height": 362,
+          "bytes": 4070
+        },
+        {
+          "path": "images/optimized/399cda7c7113665b-960.webp",
+          "width": 960,
+          "height": 724,
+          "bytes": 9538
+        }
+      ]
+    },
+    "images/papers/798e2b0498e6.webp": {
+      "fingerprint": "f332cb5bb63b6737d685650225765f83a659c6ed64f9ff19f26154b4e844be6e",
+      "role": "paper",
+      "original_bytes": 76290,
+      "width": 1201,
+      "height": 269,
+      "variants": [
+        {
+          "path": "images/optimized/f332cb5bb63b6737-480.webp",
+          "width": 480,
+          "height": 108,
+          "bytes": 17642
+        },
+        {
+          "path": "images/optimized/f332cb5bb63b6737-960.webp",
+          "width": 960,
+          "height": 215,
+          "bytes": 52008
+        }
+      ]
+    },
+    "images/papers/7b666aad7d94.webp": {
+      "fingerprint": "1a6d8fdb70df5063712ba4eb0792d47ee8a971a49b734a332a298e41bc0bbac9",
+      "role": "paper",
+      "original_bytes": 50936,
+      "width": 1201,
+      "height": 281,
+      "variants": [
+        {
+          "path": "images/optimized/1a6d8fdb70df5063-480.webp",
+          "width": 480,
+          "height": 112,
+          "bytes": 12812
+        },
+        {
+          "path": "images/optimized/1a6d8fdb70df5063-960.webp",
+          "width": 960,
+          "height": 225,
+          "bytes": 34806
+        }
+      ]
+    },
+    "images/papers/824f92e12d36.webp": {
+      "fingerprint": "58ff345ec0ec2eca2db755325615d19b396123ceadafde31f4be9cacc673f39c",
+      "role": "paper",
+      "original_bytes": 5652,
+      "width": 675,
+      "height": 126,
+      "variants": [
+        {
+          "path": "images/optimized/58ff345ec0ec2eca-480.webp",
+          "width": 480,
+          "height": 90,
+          "bytes": 4128
+        },
+        {
+          "path": "images/papers/824f92e12d36.webp",
+          "width": 675,
+          "height": 126,
+          "bytes": 5652
+        }
+      ]
+    },
+    "images/papers/83099d5c2b37.webp": {
+      "fingerprint": "7febda1b1f0f721f76bb645dac2e4c67c3df563ce1643243b4a0bcc6c0dd4d75",
+      "role": "paper",
+      "original_bytes": 34940,
+      "width": 1201,
+      "height": 446,
+      "variants": [
+        {
+          "path": "images/optimized/7febda1b1f0f721f-480.webp",
+          "width": 480,
+          "height": 178,
+          "bytes": 11578
+        },
+        {
+          "path": "images/optimized/7febda1b1f0f721f-960.webp",
+          "width": 960,
+          "height": 357,
+          "bytes": 27364
+        }
+      ]
+    },
+    "images/papers/85c94bce24bb.png": {
+      "fingerprint": "4d4a99edd5e10bba078738810dbe1cedbcf846a09b1d37e4268489635857a691",
+      "role": "paper",
+      "original_bytes": 63143,
+      "width": 1056,
+      "height": 203,
+      "variants": [
+        {
+          "path": "images/optimized/4d4a99edd5e10bba-480.webp",
+          "width": 480,
+          "height": 92,
+          "bytes": 7788
+        },
+        {
+          "path": "images/optimized/4d4a99edd5e10bba-960.webp",
+          "width": 960,
+          "height": 185,
+          "bytes": 21032
+        }
+      ]
+    },
+    "images/papers/8a7cfb262c9d.png": {
+      "fingerprint": "083b0203fa7b2fff32f0ba7f8d29bc1d987f04e58eebccd518f3fd3ef6ef4ac4",
+      "role": "paper",
+      "original_bytes": 462395,
+      "width": 1056,
+      "height": 313,
+      "variants": [
+        {
+          "path": "images/optimized/083b0203fa7b2fff-480.webp",
+          "width": 480,
+          "height": 142,
+          "bytes": 18728
+        },
+        {
+          "path": "images/optimized/083b0203fa7b2fff-960.webp",
+          "width": 960,
+          "height": 285,
+          "bytes": 52710
+        }
+      ]
+    },
+    "images/papers/8a9864480e53.png": {
+      "fingerprint": "c03b440809ae601b59571e9653bbe0cdf7b8c9a0feb885104d421af4239863c8",
+      "role": "paper",
+      "original_bytes": 470684,
+      "width": 1058,
+      "height": 232,
+      "variants": [
+        {
+          "path": "images/optimized/c03b440809ae601b-480.webp",
+          "width": 480,
+          "height": 105,
+          "bytes": 19834
+        },
+        {
+          "path": "images/optimized/c03b440809ae601b-960.webp",
+          "width": 960,
+          "height": 211,
+          "bytes": 58320
+        }
+      ]
+    },
+    "images/papers/8bcf053a53fe.webp": {
+      "fingerprint": "ebae35dd32dae75a1e0faa5f99c05775e4f52e2d4f7c82bc8213f6857eb73f49",
+      "role": "paper",
+      "original_bytes": 98914,
+      "width": 1104,
+      "height": 596,
+      "variants": [
+        {
+          "path": "images/optimized/ebae35dd32dae75a-480.webp",
+          "width": 480,
+          "height": 259,
+          "bytes": 24422
+        },
+        {
+          "path": "images/optimized/ebae35dd32dae75a-960.webp",
+          "width": 960,
+          "height": 518,
+          "bytes": 69680
+        }
+      ]
+    },
+    "images/papers/8cc52c82e54c.png": {
+      "fingerprint": "f19d54c96a422c5012a43935c1fb2ce0ec764ffe55257a05c452810cc7db51af",
+      "role": "paper",
+      "original_bytes": 418082,
+      "width": 1058,
+      "height": 253,
+      "variants": [
+        {
+          "path": "images/optimized/f19d54c96a422c50-480.webp",
+          "width": 480,
+          "height": 115,
+          "bytes": 21498
+        },
+        {
+          "path": "images/optimized/f19d54c96a422c50-960.webp",
+          "width": 960,
+          "height": 230,
+          "bytes": 64436
+        }
+      ]
+    },
+    "images/papers/8ce28f01e0ce.webp": {
+      "fingerprint": "c44369c26fc3de205bfbcc8d83bc469f8eb073564ca0f3cabe32208b6f05f7e5",
+      "role": "paper",
+      "original_bytes": 42968,
+      "width": 637,
+      "height": 515,
+      "variants": [
+        {
+          "path": "images/optimized/c44369c26fc3de20-480.webp",
+          "width": 480,
+          "height": 388,
+          "bytes": 28924
+        },
+        {
+          "path": "images/optimized/c44369c26fc3de20-637.webp",
+          "width": 637,
+          "height": 515,
+          "bytes": 41604
+        }
+      ]
+    },
+    "images/papers/9138b37544e5.png": {
+      "fingerprint": "a9cf2d07cb03e226a6a46fe3c2209a9df011f6ec6835fd00bc86098901336405",
+      "role": "paper",
+      "original_bytes": 174459,
+      "width": 632,
+      "height": 154,
+      "variants": [
+        {
+          "path": "images/optimized/a9cf2d07cb03e226-480.webp",
+          "width": 480,
+          "height": 117,
+          "bytes": 13240
+        },
+        {
+          "path": "images/optimized/a9cf2d07cb03e226-632.webp",
+          "width": 632,
+          "height": 154,
+          "bytes": 18766
+        }
+      ]
+    },
+    "images/papers/923a05e236a1.webp": {
+      "fingerprint": "8919bca33c8f62da86ec92b2ff6d3c2197a07281ca3f2fffff548884b7589dce",
+      "role": "paper",
+      "original_bytes": 50456,
+      "width": 1201,
+      "height": 481,
+      "variants": [
+        {
+          "path": "images/optimized/8919bca33c8f62da-480.webp",
+          "width": 480,
+          "height": 192,
+          "bytes": 15108
+        },
+        {
+          "path": "images/optimized/8919bca33c8f62da-960.webp",
+          "width": 960,
+          "height": 384,
+          "bytes": 38032
+        }
+      ]
+    },
+    "images/papers/935a6c0da3fe.webp": {
+      "fingerprint": "30444735620ff8c608e2a204abe4004496c62a3f3ba1eb923b32a785b9860bb8",
+      "role": "paper",
+      "original_bytes": 20690,
+      "width": 769,
+      "height": 308,
+      "variants": [
+        {
+          "path": "images/optimized/30444735620ff8c6-480.webp",
+          "width": 480,
+          "height": 192,
+          "bytes": 10326
+        },
+        {
+          "path": "images/optimized/30444735620ff8c6-769.webp",
+          "width": 769,
+          "height": 308,
+          "bytes": 19554
+        }
+      ]
+    },
+    "images/papers/93957c6e68b8.png": {
+      "fingerprint": "ed86f90f20502fd5beb213a59fd1025baf87680d384ec4ea0cefca9dc1b9e30c",
+      "role": "paper",
+      "original_bytes": 112494,
+      "width": 962,
+      "height": 301,
+      "variants": [
+        {
+          "path": "images/optimized/ed86f90f20502fd5-480.webp",
+          "width": 480,
+          "height": 150,
+          "bytes": 12312
+        },
+        {
+          "path": "images/optimized/ed86f90f20502fd5-960.webp",
+          "width": 960,
+          "height": 300,
+          "bytes": 33038
+        }
+      ]
+    },
+    "images/papers/93cb1f81c0d7.png": {
+      "fingerprint": "2cad58674fea232120632dd4d730775c556499b4d61ff517da59ff3d99ba06f4",
+      "role": "paper",
+      "original_bytes": 333012,
+      "width": 1058,
+      "height": 296,
+      "variants": [
+        {
+          "path": "images/optimized/2cad58674fea2321-480.webp",
+          "width": 480,
+          "height": 134,
+          "bytes": 10614
+        },
+        {
+          "path": "images/optimized/2cad58674fea2321-960.webp",
+          "width": 960,
+          "height": 269,
+          "bytes": 24542
+        }
+      ]
+    },
+    "images/papers/943ae277d068.webp": {
+      "fingerprint": "8e4211a44395023048160824aa5e77825e9373d7907a1cfc62aabf3c4e6410c0",
+      "role": "paper",
+      "original_bytes": 24176,
+      "width": 723,
+      "height": 393,
+      "variants": [
+        {
+          "path": "images/optimized/8e4211a443950230-480.webp",
+          "width": 480,
+          "height": 261,
+          "bytes": 14900
+        },
+        {
+          "path": "images/optimized/8e4211a443950230-723.webp",
+          "width": 723,
+          "height": 393,
+          "bytes": 23494
+        }
+      ]
+    },
+    "images/papers/9487876c8baf.png": {
+      "fingerprint": "1fcbb91c48c2841f3564d982c9d143f2423bd009af51290d1741acd15c342681",
+      "role": "paper",
+      "original_bytes": 99466,
+      "width": 529,
+      "height": 243,
+      "variants": [
+        {
+          "path": "images/optimized/1fcbb91c48c2841f-480.webp",
+          "width": 480,
+          "height": 220,
+          "bytes": 14894
+        },
+        {
+          "path": "images/optimized/1fcbb91c48c2841f-529.webp",
+          "width": 529,
+          "height": 243,
+          "bytes": 16992
+        }
+      ]
+    },
+    "images/papers/978687470657.png": {
+      "fingerprint": "fc3cbc7ce4feccec3fb139c715caaccae4ff513983d1e2853a6b62911bb52221",
+      "role": "paper",
+      "original_bytes": 71491,
+      "width": 592,
+      "height": 491,
+      "variants": [
+        {
+          "path": "images/optimized/fc3cbc7ce4feccec-480.webp",
+          "width": 480,
+          "height": 398,
+          "bytes": 25774
+        },
+        {
+          "path": "images/optimized/fc3cbc7ce4feccec-592.webp",
+          "width": 592,
+          "height": 491,
+          "bytes": 33596
+        }
+      ]
+    },
+    "images/papers/97f0377c3219.webp": {
+      "fingerprint": "e37ce51ebae41b0ca9f844fc6180ee96246bcd9977eff8b4ece98ba3410ed2f7",
+      "role": "paper",
+      "original_bytes": 26146,
+      "width": 730,
+      "height": 890,
+      "variants": [
+        {
+          "path": "images/optimized/e37ce51ebae41b0c-480.webp",
+          "width": 480,
+          "height": 585,
+          "bytes": 15660
+        },
+        {
+          "path": "images/optimized/e37ce51ebae41b0c-730.webp",
+          "width": 730,
+          "height": 890,
+          "bytes": 25660
+        }
+      ]
+    },
+    "images/papers/98e5400c67d6.png": {
+      "fingerprint": "2a34b867d0f33c3e02cd99184027813a609873a8659a8a3a226607f9a7a1c1e2",
+      "role": "paper",
+      "original_bytes": 57632,
+      "width": 493,
+      "height": 595,
+      "variants": [
+        {
+          "path": "images/optimized/2a34b867d0f33c3e-480.webp",
+          "width": 480,
+          "height": 579,
+          "bytes": 31132
+        },
+        {
+          "path": "images/optimized/2a34b867d0f33c3e-493.webp",
+          "width": 493,
+          "height": 595,
+          "bytes": 32408
+        }
+      ]
+    },
+    "images/papers/9c1c8505f788.webp": {
+      "fingerprint": "8bfe5284cd87092245d440aa07e2411f590b0a33efe036d7ee2f7020e997a357",
+      "role": "paper",
+      "original_bytes": 40486,
+      "width": 654,
+      "height": 669,
+      "variants": [
+        {
+          "path": "images/optimized/8bfe5284cd870922-480.webp",
+          "width": 480,
+          "height": 491,
+          "bytes": 27548
+        },
+        {
+          "path": "images/optimized/8bfe5284cd870922-654.webp",
+          "width": 654,
+          "height": 669,
+          "bytes": 39646
+        }
+      ]
+    },
+    "images/papers/9c77fb80901d.webp": {
+      "fingerprint": "93684f420e26e30257dd0bd4b3b6cd95fea8d8e59c3997da8adaff0edb2502cb",
+      "role": "paper",
+      "original_bytes": 55100,
+      "width": 1071,
+      "height": 395,
+      "variants": [
+        {
+          "path": "images/optimized/93684f420e26e302-480.webp",
+          "width": 480,
+          "height": 177,
+          "bytes": 17778
+        },
+        {
+          "path": "images/optimized/93684f420e26e302-960.webp",
+          "width": 960,
+          "height": 354,
+          "bytes": 45136
+        }
+      ]
+    },
+    "images/papers/9ce5101cb7bf.png": {
+      "fingerprint": "7c945d401304562174bf2df65a846ae3b901774d06e5ffd3b26ca4b000547b94",
+      "role": "paper",
+      "original_bytes": 211633,
+      "width": 529,
+      "height": 248,
+      "variants": [
+        {
+          "path": "images/optimized/7c945d4013045621-480.webp",
+          "width": 480,
+          "height": 225,
+          "bytes": 24250
+        },
+        {
+          "path": "images/optimized/7c945d4013045621-529.webp",
+          "width": 529,
+          "height": 248,
+          "bytes": 27048
+        }
+      ]
+    },
+    "images/papers/9d1964dc90aa.webp": {
+      "fingerprint": "d30388198aca16ecde601cc0411f36e3124e65f7a2f44d3ad0f1f21b1cf82a98",
+      "role": "paper",
+      "original_bytes": 40096,
+      "width": 1010,
+      "height": 683,
+      "variants": [
+        {
+          "path": "images/optimized/d30388198aca16ec-480.webp",
+          "width": 480,
+          "height": 325,
+          "bytes": 15758
+        },
+        {
+          "path": "images/optimized/d30388198aca16ec-960.webp",
+          "width": 960,
+          "height": 649,
+          "bytes": 36216
+        }
+      ]
+    },
+    "images/papers/9edf39b2bb3c.webp": {
+      "fingerprint": "99c3b7f6b1f4f8003a71043b05dd1ffe6504f9c47b8716233ea4d6172530f317",
+      "role": "paper",
+      "original_bytes": 21624,
+      "width": 758,
+      "height": 426,
+      "variants": [
+        {
+          "path": "images/optimized/99c3b7f6b1f4f800-480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 12384
+        },
+        {
+          "path": "images/optimized/99c3b7f6b1f4f800-758.webp",
+          "width": 758,
+          "height": 426,
+          "bytes": 21202
+        }
+      ]
+    },
+    "images/papers/a1e35859ba8b.webp": {
+      "fingerprint": "8b58fb2a3880c588b8b17460bc9481e78976329b3fda8031c66105ef5a71b7a9",
+      "role": "paper",
+      "original_bytes": 54240,
+      "width": 1201,
+      "height": 485,
+      "variants": [
+        {
+          "path": "images/optimized/8b58fb2a3880c588-480.webp",
+          "width": 480,
+          "height": 194,
+          "bytes": 16998
+        },
+        {
+          "path": "images/optimized/8b58fb2a3880c588-960.webp",
+          "width": 960,
+          "height": 388,
+          "bytes": 41536
+        }
+      ]
+    },
+    "images/papers/a5fa265c1597.webp": {
+      "fingerprint": "a33a0053dbb390e88cd7ff62d581d51f7f825764522b603f24df0f8b509cd903",
+      "role": "paper",
+      "original_bytes": 23288,
+      "width": 1201,
+      "height": 196,
+      "variants": [
+        {
+          "path": "images/optimized/a33a0053dbb390e8-480.webp",
+          "width": 480,
+          "height": 78,
+          "bytes": 7476
+        },
+        {
+          "path": "images/optimized/a33a0053dbb390e8-960.webp",
+          "width": 960,
+          "height": 157,
+          "bytes": 17520
+        }
+      ]
+    },
+    "images/papers/a73edcd5a2ce.png": {
+      "fingerprint": "0ca366383bbdb6b06d5bcc9766119df037df057e9e4a71288920537f9550bbb4",
+      "role": "paper",
+      "original_bytes": 89475,
+      "width": 1021,
+      "height": 392,
+      "variants": [
+        {
+          "path": "images/optimized/0ca366383bbdb6b0-480.webp",
+          "width": 480,
+          "height": 184,
+          "bytes": 14540
+        },
+        {
+          "path": "images/optimized/0ca366383bbdb6b0-960.webp",
+          "width": 960,
+          "height": 369,
+          "bytes": 38210
+        }
+      ]
+    },
+    "images/papers/a7588d264e6d.png": {
+      "fingerprint": "f4d8071a6960f4e76ab088781b44098cd295ace555a7800b82a0bdea042e65ab",
+      "role": "paper",
+      "original_bytes": 90021,
+      "width": 1057,
+      "height": 336,
+      "variants": [
+        {
+          "path": "images/optimized/f4d8071a6960f4e7-480.webp",
+          "width": 480,
+          "height": 153,
+          "bytes": 12442
+        },
+        {
+          "path": "images/optimized/f4d8071a6960f4e7-960.webp",
+          "width": 960,
+          "height": 305,
+          "bytes": 32640
+        }
+      ]
+    },
+    "images/papers/a795ff39d2c9.webp": {
+      "fingerprint": "dcdf83e011039b2dc89d460b2effae17ba938ff6aee32ef098ee04e66c0ba075",
+      "role": "paper",
+      "original_bytes": 60832,
+      "width": 1201,
+      "height": 528,
+      "variants": [
+        {
+          "path": "images/optimized/dcdf83e011039b2d-480.webp",
+          "width": 480,
+          "height": 211,
+          "bytes": 19130
+        },
+        {
+          "path": "images/optimized/dcdf83e011039b2d-960.webp",
+          "width": 960,
+          "height": 422,
+          "bytes": 47040
+        }
+      ]
+    },
+    "images/papers/a9d64c19ed3b.webp": {
+      "fingerprint": "5f2faee8dccec445e040391c6d00c9371301109e24903cc2653bc21dbf39fa2a",
+      "role": "paper",
+      "original_bytes": 58456,
+      "width": 760,
+      "height": 894,
+      "variants": [
+        {
+          "path": "images/optimized/5f2faee8dccec445-480.webp",
+          "width": 480,
+          "height": 565,
+          "bytes": 30412
+        },
+        {
+          "path": "images/optimized/5f2faee8dccec445-760.webp",
+          "width": 760,
+          "height": 894,
+          "bytes": 56722
+        }
+      ]
+    },
+    "images/papers/abde3ce4c5c0.png": {
+      "fingerprint": "3ac70fcbf3f27b3bad5416cf5b76ed0029672188c473d1188fe1e29f4cb37e3a",
+      "role": "paper",
+      "original_bytes": 276888,
+      "width": 396,
+      "height": 605,
+      "variants": [
+        {
+          "path": "images/optimized/3ac70fcbf3f27b3b-396.webp",
+          "width": 396,
+          "height": 605,
+          "bytes": 37468
+        }
+      ]
+    },
+    "images/papers/acd451ba9e1e.png": {
+      "fingerprint": "e818a17b9bb79ebfe01f95449e9eb25897d12b4018e360ce62f1da71960299f6",
+      "role": "paper",
+      "original_bytes": 91245,
+      "width": 842,
+      "height": 333,
+      "variants": [
+        {
+          "path": "images/optimized/e818a17b9bb79ebf-480.webp",
+          "width": 480,
+          "height": 190,
+          "bytes": 9422
+        },
+        {
+          "path": "images/optimized/e818a17b9bb79ebf-842.webp",
+          "width": 842,
+          "height": 333,
+          "bytes": 17570
+        }
+      ]
+    },
+    "images/papers/ad846de2cd1d.webp": {
+      "fingerprint": "2443529309f888a3ef885907d45e91dea544448863e9db35a3311d8a45bdcfef",
+      "role": "paper",
+      "original_bytes": 19832,
+      "width": 671,
+      "height": 178,
+      "variants": [
+        {
+          "path": "images/optimized/2443529309f888a3-480.webp",
+          "width": 480,
+          "height": 127,
+          "bytes": 11832
+        },
+        {
+          "path": "images/optimized/2443529309f888a3-671.webp",
+          "width": 671,
+          "height": 178,
+          "bytes": 18700
+        }
+      ]
+    },
+    "images/papers/b05ad292dc7a.webp": {
+      "fingerprint": "34e7eaf970ad7412b2a1ac9c6efecc78cb93f65f1d68e6e37cca0eff5774443f",
+      "role": "paper",
+      "original_bytes": 37436,
+      "width": 728,
+      "height": 216,
+      "variants": [
+        {
+          "path": "images/optimized/34e7eaf970ad7412-480.webp",
+          "width": 480,
+          "height": 142,
+          "bytes": 20022
+        },
+        {
+          "path": "images/optimized/34e7eaf970ad7412-728.webp",
+          "width": 728,
+          "height": 216,
+          "bytes": 36120
+        }
+      ]
+    },
+    "images/papers/b5838b0e21e8.webp": {
+      "fingerprint": "b4c8546e86af3bebbbc961a4d1711acbb28ebcbe3401c4ef31f81bce9496c1a7",
+      "role": "paper",
+      "original_bytes": 47286,
+      "width": 1201,
+      "height": 418,
+      "variants": [
+        {
+          "path": "images/optimized/b4c8546e86af3beb-480.webp",
+          "width": 480,
+          "height": 167,
+          "bytes": 16394
+        },
+        {
+          "path": "images/optimized/b4c8546e86af3beb-960.webp",
+          "width": 960,
+          "height": 334,
+          "bytes": 37138
+        }
+      ]
+    },
+    "images/papers/b79744cce433.webp": {
+      "fingerprint": "a469a0a1ea7dddcdf10e09cfffb10c5d0f894cfcd3faa67306bd51a480401ce5",
+      "role": "paper",
+      "original_bytes": 35652,
+      "width": 1098,
+      "height": 690,
+      "variants": [
+        {
+          "path": "images/optimized/a469a0a1ea7dddcd-480.webp",
+          "width": 480,
+          "height": 302,
+          "bytes": 12500
+        },
+        {
+          "path": "images/optimized/a469a0a1ea7dddcd-960.webp",
+          "width": 960,
+          "height": 603,
+          "bytes": 29972
+        }
+      ]
+    },
+    "images/papers/b98c2e32123d.webp": {
+      "fingerprint": "310db40f6a7130d2eca42d8c545a2e7f8fcd922a83dd7b783d64d14b3b6c5f32",
+      "role": "paper",
+      "original_bytes": 25070,
+      "width": 784,
+      "height": 245,
+      "variants": [
+        {
+          "path": "images/optimized/310db40f6a7130d2-480.webp",
+          "width": 480,
+          "height": 150,
+          "bytes": 11584
+        },
+        {
+          "path": "images/optimized/310db40f6a7130d2-784.webp",
+          "width": 784,
+          "height": 245,
+          "bytes": 23640
+        }
+      ]
+    },
+    "images/papers/ba4c680b1df6.png": {
+      "fingerprint": "7c945d401304562174bf2df65a846ae3b901774d06e5ffd3b26ca4b000547b94",
+      "role": "paper",
+      "original_bytes": 211633,
+      "width": 529,
+      "height": 248,
+      "variants": [
+        {
+          "path": "images/optimized/7c945d4013045621-480.webp",
+          "width": 480,
+          "height": 225,
+          "bytes": 24250
+        },
+        {
+          "path": "images/optimized/7c945d4013045621-529.webp",
+          "width": 529,
+          "height": 248,
+          "bytes": 27048
+        }
+      ]
+    },
+    "images/papers/bc95a337a35a.png": {
+      "fingerprint": "537923b2ba0364257335c28932b093575ff48b554741205eb732c1d9182ad823",
+      "role": "paper",
+      "original_bytes": 155949,
+      "width": 769,
+      "height": 351,
+      "variants": [
+        {
+          "path": "images/optimized/537923b2ba036425-480.webp",
+          "width": 480,
+          "height": 219,
+          "bytes": 14698
+        },
+        {
+          "path": "images/optimized/537923b2ba036425-769.webp",
+          "width": 769,
+          "height": 351,
+          "bytes": 26258
+        }
+      ]
+    },
+    "images/papers/befea794f172.webp": {
+      "fingerprint": "e7b90531449bb650b123aff4fd356c58137ef02a31cac7ea34cb3cd698790785",
+      "role": "paper",
+      "original_bytes": 7142,
+      "width": 773,
+      "height": 232,
+      "variants": [
+        {
+          "path": "images/optimized/e7b90531449bb650-480.webp",
+          "width": 480,
+          "height": 144,
+          "bytes": 4428
+        },
+        {
+          "path": "images/optimized/e7b90531449bb650-773.webp",
+          "width": 773,
+          "height": 232,
+          "bytes": 6890
+        }
+      ]
+    },
+    "images/papers/bffb776102d4.webp": {
+      "fingerprint": "4e6ae022cc6a195e4e1adbe24ec182d348be9a46747f800c8691519c2ffe4f6a",
+      "role": "paper",
+      "original_bytes": 31364,
+      "width": 1201,
+      "height": 315,
+      "variants": [
+        {
+          "path": "images/optimized/4e6ae022cc6a195e-480.webp",
+          "width": 480,
+          "height": 126,
+          "bytes": 8748
+        },
+        {
+          "path": "images/optimized/4e6ae022cc6a195e-960.webp",
+          "width": 960,
+          "height": 252,
+          "bytes": 23520
+        }
+      ]
+    },
+    "images/papers/c0123e22b50c.webp": {
+      "fingerprint": "1f7c8a1dd6a20782eb0fc0beec06d4a0a43834192c9f0d23ede684fb74e2a392",
+      "role": "paper",
+      "original_bytes": 91128,
+      "width": 858,
+      "height": 375,
+      "variants": [
+        {
+          "path": "images/optimized/1f7c8a1dd6a20782-480.webp",
+          "width": 480,
+          "height": 210,
+          "bytes": 34980
+        },
+        {
+          "path": "images/optimized/1f7c8a1dd6a20782-858.webp",
+          "width": 858,
+          "height": 375,
+          "bytes": 87788
+        }
+      ]
+    },
+    "images/papers/c2345e1d5dd2.png": {
+      "fingerprint": "93669cdfe8e9a49cb939e118701c47e9889876a96eeadbc8c8713de607f768d5",
+      "role": "paper",
+      "original_bytes": 44775,
+      "width": 535,
+      "height": 555,
+      "variants": [
+        {
+          "path": "images/optimized/93669cdfe8e9a49c-480.webp",
+          "width": 480,
+          "height": 498,
+          "bytes": 19986
+        },
+        {
+          "path": "images/optimized/93669cdfe8e9a49c-535.webp",
+          "width": 535,
+          "height": 555,
+          "bytes": 22182
+        }
+      ]
+    },
+    "images/papers/c291f3d81146.webp": {
+      "fingerprint": "486d92782a051717f93189e75634502fec45c51b18f387f09e46a9e45ec3b8e1",
+      "role": "paper",
+      "original_bytes": 24158,
+      "width": 1201,
+      "height": 639,
+      "variants": [
+        {
+          "path": "images/optimized/486d92782a051717-480.webp",
+          "width": 480,
+          "height": 255,
+          "bytes": 8834
+        },
+        {
+          "path": "images/optimized/486d92782a051717-960.webp",
+          "width": 960,
+          "height": 511,
+          "bytes": 19814
+        }
+      ]
+    },
+    "images/papers/c424092a6fee.webp": {
+      "fingerprint": "63074bb223ad74b74a38af99d79f704fa371f4000ef66912706391b5e68ebea4",
+      "role": "paper",
+      "original_bytes": 20078,
+      "width": 683,
+      "height": 465,
+      "variants": [
+        {
+          "path": "images/optimized/63074bb223ad74b7-480.webp",
+          "width": 480,
+          "height": 327,
+          "bytes": 13014
+        },
+        {
+          "path": "images/optimized/63074bb223ad74b7-683.webp",
+          "width": 683,
+          "height": 465,
+          "bytes": 19362
+        }
+      ]
+    },
+    "images/papers/cfe6e133df1a.webp": {
+      "fingerprint": "48c7b4f343e6a1d09f85948388f32017b7645d61e2e1df6178989a8b4c9cbabf",
+      "role": "paper",
+      "original_bytes": 14766,
+      "width": 768,
+      "height": 307,
+      "variants": [
+        {
+          "path": "images/optimized/48c7b4f343e6a1d0-480.webp",
+          "width": 480,
+          "height": 192,
+          "bytes": 8100
+        },
+        {
+          "path": "images/optimized/48c7b4f343e6a1d0-768.webp",
+          "width": 768,
+          "height": 307,
+          "bytes": 14276
+        }
+      ]
+    },
+    "images/papers/d48d64656b55.webp": {
+      "fingerprint": "499dea9c3b8425f70b3f6fee4bb708c71edb986d62af75b7bfb60c24d91f279f",
+      "role": "paper",
+      "original_bytes": 36698,
+      "width": 1201,
+      "height": 336,
+      "variants": [
+        {
+          "path": "images/optimized/499dea9c3b8425f7-480.webp",
+          "width": 480,
+          "height": 134,
+          "bytes": 12274
+        },
+        {
+          "path": "images/optimized/499dea9c3b8425f7-960.webp",
+          "width": 960,
+          "height": 269,
+          "bytes": 28300
+        }
+      ]
+    },
+    "images/papers/d55f3e76dadd.png": {
+      "fingerprint": "557b9f8b6f21c83c286bd99c29a69c7c74796090021564c6adc1e49a06698c54",
+      "role": "paper",
+      "original_bytes": 126990,
+      "width": 962,
+      "height": 371,
+      "variants": [
+        {
+          "path": "images/optimized/557b9f8b6f21c83c-480.webp",
+          "width": 480,
+          "height": 185,
+          "bytes": 11850
+        },
+        {
+          "path": "images/optimized/557b9f8b6f21c83c-960.webp",
+          "width": 960,
+          "height": 370,
+          "bytes": 28486
+        }
+      ]
+    },
+    "images/papers/d5dfba639b67.webp": {
+      "fingerprint": "a4fa7d511e46572f0d72003535550158ee0c35fece33aa5f416d5a20441ccc26",
+      "role": "paper",
+      "original_bytes": 38704,
+      "width": 1201,
+      "height": 292,
+      "variants": [
+        {
+          "path": "images/optimized/a4fa7d511e46572f-480.webp",
+          "width": 480,
+          "height": 117,
+          "bytes": 10866
+        },
+        {
+          "path": "images/optimized/a4fa7d511e46572f-960.webp",
+          "width": 960,
+          "height": 233,
+          "bytes": 29988
+        }
+      ]
+    },
+    "images/papers/da55c6960a5c.webp": {
+      "fingerprint": "1b297678f3439d844a29f73a3170a029ff1b2e869b79909cc6f3facb549675ce",
+      "role": "paper",
+      "original_bytes": 95292,
+      "width": 1079,
+      "height": 901,
+      "variants": [
+        {
+          "path": "images/optimized/1b297678f3439d84-480.webp",
+          "width": 480,
+          "height": 401,
+          "bytes": 32002
+        },
+        {
+          "path": "images/optimized/1b297678f3439d84-960.webp",
+          "width": 960,
+          "height": 802,
+          "bytes": 76128
+        }
+      ]
+    },
+    "images/papers/dbb5c1d4f8ba.png": {
+      "fingerprint": "9c29f9121a2220a6a460e3865770d1761505045653cb4d65dcbe940ccf7c28ab",
+      "role": "paper",
+      "original_bytes": 88013,
+      "width": 529,
+      "height": 511,
+      "variants": [
+        {
+          "path": "images/optimized/9c29f9121a2220a6-480.webp",
+          "width": 480,
+          "height": 464,
+          "bytes": 25788
+        },
+        {
+          "path": "images/optimized/9c29f9121a2220a6-529.webp",
+          "width": 529,
+          "height": 511,
+          "bytes": 29118
+        }
+      ]
+    },
+    "images/papers/df50d9bd1d49.webp": {
+      "fingerprint": "df0cd495e1d25a4655f713c21c1e1e8e6aa251a35b2499c84e644ddc94920ebe",
+      "role": "paper",
+      "original_bytes": 49394,
+      "width": 1201,
+      "height": 478,
+      "variants": [
+        {
+          "path": "images/optimized/df0cd495e1d25a46-480.webp",
+          "width": 480,
+          "height": 191,
+          "bytes": 15394
+        },
+        {
+          "path": "images/optimized/df0cd495e1d25a46-960.webp",
+          "width": 960,
+          "height": 382,
+          "bytes": 37102
+        }
+      ]
+    },
+    "images/papers/e13602bf8f5b.webp": {
+      "fingerprint": "1e30aca86326f497a662a78f6593fb96f8a6dc303d3efdc81c97f69d41b67e9e",
+      "role": "paper",
+      "original_bytes": 34948,
+      "width": 1201,
+      "height": 479,
+      "variants": [
+        {
+          "path": "images/optimized/1e30aca86326f497-480.webp",
+          "width": 480,
+          "height": 191,
+          "bytes": 14336
+        },
+        {
+          "path": "images/optimized/1e30aca86326f497-960.webp",
+          "width": 960,
+          "height": 383,
+          "bytes": 28396
+        }
+      ]
+    },
+    "images/papers/e6339c4d0746.webp": {
+      "fingerprint": "4150189156a5f3229e81eb983d232389496e30d112a2cf3d9ad18e51f8f50510",
+      "role": "paper",
+      "original_bytes": 71120,
+      "width": 1201,
+      "height": 300,
+      "variants": [
+        {
+          "path": "images/optimized/4150189156a5f322-480.webp",
+          "width": 480,
+          "height": 120,
+          "bytes": 21672
+        },
+        {
+          "path": "images/optimized/4150189156a5f322-960.webp",
+          "width": 960,
+          "height": 240,
+          "bytes": 53146
+        }
+      ]
+    },
+    "images/papers/e6c23f4c0ea5.webp": {
+      "fingerprint": "494c2770c32b446405092b474a686034f8948b0e9d57cf3152cc28b8d46a72d4",
+      "role": "paper",
+      "original_bytes": 28898,
+      "width": 745,
+      "height": 342,
+      "variants": [
+        {
+          "path": "images/optimized/494c2770c32b4464-480.webp",
+          "width": 480,
+          "height": 220,
+          "bytes": 17154
+        },
+        {
+          "path": "images/optimized/494c2770c32b4464-745.webp",
+          "width": 745,
+          "height": 342,
+          "bytes": 28212
+        }
+      ]
+    },
+    "images/papers/ed5bcc48597e.webp": {
+      "fingerprint": "fda628ed0ec475dbc4193e9d16384264456c933eb0ef57db1ae8f5e14428e324",
+      "role": "paper",
+      "original_bytes": 88770,
+      "width": 1125,
+      "height": 303,
+      "variants": [
+        {
+          "path": "images/optimized/fda628ed0ec475db-480.webp",
+          "width": 480,
+          "height": 129,
+          "bytes": 15328
+        },
+        {
+          "path": "images/optimized/fda628ed0ec475db-960.webp",
+          "width": 960,
+          "height": 259,
+          "bytes": 58084
+        }
+      ]
+    },
+    "images/papers/ed9ae5d7d52d.webp": {
+      "fingerprint": "1f5392fc502fd1e7aa1cd76655022f0c6a58e95b90ac14eb624ae560e1db75a0",
+      "role": "paper",
+      "original_bytes": 35918,
+      "width": 1201,
+      "height": 300,
+      "variants": [
+        {
+          "path": "images/optimized/1f5392fc502fd1e7-480.webp",
+          "width": 480,
+          "height": 120,
+          "bytes": 10418
+        },
+        {
+          "path": "images/optimized/1f5392fc502fd1e7-960.webp",
+          "width": 960,
+          "height": 240,
+          "bytes": 25830
+        }
+      ]
+    },
+    "images/papers/eeafd05c8652.png": {
+      "fingerprint": "d9bfbdfbcc9084a5be2e326325c239e77d869168fb5d375133038bc5324edcb0",
+      "role": "paper",
+      "original_bytes": 159803,
+      "width": 529,
+      "height": 185,
+      "variants": [
+        {
+          "path": "images/optimized/d9bfbdfbcc9084a5-480.webp",
+          "width": 480,
+          "height": 168,
+          "bytes": 16546
+        },
+        {
+          "path": "images/optimized/d9bfbdfbcc9084a5-529.webp",
+          "width": 529,
+          "height": 185,
+          "bytes": 19120
+        }
+      ]
+    },
+    "images/papers/eee67d337dbb.webp": {
+      "fingerprint": "a7d5edf3aafbd8891148ab50faf037abc15ac1008bfcad391916c05f043d8cc8",
+      "role": "paper",
+      "original_bytes": 25092,
+      "width": 731,
+      "height": 389,
+      "variants": [
+        {
+          "path": "images/optimized/a7d5edf3aafbd889-480.webp",
+          "width": 480,
+          "height": 255,
+          "bytes": 15854
+        },
+        {
+          "path": "images/optimized/a7d5edf3aafbd889-731.webp",
+          "width": 731,
+          "height": 389,
+          "bytes": 23194
+        }
+      ]
+    },
+    "images/papers/efa94d9987bc.webp": {
+      "fingerprint": "a3867fa36eca128fd37d9118c4e43f5bc6001cca659249a538534d8e272df1d2",
+      "role": "paper",
+      "original_bytes": 56750,
+      "width": 1201,
+      "height": 309,
+      "variants": [
+        {
+          "path": "images/optimized/a3867fa36eca128f-480.webp",
+          "width": 480,
+          "height": 123,
+          "bytes": 16394
+        },
+        {
+          "path": "images/optimized/a3867fa36eca128f-960.webp",
+          "width": 960,
+          "height": 247,
+          "bytes": 40510
+        }
+      ]
+    },
+    "images/papers/f1073c01dd38.webp": {
+      "fingerprint": "b8c8125e3ca86612d8a60344e8d9385ce7c21ec3efaa567dacc7bc89f3e4a345",
+      "role": "paper",
+      "original_bytes": 41898,
+      "width": 1201,
+      "height": 220,
+      "variants": [
+        {
+          "path": "images/optimized/b8c8125e3ca86612-480.webp",
+          "width": 480,
+          "height": 88,
+          "bytes": 10636
+        },
+        {
+          "path": "images/optimized/b8c8125e3ca86612-960.webp",
+          "width": 960,
+          "height": 176,
+          "bytes": 29168
+        }
+      ]
+    },
+    "images/papers/f1c14ef3ce4e.png": {
+      "fingerprint": "7b9bd84d0a01bb26291a2a8d82a89ced51c8b01a05667fe5d79d6758593b4a11",
+      "role": "paper",
+      "original_bytes": 51995,
+      "width": 385,
+      "height": 264,
+      "variants": [
+        {
+          "path": "images/optimized/7b9bd84d0a01bb26-385.webp",
+          "width": 385,
+          "height": 264,
+          "bytes": 6910
+        }
+      ]
+    },
+    "images/papers/f24dc861f04b.png": {
+      "fingerprint": "03a5c7e02b79eae825ada1a2202f113666fbba120042b81ef6b03553e03a029c",
+      "role": "paper",
+      "original_bytes": 123911,
+      "width": 1058,
+      "height": 328,
+      "variants": [
+        {
+          "path": "images/optimized/03a5c7e02b79eae8-480.webp",
+          "width": 480,
+          "height": 149,
+          "bytes": 10416
+        },
+        {
+          "path": "images/optimized/03a5c7e02b79eae8-960.webp",
+          "width": 960,
+          "height": 298,
+          "bytes": 24894
+        }
+      ]
+    },
+    "images/papers/f40add804d4a.png": {
+      "fingerprint": "b137cd360ea36991542be7d16d89e70e1327b9dfce67829c973bc4e81d66de1c",
+      "role": "paper",
+      "original_bytes": 53356,
+      "width": 450,
+      "height": 192,
+      "variants": [
+        {
+          "path": "images/optimized/b137cd360ea36991-450.webp",
+          "width": 450,
+          "height": 192,
+          "bytes": 9570
+        }
+      ]
+    },
+    "images/papers/f54dd5cfc9cc.png": {
+      "fingerprint": "7e2deee2eaa36d36b637b4e0dd5b275e69bd5bebcf98a7afff8948c1090b3a6e",
+      "role": "paper",
+      "original_bytes": 83878,
+      "width": 962,
+      "height": 251,
+      "variants": [
+        {
+          "path": "images/optimized/7e2deee2eaa36d36-480.webp",
+          "width": 480,
+          "height": 125,
+          "bytes": 9326
+        },
+        {
+          "path": "images/optimized/7e2deee2eaa36d36-960.webp",
+          "width": 960,
+          "height": 250,
+          "bytes": 23294
+        }
+      ]
+    },
+    "images/papers/f8533ad92a6b.png": {
+      "fingerprint": "f4d8071a6960f4e76ab088781b44098cd295ace555a7800b82a0bdea042e65ab",
+      "role": "paper",
+      "original_bytes": 90021,
+      "width": 1057,
+      "height": 336,
+      "variants": [
+        {
+          "path": "images/optimized/f4d8071a6960f4e7-480.webp",
+          "width": 480,
+          "height": 153,
+          "bytes": 12442
+        },
+        {
+          "path": "images/optimized/f4d8071a6960f4e7-960.webp",
+          "width": 960,
+          "height": 305,
+          "bytes": 32640
+        }
+      ]
+    },
+    "images/papers/f9761157aeab.webp": {
+      "fingerprint": "a99a2795655e74fee5b3e8898ee0fcdc283b684e5ab07ee17c5d40aadbcddecb",
+      "role": "paper",
+      "original_bytes": 51494,
+      "width": 1201,
+      "height": 588,
+      "variants": [
+        {
+          "path": "images/optimized/a99a2795655e74fe-480.webp",
+          "width": 480,
+          "height": 235,
+          "bytes": 15960
+        },
+        {
+          "path": "images/optimized/a99a2795655e74fe-960.webp",
+          "width": 960,
+          "height": 470,
+          "bytes": 39300
+        }
+      ]
+    },
+    "images/papers/f9d5802d97ae.png": {
+      "fingerprint": "5507f8050d9abbb63322ef30806e2f0cb6e5ed00c4a10f0f1fa883db023f70ad",
+      "role": "paper",
+      "original_bytes": 212029,
+      "width": 530,
+      "height": 370,
+      "variants": [
+        {
+          "path": "images/optimized/5507f8050d9abbb6-480.webp",
+          "width": 480,
+          "height": 335,
+          "bytes": 23850
+        },
+        {
+          "path": "images/optimized/5507f8050d9abbb6-530.webp",
+          "width": 530,
+          "height": 370,
+          "bytes": 28842
+        }
+      ]
+    },
+    "images/papers/f9fab994a0bd.png": {
+      "fingerprint": "b44141f792d145234913992a5e0507e310f15408b3deb7c3d5d5a898740a1219",
+      "role": "paper",
+      "original_bytes": 155936,
+      "width": 962,
+      "height": 380,
+      "variants": [
+        {
+          "path": "images/optimized/b44141f792d14523-480.webp",
+          "width": 480,
+          "height": 190,
+          "bytes": 17728
+        },
+        {
+          "path": "images/optimized/b44141f792d14523-960.webp",
+          "width": 960,
+          "height": 379,
+          "bytes": 45756
+        }
+      ]
+    },
+    "images/papers/fba17610e7e7.webp": {
+      "fingerprint": "1b64333b192b593683f8780ac5f2c5f2b52af3cc331fc8bb17775f1dc9ed7393",
+      "role": "paper",
+      "original_bytes": 57140,
+      "width": 769,
+      "height": 363,
+      "variants": [
+        {
+          "path": "images/optimized/1b64333b192b5936-480.webp",
+          "width": 480,
+          "height": 227,
+          "bytes": 28992
+        },
+        {
+          "path": "images/optimized/1b64333b192b5936-769.webp",
+          "width": 769,
+          "height": 363,
+          "bytes": 55714
+        }
+      ]
+    },
+    "images/papers/fd7260ccc572.webp": {
+      "fingerprint": "bf054da1b056500ca030b518a2633ce3abd5be429ae0002613482856879ed628",
+      "role": "paper",
+      "original_bytes": 27448,
+      "width": 761,
+      "height": 650,
+      "variants": [
+        {
+          "path": "images/optimized/bf054da1b056500c-480.webp",
+          "width": 480,
+          "height": 410,
+          "bytes": 15206
+        },
+        {
+          "path": "images/papers/fd7260ccc572.webp",
+          "width": 761,
+          "height": 650,
+          "bytes": 27448
+        }
+      ]
+    },
+    "images/papers/fef51ed39c13.webp": {
+      "fingerprint": "b3da792104536b5c1faacf6ba5932baf2fd90d7bde69be3266d63d1f3008d375",
+      "role": "paper",
+      "original_bytes": 47490,
+      "width": 772,
+      "height": 593,
+      "variants": [
+        {
+          "path": "images/optimized/b3da792104536b5c-480.webp",
+          "width": 480,
+          "height": 369,
+          "bytes": 23468
+        },
+        {
+          "path": "images/optimized/b3da792104536b5c-772.webp",
+          "width": 772,
+          "height": 593,
+          "bytes": 45740
+        }
+      ]
+    },
+    "images/teampic/Hai-Ning.jpg": {
+      "fingerprint": "cfcda14c177080dfdeecbf4b7826b409dbacd82c8e9def2f2d4b8e7a62415247",
+      "role": "portrait",
+      "original_bytes": 1602964,
+      "width": 4160,
+      "height": 4160,
+      "variants": [
+        {
+          "path": "images/optimized/cfcda14c177080df-160.webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 2992
+        },
+        {
+          "path": "images/optimized/cfcda14c177080df-320.webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 7794
+        },
+        {
+          "path": "images/optimized/cfcda14c177080df-640.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 21070
+        }
+      ]
+    },
+    "images/teampic/hongji.png": {
+      "fingerprint": "89824fc9d5f3b9e448eaac338c76f88a77a9eb598b6a7f93f66d9d99182fb3a2",
+      "role": "portrait",
+      "original_bytes": 660096,
+      "width": 1024,
+      "height": 1024,
+      "variants": [
+        {
+          "path": "images/optimized/89824fc9d5f3b9e4-160.webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 2580
+        },
+        {
+          "path": "images/optimized/89824fc9d5f3b9e4-320.webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 6176
+        },
+        {
+          "path": "images/optimized/89824fc9d5f3b9e4-640.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 14272
+        }
+      ]
+    },
+    "images/teampic/jialin.jpg": {
+      "fingerprint": "08500ac15b54817449f578958da283599c8f969f2a674ea524c5fa5e09f3803a",
+      "role": "portrait",
+      "original_bytes": 32398,
+      "width": 600,
+      "height": 600,
+      "variants": [
+        {
+          "path": "images/optimized/08500ac15b548174-160.webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 2558
+        },
+        {
+          "path": "images/optimized/08500ac15b548174-320.webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 6776
+        },
+        {
+          "path": "images/optimized/08500ac15b548174-600.webp",
+          "width": 600,
+          "height": 600,
+          "bytes": 20836
+        }
+      ]
+    },
+    "images/teampic/rongkai.jpg": {
+      "fingerprint": "f60d6df72b59c29e991272eb9d50014e34a78471ff64bd6c964999b8655c3fbd",
+      "role": "portrait",
+      "original_bytes": 15556,
+      "width": 300,
+      "height": 300,
+      "variants": [
+        {
+          "path": "images/optimized/f60d6df72b59c29e-160.webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 3456
+        },
+        {
+          "path": "images/optimized/f60d6df72b59c29e-300.webp",
+          "width": 300,
+          "height": 300,
+          "bytes": 7184
+        }
+      ]
+    },
+    "images/teampic/songchen.jpg": {
+      "fingerprint": "bb113ae451d0d8cd0c40688733bcd693b7abcd0aa4def61d4b71e22d9ed8665e",
+      "role": "portrait",
+      "original_bytes": 153805,
+      "width": 800,
+      "height": 800,
+      "variants": [
+        {
+          "path": "images/optimized/bb113ae451d0d8cd-160.webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 6198
+        },
+        {
+          "path": "images/optimized/bb113ae451d0d8cd-320.webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 16664
+        },
+        {
+          "path": "images/optimized/bb113ae451d0d8cd-640.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 69658
+        }
+      ]
+    },
+    "images/teampic/yushi.jpg": {
+      "fingerprint": "b4d380b4655105fa024995dfad9db78cf73ccc865e657b42f5a609160d263cf0",
+      "role": "portrait",
+      "original_bytes": 52147,
+      "width": 964,
+      "height": 964,
+      "variants": [
+        {
+          "path": "images/optimized/b4d380b4655105fa-160.webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 4382
+        },
+        {
+          "path": "images/optimized/b4d380b4655105fa-320.webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 9352
+        },
+        {
+          "path": "images/optimized/b4d380b4655105fa-640.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 20934
+        }
+      ]
+    },
+    "images/teampic/ziming.png": {
+      "fingerprint": "c19d24ff7058d7bc17183aeced6613e7987dab97c65330b2194157d2bf427e75",
+      "role": "portrait",
+      "original_bytes": 1177689,
+      "width": 1050,
+      "height": 1050,
+      "variants": [
+        {
+          "path": "images/optimized/c19d24ff7058d7bc-160.webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 4306
+        },
+        {
+          "path": "images/optimized/c19d24ff7058d7bc-320.webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 11484
+        },
+        {
+          "path": "images/optimized/c19d24ff7058d7bc-640.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 38990
+        }
+      ]
+    }
+  }
+}

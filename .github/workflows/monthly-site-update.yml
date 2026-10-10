@@ -39,10 +39,11 @@ jobs:
           python scripts/check_publications.py
           python scripts/check_locales.py
           python scripts/check_content.py
+          python scripts/check_images.py
       - name: Commit verified updates
         id: commit
         run: |
-          git add data '*.html'
+          git add data images/optimized '*.html'
           if git diff --cached --quiet; then
             echo 'changed=false' >> "$GITHUB_OUTPUT"
           else

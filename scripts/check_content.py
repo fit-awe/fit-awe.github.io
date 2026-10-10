@@ -17,6 +17,8 @@ source_members=BeautifulSoup((ROOT/'members/index.html').read_text(),'html.parse
 member_names=[c.h4.text for c in source_members.select('.member-card')]
 alumni_count=len(source_members.select('.members-alumni .alumni-list li'))
 collaborators=json.loads((ROOT/'data/international-collaborators.json').read_text())['collaborators']
+image_manifest=ROOT/'data/image-variants.json'
+image_variants=json.loads(image_manifest.read_text())['images'] if image_manifest.exists() else {}
 assert len({c['id'] for c in collaborators})==len(collaborators)
 assert len({author_key(c['name']) for c in collaborators})==len(collaborators)
 ordered_people=ordered_collaborators(collaborators,papers)
@@ -106,7 +108,12 @@ for lang in LANGUAGES:
   assert {'noopener','noreferrer'}.issubset(card.h3.a['rel'])
   assert bool(card.select_one('img'))==bool(person['portrait'])
   if person['portrait']:
-   src=card.img['src'];assert (base/'members'/unquote(urlsplit(src).path)).resolve()==(ROOT/person['portrait']['path']).resolve()
+   src=(base/'members'/unquote(urlsplit(card.img['src']).path)).resolve()
+   source=person['portrait']['path']
+   if card.img.get('data-image-source'):
+    assert card.img['data-image-source']==source
+    assert src in {(ROOT/v['path']).resolve() for v in image_variants[source]['variants']}
+   else:assert src==(ROOT/source).resolve()
    assert card.img['alt']==person['name']
   action=card.select_one('.collaborator-papers')
   assert int(action.bdi.text)==len(joint_publications(person,papers))
