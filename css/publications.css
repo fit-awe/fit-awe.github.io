@@ -27,7 +27,7 @@
 .paper-venue { min-width: 0; font-size: var(--text-body); font-weight: 600; line-height: 1.5; overflow-wrap: anywhere; }
 .venue-year { white-space: nowrap; }
 .paper-card .paper-figure { height: 185px; padding: 0; border: 0; border-radius: 0; }
-.paper-card .paper-title { font-size: 1.375rem; line-height: 1.45; margin-bottom: 6px; }
+.paper-card .paper-title { font-size: 1.25rem; line-height: 1.45; margin-bottom: 6px; }
 .paper-card .paper-authors { margin-bottom: 8px; line-height: 1.65; }
 .paper-card .paper-meta { margin-bottom: 6px; }
 .paper-card .paper-actions { gap: 8px 18px; }
@@ -36,7 +36,7 @@
 .paper-figure:hover { border-color: var(--accent); }
 .paper-content { min-width: 0; overflow-wrap: anywhere; }
 .paper-meta { color: var(--muted); margin: 0 0 10px; font-size: var(--text-caption); line-height: 1.5; }
-.paper-title { font-size: 1.4375rem; text-wrap: pretty; line-height: 1.45; margin: 0 0 10px; font-weight: 600; letter-spacing: -.2px; }
+.paper-title { font-size: 1.3125rem; text-wrap: pretty; line-height: 1.45; margin: 0 0 10px; font-weight: 600; letter-spacing: -.2px; }
 .paper-title a { color: var(--ink); }
 .paper-title a:hover { color: var(--accent); }
 .paper-authors { color: var(--muted); font-size: var(--text-label); line-height: 1.65; margin: 0 0 12px; }
@@ -56,12 +56,12 @@
 #citation-dialog [role='status'] { font-size: var(--text-small); margin: 16px 0 0; }
 .awards-page { padding-top: 32px; }
 .awards-page .page-heading { margin-bottom: 24px; }
-.award-venue { min-width: 0; color: var(--ink); font-size: 1.1875rem; line-height: 1.5; font-weight: 600; overflow-wrap: anywhere; }
-.award-card .award-label { font-size: 1.25rem; line-height: 1.45; letter-spacing: 0; margin: 0 0 3px; }
+.award-venue { min-width: 0; color: var(--ink); font-size: 1.125rem; line-height: 1.5; font-weight: 600; overflow-wrap: anywhere; }
+.award-card .award-label { font-size: 1.1875rem; line-height: 1.45; letter-spacing: 0; margin: 0 0 3px; }
 .award-card .award-label a { color: var(--ink); }
 .award-card .award-label a:hover { color: var(--accent); }
 .award-source-mark { color: var(--muted); font-size: var(--text-caption); font-weight: 400; }
-.award-card .paper-title { font-size: 1.1875rem; line-height: 1.5; font-weight: 400; font-style: italic; letter-spacing: 0; margin: 0; }
+.award-card .paper-title { font-size: 1.125rem; line-height: 1.5; font-weight: 400; font-style: italic; letter-spacing: 0; margin: 0; }
 .award-card .paper-title a { color: var(--muted); }
 .award-card .paper-title a:hover { color: var(--accent); }
 .award-card .award-nomination { border: 0; padding: 0; margin: 0; margin-inline-start: 8px; color: var(--muted); font-size: var(--text-small); font-weight: 500; }
@@ -70,7 +70,7 @@
  .paper-card.no-figure { grid-template-columns: 96px minmax(0, 1fr); }
  .paper-card .paper-figure { height: 124px; }
  .paper-venue { font-size: var(--text-small); }
- .paper-card .paper-title { font-size: 1.25rem; }
+ .paper-card .paper-title { font-size: 1.1875rem; }
 }
 @media (max-width: 719px) {
  .publication-catalog { padding-top: 26px; }
@@ -85,13 +85,13 @@
  .paper-venue { font-size: var(--text-label); }
  .paper-card .paper-figure { width: 100%; height: auto; max-height: 180px; }
  .paper-card .paper-figure img { height: auto; max-height: 180px; }
- .paper-card .paper-title { font-size: 1.25rem; }
+ .paper-card .paper-title { font-size: 1.1875rem; }
  .awards-page { padding-top: 26px; }
  .award-card { grid-template-columns: 1fr; gap: 4px; padding-block: 14px; }
  .award-venue { font-size: var(--text-body); }
- .paper-title { font-size: 1.3125rem; }
+ .paper-title { font-size: 1.25rem; }
  .paper-authors { font-size: var(--text-small); }
  .paper-actions { font-size: var(--text-small); }
- .award-card .award-label { font-size: 1.1875rem; }
+ .award-card .award-label { font-size: 1.125rem; }
  .award-card .paper-title { font-size: var(--text-body); }
 }
