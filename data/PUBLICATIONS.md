@@ -56,11 +56,21 @@ python3 scripts/check_publications.py
 
 ## 研究方向分类
 
-`research-topics.json` 定义论文筛选的六个方向及五种语言名称，`short_labels` 为页面按钮上的精简名称；每篇论文的 `topics` 字段保存可编辑的分类 ID。同一论文可有多个方向，各研究方向的数量因此不能相加作为论文总数。
+`research-topics.json` 定义五个研究方向及五种语言名称，每篇论文的 `topics` 字段保存可编辑的分类 ID。同一论文可有多个方向，各方向数量不能相加作为论文总数。
 
-分类依据论文标题、研究用途及可用摘要作编辑归类，不代表原出版物声明的分类。可访问性涵盖无障碍输入、老年用户、受限场景与晕动症等使用障碍；眼动方向同时涵盖眼动交互与基于眼动数据的研究；Web 3D 仅纳入有明确在线三维场景依据的条目。不明确属于六个方向的历史记录仍保留在全部论文中。
+| 方向 | 分类 ID | 归类范围 |
+| --- | --- | --- |
+| Gaming | `gaming` | 游戏、体感游戏、严肃游戏、游戏化及玩家体验 |
+| Interaction Tech | `interaction-tech` | 交互方法、设备、界面、输入反馈、XR、眼动交互、具身交互与交互可视化 |
+| Text Entry | `text-entry` | 文字／字符输入、键盘、打字、文字选择、编辑与纠错；不把一般阅读、字幕或写作教学算作输入技术 |
+| AI | `ai` | 机器学习、计算机视觉、神经网络、智能体、语言模型及有明确 AI 方法或主题的研究；一般教育“学习”、统计分析、传统优化或个性化不自动等于 AI |
+| Accessibility | `accessibility` | 老年与残障用户、康复、无障碍设计及明确降低使用障碍的方法；免手持输入须结合实际研究动机，普通健康应用不自动归入 |
 
-分类链接采用 `publications/index.html?topic=eye-tracking`，可叠加 `year`、`type`、`q` 参数；刷新、前进后退与语言切换会保持筛选条件。研究方向直接显示在顶部，年份和类型按钮位于“更多筛选”；带有年份或类型参数的链接会自动展开。每组单选，各组组合，保留搜索、数量和清除功能。
+2026-10-16 重新检查 393 条目录记录的题名与主题，结合可用全文和出版方／作者摘要补充人工分类，不代表已逐篇核验全部全文。人工结果直接保存在 `publications.json`；`update_publications.py` 的 `topic_tags()` 仅为新增记录提供初步分类，合并时保留已有人工分类。没有明确对应方向的历史论文继续出现在 All，避免把材料、网络或教学记录强行塞入交互或 AI 类别。
+
+边界核对示例：[AdaptiveVoice 的作者摘要](https://rochester-bear-lab.github.io/publications/2024-adaptivevoice.html)描述组合优化的自适应语音界面，归 Interaction Tech；[3D-PV 的出版方摘要](https://www.sciencedirect.com/science/article/pii/S0957417425024868)描述 3DGS 与语义融合预测方法，归 AI。本地 `Duo Streamers`、`CountingFruit`、`CD-UDepth` 与晕动症预测论文的正文用于核对标题未显式写出 AI 的方法；`Hands-free multi-type character text entry` 与 `Exploration of Hands-free Text Entry Techniques` 的引言明确讨论手／臂功能受限用户，交叉归入 Text Entry、Interaction Tech 与 Accessibility。
+
+分类链接采用 `publications/index.html?topic=text-entry`，可叠加 `year`、`type`、`q` 参数；刷新、前进后退与语言切换会保持筛选条件。旧 `games` 链接转为 `gaming`，旧 `experience`、`eye-tracking`、`web3d` 链接转为 `interaction-tech`；已取消的宽泛 `applications` 链接回到 All，保留其他条件。页面只显示新五类，不再显示 Web 3D。年份和类型按钮位于“更多筛选”；带有年份或类型参数的链接会自动展开。每组单选，各组组合，保留搜索、数量和清除功能。
 
 论文列表按目录年份倒序，同一年内按已知首次在线发表日期从新到旧排序，同时间记录保持原目录顺序，只有年份的记录排在该年已知日期之后。会议或期刊与目录年份合并显示在左侧，不单列年份标题；日期完整值仍保留在数据及屏幕阅读器可读的时间标签中。常见刊名缩写仅用于显示，完整名称和原始数据保留。
 

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-10",
+  "updated": "2026-10-16",
   "sources": {
     "dblp": {
       "profile": "https://dblp.org/pid/55/1198.html",
@@ -50,7 +50,9 @@
       "image": null,
       "pdf": null,
       "oa_pdfs": [],
-      "topics": []
+      "topics": [
+        "ai"
+      ]
     },
     {
       "id": "2565e392e0fb",
@@ -78,7 +80,9 @@
       "image": null,
       "pdf": null,
       "oa_pdfs": [],
-      "topics": []
+      "topics": [
+        "interaction-tech"
+      ]
     },
     {
       "id": "e13602bf8f5b",
@@ -117,8 +121,7 @@
       "pdf": "downloads/publication/papers/95b06474f32388518e81.pdf",
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "applications"
+        "interaction-tech"
       ],
       "pdf_metadata": {
         "path": "downloads/publication/papers/95b06474f32388518e81.pdf",
@@ -159,8 +162,8 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "games",
-        "experience"
+        "gaming",
+        "interaction-tech"
       ]
     },
     {
@@ -203,8 +206,8 @@
         "https://arxiv.org/pdf/2608.14093"
       ],
       "topics": [
-        "experience",
-        "applications"
+        "interaction-tech",
+        "ai"
       ],
       "published_date": "2026-08-14",
       "published_date_source": "https://arxiv.org/abs/2608.14093",
@@ -245,7 +248,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience"
+        "interaction-tech"
       ],
       "published_date": "2026-08",
       "published_date_source": "https://api.crossref.org/works/10.1016%2Fj.visinf.2026.100352",
@@ -290,7 +293,7 @@
       "pdf": "downloads/publication/papers/3e00e48487877cc47054.pdf",
       "oa_pdfs": [],
       "topics": [
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2026-04-13",
       "published_date_source": "https://api.crossref.org/works/10.1145%2F3772363.3798620",
@@ -354,7 +357,7 @@
         "https://arxiv.org/pdf/2603.27585"
       ],
       "topics": [
-        "experience"
+        "interaction-tech"
       ],
       "published_date": "2026-07",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Ftvcg.2026.3677429",
@@ -395,7 +398,8 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience"
+        "interaction-tech",
+        "ai"
       ],
       "published_date": "2026-03-21",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fvrw70859.2026.00072",
@@ -429,7 +433,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience"
+        "interaction-tech"
       ],
       "published_date": "2026-02-18",
       "published_date_source": "https://api.crossref.org/works/10.1080%2F10447318.2026.2623221",
@@ -460,7 +464,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience"
+        "interaction-tech"
       ],
       "published_date": "2026-03-21",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fvrw70859.2026.00233",
@@ -502,7 +506,7 @@
       "pdf": "downloads/publication/papers/fff8506f2a959c070d09.pdf",
       "oa_pdfs": [],
       "topics": [
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2026-03-16",
       "published_date_source": "https://api.crossref.org/works/10.3389%2Ffrvir.2026.1819537",
@@ -552,8 +556,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2026",
       "published_date_source": "https://api.crossref.org/works/10.1016%2Fj.sheji.2026.02.002",
@@ -602,7 +605,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience"
+        "interaction-tech"
       ],
       "published_date": "2026-05",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Ftvcg.2026.3680697",
@@ -657,7 +660,7 @@
         "https://arxiv.org/pdf/2603.26012"
       ],
       "topics": [
-        "experience"
+        "interaction-tech"
       ],
       "published_date": "2026-03-21",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fvr67842.2026.00083",
@@ -715,7 +718,8 @@
         "https://arxiv.org/pdf/2510.13123"
       ],
       "topics": [
-        "experience"
+        "interaction-tech",
+        "ai"
       ],
       "published_date": "2026-08-12",
       "published_date_source": "https://api.crossref.org/works/10.1080%2F10447318.2026.2712140",
@@ -784,7 +788,7 @@
       "pdf": "downloads/publication/papers/8ba08f6bd353699a215a.pdf",
       "oa_pdfs": [],
       "topics": [
-        "experience"
+        "interaction-tech"
       ],
       "published_date": "2026-09",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Ftvcg.2026.3695303",
@@ -849,7 +853,9 @@
       "oa_pdfs": [
         "https://arxiv.org/pdf/2411.00489"
       ],
-      "topics": [],
+      "topics": [
+        "ai"
+      ],
       "published_date": "2026-03",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fjproc.2026.3713201",
       "published_date_basis": "published",
@@ -904,7 +910,7 @@
       "pdf": "downloads/publication/papers/c8d161944dea6c9fef01.pdf",
       "oa_pdfs": [],
       "topics": [
-        "experience"
+        "interaction-tech"
       ],
       "published_date": "2026-04-13",
       "published_date_source": "https://api.crossref.org/works/10.1145%2F3772318.3790579",
@@ -950,7 +956,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2026-05",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Ftvcg.2026.3679885",
@@ -995,7 +1001,7 @@
       "pdf": "downloads/publication/papers/c42d4c980e01dc61f77f.pdf",
       "oa_pdfs": [],
       "topics": [
-        "experience"
+        "interaction-tech"
       ],
       "published_date": "2026-04-13",
       "published_date_source": "https://api.crossref.org/works/10.1145%2F3772318.3790315",
@@ -1035,7 +1041,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience"
+        "interaction-tech"
       ],
       "published_date": "2026-05",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Ftvcg.2026.3680672",
@@ -1067,7 +1073,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "applications"
+        "gaming"
       ],
       "published_date": "2026",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Ftcss.2025.3641787",
@@ -1098,7 +1104,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience"
+        "interaction-tech"
       ],
       "published_date": "2026-05",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Ftvcg.2026.3680737",
@@ -1145,7 +1151,8 @@
         "https://arxiv.org/pdf/2603.21505"
       ],
       "topics": [
-        "experience"
+        "interaction-tech",
+        "ai"
       ],
       "published_date": "2026-03-23",
       "published_date_source": "https://arxiv.org/abs/2603.21505",
@@ -1181,7 +1188,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience",
+        "interaction-tech",
         "accessibility"
       ],
       "published_date": "2026-07",
@@ -1215,9 +1222,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "accessibility",
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2026-04-13",
       "published_date_source": "https://api.crossref.org/works/10.1145%2F3772318.3791389",
@@ -1263,8 +1268,7 @@
       "pdf": "downloads/publication/papers/6d2d9559cfb70552e977.pdf",
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2026-07-13",
       "published_date_source": "https://api.crossref.org/works/10.1145%2F3803784.3816872",
@@ -1309,7 +1313,9 @@
       "image": null,
       "pdf": null,
       "oa_pdfs": [],
-      "topics": [],
+      "topics": [
+        "interaction-tech"
+      ],
       "published_date": "2026-06-05",
       "published_date_source": "https://api.crossref.org/works/10.1080%2F10447318.2026.2670532",
       "published_date_basis": "published-online"
@@ -1340,7 +1346,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience"
+        "interaction-tech"
       ],
       "published_date": "2026-05",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Ftvcg.2026.3679883",
@@ -1375,8 +1381,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "eye-tracking"
+        "interaction-tech"
       ],
       "published_date": "2026-02",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Ftvcg.2025.3622042",
@@ -1409,7 +1414,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience"
+        "interaction-tech"
       ],
       "published_date": "2026-05",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Ftvcg.2026.3679138",
@@ -1453,8 +1458,7 @@
         "https://arxiv.org/pdf/2601.02829"
       ],
       "topics": [
-        "experience",
-        "accessibility"
+        "interaction-tech"
       ],
       "published_date": "2026-01-06",
       "published_date_source": "https://arxiv.org/abs/2601.02829",
@@ -1497,7 +1501,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience"
+        "interaction-tech"
       ],
       "published_date": "2026-10",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Ftvcg.2026.3703476",
@@ -1544,8 +1548,7 @@
         "https://arxiv.org/pdf/2601.20758"
       ],
       "topics": [
-        "experience",
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2026-03-21",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fvr67842.2026.00057",
@@ -1603,7 +1606,8 @@
         "https://arxiv.org/pdf/2603.14449"
       ],
       "topics": [
-        "experience"
+        "interaction-tech",
+        "ai"
       ],
       "published_date": "2026-03-15",
       "published_date_source": "https://arxiv.org/abs/2603.14449",
@@ -1659,7 +1663,7 @@
         "https://arxiv.org/pdf/2601.02805"
       ],
       "topics": [
-        "experience"
+        "interaction-tech"
       ],
       "published_date": "2026-01-06",
       "published_date_source": "https://arxiv.org/abs/2601.02805",
@@ -1720,7 +1724,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience"
+        "interaction-tech"
       ],
       "published_date": "2026-02",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Ftvcg.2025.3634367",
@@ -1759,7 +1763,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2026-06",
       "published_date_source": "https://api.crossref.org/works/10.1016%2Fj.cexr.2026.100159",
@@ -1806,7 +1810,8 @@
         "https://arxiv.org/pdf/2603.21505"
       ],
       "topics": [
-        "experience"
+        "interaction-tech",
+        "ai"
       ],
       "published_date": "2026-03-23",
       "published_date_source": "https://arxiv.org/abs/2603.21505",
@@ -1848,9 +1853,9 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "accessibility",
-        "games"
+        "gaming",
+        "interaction-tech",
+        "accessibility"
       ],
       "published_date": "2026-05",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Ftvcg.2026.3680711",
@@ -1890,7 +1895,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience"
+        "interaction-tech"
       ],
       "published_date": "2025-05",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Ftvcg.2025.3549883",
@@ -1944,8 +1949,7 @@
         "https://arxiv.org/pdf/2408.01775"
       ],
       "topics": [
-        "experience",
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2025-03-10",
       "published_date_source": "https://api.crossref.org/works/10.1007%2Fs12650-025-01058-5",
@@ -1988,7 +1992,9 @@
       },
       "pdf": "downloads/publication/papers/85ac8d50e4756e4aa051.pdf",
       "oa_pdfs": [],
-      "topics": [],
+      "topics": [
+        "ai"
+      ],
       "published_date": "2025-04-23",
       "published_date_source": "https://api.crossref.org/works/10.1007%2Fs10462-025-11233-7",
       "published_date_basis": "published-online",
@@ -2042,7 +2048,8 @@
         "https://arxiv.org/pdf/2510.13123"
       ],
       "topics": [
-        "experience"
+        "interaction-tech",
+        "ai"
       ],
       "published_date": "2025-10-15",
       "published_date_source": "https://arxiv.org/abs/2510.13123",
@@ -2092,7 +2099,7 @@
       "pdf": "downloads/publication/papers/750c7ccef859b6be7c3d.pdf",
       "oa_pdfs": [],
       "topics": [
-        "experience"
+        "interaction-tech"
       ],
       "published_date": "2024-08-20",
       "published_date_source": "https://api.crossref.org/works/10.1007%2Fs12193-024-00438-9",
@@ -2148,8 +2155,7 @@
       "pdf": "downloads/publication/papers/c0ea335e5ab127fd2bff.pdf",
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "applications"
+        "interaction-tech"
       ],
       "pdf_metadata": {
         "path": "downloads/publication/papers/c0ea335e5ab127fd2bff.pdf",
@@ -2195,7 +2201,8 @@
         "https://arxiv.org/pdf/2502.15228"
       ],
       "topics": [
-        "experience"
+        "interaction-tech",
+        "ai"
       ],
       "published_date": "2025-02-21",
       "published_date_source": "https://arxiv.org/abs/2502.15228",
@@ -2240,8 +2247,7 @@
       "pdf": "downloads/publication/papers/3e9012081e0dcc9d2875.pdf",
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2025-04-25",
       "published_date_source": "https://api.crossref.org/works/10.1145%2F3706599.3720121",
@@ -2293,7 +2299,7 @@
       "pdf": "downloads/publication/CD-UDepth Complementary dual-source information fusion for underwater monocular depth estimation.pdf",
       "oa_pdfs": [],
       "topics": [
-        "applications"
+        "ai"
       ],
       "published_date": "2025-06",
       "published_date_source": "https://api.crossref.org/works/10.1016%2Fj.inffus.2025.102961",
@@ -2340,7 +2346,7 @@
         "https://arxiv.org/pdf/2506.01109"
       ],
       "topics": [
-        "applications"
+        "ai"
       ],
       "published_date": "2025-06-01",
       "published_date_source": "https://arxiv.org/abs/2506.01109",
@@ -2397,9 +2403,7 @@
       "pdf": "downloads/publication/papers/ee20f0bdda16076477cf.pdf",
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "applications",
-        "games"
+        "gaming"
       ],
       "published_date": "2025-07",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fmcg.2025.3553207",
@@ -2440,8 +2444,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2025-11-10",
       "published_date_source": "https://api.crossref.org/works/10.1080%2F14606925.2025.2577951",
@@ -2482,7 +2485,8 @@
         "https://arxiv.org/pdf/2502.12297"
       ],
       "topics": [
-        "experience"
+        "interaction-tech",
+        "ai"
       ],
       "published_date": "2025-02-17",
       "published_date_source": "https://arxiv.org/abs/2502.12297",
@@ -2516,7 +2520,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2025-06",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fte.2025.3569558",
@@ -2558,7 +2562,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience"
+        "interaction-tech"
       ],
       "published_date": "2025-09",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Ftvcg.2024.3451491",
@@ -2603,9 +2607,7 @@
       "pdf": "downloads/publication/papers/4e9e9e78f71a5245b965.pdf",
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "web3d",
-        "games"
+        "interaction-tech"
       ],
       "published_date": "2024-07-18",
       "published_date_source": "https://api.crossref.org/works/10.1080%2F10447318.2024.2375700",
@@ -2649,8 +2651,8 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "games"
+        "gaming",
+        "interaction-tech"
       ],
       "published_date": "2025-04-28",
       "published_date_source": "https://api.crossref.org/works/10.1080%2F10447318.2025.2490873",
@@ -2731,8 +2733,7 @@
       "pdf": "downloads/publication/papers/609f91ca4d1a51fb1651.pdf",
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "eye-tracking"
+        "interaction-tech"
       ],
       "published_date": "2025-04-25",
       "published_date_source": "https://api.crossref.org/works/10.1145%2F3706599.3720273",
@@ -2792,8 +2793,7 @@
       "pdf": "downloads/publication/papers/1556d949db523c832e6f.pdf",
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "eye-tracking"
+        "interaction-tech"
       ],
       "published_date": "2025-11",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Ftvcg.2025.3616824",
@@ -2856,8 +2856,7 @@
         "https://arxiv.org/pdf/2510.07184"
       ],
       "topics": [
-        "experience",
-        "eye-tracking"
+        "interaction-tech"
       ],
       "published_date": "2025-10-08",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fismar-adjunct68609.2025.00018",
@@ -2901,8 +2900,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "accessibility"
+        "interaction-tech"
       ]
     },
     {
@@ -2945,8 +2943,8 @@
       "pdf": "downloads/publication/papers/dc034960862aab7b5a01.pdf",
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "games"
+        "gaming",
+        "interaction-tech"
       ],
       "published_date": "2025",
       "published_date_source": "https://api.crossref.org/works/10.5220%2F0013142700003912",
@@ -3003,8 +3001,8 @@
       "pdf": "downloads/publication/papers/b5c4e3668c437ca42a58.pdf",
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "games"
+        "gaming",
+        "interaction-tech"
       ],
       "published_date": "2025-04-25",
       "published_date_source": "https://api.crossref.org/works/10.1145%2F3706599.3721252",
@@ -3055,8 +3053,7 @@
       "pdf": "downloads/publication/iPillowPal Exploring affective gesture-based interactive textile design for long-distance relationship couples.pdf",
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2025-05",
       "published_date_source": "https://api.crossref.org/works/10.1016%2Fj.ijhcs.2025.103466",
@@ -3091,8 +3088,7 @@
       "pdf": "downloads/publication/Learning from neuroscience  integrating users in design processes using brain imaging tools and virtual reality.pdf",
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2025-03-24",
       "published_date_source": "https://api.crossref.org/works/10.1080%2F17508975.2025.2479095",
@@ -3137,7 +3133,7 @@
         "https://arxiv.org/pdf/2503.15936"
       ],
       "topics": [
-        "experience"
+        "interaction-tech"
       ],
       "published_date": "2025-03-08",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fvr59515.2025.00048",
@@ -3176,7 +3172,7 @@
       "pdf": "downloads/publication/Optimizing_Moving_Target_Selection_in_VR_by_Integrating_Proximity-Based_Feedback_Types_and_Modalities.pdf",
       "oa_pdfs": [],
       "topics": [
-        "experience"
+        "interaction-tech"
       ],
       "published_date": "2025-03-08",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fvr59515.2025.00030",
@@ -3215,7 +3211,8 @@
       "pdf": "downloads/publication/Predicting_Ray_Pointer_Landing_Poses_in_VR_Using_Multimodal_LSTM-Based_Neural_Networks.pdf",
       "oa_pdfs": [],
       "topics": [
-        "experience"
+        "interaction-tech",
+        "ai"
       ],
       "published_date": "2025-03-08",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fvr59515.2025.00034",
@@ -3254,8 +3251,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2025-05",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Ftvcg.2025.3549872",
@@ -3310,8 +3306,9 @@
         "https://arxiv.org/pdf/2512.11564"
       ],
       "topics": [
-        "experience",
-        "accessibility"
+        "interaction-tech",
+        "text-entry",
+        "ai"
       ],
       "published_date": "2026-02-05",
       "published_date_source": "https://api.crossref.org/works/10.1145%2F3779232.3779288",
@@ -3368,8 +3365,7 @@
         "https://arxiv.org/pdf/2407.14833"
       ],
       "topics": [
-        "experience",
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2025-01",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Ftvcg.2024.3456368",
@@ -3414,7 +3410,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience"
+        "interaction-tech"
       ],
       "published_date": "2025-08",
       "published_date_source": "https://api.crossref.org/works/10.1016%2Fj.cag.2025.104265",
@@ -3456,8 +3452,7 @@
       "pdf": "downloads/publication/papers/c3f2d54899dabcaf2802.pdf",
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "accessibility"
+        "interaction-tech"
       ],
       "published_date": "2025",
       "published_date_source": "https://api.crossref.org/works/10.5220%2F0013317000003912",
@@ -3515,7 +3510,7 @@
         "https://dl.acm.org/doi/pdf/10.1145/3756884.3766023"
       ],
       "topics": [
-        "experience"
+        "interaction-tech"
       ],
       "published_date": "2025-12-04",
       "published_date_source": "https://api.crossref.org/works/10.1145%2F3756884.3766023",
@@ -3556,9 +3551,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "web3d",
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2025-07-02",
       "published_date_source": "https://api.crossref.org/works/10.1007%2F978-3-031-61018-9_6",
@@ -3599,7 +3592,8 @@
       "pdf": "downloads/publication/VisualCodeMOOC A course platform for algorithms and data structures.pdf",
       "oa_pdfs": [],
       "topics": [
-        "applications"
+        "interaction-tech",
+        "ai"
       ]
     },
     {
@@ -3630,9 +3624,8 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "applications",
-        "games"
+        "gaming",
+        "interaction-tech"
       ],
       "published_date": "2025-10-08",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fismar-adjunct68609.2025.00134",
@@ -3670,8 +3663,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2024-05-11",
       "published_date_source": "https://api.crossref.org/works/10.1145%2F3613904.3642876",
@@ -3712,8 +3704,8 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "applications"
+        "interaction-tech",
+        "text-entry"
       ],
       "published_date": "2024-11",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Ftvcg.2024.3456195",
@@ -3763,8 +3755,8 @@
       "pdf": "downloads/publication/papers/b7618c2370cd984f7d68.pdf",
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "games"
+        "gaming",
+        "interaction-tech"
       ],
       "published_date": "2024-05",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Ftvcg.2024.3372114",
@@ -3815,7 +3807,7 @@
         "https://dl.acm.org/doi/pdf/10.1145/3680533.3697068"
       ],
       "topics": [
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2024-11-22",
       "published_date_source": "https://api.crossref.org/works/10.1145%2F3680533.3697068",
@@ -3867,7 +3859,7 @@
         "https://link.springer.com/content/pdf/10.1007/s00779-024-01813-9.pdf"
       ],
       "topics": [
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2024-05-21",
       "published_date_source": "https://api.crossref.org/works/10.1007%2Fs00779-024-01813-9",
@@ -3914,8 +3906,7 @@
       "pdf": "downloads/publication/papers/bf56b5efe6723f4f2b94.pdf",
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2024-03-16",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fvrw62533.2024.00333",
@@ -3977,7 +3968,7 @@
         "https://link.springer.com/content/pdf/10.1007/s10209-022-00947-y.pdf"
       ],
       "topics": [
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2022-11-15",
       "published_date_source": "https://api.crossref.org/works/10.1007%2Fs10209-022-00947-y",
@@ -4035,7 +4026,7 @@
       "pdf": "downloads/publication/papers/4c4c10e3d8246ba33f16.pdf",
       "oa_pdfs": [],
       "topics": [
-        "applications"
+        "interaction-tech"
       ],
       "pdf_metadata": {
         "path": "downloads/publication/papers/4c4c10e3d8246ba33f16.pdf",
@@ -4088,8 +4079,7 @@
         "https://arxiv.org/pdf/2403.06891"
       ],
       "topics": [
-        "experience",
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2024-05-11",
       "published_date_source": "https://api.crossref.org/works/10.1145%2F3613904.3642740",
@@ -4138,7 +4128,8 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "applications"
+        "interaction-tech",
+        "ai"
       ],
       "published_date": "2024-07-25",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Ficscc62041.2024.10690613",
@@ -4179,7 +4170,8 @@
       "pdf": "downloads/publication/papers/c6c5c70dce7332378686.pdf",
       "oa_pdfs": [],
       "topics": [
-        "experience"
+        "interaction-tech",
+        "text-entry"
       ],
       "published_date": "2024-09",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Ftvcg.2024.3349428",
@@ -4229,7 +4221,8 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience"
+        "interaction-tech",
+        "text-entry"
       ],
       "published_date": "2024-10-21",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fismar62088.2024.00049",
@@ -4263,7 +4256,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2023-10-31",
       "published_date_source": "https://api.crossref.org/works/10.1007%2F978-3-031-47328-9_19",
@@ -4300,7 +4293,7 @@
         "https://dl.acm.org/doi/pdf/10.1145/3613905.3650925"
       ],
       "topics": [
-        "experience"
+        "interaction-tech"
       ],
       "published_date": "2024-05-11",
       "published_date_source": "https://api.crossref.org/works/10.1145%2F3613905.3650925",
@@ -4368,8 +4361,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2024-04-11",
       "published_date_source": "https://api.crossref.org/works/10.1007%2Fs00779-024-01793-w",
@@ -4409,7 +4401,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience"
+        "interaction-tech"
       ],
       "published_date": "2023-12-11",
       "published_date_source": "https://api.crossref.org/works/10.1080%2F10447318.2023.2290382",
@@ -4445,8 +4437,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2023-03-08",
       "published_date_source": "https://api.crossref.org/works/10.1007%2Fs10209-023-00985-0",
@@ -4494,7 +4485,7 @@
         "https://arxiv.org/pdf/2408.07470"
       ],
       "topics": [
-        "experience"
+        "interaction-tech"
       ],
       "published_date": "2024-10-21",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fismar62088.2024.00038",
@@ -4549,7 +4540,7 @@
         "https://arxiv.org/pdf/2409.00982"
       ],
       "topics": [
-        "experience"
+        "interaction-tech"
       ],
       "published_date": "2024-10-24",
       "published_date_source": "https://api.crossref.org/works/10.1145%2F3698129",
@@ -4601,8 +4592,7 @@
       "pdf": "downloads/publication/papers/7fb4cf4fa8f3f4195ee6.pdf",
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2024-09",
       "published_date_source": "https://api.crossref.org/works/10.1016%2Fj.displa.2024.102781",
@@ -4651,8 +4641,8 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "accessibility"
+        "interaction-tech",
+        "text-entry"
       ]
     },
     {
@@ -4688,7 +4678,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience"
+        "interaction-tech"
       ],
       "published_date": "2024-11",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Ftvcg.2024.3456166",
@@ -4734,7 +4724,8 @@
       "pdf": "downloads/publication/papers/73ad57f13dbe272770d2.pdf",
       "oa_pdfs": [],
       "topics": [
-        "experience"
+        "interaction-tech",
+        "text-entry"
       ],
       "published_date": "2024-03-16",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fvr58804.2024.00047",
@@ -4783,8 +4774,7 @@
       "pdf": "downloads/publication/papers/e70a170763e2c88d21f9.pdf",
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2024-05-11",
       "published_date_source": "https://api.crossref.org/works/10.1145%2F3613905.3650777",
@@ -4837,9 +4827,7 @@
       "pdf": "downloads/publication/papers/d50d492dc981a92c9b9f.pdf",
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "accessibility",
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2024-01",
       "published_date_source": "https://api.crossref.org/works/10.1016%2Fj.ijhcs.2023.103146",
@@ -4891,8 +4879,8 @@
         "https://www.open-access.bcu.ac.uk/15132/1/BCU_blocktower.pdf"
       ],
       "topics": [
-        "experience",
-        "games"
+        "gaming",
+        "interaction-tech"
       ],
       "published_date": "2024",
       "published_date_source": "https://api.crossref.org/works/10.5220%2F0012469000003660",
@@ -4943,7 +4931,7 @@
       "pdf": "downloads/publication/papers/d79465d189d321203750.pdf",
       "oa_pdfs": [],
       "topics": [
-        "experience"
+        "interaction-tech"
       ],
       "published_date": "2024-10-21",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fismar62088.2024.00065",
@@ -5001,8 +4989,8 @@
         "https://arxiv.org/pdf/2408.07468"
       ],
       "topics": [
-        "experience",
-        "games"
+        "gaming",
+        "interaction-tech"
       ],
       "published_date": "2024-10-21",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fismar62088.2024.00037",
@@ -5060,8 +5048,7 @@
       "pdf": "downloads/publication/papers/84fa130fa301144c9df2.pdf",
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2023-03-07",
       "published_date_source": "https://api.crossref.org/works/10.1080%2F0144929x.2023.2186145",
@@ -5111,7 +5098,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2024-05-09",
       "published_date_source": "https://api.crossref.org/works/10.1007%2Fs00779-024-01799-4",
@@ -5161,7 +5148,7 @@
       "pdf": "downloads/publication/papers/9a80ce6ae35eb2c21471.pdf",
       "oa_pdfs": [],
       "topics": [
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2024-01",
       "published_date_source": "https://api.crossref.org/works/10.1016%2Fj.ijhcs.2023.103137",
@@ -5216,7 +5203,8 @@
         "https://www.open-access.bcu.ac.uk/14877/1/Hands_free_Multi_Type_Character_Text_Entry_for_in_VR.pdf"
       ],
       "topics": [
-        "experience",
+        "interaction-tech",
+        "text-entry",
         "accessibility"
       ],
       "published_date": "2024-01-03",
@@ -5269,7 +5257,7 @@
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC11483284/pdf/main.pdf"
       ],
       "topics": [
-        "applications"
+        "ai"
       ],
       "published_date": "2024-10",
       "published_date_source": "https://api.crossref.org/works/10.1016%2Fj.heliyon.2024.e38410",
@@ -5308,8 +5296,8 @@
         "https://dl.acm.org/doi/pdf/10.1145/3651296"
       ],
       "topics": [
-        "experience",
-        "games"
+        "gaming",
+        "interaction-tech"
       ],
       "published_date": "2024-05-13",
       "published_date_source": "https://api.crossref.org/works/10.1145%2F3651296",
@@ -5367,7 +5355,7 @@
       "pdf": "downloads/publication/papers/42a4373f32e7524defc2.pdf",
       "oa_pdfs": [],
       "topics": [
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2021-09-11",
       "published_date_source": "https://api.crossref.org/works/10.1080%2F0144929x.2021.1975821",
@@ -5424,7 +5412,7 @@
         "https://www.repository.cam.ac.uk/bitstreams/ef1ceb10-3bc5-4ac3-9091-a94b1cca50d7/download"
       ],
       "topics": [
-        "experience"
+        "interaction-tech"
       ],
       "published_date": "2024-10-24",
       "published_date_source": "https://api.crossref.org/works/10.1145%2F3698136",
@@ -5471,8 +5459,7 @@
       "pdf": "downloads/publication/papers/3c17ec23a0f519a72153.pdf",
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2024-03-16",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fvr58804.2024.00107",
@@ -5524,8 +5511,7 @@
       "pdf": "downloads/publication/papers/6294bf0946dc15c6dc0c.pdf",
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2024-03-16",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fvrw62533.2024.00307",
@@ -5592,7 +5578,7 @@
         "https://arxiv.org/pdf/2308.03616"
       ],
       "topics": [
-        "experience"
+        "interaction-tech"
       ],
       "published_date": "2023",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Ftvcg.2023.3326517",
@@ -5642,8 +5628,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "accessibility"
+        "interaction-tech"
       ],
       "published_date": "2024-05",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Ftvcg.2024.3372127",
@@ -5682,7 +5667,8 @@
       "pdf": "downloads/publication/papers/20f627d973468380d267.pdf",
       "oa_pdfs": [],
       "topics": [
-        "experience"
+        "interaction-tech",
+        "text-entry"
       ],
       "published_date": "2024-10-07",
       "published_date_source": "https://api.crossref.org/works/10.1145%2F3677386.3682084",
@@ -5729,7 +5715,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience"
+        "interaction-tech"
       ],
       "published_date": "2024-06-01",
       "published_date_source": "https://api.crossref.org/works/10.1007%2F978-3-031-60913-8_7",
@@ -5768,8 +5754,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2023-06-12",
       "published_date_source": "https://api.crossref.org/works/10.1080%2F10447318.2023.2217608",
@@ -5802,7 +5787,7 @@
         "https://link.springer.com/content/pdf/10.1007/s00779-024-01828-2.pdf"
       ],
       "topics": [
-        "experience"
+        "interaction-tech"
       ],
       "published_date": "2024-08-13",
       "published_date_source": "https://api.crossref.org/works/10.1007%2Fs00779-024-01828-2",
@@ -5848,7 +5833,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience"
+        "interaction-tech"
       ],
       "published_date": "2024-07",
       "published_date_source": "https://api.crossref.org/works/10.1145%2F3643834.3661627",
@@ -5888,7 +5873,8 @@
       "pdf": "downloads/publication/papers/c93f22b2e62a0886b7ce.pdf",
       "oa_pdfs": [],
       "topics": [
-        "applications"
+        "interaction-tech",
+        "ai"
       ],
       "published_date": "2025-11",
       "published_date_source": "https://api.crossref.org/works/10.1016%2Fj.bdr.2025.100570",
@@ -5940,9 +5926,8 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "accessibility",
-        "applications"
+        "interaction-tech",
+        "accessibility"
       ],
       "published_date": "2024-11",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Ftvcg.2024.3456173",
@@ -5979,9 +5964,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "applications",
-        "games"
+        "gaming"
       ],
       "published_date": "2024-08-01",
       "published_date_source": "https://api.crossref.org/works/10.1089%2Fg4h.2023.0174",
@@ -6019,8 +6002,7 @@
       "pdf": "downloads/publication/papers/ec2eabec987bb3fb473e.pdf",
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2024-10-21",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fismar62088.2024.00078",
@@ -6068,7 +6050,8 @@
       "pdf": "downloads/publication/Virtual reality analytics map (VRAM) A conceptual framework for.pdf",
       "oa_pdfs": [],
       "topics": [
-        "applications"
+        "interaction-tech",
+        "ai"
       ],
       "published_date": "2025-01",
       "published_date_source": "https://api.crossref.org/works/10.1016%2Fj.newideapsych.2024.101127",
@@ -6103,8 +6086,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "applications"
+        "interaction-tech"
       ]
     },
     {
@@ -6143,7 +6125,7 @@
         "https://www.frontiersin.org/journals/virtual-reality/articles/10.3389/frvir.2024.1230885/pdf"
       ],
       "topics": [
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2024-10-07",
       "published_date_source": "https://api.crossref.org/works/10.3389%2Ffrvir.2024.1230885",
@@ -6200,8 +6182,7 @@
         "https://arxiv.org/pdf/2402.05798"
       ],
       "topics": [
-        "experience",
-        "applications"
+        "interaction-tech"
       ],
       "pdf_metadata": {
         "path": "downloads/publication/papers/fd1c334df676fedbe599.pdf",
@@ -6258,7 +6239,7 @@
         "https://eprints.bournemouth.ac.uk/38859/1/toTVC_CGI23_.pdf"
       ],
       "topics": [
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2023-06-30",
       "published_date_source": "https://api.crossref.org/works/10.1007%2Fs00371-023-02964-1",
@@ -6316,7 +6297,7 @@
       "pdf": "downloads/publication/papers/9b84b77c72075002967b.pdf",
       "oa_pdfs": [],
       "topics": [
-        "experience"
+        "interaction-tech"
       ],
       "published_date": "2022-11-03",
       "published_date_source": "https://api.crossref.org/works/10.1007%2Fs12650-022-00888-x",
@@ -6376,8 +6357,7 @@
       "pdf": "downloads/publication/papers/0cb11d7633b110848672.pdf",
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2023-04",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fpacificvis56936.2023.00009",
@@ -6424,7 +6404,9 @@
       "oa_pdfs": [
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC10070385/pdf/main.pdf"
       ],
-      "topics": [],
+      "topics": [
+        "ai"
+      ],
       "published_date": "2023-04",
       "published_date_source": "https://api.crossref.org/works/10.1016%2Fj.heliyon.2023.e14558",
       "published_date_basis": "published"
@@ -6471,10 +6453,9 @@
       "pdf": "downloads/publication/papers/7139ad93eb362b65837e.pdf",
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "accessibility",
-        "applications",
-        "games"
+        "gaming",
+        "interaction-tech",
+        "accessibility"
       ],
       "published_date": "2022-07-27",
       "published_date_source": "https://api.crossref.org/works/10.1080%2F10447318.2022.2098559",
@@ -6540,8 +6521,8 @@
         "https://arxiv.org/pdf/2309.03522"
       ],
       "topics": [
-        "experience",
-        "games"
+        "gaming",
+        "interaction-tech"
       ],
       "published_date": "2023-10-16",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fismar-adjunct60411.2023.00185",
@@ -6598,7 +6579,7 @@
         "https://dl.acm.org/doi/pdf/10.1145/3629606.3629614"
       ],
       "topics": [
-        "experience"
+        "interaction-tech"
       ],
       "published_date": "2024-02-27",
       "published_date_source": "https://api.crossref.org/works/10.1145%2F3629606.3629614",
@@ -6641,7 +6622,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2023-05-12",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Ficvr57957.2023.10169785",
@@ -6696,10 +6677,9 @@
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC10009836/pdf/10055_2023_Article_780.pdf"
       ],
       "topics": [
-        "experience",
-        "accessibility",
-        "applications",
-        "games"
+        "gaming",
+        "interaction-tech",
+        "accessibility"
       ],
       "published_date": "2023-03-13",
       "published_date_source": "https://api.crossref.org/works/10.1007%2Fs10055-023-00780-5",
@@ -6755,7 +6735,7 @@
       "pdf": "downloads/publication/papers/a937c3058d48b1cc51ca.pdf",
       "oa_pdfs": [],
       "topics": [
-        "experience"
+        "interaction-tech"
       ],
       "published_date": "2023-10-16",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fismar59233.2023.00091",
@@ -6800,7 +6780,7 @@
         "https://dl.acm.org/doi/pdf/10.1145/3610543.3626175"
       ],
       "topics": [
-        "experience"
+        "interaction-tech"
       ],
       "published_date": "2023-11-28",
       "published_date_source": "https://api.crossref.org/works/10.1145%2F3610543.3626175",
@@ -6849,8 +6829,8 @@
       "pdf": "downloads/publication/papers/e25a399d799942ea030f.pdf",
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "applications"
+        "interaction-tech",
+        "accessibility"
       ],
       "published_date": "2023-10-16",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fismar-adjunct60411.2023.00180",
@@ -6906,8 +6886,7 @@
       "pdf": "downloads/publication/papers/e9e61e61cba5e9f3ddbb.pdf",
       "oa_pdfs": [],
       "topics": [
-        "applications",
-        "games"
+        "gaming"
       ],
       "published_date": "2023-12-23",
       "published_date_source": "https://api.crossref.org/works/10.1007%2F978-3-031-49368-3_12",
@@ -6965,8 +6944,7 @@
       "pdf": "downloads/publication/papers/3827bd148b4db47705c0.pdf",
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2022-10-13",
       "published_date_source": "https://api.crossref.org/works/10.1007%2Fs12650-022-00889-w",
@@ -7013,8 +6991,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "accessibility"
+        "interaction-tech"
       ],
       "published_date": "2023-05",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Ftvcg.2023.3247057",
@@ -7044,7 +7021,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience"
+        "interaction-tech"
       ],
       "published_date": "2023-12-15",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fceii60565.2023.00013",
@@ -7097,7 +7074,7 @@
         "https://arxiv.org/pdf/2308.12515"
       ],
       "topics": [
-        "experience"
+        "interaction-tech"
       ],
       "published_date": "2023-10-16",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fismar-adjunct60411.2023.00132",
@@ -7156,7 +7133,7 @@
         "https://dl.acm.org/doi/pdf/10.1145/3544549.3585615"
       ],
       "topics": [
-        "experience"
+        "interaction-tech"
       ],
       "published_date": "2023-04-19",
       "published_date_source": "https://api.crossref.org/works/10.1145%2F3544549.3585615",
@@ -7202,8 +7179,7 @@
         "https://dl.acm.org/doi/pdf/10.1145/3591129"
       ],
       "topics": [
-        "experience",
-        "eye-tracking"
+        "interaction-tech"
       ],
       "published_date": "2023-05-18",
       "published_date_source": "https://api.crossref.org/works/10.1145%2F3591129",
@@ -7235,8 +7211,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "accessibility"
+        "interaction-tech"
       ]
     },
     {
@@ -7273,8 +7248,8 @@
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC10233149/pdf/fpsyg-14-1079132.pdf"
       ],
       "topics": [
-        "experience",
-        "games"
+        "gaming",
+        "interaction-tech"
       ]
     },
     {
@@ -7303,7 +7278,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2023-11-24",
       "published_date_source": "https://api.crossref.org/works/10.1007%2F978-981-99-8385-8_9",
@@ -7342,7 +7317,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2023",
       "published_date_source": "https://api.crossref.org/works/10.2139%2Fssrn.4361223",
@@ -7388,7 +7363,7 @@
       "pdf": "downloads/publication/papers/62fa6a422483512761c2.pdf",
       "oa_pdfs": [],
       "topics": [
-        "experience"
+        "interaction-tech"
       ],
       "published_date": "2023-03",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fvrw58643.2023.00279",
@@ -7445,8 +7420,7 @@
       "pdf": "downloads/publication/papers/416a81982831b7af2890.pdf",
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2023-10-16",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fismar-adjunct60411.2023.00030",
@@ -7497,8 +7471,7 @@
         "https://mental.jmir.org/2023/1/e47617/PDF"
       ],
       "topics": [
-        "experience",
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2023-10-02",
       "published_date_source": "https://api.crossref.org/works/10.2196%2F47617",
@@ -7532,8 +7505,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2023-03-27",
       "published_date_source": "https://api.crossref.org/works/10.2196%2Fpreprints.47617",
@@ -7578,7 +7550,7 @@
       "pdf": "downloads/publication/papers/eba457b37d043f3160e2.pdf",
       "oa_pdfs": [],
       "topics": [
-        "experience"
+        "interaction-tech"
       ],
       "published_date": "2023-10-16",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fismar59233.2023.00056",
@@ -7638,8 +7610,7 @@
         "https://link.springer.com/content/pdf/10.1007/s00371-023-02976-x.pdf"
       ],
       "topics": [
-        "experience",
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2023-07-11",
       "published_date_source": "https://api.crossref.org/works/10.1007%2Fs00371-023-02976-x",
@@ -7699,7 +7670,7 @@
         "https://eprints.bournemouth.ac.uk/38858/1/IEEEVR23_MRMSim_Poster_cameraready.pdf"
       ],
       "topics": [
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2023-03",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fvrw58643.2023.00207",
@@ -7760,8 +7731,7 @@
         "https://dl.acm.org/doi/pdf/10.1145/3544548.3581042"
       ],
       "topics": [
-        "experience",
-        "eye-tracking"
+        "interaction-tech"
       ],
       "published_date": "2023-04-19",
       "published_date_source": "https://api.crossref.org/works/10.1145%2F3544548.3581042",
@@ -7819,10 +7789,9 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "accessibility",
-        "games",
-        "eye-tracking"
+        "gaming",
+        "interaction-tech",
+        "ai"
       ],
       "pdf_url": "https://xuwenge.github.io/pdf/22/VR_sickness.pdf",
       "pdf_metadata": {
@@ -7860,7 +7829,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2023-03",
       "published_date_source": "https://api.crossref.org/works/10.1016%2Fj.ijhcs.2022.102967",
@@ -7893,9 +7862,8 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "accessibility",
-        "applications"
+        "interaction-tech",
+        "accessibility"
       ],
       "published_date": "2023-04-01",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Ftvcg.2022.3142198",
@@ -7949,7 +7917,9 @@
         "https://nottingham-repository.worktribe.com/file/19788916/1/CHI%20HCI%20Economics%20CSCW%20Work%20China%20Crowd%20Crowdsourcing%20Tasks%20Design%20Social%20Group%20Alan%20Chamberlain",
         "https://openaccess.city.ac.uk/id/eprint/31009/1/CHI23%20Accepted%20Version.pdf"
       ],
-      "topics": [],
+      "topics": [
+        "interaction-tech"
+      ],
       "published_date": "2023-04-19",
       "published_date_source": "https://api.crossref.org/works/10.1145%2F3544548.3581418",
       "published_date_basis": "published-online",
@@ -8003,7 +7973,7 @@
       "pdf": "downloads/publication/papers/fa6b8fd00abee0f1b27d.pdf",
       "oa_pdfs": [],
       "topics": [
-        "experience"
+        "interaction-tech"
       ],
       "published_date": "2023-03",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fvrw58643.2023.00220",
@@ -8052,8 +8022,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "eye-tracking"
+        "interaction-tech"
       ],
       "published_date": "2023-03-02",
       "published_date_source": "https://api.crossref.org/works/10.1017%2Fs0890060423000045",
@@ -8086,7 +8055,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2023-09-15",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Ficet59358.2023.10424148",
@@ -8119,7 +8088,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2023-08-21",
       "published_date_source": "https://api.crossref.org/works/10.1007%2Fs10055-023-00847-3",
@@ -8174,8 +8143,8 @@
         "https://arxiv.org/pdf/2310.14867"
       ],
       "topics": [
-        "experience",
-        "games"
+        "gaming",
+        "interaction-tech"
       ],
       "published_date": "2023-10-16",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fismar59233.2023.00077",
@@ -8218,7 +8187,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience"
+        "interaction-tech"
       ],
       "published_date": "2023-03",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fvrw58643.2023.00069",
@@ -8253,7 +8222,7 @@
         "https://dl.acm.org/doi/pdf/10.1145/3574131.3574439"
       ],
       "topics": [
-        "experience"
+        "interaction-tech"
       ],
       "published_date": "2023-01-13",
       "published_date_source": "https://api.crossref.org/works/10.1145%2F3574131.3574439",
@@ -8305,8 +8274,8 @@
         "https://arxiv.org/pdf/2209.06825"
       ],
       "topics": [
-        "experience",
-        "accessibility"
+        "interaction-tech",
+        "text-entry"
       ],
       "pdf_metadata": {
         "path": "downloads/publication/papers/5212694f37ef82531394.pdf",
@@ -8368,7 +8337,7 @@
         "https://arxiv.org/pdf/2208.11294"
       ],
       "topics": [
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2022-10-04",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fimet54801.2022.9929783",
@@ -8426,7 +8395,7 @@
       "pdf": "downloads/publication/papers/d7048ac23b0095e7ca1b.pdf",
       "oa_pdfs": [],
       "topics": [
-        "applications"
+        "interaction-tech"
       ],
       "pdf_metadata": {
         "path": "downloads/publication/papers/d7048ac23b0095e7ca1b.pdf",
@@ -8469,7 +8438,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience"
+        "interaction-tech"
       ],
       "published_date": "2022-11-07",
       "published_date_source": "https://api.crossref.org/works/10.1145%2F3536221.3556586",
@@ -8505,8 +8474,7 @@
         "https://www.frontiersin.org/articles/10.3389/frvir.2022.1025054/pdf"
       ],
       "topics": [
-        "experience",
-        "accessibility"
+        "interaction-tech"
       ],
       "published_date": "2022-10-07",
       "published_date_source": "https://api.crossref.org/works/10.3389%2Ffrvir.2022.1025054",
@@ -8555,7 +8523,7 @@
         "https://www.frontiersin.org/articles/10.3389/frvir.2022.838036/pdf"
       ],
       "topics": [
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2022-02-03",
       "published_date_source": "https://api.crossref.org/works/10.3389%2Ffrvir.2022.838036",
@@ -8618,9 +8586,8 @@
         "https://arxiv.org/pdf/2203.12294"
       ],
       "topics": [
-        "experience",
-        "accessibility",
-        "games"
+        "gaming",
+        "interaction-tech"
       ],
       "published_date": "2022-05-04",
       "published_date_source": "https://api.crossref.org/works/10.1145%2F3522610",
@@ -8685,7 +8652,8 @@
         "https://arxiv.org/pdf/2209.06498"
       ],
       "topics": [
-        "experience"
+        "interaction-tech",
+        "text-entry"
       ],
       "published_date": "2022-10",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fismar55827.2022.00027",
@@ -8749,7 +8717,7 @@
         "https://www.frontiersin.org/articles/10.3389/frvir.2022.1056782/pdf"
       ],
       "topics": [
-        "experience"
+        "interaction-tech"
       ],
       "pdf_metadata": {
         "path": "downloads/publication/papers/5f2c9fb415d488006010.pdf",
@@ -8812,7 +8780,8 @@
         "https://arxiv.org/pdf/2212.14336"
       ],
       "topics": [
-        "experience"
+        "interaction-tech",
+        "text-entry"
       ],
       "published_date": "2023-01-13",
       "published_date_source": "https://api.crossref.org/works/10.1145%2F3574131.3574459",
@@ -8854,8 +8823,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "applications",
-        "games"
+        "gaming"
       ],
       "published_date": "2022-11-03",
       "published_date_source": "https://api.crossref.org/works/10.1089%2Fg4h.2022.0199",
@@ -8887,7 +8855,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience"
+        "interaction-tech"
       ],
       "published_date": "2022-06-17",
       "published_date_source": "https://api.crossref.org/works/10.1145%2F3534522",
@@ -8932,7 +8900,7 @@
       "pdf": "downloads/publication/papers/9a401278f0e86f2152d0.pdf",
       "oa_pdfs": [],
       "topics": [
-        "experience"
+        "interaction-tech"
       ],
       "published_date": "2022-12",
       "published_date_source": "https://api.crossref.org/works/10.1145%2F3565970.3567682",
@@ -8988,7 +8956,7 @@
       "pdf": "downloads/publication/papers/b2e16a18f79b2a3b812d.pdf",
       "oa_pdfs": [],
       "topics": [
-        "experience"
+        "interaction-tech"
       ],
       "published_date": "2022-12",
       "published_date_source": "https://api.crossref.org/works/10.1145%2F3565970.3567702",
@@ -9053,8 +9021,7 @@
         "https://arxiv.org/pdf/2201.03036"
       ],
       "topics": [
-        "experience",
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2022-01-01",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Ftoh.2021.3138590",
@@ -9112,7 +9079,7 @@
       "pdf": "downloads/publication/papers/83fe7358700f98bd16ca.pdf",
       "oa_pdfs": [],
       "topics": [
-        "experience"
+        "interaction-tech"
       ],
       "published_date": "2022-10",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fismar-adjunct57072.2022.00031",
@@ -9176,7 +9143,9 @@
       "oa_pdfs": [
         "https://arxiv.org/pdf/2202.08498"
       ],
-      "topics": [],
+      "topics": [
+        "ai"
+      ],
       "published_date": "2022-09-07",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Ficfsp55781.2022.9925001",
       "published_date_basis": "published",
@@ -9232,7 +9201,9 @@
       "oa_pdfs": [
         "https://arxiv.org/pdf/2202.08498"
       ],
-      "topics": [],
+      "topics": [
+        "ai"
+      ],
       "published_date": "2022-02-17",
       "published_date_source": "https://arxiv.org/abs/2202.08498",
       "published_date_basis": "first-submission",
@@ -9276,9 +9247,8 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "accessibility",
-        "games"
+        "gaming",
+        "interaction-tech"
       ],
       "published_date": "2022-03",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fvrw55335.2022.00122",
@@ -9324,9 +9294,7 @@
       "oa_pdfs": [
         "https://arxiv.org/pdf/2211.03690"
       ],
-      "topics": [
-        "applications"
-      ],
+      "topics": [],
       "published_date": "2022-11-07",
       "published_date_source": "https://arxiv.org/abs/2211.03690",
       "published_date_basis": "first-submission",
@@ -9383,7 +9351,7 @@
       "pdf": "downloads/publication/papers/bca190c643af1565c440.pdf",
       "oa_pdfs": [],
       "topics": [
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2023-01-13",
       "published_date_source": "https://api.crossref.org/works/10.1145%2F3574131.3574432",
@@ -9429,8 +9397,8 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "applications",
-        "games"
+        "gaming",
+        "interaction-tech"
       ],
       "published_date": "2022-12-01",
       "published_date_source": "https://api.crossref.org/works/10.1089%2Fg4h.2021.0227",
@@ -9466,8 +9434,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2022-05-26",
       "published_date_source": "https://api.crossref.org/works/10.1145%2F3532530.3532546",
@@ -9514,8 +9481,7 @@
       "pdf": "downloads/publication/papers/a5497f1a87661f753ba7.pdf",
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2022-10",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fismar-adjunct57072.2022.00095",
@@ -9581,7 +9547,7 @@
         "https://arxiv.org/pdf/2201.07078"
       ],
       "topics": [
-        "experience"
+        "interaction-tech"
       ],
       "published_date": "2022-03-21",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fhaptics52432.2022.9765609",
@@ -9625,7 +9591,8 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "applications"
+        "interaction-tech",
+        "ai"
       ],
       "published_date": "2022-10",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fismar-adjunct57072.2022.00011",
@@ -9678,9 +9645,9 @@
         "https://arxiv.org/pdf/2205.07041"
       ],
       "topics": [
-        "experience",
-        "accessibility",
-        "games"
+        "gaming",
+        "interaction-tech",
+        "accessibility"
       ],
       "published_date": "2022-08-21",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fcog51982.2022.9893678",
@@ -9725,7 +9692,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2022-05-30",
       "published_date_source": "https://api.crossref.org/works/10.23919%2Filrn55037.2022.9815917",
@@ -9770,7 +9737,7 @@
       "pdf": "downloads/publication/papers/56de5f8a7e55f0e62901.pdf",
       "oa_pdfs": [],
       "topics": [
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2021-10",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fismar-adjunct54149.2021.00014",
@@ -9827,7 +9794,7 @@
       "pdf": "downloads/publication/papers/ead3f5588d49a6307732.pdf",
       "oa_pdfs": [],
       "topics": [
-        "experience"
+        "interaction-tech"
       ],
       "published_date": "2021-10-18",
       "published_date_source": "https://api.crossref.org/works/10.1145%2F3462244.3479907",
@@ -9870,7 +9837,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2021-03-27",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Ficiet51873.2021.9419627",
@@ -9920,7 +9887,7 @@
       "pdf": "downloads/publication/papers/91a420cc673da52d67f5.pdf",
       "oa_pdfs": [],
       "topics": [
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2021-06-08",
       "published_date_source": "https://api.crossref.org/works/10.1145%2F3459926.3464761",
@@ -9965,7 +9932,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience"
+        "interaction-tech"
       ],
       "published_date": "2021-05-07",
       "published_date_source": "https://api.crossref.org/works/10.1145%2F3411764.3445340",
@@ -10002,8 +9969,7 @@
         "https://www.mdpi.com/2076-3417/11/21/10473/pdf?version=1636419948"
       ],
       "topics": [
-        "experience",
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2021-11-08",
       "published_date_source": "https://api.crossref.org/works/10.3390%2Fapp112110473",
@@ -10052,9 +10018,9 @@
         "https://arxiv.org/pdf/2101.06120"
       ],
       "topics": [
-        "experience",
-        "accessibility",
-        "games"
+        "gaming",
+        "interaction-tech",
+        "accessibility"
       ],
       "published_date": "2021-05-07",
       "published_date_source": "https://api.crossref.org/works/10.1145%2F3411764.3445801",
@@ -10119,8 +10085,7 @@
         "https://arxiv.org/pdf/2107.08437"
       ],
       "topics": [
-        "experience",
-        "games"
+        "gaming"
       ],
       "published_date": "2021-08-17",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fcog52621.2021.9619020",
@@ -10188,7 +10153,7 @@
         "https://arxiv.org/pdf/2110.04045"
       ],
       "topics": [
-        "experience"
+        "interaction-tech"
       ],
       "published_date": "2021-11-09",
       "published_date_source": "https://api.crossref.org/works/10.1145%2F3485279.3485297",
@@ -10240,8 +10205,8 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "applications",
-        "games"
+        "gaming",
+        "interaction-tech"
       ],
       "published_date": "2021-11-22",
       "published_date_source": "https://api.crossref.org/works/10.2196%2F29330",
@@ -10294,9 +10259,9 @@
         "https://arxiv.org/pdf/2107.08432"
       ],
       "topics": [
-        "experience",
-        "accessibility",
-        "games"
+        "gaming",
+        "interaction-tech",
+        "accessibility"
       ],
       "published_date": "2021-08-17",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fcog52621.2021.9619145",
@@ -10359,7 +10324,7 @@
         "https://arxiv.org/pdf/2108.05538"
       ],
       "topics": [
-        "experience"
+        "interaction-tech"
       ],
       "published_date": "2021-10",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fismar52148.2021.00026",
@@ -10418,8 +10383,7 @@
       "pdf": "downloads/publication/papers/5da0b13cdea016999746.pdf",
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "eye-tracking"
+        "interaction-tech"
       ],
       "published_date": "2021-05-07",
       "published_date_source": "https://api.crossref.org/works/10.1145%2F3411764.3445343",
@@ -10463,7 +10427,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2021-10",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fismar-adjunct54149.2021.00022",
@@ -10508,8 +10472,8 @@
       "pdf": "downloads/publication/papers/565c2fbaa65934df0d38.pdf",
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "accessibility"
+        "interaction-tech",
+        "text-entry"
       ],
       "published_date": "2021-10-12",
       "published_date_source": "https://api.crossref.org/works/10.1145%2F3472749.3474788",
@@ -10573,8 +10537,7 @@
         "https://arxiv.org/pdf/2107.05194"
       ],
       "topics": [
-        "experience",
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2021-08-08",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fro-man50785.2021.9515455",
@@ -10634,9 +10597,8 @@
         "https://arxiv.org/pdf/2109.05292"
       ],
       "topics": [
-        "accessibility",
-        "applications",
-        "games"
+        "gaming",
+        "accessibility"
       ],
       "published_date": "2021-10-15",
       "published_date_source": "https://api.crossref.org/works/10.1145%2F3450337.3483505",
@@ -10699,8 +10661,7 @@
         "https://www.mdpi.com/1424-8220/21/24/8403/pdf?version=1639648962"
       ],
       "topics": [
-        "experience",
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2021-12-16",
       "published_date_source": "https://api.crossref.org/works/10.3390%2Fs21248403",
@@ -10762,8 +10723,7 @@
       "pdf": "downloads/publication/papers/1e87012e77396e363eee.pdf",
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2021-02-02",
       "published_date_source": "https://api.crossref.org/works/10.3390%2Fs21030990",
@@ -10857,8 +10817,8 @@
         "https://arxiv.org/pdf/2109.14185"
       ],
       "topics": [
-        "applications",
-        "games"
+        "gaming",
+        "interaction-tech"
       ],
       "published_date": "2021-10-15",
       "published_date_source": "https://api.crossref.org/works/10.1145%2F3450337.3483507",
@@ -10920,7 +10880,7 @@
         "https://arxiv.org/pdf/2104.07624"
       ],
       "topics": [
-        "experience"
+        "interaction-tech"
       ],
       "pdf_metadata": {
         "path": "downloads/publication/papers/9a59d8245accc593b348.pdf",
@@ -10981,9 +10941,9 @@
         "https://arxiv.org/pdf/2108.09538"
       ],
       "topics": [
-        "experience",
-        "accessibility",
-        "games"
+        "gaming",
+        "interaction-tech",
+        "ai"
       ],
       "published_date": "2021-10",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fismar52148.2021.00028",
@@ -11033,7 +10993,7 @@
         "https://mental.jmir.org/2021/9/e29681/PDF"
       ],
       "topics": [
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2021-09-23",
       "published_date_source": "https://api.crossref.org/works/10.2196%2F29681",
@@ -11065,7 +11025,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2021-04-16",
       "published_date_source": "https://api.crossref.org/works/10.2196%2Fpreprints.29681",
@@ -11117,9 +11077,9 @@
         "https://arxiv.org/pdf/2103.05200"
       ],
       "topics": [
-        "experience",
-        "accessibility",
-        "games"
+        "gaming",
+        "interaction-tech",
+        "accessibility"
       ],
       "published_date": "2021-04-28",
       "published_date_source": "https://api.crossref.org/works/10.1145%2F3451255",
@@ -11165,7 +11125,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "applications"
+        "ai"
       ],
       "published_date": "2020-12",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fispa-bdcloud-socialcom-sustaincom51426.2020.00199",
@@ -11249,8 +11209,8 @@
         "https://arxiv.org/pdf/2010.03256"
       ],
       "topics": [
-        "experience",
-        "games"
+        "gaming",
+        "interaction-tech"
       ],
       "published_date": "2020-11",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fismar50242.2020.00102",
@@ -11292,7 +11252,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "applications"
+        "ai"
       ]
     },
     {
@@ -11327,9 +11287,8 @@
         "https://www.mdpi.com/1424-8220/20/10/2944/pdf?version=1590415598"
       ],
       "topics": [
-        "experience",
-        "applications",
-        "eye-tracking"
+        "interaction-tech",
+        "ai"
       ],
       "published_date": "2020-05-22",
       "published_date_source": "https://api.crossref.org/works/10.3390%2Fs20102944",
@@ -11381,8 +11340,7 @@
         "https://hcis-journal.springeropen.com/counter/pdf/10.1186/s13673-020-00253-7"
       ],
       "topics": [
-        "experience",
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2020-11-22",
       "published_date_source": "https://api.crossref.org/works/10.1186%2Fs13673-020-00253-7",
@@ -11442,7 +11400,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience"
+        "interaction-tech"
       ],
       "published_date": "2020-09-01",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Ftvcg.2019.2905580",
@@ -11486,7 +11444,7 @@
         "https://www.frontiersin.org/articles/10.3389/fpubh.2020.00045/pdf"
       ],
       "topics": [
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2020-02-25",
       "published_date_source": "https://api.crossref.org/works/10.3389%2Ffpubh.2020.00045",
@@ -11534,8 +11492,7 @@
         "https://arxiv.org/pdf/2010.06077"
       ],
       "topics": [
-        "experience",
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2020-10-12",
       "published_date_source": "https://arxiv.org/abs/2010.06077",
@@ -11578,8 +11535,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2020-11-25",
       "published_date_source": "https://api.crossref.org/works/10.1007%2F978-3-030-63426-1_7",
@@ -11634,7 +11590,8 @@
         "https://arxiv.org/pdf/2010.03247"
       ],
       "topics": [
-        "experience",
+        "interaction-tech",
+        "text-entry",
         "accessibility"
       ],
       "published_date": "2020-11",
@@ -11679,8 +11636,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2021-02-15",
       "published_date_source": "https://api.crossref.org/works/10.1145%2F3441000.3441012",
@@ -11725,8 +11681,7 @@
       "pdf": "downloads/publication/papers/14c782baa5301188a878.pdf",
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2020-11-04",
       "published_date_source": "https://api.crossref.org/works/10.1007%2F978-3-030-59987-4_22",
@@ -11770,8 +11725,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2020-05-18",
       "published_date_source": "https://api.crossref.org/works/10.1145%2F3385378.3385385",
@@ -11819,7 +11773,7 @@
       "pdf": "downloads/publication/papers/f1381776d6c19f662900.pdf",
       "oa_pdfs": [],
       "topics": [
-        "experience"
+        "interaction-tech"
       ],
       "metadata_corrections": [
         {
@@ -11868,7 +11822,9 @@
       "image": null,
       "pdf": null,
       "oa_pdfs": [],
-      "topics": [],
+      "topics": [
+        "ai"
+      ],
       "published_date": "2020-02-01",
       "published_date_source": "https://api.crossref.org/works/10.1007%2F978-3-030-39431-8_22",
       "published_date_basis": "published-online"
@@ -11901,9 +11857,8 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "accessibility",
-        "applications",
-        "games"
+        "gaming",
+        "accessibility"
       ],
       "published_date": "2020-12-01",
       "published_date_source": "https://api.crossref.org/works/10.1089%2Fg4h.2019.0130",
@@ -11937,7 +11892,9 @@
       "image": null,
       "pdf": null,
       "oa_pdfs": [],
-      "topics": [],
+      "topics": [
+        "interaction-tech"
+      ],
       "published_date": "2020-01-04",
       "published_date_source": "https://api.crossref.org/works/10.1145%2F3375187",
       "published_date_basis": "published-online"
@@ -11986,7 +11943,7 @@
       "pdf": "downloads/publication/papers/6409c56ba3877a9ff2e1.pdf",
       "oa_pdfs": [],
       "topics": [
-        "experience"
+        "interaction-tech"
       ],
       "published_date": "2020-12",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fiscid51228.2020.00088",
@@ -12051,7 +12008,7 @@
         "https://dl.acm.org/doi/pdf/10.1145/3364997"
       ],
       "topics": [
-        "experience"
+        "interaction-tech"
       ],
       "published_date": "2020-01-22",
       "published_date_source": "https://api.crossref.org/works/10.1145%2F3364997",
@@ -12094,7 +12051,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2019-02-26",
       "published_date_source": "https://api.crossref.org/works/10.1007%2Fs11042-019-7349-2",
@@ -12148,10 +12105,9 @@
         "https://arxiv.org/pdf/2010.06152"
       ],
       "topics": [
-        "experience",
-        "accessibility",
-        "games",
-        "eye-tracking"
+        "gaming",
+        "interaction-tech",
+        "ai"
       ],
       "published_date": "2020-11",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fismar-adjunct51615.2020.00071",
@@ -12202,8 +12158,8 @@
         "https://jmir.org/api/download?alt_name=games_v8i3e17972_app1.pdf&filename=a089f11b8b093d2788a02a09bd93ce6b.pdf"
       ],
       "topics": [
-        "experience",
-        "games"
+        "gaming",
+        "interaction-tech"
       ],
       "published_date": "2020-07-27",
       "published_date_source": "https://api.crossref.org/works/10.2196%2F17972",
@@ -12235,8 +12191,8 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "games"
+        "gaming",
+        "interaction-tech"
       ],
       "published_date": "2020-12-01",
       "published_date_source": "https://api.crossref.org/works/10.1089%2Fg4h.2019.0102",
@@ -12273,7 +12229,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2020-04-25",
       "published_date_source": "https://api.crossref.org/works/10.1145%2F3334480.3382932",
@@ -12324,7 +12280,8 @@
         "https://arxiv.org/pdf/2010.03781"
       ],
       "topics": [
-        "games"
+        "gaming",
+        "interaction-tech"
       ],
       "published_date": "2020-11-03",
       "published_date_source": "https://api.crossref.org/works/10.1145%2F3383668.3419958",
@@ -12365,8 +12322,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "applications"
+        "interaction-tech"
       ]
     },
     {
@@ -12406,8 +12362,8 @@
         "https://doi.org/10.6025/jcl/2019/10/4/134-144"
       ],
       "topics": [
-        "applications",
-        "games"
+        "gaming",
+        "interaction-tech"
       ],
       "published_date": "2019-12-01",
       "published_date_source": "https://api.crossref.org/works/10.6025%2Fjcl%2F2019%2F10%2F4%2F134-144",
@@ -12438,9 +12394,7 @@
       "image": null,
       "pdf": null,
       "oa_pdfs": [],
-      "topics": [
-        "applications"
-      ],
+      "topics": [],
       "published_date": "2019-03",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Ficbda.2019.8713221",
       "published_date_basis": "published"
@@ -12476,8 +12430,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2019-10",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fismar.2019.00030",
@@ -12524,8 +12477,8 @@
       "pdf": "downloads/publication/papers/f9f057e55e4789670e0d.pdf",
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "games"
+        "gaming",
+        "interaction-tech"
       ],
       "published_date": "2019-06-27",
       "published_date_source": "https://api.crossref.org/works/10.1145%2F3332169.3333574",
@@ -12582,8 +12535,7 @@
       "pdf": "downloads/publication/papers/5fece92ed3bc28125c27.pdf",
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "accessibility"
+        "interaction-tech"
       ],
       "published_date": "2019-03",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fvr.2019.8797916",
@@ -12628,8 +12580,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "accessibility"
+        "interaction-tech"
       ],
       "published_date": "2019-10",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fismar.2019.00-20",
@@ -12676,8 +12627,8 @@
       "pdf": "downloads/publication/papers/735748778731eb4af9a2.pdf",
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "accessibility"
+        "interaction-tech",
+        "text-entry"
       ],
       "published_date": "2019-03",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fvr.2019.8797901",
@@ -12725,7 +12676,7 @@
         "https://www.mdpi.com/2076-3417/9/15/3177/pdf?version=1564980624"
       ],
       "topics": [
-        "experience"
+        "interaction-tech"
       ],
       "published_date": "2019-08-05",
       "published_date_source": "https://api.crossref.org/works/10.3390%2Fapp9153177",
@@ -12763,7 +12714,8 @@
         "https://raco.cat/index.php/Temes/article/download/357718/451642"
       ],
       "topics": [
-        "applications"
+        "interaction-tech",
+        "ai"
       ],
       "published_date": "2019-07-15",
       "published_date_source": "https://api.crossref.org/works/10.46467%2Ftdd35.2019.42-75",
@@ -12796,7 +12748,8 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "applications"
+        "interaction-tech",
+        "ai"
       ]
     },
     {
@@ -12839,7 +12792,7 @@
       "pdf": "downloads/publication/papers/29c782e61ce6e138c543.pdf",
       "oa_pdfs": [],
       "topics": [
-        "experience"
+        "interaction-tech"
       ],
       "published_date": "2019-05-02",
       "published_date_source": "https://api.crossref.org/works/10.1145%2F3290605.3300674",
@@ -12901,8 +12854,7 @@
         "https://slejournal.springeropen.com/track/pdf/10.1186/s40561-019-0085-2"
       ],
       "topics": [
-        "applications",
-        "games"
+        "gaming"
       ],
       "published_date": "2019-07-18",
       "published_date_source": "https://api.crossref.org/works/10.1186%2Fs40561-019-0085-2",
@@ -12947,7 +12899,7 @@
         "http://downloads.hindawi.com/journals/edri/2019/6791058.pdf"
       ],
       "topics": [
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2019-04-28",
       "published_date_source": "https://api.crossref.org/works/10.1155%2F2019%2F6791058",
@@ -12982,8 +12934,8 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "accessibility"
+        "interaction-tech",
+        "text-entry"
       ],
       "published_date": "2019-07-01",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Ftvcg.2019.2913518",
@@ -13017,7 +12969,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience"
+        "interaction-tech"
       ],
       "published_date": "2019-06",
       "published_date_source": "https://api.crossref.org/works/10.1016%2Fj.future.2018.02.029",
@@ -13057,8 +13009,7 @@
         "https://hdl.handle.net/10652/4750"
       ],
       "topics": [
-        "experience",
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2019-10",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fismar-adjunct.2019.00042",
@@ -13105,7 +13056,7 @@
         "https://arxiv.org/pdf/1909.03596"
       ],
       "topics": [
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2019-09-09",
       "published_date_source": "https://arxiv.org/abs/1909.03596",
@@ -13147,8 +13098,8 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "applications"
+        "interaction-tech",
+        "ai"
       ],
       "published_date": "2019-07-06",
       "published_date_source": "https://api.crossref.org/works/10.1007%2F978-3-030-23528-4_30",
@@ -13183,7 +13134,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "applications"
+        "ai"
       ],
       "published_date": "2019-10",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fcisp-bmei48845.2019.8965949",
@@ -13229,7 +13180,7 @@
       "pdf": "downloads/publication/papers/52d632cc278ea8af869b.pdf",
       "oa_pdfs": [],
       "topics": [
-        "experience"
+        "interaction-tech"
       ],
       "published_date": "2019-11-08",
       "published_date_source": "https://api.crossref.org/works/10.1145%2F3355089.3356544",
@@ -13277,9 +13228,8 @@
         "https://www.frontiersin.org/articles/10.3389/fpubh.2019.00220/pdf"
       ],
       "topics": [
-        "experience",
-        "applications",
-        "games"
+        "gaming",
+        "interaction-tech"
       ],
       "published_date": "2019-08-08",
       "published_date_source": "https://api.crossref.org/works/10.3389%2Ffpubh.2019.00220",
@@ -13325,8 +13275,8 @@
       "pdf": "downloads/publication/papers/0b41ab33d76fad3b216a.pdf",
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "accessibility"
+        "interaction-tech",
+        "text-entry"
       ],
       "published_date": "2019-10",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fismar.2019.00026",
@@ -13401,7 +13351,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "applications"
+        "ai"
       ],
       "published_date": "2020-03-04",
       "published_date_source": "https://api.crossref.org/works/10.1145%2F3374587.3374617",
@@ -13450,8 +13400,8 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "accessibility"
+        "interaction-tech",
+        "text-entry"
       ],
       "published_date": "2019-05",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Ftvcg.2019.2898736",
@@ -13494,7 +13444,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2019-12",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Ftale48000.2019.9225914",
@@ -13526,7 +13476,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2019-08-22",
       "published_date_source": "https://api.crossref.org/works/10.1007%2F978-981-32-9244-4_27",
@@ -13575,8 +13525,7 @@
         "https://arxiv.org/pdf/1901.04879"
       ],
       "topics": [
-        "experience",
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2019-01-15",
       "published_date_source": "https://arxiv.org/abs/1901.04879",
@@ -13638,8 +13587,7 @@
         "https://www.mdpi.com/2414-4088/3/2/33/pdf?version=1557394853"
       ],
       "topics": [
-        "experience",
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2019-05-09",
       "published_date_source": "https://api.crossref.org/works/10.3390%2Fmti3020033",
@@ -13685,7 +13633,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "applications"
+        "ai"
       ],
       "published_date": "2019-10",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fcisp-bmei48845.2019.8965711",
@@ -13717,7 +13665,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "applications"
+        "interaction-tech"
       ]
     },
     {
@@ -13762,8 +13710,7 @@
         "https://ejournal.um.edu.my/index.php/MJCS/article/download/20841/10624"
       ],
       "topics": [
-        "experience",
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2019-11-29",
       "published_date_source": "https://api.crossref.org/works/10.22452%2Fmjcs.sp2019no1.9",
@@ -13795,8 +13742,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2018-10",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fsmartworld.2018.00334",
@@ -13830,8 +13776,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "games"
+        "gaming"
       ],
       "published_date": "2018-10-11",
       "published_date_source": "https://api.crossref.org/works/10.1007%2F978-981-13-2844-2_8",
@@ -13863,8 +13808,8 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "games"
+        "gaming",
+        "interaction-tech"
       ],
       "published_date": "2018-10-06",
       "published_date_source": "https://api.crossref.org/works/10.1007%2F978-3-030-00563-4_75",
@@ -13895,8 +13840,8 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "games"
+        "gaming",
+        "interaction-tech"
       ]
     },
     {
@@ -13923,7 +13868,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience"
+        "interaction-tech"
       ],
       "published_date": "2018-09",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Ficomssc45026.2018.8942021",
@@ -13959,8 +13904,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2018-10",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fismar.2018.00050",
@@ -13995,8 +13939,8 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "games"
+        "gaming",
+        "interaction-tech"
       ],
       "published_date": "2018-12",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Faivr.2018.00015",
@@ -14044,8 +13988,8 @@
       "pdf": "downloads/publication/papers/782fea28d09ee40c95fe.pdf",
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "games"
+        "gaming",
+        "interaction-tech"
       ],
       "published_date": "2018-05-02",
       "published_date_source": "https://api.crossref.org/works/10.1002%2Fcav.1830",
@@ -14092,7 +14036,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience"
+        "interaction-tech"
       ],
       "published_date": "2018-12",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Faivr.2018.00053",
@@ -14125,7 +14069,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "applications"
+        "interaction-tech"
       ]
     },
     {
@@ -14157,7 +14101,7 @@
         "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/cav.1829"
       ],
       "topics": [
-        "experience"
+        "interaction-tech"
       ],
       "published_date": "2018-05-21",
       "published_date_source": "https://api.crossref.org/works/10.1002%2Fcav.1829",
@@ -14207,7 +14151,8 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience"
+        "interaction-tech",
+        "text-entry"
       ],
       "published_date": "2018-11",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Ftvcg.2018.2868581",
@@ -14262,8 +14207,7 @@
         "https://arxiv.org/pdf/1806.11361"
       ],
       "topics": [
-        "experience",
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2018-06-29",
       "published_date_source": "https://arxiv.org/abs/1806.11361",
@@ -14324,7 +14268,7 @@
       "pdf": "downloads/publication/papers/49a5eab22ed1d0cd143f.pdf",
       "oa_pdfs": [],
       "topics": [
-        "experience"
+        "interaction-tech"
       ],
       "pdf_metadata": {
         "path": "downloads/publication/papers/49a5eab22ed1d0cd143f.pdf",
@@ -14384,7 +14328,7 @@
         "https://hcis-journal.springeropen.com/counter/pdf/10.1186/s13673-018-0154-5"
       ],
       "topics": [
-        "experience"
+        "interaction-tech"
       ],
       "published_date": "2018-10-29",
       "published_date_source": "https://api.crossref.org/works/10.1186%2Fs13673-018-0154-5",
@@ -14427,7 +14371,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience"
+        "interaction-tech"
       ]
     },
     {
@@ -14456,8 +14400,8 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "games"
+        "gaming",
+        "interaction-tech"
       ]
     },
     {
@@ -14493,8 +14437,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "games"
+        "gaming"
       ],
       "published_date": "2017-05-06",
       "published_date_source": "https://api.crossref.org/works/10.1145%2F3027063.3053154",
@@ -14558,7 +14501,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "applications"
+        "interaction-tech"
       ]
     },
     {
@@ -14589,7 +14532,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience"
+        "interaction-tech"
       ]
     },
     {
@@ -14620,8 +14563,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "games"
+        "gaming"
       ],
       "published_date": "2017-09-11",
       "published_date_source": "https://api.crossref.org/works/10.1145%2F3130955",
@@ -14741,7 +14683,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience"
+        "interaction-tech"
       ],
       "published_date": "2017-09-11",
       "published_date_source": "https://api.crossref.org/works/10.1145%2F3123024.3123081",
@@ -14788,7 +14730,7 @@
       "pdf": "downloads/publication/papers/4a894387416b3b1a1303.pdf",
       "oa_pdfs": [],
       "topics": [
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2017-10-29",
       "published_date_source": "https://api.crossref.org/works/10.1007%2F978-3-319-70010-6_3",
@@ -14830,7 +14772,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience"
+        "interaction-tech"
       ]
     },
     {
@@ -14860,8 +14802,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2016-10",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fapccas.2016.7804002",
@@ -14894,7 +14835,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2016-10",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fcts.2016.0026",
@@ -14958,7 +14899,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2016-09-06",
       "published_date_source": "https://api.crossref.org/works/10.1145%2F2957265.2962643",
@@ -15009,8 +14950,7 @@
       "pdf": "downloads/publication/papers/a28d60d2840b3eb2856c.pdf",
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2016-10-28",
       "published_date_source": "https://api.crossref.org/works/10.3390%2Finformatics3040020",
@@ -15052,8 +14992,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "applications"
+        "interaction-tech"
       ]
     },
     {
@@ -15083,7 +15022,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience"
+        "interaction-tech"
       ],
       "published_date": "2016-12-03",
       "published_date_source": "https://api.crossref.org/works/10.1145%2F3013971.3014005",
@@ -15113,8 +15052,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "applications"
+        "interaction-tech"
       ]
     },
     {
@@ -15162,7 +15100,9 @@
       "oa_pdfs": [
         "https://arxiv.org/pdf/1511.06385"
       ],
-      "topics": [],
+      "topics": [
+        "ai"
+      ],
       "published_date": "2015-11",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Ficdm.2015.84",
       "published_date_basis": "published",
@@ -15203,7 +15143,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience"
+        "interaction-tech"
       ],
       "published_date": "2015-01",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fplatcon.2015.28",
@@ -15234,7 +15174,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2015-01",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fplatcon.2015.29",
@@ -15264,8 +15204,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2015-06",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fcyber.2015.7288055",
@@ -15300,7 +15239,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "applications"
+        "accessibility"
       ],
       "published_date": "2015-10",
       "published_date_source": "https://api.crossref.org/works/10.1109%2F3m-nano.2015.7425514",
@@ -15334,7 +15273,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2015-11",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fisocc.2015.7401775",
@@ -15364,7 +15303,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "applications"
+        "ai"
       ]
     },
     {
@@ -15394,7 +15333,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "applications"
+        "ai"
       ],
       "published_date": "2015-11",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fisocc.2015.7401771",
@@ -15427,9 +15366,8 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "accessibility",
-        "applications",
-        "games"
+        "gaming",
+        "accessibility"
       ],
       "published_date": "2015-10-27",
       "published_date_source": "https://api.crossref.org/works/10.1007%2F978-981-287-868-7_6",
@@ -15460,8 +15398,8 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "games"
+        "gaming",
+        "interaction-tech"
       ],
       "published_date": "2015-08",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fgamepec.2015.7331849",
@@ -15494,7 +15432,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "applications"
+        "ai"
       ],
       "published_date": "2015-12",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fsmartcity.2015.89",
@@ -15527,7 +15465,7 @@
         "https://hdl.handle.net/10652/3358"
       ],
       "topics": [
-        "applications"
+        "interaction-tech"
       ]
     },
     {
@@ -15627,7 +15565,7 @@
         "http://papers.cumincad.org/data/works/att/ecaade2014_199.content.pdf"
       ],
       "topics": [
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2014",
       "published_date_source": "https://api.crossref.org/works/10.52842%2Fconf.ecaade.2014.1.063",
@@ -15661,9 +15599,7 @@
       "image": null,
       "pdf": null,
       "oa_pdfs": [],
-      "topics": [
-        "applications"
-      ]
+      "topics": []
     },
     {
       "id": "82a0fb3233d7",
@@ -15690,7 +15626,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience"
+        "interaction-tech"
       ]
     },
     {
@@ -15720,9 +15656,7 @@
       "image": null,
       "pdf": null,
       "oa_pdfs": [],
-      "topics": [
-        "applications"
-      ],
+      "topics": [],
       "published_date": "2014-10",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fcyberc.2014.28",
       "published_date_basis": "published"
@@ -15751,9 +15685,7 @@
       "image": null,
       "pdf": null,
       "oa_pdfs": [],
-      "topics": [
-        "applications"
-      ],
+      "topics": [],
       "published_date": "2014-08",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Ficspcc.2014.6986323",
       "published_date_basis": "published"
@@ -15784,7 +15716,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "applications"
+        "ai"
       ],
       "published_date": "2014-12",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fcse.2014.62",
@@ -15834,7 +15766,7 @@
         "https://zenodo.org/record/2661702"
       ],
       "topics": [
-        "experience"
+        "interaction-tech"
       ]
     },
     {
@@ -15864,9 +15796,7 @@
       "image": null,
       "pdf": null,
       "oa_pdfs": [],
-      "topics": [
-        "applications"
-      ],
+      "topics": [],
       "published_date": "2014-12",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fcse.2014.157",
       "published_date_basis": "published"
@@ -15898,8 +15828,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2014-12",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fcse.2014.155",
@@ -15930,9 +15859,7 @@
       "image": null,
       "pdf": null,
       "oa_pdfs": [],
-      "topics": [
-        "applications"
-      ],
+      "topics": [],
       "published_date": "2013-08",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Ftale.2013.6654435",
       "published_date_basis": "published"
@@ -15965,9 +15892,7 @@
       "image": null,
       "pdf": null,
       "oa_pdfs": [],
-      "topics": [
-        "applications"
-      ],
+      "topics": [],
       "published_date": "2013-05-25",
       "published_date_source": "https://api.crossref.org/works/10.1007%2F978-94-007-6516-0_107",
       "published_date_basis": "published-online"
@@ -16007,9 +15932,7 @@
       "image": null,
       "pdf": null,
       "oa_pdfs": [],
-      "topics": [
-        "applications"
-      ],
+      "topics": [],
       "published_date": "2013-09",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fewdts.2013.6673163",
       "published_date_basis": "published"
@@ -16038,9 +15961,7 @@
       "image": null,
       "pdf": null,
       "oa_pdfs": [],
-      "topics": [
-        "applications"
-      ],
+      "topics": [],
       "published_date": "2013-08",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Ftale.2013.6654499",
       "published_date_basis": "published"
@@ -16100,9 +16021,7 @@
       "image": null,
       "pdf": null,
       "oa_pdfs": [],
-      "topics": [
-        "applications"
-      ],
+      "topics": [],
       "published_date": "2013-08",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Ftale.2013.6654439",
       "published_date_basis": "published"
@@ -16138,9 +16057,7 @@
       "oa_pdfs": [
         "https://journals.sagepub.com/doi/pdf/10.1155/2013/109014"
       ],
-      "topics": [
-        "applications"
-      ],
+      "topics": [],
       "published_date": "2013-12-31",
       "published_date_source": "https://api.crossref.org/works/10.1155%2F2013%2F109014",
       "published_date_basis": "published-online"
@@ -16198,9 +16115,7 @@
       "image": null,
       "pdf": null,
       "oa_pdfs": [],
-      "topics": [
-        "applications"
-      ],
+      "topics": [],
       "published_date": "2013-08",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Ftale.2013.6654454",
       "published_date_basis": "published"
@@ -16236,9 +16151,7 @@
       "image": null,
       "pdf": null,
       "oa_pdfs": [],
-      "topics": [
-        "applications"
-      ],
+      "topics": [],
       "published_date": "2013-09",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fewdts.2013.6673161",
       "published_date_basis": "published"
@@ -16274,9 +16187,7 @@
       "oa_pdfs": [
         "https://www.sciencedirect.com/science/article/pii/S187705091300207X/pdf"
       ],
-      "topics": [
-        "applications"
-      ],
+      "topics": [],
       "published_date": "2013",
       "published_date_source": "https://api.crossref.org/works/10.1016%2Fj.procs.2013.05.074",
       "published_date_basis": "published"
@@ -16314,9 +16225,7 @@
       "oa_pdfs": [
         "http://hdl.handle.net/10722/198763"
       ],
-      "topics": [
-        "applications"
-      ]
+      "topics": []
     },
     {
       "id": "77d764607c60",
@@ -16344,7 +16253,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2013-08",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Ftale.2013.6654412",
@@ -16451,9 +16360,7 @@
       },
       "pdf": "downloads/publication/papers/9eb5abc06ffbc7cb1ecc.pdf",
       "oa_pdfs": [],
-      "topics": [
-        "applications"
-      ],
+      "topics": [],
       "pdf_metadata": {
         "path": "downloads/publication/papers/9eb5abc06ffbc7cb1ecc.pdf",
         "sha256": "8de996c8153a1354c15e0e4910770b73b1679c250ffb486317539e8254a7a4cc",
@@ -16492,7 +16399,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience"
+        "interaction-tech"
       ]
     },
     {
@@ -16565,7 +16472,7 @@
       "pdf": "downloads/publication/papers/deb0741bfe366a1fd973.pdf",
       "oa_pdfs": [],
       "topics": [
-        "experience"
+        "interaction-tech"
       ],
       "published_date": "2012-09-21",
       "published_date_source": "https://api.crossref.org/works/10.1145%2F2371574.2371588",
@@ -16621,7 +16528,7 @@
       "pdf": "downloads/publication/papers/06294babc0b8677a3bd2.pdf",
       "oa_pdfs": [],
       "topics": [
-        "experience"
+        "interaction-tech"
       ],
       "published_date": "2012-09-21",
       "published_date_source": "https://api.crossref.org/works/10.1145%2F2371574.2371591",
@@ -16664,7 +16571,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience"
+        "interaction-tech"
       ]
     },
     {
@@ -16694,7 +16601,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience"
+        "interaction-tech"
       ]
     },
     {
@@ -16738,7 +16645,7 @@
       "pdf": "downloads/publication/papers/65f5c508ba9de497d910.pdf",
       "oa_pdfs": [],
       "topics": [
-        "experience"
+        "interaction-tech"
       ],
       "published_date": "2012-05-05",
       "published_date_source": "https://api.crossref.org/works/10.1145%2F2207676.2208392",
@@ -16797,7 +16704,7 @@
       "pdf": "downloads/publication/papers/d7c5e7cf0863b206d3e4.pdf",
       "oa_pdfs": [],
       "topics": [
-        "experience"
+        "interaction-tech"
       ],
       "published_date": "2012-08-28",
       "published_date_source": "https://api.crossref.org/works/10.1145%2F2350046.2350098",
@@ -16838,7 +16745,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2012-08",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Ftale.2012.6360400",
@@ -16869,7 +16776,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience"
+        "interaction-tech"
       ]
     },
     {
@@ -16897,7 +16804,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2010-05",
       "published_date_source": "https://api.crossref.org/works/10.1016%2Fj.compedu.2009.10.001",
@@ -16940,9 +16847,7 @@
       "oa_pdfs": [
         "https://link.springer.com/content/pdf/10.1007/978-3-642-15515-4_5.pdf"
       ],
-      "topics": [
-        "applications"
-      ],
+      "topics": [],
       "published_date": "2010",
       "published_date_source": "https://api.crossref.org/works/10.1007%2F978-3-642-15515-4_5",
       "published_date_basis": "published",
@@ -17010,7 +16915,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience"
+        "interaction-tech"
       ]
     },
     {
@@ -17038,8 +16943,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2010-08-28",
       "published_date_source": "https://api.crossref.org/works/10.1007%2Fs10758-010-9165-7",
@@ -17068,7 +16972,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "applications"
+        "interaction-tech"
       ]
     },
     {
@@ -17095,7 +16999,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2009-03-13",
       "published_date_source": "https://api.crossref.org/works/10.1080%2F10494820701610605",
@@ -17125,7 +17029,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience"
+        "interaction-tech"
       ]
     },
     {
@@ -17174,7 +17078,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience"
+        "interaction-tech"
       ]
     },
     {
@@ -17200,8 +17104,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "applications"
+        "interaction-tech"
       ]
     },
     {
@@ -17227,8 +17130,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "applications"
+        "interaction-tech"
       ]
     },
     {
@@ -17254,7 +17156,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience"
+        "interaction-tech"
       ]
     },
     {
@@ -17280,8 +17182,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "applications"
+        "interaction-tech"
       ]
     },
     {
@@ -17307,9 +17208,8 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "accessibility",
-        "applications"
+        "interaction-tech",
+        "accessibility"
       ]
     },
     {
@@ -17335,8 +17235,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "applications"
+        "interaction-tech"
       ]
     },
     {
@@ -17362,8 +17261,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "applications"
+        "interaction-tech"
       ]
     },
     {
@@ -17389,8 +17287,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "applications"
+        "interaction-tech"
       ]
     },
     {
@@ -17419,8 +17316,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2005-07",
       "published_date_source": "https://api.crossref.org/works/10.1016%2Fj.intcom.2005.02.002",
@@ -17450,8 +17346,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "applications"
+        "interaction-tech"
       ]
     },
     {
@@ -17478,7 +17373,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "applications"
+        "interaction-tech"
       ]
     },
     {
@@ -17508,8 +17403,7 @@
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
-        "experience",
-        "applications"
+        "interaction-tech"
       ],
       "published_date": "2003-09-01",
       "published_date_source": "https://api.crossref.org/works/10.1057%2Fpalgrave.ivs.9500047",

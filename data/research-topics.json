@@ -1,104 +1,52 @@
 [
   {
-    "id": "experience",
+    "id": "gaming",
     "labels": {
-      "en": "Realism and user experience",
-      "zh": "真实感与用户体验",
-      "fr": "Réalisme et expérience utilisateur",
-      "ar": "الواقعية وتجربة المستخدم",
-      "ja": "リアリティとユーザー体験"
-    },
-    "short_labels": {
-      "en": "Realism & UX",
-      "zh": "真实感与体验",
-      "fr": "Réalisme et UX",
-      "ar": "الواقعية والتجربة",
-      "ja": "リアリティ・UX"
+      "en": "Gaming",
+      "zh": "游戏",
+      "fr": "Jeux",
+      "ar": "الألعاب",
+      "ja": "ゲーム"
+    }
+  },
+  {
+    "id": "interaction-tech",
+    "labels": {
+      "en": "Interaction Tech",
+      "zh": "交互技术",
+      "fr": "Technologies d’interaction",
+      "ar": "تقنيات التفاعل",
+      "ja": "インタラクション技術"
+    }
+  },
+  {
+    "id": "text-entry",
+    "labels": {
+      "en": "Text Entry",
+      "zh": "文字输入",
+      "fr": "Saisie de texte",
+      "ar": "إدخال النص",
+      "ja": "文字入力"
+    }
+  },
+  {
+    "id": "ai",
+    "labels": {
+      "en": "AI",
+      "zh": "人工智能",
+      "fr": "IA",
+      "ar": "الذكاء الاصطناعي",
+      "ja": "AI"
     }
   },
   {
     "id": "accessibility",
     "labels": {
       "en": "Accessibility",
-      "zh": "可访问性",
-      "fr": "Accessibilité",
-      "ar": "إمكانية الوصول",
-      "ja": "アクセシビリティ"
-    },
-    "short_labels": {
-      "en": "Accessibility",
       "zh": "无障碍",
       "fr": "Accessibilité",
       "ar": "إمكانية الوصول",
       "ja": "アクセシビリティ"
-    }
-  },
-  {
-    "id": "web3d",
-    "labels": {
-      "en": "Web-based 3D",
-      "zh": "基于 Web 的 3D",
-      "fr": "3D sur le Web",
-      "ar": "ثلاثي الأبعاد عبر الويب",
-      "ja": "Web ベースの 3D"
-    },
-    "short_labels": {
-      "en": "Web 3D",
-      "zh": "Web 3D",
-      "fr": "Web 3D",
-      "ar": "الويب ثلاثي الأبعاد",
-      "ja": "Web 3D"
-    }
-  },
-  {
-    "id": "eye-tracking",
-    "labels": {
-      "en": "Eye tracking",
-      "zh": "眼动追踪",
-      "fr": "Suivi oculaire",
-      "ar": "تتبع العين",
-      "ja": "視線追跡"
-    },
-    "short_labels": {
-      "en": "Eye tracking",
-      "zh": "眼动追踪",
-      "fr": "Suivi oculaire",
-      "ar": "تتبع العين",
-      "ja": "視線追跡"
-    }
-  },
-  {
-    "id": "applications",
-    "labels": {
-      "en": "Critical applications",
-      "zh": "关键领域应用",
-      "fr": "Applications critiques",
-      "ar": "التطبيقات الحيوية",
-      "ja": "重要分野への応用"
-    },
-    "short_labels": {
-      "en": "Applications",
-      "zh": "应用",
-      "fr": "Applications",
-      "ar": "التطبيقات",
-      "ja": "応用"
-    }
-  },
-  {
-    "id": "games",
-    "labels": {
-      "en": "Immersive games",
-      "zh": "沉浸式游戏",
-      "fr": "Jeux immersifs",
-      "ar": "الألعاب الغامرة",
-      "ja": "没入型ゲーム"
-    },
-    "short_labels": {
-      "en": "Games",
-      "zh": "游戏",
-      "fr": "Jeux",
-      "ar": "الألعاب",
-      "ja": "ゲーム"
     }
   }
 ]

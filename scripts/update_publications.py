@@ -24,7 +24,14 @@ def base_record(title,authors,year,venue,kind,url,source,doi=''):
  return dict(id=hashlib.sha256(source.encode()).hexdigest()[:12],title=title.rstrip('.'),authors=authors,year=int(year),venue=venue,kind=kind,doi=doi_key(doi),url=url,sources=[source],urls=[url],image=None,pdf=None,oa_pdfs=[],topics=[])
 def topic_tags(title):
  # Conservative title-based suggestions; curated tags are never overwritten.
- rules={'eye-tracking':r'eye.?track|gaze|fixation|saccad','accessibility':r'accessib|disabil|older adult|elder|cybersick|motion sickness|visually impair','games':r'\bgame|gaming|exergam|gamif','web3d':r'web.?based.{0,25}(3d|virtual)|webxr|webgl','experience':r'virtual reality|augmented reality|mixed reality|user experience|interaction|immersive|\bVR\b','applications':r'education|learning|rehabilit|health|medical|training|driv|museum|therapy'}
+ title=title.replace('–','-').replace('—','-')
+ rules={
+  'gaming':r'\b(?:games?|gameplay|gamers?|gaming|gamif\w*|exergam\w*|videogam\w*)\b',
+  'interaction-tech':r'\b(?:interact\w*|interactiv\w*|interface\w*|visuali[sz]\w*|infographics?|haptic\w*|tactile|gestur\w*|gaze|eye[- ]track\w*|pointing|raycast\w*|steer\w*|locomotion|teleport\w*|navigat\w*|embodi\w*|teleoperat\w*|immersi\w*|wearable\w*|e-textiles?|smart textiles?|smart clothing|touch\w*|cursor\w*|authentication|passwords?|spatial knowledge|metaverse|displays?|controllers?|glyphs?|co-manipulation|ar|vr|xr|hmds?)\b|(?:virtual|augmented|mixed|cross|extended)[ -]reality|virtual (?:environments?|worlds?|objects?|museums?|gatherings?)|visual analytics|human[- ](?:agent|robot)|robot[- ]human|speech agents?|text[- ](?:entry|selection|correction)|\b(?:typing|keyboard|qwerty)\b',
+  'text-entry':r'\btext[- ](?:entry|input|selection|correction)\b|\b(?:typing|keyboards?|qwerty|alphanumeric|character entry|handwriting|transcription)\b',
+  'ai':r'\b(?:ai|artificial intelligence|machine[- ]learning|deep[- ]learning|neural networks?|lstm|bilstm|cnn|vlm|llm|yolo\w*|agentic|conversational agents?|speech agents?|human[- ]agent|agent[- ]side|image segmentation|image classification|adversarial examples?|semantic search|specularity detection|monocular depth estimation|data-driven recommendation|intelligent algorithms)\b|(?:motion|gesture|activity) recognition (?:framework|pipeline|model)|language-guided.{0,35}gaussian|structured knowledge from social tagging',
+  'accessibility':r'\b(?:accessib\w*|disabil\w*|impair\w*|blind\w*|low[- ]vision|older adults?|elderly|age?ing population|adhd|rehabilitat\w*|myopi\w*)\b|(?:mitigat\w*|reduc\w*|minimiz\w*|alleviat\w*).{0,35}(?:simulator sickness|cybersickness|motion sickness)|(?:virtual reality sickness|simulator sickness|cybersickness|motion sickness) (?:mitigat\w*|reduc\w*)',
+ }
  return [key for key,pattern in rules.items() if re.search(pattern,title,re.I)]
 
 def parse_dblp(payload):

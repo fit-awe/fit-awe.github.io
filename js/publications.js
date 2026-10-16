@@ -19,11 +19,14 @@
     .map(([name, id]) => [normalize(name).trim(), id]));
   const languages = [...document.querySelectorAll('.navbar .dropdown-menu a')]
     .map(link => ({ link, href: link.getAttribute('href') }));
+  // Keep shared links from the previous research-area menu usable.
+  const legacyTopics = { games: 'gaming', experience: 'interaction-tech', 'eye-tracking': 'interaction-tech', web3d: 'interaction-tech', applications: '' };
   function readLocation() {
     const params = new URLSearchParams(location.search);
     search.value = params.get('q') || '';
     for (const key of Object.keys(state)) {
-      const value = params.get(key) || '';
+      let value = params.get(key) || '';
+      if (key === 'topic' && Object.hasOwn(legacyTopics, value)) value = legacyTopics[value];
       state[key] = values[key].has(value) ? value : '';
     }
     advanced.open = Boolean(state.year || state.type);

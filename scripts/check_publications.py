@@ -11,7 +11,7 @@ ROOT=Path(__file__).resolve().parents[1]
 data=json.loads((ROOT/'data/publications.json').read_text())
 topics=json.loads((ROOT/'data/research-topics.json').read_text())
 topic_ids={topic['id'] for topic in topics}
-assert len(topic_ids)==6
+assert [topic['id'] for topic in topics]==['gaming','interaction-tech','text-entry','ai','accessibility']
 papers=data['publications'];ids=[p['id'] for p in papers]
 ordered=chronological_publications(papers)
 assert len(ids)==len(set(ids)), 'Duplicate publication IDs'
@@ -54,7 +54,7 @@ for lang in ['', 'zh', 'fr', 'ar', 'ja']:
    assert (path.parent/unquote(pdf['href'])).resolve()==(ROOT/paper['pdf']).resolve(), 'PDF linked to wrong paper'
  assert not soup.select('select'), 'Filters must be directly clickable'
  options=soup.select('button[data-filter="topic"]:not([data-value=""])')
- assert len(options)==6
+ assert len(options)==len(topics)
  for option,topic in zip(options,topics):
   assert option['data-value']==topic['id']
   assert option.text==topic.get('short_labels',topic['labels'])[lang or 'en']

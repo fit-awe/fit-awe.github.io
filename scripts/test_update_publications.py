@@ -1,18 +1,33 @@
 import copy
 import unittest
 from unittest.mock import Mock
-from update_publications import base_record,merge,parse_dblp,scholar_rows,verify_scholar_record
+from update_publications import base_record,merge,parse_dblp,scholar_rows,verify_scholar_record,topic_tags
 from translate_locales import validate
 
 class PublicationUpdates(unittest.TestCase):
  def paper(self,title='A Study',source='https://dblp.org/rec/test',doi='10.1/test'):
   return base_record(title,['Yushi Wei','Hai-Ning Liang'],2026,'Test','journal','https://doi.org/'+doi,source,doi)
  def test_duplicate_doi_preserves_curated_content_and_is_idempotent(self):
-  old=self.paper();old['topics']=['games'];old['image']={'path':'images/existing.png'}
+  old=self.paper();old['topics']=['gaming'];old['image']={'path':'images/existing.png'}
   new=self.paper(source='https://scholar.google.com/citations?paper=new')
   records=[old];self.assertEqual(merge(records,[new]),[])
   snapshot=copy.deepcopy(records);merge(records,[new]);self.assertEqual(records,snapshot)
-  self.assertEqual(old['topics'],['games']);self.assertEqual(old['image']['path'],'images/existing.png')
+  self.assertEqual(old['topics'],['gaming']);self.assertEqual(old['image']['path'],'images/existing.png')
+ def test_new_papers_can_span_the_requested_research_areas(self):
+  self.assertEqual(topic_tags('Acceptance of Virtual Reality Exergames Among Chinese Older Adults'),['gaming','interaction-tech','accessibility'])
+  self.assertEqual(topic_tags('Say it or AI it: Evaluating Hands-Free Text Correction in Virtual Reality'),['interaction-tech','text-entry','ai'])
+ def test_gaze_input_is_interaction_without_implying_ai_or_disability(self):
+  self.assertEqual(topic_tags('Exploring and Modeling Gaze-Based Steering Behavior in Virtual Reality'),['interaction-tech'])
+  self.assertEqual(topic_tags('Infrared motion detection and electromyographic gesture recognition for navigating 3D environments'),['interaction-tech'])
+ def test_learning_and_visual_text_do_not_imply_ai_or_text_entry(self):
+  self.assertEqual(topic_tags('Cross-cultural factors influencing the adoption of virtual reality for practical learning'),['interaction-tech'])
+  self.assertEqual(topic_tags('Visual harmony: text-visual interplay in circular infographics'),['interaction-tech'])
+ def test_ai_and_text_entry_have_specific_signals(self):
+  self.assertEqual(topic_tags('A Unified Gradient Regularization Family for Adversarial Examples'),['ai'])
+  self.assertEqual(topic_tags('Contextual Recovery: Guiding Hand Tracking Failures Recovery in Mixed Reality via VLM Reasoning'),['interaction-tech','ai'])
+  self.assertEqual(topic_tags('OnArmQWERTY: An Empirical Evaluation of On-Arm Tap Typing for AR HMDs'),['interaction-tech','text-entry'])
+ def test_unrelated_historical_papers_remain_in_all(self):
+  self.assertEqual(topic_tags('Crystal structures and magnetic performance of nanocrystalline Sm-Co compounds'),[])
  def test_addition_does_not_remove_old_papers(self):
   records=[self.paper()];new=self.paper('Another Study','https://dblp.org/rec/new','10.1/new')
   self.assertEqual(merge(records,[new]),[new['id']]);self.assertEqual(len(records),2)
