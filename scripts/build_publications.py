@@ -55,6 +55,10 @@ OPEN_PDF_LABELS = {
  'en': 'Open PDF', 'zh': '打开 PDF', 'fr': 'Ouvrir le PDF',
  'ar': 'فتح PDF', 'ja': 'PDF を開く',
 }
+ACCEPTED_LABELS = {
+ 'en': 'Accepted', 'zh': '已录用', 'fr': 'Accepté',
+ 'ar': 'مقبول للنشر', 'ja': '採択済み',
+}
 SUPPLEMENT_LABELS = {
  'en': 'Supplementary PDF', 'zh': '补充材料 PDF', 'fr': 'PDF complémentaire',
  'ar': 'PDF تكميلي', 'ja': '補足資料 PDF',
@@ -104,7 +108,8 @@ def build():
     search=esc(' '.join([p['title'],' '.join(p['authors']),p['venue'],str(year),*collaborator_search_names(p)]))
     kindkey={'journal':'Journal article','conference':'Conference paper','preprint':'Preprint'}.get(p['kind'])
     kindlabel=text(kindkey,lang) if kindkey else c['other']
-    short_venue=SHORT_VENUES.get(p['venue'],p['venue']) or kindlabel
+    short_venue=p.get('display_venue') or SHORT_VENUES.get(p['venue'],p['venue']) or kindlabel
+    status_detail=f' · <span class="paper-status">{esc(ACCEPTED_LABELS[lang])}</span>' if p.get('status')=='accepted' else ''
     publication_date=''
     if p.get('published_date'):
      publication_date=f'<time class="visually-hidden" datetime="{p["published_date"]}">{esc(format_date(p["published_date"],lang))}</time>'
@@ -115,7 +120,7 @@ def build():
 {figure}<div class="paper-content">
 <h2 class="paper-title" dir="auto"><a href="{url}" target="_blank" rel="noopener noreferrer">{title}</a></h2>
 <p class="paper-authors" dir="auto">{', '.join(authors)}</p>
-<p class="paper-meta">{venue_detail}{esc(kindlabel)}</p>
+<p class="paper-meta">{venue_detail}{esc(kindlabel)}{status_detail}</p>
 <div class="paper-actions"><a href="{url}" target="_blank" rel="noopener noreferrer">{esc(c['library'])} ↗</a>{pdf}<button type="button" data-citation="{esc(bibtex(p))}">BibTeX</button></div></div></article>''')
   document=f'''<!DOCTYPE html>
 <html lang="{lang}"{' dir="rtl"' if lang=='ar' else ''}>

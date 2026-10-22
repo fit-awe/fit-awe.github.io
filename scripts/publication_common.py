@@ -29,6 +29,8 @@ def lab_author_keys():
  names.extend(tag.get_text(' ',strip=True).split(',')[0] for tag in members.select('.members-alumni .alumni-list li'))
  return {author_key(name) for name in names if name.strip()}
 def bibtex(p):
+ if isinstance(p.get('bibtex'),str) and p['bibtex'].strip():
+  return p['bibtex']
  typ='inproceedings' if p['kind']=='conference' else ('misc' if p['kind']=='preprint' else 'article')
  def safe(t):return str(t).replace('\\','\\textbackslash{}').replace('&',r'\&').replace('%',r'\%').replace('_',r'\_')
  fields=[('title',p['title']),('author',' and '.join(p['authors'])),('year',p['year'])]

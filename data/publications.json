@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-16",
+  "updated": "2026-10-22",
   "sources": {
     "dblp": {
       "profile": "https://dblp.org/pid/55/1198.html",
@@ -19,9 +19,137 @@
     "existing_site": {
       "records": 341,
       "status": "matched-by-title-and-verified-metadata"
+    },
+    "author_submitted_2026_10_22": {
+      "records": 2,
+      "status": "accepted",
+      "source": "Author-provided full PDFs and user-confirmed conference acceptance",
+      "license": "CC BY 4.0 stated in both manuscripts"
     }
   },
   "publications": [
+    {
+      "id": "xr-window-placement-2026",
+      "title": "An Empirical Evaluation of Hand-based Window Placement Techniques for Virtual Displays",
+      "authors": [
+        "Rongkai Shi",
+        "Yue Wu",
+        "Nilufar Baghaei",
+        "Hai-Ning Liang"
+      ],
+      "year": 2026,
+      "venue": "Proc. ACM Hum. Comput. Interact.",
+      "display_venue": "PACM HCI · ISS 2026",
+      "kind": "journal",
+      "doi": "10.1145/3859338",
+      "url": "https://fit-awe.github.io/downloads/publication/papers/2026-window-placement.pdf",
+      "sources": [
+        "https://fit-awe.github.io/downloads/publication/papers/2026-window-placement.pdf",
+        "https://iss.acm.org/2026/"
+      ],
+      "urls": [
+        "https://fit-awe.github.io/downloads/publication/papers/2026-window-placement.pdf",
+        "https://doi.org/10.1145/3859338"
+      ],
+      "image": {
+        "path": "images/papers/xr-window-placement-2026.jpg",
+        "kind": "figure-1",
+        "source": "https://fit-awe.github.io/downloads/publication/papers/2026-window-placement.pdf",
+        "page": 1,
+        "bbox": [
+          44.0,
+          198.0,
+          443.0,
+          363.0
+        ],
+        "caption": "Figure 1. The window placement techniques and display setups.",
+        "pdf_sha256": "33d8938e5198c5a1735ffbdf4e5fbe703a311f6560b82e5fbde87cd77c0e589a"
+      },
+      "pdf": "downloads/publication/papers/2026-window-placement.pdf",
+      "pdf_metadata": {
+        "path": "downloads/publication/papers/2026-window-placement.pdf",
+        "sha256": "33d8938e5198c5a1735ffbdf4e5fbe703a311f6560b82e5fbde87cd77c0e589a",
+        "original_sha256": "33d8938e5198c5a1735ffbdf4e5fbe703a311f6560b82e5fbde87cd77c0e589a",
+        "bytes": 868273,
+        "pages": 22,
+        "source": "https://fit-awe.github.io/downloads/publication/papers/2026-window-placement.pdf",
+        "version": "accepted-manuscript",
+        "document_kind": "article",
+        "license": "CC BY 4.0"
+      },
+      "oa_pdfs": [],
+      "topics": [
+        "interaction-tech"
+      ],
+      "status": "accepted",
+      "expected_publication_month": "2026-11",
+      "bibtex": "@article{Shi2026WindowPlacement,\n  author = {Shi, Rongkai and Wu, Yue and Baghaei, Nilufar and Liang, Hai-Ning},\n  title = {An Empirical Evaluation of Hand-based Window Placement Techniques for Virtual Displays},\n  journal = {Proceedings of the ACM on Human-Computer Interaction},\n  volume = {10},\n  number = {8},\n  articleno = {ISS026},\n  year = {2026},\n  month = nov,\n  numpages = {22},\n  doi = {10.1145/3859338},\n  url = {https://doi.org/10.1145/3859338},\n  note = {Accepted}\n}\n",
+      "bibtex_file": "downloads/publication/papers/2026-window-placement.bib",
+      "catalog_added_on": "2026-10-22",
+      "volume": "10",
+      "number": "8",
+      "article_number": "ISS026",
+      "event": "ACM ISS 2026"
+    },
+    {
+      "id": "scalecue-wim-2026",
+      "title": "ScaleCue-WIM: Boundary-Controlled WIM Scaling for Scale-Aware Navigation in Multiscale Virtual Environments",
+      "authors": [
+        "Junkun Long",
+        "Wolfgang Stuerzlinger",
+        "Pan Hui",
+        "Hai-Ning Liang"
+      ],
+      "year": 2026,
+      "venue": "32nd ACM Symposium on Virtual Reality Software and Technology",
+      "display_venue": "ACM VRST",
+      "kind": "conference",
+      "doi": "10.1145/3822517.3848745",
+      "url": "https://fit-awe.github.io/downloads/publication/papers/2026-scalecue-wim.pdf",
+      "sources": [
+        "https://fit-awe.github.io/downloads/publication/papers/2026-scalecue-wim.pdf",
+        "https://vrst.acm.org/vrst2026/"
+      ],
+      "urls": [
+        "https://fit-awe.github.io/downloads/publication/papers/2026-scalecue-wim.pdf",
+        "https://doi.org/10.1145/3822517.3848745"
+      ],
+      "image": {
+        "path": "images/papers/scalecue-wim-2026.jpg",
+        "kind": "figure-1",
+        "source": "https://fit-awe.github.io/downloads/publication/papers/2026-scalecue-wim.pdf",
+        "page": 1,
+        "bbox": [
+          48.0,
+          294.0,
+          566.0,
+          544.0
+        ],
+        "caption": "Figure 1. ScaleCue-WIM scaling workflow.",
+        "pdf_sha256": "a431dd494a90499de8fc0019fce4cf224a4cc05eafa567b6733a0eb72ffbe30a"
+      },
+      "pdf": "downloads/publication/papers/2026-scalecue-wim.pdf",
+      "pdf_metadata": {
+        "path": "downloads/publication/papers/2026-scalecue-wim.pdf",
+        "sha256": "a431dd494a90499de8fc0019fce4cf224a4cc05eafa567b6733a0eb72ffbe30a",
+        "original_sha256": "a431dd494a90499de8fc0019fce4cf224a4cc05eafa567b6733a0eb72ffbe30a",
+        "bytes": 2828798,
+        "pages": 10,
+        "source": "https://fit-awe.github.io/downloads/publication/papers/2026-scalecue-wim.pdf",
+        "version": "accepted-manuscript",
+        "document_kind": "article",
+        "license": "CC BY 4.0"
+      },
+      "oa_pdfs": [],
+      "topics": [
+        "interaction-tech"
+      ],
+      "status": "accepted",
+      "expected_publication_month": "2026-11",
+      "bibtex": "@inproceedings{Long2026ScaleCueWIM,\n  author = {Long, Junkun and Stuerzlinger, Wolfgang and Hui, Pan and Liang, Hai-Ning},\n  title = {{ScaleCue-WIM}: Boundary-Controlled {WIM} Scaling for Scale-Aware Navigation in Multiscale Virtual Environments},\n  booktitle = {Proceedings of the 32nd ACM Symposium on Virtual Reality Software and Technology},\n  series = {VRST '26},\n  year = {2026},\n  month = nov,\n  publisher = {Association for Computing Machinery},\n  numpages = {10},\n  doi = {10.1145/3822517.3848745},\n  url = {https://doi.org/10.1145/3822517.3848745},\n  note = {Accepted}\n}\n",
+      "bibtex_file": "downloads/publication/papers/2026-scalecue-wim.bib",
+      "catalog_added_on": "2026-10-22"
+    },
     {
       "id": "74b22478e4fe",
       "title": "3D-PV: Enhancing PV power prediction by modeling spatial uncertainty under dynamic shading conditions",

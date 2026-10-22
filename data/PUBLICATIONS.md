@@ -78,6 +78,14 @@ python3 scripts/check_publications.py
 
 月度来源检查、自动翻译、失败处理和部署联动见 [AUTOMATION.md](AUTOMATION.md)。日语入口为 `ja/publications/index.html`。
 
+## 2026-10-22 作者提供的两篇已录用论文
+
+新增 ScaleCue-WIM（ACM VRST 2026）与 Hand-based Window Placement（ACM ISS 2026 / PACM HCI），均依据作者提供的完整具名 PDF 及录用确认整理，保留原作者顺序。目录显示“已录用”，未将预计的 2026 年 11 月出版月份当作已发生的在线发表日期。目录由 393 条增至 395 条，两篇均归 Interaction Tech。
+
+两份 PDF 首页均声明 CC BY 4.0，按原始字节保存于 `downloads/publication/papers/2026-scalecue-wim.pdf` 和 `2026-window-placement.pdf`；校验值、页数及原始声明记录于各条 `pdf_metadata`。图 1 直接来自对应 PDF，未使用概念封面代替研究图片。
+
+每条记录提供可下载的本地全文，标题、图片和“查看论文”也指向该全文。DOI 字段按稿件保留；本轮 DOI 注册查询尚未返回元数据，不将其作为唯一全文入口。两篇的规范 BibTeX 保存在记录和对应 `.bib` 文件中，引用按钮优先使用该规范文本。可通过 `publications/?q=ScaleCue-WIM` 和 `publications/?q=window+placement` 分享单篇筛选结果，直接访问 PDF 下载按钮。
+
 ## 2026-10-04 日期与首页同步
 
 本次为 334 条记录补充带来源的发表日期元数据，59 条无法获取的记录保留原年份。`published_date` 保存 `YYYY`、`YYYY-MM` 或 `YYYY-MM-DD` 原始精度，`published_date_source` 指向 Crossref 官方 DOI 记录或 arXiv 原始页面，`published_date_basis` 记录元数据字段或首次提交。Crossref 优先使用 `published-online`，没有该字段时才使用其公开出版日期；索引、上传与更新日期不当作发表日期。
