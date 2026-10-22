@@ -89,7 +89,8 @@
       "volume": "10",
       "number": "8",
       "article_number": "ISS026",
-      "event": "ACM ISS 2026"
+      "event": "ACM ISS 2026",
+      "download_label": "Shi-ISS26-WindowPlacement"
     },
     {
       "id": "scalecue-wim-2026",
@@ -148,7 +149,8 @@
       "expected_publication_month": "2026-11",
       "bibtex": "@inproceedings{Long2026ScaleCueWIM,\n  author = {Long, Junkun and Stuerzlinger, Wolfgang and Hui, Pan and Liang, Hai-Ning},\n  title = {{ScaleCue-WIM}: Boundary-Controlled {WIM} Scaling for Scale-Aware Navigation in Multiscale Virtual Environments},\n  booktitle = {Proceedings of the 32nd ACM Symposium on Virtual Reality Software and Technology},\n  series = {VRST '26},\n  year = {2026},\n  month = nov,\n  publisher = {Association for Computing Machinery},\n  numpages = {10},\n  doi = {10.1145/3822517.3848745},\n  url = {https://doi.org/10.1145/3822517.3848745},\n  note = {Accepted}\n}\n",
       "bibtex_file": "downloads/publication/papers/2026-scalecue-wim.bib",
-      "catalog_added_on": "2026-10-22"
+      "catalog_added_on": "2026-10-22",
+      "download_label": "Long-VRST26-ScaleCueWIM"
     },
     {
       "id": "74b22478e4fe",
@@ -261,7 +263,8 @@
         "original_sha256": "95b06474f32388518e81230ef3d4faf5e30555b1db4e0d81b24611a8a9312b29",
         "library_key": "conf/saxr/ChenQLL26",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Chen-SAXRCHI26-AffectiveDiary"
     },
     {
       "id": "f385bb674a4c",
@@ -350,7 +353,8 @@
         "original_sha256": "6f5847e7f5b3feec7c3aaeed4ba0ef8326c8d934ca38651591acc27620f36c84",
         "library_key": "journals/corr/abs-2608-14093",
         "document_kind": "article"
-      }
+      },
+      "download_label": "He-arXiv26-AppLooper"
     },
     {
       "id": "c2b2b2cd148d",
@@ -436,7 +440,8 @@
         "original_sha256": "3e00e48487877cc47054503847f4a1042d8d331802fb27a5687bfa0727e9ec80",
         "library_key": "conf/chi/ZhouLFLT26",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Zhou-CHIEA26-CanMyRobotRelaxMe"
     },
     {
       "id": "4c7cebd64fdf",
@@ -500,7 +505,8 @@
         "original_sha256": "2715775115844ebb78451df3e33577e926aa1e2dc5af51e86ef5bf99385b5d3c",
         "library_key": "journals/tvcg/WangCSCZLL26",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Wang-TVCG26-ConflictResolutionStrategiesCoManipulation"
     },
     {
       "id": "5ba1a3f67cd6",
@@ -649,7 +655,8 @@
         "original_sha256": "fff8506f2a959c070d09a5df04f93d2993b9fcbeb588d8ade6beb78e35e8dda1",
         "library_key": "journals/frvir/LivatinoWL26",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Livatino-FrontVR26-ImmersiveTelepresenceEditorial"
     },
     {
       "id": "400581758cdf",
@@ -745,7 +752,8 @@
         "original_sha256": "43f185577f8e00af1e450f1f419aa17d51cc285d562d0871c834c829ba202d33",
         "library_key": "journals/tvcg/QiHYXZLH26",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Qi-TVCG26-FreehandSelectionPolyhedronFacesVR"
     },
     {
       "id": "f54dd5cfc9cc",
@@ -803,7 +811,8 @@
         "original_sha256": "400d4e7f7cd69fdad699b6e9983b8b2c6220054d16d97f2fe9e83ab8779938e8",
         "library_key": "conf/vr/LiLWHL26",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Li-VR26-FlexiCamAR"
     },
     {
       "id": "c2345e1d5dd2",
@@ -858,7 +867,8 @@
         "version": "preprint",
         "original_sha256": "29160fc0e7b2be196ac86dbcc89a7052a04ff7953f152b98fc705a1bff93a9c2",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Li-IJHCI26-PersonalizedVRReview"
     },
     {
       "id": "935a6c0da3fe",
@@ -931,7 +941,8 @@
         "original_sha256": "8ba08f6bd353699a215a9dae5a8427625f228b6583f6a94b4d37241faa4048aa",
         "library_key": "journals/tvcg/AnthesBGJLMAABCFGGHLPRR26",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Anthes-TVCG26-GrandChallengesCrossReality"
     },
     {
       "id": "6805d1fd6af4",
@@ -997,7 +1008,8 @@
         "original_sha256": "98e774951cc474802be5d52e3e03a825b431c82dd60a031300e0e20fad4cdb95",
         "library_key": "journals/pieee/HeLZZJAXLLKS26",
         "document_kind": "article"
-      }
+      },
+      "download_label": "He-PIEEE26-HumanInspiredPerspectives"
     },
     {
       "id": "923a05e236a1",
@@ -1053,7 +1065,8 @@
         "original_sha256": "c8d161944dea6c9fef0153e179289197e2ccb59c1a69fa96ae85802edb0b1740",
         "library_key": "conf/chi/AminiSYLB26",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Amini-CHI26-ImprovingSteeringLawThroughputCalculation"
     },
     {
       "id": "eea1024cfaad",
@@ -1144,7 +1157,8 @@
         "original_sha256": "c42d4c980e01dc61f77fcf406c1fbae4cafbe0437e6b8d5f62bde2ed6d42f271",
         "library_key": "conf/chi/YangHLM26",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Yang-CHI26-PhysicalSurfacesPerceptualGrouping"
     },
     {
       "id": "facfee715450",
@@ -1411,7 +1425,8 @@
         "original_sha256": "6d2d9559cfb70552e977ca81d16c5503e82478cc562f208df08c2f4e2bb0fef8",
         "library_key": "conf/candc/LiZLLWJ26",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Li-CC26-Pluskin"
     },
     {
       "id": "826f5976baba",
@@ -1601,7 +1616,8 @@
         "original_sha256": "97f12f191c3a6e2e7bd6b2e9107b61d1a5b1835714d3ee0dd634f91307e2e62a",
         "library_key": "journals/corr/abs-2601-02829",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Wang-arXiv26-ResolutionDeficitsDriveSimulatorSickness"
     },
     {
       "id": "6987ffd4d1f2",
@@ -1691,7 +1707,8 @@
         "original_sha256": "3abef9d8798b288889aed5567a2a77d2a3ed3e328404b08d9aabd926d29613b6",
         "library_key": "conf/vr/ZhaoXILY26",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Zhao-VR26-ScaleFree"
     },
     {
       "id": "98e5400c67d6",
@@ -1750,7 +1767,8 @@
         "original_sha256": "d18a23943bcd5b27d0512935453e0a83e294086c78d6b5e4bbbff5e844ae5214",
         "library_key": "journals/corr/abs-2603-14449",
         "document_kind": "article"
-      }
+      },
+      "download_label": "He-arXiv26-TapToAdapt"
     },
     {
       "id": "93957c6e68b8",
@@ -1806,7 +1824,8 @@
         "original_sha256": "59abf4b142ffb63be7f9631e2e322a80c59d459bc16d77cb9b339000d8631f40",
         "library_key": "journals/corr/abs-2601-02805",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Wang-arXiv26-VideoSeeThroughPerceptualGap"
     },
     {
       "id": "9edf39b2bb3c",
@@ -1864,7 +1883,8 @@
         "original_sha256": "c8fb277a8732bd696a8adff7bde5c90ffe8c379b4fe37f1cd1f89778d6dc2809",
         "library_key": "journals/tvcg/WeiSXWGHYL26",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Wei-TVCG26-LatencyUserPerformanceTargetSelection"
     },
     {
       "id": "2ecb07ef7106",
@@ -1954,7 +1974,8 @@
         "original_sha256": "d07b948c9fb1f2cf2bf463bc3397543c3db80f153de9e6fe4ecca6df4b9f20c5",
         "library_key": "journals/corr/abs-2603-21505",
         "document_kind": "article"
-      }
+      },
+      "download_label": "He-arXiv26-HumanAgentEqualitySocialSpaces"
     },
     {
       "id": "4728d6bdd9d6",
@@ -2035,7 +2056,8 @@
         "original_sha256": "27c2134d7788bf2d950149694575d9c387f349b8445a938dff5c1ff25f8f5900",
         "library_key": "journals/tvcg/ZhangJTLLT25",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Zhang-TVCG25-OneBodyButFourHands"
     },
     {
       "id": "11f0a006c1c8",
@@ -2081,7 +2103,8 @@
       ],
       "published_date": "2025-03-10",
       "published_date_source": "https://api.crossref.org/works/10.1007%2Fs12650-025-01058-5",
-      "published_date_basis": "published-online"
+      "published_date_basis": "published-online",
+      "download_label": "Yao-JOV25-3DStoryline"
     },
     {
       "id": "9527a1168a92",
@@ -2136,7 +2159,8 @@
         "original_sha256": "85ac8d50e4756e4aa0519c4f049f0658b958ce9f788592d647a11ac9fd5bd947",
         "library_key": "journals/air/LiMLTWWL25",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Li-AIR25-SpecularityDetectionSurvey"
     },
     {
       "id": "5823f86f1254",
@@ -2192,7 +2216,8 @@
         "original_sha256": "29160fc0e7b2be196ac86dbcc89a7052a04ff7953f152b98fc705a1bff93a9c2",
         "library_key": "journals/corr/abs-2510-13123",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Li-arXiv25-PersonalizedVRInteractionReview"
     },
     {
       "id": "37a351e07e2f",
@@ -2242,7 +2267,8 @@
         "original_sha256": "750c7ccef859b6be7c3d296455b949a131906d28b5290a72b07bf81c7bb454f4",
         "library_key": "journals/jmui/ZhaoLLLL25",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Zhao-JMUI25-AirWhisper"
     },
     {
       "id": "bffb776102d4",
@@ -2295,7 +2321,8 @@
         "original_sha256": "c0ea335e5ab127fd2bff026c832e3d9e68c9fa2e80b674899351134f160325a1",
         "library_key": "conf/dh/LiangLWYKL25",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Liang-DigitalHERITAGE25-ArtifactVM"
     },
     {
       "id": "9b75c1f4364c",
@@ -2334,7 +2361,8 @@
       ],
       "published_date": "2025-02-21",
       "published_date_source": "https://arxiv.org/abs/2502.15228",
-      "published_date_basis": "first-submission"
+      "published_date_basis": "first-submission",
+      "download_label": "Zhang-arXiv25-AutoMR"
     },
     {
       "id": "629944d075ee",
@@ -2390,7 +2418,8 @@
         "original_sha256": "3e9012081e0dcc9d28757ccc0877d838cbb260975abcb06eca2e946739099159",
         "library_key": "conf/chi/Zhang0SJL25",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Zhang-CHIEA25-CaneXR"
     },
     {
       "id": "13c73c8675c1",
@@ -2431,7 +2460,8 @@
       ],
       "published_date": "2025-06",
       "published_date_source": "https://api.crossref.org/works/10.1016%2Fj.inffus.2025.102961",
-      "published_date_basis": "published"
+      "published_date_basis": "published",
+      "download_label": "Guo-InformationFusion25-CDUDepth"
     },
     {
       "id": "8cc52c82e54c",
@@ -2489,7 +2519,8 @@
         "original_sha256": "d365fb403efef60071110dc860577a089192db93b8b8c46dc76620b7636c33ec",
         "library_key": "journals/corr/abs-2506-01109",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Li-arXiv25-CountingFruit"
     },
     {
       "id": "c424092a6fee",
@@ -2546,7 +2577,8 @@
         "original_sha256": "ee20f0bdda16076477cf17d585e99d08718e63fc3eeab8c4996558a837ca2f6e",
         "library_key": "journals/cga/KronenbergerLMK25",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Kronenberger-CGandA25-VirtualSelfRepresentation"
     },
     {
       "id": "2b6add2dfee6",
@@ -2618,7 +2650,8 @@
       ],
       "published_date": "2025-02-17",
       "published_date_source": "https://arxiv.org/abs/2502.12297",
-      "published_date_basis": "first-submission"
+      "published_date_basis": "first-submission",
+      "download_label": "Zhu-arXiv25-DuoStreamers"
     },
     {
       "id": "4e9a4d51cea6",
@@ -2702,7 +2735,8 @@
         "original_sha256": "2ef801ce6d2ac5ee82cfe651c2b2a8ae5522f2680ba9d2427ce1a52470fc6df4",
         "library_key": "journals/tvcg/WeiSBLHYL25",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Wei-TVCG25-ModelingFrameRateSteeringPerformance"
     },
     {
       "id": "f93adb8c6c8e",
@@ -2750,7 +2784,8 @@
         "original_sha256": "4e9e9e78f71a5245b9654b9b3b9429948d3be1b2fdbc7b00e8c31507056e11fd",
         "library_key": "journals/ijhci/LiMLL25",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Li-IJHCI25-ExaminingUseDanMuCrowdsourcingControl"
     },
     {
       "id": "2a9cedd6788d",
@@ -2876,7 +2911,8 @@
         "original_sha256": "609f91ca4d1a51fb1651cf9642fdb37a3ec8c07ab51937fe47f334d78dcf3bdf",
         "library_key": "conf/chi/HuZWLSL25",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Hu-CHIEA25-ModelingGazeSteeringBehaviorVirtual"
     },
     {
       "id": "a1e35859ba8b",
@@ -2936,7 +2972,8 @@
         "original_sha256": "1556d949db523c832e6fa464956573597e4c2e727d9bcb2c4b2fabf38f2e1b70",
         "library_key": "journals/tvcg/HuZWZ0SL25",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Hu-TVCG25-ModelingEyeTrackingAccuracyPrecision"
     },
     {
       "id": "6956baee02f4",
@@ -2999,7 +3036,8 @@
         "original_sha256": "41b881dbaec3e452cb95dfb59ee6ca8ea85e7b7ad760c74d882fa0008dcd576f",
         "library_key": "conf/ismar/ZhangZHYL25",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Zhang-ISMARAdjunct25-FeasibilityGazeNavigationAcrossPath"
     },
     {
       "id": "d1b39c59f953",
@@ -3087,7 +3125,8 @@
         "original_sha256": "dc034960862aab7b5a015c407408abeeacd9c16612d61f909c4ff5909909271c",
         "library_key": "conf/visigrapp/ZhengW000L25",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Zheng-VISIGRAPP25-HeyThere"
     },
     {
       "id": "fba17610e7e7",
@@ -3145,7 +3184,8 @@
         "original_sha256": "b5c4e3668c437ca42a58779def5439df832ddac688fafff3d9d889dc592d3057",
         "library_key": "conf/chi/ZhangAYLXB25",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Zhang-CHIEA25-VisualEmbellishmentsPlayerExperienceVirtual"
     },
     {
       "id": "08c7e0fee5d7",
@@ -3185,7 +3225,8 @@
       ],
       "published_date": "2025-05",
       "published_date_source": "https://api.crossref.org/works/10.1016%2Fj.ijhcs.2025.103466",
-      "published_date_basis": "published"
+      "published_date_basis": "published",
+      "download_label": "Jiang-IJHCS25-iPillowPal"
     },
     {
       "id": "c63e29894db9",
@@ -3220,7 +3261,8 @@
       ],
       "published_date": "2025-03-24",
       "published_date_source": "https://api.crossref.org/works/10.1080%2F17508975.2025.2479095",
-      "published_date_basis": "published-online"
+      "published_date_basis": "published-online",
+      "download_label": "Taherysayah-IBI25-LearningFromNeuroscience"
     },
     {
       "id": "da687f06a27e",
@@ -3265,7 +3307,8 @@
       ],
       "published_date": "2025-03-08",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fvr59515.2025.00048",
-      "published_date_basis": "published"
+      "published_date_basis": "published",
+      "download_label": "Guo-VR25-NoMoreHeadTurning"
     },
     {
       "id": "19766240bd5c",
@@ -3304,7 +3347,8 @@
       ],
       "published_date": "2025-03-08",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fvr59515.2025.00030",
-      "published_date_basis": "published"
+      "published_date_basis": "published",
+      "download_label": "Hu-VR25-OptimizingMovingTargetSelectionVR"
     },
     {
       "id": "5772e99ee1d6",
@@ -3344,7 +3388,8 @@
       ],
       "published_date": "2025-03-08",
       "published_date_source": "https://api.crossref.org/works/10.1109%2Fvr59515.2025.00034",
-      "published_date_basis": "published"
+      "published_date_basis": "published",
+      "download_label": "Xu-VR25-PredictingRayPointerLandingPoses"
     },
     {
       "id": "02832f6ff028",
@@ -3391,7 +3436,8 @@
         "original_sha256": "e864e016fea43a1df11e501822ce855d8d71943a6ceda02fb07b6e40197765d8",
         "library_key": "journals/tvcg/WangLLCL25",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Wang-TVCG25-ResponsiveView"
     },
     {
       "id": "2ed52df86ecb",
@@ -3451,7 +3497,8 @@
         "original_sha256": "6d7e225f01c43630e165d8bf197d552f0945f64495c66784a2e8cd5b6b2375a2",
         "library_key": "conf/vrcai/0001GSL025",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Li-VRCAI25-SayItOrAIIt"
     },
     {
       "id": "8a830890be69",
@@ -3508,7 +3555,8 @@
         "original_sha256": "cb034d382e39c25be11adbb1b3d4e65a0d4b3aee528e22d22ab575ab9461f3fe",
         "library_key": "journals/tvcg/ZhaoIXLY25",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Zhao-TVCG25-SpatialTouch"
     },
     {
       "id": "4da91e706179",
@@ -3595,7 +3643,8 @@
         "original_sha256": "c3f2d54899dabcaf280238e4306cf0b52f6a528feda5e0bba7a7079d762af857",
         "library_key": "conf/visigrapp/0001L25",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Monteiro-VISIGRAPP25-ExhaustedBrainTheoryEnergyFramework"
     },
     {
       "id": "df50d9bd1d49",
@@ -3653,7 +3702,8 @@
         "original_sha256": "512e52aebda3a95ed29e275d0f6456a91dd1bb66e613bd077681cbe703dffd76",
         "library_key": "conf/vrst/AminiSYLB25",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Amini-VRST25-TunnelsVsWires"
     },
     {
       "id": "45f54368c8f2",
@@ -3722,7 +3772,8 @@
       "topics": [
         "interaction-tech",
         "ai"
-      ]
+      ],
+      "download_label": "Li-SoftwareX25-VisualCodeMOOC"
     },
     {
       "id": "887682ec7169",
@@ -3845,7 +3896,8 @@
         "original_sha256": "ee8a662a79264efa37746418cd195a0c9991cbc8938cb0c718f538f09761030c",
         "library_key": "journals/tvcg/WanZXGGL24",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Wan-TVCG24-EfficientAuthenticationPasswordEntryQwerty"
     },
     {
       "id": "65ae45d86f04",
@@ -3899,7 +3951,8 @@
         "original_sha256": "b7618c2370cd984f7d68dbab724214a0a6d8f36d83ac59414de78afe31cf399c",
         "library_key": "journals/tvcg/GuoWDXBLL24",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Guo-TVCG24-BreakingTheIsolation"
     },
     {
       "id": "4e397222290c",
@@ -3950,7 +4003,8 @@
         "original_sha256": "7c5731f72abb0c9327001a13835f44ccf6ee09434a9a619546855d47a2b519f2",
         "library_key": "conf/siggrapha/JiangX0L024",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Jiang-SIGGRAPHAsiaEF24-ChemistryVR"
     },
     {
       "id": "bf056aa20dcc",
@@ -4002,7 +4056,8 @@
         "original_sha256": "20cf51bbeceb2c6d098e74b526af7b20df311754b6732d8311ef78e69c40e1fc",
         "library_key": "journals/puc/LiLWPYL24a",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Li-PUC24-CollaborativeUGVControlCorrection"
     },
     {
       "id": "63717bd5c6ab",
@@ -4049,7 +4104,8 @@
         "original_sha256": "bf56b5efe6723f4f2b94e15e52ba683d5a43626d1481bb14df70a330703545c0",
         "library_key": "conf/vr/Xia0L24",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Xia-VRW24-CovisitVM"
     },
     {
       "id": "b79744cce433",
@@ -4111,7 +4167,8 @@
         "original_sha256": "67915c76b5ad12b0483a00d329339320490419c5459eefaf9736f313b92ef443",
         "library_key": "journals/uais/MonteiroMLPL24",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Monteiro-UAIS24-CrossCulturalFactorsInfluencingAdoption"
     },
     {
       "id": "798e2b0498e6",
@@ -4166,7 +4223,8 @@
         "original_sha256": "4c4c10e3d8246ba33f16efbcfde1ffd6d649414f48fd5cd16508cd921df7b6c3",
         "library_key": "journals/ijhci/XuLWXYL24",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Xu-IJHCI24-CubeMuseumAR"
     },
     {
       "id": "b610760fd1b9",
@@ -4222,7 +4280,8 @@
         "original_sha256": "c93ec024a4ae089b830bd95a1aa78f2d272ba896ab2435fa326960da38e5c812",
         "library_key": "conf/chi/HeYJLX0L024",
         "document_kind": "article"
-      }
+      },
+      "download_label": "He-CHI24-DataCubesHandSpaceTangible"
     },
     {
       "id": "7207f29f8dd3",
@@ -4314,7 +4373,8 @@
         "original_sha256": "c6c5c70dce73323786868bef7af39a01328301b399e6e19e53ecfbb4c5cadd2e",
         "library_key": "journals/tvcg/WanWSSKAL24",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Wan-TVCG24-ControllerRaycastingEfficientAlphanumericSpecial"
     },
     {
       "id": "30ef007e7d81",
@@ -4628,7 +4688,8 @@
         "original_sha256": "e2027157317333b5d0ad4ce70a97da55a2accea2a1c708242a9852e1fcf4e7d1",
         "library_key": "conf/ismar/GuoXWWBLL24",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Guo-ISMAR24-EnhancementCoLocatedSharedVR"
     },
     {
       "id": "b95cfdd87e6f",
@@ -4683,7 +4744,8 @@
         "original_sha256": "e19decf9ebd5e773fced2276975b642c74e1dbf8ff7c19cde5d970d8ca8ef2db",
         "library_key": "journals/pacmhci/ShiWHL00L24",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Shi-PACMHCI24-ExperimentalFreehandMultiObjectSelection"
     },
     {
       "id": "4c278ca57f6f",
@@ -4735,7 +4797,8 @@
         "original_sha256": "7fb4cf4fa8f3f4195ee6c5fc19eb6c861694bb87dc2abaca1ea9bcb5bca3a747",
         "library_key": "journals/displays/ChenLSLYYL24",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Chen-Displays24-ExocentricPerspectiveInterfacesVirtualReality"
     },
     {
       "id": "fab788a7fd53",
@@ -4818,7 +4881,8 @@
         "original_sha256": "1de2ab533b3b78de054ebbaf3d68e10f3c1f147f6b144b602c13fc0b1504bd0c",
         "library_key": "journals/tvcg/WeiXLYL24",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Wei-TVCG24-ModelingDirectionalSteeringBehaviorVirtual"
     },
     {
       "id": "a867c12d3f89",
@@ -4868,7 +4932,8 @@
         "original_sha256": "73ad57f13dbe272770d2b3c8df873267574beb2d7473cd867b38743989115397",
         "library_key": "conf/vr/SongSLGL24",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Song-VR24-ControllerPreciseRapidTextSelection"
     },
     {
       "id": "9478e2d34101",
@@ -4917,7 +4982,8 @@
         "original_sha256": "e70a170763e2c88d21f9ff09392e9be596e6547e420b63eb9f7539b77a51c2a5",
         "library_key": "conf/chi/YaoZLL0024",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Yao-CHIEA24-EmbodiedAsymmetricTwoHandedInteractions"
     },
     {
       "id": "d205d1391d89",
@@ -4970,7 +5036,8 @@
         "original_sha256": "d50d492dc981a92c9b9fb4540a3d2e689de4e5bb7a8b940756db61e9eb3fc300",
         "library_key": "journals/ijmms/KaoMJPMLR24",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Kao-IJHCS24-HowGenderAnonymousVoiceAvatars"
     },
     {
       "id": "ab3e09a5d2f5",
@@ -5023,7 +5090,8 @@
         "original_sha256": "8c1d165c04d18bce6abb24258d3675582a91cf5a695630c825ed13ffe664feae",
         "library_key": "conf/visigrapp/XuZ0NWL24",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Xu-VISIGRAPP24-DisplayTypeCoLocatedMultiple"
     },
     {
       "id": "d1e89256c958",
@@ -5074,7 +5142,8 @@
         "original_sha256": "d79465d189d32120375089bd996a21222e6c6dd3b6ccac508a12df64f16f8d7f",
         "library_key": "conf/ismar/HuYWX0LL24",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Hu-ISMAR24-SpatialConstraintsCurvature3DPiloting"
     },
     {
       "id": "8e34c8243a3f",
@@ -5133,7 +5202,8 @@
         "original_sha256": "d6342a62da861fc90270ce8637f83eb8e991ff022d0c5edd630f53f7b91cff14",
         "library_key": "conf/ismar/GuoDWTXL24",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Guo-ISMAR24-PassthroughVRExergamingPublicEnvironments"
     },
     {
       "id": "8ce28f01e0ce",
@@ -5191,7 +5261,8 @@
         "original_sha256": "84fa130fa301144c9df27111960aee4b9069ff2b8130dcc724d3d55314bf6cbf",
         "library_key": "journals/behaviourIT/BarrettPML24",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Barrett-BIT24-InfluenceAudienceFamiliaritySpeakerAnxiety"
     },
     {
       "id": "bbe73837c815",
@@ -5291,7 +5362,8 @@
         "original_sha256": "9a80ce6ae35eb2c2147105dfd195ce2eabacf1ed73d9f27049849de50b97c6ae",
         "library_key": "journals/ijmms/ZhuYXYXWLM24",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Zhu-IJHCS24-ReaderExperiencerVRDataStory"
     },
     {
       "id": "1638ffee6dab",
@@ -5348,7 +5420,8 @@
         "original_sha256": "0d041a5ddf49ccb212487d88cc75b89550b23cbd475e3ba27a2b8ee70f4f1e0d",
         "library_key": "journals/vr/WanSXLAYL24",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Wan-VirtualReality24-HandsFreeMultiTypeCharacter"
     },
     {
       "id": "8baaf27af1b6",
@@ -5440,7 +5513,8 @@
         "original_sha256": "8bf22ff8e5fa54e18c505275940b52dc35a84e2538750bb6d45254131a828948",
         "library_key": "journals/pacmcgit/ChenYHKL24",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Chen-PACMCGIT24-TutorialModesDifferentTimeFlow"
     },
     {
       "id": "504fc61af1ed",
@@ -5498,7 +5572,8 @@
         "original_sha256": "42a4373f32e7524defc2bd11a790d47344be2c5ea69eac1fb086a2f3506870fc",
         "library_key": "journals/behaviourIT/JiangNLB24",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Jiang-BIT24-SituEmotionRegulationViaSmart"
     },
     {
       "id": "be2b6ffaeccb",
@@ -5555,7 +5630,8 @@
         "original_sha256": "42f1f74e3c339311c7ebfb07171f0c09309adbd5b30a7cb2da5673c9e677e4ef",
         "library_key": "journals/pacmhci/0101HJG0LK24",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Li-PACMHCI24-CreationPerspectivesIconPlacementPreferences"
     },
     {
       "id": "db41cf97441a",
@@ -5602,7 +5678,8 @@
         "original_sha256": "3c17ec23a0f519a72153fe5c41954e2d23a021f8aa94fb18588b7455b1b60b5c",
         "library_key": "conf/vr/WangLL24",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Wang-VR24-MagicMap"
     },
     {
       "id": "9384913c1a8e",
@@ -5654,7 +5731,8 @@
         "original_sha256": "6294bf0946dc15c6dc0cf2f78f2a56756b6a1947e29cfc4ecc5dc41b308b51aa",
         "library_key": "conf/vr/LiangLWZL24",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Liang-VRW24-MemoryVR"
     },
     {
       "id": "ed5bcc48597e",
@@ -5721,7 +5799,8 @@
         "original_sha256": "9079d9e1b44bf2f48b300ef7463a82ced414c81f56d8a6ab1e7d33baea2fd88d",
         "library_key": "journals/tvcg/ZhaoIXLY24",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Zhao-TVCG24-MeTACAST"
     },
     {
       "id": "3ff582ec245b",
@@ -5811,7 +5890,8 @@
         "original_sha256": "20f627d973468380d267d9ed69c001c20ee56fb55a1d6d9e73faf04c37d3d689",
         "library_key": "conf/sui/DarbarHYWLXS24",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Darbar-SUI24-OnArmQWERTY"
     },
     {
       "id": "6ce7e94260c3",
@@ -5930,7 +6010,8 @@
         "original_sha256": "cc81955250caae469a88afa096fbb574b7e12f571638a75653f7088ab8adb654",
         "library_key": "journals/puc/LiarokapisML24",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Liarokapis-PUC24-UbiquitousInteractiveMediaEditorial"
     },
     {
       "id": "72f5e5d543d4",
@@ -6017,7 +6098,8 @@
         "original_sha256": "c93f22b2e62a0886b7ce438ea551421f2c7afa84bab23e18e096a98b1831ec35",
         "library_key": "journals/bdr/WangLLJY25",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Wang-VLDBW24-TangibleProgress"
     },
     {
       "id": "ccdf83541d31",
@@ -6145,7 +6227,8 @@
         "original_sha256": "ec2eabec987bb3fb473ee4cd9571c41ae239f08a8c72c497dcca64125a61d296",
         "library_key": "conf/ismar/LiuLCWL24",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Liu-ISMAR24-UserDefinedGestureInteractionsVR"
     },
     {
       "id": "392e4ebb96fb",
@@ -6183,7 +6266,8 @@
       ],
       "published_date": "2025-01",
       "published_date_source": "https://api.crossref.org/works/10.1016%2Fj.newideapsych.2024.101127",
-      "published_date_basis": "published"
+      "published_date_basis": "published",
+      "download_label": "Chitale-NIP24-VirtualRealityAnalyticsMapVRAM"
     },
     {
       "id": "964208cc23c5",
@@ -6268,7 +6352,8 @@
         "original_sha256": "dbb0f2de686e95ca7627ae2a09e95df09beb694cfe7f893e2a12d1294d2f1dd5",
         "library_key": "journals/frvir/LuoWPLIL24",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Luo-FrontVR24-VisualAugmentationLiveStreamingImages"
     },
     {
       "id": "7b881fcb124a",
@@ -6322,7 +6407,8 @@
         "original_sha256": "fd1c334df676fedbe5993e5355edca5b8a4eaf87bd91f653c1a1e013224d5ed5",
         "library_key": "journals/jvis/HeCXLLY24",
         "document_kind": "article"
-      }
+      },
+      "download_label": "He-JOV24-VisualHarmony"
     },
     {
       "id": "4775b55ae124",
@@ -6382,7 +6468,8 @@
         "original_sha256": "5cd6e528bfddc8511e6784d7a8450e04dec2b26082b7485416beae90da366da5",
         "library_key": "journals/vc/XiangLYYZ23",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Xiang-VisualComputer23-MixedRealityFrameworkMicrosurgerySimulation"
     },
     {
       "id": "3b18572bda9b",
@@ -6440,7 +6527,8 @@
         "original_sha256": "9b84b77c72075002967b27cdd52a89d87927302436990b000c6c099851b3f70a",
         "library_key": "journals/jvis/HouZLY23",
         "document_kind": "supplement"
-      }
+      },
+      "download_label": "Hou-JOV23-StarGlyphParametersValueEstimation-Supplement"
     },
     {
       "id": "ad846de2cd1d",
@@ -6500,7 +6588,8 @@
         "original_sha256": "0cb11d7633b110848672a7cbc093fd821933bd41acf2cfca2379c10c070145a4",
         "library_key": "conf/pacificvis/LiuZPLLCY23",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Liu-PacificVis23-ZoomingInteractiveLensesOverviewDetail"
     },
     {
       "id": "fe87a081baef",
@@ -6598,7 +6687,8 @@
         "original_sha256": "7139ad93eb362b65837e8b203773e3efefba3c7c04c7ca875d46dd9a99110ee4",
         "library_key": "journals/ijhci/XuLYWBT23",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Xu-IJHCI23-AcceptanceVirtualRealityExergamesAmong"
     },
     {
       "id": "d55f3e76dadd",
@@ -6665,7 +6755,8 @@
         "original_sha256": "38df9c110457879086ea8e6a4ede3562a7e46230f1157f0d0ee564df5604ace1",
         "library_key": "conf/ismar/ChenLZWLLL23",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Chen-ISMARAdjunct23-ARSSpace"
     },
     {
       "id": "f1073c01dd38",
@@ -6722,7 +6813,8 @@
         "original_sha256": "07e77554183310f6bc8d2c7652661e9030acbd2bc23e6991e41e610ffad66d36",
         "library_key": "conf/cchi/HuangLL23",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Huang-CCHI23-AvatarTypeSelfCongruencePresence"
     },
     {
       "id": "b0fa12644f64",
@@ -6822,7 +6914,8 @@
         "original_sha256": "90c1eefb42a379a0a6a20c6275009018b0ce59b947e47f9fe4ab54b40f1dcd45",
         "library_key": "journals/vr/YuWXCBL23",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Yu-VirtualReality23-CheerForMe"
     },
     {
       "id": "a5fa265c1597",
@@ -6878,7 +6971,8 @@
         "original_sha256": "a937c3058d48b1cc51cac5eac136d1fd4a4222e94becc3f641b726ca7921cb15",
         "library_key": "conf/ismar/WangLL23",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Wang-ISMAR23-ComparativeArtefactInteractionManipulationVR"
     },
     {
       "id": "d113c3e6ba85",
@@ -6973,7 +7067,8 @@
         "original_sha256": "e25a399d799942ea030febaaf9a94a9b5e65f6bd4be715c63ad2c2c642a3480d",
         "library_key": "conf/ismar/XiaLZZWLL23",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Xia-ISMARAdjunct23-CrossRealityInteractionCollaborationMuseums"
     },
     {
       "id": "4e1c470cbd4f",
@@ -7029,7 +7124,8 @@
         "original_sha256": "e9e61e61cba5e9f3ddbb7ae76ed46c01acc46b4afe60524cad4951e2116f3564",
         "library_key": "conf/chira/LiLLL23",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Li-CHIRA23-EasyInduction"
     },
     {
       "id": "eee67d337dbb",
@@ -7087,7 +7183,8 @@
         "original_sha256": "3827bd148b4db47705c05687fa57a4f6a924aa0790287fd68441abb8867cb7c9",
         "library_key": "journals/jvis/LuNPYL23",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Lu-JOV23-DisplayPlatformsSpatialKnowledgeAcquisition"
     },
     {
       "id": "6c95c5365a2a",
@@ -7217,7 +7314,8 @@
         "original_sha256": "7f3963e164a7b0a52fe8ca646248b55e0e880d4a4416bf13ceb51cd286bbdfa5",
         "library_key": "conf/ismar/ShiWLYL23",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Shi-ISMARAdjunct23-ExpandingTargetsVirtualRealityEnvironments"
     },
     {
       "id": "f9761157aeab",
@@ -7276,7 +7374,8 @@
         "original_sha256": "fab7823702fd8a93795ce54b1ac5a08caccc95827af37fc2ca0cd0bf14780e37",
         "library_key": "conf/chi/ShiZ0YL23",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Shi-CHIEA23-BareHandMidAirPointing"
     },
     {
       "id": "9ed31e06cf74",
@@ -7506,7 +7605,8 @@
         "original_sha256": "62fa6a422483512761c223e00e247049ab3fa39a6ce352bfa73187618093d6e7",
         "library_key": "conf/vr/ChaiLYL23",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Chai-VRW23-HapticBox"
     },
     {
       "id": "8bcf053a53fe",
@@ -7563,7 +7663,8 @@
         "original_sha256": "416a81982831b7af2890b98a8ffa29bf14f9fb1529f7bf0d8578bf52f8e94ee8",
         "library_key": "conf/ismar/LiZLY23",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Li-ISMARAdjunct23-ImmerView"
     },
     {
       "id": "71f0aa15f07e",
@@ -7693,7 +7794,8 @@
         "original_sha256": "eba457b37d043f3160e2f373bd4868f61d7404dc249ce53c795a6b40455cd2a2",
         "library_key": "conf/ismar/ZhaoLL23",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Zhao-ISMAR23-LeanOn"
     },
     {
       "id": "e6c23f4c0ea5",
@@ -7753,7 +7855,8 @@
         "original_sha256": "343dae7f9df9d4fdd08bc8e0a24463611257d46aa116fdf3e155c61ce123e4cd",
         "library_key": "journals/vc/WangXKYL23",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Wang-VisualComputer23-LVDIF"
     },
     {
       "id": "eeafd05c8652",
@@ -7813,7 +7916,8 @@
         "original_sha256": "3b28c46a95bb35849645e3a1ad5788261715ce60b4ec65a8093084a5095a69da",
         "library_key": "conf/vr/XiangLYYZ23",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Xiang-VRW23-MRMSim"
     },
     {
       "id": "a795ff39d2c9",
@@ -7874,7 +7978,8 @@
         "original_sha256": "6f98f2484cf18e9f92d5f1170ca7de77757efa4f25d41d8120b7432b9d0c19c1",
         "library_key": "conf/chi/WeiSYW0YL23",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Wei-CHI23-PredictingGazeTargetSelectionAugmented"
     },
     {
       "id": "b98c2e32123d",
@@ -7928,7 +8033,8 @@
         "original_sha256": "87757299f3a2231bd5a9395deed4f89583cabbbe5ea2e8543a413ffcbac29afd",
         "library_key": "journals/tciaig/WangLMXX23",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Wang-TGames23-SimulatorSicknessPrediction"
     },
     {
       "id": "3f9ca45355ce",
@@ -8061,7 +8167,8 @@
         "original_sha256": "008c42147bc21363e55bce6da20f9b874e8ad7a3685243ccac5a5c5f49bbe1f9",
         "library_key": "conf/chi/WangPLSCKL023",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Wang-CHI23-TasksDifferentColorHowCrowdsourcing"
     },
     {
       "id": "0daa53b84261",
@@ -8116,7 +8223,8 @@
         "original_sha256": "fa6b8fd00abee0f1b27da8e0f725c5d7a69c412f9807c4bc5c578b28c8cc8a31",
         "library_key": "conf/vr/ZhaoLYL23",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Zhao-VRW23-TeleSteer"
     },
     {
       "id": "a2a8595e20ab",
@@ -8287,7 +8395,8 @@
         "original_sha256": "c3ac4b56ee436f97a3ef00089b9bbb51d14bd62ed8779eae736dd6e1ce4fd00f",
         "library_key": "conf/ismar/GuoXZWLL23",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Guo-ISMAR23-WhoSWatchingMe"
     },
     {
       "id": "99c80b869891",
@@ -8415,7 +8524,8 @@
         "original_sha256": "5212694f37ef8253139494de414adca4959a08129b3d7c92693524c4ba2137f9",
         "library_key": "conf/ismar/MengXL22",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Meng-ISMAR22-HandsFreeTextSelectionVirtual"
     },
     {
       "id": "4cc8828b913a",
@@ -8480,7 +8590,8 @@
         "original_sha256": "7a83f7b20c928d9a03cfd558e6e84a7f8a75ea0b6b81f8ab5388ae08b3087feb",
         "library_key": "conf/imet/0003LWPYL22",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Li-IMET22-CollaborativeRemoteControlUnmannedGround"
     },
     {
       "id": "a9d64c19ed3b",
@@ -8535,7 +8646,8 @@
         "original_sha256": "d7048ac23b0095e7ca1b0c9dc790a30ef7ee4840c8d513feaa96ac884085d7d2",
         "library_key": "conf/pg/HouLWZ0LY22",
         "document_kind": "supplement"
-      }
+      },
+      "download_label": "Hou-PGShort22-DARC-Supplement"
     },
     {
       "id": "f11532190c9c",
@@ -8617,7 +8729,8 @@
         "original_sha256": "a9b9972faefa85ab0b461d8c36b227a827c60de64c24e4a2dadcdb054a806912",
         "library_key": "journals/frvir/MonteiroNBL22",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Monteiro-FrontVR22-CybersicknessEditorial"
     },
     {
       "id": "3a915a9251cf",
@@ -8666,7 +8779,8 @@
         "original_sha256": "08944d48d32a4e13f364d7b522fa47c2adc630a7be4e9bab2671d28258716746",
         "library_key": "journals/frvir/BaghaeiLBNO22",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Baghaei-FrontVR22-VRMentalHealthEditorial"
     },
     {
       "id": "3d0053ef37cc",
@@ -8730,7 +8844,8 @@
         "original_sha256": "3ba4144792b1e7fc254545f0f61a7f14a85c0b7933c495795ddff4089266c9a3",
         "library_key": "journals/pacmcgit/WangSXQL22",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Wang-PACMCGIT22-RenderResolutionGameplayExperiencePerformance"
     },
     {
       "id": "f9fab994a0bd",
@@ -8796,7 +8911,8 @@
         "original_sha256": "4668279b40cbd11cc0a1f8bd9a2dfb50a2c7a9ebc9f90b3a84d0f471c12c976c",
         "library_key": "conf/ismar/XuMYSL22",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Xu-ISMAR22-TextSelectionVirtualRealityHead"
     },
     {
       "id": "83099d5c2b37",
@@ -8857,7 +8973,8 @@
         "original_sha256": "5f2c9fb415d488006010e9cd75249efc072e3d2bf16b789e0924cd30a2016ba1",
         "library_key": "journals/frvir/WuSLJLYL22",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Wu-FrontVR22-ExaminingCrossModalCorrespondenceBetween"
     },
     {
       "id": "f24dc861f04b",
@@ -8924,7 +9041,8 @@
         "original_sha256": "083a4b7deb6708eb66a90bedc68438e95d7bbb33e0aac2eed20d49fd47dd98e1",
         "library_key": "conf/vrcai/LiuMSXGL22",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Liu-VRCAI22-TextSelectionAugmentedRealitySystems"
     },
     {
       "id": "caada2316680",
@@ -9043,7 +9161,8 @@
         "original_sha256": "9a401278f0e86f2152d0dc6ebf93b39a1bd11206251e87c37422f598268db90f",
         "library_key": "conf/sui/ShiZSL22",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Shi-SUI22-GroupObjectAlignmentVirtualReality"
     },
     {
       "id": "59e135c00b62",
@@ -9099,7 +9218,8 @@
         "original_sha256": "b2e16a18f79b2a3b812d987b04d1733f509a9f3d46ca4e6d75121f160829f2a1",
         "library_key": "conf/sui/BatmazYLS22",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Batmaz-SUI22-ImprovingEffectiveThroughputPerformanceAuditory"
     },
     {
       "id": "f40add804d4a",
@@ -9164,7 +9284,8 @@
         "original_sha256": "614f867ed2d42cc16b4588c20a1330b39ecaffa60fa8c632b45fba95b2df6a34",
         "library_key": "journals/toh/LuoWSLL22",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Luo-ToH22-DeviceFeedbackImmersiveHeadMounted"
     },
     {
       "id": "09c545f05254",
@@ -9222,7 +9343,8 @@
         "original_sha256": "83fe7358700f98bd16cad76729c8768b4493987db6c1f59a3db4b271c5fc8de6",
         "library_key": "conf/ismar/ZhaoCHLY22",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Zhao-ISMARAdjunct22-LWiM"
     },
     {
       "id": "9ce5101cb7bf",
@@ -9287,7 +9409,8 @@
         "original_sha256": "659dbcd40d8ad74dde484936b86e4a4b37c128531e9c3d19a9c12e1ddcfb4622",
         "library_key": "conf/icfsp/LiMTGLZW22",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Li-ICFSP22-MirrorYolo"
     },
     {
       "id": "ba4c680b1df6",
@@ -9345,7 +9468,8 @@
         "original_sha256": "659dbcd40d8ad74dde484936b86e4a4b37c128531e9c3d19a9c12e1ddcfb4622",
         "library_key": "journals/corr/abs-2202-08498",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Li-arXiv22-MirrorYolo"
     },
     {
       "id": "e7c850d98f41",
@@ -9436,7 +9560,8 @@
         "original_sha256": "2835b69a4b3ed9ed98a874130a1057b3954b70695ba05c65373dc0732d81a67a",
         "library_key": "journals/corr/abs-2211-03690",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Yu-arXiv22-ScaleInvariantPrivacyPreservingVideo"
     },
     {
       "id": "1504f86e91dd",
@@ -9494,7 +9619,8 @@
         "original_sha256": "bca190c643af1565c44026ca2c16d4c49a1935df36288c0d2fecb965783b58c1",
         "library_key": "conf/vrcai/LuoWP0IL22",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Luo-VRCAI22-TeleoperationFastOmnidirectionalUnmannedGround"
     },
     {
       "id": "bf5fe198267c",
@@ -9624,7 +9750,8 @@
         "original_sha256": "a5497f1a87661f753ba7ec9b601750c43d1279dc40e0488d1369031ec1c0ef75",
         "library_key": "conf/ismar/Xu0LYL22",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Xu-ISMARAdjunct22-UserRetentionMobileAugmentedReality"
     },
     {
       "id": "1db113e23876",
@@ -9690,7 +9817,8 @@
         "original_sha256": "d4fa59b7ead6c63db8b2a9cc4d8fef7051c2c415e3dba8e998e6c669dd58f8b5",
         "library_key": "conf/haptics/WangMLHL22",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Wang-HAPTICS22-VibroWeight"
     },
     {
       "id": "4ec4a908cbd3",
@@ -9790,7 +9918,8 @@
         "original_sha256": "aa4c2447f0aae215f00c55937fdc114644ea9a7a7536ad3209fa5f0c0d8e2da5",
         "library_key": "conf/cig/ChenSMBL22",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Chen-CoG22-VRCockpit"
     },
     {
       "id": "c9f14052cdc4",
@@ -9880,7 +10009,8 @@
         "original_sha256": "56de5f8a7e55f0e62901b81adcce78a8e2ded2afcf432ec8d754625886da7229",
         "library_key": "conf/ismar/LiYL21",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Li-ISMARAdjunct21-CubeMuseum"
     },
     {
       "id": "613f0a10b775",
@@ -9937,7 +10067,8 @@
         "original_sha256": "ead3f5588d49a63077325383c552465e6cf181c775824959815f75d5b5a6d437",
         "library_key": "conf/icmi/MonteiroLWXT21",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Monteiro-ICMI21-LowCostDeviceWeightCenter"
     },
     {
       "id": "6c5f10887340",
@@ -10030,7 +10161,8 @@
         "original_sha256": "91a420cc673da52d67f5549e5f59010f5730e4963cd0b22e1c8a50760c83cf38",
         "library_key": "conf/eics/BaghaeiSKAHLXBP21",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Baghaei-EICS21-DesigningIndividualisedVirtualRealityApplications"
     },
     {
       "id": "e55800612bb8",
@@ -10163,7 +10295,8 @@
         "original_sha256": "d07b5d4908258df38c4b301b17042a13c48042d54df8b74dd89027fbf9d842eb",
         "library_key": "conf/chi/XuLYB21",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Xu-CHI21-GameplayUncertaintyDisplayTypeAge"
     },
     {
       "id": "57969e666621",
@@ -10228,7 +10361,8 @@
         "original_sha256": "5db450c0ad3395f5a878f1ec0e1c4df47f9dc44b7297d8fcce58287264f6bac5",
         "library_key": "conf/cig/ZhangMLMB21",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Zhang-CoG21-InputOutputRandomnessGameplaySatisfaction"
     },
     {
       "id": "93cb1f81c0d7",
@@ -10296,7 +10430,8 @@
         "original_sha256": "ee593655d9a942ae821ec9c89962916a42ca172c5f79d2a490f098b460448181",
         "library_key": "conf/sui/ChenLLYGC0L21",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Chen-SUI21-VisualCuesPointingTasksCo"
     },
     {
       "id": "d4fe50139c30",
@@ -10404,7 +10539,8 @@
         "original_sha256": "dc58258659412744ad175795d337a2d0d580a77b14083bc377b394f1f598b36b",
         "library_key": "conf/cig/MonteiroCLTD21",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Monteiro-CoG21-PerformanceGameplayVirtualRealitySickness"
     },
     {
       "id": "85c94bce24bb",
@@ -10467,7 +10603,8 @@
         "original_sha256": "d2a44538f88b15b449c6cf352a918605021dcad3623a10111020d4128c65f08e",
         "library_key": "conf/ismar/ShiZLZ21",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Shi-ISMAR21-HeadModeSwitchingVirtualReality"
     },
     {
       "id": "943ae277d068",
@@ -10526,7 +10663,8 @@
         "original_sha256": "5da0b13cdea01699974613e22877947d39188682ed25949a53ef560de6d70068",
         "library_key": "conf/chi/YuLSLDVG21",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Yu-CHI21-GazeSupported3DObjectManipulation"
     },
     {
       "id": "6a7e4a888302",
@@ -10616,7 +10754,8 @@
         "original_sha256": "565c2fbaa65934df0d38d10b4974a648abb56254f306095f7abaddf6adc2adbd",
         "library_key": "conf/uist/LuYL021",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Lu-UIST21-iText"
     },
     {
       "id": "8a7cfb262c9d",
@@ -10680,7 +10819,8 @@
         "original_sha256": "34d8c445091b3fdafc2c08e473576843fe3375c0e4a050c7a46a6b66f3b976e7",
         "library_key": "conf/ro-man/LuoWLLL21",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Luo-ROMAN21-MonoscopicVsStereoscopicViewsDisplay"
     },
     {
       "id": "1bd56ba7cf7d",
@@ -10741,7 +10881,8 @@
         "original_sha256": "4324d6739667b955604529ab8ef3e5ce8fa5c4f1b87992b25e47621081699180",
         "library_key": "conf/chiplay/LiTTPML21",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Li-CHIPlay21-MyopicBikeSayHiGames"
     },
     {
       "id": "da55c6960a5c",
@@ -10804,7 +10945,8 @@
         "original_sha256": "f88c283528690ddd16e9c10137800b537a32e45f647f5f8291e1e21687d82b3d",
         "library_key": "journals/sensors/ChenLWQY21",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Chen-Sensors21-UseLargeInteractiveDisplaysSupport"
     },
     {
       "id": "c291f3d81146",
@@ -10866,7 +11008,8 @@
         "original_sha256": "1e87012e77396e363eee54045f9ccb8ccb8cf3971da27081df64a26982571d23",
         "library_key": "journals/sensors/JiangNBL21",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Jiang-Sensors21-UseMovementInteractionSmartTextiles"
     },
     {
       "id": "a2bb0e14687d",
@@ -10961,7 +11104,8 @@
         "original_sha256": "88aebe1a423cb815c14e534d1f5d447ef11aebd5f9db506335e3544ba1a318b0",
         "library_key": "conf/chiplay/LiuLSLL21",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Liu-CHIPlay21-RelicVR"
     },
     {
       "id": "4b501f942482",
@@ -11020,7 +11164,8 @@
         "original_sha256": "9a59d8245accc593b3489c7edbc28e30ace563337f7cd921d7e711e11fb2bd1d",
         "library_key": "journals/corr/abs-2104-07624",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Monteiro-arXiv21-SpatialKnowledgeAcquisitionVirtualPhysical"
     },
     {
       "id": "dbb5c1d4f8ba",
@@ -11086,7 +11231,8 @@
         "original_sha256": "b2667f29d66af6e84bf15a45136a23bd0777ab6ad498b814d39188d729de64a2",
         "library_key": "conf/ismar/MonteiroLTI21",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Monteiro-ISMAR21-TrajectoryCompressionRatePredictChanges"
     },
     {
       "id": "3b790bc1954b",
@@ -11222,7 +11368,8 @@
         "original_sha256": "16326881424ddaebda4621c77e7547802a309ee7b71717d5025c8825b82760f3",
         "library_key": "journals/pacmcgit/ShiLWYX21",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Shi-PACMCGIT21-VirtualRealitySicknessMitigationComparative"
     },
     {
       "id": "a2fe2153231b",
@@ -11353,7 +11500,8 @@
         "original_sha256": "5d35e41cf75c66994319212b9d363e703f9b24ba8d8821a66c77462c957756b6",
         "library_key": "conf/ismar/MonteiroLWCB20",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Monteiro-ISMAR20-Depth2D3DViewsController"
     },
     {
       "id": "d4addad8c312",
@@ -11483,7 +11631,8 @@
         "original_sha256": "7a031b635e59325fc7f9e326b58c703ce70cc24c3ca161323d8ad99207d06b0b",
         "library_key": "journals/hcis/ChenLLPMY20",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Chen-HCIS20-CollaborativeBehaviorPerformanceEngagementVisual"
     },
     {
       "id": "2dc8bd7fe2a4",
@@ -11540,7 +11689,8 @@
         "original_sha256": "18bda8b564a4f0957e8d68e7a3c95f9ff634a747378128790ff9990d8486efdf",
         "library_key": "journals/tvcg/YuLFZFP20",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Yu-TVCG20-VisualizationOffScreenOccludedTargets"
     },
     {
       "id": "988a63598a7f",
@@ -11635,7 +11785,8 @@
         "original_sha256": "f38c1744edfb70e611fb4d2f049c225a11b7e356214c5a74b605e7b88a09f9e3",
         "library_key": "journals/corr/abs-2010-06077",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Monteiro-arXiv20-AudienceVirtualRealityPresentationTraining"
     },
     {
       "id": "5bb5aa711074",
@@ -11735,7 +11886,8 @@
         "original_sha256": "70a3790a8f1b9d4cd2441030bbc51f517163e2f6f0160faf1ab4a23ba1d6058f",
         "library_key": "conf/ismar/LuYLXCLH20",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Lu-ISMAR20-HandsFreeTextEntryVirtual"
     },
     {
       "id": "952a123cc635",
@@ -11824,7 +11976,8 @@
         "original_sha256": "14c782baa5301188a87867f9cf4a9e9ef77acfc64f271a60b653e979910dd82e",
         "library_key": "conf/hci/JiangBL20",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Jiang-HCII20-InteractiveSmartTextilesEmotionRegulation"
     },
     {
       "id": "94ed4bf2c5e8",
@@ -11922,7 +12075,8 @@
         "original_sha256": "f1381776d6c19f66290026d3055a947ace59c9e40382d4d41c5c020472bd9a26",
         "library_key": "conf/vr/XuLCLY20",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Xu-VR20-VisualBoundaryAwarenessDuringInteraction"
     },
     {
       "id": "9d0e80719d33",
@@ -12086,7 +12240,8 @@
         "original_sha256": "6409c56ba3877a9ff2e1250c92079ca271e722fc55989531191525e9a5d6d4f4",
         "library_key": "conf/iscid/ZhangHZYLHWS20",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Zhang-ISCID20-InfluenceHandRepresentationPresenceEmbodiment"
     },
     {
       "id": "463a639eaa64",
@@ -12151,7 +12306,8 @@
         "original_sha256": "4b82233ad6459777443d1910a8e970f341ebf81c77a28275132f1dc8f639306d",
         "library_key": "journals/tochi/PapangelisCLKSL20",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Papangelis-TOCHI20-PerformingDigitalSelfLocationSocial"
     },
     {
       "id": "8dc9f2150d71",
@@ -12250,7 +12406,8 @@
         "original_sha256": "6c90df069f38d711c4bdeda40e9052cb39a0e16efe0dd542a194fa81c878468c",
         "library_key": "conf/ismar/WangLMXCC20",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Wang-ISMARAdjunct20-RealTimeDetectionSimulatorSickness"
     },
     {
       "id": "6d1697269193",
@@ -12424,7 +12581,8 @@
         "original_sha256": "61c2a1467659757b0b0b62763978c3d82c6df0583d1f9a4b0d888bb2d6a67243",
         "library_key": "conf/chiplay/XuLML20",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Xu-CHIPlayCompanion20-VirusBoxing"
     },
     {
       "id": "f66678e4a965",
@@ -12621,7 +12779,8 @@
         "original_sha256": "f9f057e55e4789670e0dab1b046df1343b08feabb6dd2f44a88886eac542ec6b",
         "library_key": "conf/cchi/XuLYMHF19",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Xu-CCHI19-AssessingFullBodyMotionExergame"
     },
     {
       "id": "befea794f172",
@@ -12678,7 +12837,8 @@
         "original_sha256": "5fece92ed3bc28125c2711f1bc567d400bf787339ffef3a8fe266d1893e84a95",
         "library_key": "conf/vr/YuLZX19",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Yu-VR19-DepthMove"
     },
     {
       "id": "6ba1e9684ad6",
@@ -12771,7 +12931,8 @@
         "original_sha256": "735748778731eb4af9a205fb486f19a0db9c20183febb5106288af685c4f898b",
         "library_key": "conf/vr/LuYLFX19",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Lu-VR19-DepthText"
     },
     {
       "id": "8433db99ded1",
@@ -12935,7 +13096,8 @@
         "original_sha256": "29c782e61ce6e138c5437b5da6968bbcb144bfcd8a2271775d2e13d581627239",
         "library_key": "conf/chi/XuLZYM19",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Xu-CHI19-DMove"
     },
     {
       "id": "41fcf9ddb4c0",
@@ -12997,7 +13159,8 @@
         "original_sha256": "a2d1cf5f887570bd89ade377d73ea22c3c6072126ba7fd9d94d6a409a88f52ef",
         "library_key": "journals/sle/NandBCBML19",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Nand-SLE19-EngagingChildrenEducationalContentVia"
     },
     {
       "id": "444da5d21a05",
@@ -13199,7 +13362,8 @@
         "original_sha256": "ca293f6a42778356418596554f466fe306eca8856d6eb23d881082dae7942dc0",
         "library_key": "journals/corr/abs-1909-03596",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Sadien-arXiv19-LessonsLearnedDevelopingMicroserviceMobile"
     },
     {
       "id": "d07eb35e8f99",
@@ -13323,7 +13487,8 @@
         "original_sha256": "52d632cc278ea8af869b07f513fab5ef9792b997253a4f40ea580882f4e20833",
         "library_key": "journals/tog/YuLLFE19",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Yu-TOG19-ModelingEndpointDistributionPointingSelection"
     },
     {
       "id": "70d1c42be965",
@@ -13419,7 +13584,8 @@
         "original_sha256": "0b41ab33d76fad3b216a114d2390b8a1606e89212b7838da69a70abbcb282cd1",
         "library_key": "conf/ismar/XuLHW19",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Xu-ISMAR19-PointingSelectionTextEntryAugmented"
     },
     {
       "id": "46f0c0d833f3",
@@ -13541,7 +13707,8 @@
         "original_sha256": "40f6703308b27c5231f4c2e9ab3a4079f8a50ac2fa64a8c4926f041c41f4dee6",
         "library_key": "journals/tvcg/XuLZZYM19",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Xu-TVCG19-RingText"
     },
     {
       "id": "91ff213f609c",
@@ -13668,7 +13835,8 @@
         "original_sha256": "c51cef788294aaaaf7c781d55444481bb20960ed2531c712bfd1507b6f11aa39",
         "library_key": "journals/corr/abs-1901-04879",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Champion-arXiv19-Smart2SpeakerBlockerOpenSource"
     },
     {
       "id": "58bc90f7b958",
@@ -13730,7 +13898,8 @@
         "original_sha256": "e80ddab6cad07248f7753881be325040a57b32281eccb13b3fa6d1cd34ef1552",
         "library_key": "journals/mti/NanjappanSLLYA19",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Nanjappan-MTI19-TaxonomyVehicleInteractionsWearableSmart"
     },
     {
       "id": "d7d6f20d08a6",
@@ -14132,7 +14301,8 @@
         "original_sha256": "782fea28d09ee40c95fe452b4aeec1ba44f95f680c68968b7936fa4989d29438",
         "library_key": "journals/jvca/MonteiroLXBNY18",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Monteiro-CAVW18-EnjoymentPresenceEmulatorSicknessVR"
     },
     {
       "id": "4339f35fee83",
@@ -14292,7 +14462,8 @@
         "original_sha256": "5129a092b68817ee4ac35ce9221883ff2b516e3bc0c08e88bbad426b8df2b574",
         "library_key": "journals/tvcg/YuFZMXL18",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Yu-TVCG18-PizzaText"
     },
     {
       "id": "acd451ba9e1e",
@@ -14350,7 +14521,8 @@
         "original_sha256": "49a8c7b56c7e881b0bc417759df9a996dff965a54ade4951a417f2ae12487dc5",
         "library_key": "journals/corr/abs-1806-11361",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Olade-arXiv18-SemanticLock"
     },
     {
       "id": "9d1964dc90aa",
@@ -14408,7 +14580,8 @@
         "original_sha256": "49a5eab22ed1d0cd143f8b66131b19212cf61e56f191e871ce1eac731c2d037f",
         "library_key": "journals/jucs/YuLLNPW18",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Yu-JUCS18-TargetSelectionHeadMountedDisplay"
     },
     {
       "id": "bc95a337a35a",
@@ -14471,7 +14644,8 @@
         "original_sha256": "403666f4d44975e402dacd9d16f997db10baa54db5fc6fbbb157587451e624fb",
         "library_key": "journals/hcis/NanjappanLLP0M18",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Nanjappan-HCIS18-UserElicitedDualHandInteractions"
     },
     {
       "id": "570ecaf43184",
@@ -14873,7 +15047,8 @@
         "original_sha256": "4a894387416b3b1a1303d97728c32d4478b97f8bee0b55bd4a49ee19dfd7cfa1",
         "library_key": "conf/ivic/YaacobALZN17",
         "document_kind": "article"
-      }
+      },
+      "download_label": "YaAcob-IVIC17-VisualizationPrinciplesFacilitatingStrategyProcess"
     },
     {
       "id": "55856d990ebf",
@@ -15093,7 +15268,8 @@
         "original_sha256": "a28d60d2840b3eb2856ce3990c0ddf993fd73b326feb09830cbbb4cb930e4fc8",
         "library_key": "journals/informatics/SedigPLM16",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Sedig-Informatics16-SupportingSensemakingComplexObjectsVisualizations"
     },
     {
       "id": "f46d9933dd70",
@@ -15244,7 +15420,8 @@
         "original_sha256": "aa6479ce6c661cbabe96b634a4a49341a9ab25e69c325b30e52b6f07b5a084e2",
         "library_key": "conf/icdm/LyuHL15",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Lyu-ICDM15-UnifiedGradientRegularizationFamilyAdversarial"
     },
     {
       "id": "852f7373137d",
@@ -16499,7 +16676,8 @@
         "original_sha256": "9eb5abc06ffbc7cb1ecc748fc22b26df7a0ff14e9ce06811a7a4b61a72226418",
         "library_key": "conf/iscram/AmanIL12",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Aman-ISCRAM12-ReviewInformationCommunicationTechnologyApplied"
     },
     {
       "id": "241b312a9c1c",
@@ -16615,7 +16793,8 @@
         "original_sha256": "deb0741bfe366a1fd9734399a35ddee0a9715b00573dece6eec8901d55d461b5",
         "library_key": "conf/mhci/HossainHLI12",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Hossain-MobileHCI12-EdgeSplit"
     },
     {
       "id": "fef51ed39c13",
@@ -16671,7 +16850,8 @@
         "original_sha256": "06294babc0b8677a3bd2976268a20db5555f4850d43bc40502d7775369f1414f",
         "library_key": "conf/mhci/HasanYLI12",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Hasan-MobileHCI12-BackOfDeviceCursorPositioning"
     },
     {
       "id": "5f267846ae87",
@@ -16788,7 +16968,8 @@
         "original_sha256": "65f5c508ba9de497d910f1b64b83aaa5371268007a46bf448b24310cabc43f5a",
         "library_key": "conf/chi/ZhangYELBI12",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Zhang-CHI12-SeeMeSeeYouLightweight"
     },
     {
       "id": "97f0377c3219",
@@ -16847,7 +17028,8 @@
         "original_sha256": "d7c5e7cf0863b206d3e4e915229377b95ef579dce28bc294634ffde2467e8240",
         "library_key": "conf/apchi/LiangWSSI12",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Liang-APCHI12-SurfaceMotionGestures"
     },
     {
       "id": "d1b9981182b3",
@@ -16989,7 +17171,8 @@
         "original_sha256": "b4e4269ae63477a38d75e98723d0e5c08c1897b40d9adba236b112e20e367121",
         "library_key": "conf/ifip/Liang10",
         "document_kind": "article"
-      }
+      },
+      "download_label": "Liang-EHealth10-HealthInformaticsBibliometrics"
     },
     {
       "id": "bde7013c7480",

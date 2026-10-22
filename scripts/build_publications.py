@@ -22,6 +22,7 @@ LABELS = {
 }
 from publication_common import esc, author_key, lab_author_keys, bibtex, collaborator_search_names, collaborator_queries, paper_collaborators
 from publication_dates import chronological_publications, format_date
+from publication_labels import assign_labels
 from site_shell import header, footer, favicon, stylesheets, text, VERSION
 
 SHORT_VENUES = {
@@ -68,6 +69,7 @@ def build():
  from build_locales import build as build_pages
  build_pages()
  payload=json.loads(DATA.read_text());papers=chronological_publications(payload['publications'])
+ assign_labels(papers)
  lab_authors=lab_author_keys()
  years=sorted({p['year'] for p in papers},reverse=True)
  topics=json.loads((ROOT/'data/research-topics.json').read_text())
@@ -98,14 +100,16 @@ def build():
      a=esc(author)
      if author_key(author) in lab_authors:a=f'<strong>{a}</strong>'
      authors.append(a)
-    pdf=''
+    pdf='';download_name=''
+    if p.get('pdf') or p.get('pdf_url'):
+     filename=p['download_label']+'.pdf'
+     download_name=f'<p class="paper-download-label"><bdi dir="ltr">{esc(filename)}</bdi></p>'
     pdf_label=SUPPLEMENT_LABELS[lang] if p.get('pdf_metadata',{}).get('document_kind')=='supplement' else 'PDF'
     if p.get('pdf_url'):
      pdf=f'<a class="paper-pdf" href="{esc(p["pdf_url"])}" target="_blank" rel="noopener noreferrer" aria-label="{esc(OPEN_PDF_LABELS[lang])}: {title}">{esc(pdf_label)} ↗</a>'
     elif p.get('pdf'):
-     filename=f'{year}-'+re.sub(r'[^a-zA-Z0-9]+','-',p['title']).strip('-')[:100]+'.pdf'
      pdf=f'<a class="paper-pdf" href="{asset(p["pdf"])}" download="{esc(filename)}" aria-label="{esc(DOWNLOAD_LABELS[lang])}: {title}">{esc(pdf_label)} ↓</a>'
-    search=esc(' '.join([p['title'],' '.join(p['authors']),p['venue'],str(year),*collaborator_search_names(p)]))
+    search=esc(' '.join([p['title'],' '.join(p['authors']),p['venue'],str(year),p.get('download_label',''),*collaborator_search_names(p)]))
     kindkey={'journal':'Journal article','conference':'Conference paper','preprint':'Preprint'}.get(p['kind'])
     kindlabel=text(kindkey,lang) if kindkey else c['other']
     short_venue=p.get('display_venue') or SHORT_VENUES.get(p['venue'],p['venue']) or kindlabel
@@ -121,7 +125,7 @@ def build():
 <h2 class="paper-title" dir="auto"><a href="{url}" target="_blank" rel="noopener noreferrer">{title}</a></h2>
 <p class="paper-authors" dir="auto">{', '.join(authors)}</p>
 <p class="paper-meta">{venue_detail}{esc(kindlabel)}{status_detail}</p>
-<div class="paper-actions"><a href="{url}" target="_blank" rel="noopener noreferrer">{esc(c['library'])} ↗</a>{pdf}<button type="button" data-citation="{esc(bibtex(p))}">BibTeX</button></div></div></article>''')
+<div class="paper-actions"><a href="{url}" target="_blank" rel="noopener noreferrer">{esc(c['library'])} ↗</a>{pdf}<button type="button" data-citation="{esc(bibtex(p))}">BibTeX</button></div>{download_name}</div></article>''')
   document=f'''<!DOCTYPE html>
 <html lang="{lang}"{' dir="rtl"' if lang=='ar' else ''}>
 <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{c['title']} | FIT-AWE Lab</title><meta name="description" content="{esc(c['description'])}">{favicon('publications/index.html',lang)}{stylesheets('publications/index.html',lang)}{alternates}</head>

@@ -6,6 +6,7 @@ from urllib.parse import unquote, urlsplit
 from bs4 import BeautifulSoup
 from build_publications import author_key, lab_author_keys
 from publication_dates import chronological_publications, valid_date, format_date
+from publication_labels import LABEL_RE
 roster=lab_author_keys()
 ROOT=Path(__file__).resolve().parents[1]
 data=json.loads((ROOT/'data/publications.json').read_text())
@@ -13,6 +14,10 @@ topics=json.loads((ROOT/'data/research-topics.json').read_text())
 topic_ids={topic['id'] for topic in topics}
 assert [topic['id'] for topic in topics]==['gaming','interaction-tech','text-entry','ai','accessibility']
 papers=data['publications'];ids=[p['id'] for p in papers]
+downloadable=[p for p in papers if p.get('pdf') or p.get('pdf_url')]
+download_labels=[p['download_label'] for p in downloadable]
+assert all(LABEL_RE.fullmatch(label) for label in download_labels)
+assert len({label.casefold() for label in download_labels})==len(download_labels), 'Duplicate PDF names'
 ordered=chronological_publications(papers)
 assert len(ids)==len(set(ids)), 'Duplicate publication IDs'
 dois=[p['doi'].lower() for p in papers if p.get('doi')]
@@ -47,10 +52,13 @@ for lang in ['', 'zh', 'fr', 'ar', 'ja']:
   if image:assert image['href']==paper['url']
   pdf=card.select_one('.paper-pdf')
   assert bool(pdf)==bool(paper.get('pdf') or paper.get('pdf_url')), 'Missing PDF download entry'
+  if pdf:
+   assert card.select_one('.paper-download-label').get_text()==paper['download_label']+'.pdf'
+   assert paper['download_label'] in card['data-search'], 'Download label is not searchable'
   if paper.get('pdf_url'):
    assert pdf['href']==paper['pdf_url'] and urlsplit(pdf['href']).scheme=='https', 'PDF source mismatch'
   elif pdf:
-   assert pdf.get('download','').endswith('.pdf'), 'PDF link must offer a download'
+   assert pdf.get('download')==paper['download_label']+'.pdf', 'Wrong PDF download filename'
    assert (path.parent/unquote(pdf['href'])).resolve()==(ROOT/paper['pdf']).resolve(), 'PDF linked to wrong paper'
  assert not soup.select('select'), 'Filters must be directly clickable'
  options=soup.select('button[data-filter="topic"]:not([data-value=""])')

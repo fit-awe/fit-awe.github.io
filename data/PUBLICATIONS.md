@@ -1,5 +1,15 @@
 # 论文目录维护
 
+## PDF 下载统一标签
+
+所有提供 PDF 的条目使用 `第一作者姓氏-会刊简称YY-短标题`，例如 `Shi-ISS26-WindowPlacement.pdf` 与 `Long-VRST26-ScaleCueWIM.pdf`。标签显示在 PDF 操作下方，也可用于目录搜索；五种语言共用同一标签。补充材料以 `-Supplement` 结尾，不能当作全文。
+
+`download_label` 是持久的人工可编辑字段，不包含扩展名。新增 PDF 时先运行 `python3 scripts/publication_labels.py --write`，检查作者姓氏、会刊简称及短标题，再构建。脚本保留已有标签，大小写不敏感去重；重名追加稳定的记录标识摘要。已知会议关联按核验结果设置，例如 PACM HCI 的这篇 ISS 2026 论文用 ISS；不能单凭期刊版式猜测会议。预印本使用 arXiv 等实际来源代码。
+
+本地 PDF 的浏览器下载属性使用该标签加 `.pdf`。存储仍按原内容去重，原路径和文件字节不变，已分享的公众号、LinkedIn 和旧下载网址继续有效。外站 PDF 显示同一命名规范的参考标签，但保留原站链接；跨站下载文件名由原站与浏览器决定，不保证重命名。标题、作者顺序、DOI 和 BibTeX 不因标签而改写。
+
+验收包括 `python3 -m unittest discover -s scripts -p 'test_publication_labels.py'`、全站构建及 `check_publications.py`，确认全部下载标签唯一、可搜索、可见且本地下载文件名一致。
+
 ## 数据与生成
 
 - `publications.json` 是五种语言论文页共享的数据源；网站本身不需要构建。

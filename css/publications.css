@@ -45,6 +45,8 @@
 .paper-actions a, .paper-actions button { display: inline-flex; align-items: center; min-height: 44px; }
 .paper-actions button { color: var(--accent); background: none; border: 0; padding: 4px 0; font: inherit; }
 .paper-actions button:hover { text-decoration: underline; }
+.paper-download-label { color: var(--muted); font-size: var(--text-caption); line-height: 1.5; margin: 2px 0 0; overflow-wrap: anywhere; }
+.paper-download-label bdi { unicode-bidi: isolate; }
 #publication-empty { text-align: center; padding: 44px 16px; background: var(--wash); color: var(--muted); }
 .catalog-footnote { color: var(--muted); font-size: var(--text-caption); margin-top: 30px; }
 #citation-dialog { color: var(--ink); background: #fff; border: 1px solid var(--line); border-radius: 6px; width: min(680px, calc(100% - 36px)); max-height: 85dvh; padding: 28px; }
