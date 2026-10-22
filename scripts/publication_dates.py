@@ -69,11 +69,25 @@ def publication_sort_key(paper):
 
 
 def chronological_publications(papers):
-    """Order by catalog year, then known online dates; retain every record and tie."""
+    """Newest first, using conference dates for undated accepted papers.
+
+    The fallback only controls catalog position. It never changes publication
+    metadata, date precision, or the homepage's published-paper eligibility.
+    """
     def catalog_key(paper):
         value = paper.get('published_date')
         known = value and valid_date(value) and len(value) > 4
-        return (paper['year'], publication_sort_key(paper) if known else (0, 0, 0))
+        if known:
+            key = publication_sort_key(paper)
+        else:
+            event = paper.get('event_start_date')
+            fallback = event if valid_date(event) and len(event) == 10 else paper.get('catalog_added_on')
+            if paper.get('status') == 'accepted' and valid_date(fallback) and len(fallback) > 4:
+                parts = tuple(int(x) for x in fallback.split('-'))
+                key = parts + (0,) * (3 - len(parts))
+            else:
+                key = (0, 0, 0)
+        return (paper['year'], key)
     return sorted(papers, key=catalog_key, reverse=True)
 
 

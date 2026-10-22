@@ -89,7 +89,10 @@
       "event": "ACM ISS 2026",
       "download_label": "Shi-ISS26-WindowPlacement",
       "full_text_access": "withheld",
-      "full_text_access_updated_on": "2026-10-22"
+      "full_text_access_updated_on": "2026-10-22",
+      "event_start_date": "2026-11-23",
+      "event_end_date": "2026-11-26",
+      "event_date_source": "https://iss.acm.org/2026/"
     },
     {
       "id": "scalecue-wim-2026",
@@ -149,7 +152,10 @@
       "bibtex": "@inproceedings{Long2026ScaleCueWIM,\n  author = {Long, Junkun and Stuerzlinger, Wolfgang and Hui, Pan and Liang, Hai-Ning},\n  title = {{ScaleCue-WIM}: Boundary-Controlled {WIM} Scaling for Scale-Aware Navigation in Multiscale Virtual Environments},\n  booktitle = {Proceedings of the 32nd ACM Symposium on Virtual Reality Software and Technology},\n  series = {VRST '26},\n  year = {2026},\n  month = nov,\n  publisher = {Association for Computing Machinery},\n  numpages = {10},\n  doi = {10.1145/3822517.3848745},\n  url = {https://doi.org/10.1145/3822517.3848745},\n  note = {Accepted}\n}\n",
       "bibtex_file": "downloads/publication/papers/2026-scalecue-wim.bib",
       "catalog_added_on": "2026-10-22",
-      "download_label": "Long-VRST26-ScaleCueWIM"
+      "download_label": "Long-VRST26-ScaleCueWIM",
+      "event_start_date": "2026-11-16",
+      "event_end_date": "2026-11-18",
+      "event_date_source": "https://vrst.acm.org/vrst2026/"
     },
     {
       "id": "74b22478e4fe",

@@ -69,6 +69,10 @@ WITHHELD_LABELS = {
  'fr': 'Texte intégral pas encore disponible',
  'ar': 'النص الكامل غير متاح حاليًا', 'ja': '全文は現在公開していません',
 }
+EVENT_DATE_LABELS = {
+ 'en': 'Conference dates', 'zh': '会议时间', 'fr': 'Dates du congrès',
+ 'ar': 'موعد المؤتمر', 'ja': '会期',
+}
 
 def build():
  from build_locales import build as build_pages
@@ -122,6 +126,13 @@ def build():
     kindlabel=text(kindkey,lang) if kindkey else c['other']
     short_venue=p.get('display_venue') or SHORT_VENUES.get(p['venue'],p['venue']) or kindlabel
     status_detail=f' · <span class="paper-status">{esc(ACCEPTED_LABELS[lang])}</span>' if p.get('status')=='accepted' else ''
+    event_dates=''
+    if p.get('event_start_date'):
+     start=p['event_start_date'];end=p.get('event_end_date')
+     date_range=f'<time class="conference-start" datetime="{start}">{esc(format_date(start,lang))}</time>'
+     if end and end!=start:
+      date_range+=f' – <time class="conference-end" datetime="{end}">{esc(format_date(end,lang))}</time>'
+     event_dates=f'<p class="paper-meta paper-event-dates">{esc(EVENT_DATE_LABELS[lang])}: {date_range}</p>'
     publication_date=''
     if p.get('published_date'):
      publication_date=f'<time class="visually-hidden" datetime="{p["published_date"]}">{esc(format_date(p["published_date"],lang))}</time>'
@@ -133,7 +144,7 @@ def build():
 <h2 class="paper-title" dir="auto"><a href="{url}" target="_blank" rel="noopener noreferrer">{title}</a></h2>
 <p class="paper-authors" dir="auto">{', '.join(authors)}</p>
 <p class="paper-meta">{venue_detail}{esc(kindlabel)}{status_detail}</p>
-<div class="paper-actions"><a href="{url}" target="_blank" rel="noopener noreferrer">{esc(c['library'])} ↗</a>{pdf}<button type="button" data-citation="{esc(bibtex(p))}">BibTeX</button></div>{availability}{download_name}</div></article>''')
+{event_dates}<div class="paper-actions"><a href="{url}" target="_blank" rel="noopener noreferrer">{esc(c['library'])} ↗</a>{pdf}<button type="button" data-citation="{esc(bibtex(p))}">BibTeX</button></div>{availability}{download_name}</div></article>''')
   document=f'''<!DOCTYPE html>
 <html lang="{lang}"{' dir="rtl"' if lang=='ar' else ''}>
 <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{c['title']} | FIT-AWE Lab</title><meta name="description" content="{esc(c['description'])}">{favicon('publications/index.html',lang)}{stylesheets('publications/index.html',lang)}{alternates}</head>

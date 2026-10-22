@@ -28,6 +28,12 @@ for paper in papers:
  if paper.get('published_date'):
   assert valid_date(paper['published_date']),paper['title']
   assert urlsplit(paper['published_date_source']).scheme=='https',paper['title']
+ if paper.get('event_start_date'):
+  assert valid_date(paper['event_start_date']) and len(paper['event_start_date'])==10
+  assert urlsplit(paper['event_date_source']).scheme=='https'
+  if paper.get('event_end_date'):
+   assert valid_date(paper['event_end_date']) and len(paper['event_end_date'])==10
+   assert paper['event_end_date']>=paper['event_start_date']
  assert isinstance(paper['topics'],list) and set(paper['topics'])<=topic_ids
  assert len(paper['topics'])==len(set(paper['topics']))
  assert paper['title'] and paper['authors'] and 1900<paper['year']<2100
@@ -49,6 +55,10 @@ for lang in ['', 'zh', 'fr', 'ar', 'ja']:
   assert set(card['data-topics'].split())==set(paper['topics'])
   assert card.select_one('.paper-title a')['href']==paper['url']
   assert card.select_one('.paper-venue .venue-year').text==str(paper['year'])
+  if paper.get('event_start_date'):
+   assert card.select_one('.paper-event-dates .conference-start')['datetime']==paper['event_start_date']
+   if paper.get('event_end_date'):
+    assert card.select_one('.paper-event-dates .conference-end')['datetime']==paper['event_end_date']
   authors=card.select_one('.paper-authors')
   assert authors.get_text()==', '.join(paper['authors']), 'Author spelling/order changed'
   assert [a.text for a in authors.select('strong')]==[a for a in paper['authors'] if author_key(a) in roster], 'Member/alumni highlighting mismatch'
