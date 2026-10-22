@@ -64,6 +64,11 @@ SUPPLEMENT_LABELS = {
  'en': 'Supplementary PDF', 'zh': '补充材料 PDF', 'fr': 'PDF complémentaire',
  'ar': 'PDF تكميلي', 'ja': '補足資料 PDF',
 }
+WITHHELD_LABELS = {
+ 'en': 'Full text not yet available', 'zh': '全文暂未开放',
+ 'fr': 'Texte intégral pas encore disponible',
+ 'ar': 'النص الكامل غير متاح حاليًا', 'ja': '全文は現在公開していません',
+}
 
 def build():
  from build_locales import build as build_pages
@@ -100,7 +105,10 @@ def build():
      a=esc(author)
      if author_key(author) in lab_authors:a=f'<strong>{a}</strong>'
      authors.append(a)
-    pdf='';download_name=''
+    pdf='';download_name='';availability=''
+    if p.get('full_text_access')=='withheld':
+     availability=f'<p class="paper-meta paper-availability">{esc(WITHHELD_LABELS[lang])}</p>'
+     download_name=f'<p class="paper-download-label"><bdi dir="ltr">{esc(p["download_label"])}</bdi></p>'
     if p.get('pdf') or p.get('pdf_url'):
      filename=p['download_label']+'.pdf'
      download_name=f'<p class="paper-download-label"><bdi dir="ltr">{esc(filename)}</bdi></p>'
@@ -125,7 +133,7 @@ def build():
 <h2 class="paper-title" dir="auto"><a href="{url}" target="_blank" rel="noopener noreferrer">{title}</a></h2>
 <p class="paper-authors" dir="auto">{', '.join(authors)}</p>
 <p class="paper-meta">{venue_detail}{esc(kindlabel)}{status_detail}</p>
-<div class="paper-actions"><a href="{url}" target="_blank" rel="noopener noreferrer">{esc(c['library'])} ↗</a>{pdf}<button type="button" data-citation="{esc(bibtex(p))}">BibTeX</button></div>{download_name}</div></article>''')
+<div class="paper-actions"><a href="{url}" target="_blank" rel="noopener noreferrer">{esc(c['library'])} ↗</a>{pdf}<button type="button" data-citation="{esc(bibtex(p))}">BibTeX</button></div>{availability}{download_name}</div></article>''')
   document=f'''<!DOCTYPE html>
 <html lang="{lang}"{' dir="rtl"' if lang=='ar' else ''}>
 <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{c['title']} | FIT-AWE Lab</title><meta name="description" content="{esc(c['description'])}">{favicon('publications/index.html',lang)}{stylesheets('publications/index.html',lang)}{alternates}</head>

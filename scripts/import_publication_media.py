@@ -100,11 +100,15 @@ def main():
         reviewed = {entry['paper_id']: entry for entry in json.loads(args.figures.read_text())
                     if entry.get('approved')}
     report = {'matched_records': len(selected), 'unmatched': unmatched,
-              'added_pdfs': [], 'source_pdf_links': [], 'added_images': [], 'assets': []}
+              'added_pdfs': [], 'source_pdf_links': [], 'added_images': [], 'assets': [],
+              'withheld': []}
     saved, checked = {}, set()
     for paper in papers:
         item = selected.get(paper['id'])
         if not item:
+            continue
+        if paper.get('full_text_access') == 'withheld':
+            report['withheld'].append(paper['id'])
             continue
         source = args.library / item['file']
         original_sha = item['sha256']

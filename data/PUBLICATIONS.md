@@ -2,6 +2,8 @@
 
 ## PDF 下载统一标签
 
+作者要求暂不开放全文时，设置 `full_text_access: withheld`，移除 `pdf`／`pdf_url` 及线上 PDF 文件，保留目录记录、下载标签与规范引用，页面显示“全文暂未开放”。私有原件和恢复信息存于部署目录之外；不能仅隐藏下载按钮。媒体导入会跳过此类记录，避免下次同步自动重新公开。恢复开放需依据用户新的明确指令。
+
 所有提供 PDF 的条目使用 `第一作者姓氏-会刊简称YY-短标题`，例如 `Shi-ISS26-WindowPlacement.pdf` 与 `Long-VRST26-ScaleCueWIM.pdf`。标签显示在 PDF 操作下方，也可用于目录搜索；五种语言共用同一标签。补充材料以 `-Supplement` 结尾，不能当作全文。
 
 `download_label` 是持久的人工可编辑字段，不包含扩展名。新增 PDF 时先运行 `python3 scripts/publication_labels.py --write`，检查作者姓氏、会刊简称及短标题，再构建。脚本保留已有标签，大小写不敏感去重；重名追加稳定的记录标识摘要。已知会议关联按核验结果设置，例如 PACM HCI 的这篇 ISS 2026 论文用 ISS；不能单凭期刊版式猜测会议。预印本使用 arXiv 等实际来源代码。

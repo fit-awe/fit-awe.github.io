@@ -42,13 +42,11 @@
       "display_venue": "PACM HCI · ISS 2026",
       "kind": "journal",
       "doi": "10.1145/3859338",
-      "url": "https://fit-awe.github.io/downloads/publication/papers/2026-window-placement.pdf",
+      "url": "https://doi.org/10.1145/3859338",
       "sources": [
-        "https://fit-awe.github.io/downloads/publication/papers/2026-window-placement.pdf",
         "https://iss.acm.org/2026/"
       ],
       "urls": [
-        "https://fit-awe.github.io/downloads/publication/papers/2026-window-placement.pdf",
         "https://doi.org/10.1145/3859338"
       ],
       "image": {
@@ -65,7 +63,6 @@
         "caption": "Figure 1. The window placement techniques and display setups.",
         "pdf_sha256": "33d8938e5198c5a1735ffbdf4e5fbe703a311f6560b82e5fbde87cd77c0e589a"
       },
-      "pdf": "downloads/publication/papers/2026-window-placement.pdf",
       "pdf_metadata": {
         "path": "downloads/publication/papers/2026-window-placement.pdf",
         "sha256": "33d8938e5198c5a1735ffbdf4e5fbe703a311f6560b82e5fbde87cd77c0e589a",
@@ -90,7 +87,9 @@
       "number": "8",
       "article_number": "ISS026",
       "event": "ACM ISS 2026",
-      "download_label": "Shi-ISS26-WindowPlacement"
+      "download_label": "Shi-ISS26-WindowPlacement",
+      "full_text_access": "withheld",
+      "full_text_access_updated_on": "2026-10-22"
     },
     {
       "id": "scalecue-wim-2026",

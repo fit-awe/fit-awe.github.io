@@ -34,6 +34,10 @@ for paper in papers:
  assert urlsplit(paper['url']).scheme in ['https','http'], paper['title']
  if paper.get('image'):assert (ROOT/paper['image']['path']).is_file(), paper['title']
  if paper.get('pdf'):assert (ROOT/paper['pdf']).is_file(), paper['title']
+ if paper.get('full_text_access')=='withheld':
+  assert not paper.get('pdf') and not paper.get('pdf_url'), 'Withheld PDF is linked'
+  previous=paper.get('pdf_metadata',{}).get('path')
+  if previous:assert not (ROOT/previous).exists(), 'Withheld PDF is still publicly hosted'
 for lang in ['', 'zh', 'fr', 'ar', 'ja']:
  path=ROOT/lang/'publications/index.html';soup=BeautifulSoup(path.read_text(),'html.parser')
  cards=soup.select('.paper-card');assert len(cards)==len(papers)
@@ -52,6 +56,9 @@ for lang in ['', 'zh', 'fr', 'ar', 'ja']:
   if image:assert image['href']==paper['url']
   pdf=card.select_one('.paper-pdf')
   assert bool(pdf)==bool(paper.get('pdf') or paper.get('pdf_url')), 'Missing PDF download entry'
+  if paper.get('full_text_access')=='withheld':
+   assert not pdf and card.select_one('.paper-availability'), 'Withheld full text must show status without a download'
+   assert card.select_one('.paper-download-label').get_text()==paper['download_label']
   if pdf:
    assert card.select_one('.paper-download-label').get_text()==paper['download_label']+'.pdf'
    assert paper['download_label'] in card['data-search'], 'Download label is not searchable'
