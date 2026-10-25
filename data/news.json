@@ -1,5 +1,32 @@
 [
   {
+    "id": "paper-row-across-time-2026",
+    "paper_id": "row-across-time-2026",
+    "date": "2026-10-25",
+    "date_basis": "announcement",
+    "text": "Row Across Time, our tangible Ba He Tong VR rowing game, has been accepted to CHI PLAY Companion 2026.",
+    "source": "https://fit-awe.github.io/publications/?q=RowAcrossTime",
+    "source_label": "View publication ↗"
+  },
+  {
+    "id": "paper-heritage-codesign-2026",
+    "paper_id": "heritage-codesign-2026",
+    "date": "2026-10-25",
+    "date_basis": "announcement",
+    "text": "Our study of stakeholder influence in heritage VR game co-design has been accepted to PACM HCI (GAMES) for CHI PLAY 2026.",
+    "source": "https://fit-awe.github.io/publications/?q=HeritageCoDesign",
+    "source_label": "View publication ↗"
+  },
+  {
+    "id": "paper-smart-textiles-xr-2026",
+    "paper_id": "smart-textiles-xr-2026",
+    "date": "2026-10-25",
+    "date_basis": "announcement",
+    "text": "Our research on a design space for smart textiles in XR has been published online in Virtual Reality.",
+    "source": "https://fit-awe.github.io/publications/?q=SmartTextilesXR",
+    "source_label": "View publication ↗"
+  },
+  {
     "id": "welcome-jialin-2025",
     "date": "2025-03",
     "text": "Welcome Jialin Wang, joining the lab as a Postdoc!"

@@ -5779,6 +5779,48 @@
         }
       ]
     },
+    "images/papers/heritage-codesign-2026.jpg": {
+      "fingerprint": "643795de7fc16ab88ec07fb42acf204db05ef3b7ac4d343131a6aeb1d0fdc0c4",
+      "role": "paper",
+      "original_bytes": 445181,
+      "width": 1884,
+      "height": 925,
+      "variants": [
+        {
+          "path": "images/optimized/643795de7fc16ab8-480.webp",
+          "width": 480,
+          "height": 236,
+          "bytes": 29858
+        },
+        {
+          "path": "images/optimized/643795de7fc16ab8-960.webp",
+          "width": 960,
+          "height": 471,
+          "bytes": 82170
+        }
+      ]
+    },
+    "images/papers/row-across-time-2026.jpg": {
+      "fingerprint": "f00b2eadd04dbeeef840c2418e566f7c3159414b662ad67783ad3a084e5f5f8a",
+      "role": "paper",
+      "original_bytes": 211913,
+      "width": 2105,
+      "height": 397,
+      "variants": [
+        {
+          "path": "images/optimized/f00b2eadd04dbeee-480.webp",
+          "width": 480,
+          "height": 91,
+          "bytes": 11926
+        },
+        {
+          "path": "images/optimized/f00b2eadd04dbeee-960.webp",
+          "width": 960,
+          "height": 181,
+          "bytes": 32698
+        }
+      ]
+    },
     "images/papers/scalecue-wim-2026.jpg": {
       "fingerprint": "f6c54e610cd1d2304a1be4a7420f06c3cf292d3291dc2f3812232c73d146e0ca",
       "role": "paper",
@@ -5797,6 +5839,27 @@
           "width": 960,
           "height": 463,
           "bytes": 49566
+        }
+      ]
+    },
+    "images/papers/smart-textiles-xr-2026.jpg": {
+      "fingerprint": "92ed086e80abe601f089296ce33197e0f990fcb06336a8620498c65f4b069b8a",
+      "role": "paper",
+      "original_bytes": 372652,
+      "width": 1530,
+      "height": 1314,
+      "variants": [
+        {
+          "path": "images/optimized/92ed086e80abe601-480.webp",
+          "width": 480,
+          "height": 412,
+          "bytes": 27778
+        },
+        {
+          "path": "images/optimized/92ed086e80abe601-960.webp",
+          "width": 960,
+          "height": 824,
+          "bytes": 72930
         }
       ]
     },

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-22",
+  "updated": "2026-10-25",
   "sources": {
     "dblp": {
       "profile": "https://dblp.org/pid/55/1198.html",
@@ -17724,6 +17724,210 @@
       "published_date": "2003-09-01",
       "published_date_source": "https://api.crossref.org/works/10.1057%2Fpalgrave.ivs.9500047",
       "published_date_basis": "published-online"
+    },
+    {
+      "id": "smart-textiles-xr-2026",
+      "title": "Smart textiles for XR: a design space based on state-of-the-art research",
+      "authors": [
+        "Mengqi Jiang",
+        "Tianchen Dai",
+        "Ruoqing Yan",
+        "Rongkai Shi",
+        "Ziqian Bai",
+        "Qianwen Tan",
+        "Jun Huang",
+        "Hai-Ning Liang"
+      ],
+      "year": 2026,
+      "venue": "Virtual Reality",
+      "kind": "journal",
+      "doi": "10.1007/s10055-026-01505-0",
+      "url": "https://doi.org/10.1007/s10055-026-01505-0",
+      "sources": [
+        "https://doi.org/10.1007/s10055-026-01505-0"
+      ],
+      "urls": [
+        "https://doi.org/10.1007/s10055-026-01505-0",
+        "https://fit-awe.github.io/downloads/publication/papers/Jiang-VirtualReality26-SmartTextilesXR.pdf"
+      ],
+      "image": {
+        "path": "images/papers/smart-textiles-xr-2026.jpg",
+        "kind": "figure-04",
+        "source": "https://doi.org/10.1007/s10055-026-01505-0",
+        "page": 13,
+        "bbox": [
+          181.0,
+          59.0,
+          548.0,
+          374.0
+        ],
+        "caption": "Figure 4. The design space of smart textiles in XR.",
+        "pdf_sha256": "41b43aa9e0d87e19c913efbe76962c8c7caa14dee4f90c2393de57f513350714"
+      },
+      "pdf": "downloads/publication/papers/Jiang-VirtualReality26-SmartTextilesXR.pdf",
+      "pdf_metadata": {
+        "path": "downloads/publication/papers/Jiang-VirtualReality26-SmartTextilesXR.pdf",
+        "sha256": "41b43aa9e0d87e19c913efbe76962c8c7caa14dee4f90c2393de57f513350714",
+        "original_sha256": "41b43aa9e0d87e19c913efbe76962c8c7caa14dee4f90c2393de57f513350714",
+        "bytes": 4516516,
+        "pages": 29,
+        "source": "https://doi.org/10.1007/s10055-026-01505-0",
+        "version": "publisher-article-in-press",
+        "document_kind": "article",
+        "license": "CC BY-NC-ND 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+      },
+      "oa_pdfs": [],
+      "topics": [
+        "interaction-tech",
+        "text-entry"
+      ],
+      "status": "published",
+      "download_label": "Jiang-VirtualReality26-SmartTextilesXR",
+      "full_text_access": "public",
+      "bibtex": "@article{JiangVirtualReality26SmartTextilesXR,\n  author = {Jiang, Mengqi and Dai, Tianchen and Yan, Ruoqing and Shi, Rongkai and Bai, Ziqian and Tan, Qianwen and Huang, Jun and Liang, Hai-Ning},\n  title = {Smart textiles for XR: a design space based on state-of-the-art research},\n  journal = {Virtual Reality},\n  year = {2026},\n  month = oct,\n  doi = {10.1007/s10055-026-01505-0},\n  url = {https://doi.org/10.1007/s10055-026-01505-0}\n}\n",
+      "bibtex_file": "downloads/publication/papers/Jiang-VirtualReality26-SmartTextilesXR.bib",
+      "catalog_added_on": "2026-10-25",
+      "published_date": "2026-10-23",
+      "published_date_source": "https://api.crossref.org/works/10.1007%2Fs10055-026-01505-0",
+      "published_date_basis": "published-online"
+    },
+    {
+      "id": "heritage-codesign-2026",
+      "title": "Investigating Stakeholder Influence in the Co-design of VR Game Experiences for Intangible Heritage",
+      "authors": [
+        "Jiaying Fu",
+        "Jia Zhang",
+        "Xuanhui Xu",
+        "Ge Lin Kan",
+        "Hai-Ning Liang"
+      ],
+      "year": 2026,
+      "venue": "Proceedings of the ACM on Human-Computer Interaction",
+      "kind": "journal",
+      "doi": "10.1145/3831312",
+      "url": "https://fit-awe.github.io/downloads/publication/papers/Fu-CHIPlay26-HeritageCoDesign.pdf",
+      "sources": [
+        "https://doi.org/10.1145/3831312"
+      ],
+      "urls": [
+        "https://doi.org/10.1145/3831312",
+        "https://fit-awe.github.io/downloads/publication/papers/Fu-CHIPlay26-HeritageCoDesign.pdf"
+      ],
+      "image": {
+        "path": "images/papers/heritage-codesign-2026.jpg",
+        "kind": "figure-01",
+        "source": "https://doi.org/10.1145/3831312",
+        "page": 1,
+        "bbox": [
+          80.0,
+          240.0,
+          532.0,
+          462.0
+        ],
+        "caption": "Figure 1. Pahetong heritage, stakeholder-configured co-design workshops and VR prototype evaluation.",
+        "pdf_sha256": "5b286fd3983bb632ae3480d73d2b8966c36a02431a5a982604215389d04a3c38"
+      },
+      "pdf": "downloads/publication/papers/Fu-CHIPlay26-HeritageCoDesign.pdf",
+      "pdf_metadata": {
+        "path": "downloads/publication/papers/Fu-CHIPlay26-HeritageCoDesign.pdf",
+        "sha256": "5b286fd3983bb632ae3480d73d2b8966c36a02431a5a982604215389d04a3c38",
+        "original_sha256": "5b286fd3983bb632ae3480d73d2b8966c36a02431a5a982604215389d04a3c38",
+        "bytes": 26423236,
+        "pages": 33,
+        "source": "https://doi.org/10.1145/3831312",
+        "version": "author-camera-ready",
+        "document_kind": "article",
+        "license": "CC BY-NC-ND 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+      },
+      "oa_pdfs": [],
+      "topics": [
+        "gaming",
+        "interaction-tech"
+      ],
+      "status": "accepted",
+      "download_label": "Fu-CHIPlay26-HeritageCoDesign",
+      "full_text_access": "public",
+      "bibtex": "@article{FuCHIPlay26HeritageCoDesign,\n  author = {Fu, Jiaying and Zhang, Jia and Xu, Xuanhui and Kan, Ge Lin and Liang, Hai-Ning},\n  title = {Investigating Stakeholder Influence in the Co-design of VR Game Experiences for Intangible Heritage},\n  journal = {Proceedings of the ACM on Human-Computer Interaction},\n  year = {2026},\n  volume = {10},\n  number = {7},\n  articleno = {GAMES042},\n  numpages = {33},\n  month = nov,\n  note = {Accepted; forthcoming},\n  doi = {10.1145/3831312},\n  url = {https://doi.org/10.1145/3831312}\n}\n",
+      "bibtex_file": "downloads/publication/papers/Fu-CHIPlay26-HeritageCoDesign.bib",
+      "catalog_added_on": "2026-10-25",
+      "display_venue": "PACM HCI · CHI PLAY 2026",
+      "expected_publication_month": "2026-11",
+      "event_start_date": "2026-11-02",
+      "event_end_date": "2026-11-05",
+      "event_date_source": "https://chiplay.acm.org/2026/",
+      "volume": "10",
+      "number": "7",
+      "article_number": "GAMES042",
+      "event": "ACM CHI PLAY 2026"
+    },
+    {
+      "id": "row-across-time-2026",
+      "title": "Row Across Time: A Tangible Ba He Tong VR Game for Embodied Cultural Play",
+      "authors": [
+        "Fangtao Zhao",
+        "Jia Zhang",
+        "Jiaying Fu",
+        "Wei He",
+        "Ge Lin Kan",
+        "Hai-Ning Liang"
+      ],
+      "year": 2026,
+      "venue": "Companion Proceedings of the Annual Symposium on Computer-Human Interaction in Play",
+      "kind": "conference",
+      "doi": "10.1145/3800965.3834476",
+      "url": "https://fit-awe.github.io/downloads/publication/papers/Zhao-CHIPlayCompanion26-RowAcrossTime.pdf",
+      "sources": [
+        "https://doi.org/10.1145/3800965.3834476"
+      ],
+      "urls": [
+        "https://doi.org/10.1145/3800965.3834476",
+        "https://fit-awe.github.io/downloads/publication/papers/Zhao-CHIPlayCompanion26-RowAcrossTime.pdf"
+      ],
+      "image": {
+        "path": "images/papers/row-across-time-2026.jpg",
+        "kind": "figure-01",
+        "source": "https://doi.org/10.1145/3800965.3834476",
+        "page": 1,
+        "bbox": [
+          54.0,
+          359.0,
+          559.0,
+          454.0
+        ],
+        "caption": "Figure 1. Tangible and virtual-only Ba He Tong conditions and the two river scenes.",
+        "pdf_sha256": "01ce0505383c0943d24b830542f33f1c659de09d534cf1aab845ca41e0067d76"
+      },
+      "pdf": "downloads/publication/papers/Zhao-CHIPlayCompanion26-RowAcrossTime.pdf",
+      "pdf_metadata": {
+        "path": "downloads/publication/papers/Zhao-CHIPlayCompanion26-RowAcrossTime.pdf",
+        "sha256": "01ce0505383c0943d24b830542f33f1c659de09d534cf1aab845ca41e0067d76",
+        "original_sha256": "01ce0505383c0943d24b830542f33f1c659de09d534cf1aab845ca41e0067d76",
+        "bytes": 14256980,
+        "pages": 6,
+        "source": "https://doi.org/10.1145/3800965.3834476",
+        "version": "author-camera-ready",
+        "document_kind": "article",
+        "license": "CC BY-NC-ND 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+      },
+      "oa_pdfs": [],
+      "topics": [
+        "gaming",
+        "interaction-tech"
+      ],
+      "status": "accepted",
+      "download_label": "Zhao-CHIPlayCompanion26-RowAcrossTime",
+      "full_text_access": "public",
+      "bibtex": "@inproceedings{ZhaoCHIPlayCompanion26RowAcrossTime,\n  author = {Zhao, Fangtao and Zhang, Jia and Fu, Jiaying and He, Wei and Kan, Ge Lin and Liang, Hai-Ning},\n  title = {Row Across Time: A Tangible Ba He Tong VR Game for Embodied Cultural Play},\n  booktitle = {Companion Proceedings of the Annual Symposium on Computer-Human Interaction in Play},\n  year = {2026},\n  series = {CHI PLAY Companion '26},\n  pages = {460--465},\n  numpages = {6},\n  month = nov,\n  publisher = {Association for Computing Machinery},\n  note = {Accepted; forthcoming},\n  doi = {10.1145/3800965.3834476},\n  url = {https://doi.org/10.1145/3800965.3834476}\n}\n",
+      "bibtex_file": "downloads/publication/papers/Zhao-CHIPlayCompanion26-RowAcrossTime.bib",
+      "catalog_added_on": "2026-10-25",
+      "display_venue": "CHI PLAY Companion 2026",
+      "expected_publication_month": "2026-11",
+      "event_start_date": "2026-11-02",
+      "event_end_date": "2026-11-05",
+      "event_date_source": "https://chiplay.acm.org/2026/"
     }
   ]
 }
