@@ -904,7 +904,7 @@
         "Daniel Zielasko"
       ],
       "year": 2026,
-      "venue": "IEEE Trans. Vis. Comput. Graph.",
+      "venue": "IEEE Transactions on Visualization and Computer Graphics",
       "kind": "journal",
       "doi": "10.1109/tvcg.2026.3695303",
       "url": "https://doi.org/10.1109/TVCG.2026.3695303",
@@ -928,26 +928,42 @@
         "caption": "Fig. 1.\nMR display technologies along the RVC. CR applications interconnect\nindividual stages or allow transition between stages like OSTs with 2D and AR\nor VSTs covering the full range from 2D to VR.",
         "pdf_sha256": "8ba08f6bd353699a215a9dae5a8427625f228b6583f6a94b4d37241faa4048aa"
       },
-      "pdf": "downloads/publication/papers/8ba08f6bd353699a215a.pdf",
+      "pdf": "downloads/publication/papers/Anthes-TVCG26-GrandChallengesCrossReality.pdf",
       "oa_pdfs": [],
       "topics": [
         "interaction-tech"
       ],
-      "published_date": "2026-09",
-      "published_date_source": "https://api.crossref.org/works/10.1109%2Ftvcg.2026.3695303",
-      "published_date_basis": "published",
+      "published_date": "2026-05-19",
+      "published_date_source": "https://fit-awe.github.io/downloads/publication/papers/Anthes-TVCG26-GrandChallengesCrossReality.pdf",
+      "published_date_basis": "published-online-as-stated-in-article",
       "pdf_metadata": {
-        "path": "downloads/publication/papers/8ba08f6bd353699a215a.pdf",
-        "sha256": "722dcd79e7a651c0c126548eef119e8718e616856b1b459278e5b4b491c5dc36",
-        "bytes": 725486,
+        "path": "downloads/publication/papers/Anthes-TVCG26-GrandChallengesCrossReality.pdf",
+        "sha256": "8ba08f6bd353699a215a9dae5a8427625f228b6583f6a94b4d37241faa4048aa",
+        "bytes": 803816,
         "pages": 19,
         "source": "https://doi.org/10.1109/TVCG.2026.3695303",
-        "version": "locally_available_fulltext",
+        "version": "publishedVersion",
         "original_sha256": "8ba08f6bd353699a215a9dae5a8427625f228b6583f6a94b4d37241faa4048aa",
         "library_key": "journals/tvcg/AnthesBGJLMAABCFGGHLPRR26",
-        "document_kind": "article"
+        "document_kind": "article",
+        "license": "CC-BY-4.0"
       },
-      "download_label": "Anthes-TVCG26-GrandChallengesCrossReality"
+      "download_label": "Anthes-TVCG26-GrandChallengesCrossReality",
+      "status": "published",
+      "volume": "32",
+      "number": "9",
+      "pages": "7998–8016",
+      "full_text_access": "public",
+      "pdf_download_allowed": true,
+      "pdf_public_status": "open_access_cc_by_4_0",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "bibtex": "@article{Anthes2026935a6c,\n  author = {Anthes, Christoph and Billinghurst, Mark and Grünefeld, Uwe and Jetter, Hans-Christian and Liang, Hai-Ning and Maurer, Frank and Aigner, David and Anslow, Craig and Bataille, Guillaume and Campbell, Abraham G. and Friedl-Knirsch, Judith and Gall, Alexander and Guarese, Renan and Hubenschmid, Sebastian and Li, Yue and Pointecker, Fabian and Riegler, Andreas and Roth, Daniel and Vanukuru, Rishi and Wang, Nanjia and Yu, Lingyun and Zagermann, Johannes and Zielasko, Daniel},\n  title = {Grand Challenges in Cross Reality},\n  year = {2026},\n  journal = {IEEE Transactions on Visualization and Computer Graphics},\n  volume = {32},\n  number = {9},\n  pages = {7998--8016},\n  publisher = {Institute of Electrical and Electronics Engineers (IEEE)},\n  doi = {10.1109/tvcg.2026.3695303},\n  url = {https://doi.org/10.1109/tvcg.2026.3695303}\n}\n",
+      "issue_date": "2026-09",
+      "catalog_updated_on": "2026-10-26",
+      "legacy_pdf_paths": [
+        "downloads/publication/papers/8ba08f6bd353699a215a.pdf"
+      ]
     },
     {
       "id": "6805d1fd6af4",
