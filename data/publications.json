@@ -1505,7 +1505,7 @@
         "source": "https://doi.org/10.1109/TVCG.2026.3679883",
         "pdf_sha256": "b791c8d447075353d1d20e891f756e349eca669d6b076c3ebe738fd6e0d68076"
       },
-      "pdf": null,
+      "pdf": "downloads/publication/papers/Wei-TVCG26-RayFlex.pdf",
       "oa_pdfs": [],
       "topics": [
         "interaction-tech"
@@ -1521,11 +1521,22 @@
       "bibtex": "@article{WeiTVCG26RayFlex,\n  author = {Wei, Yushi and Zhang, Sen and Shi, Rongkai and Fong, Simon and Hui, Pan and Liang, Hai-Ning},\n  title = {RayFlex: Inducing Weight Perception Through Raycast Pseudo-Haptics in Virtual Reality},\n  journal = {IEEE Transactions on Visualization and Computer Graphics},\n  year = {2026},\n  volume = {32},\n  number = {5},\n  pages = {4081--4091},\n  month = may,\n  doi = {10.1109/TVCG.2026.3679883},\n  url = {https://doi.org/10.1109/TVCG.2026.3679883}\n}\n",
       "issue_date": "2026-05",
       "catalog_updated_on": "2026-10-26",
-      "full_text_access": "withheld",
-      "pdf_public_status": "withheld_by_user_request",
+      "full_text_access": "public",
+      "pdf_public_status": "public_by_user_confirmation",
       "bibtex_file": "downloads/publication/papers/Wei-TVCG26-RayFlex.bib",
-      "pdf_download_allowed": false,
-      "pdf_access_decision_date": "2026-10-26"
+      "pdf_download_allowed": true,
+      "pdf_access_decision_date": "2026-10-26",
+      "copyright_notice": "© 2026 IEEE. Personal use of this material is permitted. Permission from IEEE must be obtained for all other uses, in any current or future media, including reprinting/republishing this material for advertising or promotional purposes, creating new collective works, for resale or redistribution to servers or lists, or reuse of any copyrighted component of this work in other works.",
+      "pdf_metadata": {
+        "path": "downloads/publication/papers/Wei-TVCG26-RayFlex.pdf",
+        "sha256": "b791c8d447075353d1d20e891f756e349eca669d6b076c3ebe738fd6e0d68076",
+        "source_sha256": "b791c8d447075353d1d20e891f756e349eca669d6b076c3ebe738fd6e0d68076",
+        "bytes": 5087153,
+        "pages": 11,
+        "source": "https://doi.org/10.1109/TVCG.2026.3679883",
+        "version": "author_provided",
+        "permission_basis": "explicit_user_confirmation"
+      }
     },
     {
       "id": "95d7dab9080c",
@@ -1567,7 +1578,7 @@
         "source": "https://doi.org/10.1109/TVCG.2025.3622042",
         "pdf_sha256": "857fa1189507e436b930b7bc0871c7efa9d56c582066e0251dd849cccef412f9"
       },
-      "pdf": null,
+      "pdf": "downloads/publication/papers/Wei-TVCG26-GazeCursor.pdf",
       "oa_pdfs": [],
       "topics": [
         "interaction-tech"
@@ -1583,11 +1594,22 @@
       "bibtex": "@article{WeiTVCG26GazeCursor,\n  author = {Wei, Yushi and Shi, Rongkai and Zhang, Sen and Batmaz, Anil Ufuk and Hui, Pan and Liang, Hai-Ning},\n  title = {Reevaluating the Gaze Cursor in Virtual Reality: A Comparative Analysis of Cursor Visibility, Confirmation Mechanisms, and Task Paradigms},\n  journal = {IEEE Transactions on Visualization and Computer Graphics},\n  year = {2026},\n  volume = {32},\n  number = {2},\n  pages = {1640--1655},\n  month = feb,\n  doi = {10.1109/TVCG.2025.3622042},\n  url = {https://doi.org/10.1109/TVCG.2025.3622042}\n}\n",
       "issue_date": "2026-02",
       "catalog_updated_on": "2026-10-26",
-      "full_text_access": "withheld",
-      "pdf_public_status": "withheld_by_user_request",
+      "full_text_access": "public",
+      "pdf_public_status": "public_by_user_confirmation",
       "bibtex_file": "downloads/publication/papers/Wei-TVCG26-GazeCursor.bib",
-      "pdf_download_allowed": false,
-      "pdf_access_decision_date": "2026-10-26"
+      "pdf_download_allowed": true,
+      "pdf_access_decision_date": "2026-10-26",
+      "copyright_notice": "© 2025 IEEE. Personal use of this material is permitted. Permission from IEEE must be obtained for all other uses, in any current or future media, including reprinting/republishing this material for advertising or promotional purposes, creating new collective works, for resale or redistribution to servers or lists, or reuse of any copyrighted component of this work in other works.",
+      "pdf_metadata": {
+        "path": "downloads/publication/papers/Wei-TVCG26-GazeCursor.pdf",
+        "sha256": "857fa1189507e436b930b7bc0871c7efa9d56c582066e0251dd849cccef412f9",
+        "source_sha256": "857fa1189507e436b930b7bc0871c7efa9d56c582066e0251dd849cccef412f9",
+        "bytes": 4865462,
+        "pages": 13,
+        "source": "https://doi.org/10.1109/TVCG.2025.3622042",
+        "version": "author_manuscript",
+        "permission_basis": "explicit_user_confirmation"
+      }
     },
     {
       "id": "abfa0b7e926c",
