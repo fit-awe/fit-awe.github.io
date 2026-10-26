@@ -1,6 +1,10 @@
 # International Collaborators — sources and maintenance
 
-Verified on 2026-10-09. The Members section includes 81 currently verified faculty collaborators at institutions outside mainland China, including Hong Kong and professors emeriti. Each has a genuine coauthored catalog entry with Hai-Ning Liang. This is a verified roster, not a claim that every coauthor is a faculty member.
+The saved records were checked on 2026-10-09 and include 81 faculty collaborators at institutions outside mainland China, including Hong Kong and professors emeriti. Each has a genuine coauthored catalog entry with Hai-Ning Liang. This is a saved research record, not a claim that every coauthor is a faculty member or a selection for current public display.
+
+## Display status
+
+International Collaborators is temporarily hidden from Members at the user's request while they select who to display. `show_on_members_page: false` in `data/international-collaborators.json` removes the section and its in-page navigation entry in all five languages. The build respects this flag, including monthly updates. The 81 records and portrait files are retained, and publication author names and search continue to work. Apply the user's selected list before setting the flag back to `true`.
 
 ## Display order
 

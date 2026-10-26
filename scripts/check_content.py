@@ -16,12 +16,14 @@ roster=lab_author_keys()
 source_members=BeautifulSoup((ROOT/'members/index.html').read_text(),'html.parser')
 member_names=[c.h4.text for c in source_members.select('.member-card')]
 alumni_count=len(source_members.select('.members-alumni .alumni-list li'))
-collaborators=json.loads((ROOT/'data/international-collaborators.json').read_text())['collaborators']
+collaborator_settings=json.loads((ROOT/'data/international-collaborators.json').read_text())
+collaborators=collaborator_settings['collaborators']
+show_collaborators=collaborator_settings.get('show_on_members_page',True)
 image_manifest=ROOT/'data/image-variants.json'
 image_variants=json.loads(image_manifest.read_text())['images'] if image_manifest.exists() else {}
 assert len({c['id'] for c in collaborators})==len(collaborators)
 assert len({author_key(c['name']) for c in collaborators})==len(collaborators)
-ordered_people=ordered_collaborators(collaborators,papers)
+ordered_people=ordered_collaborators(collaborators,papers) if show_collaborators else []
 for person in collaborators:
  assert person['profile_url'].startswith('https://') and person['appointment_source'].startswith('https://')
  assert person['checked_on'] and person['author_names'] and person['evidence_paper_ids']
@@ -102,7 +104,8 @@ for lang in LANGUAGES:
  assert not members.select('img[src$="rock.jpg"]')
  assert [c.h4.text for c in members.select('.member-card')]==member_names
  assert len(members.select('.members-alumni .alumni-list li'))==alumni_count
- assert members.select_one('.members-section-nav a[href="#international-collaborators"]')
+ assert bool(members.select_one('.members-section-nav a[href="#international-collaborators"]'))==show_collaborators
+ assert bool(members.select_one('#international-collaborators'))==show_collaborators
  collaborators_cards=members.select('.collaborator-card')
  assert [c['data-collaborator-id'] for c in collaborators_cards]==[p['id'] for p in ordered_people]
  catalog=BeautifulSoup((base/'publications/index.html').read_text(),'html.parser')
@@ -128,7 +131,9 @@ for lang in LANGUAGES:
   url=urlsplit(action['href'])
   assert (base/'members'/url.path).resolve()==(base/'publications/index.html').resolve()
   assert parse_qs(url.query)['q']==[person['author_names'][0]]
+ # Keep checking bibliographic author filters even while the Members section is hidden.
+ for person in collaborators:
   for name in person['author_names']:assert query_map[name]==person['id']
   actual={c['id'].removeprefix('paper-') for c in catalog.select('.paper-card') if person['id'] in c['data-collaborators'].split()}
   assert actual=={p['id'] for p in joint_publications(person,papers)},(person['id'],lang,'author filter or count mismatch')
-print(f'PASS: shared news, {len(awards)} sourced awards, latest 6 papers and member/alumni highlighting in 5 languages; {len(member_names)} members, {alumni_count} alumni entries and {len(collaborators)} sourced faculty collaborators with exact author filters.')
+print(f'PASS: shared news, {len(awards)} sourced awards, latest 6 papers and member/alumni highlighting in 5 languages; {len(member_names)} members, {alumni_count} alumni entries, {len(ordered_people)} visible collaborators ({len(collaborators)} saved records), exact author filters.')

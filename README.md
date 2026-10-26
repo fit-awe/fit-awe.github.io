@@ -26,7 +26,7 @@ python3 -m http.server 8000
 | 全部论文与首页最新 6 篇 | `data/publications.json` |
 | 论文研究方向及五语言名称 | `data/research-topics.json`；每篇论文的 `topics` 保存可交叉的人工分类 |
 | 成员、头像、身份与校友 | 英文 `members/index.html` |
-| 国际合作教师、当前任职、头像来源与优先展示 | `data/international-collaborators.json`；核实记录见 [COLLABORATORS.md](data/COLLABORATORS.md) |
+| 国际合作者、显示状态、当前任职和头像来源 | `data/international-collaborators.json`；`show_on_members_page` 控制 Members 中是否展示，当前暂隐藏以待筛选；记录见 [COLLABORATORS.md](data/COLLABORATORS.md) |
 | 招募介绍与申请材料 | `templates/join.html` |
 | 产学研合作记录 | `scripts/build_content.py` 的 `industry_cards()` |
 | 页头、页脚与导航 | `scripts/site_shell.py` |
@@ -60,7 +60,7 @@ python3 scripts/check_images.py
 - 字体：正文约 18px，辅助信息约 15–16px，论文作者约 16–17px；字号使用 `rem`，跟随浏览器默认字号，按钮点击区域至少 44px。
 
 - About：实验室简介、标题旁的 FIT/AWE 释义，以及两张合影轮播；桌面文字与照片框上下对齐，照片居中裁切，手机保留照片原比例。Lab updates 位于桌面右上方并随滚动固定，窄屏显示在 About 下方。随后依次展示论文奖项、最新论文、合作及招募，学校与 CMA Logo 位于首页底部。照片自动切换，悬停或键盘聚焦时暂停，也可聚焦后使用方向键切换；不显示箭头和页码。
-- Members：Faculty、PhD、MPhil、International Collaborators、Alumni；缺少真实头像时使用姓名首字母。国际合作教师按共同论文与经核实的领域资历优先展示，合作论文数量与作者筛选在构建时自动更新。
+- Members：Faculty、PhD、MPhil、Alumni；缺少真实头像时使用姓名首字母。International Collaborators 当前暂隐藏，名单和头像保留待筛选，月度构建同样保持隐藏。启用时，国际合作教师按共同论文与经核实的领域资历优先展示，合作论文数量与作者筛选在构建时自动更新。
 - Publications：按年份及已知发表日期倒序排列，桌面每行依次展示会议／期刊与年份、配图、标题及作者；缺图时文字扩展，手机纵向显示。顶部直接点击 Gaming、Interaction Tech、Text Entry、AI、Accessibility 五个方向，并可搜索；一篇论文可属于多个方向，年份与类型按钮位于“更多筛选”。`q`、`year`、`type`、`topic` 分享参数兼容刷新、浏览器历史和语言切换；支持 BibTeX 和 PDF 下载。补充材料单独标注，部分出版版链接到原站 PDF。
 - Paper Awards：紧凑的两列列表，左侧会议／期刊及年份，右侧奖项或提名与论文标题。奖项名称链接到核实来源，论文标题链接到出版页面；提名与学生游戏竞赛决赛入围明确标注，包含成员早期成果。
 - 页头导航：About、Members、Awards、Publications、Collaboration、Join Us，以及语言切换。News 通过首页 Lab updates 的“查看更多”入口访问。

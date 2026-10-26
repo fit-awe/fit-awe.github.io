@@ -28,7 +28,16 @@ def ordered_collaborators(people, papers):
 
 
 def build():
-    people = json.loads((ROOT / 'data/international-collaborators.json').read_text())['collaborators']
+    settings = json.loads((ROOT / 'data/international-collaborators.json').read_text())
+    people = settings['collaborators']
+    if not settings.get('show_on_members_page', True):
+        source = ROOT / 'members/index.html'
+        soup = BeautifulSoup(source.read_text(), 'html.parser')
+        for node in soup.select('#international-collaborators, .members-section-nav a[href="#international-collaborators"]'):
+            node.decompose()
+        source.write_text(str(soup).rstrip() + '\n')
+        print(f'International collaborators hidden; {len(people)} records retained for curation.')
+        return
     papers = json.loads((ROOT / 'data/publications.json').read_text())['publications']
     cards = []
     for person in ordered_collaborators(people, papers):
