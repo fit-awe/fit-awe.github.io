@@ -1,5 +1,23 @@
 [
   {
+    "id": "paper-bb341e9961e2",
+    "paper_id": "bb341e9961e2",
+    "date": "2026-10-26",
+    "date_basis": "announcement",
+    "text": "RayFlex, our visual pseudo-haptics technique for weight perception in distant VR interaction, is published in IEEE TVCG.",
+    "source": "https://fit-awe.github.io/publications/?q=RayFlex",
+    "source_label": "View publication ↗"
+  },
+  {
+    "id": "paper-95d7dab9080c",
+    "paper_id": "95d7dab9080c",
+    "date": "2026-10-26",
+    "date_basis": "announcement",
+    "text": "Our research on gaze-cursor visibility, confirmation methods and task demands in VR is published in IEEE TVCG.",
+    "source": "https://fit-awe.github.io/publications/?q=GazeCursor",
+    "source_label": "View publication ↗"
+  },
+  {
     "id": "paper-row-across-time-2026",
     "paper_id": "row-across-time-2026",
     "date": "2026-10-25",

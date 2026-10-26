@@ -4621,6 +4621,27 @@
         }
       ]
     },
+    "images/papers/95d7dab9080c.jpg": {
+      "fingerprint": "2e92518934be3525b641cd35cd66480b7c7b54ff975e48ee90032f3ef1059145",
+      "role": "paper",
+      "original_bytes": 58910,
+      "width": 1051,
+      "height": 484,
+      "variants": [
+        {
+          "path": "images/optimized/2e92518934be3525-480.webp",
+          "width": 480,
+          "height": 221,
+          "bytes": 10000
+        },
+        {
+          "path": "images/optimized/2e92518934be3525-960.webp",
+          "width": 960,
+          "height": 442,
+          "bytes": 21260
+        }
+      ]
+    },
     "images/papers/978687470657.png": {
       "fingerprint": "fc3cbc7ce4feccec3fb139c715caaccae4ff513983d1e2853a6b62911bb52221",
       "role": "paper",
@@ -5074,6 +5095,27 @@
           "width": 529,
           "height": 248,
           "bytes": 27048
+        }
+      ]
+    },
+    "images/papers/bb341e9961e2.jpg": {
+      "fingerprint": "a7574c4778a850b232a725568254fb0247976ad9fa6a174f5b7cdb030e4fbba3",
+      "role": "paper",
+      "original_bytes": 88221,
+      "width": 1064,
+      "height": 571,
+      "variants": [
+        {
+          "path": "images/optimized/a7574c4778a850b2-480.webp",
+          "width": 480,
+          "height": 258,
+          "bytes": 14082
+        },
+        {
+          "path": "images/optimized/a7574c4778a850b2-960.webp",
+          "width": 960,
+          "height": 515,
+          "bytes": 35792
         }
       ]
     },

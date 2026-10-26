@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-25",
+  "updated": "2026-10-26",
   "sources": {
     "dblp": {
       "profile": "https://dblp.org/pid/55/1198.html",
@@ -1480,25 +1480,50 @@
         "Hai-Ning Liang"
       ],
       "year": 2026,
-      "venue": "IEEE Trans. Vis. Comput. Graph.",
+      "venue": "IEEE Transactions on Visualization and Computer Graphics",
       "kind": "journal",
-      "doi": "10.1109/tvcg.2026.3679883",
+      "doi": "10.1109/TVCG.2026.3679883",
       "url": "https://doi.org/10.1109/TVCG.2026.3679883",
       "sources": [
-        "https://dblp.org/rec/journals/tvcg/WeiZSFHL26"
+        "https://dblp.org/rec/journals/tvcg/WeiZSFHL26",
+        "https://doi.org/10.1109/TVCG.2026.3679883",
+        "https://ieeexplore.ieee.org/document/11460238"
       ],
       "urls": [
         "https://doi.org/10.1109/TVCG.2026.3679883"
       ],
-      "image": null,
+      "image": {
+        "path": "images/papers/bb341e9961e2.jpg",
+        "kind": "figure-01",
+        "page": 3,
+        "bbox": [
+          52.0,
+          49.0,
+          307.0,
+          186.0
+        ],
+        "source": "https://doi.org/10.1109/TVCG.2026.3679883",
+        "pdf_sha256": "b791c8d447075353d1d20e891f756e349eca669d6b076c3ebe738fd6e0d68076"
+      },
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
         "interaction-tech"
       ],
-      "published_date": "2026-05",
-      "published_date_source": "https://api.crossref.org/works/10.1109%2Ftvcg.2026.3679883",
-      "published_date_basis": "published"
+      "published_date": "2026-04-01",
+      "published_date_source": "https://ieeexplore.ieee.org/document/11460238",
+      "published_date_basis": "published-online",
+      "status": "published",
+      "volume": "32",
+      "number": "5",
+      "pages": "4081–4091",
+      "download_label": "Wei-TVCG26-RayFlex",
+      "bibtex": "@article{WeiTVCG26RayFlex,\n  author = {Wei, Yushi and Zhang, Sen and Shi, Rongkai and Fong, Simon and Hui, Pan and Liang, Hai-Ning},\n  title = {RayFlex: Inducing Weight Perception Through Raycast Pseudo-Haptics in Virtual Reality},\n  journal = {IEEE Transactions on Visualization and Computer Graphics},\n  year = {2026},\n  volume = {32},\n  number = {5},\n  pages = {4081--4091},\n  month = may,\n  doi = {10.1109/TVCG.2026.3679883},\n  url = {https://doi.org/10.1109/TVCG.2026.3679883}\n}\n",
+      "issue_date": "2026-05",
+      "catalog_updated_on": "2026-10-26",
+      "full_text_access": "publisher",
+      "pdf_public_status": "awaiting_author_version_confirmation",
+      "bibtex_file": "downloads/publication/papers/Wei-TVCG26-RayFlex.bib"
     },
     {
       "id": "95d7dab9080c",
@@ -1512,28 +1537,53 @@
         "Hai-Ning Liang"
       ],
       "year": 2026,
-      "venue": "IEEE Trans. Vis. Comput. Graph.",
+      "venue": "IEEE Transactions on Visualization and Computer Graphics",
       "kind": "journal",
-      "doi": "10.1109/tvcg.2025.3622042",
+      "doi": "10.1109/TVCG.2025.3622042",
       "url": "https://doi.org/10.1109/TVCG.2025.3622042",
       "sources": [
         "https://dblp.org/rec/journals/tvcg/WeiSZBHL26",
-        "https://openalex.org/W4415279970"
+        "https://openalex.org/W4415279970",
+        "https://doi.org/10.1109/TVCG.2025.3622042",
+        "https://ieeexplore.ieee.org/abstract/document/11204728/authors"
       ],
       "urls": [
         "https://doi.org/10.1109/TVCG.2025.3622042",
         "https://doi.org/10.1109/tvcg.2025.3622042",
         "https://pubmed.ncbi.nlm.nih.gov/41091618"
       ],
-      "image": null,
+      "image": {
+        "path": "images/papers/95d7dab9080c.jpg",
+        "kind": "figure-01",
+        "page": 3,
+        "bbox": [
+          317.0,
+          48.0,
+          569.0,
+          164.0
+        ],
+        "source": "https://doi.org/10.1109/TVCG.2025.3622042",
+        "pdf_sha256": "857fa1189507e436b930b7bc0871c7efa9d56c582066e0251dd849cccef412f9"
+      },
       "pdf": null,
       "oa_pdfs": [],
       "topics": [
         "interaction-tech"
       ],
-      "published_date": "2026-02",
-      "published_date_source": "https://api.crossref.org/works/10.1109%2Ftvcg.2025.3622042",
-      "published_date_basis": "published"
+      "published_date": "2025-10-15",
+      "published_date_source": "https://ieeexplore.ieee.org/abstract/document/11204728/authors",
+      "published_date_basis": "published-online",
+      "status": "published",
+      "volume": "32",
+      "number": "2",
+      "pages": "1640–1655",
+      "download_label": "Wei-TVCG26-GazeCursor",
+      "bibtex": "@article{WeiTVCG26GazeCursor,\n  author = {Wei, Yushi and Shi, Rongkai and Zhang, Sen and Batmaz, Anil Ufuk and Hui, Pan and Liang, Hai-Ning},\n  title = {Reevaluating the Gaze Cursor in Virtual Reality: A Comparative Analysis of Cursor Visibility, Confirmation Mechanisms, and Task Paradigms},\n  journal = {IEEE Transactions on Visualization and Computer Graphics},\n  year = {2026},\n  volume = {32},\n  number = {2},\n  pages = {1640--1655},\n  month = feb,\n  doi = {10.1109/TVCG.2025.3622042},\n  url = {https://doi.org/10.1109/TVCG.2025.3622042}\n}\n",
+      "issue_date": "2026-02",
+      "catalog_updated_on": "2026-10-26",
+      "full_text_access": "publisher",
+      "pdf_public_status": "awaiting_author_version_confirmation",
+      "bibtex_file": "downloads/publication/papers/Wei-TVCG26-GazeCursor.bib"
     },
     {
       "id": "abfa0b7e926c",
