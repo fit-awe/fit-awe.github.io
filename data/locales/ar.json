@@ -239,9 +239,11 @@
   "Cyprus": "قبرص",
   "Chair Professor": "أستاذ كرسي",
   "Course Leader": "مسؤول البرنامج",
-  "Our research on a design space for smart textiles in XR has been published online in Virtual Reality.": "نُشر بحثنا حول فضاء تصميم المنسوجات الذكية للواقع الممتد إلكترونيًا في مجلة Virtual Reality.",
-  "Our study of stakeholder influence in heritage VR game co-design has been accepted to PACM HCI (GAMES) for CHI PLAY 2026.": "قُبلت دراستنا حول تأثير أصحاب المصلحة في التصميم التشاركي لألعاب الواقع الافتراضي للتراث في PACM HCI (GAMES) ضمن CHI PLAY 2026.",
-  "Row Across Time, our tangible Ba He Tong VR rowing game, has been accepted to CHI PLAY Companion 2026.": "قُبلت لعبتنا Row Across Time للتجديف بالواقع الافتراضي باستخدام وعاء Ba He Tong ملموس ضمن CHI PLAY Companion 2026.",
-  "Our research on gaze-cursor visibility, confirmation methods and task demands in VR is published in IEEE TVCG.": "نُشر بحثنا حول ظهور مؤشر النظر وطرق التأكيد ومتطلبات المهام في الواقع الافتراضي في IEEE TVCG.",
-  "RayFlex, our visual pseudo-haptics technique for weight perception in distant VR interaction, is published in IEEE TVCG.": "نُشر بحث RayFlex، تقنيتنا للمؤثرات اللمسية الوهمية البصرية لإدراك الوزن أثناء التفاعل عن بُعد في الواقع الافتراضي، في IEEE TVCG."
+  "Yushi Wei and colleagues' RayFlex study on visual pseudo-haptics for weight perception in distant VR interaction is published in IEEE TVCG.": "نُشرت دراسة RayFlex التي أجراها Yushi Wei وزملاؤه حول اللمس الوهمي البصري لإدراك الوزن في تفاعلات الواقع الافتراضي عن بُعد في IEEE TVCG.",
+  "Yushi Wei and colleagues' study of gaze-cursor visibility, confirmation methods and task demands in VR is published in IEEE TVCG.": "نُشرت دراسة Yushi Wei وزملائه حول ظهور مؤشر النظر وطرق التأكيد ومتطلبات المهام في الواقع الافتراضي في IEEE TVCG.",
+  "Fangtao Zhao and colleagues' Row Across Time, a tangible Ba He Tong VR rowing game, has been accepted to CHI PLAY Companion 2026.": "قُبلت لعبة Row Across Time التي طوّرها Fangtao Zhao وزملاؤه للتجديف بالواقع الافتراضي باستخدام وعاء Ba He Tong ملموس ضمن CHI PLAY Companion 2026.",
+  "Jiaying Fu and colleagues' study of stakeholder influence in heritage VR game co-design has been accepted to PACM HCI (GAMES) for CHI PLAY 2026.": "قُبلت دراسة Jiaying Fu وزملائه حول تأثير أصحاب المصلحة في التصميم التشاركي لألعاب الواقع الافتراضي للتراث في PACM HCI (GAMES) ضمن CHI PLAY 2026.",
+  "Mengqi Jiang and colleagues' research on a design space for smart textiles in XR has been published online in Virtual Reality.": "نُشر بحث Mengqi Jiang وزملائه حول فضاء تصميم المنسوجات الذكية للواقع الممتد على الإنترنت في مجلة Virtual Reality.",
+  "Accepted": "مقبول",
+  "Conference dates": "موعد المؤتمر"
 }

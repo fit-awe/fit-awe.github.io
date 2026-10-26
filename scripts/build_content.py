@@ -4,7 +4,7 @@ import json
 from pathlib import Path
 from urllib.parse import quote
 from publication_common import esc, authors_html
-from publication_dates import latest_publications, format_date
+from publication_dates import latest_publications, format_date, valid_date
 from site_shell import ROOT, english_page, asset
 
 
@@ -52,13 +52,22 @@ def latest_cards(records):
     cards = []
     kinds = {'journal': 'Journal article', 'conference': 'Conference paper', 'preprint': 'Preprint'}
     for p in records:
-        assert p.get('image'), 'Homepage publication requires a paper figure: ' + p['id']
         info = f'<span>{kinds[p["kind"]]}</span><span data-bibliographic><bdi>{esc(p["venue"])}</bdi></span>'
-        value = p.get('published_date', str(p['year']))
-        date = time_tag(value)
-        if p.get('published_date_source'):
-            date = f'<a class="date-source" href="{esc(p["published_date_source"])}" target="_blank" rel="noopener noreferrer" title="Publication date source">{date}</a>'
-        cards.append(f'<article class="latest-paper" data-paper-id="{p["id"]}">{figure(p,"index.html")}<div class="paper-content"><p class="paper-meta">{info}</p>{paper_title(p)}<p class="paper-authors" dir="auto" data-bibliographic>{authors_html(p)}</p><p class="paper-date">{date}</p></div></article>')
+        if p.get('status') == 'accepted':
+            info += '<span class="paper-status">Accepted</span>'
+        event = p.get('event_start_date')
+        if p.get('status') == 'accepted' and not p.get('published_date') and valid_date(event):
+            date = '<span>Conference dates</span>: ' + time_tag(event)
+            end = p.get('event_end_date')
+            if end and end != event and valid_date(end):
+                date += ' – ' + time_tag(end)
+        else:
+            value = p.get('published_date') or str(p['year'])
+            date = time_tag(value)
+            if p.get('published_date_source'):
+                date = f'<a class="date-source" href="{esc(p["published_date_source"])}" target="_blank" rel="noopener noreferrer" title="Publication date source">{date}</a>'
+        no_figure = ' no-figure' if not p.get('image') else ''
+        cards.append(f'<article class="latest-paper{no_figure}" data-paper-id="{p["id"]}">{figure(p,"index.html")}<div class="paper-content"><p class="paper-meta">{info}</p>{paper_title(p)}<p class="paper-authors" dir="auto" data-bibliographic>{authors_html(p)}</p><p class="paper-date">{date}</p></div></article>')
     return ''.join(cards)
 
 
@@ -81,7 +90,7 @@ def build():
     news = sorted(json.loads((ROOT / 'data/news.json').read_text()), key=lambda a: a['date'], reverse=True)
     awards = sorted(json.loads((ROOT / 'data/awards.json').read_text()), key=lambda a: a['date'], reverse=True)
     home = (ROOT / 'templates/home.html').read_text()
-    for key, value in {'news': news_list(news[:3]), 'awards': award_summary(awards, papers), 'publications': latest_cards(latest_publications(payload['publications'], require_image=True)), 'industry': industry_cards(), 'institutions': institution_logos('index.html')}.items():
+    for key, value in {'news': news_list(news[:3]), 'awards': award_summary(awards, papers), 'publications': latest_cards(latest_publications(payload['publications'])), 'industry': industry_cards(), 'institutions': institution_logos('index.html')}.items():
         home = home.replace('{{' + key + '}}', value)
     (ROOT / 'index.html').write_text(english_page('index.html', 'About', home, ('js/carousel.js',)))
     main = '<main id="main-content" class="page-shell news-page"><header class="page-heading"><h1>News</h1></header>' + news_list(news, 'allnews.html') + '</main>'

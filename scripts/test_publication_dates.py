@@ -25,14 +25,23 @@ class PublicationDates(unittest.TestCase):
         papers=[self.paper('future','2026-11-01'),self.paper('preprint','2026-09-01',kind='preprint'),self.paper('other','2026-10-01',kind='other')]
         self.assertEqual([p['id'] for p in latest_publications(papers,today=date(2026,10,4))],['preprint'])
 
-    def test_homepage_skips_missing_figures_and_keeps_date_order(self):
+    def test_homepage_includes_missing_figures_and_pdfs_in_date_order(self):
         papers=[self.paper('no-figure','2026-10-01'),
                 self.paper('first','2026-09-02',image={'path':'first.webp'}),
                 self.paper('future','2026-11-01',image={'path':'future.webp'}),
                 self.paper('preprint','2026-09-01',image={'path':'preprint.webp'},kind='preprint'),
                 self.paper('older','2026-08-01',image={'path':'older.webp'})]
-        self.assertEqual([p['id'] for p in latest_publications(papers,count=2,today=date(2026,10,4),require_image=True)],['first','preprint'])
+        self.assertEqual([p['id'] for p in latest_publications(papers,count=2,today=date(2026,10,4))],['no-figure','first'])
         self.assertEqual(len(papers),5)
+
+    def test_homepage_uses_catalog_order_for_accepted_papers_without_pdfs(self):
+        accepted=self.paper('accepted',image=None)
+        accepted.update(status='accepted',event_start_date='2026-11-23',pdf=None)
+        papers=[self.paper('published','2026-10-01'),accepted]
+        snapshot=copy.deepcopy(papers)
+        self.assertEqual([p['id'] for p in latest_publications(papers,today=date(2026,10,26))],
+                         [p['id'] for p in chronological_publications(papers)])
+        self.assertEqual(papers,snapshot)
 
     def test_full_catalog_retains_all_records_in_chronological_order(self):
         papers=[self.paper('undated'),self.paper('first','2026-08-14'),self.paper('same-day','2026-08-14'),self.paper('month','2026-08'),self.paper('other','2026-09-01',kind='other'),self.paper('online-before-issue','2025-12-01'),self.paper('older','2025-12-02',year=2025)]

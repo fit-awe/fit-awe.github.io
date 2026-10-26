@@ -103,16 +103,12 @@ def latest_publications(papers, count=6, today=None, *, require_image=False):
             start = date(*parts, *([1] * (3 - len(parts))))
             if start > today:
                 continue
-            key = parts + (0,) * (3 - len(parts))
         else:
             if paper['year'] > today.year:
                 continue
-            key = (paper['year'], 0, 0)
         if paper['kind'] in ('journal', 'conference', 'preprint'):
-            eligible.append((key, paper))
-    # Python's stable sort retains catalog order for equal dates.
-    eligible.sort(key=lambda entry: entry[0], reverse=True)
-    return [paper for _, paper in eligible[:count]]
+            eligible.append(paper)
+    return chronological_publications(eligible)[:count]
 
 
 MONTHS = {

@@ -233,9 +233,11 @@
   "Cyprus": "キプロス",
   "Chair Professor": "講座教授",
   "Course Leader": "コース責任者",
-  "Our research on a design space for smart textiles in XR has been published online in Virtual Reality.": "XR 向けスマートテキスタイルのデザイン空間に関する本研究が、Virtual Reality 誌でオンライン公開されました。",
-  "Our study of stakeholder influence in heritage VR game co-design has been accepted to PACM HCI (GAMES) for CHI PLAY 2026.": "文化遺産 VR ゲームの共同設計における参加者の影響を調べた本研究が、CHI PLAY 2026 の PACM HCI（GAMES）に採択されました。",
-  "Row Across Time, our tangible Ba He Tong VR rowing game, has been accepted to CHI PLAY Companion 2026.": "実物の扒禾桶を用いる VR 漕艇ゲーム Row Across Time が、CHI PLAY Companion 2026 に採択されました。",
-  "Our research on gaze-cursor visibility, confirmation methods and task demands in VR is published in IEEE TVCG.": "VR における視線カーソルの可視性、確定方法、タスク要件に関する本研究が IEEE TVCG に掲載されました。",
-  "RayFlex, our visual pseudo-haptics technique for weight perception in distant VR interaction, is published in IEEE TVCG.": "遠隔 VR 操作に視覚的な擬似触覚で重さの感覚を与える RayFlex の研究が IEEE TVCG に掲載されました。"
+  "Yushi Wei and colleagues' RayFlex study on visual pseudo-haptics for weight perception in distant VR interaction is published in IEEE TVCG.": "Yushi Wei らによる、VR の遠隔操作で重さを感じさせる視覚的疑似触覚手法 RayFlex の研究が IEEE TVCG に掲載されました。",
+  "Yushi Wei and colleagues' study of gaze-cursor visibility, confirmation methods and task demands in VR is published in IEEE TVCG.": "Yushi Wei らによる、VR の視線カーソルの表示、確定方法、タスク要件を比較した研究が IEEE TVCG に掲載されました。",
+  "Fangtao Zhao and colleagues' Row Across Time, a tangible Ba He Tong VR rowing game, has been accepted to CHI PLAY Companion 2026.": "Fangtao Zhao らによる、実物の扒禾桶を用いる VR 漕艇ゲーム Row Across Time が CHI PLAY Companion 2026 に採択されました。",
+  "Jiaying Fu and colleagues' study of stakeholder influence in heritage VR game co-design has been accepted to PACM HCI (GAMES) for CHI PLAY 2026.": "Jiaying Fu らによる、文化遺産 VR ゲームの共同設計における参加者の影響を調べた研究が、CHI PLAY 2026 の PACM HCI（GAMES）に採択されました。",
+  "Mengqi Jiang and colleagues' research on a design space for smart textiles in XR has been published online in Virtual Reality.": "Mengqi Jiang らによる XR 向けスマートテキスタイルの設計空間に関する研究が Virtual Reality でオンライン公開されました。",
+  "Accepted": "採択済み",
+  "Conference dates": "会期"
 }

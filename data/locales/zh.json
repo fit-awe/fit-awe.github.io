@@ -239,9 +239,11 @@
   "Cyprus": "塞浦路斯",
   "Chair Professor": "讲席教授",
   "Course Leader": "课程负责人",
-  "Our research on a design space for smart textiles in XR has been published online in Virtual Reality.": "本组关于 XR 智能织物设计空间的研究已在线发表于《Virtual Reality》。",
-  "Our study of stakeholder influence in heritage VR game co-design has been accepted to PACM HCI (GAMES) for CHI PLAY 2026.": "本组关于非遗 VR 游戏共创中参与者影响的研究获 PACM HCI（GAMES）录用，将在 CHI PLAY 2026 交流。",
-  "Row Across Time, our tangible Ba He Tong VR rowing game, has been accepted to CHI PLAY Companion 2026.": "本组实体扒禾桶 VR 划行游戏 Row Across Time 获 CHI PLAY Companion 2026 录用。",
-  "Our research on gaze-cursor visibility, confirmation methods and task demands in VR is published in IEEE TVCG.": "本组关于 VR 眼动光标可见性、确认方式与任务要求的研究发表于 IEEE TVCG。",
-  "RayFlex, our visual pseudo-haptics technique for weight perception in distant VR interaction, is published in IEEE TVCG.": "本组通过视觉伪触觉传达远距离 VR 操作重量感的 RayFlex 研究发表于 IEEE TVCG。"
+  "Yushi Wei and colleagues' RayFlex study on visual pseudo-haptics for weight perception in distant VR interaction is published in IEEE TVCG.": "Yushi Wei 等人关于远距离 VR 交互中重量感知的视觉伪触觉研究 RayFlex 发表于 IEEE TVCG。",
+  "Yushi Wei and colleagues' study of gaze-cursor visibility, confirmation methods and task demands in VR is published in IEEE TVCG.": "Yushi Wei 等人关于 VR 眼动光标可见性、确认方式与任务需求的研究发表于 IEEE TVCG。",
+  "Fangtao Zhao and colleagues' Row Across Time, a tangible Ba He Tong VR rowing game, has been accepted to CHI PLAY Companion 2026.": "Fangtao Zhao 等人的实体扒禾桶 VR 划行游戏 Row Across Time 获 CHI PLAY Companion 2026 录用。",
+  "Jiaying Fu and colleagues' study of stakeholder influence in heritage VR game co-design has been accepted to PACM HCI (GAMES) for CHI PLAY 2026.": "Jiaying Fu 等人关于利益相关者在非遗 VR 游戏共创中影响的研究获 PACM HCI（GAMES）录用，将在 CHI PLAY 2026 展示。",
+  "Mengqi Jiang and colleagues' research on a design space for smart textiles in XR has been published online in Virtual Reality.": "Mengqi Jiang 等人关于 XR 智能织物设计空间的研究已在 Virtual Reality 在线发表。",
+  "Accepted": "已录用",
+  "Conference dates": "会议时间"
 }
