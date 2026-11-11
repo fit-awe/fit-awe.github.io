@@ -4366,6 +4366,27 @@
         }
       ]
     },
+    "images/papers/true-consensus-2026.jpg": {
+      "fingerprint": "d7d1263349d981c9687685a0590c0a87d8ee7a0971f357315538a3d6e0a4a9ed",
+      "role": "paper",
+      "original_bytes": 331266,
+      "width": 1521,
+      "height": 789,
+      "variants": [
+        {
+          "path": "images/optimized/d7d1263349d981c9-480.webp",
+          "width": 480,
+          "height": 249,
+          "bytes": 30762
+        },
+        {
+          "path": "images/optimized/d7d1263349d981c9-960.webp",
+          "width": 960,
+          "height": 498,
+          "bytes": 76938
+        }
+      ]
+    },
     "images/papers/xr-window-placement-2026.jpg": {
       "fingerprint": "86d3a33ebc9e1a0bab836780d004dc42583fccf0dc5e28c18ea2b099fb67bd82",
       "role": "paper",

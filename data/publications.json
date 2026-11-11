@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-01",
+  "updated": "2026-11-11",
   "sources": {
     "dblp": {
       "profile": "https://dblp.org/pid/55/1198.html",
@@ -18094,6 +18094,74 @@
       "published_date": "2003-09-01",
       "published_date_source": "https://api.crossref.org/works/10.1057%2Fpalgrave.ivs.9500047",
       "published_date_basis": "published-online"
+    },
+    {
+      "id": "true-consensus-2026",
+      "title": "True Consensus from Subtleties - Detecting Cognitive Synchrony in Two-person Interactions Based on Multimodal Physiological and Behavioral Signals",
+      "authors": [
+        "Tianyi Wu",
+        "Erick Purwanto",
+        "Hai-Ning Liang"
+      ],
+      "year": 2026,
+      "venue": "Proceedings of the 34th ACM International Conference on Multimedia",
+      "display_venue": "ACM Multimedia 2026",
+      "kind": "conference",
+      "status": "published",
+      "doi": "10.1145/3767308.3835554",
+      "url": "https://doi.org/10.1145/3767308.3835554",
+      "sources": [
+        "https://doi.org/10.1145/3767308.3835554",
+        "https://api.crossref.org/works/10.1145%2F3767308.3835554"
+      ],
+      "urls": [
+        "https://doi.org/10.1145/3767308.3835554",
+        "https://fit-awe.github.io/downloads/publication/papers/Wu-MM26-TrueConsensus.pdf",
+        "https://github.com/CODEC-MM/Dataset"
+      ],
+      "topics": [
+        "ai",
+        "interaction-tech"
+      ],
+      "image": {
+        "path": "images/papers/true-consensus-2026.jpg",
+        "kind": "figure-02",
+        "source": "https://doi.org/10.1145/3767308.3835554",
+        "page": 5,
+        "bbox": [
+          53,
+          81,
+          560,
+          344
+        ],
+        "caption": "Figure 2. Dyadic cognitive synchrony detection framework.",
+        "pdf_sha256": "4d098438001a72e4177c380b34a4ecd868d9cccd065c570c4ea6b26ac3324b27"
+      },
+      "pdf": "downloads/publication/papers/Wu-MM26-TrueConsensus.pdf",
+      "pdf_metadata": {
+        "path": "downloads/publication/papers/Wu-MM26-TrueConsensus.pdf",
+        "sha256": "4d098438001a72e4177c380b34a4ecd868d9cccd065c570c4ea6b26ac3324b27",
+        "original_sha256": "4d098438001a72e4177c380b34a4ecd868d9cccd065c570c4ea6b26ac3324b27",
+        "bytes": 2378712,
+        "pages": 9,
+        "source": "https://doi.org/10.1145/3767308.3835554",
+        "version": "version-of-record",
+        "document_kind": "article",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "oa_pdfs": [],
+      "download_label": "Wu-MM26-TrueConsensus",
+      "full_text_access": "public",
+      "bibtex": "@inproceedings{WuMM26TrueConsensus,\n  author = {Wu, Tianyi and Purwanto, Erick and Liang, Hai-Ning},\n  title = {True Consensus from Subtleties - Detecting Cognitive Synchrony in Two-person Interactions Based on Multimodal Physiological and Behavioral Signals},\n  booktitle = {Proceedings of the 34th ACM International Conference on Multimedia},\n  series = {MM '26},\n  year = {2026},\n  month = nov,\n  pages = {11719--11727},\n  numpages = {9},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  location = {Rio de Janeiro, Brazil},\n  doi = {10.1145/3767308.3835554},\n  url = {https://doi.org/10.1145/3767308.3835554}\n}\n",
+      "bibtex_file": "downloads/publication/papers/Wu-MM26-TrueConsensus.bib",
+      "catalog_added_on": "2026-11-11",
+      "published_date": "2026-11-09",
+      "published_date_source": "https://api.crossref.org/works/10.1145%2F3767308.3835554",
+      "published_date_basis": "published-online",
+      "event_start_date": "2026-11-10",
+      "event_end_date": "2026-11-14",
+      "event_date_source": "https://2026.acmmm.org/"
     }
   ]
 }

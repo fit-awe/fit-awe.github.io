@@ -1,5 +1,14 @@
 [
   {
+    "id": "paper-true-consensus-2026",
+    "paper_id": "true-consensus-2026",
+    "date": "2026-11-11",
+    "date_basis": "announcement",
+    "text": "Tianyi Wu and colleagues, including FIT-AWE’s Hai-Ning Liang, published True Consensus from Subtleties at ACM Multimedia 2026, studying cognitive synchrony through physiological and movement signals.",
+    "source": "https://fit-awe.github.io/publications/?q=TrueConsensus",
+    "source_label": "View publication ↗"
+  },
+  {
     "id": "wake-up-systems-mir-accepted-2026",
     "date": "2026-11-11",
     "date_basis": "announcement",
@@ -72,7 +81,10 @@
     "id": "true-consensus-acm-multimedia-accepted-2026",
     "date": "2026-07-15",
     "date_basis": "announcement",
-    "text": "Our paper, “True Consensus from Subtleties-Detecting Cognitive Synchrony in Two-person Interactions Based on Multimodal Physiological and Behavioral Signals,” has been accepted at ACM Multimedia 2026."
+    "text": "Our paper, “True Consensus from Subtleties-Detecting Cognitive Synchrony in Two-person Interactions Based on Multimodal Physiological and Behavioral Signals,” has been accepted at ACM Multimedia 2026.",
+    "paper_id": "true-consensus-2026",
+    "source": "https://fit-awe.github.io/publications/?q=TrueConsensus",
+    "source_label": "View publication ↗"
   },
   {
     "id": "welcome-jialin-2025",
