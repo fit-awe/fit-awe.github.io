@@ -21,4 +21,16 @@
     if (!languages.hidden) { closeLanguages(); language.focus(); }
     else if (header.classList.contains('nav-open')) { closeMenu(); toggle.focus(); }
   });
+
+  const updates = document.querySelector('.home-updates');
+  if (updates) {
+    function updateStickyTop() {
+      // Let a tall sidebar scroll with the document until its last item is visible.
+      const top = Math.min(102, window.innerHeight - updates.offsetHeight - 24);
+      updates.style.setProperty('--updates-sticky-top', `${top}px`);
+    }
+    updateStickyTop();
+    new ResizeObserver(updateStickyTop).observe(updates);
+    window.addEventListener('resize', updateStickyTop);
+  }
 })();

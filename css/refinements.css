@@ -119,7 +119,7 @@ button, input { border-radius: 4px; }
 .course-code { display: block; margin-bottom: 3px; font-size: var(--text-caption); color: var(--muted); }
 [dir="rtl"] .course-code { text-align: right; }
 .view-all { font-size: var(--text-small); white-space: nowrap; }
-.home-updates { grid-area: updates; position: sticky; top: 102px; min-width: 0; max-height: calc(100dvh - 126px); overflow-y: auto; scrollbar-width: thin; padding: 8px 0 0 18px; border-left: 1px solid var(--line); }
+.home-updates { grid-area: updates; position: sticky; top: var(--updates-sticky-top, 102px); min-width: 0; padding: 8px 0 0 18px; border-left: 1px solid var(--line); }
 .home-updates .section-heading { gap: 4px 10px; margin-bottom: 14px; }
 .home-updates .section-heading h2 { font-size: 1.1875rem; }
 .home-updates .view-all { font-size: var(--text-caption); }
