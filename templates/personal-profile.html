@@ -14,7 +14,7 @@
   <meta property="og:title" content="{{page_title}}">
   <meta property="og:description" content="{{description}}">
   <meta property="og:url" content="{{canonical}}">
-  <meta property="og:image" content="https://fit-awe.github.io/images/Profile.jpg">
+  <meta property="og:image" content="{{portrait_url}}">
   <link rel="icon" type="image/svg+xml" href="{{favicon}}">
   <link rel="stylesheet" href="{{stylesheet}}">
   <script src="{{script}}" defer></script>
@@ -36,7 +36,7 @@
   <main id="main-content" class="page-shell">
     <section class="about-section" id="about" aria-labelledby="about-title">
       <aside class="profile-sidebar">
-        <img class="portrait" src="{{portrait}}" width="762" height="762" alt="{{portrait_alt}}" fetchpriority="high">
+        <img class="portrait" src="{{portrait}}" width="{{portrait_width}}" height="{{portrait_height}}" alt="{{portrait_alt}}" fetchpriority="high">
         <p class="portrait-caption">Hai-Ning Liang <span lang="zh-CN">梁海宁</span></p>
         <div class="sidebar-contact">
           <a href="mailto:{{email}}">{{email}}</a>

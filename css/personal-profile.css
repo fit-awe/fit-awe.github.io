@@ -33,7 +33,7 @@ button, a, input, textarea { -webkit-tap-highlight-color: transparent; }
 .menu-toggle { display: none; }
 .page-shell { max-width: 1120px; margin: auto; padding: 0 28px; }
 .about-section { display: grid; grid-template-columns: 212px 1fr; column-gap: 68px; padding: 60px 0 48px; }
-.portrait { display: block; width: 212px; height: 235px; object-fit: cover; object-position: center 32%; border-radius: 2px; }
+.portrait { display: block; width: 212px; height: auto; border-radius: 2px; }
 .portrait-caption { margin: 13px 0 0; font-size: 16px; font-weight: 600; }
 .portrait-caption span { margin-left: 6px; font-weight: 400; color: var(--muted); }
 .sidebar-contact { margin-top: 14px; font-size: 15px; line-height: 1.8; }
@@ -62,7 +62,7 @@ h2 { margin: 0; font: 32px/1.3 var(--serif); letter-spacing: -.7px; }
 .service-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 50px; }
 .service-grid h3 { margin: 0 0 14px; color: var(--muted); font-size: 16px; font-weight: 600; }
 .service-list { display: grid; gap: 16px; margin: 0; padding: 0; list-style: none; }
-.service-list a { display: block; font-size: 17px; font-weight: 600; }
+.service-name { display: block; font-size: 17px; font-weight: 600; }
 .service-list li > span { display: block; margin-top: 2px; color: var(--muted); font-size: 15px; }
 .teaching-list { margin: 0; padding: 0; list-style: none; }
 .teaching-list li { display: grid; grid-template-columns: 115px 1fr auto; gap: 24px; align-items: baseline; padding: 17px 0; border-bottom: 1px solid var(--line); font-size: 17px; }
@@ -104,7 +104,7 @@ html[lang="zh"] .biography p { line-height: 1.9; }
   .page-shell { padding: 0 22px; }
   .about-section { display: flex; flex-direction: column; gap: 24px; padding: 34px 0; }
   .profile-sidebar { display: grid; grid-template-columns: 114px 1fr; column-gap: 22px; align-items: start; }
-  .portrait { grid-column: 1; grid-row: 1 / 5; width: 114px; height: 135px; }
+  .portrait { grid-column: 1; grid-row: 1 / 5; width: 114px; height: auto; }
   .portrait-caption { margin: 0; font-size: 15px; }
   .portrait-caption span { margin-left: 5px; }
   .sidebar-contact { margin-top: 6px; font-size: 14px; }

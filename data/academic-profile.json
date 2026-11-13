@@ -3,60 +3,124 @@
   "checked_at": "2026-10-05",
   "service": [
     {
+      "id": "vinci-2027",
+      "group": "conference",
+      "name": "20th International Symposium on Visual Information Communication and Interaction (VINCI 2027)",
+      "role": "Program Co-Chair",
+      "role_confirmation": {
+        "kind": "site-maintainer",
+        "date": "2026-11-13"
+      }
+    },
+    {
+      "id": "chi-2027",
+      "group": "conference",
+      "name": "ACM CHI Conference on Human Factors in Computing Systems (CHI 2027)",
+      "role": "Associate Chair",
+      "role_confirmation": {
+        "kind": "site-maintainer",
+        "date": "2026-11-13"
+      },
+      "source": "https://chi2027.acm.org/"
+    },
+    {
+      "id": "vr-2027",
+      "group": "conference",
+      "name": "IEEE Conference on Virtual Reality and 3D User Interfaces (VR 2027)",
+      "role": "Poster Co-Chair",
+      "role_confirmation": {
+        "kind": "site-maintainer",
+        "date": "2026-11-13"
+      },
+      "source": "https://ieeevr.org/2027/committees/conference-committee/"
+    },
+    {
       "id": "ismar-2026",
       "group": "conference",
-      "name": "IEEE ISMAR 2026",
-      "role": "Associate Paper Chair",
+      "name": "IEEE International Symposium on Mixed and Augmented Reality (ISMAR 2026)",
+      "role": "Associate Paper Co-Chair",
+      "role_confirmation": {
+        "kind": "site-maintainer",
+        "date": "2026-11-13"
+      },
       "source": "https://www.ieeeismar.net/2026/committee/organizing/"
     },
     {
-      "id": "vinci-2025",
+      "id": "icxr-2026",
       "group": "conference",
-      "name": "VINCI 2025",
-      "role": "Program Co-chair",
-      "source": "https://vinci2025.games.cg.jku.at/committee/"
+      "name": "International Conference on Extended Reality (ICXR 2026)",
+      "role": "Program Co-Chair",
+      "role_confirmation": {
+        "kind": "site-maintainer",
+        "date": "2026-11-13"
+      },
+      "source": "https://icxr.net/2026/"
     },
     {
-      "id": "icdm-2025",
+      "id": "aixvr-2027",
       "group": "conference",
-      "name": "IEEE ICDM 2025",
-      "role": "Paper Awards Committee Chair",
-      "source": "https://www3.cs.stonybrook.edu/~icdm2025/organizingcommittee.html"
+      "name": "IEEE International Conference on Artificial Intelligence and eXtended and Virtual Reality (AIxVR 2027)",
+      "role": "Program Co-Chair",
+      "role_confirmation": {
+        "kind": "site-maintainer",
+        "date": "2026-11-13"
+      },
+      "source": "https://www3.projects.science.uu.nl/aivr/2027/aixvr2027_oc.html"
     },
     {
-      "id": "gi-2025",
+      "id": "vinci-2026",
       "group": "conference",
-      "name": "Graphics Interface 2025",
-      "role": "Courses and Workshops Co-chair",
-      "source": "https://conferences.graphicsinterface.org/2025/committee/"
+      "name": "19th International Symposium on Visual Information Communication and Interaction (VINCI 2026)",
+      "role": "Publication Co-Chair",
+      "role_confirmation": {
+        "kind": "site-maintainer",
+        "date": "2026-11-13"
+      },
+      "source": "https://vinci-symp.org/committees.html"
     },
     {
-      "id": "vr-2023",
+      "id": "vr-2026",
       "group": "conference",
-      "name": "IEEE VR 2023",
-      "role": "Doctoral Consortium Co-chair",
-      "source": "https://ieeevr.org/2023/committees/conference-committee/"
+      "name": "IEEE Conference on Virtual Reality and 3D User Interfaces (VR 2026)",
+      "role": "XR Gallery Co-Chair",
+      "role_confirmation": {
+        "kind": "site-maintainer",
+        "date": "2026-11-13"
+      },
+      "source": "https://ieeevr.org/2026/committees/conference-committee/"
     },
     {
-      "id": "visual-computer",
+      "id": "tvcg",
       "group": "editorial",
-      "name": "The Visual Computer",
+      "name": "IEEE Transactions on Visualization and Computer Graphics",
+      "role": "Associate Editor",
+      "role_confirmation": {
+        "kind": "site-maintainer",
+        "date": "2026-11-13"
+      },
+      "source": "https://www.computer.org/csdl/journal/tg"
+    },
+    {
+      "id": "bit",
+      "group": "editorial",
+      "name": "Behaviour & Information Technology Journal",
+      "role": "Associate Editor",
+      "role_confirmation": {
+        "kind": "site-maintainer",
+        "date": "2026-11-13"
+      },
+      "source": "https://www.tandfonline.com/journals/tbit20"
+    },
+    {
+      "id": "pacmhci-iss",
+      "group": "editorial",
+      "name": "ACM Interactive Surfaces Spaces – PACM HCI",
       "role": "Editorial Board Member",
-      "source": "https://link.springer.com/journal/371/editorial-board"
-    },
-    {
-      "id": "frontiers-vr",
-      "group": "editorial",
-      "name": "Frontiers in Virtual Reality",
-      "role": "Associate Editor · Technologies for VR",
-      "source": "https://www.frontiersin.org/journals/virtual-reality/sections/technologies-for-vr/editors"
-    },
-    {
-      "id": "serious-games",
-      "group": "editorial",
-      "name": "International Journal of Serious Games",
-      "role": "Section Editor",
-      "source": "https://journal.seriousgamessociety.org/index.php/IJSG/about/editorialTeam"
+      "role_confirmation": {
+        "kind": "site-maintainer",
+        "date": "2026-11-13"
+      },
+      "source": "https://dl.acm.org/journal/pacmhci"
     },
     {
       "id": "hkust-gz-deputy-thrust-head",
@@ -162,5 +226,6 @@
         "https://www.xjtlu.edu.cn/en/news/2017/12/learning-and-applying-programming-skills-in-robot-contest"
       ]
     }
-  ]
+  ],
+  "updated_at": "2026-11-13"
 }

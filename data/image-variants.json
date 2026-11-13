@@ -1,33 +1,6 @@
 {
   "version": 1,
   "images": {
-    "images/Profile.jpg": {
-      "fingerprint": "60754f4e2ef73567ee8132efd4d317a5514ee77f6b085d8749024f08c4775886",
-      "role": "portrait",
-      "original_bytes": 39768,
-      "width": 762,
-      "height": 762,
-      "variants": [
-        {
-          "path": "images/optimized/60754f4e2ef73567-160.webp",
-          "width": 160,
-          "height": 160,
-          "bytes": 2184
-        },
-        {
-          "path": "images/optimized/60754f4e2ef73567-320.webp",
-          "width": 320,
-          "height": 320,
-          "bytes": 7070
-        },
-        {
-          "path": "images/optimized/60754f4e2ef73567-640.webp",
-          "width": 640,
-          "height": 640,
-          "bytes": 22804
-        }
-      ]
-    },
     "images/Publication/3DStoryline Immersive Visual Storytelling.png": {
       "fingerprint": "b17ab971eb53fff2d7c69c02dd81c3c7f65f3517261f66c3f56490d7bfb32ab6",
       "role": "paper",
@@ -4405,6 +4378,33 @@
           "width": 960,
           "height": 397,
           "bytes": 32992
+        }
+      ]
+    },
+    "images/people/hai-ning-liang-cma.jpg": {
+      "fingerprint": "8516073b779a6bc49de7604469f500ae30a034911becf305c3ac03163623f6a6",
+      "role": "portrait",
+      "original_bytes": 153464,
+      "width": 1000,
+      "height": 1500,
+      "variants": [
+        {
+          "path": "images/optimized/8516073b779a6bc4-160.webp",
+          "width": 160,
+          "height": 240,
+          "bytes": 3922
+        },
+        {
+          "path": "images/optimized/8516073b779a6bc4-320.webp",
+          "width": 320,
+          "height": 480,
+          "bytes": 10378
+        },
+        {
+          "path": "images/optimized/8516073b779a6bc4-640.webp",
+          "width": 640,
+          "height": 960,
+          "bytes": 29486
         }
       ]
     },

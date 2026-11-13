@@ -2,7 +2,7 @@
   "name": "Hai-Ning Liang",
   "chinese_name": "梁海宁",
   "email": "hainingliang@hkust-gz.edu.cn",
-  "portrait": "images/Profile.jpg",
+  "portrait": "images/people/hai-ning-liang-cma.jpg",
   "faculty_profile": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=437",
   "cma_profile": "https://cma.hkust-gz.edu.cn/faculty-regular/hai-ning-liang/",
   "scholar": "https://scholar.google.com/citations?user=UJPH5ioAAAAJ",
@@ -11,24 +11,29 @@
     "en": [
       "I am an Associate Professor and Deputy Thrust Head of Computational Media and Arts at the Hong Kong University of Science and Technology (Guangzhou), where I lead the FIT-AWE Lab.",
       "I received my PhD in Computer Science from Western University, Canada. Before joining HKUST(GZ) in 2024, I was a Professor of Computing at Xi’an Jiaotong-Liverpool University, where I served as Head of the Department of Computing (2019–2023) and Deputy Director of the Suzhou Municipal Key Lab for Intelligent Virtual Engineering and the XJTLU Virtual Engineering Centre.",
-      "I serve on the editorial board of The Visual Computer and as an Associate Editor of Frontiers in Virtual Reality. My conference service includes Associate Paper Chair of IEEE ISMAR 2026, Program Co-chair of VINCI 2025, and Paper Awards Committee Chair of IEEE ICDM 2025."
+      "I serve as an Associate Editor for IEEE Transactions on Visualization and Computer Graphics and Behaviour & Information Technology Journal, and as an Editorial Board Member for ACM Interactive Surfaces Spaces – PACM HCI. I also contribute to the organization and program committees of ACM CHI, IEEE VR, IEEE ISMAR, VINCI, ICXR and IEEE AIxVR."
     ],
     "zh": [
       "我是香港科技大学（广州）计算媒体与艺术学域副教授、学域副主任，负责 FIT-AWE 实验室。",
       "我在加拿大西安大略大学获得计算机科学博士学位。2024 年加入香港科技大学（广州）之前，我曾任西交利物浦大学计算学教授、计算系系主任（2019–2023），以及苏州市智能虚拟工程重点实验室和西交利物浦大学虚拟工程中心副主任。",
-      "我担任 The Visual Computer 编委和 Frontiers in Virtual Reality 副编辑，并曾任 IEEE ISMAR 2026 论文副主席、VINCI 2025 程序委员会联合主席和 IEEE ICDM 2025 论文奖委员会主席。"
+      "我担任 IEEE Transactions on Visualization and Computer Graphics 与 Behaviour & Information Technology Journal 副编辑，以及 ACM Interactive Surfaces Spaces – PACM HCI 编委。我也参与 ACM CHI、IEEE VR、IEEE ISMAR、VINCI、ICXR 和 IEEE AIxVR 等会议的组织与程序委员会工作。"
     ]
   },
   "sources": [
     "https://cma.hkust-gz.edu.cn/faculty-regular/hai-ning-liang/",
     "https://hai-ning-liang.github.io/",
     "https://mfa-ca.hkust-gz.edu.cn/hai-ning-liang/",
-    "https://link.springer.com/journal/371/editorial-board",
-    "https://www.frontiersin.org/journals/virtual-reality/sections/technologies-for-vr/editors",
     "https://www.ieeeismar.net/2026/committee/organizing/",
-    "https://vinci2025.games.cg.jku.at/committee/",
-    "https://www3.cs.stonybrook.edu/~icdm2025/organizingcommittee.html",
-    "https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/9"
+    "https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/9",
+    "https://chi2027.acm.org/",
+    "https://ieeevr.org/2027/committees/conference-committee/",
+    "https://icxr.net/2026/",
+    "https://www3.projects.science.uu.nl/aivr/2027/aixvr2027_oc.html",
+    "https://vinci-symp.org/committees.html",
+    "https://ieeevr.org/2026/committees/conference-committee/",
+    "https://www.computer.org/csdl/journal/tg",
+    "https://www.tandfonline.com/journals/tbit20",
+    "https://dl.acm.org/journal/pacmhci"
   ],
   "role_record": "data/academic-profile.json#hkust-gz-deputy-thrust-head",
   "recognition": {
@@ -56,5 +61,17 @@
       "subfield_author_count": 517648,
       "sha256": "8bd46b5cbdc4de05ea09afc662623ca3059b4d705d4582045c5244edf94b02f5"
     }
+  },
+  "portrait_width": 1000,
+  "portrait_height": 1500,
+  "portrait_source": {
+    "page": "https://cma.hkust-gz.edu.cn/faculty-regular/hai-ning-liang/",
+    "image": "https://cma.hkust-gz.edu.cn/content/images/size/w2000/2024/06/Hai-Ning-Liang---.jpg",
+    "retrieved_at": "2026-11-13",
+    "original_sha256": "e6a89d1124bd2d8a06682c7e8fc4469a0a159ec68a6103ad292eb94b29577506"
+  },
+  "service_confirmation": {
+    "kind": "site-maintainer",
+    "date": "2026-11-13"
   }
 }

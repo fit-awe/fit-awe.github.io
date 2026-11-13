@@ -48,6 +48,10 @@ LABELS = {
     },
 }
 ROLE_ZH = {
+    'Program Co-Chair': '程序委员会联合主席', 'Associate Chair': '副主席',
+    'Poster Co-Chair': '海报联合主席', 'Associate Paper Co-Chair': '论文副联合主席',
+    'Publication Co-Chair': '出版联合主席', 'XR Gallery Co-Chair': 'XR 展览联合主席',
+    'Associate Editor': '副编辑',
     'Associate Paper Chair': '论文副主席', 'Program Co-chair': '程序委员会联合主席',
     'Paper Awards Committee Chair': '论文奖委员会主席', 'Courses and Workshops Co-chair': '课程与工作坊联合主席',
     'Doctoral Consortium Co-chair': '博士生论坛联合主席', 'Editorial Board Member': '编委',
@@ -82,8 +86,10 @@ def build():
             lang=lang, other_lang=other, language_label='中文' if lang == 'en' else 'English',
             language_url=asset(('zh/' if other == 'zh' else '') + ROUTE),
             canonical='https://fit-awe.github.io/' + ('zh/' if lang == 'zh' else '') + 'members/haining-liang/',
-            portrait=asset(profile['portrait']), favicon=asset('images/brand/fit-awe-icon.svg'),
-            lab_mark=asset('images/brand/fit-awe-icon.svg'), stylesheet=asset('css/personal-profile.css') + '?v=20261010-readable1',
+            portrait=asset(profile['portrait']), portrait_url='https://fit-awe.github.io/' + profile['portrait'],
+            portrait_width=str(profile['portrait_width']), portrait_height=str(profile['portrait_height']),
+            favicon=asset('images/brand/fit-awe-icon.svg'),
+            lab_mark=asset('images/brand/fit-awe-icon.svg'), stylesheet=asset('css/personal-profile.css') + '?v=20261113-profile',
             script=asset('js/personal-profile.js') + '?v=20261009-profile2',
             lab_url=lab_page('index.html'), openings_url=lab_page('vacancies/index.html'),
             course_schedule=esc(academic['teaching'][0]['terms'][0]['source']),
@@ -97,7 +103,12 @@ def build():
                 if record['group'] != group:
                     continue
                 role = ROLE_ZH.get(record['role'], record['role']) if lang == 'zh' else record['role']
-                rows.append(f'<li><a href="{esc(record["source"])}" target="_blank" rel="noopener noreferrer">{esc(record["name"])} <span aria-hidden="true">↗</span></a><span>{esc(role)}</span></li>')
+                name = esc(record['name'])
+                if record.get('source'):
+                    title = f'<a class="service-name" href="{esc(record["source"])}" target="_blank" rel="noopener noreferrer">{name} <span aria-hidden="true">↗</span></a>'
+                else:
+                    title = f'<strong class="service-name">{name}</strong>'
+                rows.append(f'<li data-service-id="{esc(record["id"])}">{title}<span>{esc(role)}</span></li>')
             return '\n'.join(rows)
 
         values['conference_rows'] = service_rows('conference')
