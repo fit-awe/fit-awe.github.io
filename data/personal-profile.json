@@ -9,14 +9,18 @@
   "dblp": "https://dblp.org/pid/55/1198.html",
   "biography": {
     "en": [
-      "I am an Associate Professor and Deputy Thrust Head of Computational Media and Arts at the Hong Kong University of Science and Technology (Guangzhou), where I lead the FIT-AWE Lab.",
-      "I received my PhD in Computer Science from Western University, Canada. Before joining HKUST(GZ) in 2024, I was a Professor of Computing at Xi’an Jiaotong-Liverpool University, where I served as Head of the Department of Computing (2019–2023) and Deputy Director of the Suzhou Municipal Key Lab for Intelligent Virtual Engineering and the XJTLU Virtual Engineering Centre.",
-      "I serve as an Associate Editor for IEEE Transactions on Visualization and Computer Graphics and Behaviour & Information Technology Journal, and as an Editorial Board Member for ACM Interactive Surfaces Spaces – PACM HCI. I also contribute to the organization and program committees of ACM CHI, IEEE VR, IEEE ISMAR, VINCI, ICXR and IEEE AIxVR."
+      "Dr. Hai-Ning Liang is an Associate Professor and Associate Head of Research & Outreach in the Computational Media and Arts Thrust at the Hong Kong University of Science and Technology (Guangzhou). He serves as the Vice-Chair of the University Human Subjects Panel and is the current President of the Greater Bay ACM SIGCHI Chapter.",
+      "Previously, he was a Full Professor and the Founding Head of the Department of Computing at Xi’an Jiaotong-Liverpool University, where he also established and served as Deputy Director of multiple key laboratories, including the Suzhou Municipal Key Lab for Intelligent Virtual Engineering and the Suzhou Key Lab for Virtual Reality Technologies.",
+      "He holds a PhD in Computer Science from Western University, Canada, where his dissertation was nominated for the Governor General’s Gold Medal. His research pioneers novel interaction paradigms, especially in immersive technologies (VR/AR/MR), data visualization, and gaming technologies.",
+      "He has authored over 350 peer-reviewed publications, accumulating more than 9,000 citations and an h-index of 51. Consistently recognized on the Stanford-Elsevier World’s Top 2% Scientists List in both the Career-long and Single-year categories, his work has earned numerous accolades, including the IEEE ICDM 10-Year Highest-Impact Paper Award and Best Paper Honorable Mentions at premier venues such as ACM CHI, IEEE VR, and IEEE ISMAR.",
+      "A dedicated leader in the global HCI/XR community, Dr. Liang serves as an Associate Editor for IEEE Transactions on Visualization and Computer Graphics, Behaviour & Information Technology Journal, and Frontiers in Virtual Reality, and holds prominent organizing roles for top-tier conferences, including Program Co-Chair for VINCI’25/27, Associate Chair for ACM CHI’27 and Program/Poster Co-Chair for IEEE VR and IEEE ISMAR."
     ],
     "zh": [
-      "我是香港科技大学（广州）计算媒体与艺术学域副教授、学域副主任，负责 FIT-AWE 实验室。",
-      "我在加拿大西安大略大学获得计算机科学博士学位。2024 年加入香港科技大学（广州）之前，我曾任西交利物浦大学计算学教授、计算系系主任（2019–2023），以及苏州市智能虚拟工程重点实验室和西交利物浦大学虚拟工程中心副主任。",
-      "我担任 IEEE Transactions on Visualization and Computer Graphics 与 Behaviour & Information Technology Journal 副编辑，以及 ACM Interactive Surfaces Spaces – PACM HCI 编委。我也参与 ACM CHI、IEEE VR、IEEE ISMAR、VINCI、ICXR 和 IEEE AIxVR 等会议的组织与程序委员会工作。"
+      "梁海宁博士现任香港科技大学（广州）计算媒体与艺术学域副教授、学域副主任（科研与对外交流），同时担任大学人类受试者研究委员会（University Human Subjects Panel）副主席及 ACM SIGCHI 大湾区分会主席。",
+      "此前，他曾任西交利物浦大学正教授、计算系创系主任，并创立多个重点实验室及担任副主任，包括苏州市智能虚拟工程重点实验室和苏州市虚拟现实技术重点实验室。",
+      "他在加拿大西安大略大学获得计算机科学博士学位，博士论文获加拿大总督金质奖章提名。他的研究致力于开创新型交互范式，重点涵盖沉浸式技术（VR/AR/MR）、数据可视化和游戏技术。",
+      "他已发表超过 350 篇同行评审论文，累计引用超过 9,000 次，h 指数为 51。他持续入选斯坦福大学与爱思唯尔发布的全球前 2% 科学家榜单，涵盖终身科学影响力和年度科学影响力两个类别。其研究获得多项荣誉，包括 IEEE ICDM 十年最高影响力论文奖，以及 ACM CHI、IEEE VR 和 IEEE ISMAR 等顶级会议的最佳论文荣誉提名。",
+      "梁博士积极推动全球 HCI/XR 学术共同体的发展，现任 IEEE Transactions on Visualization and Computer Graphics、Behaviour & Information Technology Journal 和 Frontiers in Virtual Reality 副编辑，并在顶级会议中承担重要组织工作，包括 VINCI 2025/2027 程序委员会联合主席、ACM CHI 2027 副主席，以及 IEEE VR 和 IEEE ISMAR 的程序委员会／海报联合主席。"
     ]
   },
   "sources": [
@@ -71,6 +75,10 @@
     "original_sha256": "e6a89d1124bd2d8a06682c7e8fc4469a0a159ec68a6103ad292eb94b29577506"
   },
   "service_confirmation": {
+    "kind": "site-maintainer",
+    "date": "2026-11-13"
+  },
+  "biography_confirmation": {
     "kind": "site-maintainer",
     "date": "2026-11-13"
   }

@@ -13,10 +13,10 @@ ROUTE = 'members/haining-liang/index.html'
 LABELS = {
     'en': {
         'page_title': 'Hai-Ning Liang | HKUST(GZ)',
-        'description': 'Hai-Ning Liang, Associate Professor and Deputy Thrust Head of Computational Media and Arts at HKUST(GZ). Biography, academic service, teaching and contact.',
+        'description': 'Hai-Ning Liang, Associate Professor and Associate Head of Research & Outreach in the Computational Media and Arts Thrust at HKUST(GZ). Biography, academic service, teaching and contact.',
         'skip': 'Skip to content', 'menu': 'Toggle navigation', 'navigation': 'Main navigation',
         'about': 'About', 'service': 'Service', 'teaching': 'Teaching', 'contact': 'Contact',
-        'position': 'Associate Professor · Deputy Thrust Head', 'thrust': 'Computational Media and Arts Thrust',
+        'position': 'Associate Professor · Associate Head of Research & Outreach', 'thrust': 'Computational Media and Arts Thrust',
         'university': 'The Hong Kong University of Science and Technology (Guangzhou)',
         'affiliation_short': 'Computational Media and Arts · HKUST(GZ)',
         'office': 'Room 602, Building E3, HKUST(GZ)', 'city': 'Guangzhou, China',
@@ -31,10 +31,10 @@ LABELS = {
     },
     'zh': {
         'page_title': '梁海宁 Hai-Ning Liang | 香港科技大学（广州）',
-        'description': '梁海宁，香港科技大学（广州）计算媒体与艺术学域副教授、学域副主任。个人简介、学术服务、教学与联系方式。',
+        'description': '梁海宁，香港科技大学（广州）计算媒体与艺术学域副教授、学域副主任（科研与对外交流）。个人简介、学术服务、教学与联系方式。',
         'skip': '跳至正文', 'menu': '展开或收起导航', 'navigation': '主导航',
         'about': '简介', 'service': '学术服务', 'teaching': '教学', 'contact': '联系',
-        'position': '副教授 · 学域副主任', 'thrust': '计算媒体与艺术学域',
+        'position': '副教授 · 学域副主任（科研与对外交流）', 'thrust': '计算媒体与艺术学域',
         'university': '香港科技大学（广州）', 'affiliation_short': '计算媒体与艺术 · 香港科技大学（广州）',
         'office': '香港科技大学（广州）E3 楼 602 室', 'city': '中国 · 广州',
         'portrait_alt': '梁海宁个人照片', 'profile_links': '学术资料与联系方式',
@@ -78,9 +78,7 @@ def build():
 
         values = {k: esc(v) for k, v in labels.items()}
         other = 'zh' if lang == 'en' else 'en'
-        recognition = profile['recognition']
         biography = ['<p>' + esc(p) + '</p>' for p in profile['biography'][lang]]
-        biography.insert(1, f'<p><a href="{esc(recognition["source"])}" target="_blank" rel="noopener noreferrer">{esc(recognition["label"][lang])} <span aria-hidden="true">↗</span></a><br>{esc(recognition["detail"][lang])}</p>')
         values.update({k: esc(profile[k]) for k in ['email', 'scholar', 'dblp', 'faculty_profile']})
         values.update(
             lang=lang, other_lang=other, language_label='中文' if lang == 'en' else 'English',
