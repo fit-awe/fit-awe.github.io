@@ -32,9 +32,9 @@ LABELS = {
     },
     'zh': {
         'page_title': '梁海宁 Hai-Ning Liang | 香港科技大学（广州）',
-        'description': '梁海宁，香港科技大学（广州）计算媒体与艺术学域副教授、学域副主任（科研与对外交流）。个人简介、学术服务、特邀报告、教学与联系方式。',
+        'description': '梁海宁，香港科技大学（广州）计算媒体与艺术学域副教授、学域副主任（科研与对外交流）。个人简介、学术任职、特邀报告、教学与联系方式。',
         'skip': '跳至正文', 'menu': '展开或收起导航', 'navigation': '主导航',
-        'about': '简介', 'service': '学术服务', 'invited_talks': '特邀报告', 'teaching': '教学', 'contact': '联系',
+        'about': '简介', 'service': '学术任职', 'invited_talks': '特邀报告', 'teaching': '教学', 'contact': '联系',
         'position': '副教授 · 学域副主任（科研与对外交流）', 'thrust': '计算媒体与艺术学域',
         'university': '香港科技大学（广州）', 'affiliation_short': '计算媒体与艺术 · 香港科技大学（广州）',
         'office': '香港科技大学（广州）E3 楼 602 室', 'city': '中国 · 广州',
