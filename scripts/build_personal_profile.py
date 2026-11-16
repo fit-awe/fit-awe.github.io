@@ -7,15 +7,16 @@ from pathlib import Path
 from urllib.parse import quote
 
 from publication_common import esc
+from publication_dates import format_date
 
 ROOT = Path(__file__).resolve().parents[1]
 ROUTE = 'members/haining-liang/index.html'
 LABELS = {
     'en': {
         'page_title': 'Hai-Ning Liang | HKUST(GZ)',
-        'description': 'Hai-Ning Liang, Associate Professor and Associate Head of Research & Outreach in the Computational Media and Arts Thrust at HKUST(GZ). Biography, academic service, teaching and contact.',
+        'description': 'Hai-Ning Liang, Associate Professor and Associate Head of Research & Outreach in the Computational Media and Arts Thrust at HKUST(GZ). Biography, academic service, invited talks, teaching and contact.',
         'skip': 'Skip to content', 'menu': 'Toggle navigation', 'navigation': 'Main navigation',
-        'about': 'About', 'service': 'Service', 'teaching': 'Teaching', 'contact': 'Contact',
+        'about': 'About', 'service': 'Service', 'invited_talks': 'Invited Talks', 'teaching': 'Teaching', 'contact': 'Contact',
         'position': 'Associate Professor · Associate Head of Research & Outreach', 'thrust': 'Computational Media and Arts Thrust',
         'university': 'The Hong Kong University of Science and Technology (Guangzhou)',
         'affiliation_short': 'Computational Media and Arts · HKUST(GZ)',
@@ -31,9 +32,9 @@ LABELS = {
     },
     'zh': {
         'page_title': '梁海宁 Hai-Ning Liang | 香港科技大学（广州）',
-        'description': '梁海宁，香港科技大学（广州）计算媒体与艺术学域副教授、学域副主任（科研与对外交流）。个人简介、学术服务、教学与联系方式。',
+        'description': '梁海宁，香港科技大学（广州）计算媒体与艺术学域副教授、学域副主任（科研与对外交流）。个人简介、学术服务、特邀报告、教学与联系方式。',
         'skip': '跳至正文', 'menu': '展开或收起导航', 'navigation': '主导航',
-        'about': '简介', 'service': '学术服务', 'teaching': '教学', 'contact': '联系',
+        'about': '简介', 'service': '学术服务', 'invited_talks': '特邀报告', 'teaching': '教学', 'contact': '联系',
         'position': '副教授 · 学域副主任（科研与对外交流）', 'thrust': '计算媒体与艺术学域',
         'university': '香港科技大学（广州）', 'affiliation_short': '计算媒体与艺术 · 香港科技大学（广州）',
         'office': '香港科技大学（广州）E3 楼 602 室', 'city': '中国 · 广州',
@@ -66,6 +67,7 @@ COURSE_ZH = {
 def build():
     profile = json.loads((ROOT / 'data/personal-profile.json').read_text())
     academic = json.loads((ROOT / 'data/academic-profile.json').read_text())
+    talks = json.loads((ROOT / 'data/invited-talks.json').read_text())['talks']
     template = (ROOT / 'templates/personal-profile.html').read_text()
     for lang, labels in LABELS.items():
         dest = ROOT / ('' if lang == 'en' else lang) / ROUTE
@@ -87,12 +89,12 @@ def build():
             portrait=asset(profile['portrait']), portrait_url='https://fit-awe.github.io/' + profile['portrait'],
             portrait_width=str(profile['portrait_width']), portrait_height=str(profile['portrait_height']),
             favicon=asset('images/brand/fit-awe-icon.svg'),
-            lab_mark=asset('images/brand/fit-awe-icon.svg'), stylesheet=asset('css/personal-profile.css') + '?v=20261113-profile',
+            lab_mark=asset('images/brand/fit-awe-icon.svg'), stylesheet=asset('css/personal-profile.css') + '?v=20261116-talks',
             script=asset('js/personal-profile.js') + '?v=20261009-profile2',
             lab_url=lab_page('index.html'), openings_url=lab_page('vacancies/index.html'),
             course_schedule=esc(academic['teaching'][0]['terms'][0]['source']),
             biography=''.join(biography),
-            navigation_links=''.join(f'<a href="#{section}"' + (' aria-current="location"' if section == 'about' else '') + f'>{labels[section]}</a>' for section in ['about', 'service', 'teaching', 'contact']),
+            navigation_links=''.join(f'<a href="#{section.replace("_", "-")}"' + (' aria-current="location"' if section == 'about' else '') + f'>{labels[section]}</a>' for section in ['about', 'service', 'invited_talks', 'teaching', 'contact']),
         )
 
         def service_rows(group):
@@ -111,6 +113,13 @@ def build():
 
         values['conference_rows'] = service_rows('conference')
         values['editorial_rows'] = service_rows('editorial')
+        values['talk_rows'] = '\n'.join(
+            f'<li data-talk-id="{esc(talk["id"])}">'
+            f'<time datetime="{esc(talk["date"])}">{esc(format_date(talk["date"], lang))}</time>'
+            f'<div><h3 class="talk-title" lang="en">{esc(talk["title"])}</h3>'
+            f'<p class="talk-venue">{esc(talk["venue"][lang])}</p></div></li>'
+            for talk in sorted(talks, key=lambda talk: talk['date'], reverse=True)
+        )
         teaching = []
         for record in academic['teaching']:
             if record['institution'] != 'hkust-gz':
@@ -134,7 +143,7 @@ def build():
         assert '{{' not in rendered, 'Unresolved template placeholder'
         dest.parent.mkdir(parents=True, exist_ok=True)
         dest.write_text(rendered, encoding='utf-8')
-    print('Rendered personal profile in English and Chinese: About, Service, Teaching and Contact.')
+    print(f'Rendered personal profile in English and Chinese: About, Service, {len(talks)} Invited Talks, Teaching and Contact.')
 
 
 if __name__ == '__main__':

@@ -26,7 +26,7 @@ button, a, input, textarea { -webkit-tap-highlight-color: transparent; }
 .site-name:hover { text-decoration: none; }
 .name-dot { color: var(--blue); }
 .main-navigation { display: flex; gap: 25px; margin-left: auto; }
-.main-navigation a { padding: 24px 0; color: var(--muted); font-size: 16px; font-weight: 600; }
+.main-navigation a { padding: 24px 0; color: var(--muted); font-size: 16px; font-weight: 600; white-space: nowrap; }
 .main-navigation a[aria-current] { color: var(--blue); }
 .header-controls { display: flex; align-items: center; order: 3; }
 .language-link { border-left: 1px solid var(--line); padding-left: 22px; color: var(--ink); font-size: 15px; }
@@ -64,6 +64,13 @@ h2 { margin: 0; font: 32px/1.3 var(--serif); letter-spacing: -.7px; }
 .service-list { display: grid; gap: 16px; margin: 0; padding: 0; list-style: none; }
 .service-name { display: block; font-size: 17px; font-weight: 600; }
 .service-list li > span { display: block; margin-top: 2px; color: var(--muted); font-size: 15px; }
+.talk-list { margin: 0; padding: 0; list-style: none; }
+.talk-list li { display: grid; grid-template-columns: 140px minmax(0, 1fr); gap: 24px; align-items: baseline; padding: 16px 0; border-bottom: 1px solid var(--line); }
+.talk-list li:first-child { padding-top: 0; }
+.talk-list li:last-child { padding-bottom: 0; border-bottom: 0; }
+.talk-list time { color: var(--muted); font-size: 15px; white-space: nowrap; }
+.talk-title { margin: 0; font-size: 17px; line-height: 1.6; font-weight: 600; }
+.talk-venue { margin: 4px 0 0; color: var(--muted); font-size: 15px; line-height: 1.7; }
 .teaching-list { margin: 0; padding: 0; list-style: none; }
 .teaching-list li { display: grid; grid-template-columns: 115px 1fr auto; gap: 24px; align-items: baseline; padding: 17px 0; border-bottom: 1px solid var(--line); font-size: 17px; }
 .course-code { font-size: 15px; letter-spacing: .4px; color: var(--muted); }
@@ -97,7 +104,7 @@ html[lang="zh"] .biography p { line-height: 1.9; }
   .menu-toggle span { display: block; height: 1.5px; width: 24px; background: var(--ink); transition: transform .15s; }
   .menu-toggle[aria-expanded="true"] span:first-child { transform: translateY(3.75px) rotate(45deg); }
   .menu-toggle[aria-expanded="true"] span:last-child { transform: translateY(-3.75px) rotate(-45deg); }
-  .main-navigation { flex-basis: 100%; gap: 18px; justify-content: space-between; margin: 0; padding: 4px 0 13px; }
+  .main-navigation { flex-basis: 100%; flex-wrap: wrap; gap: 2px 24px; justify-content: flex-start; margin: 0; padding: 4px 0 13px; }
   .main-navigation a { padding: 5px 0; font-size: 15px; }
   .js .main-navigation { display: none; }
   .js .main-navigation.is-open { display: flex; }
@@ -125,6 +132,8 @@ html[lang="zh"] .biography p { line-height: 1.9; }
   .section-heading { gap: 12px; margin-bottom: 19px; }
   .section-link { font-size: 14px; text-align: right; }
   .service-grid { grid-template-columns: 1fr; gap: 27px; }
+  .talk-list li { grid-template-columns: minmax(0, 1fr); gap: 5px; }
+  .talk-list time { font-size: 14px; }
   .teaching-list li { grid-template-columns: 110px minmax(0, 1fr); column-gap: 12px; row-gap: 4px; }
   .course-code { font-size: 14px; }
   .course-name { font-size: 16px; }

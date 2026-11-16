@@ -1,0 +1,252 @@
+{
+  "speaker": "Hai-Ning Liang",
+  "source": {
+    "kind": "user-provided-document",
+    "filename": "Selected Talk - HNL.docx",
+    "provided_on": "2026-11-16",
+    "sha256": "1a0ea57cdf019e4359c1b7b1c7dc2ac56d5d4bd54117637c7608ea9c900df1a8"
+  },
+  "talks": [
+    {
+      "id": "talk-2026-11-01",
+      "date": "2026-11",
+      "title": "Writing Better (VR) Papers: The Related Work First Approach",
+      "venue": {
+        "en": "2026 26th China Virtual Reality Conference (ChinaVR 2026), Guangzhou, China",
+        "zh": "第 26 届中国虚拟现实大会（ChinaVR 2026），中国广州"
+      },
+      "source_row": 2
+    },
+    {
+      "id": "talk-2026-10-02",
+      "date": "2026-10",
+      "title": "Beyond Immersion: Integrating Social, Spatial, and Cultural Dimensions in Wearable XR Gaming",
+      "venue": {
+        "en": "Ubicomp/ISWC 2026 Workshop on Wearable Design in Games and Entertainment, Shanghai, China",
+        "zh": "UbiComp/ISWC 2026 游戏与娱乐中的可穿戴设计工作坊，中国上海"
+      },
+      "source_row": 3
+    },
+    {
+      "id": "talk-2026-06-03",
+      "date": "2026-06",
+      "title": "Advancing Mixed Reality Interaction: Multimodal, Cross-Reality, and User-Tailored Paradigms",
+      "venue": {
+        "en": "2026 CSIG-VIS International Forum, Guangzhou, China",
+        "zh": "2026 CSIG-VIS 国际论坛，中国广州"
+      },
+      "source_row": 4
+    },
+    {
+      "id": "talk-2025-12-04",
+      "date": "2025-12",
+      "title": "Beyond Touch: Reconceptualizing Interaction in the Era of Spatial Interfaces",
+      "venue": {
+        "en": "2025 20th International Conference on Virtual Reality Continuum and its Applications (VRCAI 2025), Macau, China",
+        "zh": "第 20 届虚拟现实连续统及其应用国际会议（VRCAI 2025），中国澳门"
+      },
+      "source_row": 5
+    },
+    {
+      "id": "talk-2025-10-05",
+      "date": "2025-10",
+      "title": "Leveraging Mixed Reality Technology for Designing New Interaction Paradigms",
+      "venue": {
+        "en": "2025 Industrial Design Conference, Nanjing, China",
+        "zh": "2025 工业设计大会，中国南京"
+      },
+      "source_row": 6
+    },
+    {
+      "id": "talk-2025-09-06",
+      "date": "2025-09",
+      "title": "Designing Future Gameplay Experiences with XR Technologies",
+      "venue": {
+        "en": "37 Interactive Entertainment Youth Camp for the Future, Guangzhou, China",
+        "zh": "三七互娱未来青年营，中国广州"
+      },
+      "source_row": 7
+    },
+    {
+      "id": "talk-2025-05-07",
+      "date": "2025-05",
+      "title": "Beyond Touch: Reconceptualizing Interaction in the Era of Spatial Interfaces",
+      "venue": {
+        "en": "Department of Information Art and Design, Tsinghua University, Beijing, China",
+        "zh": "清华大学信息艺术设计系，中国北京"
+      },
+      "source_row": 8
+    },
+    {
+      "id": "talk-2025-04-08",
+      "date": "2025-04",
+      "title": "XR Gaming: Exploring Future Gameplay Experiences",
+      "venue": {
+        "en": "Great Bay ACM SIGCHI Pre-CHI Forum, City University of Hong Kong, Hong Kong",
+        "zh": "ACM SIGCHI 大湾区分会 Pre-CHI 论坛，香港城市大学，香港"
+      },
+      "source_row": 9,
+      "source_venue": "Great Bay ACM SIGGCHI Pre-CHI Forum, City University of Hong Kong, Hong Kong"
+    },
+    {
+      "id": "talk-2024-11-09",
+      "date": "2024-11",
+      "title": "Gaming in VR: An Emergent Platform for Creating New Gameplay Experiences",
+      "venue": {
+        "en": "Game Innovation Seminar and 8th College Student Game Extreme Challenge, Jilin, China",
+        "zh": "游戏创新研讨会暨第八届大学生游戏极限挑战赛，中国吉林"
+      },
+      "source_row": 10
+    },
+    {
+      "id": "talk-2024-11-10",
+      "date": "2024-11",
+      "title": "Enabling Intelligent Interaction in Extended Reality Systems",
+      "venue": {
+        "en": "2024 3rd International Conference on Communications, Information Systems and Data Science, Nanjing, China",
+        "zh": "第三届通信、信息系统与数据科学国际会议，中国南京"
+      },
+      "source_row": 11
+    },
+    {
+      "id": "talk-2024-11-11",
+      "date": "2024-11",
+      "title": "Enabling Intelligent Interaction in VR via User Behavior Modeling",
+      "venue": {
+        "en": "2024 24th China Virtual Reality Conference (ChinaVR 2024), Xiamen, China",
+        "zh": "第 24 届中国虚拟现实大会（ChinaVR 2024），中国厦门"
+      },
+      "source_row": 12
+    },
+    {
+      "id": "talk-2024-09-12",
+      "date": "2024-09",
+      "title": "Re-defining Text Entry in Mixed Reality Systems",
+      "venue": {
+        "en": "6th International Conference on Virtual Reality and Image Processing (VRIP 2024), Macao, China",
+        "zh": "第六届虚拟现实与图像处理国际会议（VRIP 2024），中国澳门"
+      },
+      "source_row": 13
+    },
+    {
+      "id": "talk-2024-09-13",
+      "date": "2024-09",
+      "title": "Virtual Reality and Mixed Reality: New Media for Presenting and Experiencing Arts",
+      "venue": {
+        "en": "Metaverse Art Show Creating Talent Training Program, Guangzhou Academy of Fine Arts, Guangzhou, China",
+        "zh": "元宇宙艺术展演创作人才培养项目，广州美术学院，中国广州"
+      },
+      "source_row": 14
+    },
+    {
+      "id": "talk-2024-06-14",
+      "date": "2024-06",
+      "title": "Immersed in Virtual Reality, Connected with Real Reality: A Look at the Future of Gaming",
+      "venue": {
+        "en": "2024 Morningside Cultural China Annual Forum, Zhejiang University, Hangzhou, China",
+        "zh": "2024 晨兴文化中国年度论坛，浙江大学，中国杭州"
+      },
+      "source_row": 15
+    },
+    {
+      "id": "talk-2023-12-15",
+      "date": "2023-12",
+      "title": "Developing Intelligent User-Optimized Interactions for Virtual and Augmented Reality Systems",
+      "venue": {
+        "en": "6th Asia Conference on Cognitive Engineering and Intelligent Interaction (CEII’23), Hong Kong, China",
+        "zh": "第六届亚洲认知工程与智能交互会议（CEII 2023），中国香港"
+      },
+      "source_row": 16
+    },
+    {
+      "id": "talk-2023-11-16",
+      "date": "2023-11",
+      "title": "User-optimized, Intention-aware Interactions for VR/AR/MR Systems",
+      "venue": {
+        "en": "ChinaVR 2023, Special Session on Cutting Edge Technology",
+        "zh": "中国虚拟现实大会（ChinaVR 2023）前沿技术专题论坛"
+      },
+      "source_row": 17
+    },
+    {
+      "id": "talk-2023-05-17",
+      "date": "2023-05",
+      "title": "Data Visualization Exploration Across Different Display Platforms for Single and Multiple Users",
+      "venue": {
+        "en": "6th International Conference on Big Data and Education (ICBDE’23), Jinan, China",
+        "zh": "第六届大数据与教育国际会议（ICBDE 2023），中国济南"
+      },
+      "source_row": 18
+    },
+    {
+      "id": "talk-2022-10-18",
+      "date": "2022-10",
+      "title": "Design of VR Exergames for Mental and Physical Health",
+      "venue": {
+        "en": "21st IEEE International Symposium on Mixed and Augmented Reality (ISMAR’22), 3rd Workshop on Mixed/Augmented Reality for Mental Health (Online)",
+        "zh": "第 21 届 IEEE 混合与增强现实国际研讨会（ISMAR 2022）第三届混合／增强现实与心理健康工作坊（线上）"
+      },
+      "source_row": 19
+    },
+    {
+      "id": "talk-2022-08-19",
+      "date": "2022-08",
+      "title": "Designing Novel Text Entry Techniques for Extended Reality Systems",
+      "venue": {
+        "en": "4th International Conference on Virtual Reality and Image Processing (VRIP’22) / 6th 2022 International Conference on Big Data and Internet of Things (BDIOT’22) (Online)",
+        "zh": "第四届虚拟现实与图像处理国际会议（VRIP 2022）／第六届大数据与物联网国际会议（BDIOT 2022）（线上）"
+      },
+      "source_row": 20
+    },
+    {
+      "id": "talk-2022-07-20",
+      "date": "2022-07",
+      "title": "Data Visualization Exploration Across Display Platforms: Case Studies with Single and Multiple Users",
+      "venue": {
+        "en": "5th IEEE International Conference on Big Data and Artificial Intelligence (BDAI’22) (Online)",
+        "zh": "第五届 IEEE 大数据与人工智能国际会议（BDAI 2022）（线上）"
+      },
+      "source_row": 21
+    },
+    {
+      "id": "talk-2021-10-21",
+      "date": "2021-10",
+      "title": "Preparing Your Work for Submission to IEEE VR",
+      "venue": {
+        "en": "VR Night, 21st China Virtual Reality Conference (ChinaVR’21) (Online)",
+        "zh": "第 21 届中国虚拟现实大会（ChinaVR 2021）VR 之夜（线上）"
+      },
+      "source_row": 22
+    },
+    {
+      "id": "talk-2021-10-22",
+      "date": "2021-10",
+      "title": "Hands-free, Gesture-based Techniques for Extended Reality Systems",
+      "venue": {
+        "en": "Forum on Visualization and Human-Computer Interaction in VR/AR, 21st China Virtual Reality Conference (ChinaVR’21) (Online)",
+        "zh": "第 21 届中国虚拟现实大会（ChinaVR 2021）VR/AR 可视化与人机交互论坛（线上）"
+      },
+      "source_row": 23
+    },
+    {
+      "id": "talk-2021-10-23",
+      "date": "2021-10",
+      "title": "Towards a Comprehensive Framework for VR Education at Universities",
+      "venue": {
+        "en": "Forum on VR/AR Training and Education in Higher Education, 21st China Virtual Reality Conference (ChinaVR’21) (Online)",
+        "zh": "第 21 届中国虚拟现实大会（ChinaVR 2021）高等教育 VR/AR 培训与教学论坛（线上）"
+      },
+      "source_row": 24
+    },
+    {
+      "id": "talk-2021-07-24",
+      "date": "2021-07",
+      "title": "Hands-free, Gesture-based Techniques for Extended Reality Systems: Challenges, Opportunities, and Case Studies",
+      "venue": {
+        "en": "5th International Conference on Computer Graphics and Digital Image Processing (CGDIP’21) (Online)",
+        "zh": "第五届计算机图形学与数字图像处理国际会议（CGDIP 2021）（线上）"
+      },
+      "source_row": 25
+    }
+  ]
+}
