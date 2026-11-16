@@ -1,5 +1,14 @@
 [
   {
+    "id": "paper-li-vr25-environment-aware-agents",
+    "paper_id": "li-vr25-environment-aware-agents",
+    "date": "2026-11-16",
+    "date_basis": "announcement",
+    "text": "FIT-AWE member Ziming Li and collaborators published an IEEE VR 2025 paper on environment-aware LLM agents for spatial interaction and conversation in virtual reality role-play scenarios.",
+    "source": "https://fit-awe.github.io/publications/?q=Li-VR25-EnvironmentAwareAgents",
+    "source_label": "View publication ↗"
+  },
+  {
     "id": "paper-true-consensus-2026",
     "paper_id": "true-consensus-2026",
     "date": "2026-11-11",

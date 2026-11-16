@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11",
+  "updated": "2026-11-16",
   "sources": {
     "dblp": {
       "profile": "https://dblp.org/pid/55/1198.html",
@@ -18162,6 +18162,70 @@
       "event_start_date": "2026-11-10",
       "event_end_date": "2026-11-14",
       "event_date_source": "https://2026.acmmm.org/"
+    },
+    {
+      "id": "li-vr25-environment-aware-agents",
+      "title": "Exploring Large Language Model-Driven Agents for Environment-Aware Spatial Interactions and Conversations in Virtual Reality Role-Play Scenarios",
+      "authors": [
+        "Ziming Li",
+        "Huadong Zhang",
+        "Chao Peng",
+        "Roshan Peiris"
+      ],
+      "year": 2025,
+      "venue": "2025 IEEE Conference Virtual Reality and 3D User Interfaces (VR)",
+      "display_venue": "IEEE VR",
+      "kind": "conference",
+      "status": "published",
+      "doi": "10.1109/VR59515.2025.00025",
+      "url": "https://liziming.com/projects/2025-vr-llm-spatial-avatar/",
+      "sources": [
+        "https://doi.org/10.1109/VR59515.2025.00025",
+        "https://api.crossref.org/works/10.1109%2FVR59515.2025.00025",
+        "https://liziming.com/projects/2025-vr-llm-spatial-avatar/",
+        "https://fit-awe.github.io/members/"
+      ],
+      "urls": [
+        "https://doi.org/10.1109/VR59515.2025.00025",
+        "https://liziming.com/projects/2025-vr-llm-spatial-avatar/"
+      ],
+      "topics": [
+        "interaction-tech",
+        "ai"
+      ],
+      "image": {
+        "path": "images/papers/li-vr25-environment-aware-agents.jpg",
+        "kind": "figure-01",
+        "source": "https://doi.org/10.1109/VR59515.2025.00025",
+        "page": 1,
+        "bbox": [
+          84,
+          191,
+          533,
+          362
+        ],
+        "caption": "Figure 1. Text-based schema and five virtual reality role-play scenarios.",
+        "pdf_sha256": "d46037d038732f20e6a906dca04be6390b2e2464f8711bfea8ad31a6602f0610"
+      },
+      "pdf": null,
+      "oa_pdfs": [],
+      "download_label": "Li-VR25-EnvironmentAwareAgents",
+      "full_text_access": "publisher_only",
+      "bibtex": "@inproceedings{Li2025EnvironmentAwareAgents,\n  author = {Li, Ziming and Zhang, Huadong and Peng, Chao and Peiris, Roshan},\n  title = {Exploring Large Language Model-Driven Agents for Environment-Aware Spatial Interactions and Conversations in Virtual Reality Role-Play Scenarios},\n  booktitle = {2025 IEEE Conference Virtual Reality and 3D User Interfaces (VR)},\n  year = {2025},\n  pages = {1--11},\n  publisher = {IEEE},\n  doi = {10.1109/VR59515.2025.00025},\n  url = {https://doi.org/10.1109/VR59515.2025.00025}\n}\n",
+      "bibtex_file": "downloads/publication/papers/Li-VR25-EnvironmentAwareAgents.bib",
+      "catalog_added_on": "2026-11-16",
+      "published_date": "2025-03-08",
+      "published_date_source": "https://api.crossref.org/works/10.1109%2FVR59515.2025.00025",
+      "published_date_basis": "published",
+      "event_start_date": "2025-03-08",
+      "event_end_date": "2025-03-12",
+      "event_date_source": "https://ieeevr.org/2025/",
+      "lab_author_evidence": {
+        "name": "Ziming Li",
+        "basis": "Listed on the FIT-AWE Members roster; checked 2026-11-16.",
+        "source": "https://fit-awe.github.io/members/",
+        "paper_affiliation_note": "All authors list Rochester Institute of Technology in the published paper; original affiliation and author order preserved."
+      }
     }
   ]
 }
