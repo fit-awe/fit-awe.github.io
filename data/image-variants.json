@@ -4276,27 +4276,6 @@
         }
       ]
     },
-    "images/papers/li-vr25-environment-aware-agents.jpg": {
-      "fingerprint": "9756702038963d72efa0ded45334bb6a637a37bf8c634c4c0dd8fccfe9ee8d44",
-      "role": "paper",
-      "original_bytes": 230239,
-      "width": 1347,
-      "height": 513,
-      "variants": [
-        {
-          "path": "images/optimized/9756702038963d72-480.webp",
-          "width": 480,
-          "height": 183,
-          "bytes": 21806
-        },
-        {
-          "path": "images/optimized/9756702038963d72-960.webp",
-          "width": 960,
-          "height": 366,
-          "bytes": 62902
-        }
-      ]
-    },
     "images/papers/row-across-time-2026.jpg": {
       "fingerprint": "f00b2eadd04dbeeef840c2418e566f7c3159414b662ad67783ad3a084e5f5f8a",
       "role": "paper",
