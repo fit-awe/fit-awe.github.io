@@ -1,0 +1,351 @@
+{
+  "source": {
+    "filename": "Special Issues.docx",
+    "provided_on": "2026-11-17",
+    "sha256": "a3f1022db7819247e476008686add01c8ae7dbfdf3039f40b4377583691ea782"
+  },
+  "issues": [
+    {
+      "id": "special-issue-2027-01",
+      "year": 2027,
+      "title": "AI Agents and Multi-Agent Systems in VR/AR/MR",
+      "journal": "Virtual Reality",
+      "editors": [
+        "Yue Li",
+        "Boon Giin Lee",
+        "Matthew Pike",
+        "Gang Li",
+        "Hai-Ning Liang",
+        "Xubo Yang"
+      ],
+      "original_url": "https://link.springer.com/collections/bieeejgcab",
+      "source_paragraph": 1,
+      "source_text": "Yue Li, Boon Giin Lee, Matthew Pike, Gang Li, Hai-Ning Liang, and Xubo Yang (Eds., 2027). Special Issue on “AI Agents and Multi-Agent Systems in VR/AR/MR”. Virtual Reality. [Web Link]",
+      "url": "https://link.springer.com/collections/bieeejgcab",
+      "link_kind": "html",
+      "link_check": {
+        "status": "verified",
+        "checked_on": "2026-11-17",
+        "note": "Publisher collection page returned the matching title, journal and all six editors in web verification."
+      }
+    },
+    {
+      "id": "special-issue-2026-02",
+      "year": 2026,
+      "title": "Recent Advances in Visual Information Communication and Interaction",
+      "journal": "Information Visualization",
+      "editors": [
+        "Weidong Huang",
+        "Lingyun Yu",
+        "Hai-Ning Liang",
+        "Michael Burch",
+        "James She"
+      ],
+      "original_url": null,
+      "source_paragraph": 2,
+      "source_text": "Weidong Huang, Lingyun Yu, Hai-Ning Liang, Michael Burch, and James She (Eds., 2026). Special Issue on “Recent Advances in Visual Information Communication and Interaction”. Information Visualization.",
+      "url": null,
+      "link_check": {
+        "status": "not_provided",
+        "checked_on": "2026-11-17",
+        "note": "No link was supplied in the document."
+      }
+    },
+    {
+      "id": "special-issue-2026-03",
+      "year": 2026,
+      "title": "Advancing Spatial Interaction: Foundations, Techniques, and Applications in Pervasive Computing",
+      "journal": "CCF Transactions on Pervasive Computing and Interaction",
+      "editors": [
+        "Jiahuan Feng",
+        "Huawei Tu",
+        "Hai-Ning Liang"
+      ],
+      "original_url": "http://www.springer.com/42486",
+      "source_paragraph": 3,
+      "source_text": "Jiahuan Feng, Huawei Tu, and Hai-Ning Liang (Eds., 2026). Special Issue on “Advancing Spatial Interaction: Foundations, Techniques, and Applications in Pervasive Computing”. CCF Transactions on Pervasive Computing and Interaction. [Web Link]",
+      "url": null,
+      "link_check": {
+        "status": "unrelated_redirect",
+        "checked_on": "2026-11-17",
+        "note": "The supplied URL redirected to a journal homepage, general catalogue or publisher transition page rather than the special issue."
+      }
+    },
+    {
+      "id": "special-issue-2025-04",
+      "year": 2025,
+      "title": "Extended Reality Technologies: Innovations and Applications",
+      "journal": "Computers & Graphics",
+      "editors": [
+        "Lili Wang",
+        "Hai-Ning Liang",
+        "Andre Hinkenjann"
+      ],
+      "original_url": "https://www.sciencedirect.com/special-issue/10GN9HRN273",
+      "source_paragraph": 4,
+      "source_text": "Lili Wang, Hai-Ning Liang, and Andre Hinkenjann (Eds., 2025). Special Issue on “Extended Reality Technologies: Innovations and Applications”. Computers & Graphics. [Web Link]",
+      "url": null,
+      "link_check": {
+        "status": "unverified_access",
+        "checked_on": "2026-11-17",
+        "note": "The supplied URL returned HTTP 403; its destination could not be verified."
+      }
+    },
+    {
+      "id": "special-issue-2025-05",
+      "year": 2025,
+      "title": "Cross Reality and Multimodal Interfaces for XR Educational and Training Systems",
+      "journal": "Computers & Education: X Reality",
+      "editors": [
+        "Hai-Ning Liang",
+        "Diego Monteiro",
+        "Nilufar Baghaei",
+        "Yiyu Cai"
+      ],
+      "original_url": "https://www.sciencedirect.com/special-issue/316423/cross-reality-and-multimodal-interfaces-for-xr-educational-and-training-systems",
+      "source_paragraph": 5,
+      "source_text": "Hai-Ning Liang, Diego Monteiro, Nilufar Baghaei, and Yiyu Cai (Eds., 2025). Special Issue on “Cross Reality and Multimodal Interfaces for XR Educational and Training Systems”. Computers & Education: X Reality. [Web Link]",
+      "url": null,
+      "link_check": {
+        "status": "unverified_access",
+        "checked_on": "2026-11-17",
+        "note": "The supplied URL returned HTTP 403; its destination could not be verified."
+      }
+    },
+    {
+      "id": "special-issue-2024-06",
+      "year": 2024,
+      "title": "Recent Advances in Spatial User Interaction",
+      "journal": "Computers & Graphics",
+      "editors": [
+        "Hai-Ning Liang",
+        "Tony Huang",
+        "Lingyun Yu",
+        "Ferran Argelaguet",
+        "Pedro Lopez",
+        "Mayra Barrera Machuca"
+      ],
+      "original_url": "https://www.sciencedirect.com/journal/computers-and-graphics/about/call-for-papers",
+      "source_paragraph": 7,
+      "source_text": "Hai-Ning Liang, Tony Huang, Lingyun Yu, Ferran Argelaguet, Pedro Lopez, and Mayra Barrera Machuca (Eds., 2024). Special Issue on “Recent Advances in Spatial User Interaction”. Computer & Graphics (IF: 2.5; JCR Q2). [Web Link]",
+      "url": null,
+      "link_check": {
+        "status": "unverified_access",
+        "checked_on": "2026-11-17",
+        "note": "The supplied URL returned HTTP 403; its destination could not be verified."
+      }
+    },
+    {
+      "id": "special-issue-2024-07",
+      "year": 2024,
+      "title": "Spatial User Interfaces",
+      "journal": "Journal on Multimodal User Interfaces",
+      "editors": [
+        "Hai-Ning Liang",
+        "Lingyun Yu",
+        "Tony Huang",
+        "Ferran Argelaguet",
+        "Pedro Lopez",
+        "Mayra Barrera Machuca"
+      ],
+      "original_url": "https://resource-cms.springernature.com/springer-cms/rest/v1/content/25556832/data/v1",
+      "source_paragraph": 8,
+      "source_text": "Hai-Ning Liang, Lingyun Yu, Tony Huang, Ferran Argelaguet, Pedro Lopez, and Mayra Barrera Machuca (Eds., 2024). Special Issue on “Spatial User Interfaces”. Journal on Multimodal User Interfaces (IF: 2.9; JCR Q2). [Web Link]",
+      "url": "https://resource-cms.springernature.com/springer-cms/rest/v1/content/25556832/data/v1",
+      "link_kind": "pdf",
+      "link_check": {
+        "status": "verified",
+        "checked_on": "2026-11-17",
+        "note": "Publisher CFP PDF names the same six guest editors and the 2024 schedule; its title is Spatial User Interaction."
+      }
+    },
+    {
+      "id": "special-issue-2024-08",
+      "year": 2024,
+      "title": "Affective Computing in Virtual Reality and its Measurements",
+      "journal": "Frontiers in Virtual Reality",
+      "editors": [
+        "Diego Monteiro",
+        "Hai-Ning Liang",
+        "Kiyoshi Kiyokawa",
+        "Monica Perusquia Hernandez"
+      ],
+      "original_url": "https://www.frontiersin.org/research-topics/48087/affective-computing-in-virtual-reality-and-its-measurements",
+      "source_paragraph": 9,
+      "source_text": "Diego Monteiro, Hai-Ning Liang, Kiyoshi Kiyokawa, and Monica Perusquia Hernandez (Eds., 2024). Special Issue on “Affective Computing in Virtual Reality and its Measurements”. Frontiers in Virtual Reality. [Web Link]",
+      "url": null,
+      "link_check": {
+        "status": "not_found",
+        "checked_on": "2026-11-17",
+        "note": "The supplied URL returned HTTP 404."
+      }
+    },
+    {
+      "id": "special-issue-2023-09",
+      "year": 2023,
+      "title": "Designing Technologies and Youth Mental Health (Volume II)",
+      "journal": "Frontiers in Public Health",
+      "editors": [
+        "Nilufar Baghaei",
+        "Hai-Ning Liang",
+        "Sylvia Hach",
+        "John Neslund"
+      ],
+      "original_url": "https://www.frontiersin.org/research-topics/22128/designing-technologies-for-youth-mental-health-volume-ii",
+      "source_paragraph": 10,
+      "source_text": "Nilufar Baghaei, Hai-Ning Liang, Sylvia Hach, and John Neslund (Eds., 2023). Special Issue on “Designing Technologies and Youth Mental Health (Volume II)”. Frontiers in Public Health (IF: 6.461; JCR Q1). 1 published article so far. [Web Link]",
+      "url": null,
+      "link_check": {
+        "status": "not_found",
+        "checked_on": "2026-11-17",
+        "note": "The supplied URL returned HTTP 404."
+      }
+    },
+    {
+      "id": "special-issue-2023-10",
+      "year": 2023,
+      "title": "Visual Analytics in Immersive Environments",
+      "journal": "Visual Informatics",
+      "editors": [
+        "Hai-Ning Liang",
+        "Lingyun Yu"
+      ],
+      "original_url": "https://www.journals.elsevier.com/visual-informatics/call-for-papers/visual-analytics-in-immersive-environments",
+      "source_paragraph": 11,
+      "source_text": "Hai-Ning Liang and Lingyun Yu (Eds., 2023). Special Issue on “Visual Analytics in Immersive Environments”. Visual Informatics. [Web Link]",
+      "url": null,
+      "link_check": {
+        "status": "unrelated_redirect",
+        "checked_on": "2026-11-17",
+        "note": "The supplied URL redirected to a journal homepage, general catalogue or publisher transition page rather than the special issue."
+      }
+    },
+    {
+      "id": "special-issue-2023-11",
+      "year": 2023,
+      "title": "User Evaluation for VR Games",
+      "journal": "IEEE Transactions on Games",
+      "editors": [
+        "Hai-Ning Liang",
+        "Wenge Xu",
+        "Yiyu Cai",
+        "Fotis Liarokapis"
+      ],
+      "original_url": "https://transactions.games/submit/special-issues",
+      "source_paragraph": 12,
+      "source_text": "Hai-Ning Liang, Wenge Xu, Yiyu Cai, Fotis Liarokapis (Eds., 2023). Special Issue on “User Evaluation for VR Games”. IEEE Transactions on Games (IF: 1.851; JCR Q2). [Web Link]",
+      "url": null,
+      "link_check": {
+        "status": "not_found",
+        "checked_on": "2026-11-17",
+        "note": "The supplied URL returned HTTP 404."
+      }
+    },
+    {
+      "id": "special-issue-2023-12",
+      "year": 2023,
+      "title": "Technologies and Applications for Ubiquitous Interactive Media",
+      "journal": "Personal and Ubiquitous Computing",
+      "editors": [
+        "Fotis Liarokapis",
+        "Sebastian von Mammen",
+        "Hai-Ning Liang"
+      ],
+      "original_url": "https://www.springer.com/journal/779/updates/20120914",
+      "source_paragraph": 13,
+      "source_text": "Fotis Liarokapis, Sebastian von Mammen, Hai-Ning Liang (Eds., 2023). Special Issue on “Technologies and Applications for Ubiquitous Interactive Media”. Personal and Ubiquitous Computing (IF: 3.006; JCR Q2). [Web Link]",
+      "url": null,
+      "link_check": {
+        "status": "not_found",
+        "checked_on": "2026-11-17",
+        "note": "The supplied URL returned HTTP 404."
+      }
+    },
+    {
+      "id": "special-issue-2022-13",
+      "year": 2022,
+      "title": "Immersive and XR Interfaces for Exploration, Monitoring, and Intervention through Teleoperation",
+      "journal": "Frontiers in Virtual Reality",
+      "editors": [
+        "Salvatore Livatino",
+        "Adam Wojciechowski",
+        "Hai-Ning Liang"
+      ],
+      "original_url": "https://www.frontiersin.org/research-topics/43385/immersive-and-xr-interfaces-for-exploration-monitoring-and-intervention-through-teleoperation",
+      "source_paragraph": 14,
+      "source_text": "Salvatore Livatino, Adam Wojciechowski, Hai-Ning Liang (Eds., 2022). Special Issue on “Immersive and XR Interfaces for Exploration, Monitoring, and Intervention through Teleoperation”. Frontiers in Virtual Reality. [Web Link]",
+      "url": null,
+      "link_check": {
+        "status": "changed_title",
+        "checked_on": "2026-11-17",
+        "note": "The URL now displays a differently titled collection; omitted to retain the supplied record without an uncertain destination."
+      }
+    },
+    {
+      "id": "special-issue-2022-14",
+      "year": 2022,
+      "title": "Cybersickness in VR applications",
+      "journal": "Frontiers in Virtual Reality",
+      "editors": [
+        "Diego Monteiro",
+        "Vijayakumar Nanjappan",
+        "Nilufar Baghaei",
+        "Hai-Ning Liang"
+      ],
+      "original_url": "https://www.frontiersin.org/research-topics/30494/cybersickness-in-vr-applications",
+      "source_paragraph": 17,
+      "source_text": "Diego Monteiro, Vijayakumar Nanjappan, Nilufar Baghaei, Hai-Ning Liang (Eds., 2022). Special Issue on “Cybersickness in VR applications”. Frontiers in Virtual Reality. 6 published articles. [Web Link]",
+      "url": "https://www.frontiersin.org/research-topics/30494/cybersickness-in-vr-applications/magazine",
+      "link_kind": "html",
+      "link_check": {
+        "status": "verified",
+        "checked_on": "2026-11-17",
+        "note": "Publisher topic page returned the matching title and editors."
+      }
+    },
+    {
+      "id": "special-issue-2022-15",
+      "year": 2022,
+      "title": "Virtual Reality and Mental Health: Opportunities to Advance Research and Practice (Volume II)",
+      "journal": "Frontiers in Virtual Reality",
+      "editors": [
+        "Nilufar Baghaei",
+        "John Neslund",
+        "Oyewole Oyekoya",
+        "Mark Billinghurst",
+        "Hai-Ning Liang"
+      ],
+      "original_url": "https://www.frontiersin.org/research-topics/20966/virtual-reality-and-mental-health-opportunities-to-advance-research-and-practice-volume-ii",
+      "source_paragraph": 18,
+      "source_text": "Nilufar Baghaei, John Neslund, Oyewole Oyekoya, Mark Billinghurst, Hai-Ning Liang (Eds., 2022). Special Issue on “Virtual Reality and Mental Health: Opportunities to Advance Research and Practice (Volume II)”. Frontiers in Virtual Reality. [Web Link]",
+      "url": "https://www.frontiersin.org/research-topics/20966/virtual-reality-and-mental-health-opportunities-to-advance-research-and-practice-volume-ii",
+      "link_kind": "html",
+      "link_check": {
+        "status": "verified",
+        "checked_on": "2026-11-17",
+        "note": "Publisher topic page returned the matching title and editors."
+      }
+    },
+    {
+      "id": "special-issue-2022-16",
+      "year": 2022,
+      "title": "Games for Mental Health (Volume II)",
+      "journal": "Games for Health Journal",
+      "editors": [
+        "Nilufar Baghaei",
+        "Hai-Ning Liang",
+        "John Naslund",
+        "Richard Porter"
+      ],
+      "original_url": "https://home.liebertpub.com/cfp/games-for-mental-health/337/",
+      "source_paragraph": 19,
+      "source_text": "Nilufar Baghaei, Hai-Ning Liang, John Naslund, and Richard Porter (Eds., 2022). Special Issue on “Games for Mental Health (Volume II)”. Games for Health Journal (IF: 4.070; JCR Q1). 7 published articles. [Web Link]",
+      "url": null,
+      "link_check": {
+        "status": "unrelated_redirect",
+        "checked_on": "2026-11-17",
+        "note": "The supplied URL redirected to a journal homepage, general catalogue or publisher transition page rather than the special issue."
+      }
+    }
+  ]
+}

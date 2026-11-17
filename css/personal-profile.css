@@ -64,6 +64,16 @@ h2 { margin: 0; font: 32px/1.3 var(--serif); letter-spacing: -.7px; }
 .service-list { display: grid; gap: 16px; margin: 0; padding: 0; list-style: none; }
 .service-name { display: block; font-size: 17px; font-weight: 600; }
 .service-list li > span { display: block; margin-top: 2px; color: var(--muted); font-size: 15px; }
+.special-issues { margin-top: 32px; padding-top: 28px; border-top: 1px solid var(--line); }
+.special-issues > h3 { margin: 0 0 20px; font-size: 20px; line-height: 1.5; font-weight: 600; }
+.special-issue-list { margin: 0; padding: 0; list-style: none; }
+.special-issue-list li { display: grid; grid-template-columns: 72px minmax(0, 1fr); gap: 24px; align-items: baseline; padding: 16px 0; border-bottom: 1px solid var(--line); }
+.special-issue-list li:first-child { padding-top: 0; }
+.special-issue-list li:last-child { padding-bottom: 0; border-bottom: 0; }
+.special-issue-list time { color: var(--muted); font-size: 15px; }
+.special-issue-title { margin: 0; font-size: 17px; line-height: 1.6; font-weight: 600; }
+.special-issue-journal { margin: 4px 0 0; font-size: 15px; }
+.special-issue-editors { margin: 4px 0 0; color: var(--muted); font-size: 15px; line-height: 1.7; }
 .talk-list { margin: 0; padding: 0; list-style: none; }
 .talk-list li { display: grid; grid-template-columns: 140px minmax(0, 1fr); gap: 24px; align-items: baseline; padding: 16px 0; border-bottom: 1px solid var(--line); }
 .talk-list li:first-child { padding-top: 0; }
@@ -132,6 +142,8 @@ html[lang="zh"] .biography p { line-height: 1.9; }
   .section-heading { gap: 12px; margin-bottom: 19px; }
   .section-link { font-size: 14px; text-align: right; }
   .service-grid { grid-template-columns: 1fr; gap: 27px; }
+  .special-issue-list li { grid-template-columns: minmax(0, 1fr); gap: 5px; }
+  .special-issue-list time { font-size: 14px; }
   .talk-list li { grid-template-columns: minmax(0, 1fr); gap: 5px; }
   .talk-list time { font-size: 14px; }
   .teaching-list li { grid-template-columns: 110px minmax(0, 1fr); column-gap: 12px; row-gap: 4px; }

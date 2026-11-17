@@ -25,6 +25,7 @@ LABELS = {
         'email_label': 'Email', 'faculty_label': 'Faculty profile',
         'opportunity_text': 'Interested in joining our group?', 'openings_label': 'See opportunities at FIT-AWE',
         'community': 'Academic community', 'conference_service': 'Conference organization', 'editorial_service': 'Editorial roles',
+        'special_issues': 'Selected Special Issues Organized', 'editors': 'Editors',
         'schedule': 'Course schedule', 'get_in_touch': 'Get in touch',
         'lab_description': 'For our research, group members and opportunities, visit the FIT-AWE Lab.',
         'visit_lab': 'Visit FIT-AWE Lab', 'back_to_top': 'Back to top',
@@ -42,6 +43,7 @@ LABELS = {
         'email_label': '邮件', 'faculty_label': '学校个人资料',
         'opportunity_text': '有兴趣加入我们的团队？', 'openings_label': '查看 FIT-AWE 招募信息',
         'community': '学术共同体', 'conference_service': '会议组织', 'editorial_service': '期刊任职',
+        'special_issues': '组织的专刊（选录）', 'editors': '编辑',
         'schedule': '课程安排', 'get_in_touch': '欢迎联系',
         'lab_description': '研究方向、团队成员及招募信息，请访问 FIT-AWE 实验室网站。',
         'visit_lab': '访问 FIT-AWE 实验室', 'back_to_top': '返回顶部',
@@ -68,6 +70,7 @@ def build():
     profile = json.loads((ROOT / 'data/personal-profile.json').read_text())
     academic = json.loads((ROOT / 'data/academic-profile.json').read_text())
     talks = json.loads((ROOT / 'data/invited-talks.json').read_text())['talks']
+    special_issues = json.loads((ROOT / 'data/special-issues.json').read_text())['issues']
     template = (ROOT / 'templates/personal-profile.html').read_text()
     for lang, labels in LABELS.items():
         dest = ROOT / ('' if lang == 'en' else lang) / ROUTE
@@ -89,7 +92,7 @@ def build():
             portrait=asset(profile['portrait']), portrait_url='https://fit-awe.github.io/' + profile['portrait'],
             portrait_width=str(profile['portrait_width']), portrait_height=str(profile['portrait_height']),
             favicon=asset('images/brand/fit-awe-icon.svg'),
-            lab_mark=asset('images/brand/fit-awe-icon.svg'), stylesheet=asset('css/personal-profile.css') + '?v=20261116-talks',
+            lab_mark=asset('images/brand/fit-awe-icon.svg'), stylesheet=asset('css/personal-profile.css') + '?v=20261117-special-issues',
             script=asset('js/personal-profile.js') + '?v=20261009-profile2',
             lab_url=lab_page('index.html'), openings_url=lab_page('vacancies/index.html'),
             course_schedule=esc(academic['teaching'][0]['terms'][0]['source']),
@@ -113,6 +116,23 @@ def build():
 
         values['conference_rows'] = service_rows('conference')
         values['editorial_rows'] = service_rows('editorial')
+        issue_rows = []
+        for issue in sorted(special_issues, key=lambda item: item['year'], reverse=True):
+            title = esc(issue['title'])
+            if issue.get('url'):
+                assert issue['link_check']['status'] == 'verified', 'Unverified special issue link'
+                assert issue['url'].startswith('https://'), 'Special issue links must use HTTPS'
+                suffix = ' (PDF)' if issue.get('link_kind') == 'pdf' else ''
+                title = f'<a href="{esc(issue["url"])}" target="_blank" rel="noopener noreferrer">{title}{suffix} <span aria-hidden="true">↗</span></a>'
+            editors = ', '.join(f'<strong>{esc(name)}</strong>' if name == profile['name'] else esc(name) for name in issue['editors'])
+            issue_rows.append(
+                f'<li data-special-issue-id="{esc(issue["id"])}">'
+                f'<time datetime="{issue["year"]}">{esc(format_date(str(issue["year"]), lang))}</time>'
+                f'<div><h4 class="special-issue-title" lang="en">{title}</h4>'
+                f'<p class="special-issue-journal" lang="en">{esc(issue["journal"])}</p>'
+                f'<p class="special-issue-editors">{labels["editors"]}: <span lang="en">{editors}</span></p></div></li>'
+            )
+        values['special_issue_rows'] = '\n'.join(issue_rows)
         values['talk_rows'] = '\n'.join(
             f'<li data-talk-id="{esc(talk["id"])}">'
             f'<time datetime="{esc(talk["date"])}">{esc(format_date(talk["date"], lang))}</time>'
