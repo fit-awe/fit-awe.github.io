@@ -1,5 +1,14 @@
 [
   {
+    "id": "paper-scalecue-wim-2026",
+    "paper_id": "scalecue-wim-2026",
+    "date": "2026-11-18",
+    "date_basis": "announcement",
+    "text": "Junkun Long presented ScaleCue-WIM, a miniature-world interface for navigating virtual environments across scales, at ACM VRST 2026 in Sendai, Japan.",
+    "source": "https://fit-awe.github.io/publications/?q=Long-VRST26-ScaleCueWIM",
+    "source_label": "View publication ↗"
+  },
+  {
     "id": "paper-true-consensus-2026",
     "paper_id": "true-consensus-2026",
     "date": "2026-11-11",

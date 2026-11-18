@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16",
+  "updated": "2026-11-18",
   "sources": {
     "dblp": {
       "profile": "https://dblp.org/pid/55/1198.html",
@@ -1883,7 +1883,9 @@
       "url": "https://fit-awe.github.io/downloads/publication/papers/2026-scalecue-wim.pdf",
       "sources": [
         "https://fit-awe.github.io/downloads/publication/papers/2026-scalecue-wim.pdf",
-        "https://vrst.acm.org/vrst2026/"
+        "https://vrst.acm.org/vrst2026/",
+        "https://api.crossref.org/works/10.1145/3822517.3848745",
+        "https://vrst.acm.org/vrst2026/program_papers/"
       ],
       "urls": [
         "https://fit-awe.github.io/downloads/publication/papers/2026-scalecue-wim.pdf",
@@ -1901,33 +1903,37 @@
           544.0
         ],
         "caption": "Figure 1. ScaleCue-WIM scaling workflow.",
-        "pdf_sha256": "a431dd494a90499de8fc0019fce4cf224a4cc05eafa567b6733a0eb72ffbe30a"
+        "pdf_sha256": "b9b01271504917d9dd2975abd925504e3f3ca8442acfb97d3982e142f09f4098"
       },
       "pdf": "downloads/publication/papers/2026-scalecue-wim.pdf",
       "pdf_metadata": {
         "path": "downloads/publication/papers/2026-scalecue-wim.pdf",
-        "sha256": "a431dd494a90499de8fc0019fce4cf224a4cc05eafa567b6733a0eb72ffbe30a",
-        "original_sha256": "a431dd494a90499de8fc0019fce4cf224a4cc05eafa567b6733a0eb72ffbe30a",
-        "bytes": 2828798,
+        "sha256": "b9b01271504917d9dd2975abd925504e3f3ca8442acfb97d3982e142f09f4098",
+        "original_sha256": "b9b01271504917d9dd2975abd925504e3f3ca8442acfb97d3982e142f09f4098",
+        "bytes": 2795176,
         "pages": 10,
-        "source": "https://fit-awe.github.io/downloads/publication/papers/2026-scalecue-wim.pdf",
-        "version": "accepted-manuscript",
+        "source": "https://doi.org/10.1145/3822517.3848745",
+        "version": "version-of-record",
         "document_kind": "article",
-        "license": "CC BY 4.0"
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/"
       },
       "oa_pdfs": [],
       "topics": [
         "interaction-tech"
       ],
-      "status": "accepted",
-      "expected_publication_month": "2026-11",
-      "bibtex": "@inproceedings{Long2026ScaleCueWIM,\n  author = {Long, Junkun and Stuerzlinger, Wolfgang and Hui, Pan and Liang, Hai-Ning},\n  title = {{ScaleCue-WIM}: Boundary-Controlled {WIM} Scaling for Scale-Aware Navigation in Multiscale Virtual Environments},\n  booktitle = {Proceedings of the 32nd ACM Symposium on Virtual Reality Software and Technology},\n  series = {VRST '26},\n  year = {2026},\n  month = nov,\n  publisher = {Association for Computing Machinery},\n  numpages = {10},\n  doi = {10.1145/3822517.3848745},\n  url = {https://doi.org/10.1145/3822517.3848745},\n  note = {Accepted}\n}\n",
+      "status": "published",
+      "bibtex": "@inproceedings{Long2026ScaleCueWIM,\n  author = {Long, Junkun and Stuerzlinger, Wolfgang and Hui, Pan and Liang, Hai-Ning},\n  title = {{ScaleCue-WIM}: Boundary-Controlled {WIM} Scaling for Scale-Aware Navigation in Multiscale Virtual Environments},\n  booktitle = {Proceedings of the 32nd ACM Symposium on Virtual Reality Software and Technology},\n  series = {VRST '26},\n  year = {2026},\n  month = nov,\n  publisher = {Association for Computing Machinery},\n  pages = {1--10},\n  numpages = {10},\n  doi = {10.1145/3822517.3848745},\n  url = {https://doi.org/10.1145/3822517.3848745}\n}\n",
       "bibtex_file": "downloads/publication/papers/2026-scalecue-wim.bib",
       "catalog_added_on": "2026-10-22",
       "download_label": "Long-VRST26-ScaleCueWIM",
       "event_start_date": "2026-11-16",
       "event_end_date": "2026-11-18",
-      "event_date_source": "https://vrst.acm.org/vrst2026/"
+      "event_date_source": "https://vrst.acm.org/vrst2026/",
+      "published_date": "2026-11-16",
+      "published_date_source": "https://api.crossref.org/works/10.1145/3822517.3848745",
+      "published_date_basis": "published-online",
+      "full_text_access": "public"
     },
     {
       "id": "07bd4504d87b",
