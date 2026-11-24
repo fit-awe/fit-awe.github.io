@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18",
+  "updated": "2026-11-24",
   "sources": {
     "dblp": {
       "profile": "https://dblp.org/pid/55/1198.html",
@@ -314,7 +314,7 @@
         "Jialin Wang",
         "Rongkai Shi",
         "Lingyun Yu",
-        "Hai‐Ning Liang"
+        "Hai-Ning Liang"
       ],
       "year": 2026,
       "venue": "Visual Informatics",
@@ -322,20 +322,52 @@
       "doi": "10.1016/j.visinf.2026.100352",
       "url": "https://doi.org/10.1016/j.visinf.2026.100352",
       "sources": [
-        "https://openalex.org/W7204836811"
+        "https://openalex.org/W7204836811",
+        "https://www.sciencedirect.com/science/article/pii/S2468502X26000483",
+        "https://api.crossref.org/works/10.1016/j.visinf.2026.100352"
       ],
       "urls": [
         "https://doi.org/10.1016/j.visinf.2026.100352"
       ],
-      "image": null,
-      "pdf": null,
+      "image": {
+        "path": "images/papers/c2b2b2cd148d.png",
+        "kind": "figure-1",
+        "source": "https://doi.org/10.1016/j.visinf.2026.100352",
+        "page": 3,
+        "bbox": [
+          49.52,
+          84.53,
+          530.3,
+          322.89
+        ],
+        "caption": "Figure 1. Five stages in the evaluation of immersive display clarity. © 2026 Jialin Wang, Rongkai Shi, Lingyun Yu and Hai-Ning Liang. CC BY-NC-ND 4.0.",
+        "pdf_sha256": "b1b01e662df80df3a7603127e09031007f58eeae3be938d9b869af4cc9d9d57a"
+      },
+      "pdf": "downloads/publication/papers/Wang-VisInf26-VRClarity.pdf",
       "oa_pdfs": [],
       "topics": [
         "interaction-tech"
       ],
-      "published_date": "2026-08",
-      "published_date_source": "https://api.crossref.org/works/10.1016%2Fj.visinf.2026.100352",
-      "published_date_basis": "published"
+      "published_date": "2026-08-31",
+      "published_date_source": "https://www.sciencedirect.com/science/article/pii/S2468502X26000483",
+      "published_date_basis": "published-online",
+      "download_label": "Wang-VisInf26-VRClarity",
+      "full_text_access": "public",
+      "status": "published",
+      "pdf_metadata": {
+        "path": "downloads/publication/papers/Wang-VisInf26-VRClarity.pdf",
+        "sha256": "b1b01e662df80df3a7603127e09031007f58eeae3be938d9b869af4cc9d9d57a",
+        "original_sha256": "b1b01e662df80df3a7603127e09031007f58eeae3be938d9b869af4cc9d9d57a",
+        "bytes": 6196581,
+        "pages": 17,
+        "source": "https://www.sciencedirect.com/science/article/pii/S2468502X26000483",
+        "version": "journal-pre-proof",
+        "document_kind": "article",
+        "license": "CC BY-NC-ND 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+      },
+      "bibtex": "@article{Wang2026c2b2b2,\n  author = {Wang, Jialin and Shi, Rongkai and Yu, Lingyun and Liang, Hai-Ning},\n  title = {Bridging human perception and virtual reality: Toward a vision-oriented framework for immersive displays},\n  year = {2026},\n  journal = {Visual Informatics},\n  eid = {100352},\n  publisher = {Elsevier BV},\n  doi = {10.1016/j.visinf.2026.100352},\n  url = {https://doi.org/10.1016/j.visinf.2026.100352}\n}\n",
+      "bibtex_file": "downloads/publication/papers/Wang-VisInf26-VRClarity.bib"
     },
     {
       "id": "55ca9f509b10",

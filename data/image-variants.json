@@ -3679,6 +3679,27 @@
         }
       ]
     },
+    "images/papers/c2b2b2cd148d.png": {
+      "fingerprint": "d63738438e1f6687e32fc393eedc05da59520afd029f8a760e2ff6e46777e565",
+      "role": "paper",
+      "original_bytes": 835022,
+      "width": 3562,
+      "height": 1766,
+      "variants": [
+        {
+          "path": "images/optimized/d63738438e1f6687-480.webp",
+          "width": 480,
+          "height": 238,
+          "bytes": 23734
+        },
+        {
+          "path": "images/optimized/d63738438e1f6687-960.webp",
+          "width": 960,
+          "height": 476,
+          "bytes": 60860
+        }
+      ]
+    },
     "images/papers/c424092a6fee.webp": {
       "fingerprint": "63074bb223ad74b74a38af99d79f704fa371f4000ef66912706391b5e68ebea4",
       "role": "paper",
