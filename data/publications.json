@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24",
+  "updated": "2026-11-27",
   "sources": {
     "dblp": {
       "profile": "https://dblp.org/pid/55/1198.html",
@@ -162,17 +162,21 @@
       "display_venue": "PACM HCI · ISS 2026",
       "kind": "journal",
       "doi": "10.1145/3859338",
-      "url": "https://doi.org/10.1145/3859338",
+      "url": "https://dl.acm.org/doi/full/10.1145/3859338",
       "sources": [
-        "https://iss.acm.org/2026/"
+        "https://iss.acm.org/2026/",
+        "https://api.crossref.org/works/10.1145/3859338",
+        "https://iss.acm.org/2026/program/awards/",
+        "https://iss.acm.org/2026/program/pacm_proceedings/"
       ],
       "urls": [
+        "https://dl.acm.org/doi/full/10.1145/3859338",
         "https://doi.org/10.1145/3859338"
       ],
       "image": {
         "path": "images/papers/xr-window-placement-2026.jpg",
         "kind": "figure-1",
-        "source": "https://fit-awe.github.io/downloads/publication/papers/2026-window-placement.pdf",
+        "source": "https://dl.acm.org/doi/pdf/10.1145/3859338",
         "page": 1,
         "bbox": [
           44.0,
@@ -181,26 +185,14 @@
           363.0
         ],
         "caption": "Figure 1. The window placement techniques and display setups.",
-        "pdf_sha256": "33d8938e5198c5a1735ffbdf4e5fbe703a311f6560b82e5fbde87cd77c0e589a"
-      },
-      "pdf_metadata": {
-        "path": "downloads/publication/papers/2026-window-placement.pdf",
-        "sha256": "33d8938e5198c5a1735ffbdf4e5fbe703a311f6560b82e5fbde87cd77c0e589a",
-        "original_sha256": "33d8938e5198c5a1735ffbdf4e5fbe703a311f6560b82e5fbde87cd77c0e589a",
-        "bytes": 868273,
-        "pages": 22,
-        "source": "https://fit-awe.github.io/downloads/publication/papers/2026-window-placement.pdf",
-        "version": "accepted-manuscript",
-        "document_kind": "article",
-        "license": "CC BY 4.0"
+        "pdf_sha256": "a8b0476f9e56b85267975a8b3f046da0674f91ace8ab2f6bf9ef5474eb8cd104"
       },
       "oa_pdfs": [],
       "topics": [
         "interaction-tech"
       ],
-      "status": "accepted",
-      "expected_publication_month": "2026-11",
-      "bibtex": "@article{Shi2026WindowPlacement,\n  author = {Shi, Rongkai and Wu, Yue and Baghaei, Nilufar and Liang, Hai-Ning},\n  title = {An Empirical Evaluation of Hand-based Window Placement Techniques for Virtual Displays},\n  journal = {Proceedings of the ACM on Human-Computer Interaction},\n  volume = {10},\n  number = {8},\n  articleno = {ISS026},\n  year = {2026},\n  month = nov,\n  numpages = {22},\n  doi = {10.1145/3859338},\n  url = {https://doi.org/10.1145/3859338},\n  note = {Accepted}\n}\n",
+      "status": "published",
+      "bibtex": "@article{Shi2026WindowPlacement,\n  author = {Shi, Rongkai and Wu, Yue and Baghaei, Nilufar and Liang, Hai-Ning},\n  title = {An Empirical Evaluation of Hand-based Window Placement Techniques for Virtual Displays},\n  journal = {Proceedings of the ACM on Human-Computer Interaction},\n  volume = {10},\n  number = {8},\n  articleno = {ISS026},\n  year = {2026},\n  month = nov,\n  numpages = {22},\n  doi = {10.1145/3859338},\n  url = {https://doi.org/10.1145/3859338}\n}\n",
       "bibtex_file": "downloads/publication/papers/2026-window-placement.bib",
       "catalog_added_on": "2026-10-22",
       "volume": "10",
@@ -208,11 +200,14 @@
       "article_number": "ISS026",
       "event": "ACM ISS 2026",
       "download_label": "Shi-ISS26-WindowPlacement",
-      "full_text_access": "withheld",
-      "full_text_access_updated_on": "2026-10-22",
+      "full_text_access": "public",
+      "full_text_access_updated_on": "2026-11-27",
       "event_start_date": "2026-11-23",
       "event_end_date": "2026-11-26",
-      "event_date_source": "https://iss.acm.org/2026/"
+      "event_date_source": "https://iss.acm.org/2026/",
+      "published_date": "2026-11-20",
+      "published_date_basis": "published-online",
+      "published_date_source": "https://api.crossref.org/works/10.1145/3859338"
     },
     {
       "id": "f385bb674a4c",

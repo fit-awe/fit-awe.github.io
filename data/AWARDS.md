@@ -2,7 +2,7 @@
 
 核查日期：2026-10-05。范围为官网当前 **393 篇论文**，逐篇执行题名与 award / nomination / finalist / honourable / honorable / prize 检索，再对候选项查阅会议名单、大学记录、作者或课题组原始页面。
 
-本轮由原 4 条扩充为 **15 条：8 项获奖、4 项论文奖提名、3 项学生游戏竞赛决赛入围**。每条记录关联现有论文 ID，不重复复制标题、作者或图片；首页最新 3 项与五种语言的完整 Awards 页面均来自同一份记录。
+截至 2026-11-27 共收录 **16 条记录，包括 9 项获奖、4 项论文奖提名和 3 项学生游戏竞赛决赛入围**。每条记录关联现有论文 ID，不重复复制标题、作者或图片；首页最新 3 项与五种语言的完整 Awards 页面均来自同一份记录。
 
 **2026-10-10 复核现有 15 条记录**：13 条有直接对应题名的证据（11 条会议／大学、2 条共同作者），RelicVR 与 VirusBoxing 两条仍为跨来源匹配，尚缺题名对应的直接入围结果页。完整来源、核查方法及证据限制见 [逐项校对清单](AWARD-AUDIT-2026-10-10.md)。保留记录的数量与逐题名确认的数量分别记录，不能将 15 条全部称为已直接核实。
 
@@ -12,6 +12,7 @@
 
 | 年份 | 会议 / 期刊 | 结果 | 论文 | 证据 |
 | --- | --- | --- | --- | --- |
+| 2026-11 | ACM ISS 2026 | Honorable Mention（获奖） | [An Empirical Evaluation of Hand-based Window Placement Techniques for Virtual Displays](https://dl.acm.org/doi/full/10.1145/3859338) | [会议官方来源](https://iss.acm.org/2026/program/awards/) |
 | 2026-04 | ACM CHI 2026 | Best Paper Honorable Mention Award（获奖） | [Investigating How Physical Surfaces Can Serve as Common-Region Cues for Perceptual Grouping of Virtual Elements in Augmented Reality](https://doi.org/10.1145/3772318.3790315) | [来源](https://researchportal.hkust.edu.hk/en/publications/investigating-how-physical-surfaces-can-serve-as-common-region-cu/prizes/) |
 | 2026-03 | IEEE VR 2026 | Best Poster Award（获奖） | [DodgeUI: An Adaptive Interface for Mitigating Attentional Conflict via Implicit Motion Cues in Mobile AR](https://doi.org/10.1109/VRW70859.2026.00233) | [来源](https://ieeevr.org/2026/awards/conference-awards/) |
 | 2025-11 | ACM VRST 2025 | Best Paper Award Nomination（提名） | [Tunnels vs. Wires: A Comparative Analysis of Two 3D Steering Tasks in Virtual Environments](https://doi.org/10.1145/3756884.3766023) | [会议官方来源](https://vrst.acm.org/vrst2025/index.php/papers/) |

@@ -4382,23 +4382,23 @@
       ]
     },
     "images/papers/xr-window-placement-2026.jpg": {
-      "fingerprint": "86d3a33ebc9e1a0bab836780d004dc42583fccf0dc5e28c18ea2b099fb67bd82",
+      "fingerprint": "0c8b3af84bf00713d8d93af68b893e33fb616b8b3c7080f2ea317886d4100f08",
       "role": "paper",
-      "original_bytes": 149832,
+      "original_bytes": 150500,
       "width": 1663,
       "height": 688,
       "variants": [
         {
-          "path": "images/optimized/86d3a33ebc9e1a0b-480.webp",
+          "path": "images/optimized/0c8b3af84bf00713-480.webp",
           "width": 480,
           "height": 199,
-          "bytes": 13902
+          "bytes": 13996
         },
         {
-          "path": "images/optimized/86d3a33ebc9e1a0b-960.webp",
+          "path": "images/optimized/0c8b3af84bf00713-960.webp",
           "width": 960,
           "height": 397,
-          "bytes": 32992
+          "bytes": 33030
         }
       ]
     },

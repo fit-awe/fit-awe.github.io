@@ -1,5 +1,22 @@
 [
   {
+    "id": "iss-2026-window-placement",
+    "paper_id": "xr-window-placement-2026",
+    "date": "2026-11",
+    "venue": "ACM ISS 2026",
+    "name": "Honorable Mention",
+    "status": "award",
+    "source": "https://iss.acm.org/2026/program/awards/",
+    "period": "lab",
+    "affiliation_sources": [
+      "https://dl.acm.org/doi/full/10.1145/3859338"
+    ],
+    "verified_on": "2026-11-27",
+    "verification_level": "direct-title-official",
+    "verification_note": "ACM ISS 2026 官方获奖名单在 Honorable Mention 栏列出该论文及四位作者。",
+    "source_type": "conference"
+  },
+  {
     "id": "chi-2026",
     "paper_id": "23bbf1fac2b1",
     "date": "2026-04",
